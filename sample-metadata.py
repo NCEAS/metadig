@@ -41,11 +41,6 @@ def getNumResults(node):
 	if node is not None:
 		query_url += "+AND+datasource:*" + node.split(":")[2]
 
-
-	print query_url
-	print "..."
-	
-	return
 	
 	request = urllib2.urlopen(query_url)
 	response = request.read()
