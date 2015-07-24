@@ -161,7 +161,7 @@ def sampleDocuments(sample_size = 5):
 	documents_csv_filepath = getScriptDirectory() + "/documents.csv"
 	sampled_documents_filepath = getScriptDirectory() + "/sampled_documents.csv"
 	
-	# Check of the sample already exists
+	# Check if the sample already exists
 	if(os.path.isfile(sampled_documents_filepath)):
 		return
 	
