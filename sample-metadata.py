@@ -284,7 +284,7 @@ def getAndSaveDocuments():
 		document_identifier = documents.iloc[i, 1]
 		
 		# Make the subdirectories to store files
-		subdirectory_path = getScriptDirectory() + "/results/" + node_identifier + "/" + document_identifier.replace("/", "-")
+		subdirectory_path = getScriptDirectory() + "/results/" + node_identifier
 		
 		# Don't get metadata again if directory exists for identifier
 		if not os.path.exists(subdirectory_path):
@@ -300,10 +300,10 @@ def getAndSaveDocuments():
 		object_xml = getIdentifierObjectXML(mn_url, document_identifier)
 		
 		if meta_xml is not None:
-			ET.ElementTree(meta_xml).write(subdirectory_path + "/meta.xml")
+			ET.ElementTree(meta_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-meta.xml")
 
 		if object_xml is not None:
-			ET.ElementTree(object_xml).write(subdirectory_path + "/object.xml")
+			ET.ElementTree(object_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-object.xml")
 			
 				
 def main(node, sample_size):
