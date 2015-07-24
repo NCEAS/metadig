@@ -101,13 +101,13 @@ def getPageRange(page_range, page_size, delay=1):
 	for p in page_range:
 		print "Getting page %d." % (p)
 
-	page_result = getPage(page=p)
+		page_result = getPage(page=p)
 
-	identifiers = identifiers + page_result[0]
-	authoritativeMNs = authoritativeMNs + page_result[1]
+		identifiers = identifiers + page_result[0]
+		authoritativeMNs = authoritativeMNs + page_result[1]
 
-	if delay is not None:
-		time.sleep(delay)
+		if delay is not None:
+			time.sleep(delay)
 
 	return (identifiers, authoritativeMNs)
  
