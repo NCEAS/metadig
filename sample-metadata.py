@@ -41,7 +41,6 @@ def getNumResults(node):
 	if node is not None:
 		query_url += "+AND+datasource:*" + node.split(":")[2]
 
-	query_url += query_url + "&rows=0&start=0"
 
 	print query_url
 	print "..."
