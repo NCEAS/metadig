@@ -138,8 +138,8 @@ def getAllPages(node = None, page_size = 1000):
 	# Continue fetching fresh results from the server
 	num_results = getNumResults(node);
 	
-	# pages_required = math.ceil((num_results + 0.0) / page_size)
-	pages_required = 5
+	pages_required = math.ceil((num_results + 0.0) / page_size)
+
 	print("Getting %d pages..." % (pages_required))
 	
 	range_of_pages = range(1, int(round(pages_required)))
