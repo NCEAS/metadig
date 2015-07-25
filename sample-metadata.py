@@ -307,8 +307,13 @@ def getAndSaveDocuments():
 			os.makedirs(subdirectory_path)
 		else:
 			continue
-				
-		mn_url = nodes[node_identifier]["base_url"]
+		
+		if node_identifier in nodes:
+			mn_url = nodes[node_identifier]["base_url"]
+		else:
+			print "Sampled node (%s) not found in node list." % node_identifier
+			
+			return
 		
 		print(mn_url)
 		
