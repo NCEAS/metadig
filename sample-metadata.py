@@ -171,6 +171,8 @@ def sampleDocuments(sample_size = 5):
 	
 	# Check if the sample already exists
 	if(os.path.isfile(sampled_documents_filepath)):
+		print "Sample already exists. Moving on to getting metadata."
+		
 		return
 	
 	# Check if result folder has been made
@@ -280,6 +282,7 @@ def getIdentifierMetaXML(base_url, identifier):
 		response = request.read()
 		response_xml = ET.fromstring(response)
 	except:
+		print "Failed request: %s" % query_url
 		response_xml = None
 	
 	return response_xml
@@ -301,6 +304,8 @@ def getIdentifierObjectXML(base_url, identifier):
 		response = request.read()
 		response_xml = ET.fromstring(response)
 	except:
+		print "Failed request: %s" % query_url
+
 		response_xml = None
 	
 	return response_xml
