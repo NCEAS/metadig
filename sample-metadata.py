@@ -212,6 +212,57 @@ def sampleDocuments(sample_size = 5):
 	
 	return
 
+def getAndSaveDocuments():
+	"""Get and save meta and object XML from node"""
+	
+	sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
+	
+	# Check if sample exists
+	if not os.path.isfile(sampled_documents_filepath):
+		print "getAndSaveDocuments() was called but sampled_documents.csv doesn't exist."
+		
+		return
+		
+	# Get and save each document in the sample
+	documents = pandas.read_csv(sampled_documents_filepath)
+	nodes = getNodeList()
+	
+	print("Saving " + str(documents.shape[0]) + " documents.")
+	
+	for i in range(0, documents.shape[0]):		
+		node_identifier = documents.iloc[i, 0]
+		document_identifier = documents.iloc[i, 1]
+		
+		# Make the subdirectories to store files
+		subdirectory_path = getScriptDirectory() + "/result/" + node_identifier
+		
+		# Don't get metadata again if directory exists for identifier
+		if not os.path.exists(subdirectory_path):
+			os.makedirs(subdirectory_path)
+		else:
+			continue
+		
+		if node_identifier in nodes:
+			mn_url = nodes[node_identifier]["base_url"]
+		else:
+			print "Sampled node (%s) not found in node list." % node_identifier
+			
+			return
+		
+		print(mn_url)
+		
+		meta_xml = getIdentifierMetaXML(mn_url, document_identifier)
+		object_xml = getIdentifierObjectXML(mn_url, document_identifier)
+		
+		if meta_xml is not None:
+			ET.ElementTree(meta_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-meta.xml")
+
+		if object_xml is not None:
+			ET.ElementTree(object_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-object.xml")
+			
+		
+		
+		
 def getIdentifierMetaXML(base_url, identifier):
 	"""Get system (meta) metadata as XML
 	
@@ -279,53 +330,7 @@ def getNodeList():
 
 	return node_list
 
-def getAndSaveDocuments():
-	"""Get and save meta and object XML from node"""
-	
-	sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
-	
-	# Check if sample exists
-	if not os.path.isfile(sampled_documents_filepath):
-		return
 		
-	# Get and save each document in the sample
-	documents = pandas.read_csv(sampled_documents_filepath)
-	nodes = getNodeList()
-	
-	print("Saving " + str(documents.shape[0]) + " documents.")
-	
-	for i in range(0, documents.shape[0]):		
-		node_identifier = documents.iloc[i, 0]
-		document_identifier = documents.iloc[i, 1]
-		
-		# Make the subdirectories to store files
-		subdirectory_path = getScriptDirectory() + "/result/" + node_identifier
-		
-		# Don't get metadata again if directory exists for identifier
-		if not os.path.exists(subdirectory_path):
-			os.makedirs(subdirectory_path)
-		else:
-			continue
-		
-		if node_identifier in nodes:
-			mn_url = nodes[node_identifier]["base_url"]
-		else:
-			print "Sampled node (%s) not found in node list." % node_identifier
-			
-			return
-		
-		print(mn_url)
-		
-		meta_xml = getIdentifierMetaXML(mn_url, document_identifier)
-		object_xml = getIdentifierObjectXML(mn_url, document_identifier)
-		
-		if meta_xml is not None:
-			ET.ElementTree(meta_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-meta.xml")
-
-		if object_xml is not None:
-			ET.ElementTree(object_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-object.xml")
-			
-				
 def main(node, sample_size):
 	"""Make-like execution flow
 	Function will not run if dependent file exists
