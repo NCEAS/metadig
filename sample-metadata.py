@@ -167,6 +167,7 @@ def sampleDocuments(sample_size = 5):
 	
 	documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
 	sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
+	sample_statistics_filepath = getScriptDirectory() + "/result/statistics.csv"
 	
 	# Check if the sample already exists
 	if(os.path.isfile(sampled_documents_filepath)):
@@ -207,6 +208,7 @@ def sampleDocuments(sample_size = 5):
 
 		sampled_documents = pandas.concat([sampled_documents, df_subset_filtered])
 	
+	sampled_documents.groupby(["authoritativeMN"]).aggregate(['count']).to_csv(sample_statistics_filepath, encoding = "utf-8")
 	sampled_documents.to_csv(sampled_documents_filepath, index = False, encoding = "utf-8")
 	
 	return
