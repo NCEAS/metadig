@@ -33,7 +33,7 @@ def getNumResults(node):
 	:param node: (Optional) Specify a single node to sample from.
 	"""
 	
-	query_url = "https://cn.dataone.org/cn/v1/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
+	query_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
 	# If only sampling one node, append node as criterion
 	# Node, e.g. urn:node:KNB, is searched as *KNB
@@ -65,7 +65,7 @@ def getPage(page=1, page_size=1000):
 	param_rows = page_size
 	param_start = (page - 1) * page_size
 
-	query_url = "https://cn.dataone.org/cn/v1/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
+	query_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
 	if node is not None:
 		query_url = query_url + "+AND+datasource:*" + node.split(":")[2]
@@ -204,7 +204,7 @@ def getIdentifierMetaXML(base_url, identifier):
 	:param identifier: Metadata identifier.
 	"""
 	
-	base_url = "https://cn.dataone.org/cn/v1" # TODO: Remove this
+	base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1" # TODO: Remove this
 	
 	query_url = base_url + "/meta/" + identifier
 	print(query_url)
@@ -224,7 +224,7 @@ def getIdentifierObjectXML(base_url, identifier):
 	:param base_url: Base URL of the CN or MN used to get metadata
 	:param identifier: Metadata identifier.
 	"""
-	base_url = "https://cn.dataone.org/cn/v1" # TODO: Remove this
+	base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1" # TODO: Remove this
 
 	query_url = base_url + "/object/" + identifier
 
@@ -246,7 +246,7 @@ def getNodeList():
 	:returns Hash of {identifier/type/base_url}
 	"""
 	
-	query_url = "https://cn.dataone.org/cn/v1/node"
+	query_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1/node"
 	request = urllib2.urlopen(query_url)
 	response = request.read()
 	response_xml = ET.fromstring(response)
