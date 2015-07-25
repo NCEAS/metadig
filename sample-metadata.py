@@ -233,6 +233,20 @@ def getAndSaveDocuments():
 	
 	for i in range(0, documents.shape[0]):		
 		node_identifier = documents.iloc[i, 0]
+		
+		# Remove "urn:node:" from node_identifier
+		#
+		# This remove redundant text from the folder names
+		# but also deals with how Mac OS handles colons in file paths.
+		# Mac OS considers colons (:) to separate folders in a file
+		# hierarchy so ./result/urn:node:foo will be shown in Cocoa apps as 
+		# ./result/urn/node/foo where urn/node/foo is the folder name.
+		# This is confusing because the folder appears with colons when viewed
+		# from the terminal. This fixes removes the ambiguity between the terminal
+		# and Cocoa applications.
+		
+		node_identifier = node_identifier.split(":")[2]
+		
 		document_identifier = documents.iloc[i, 1]
 		
 		# Make the subdirectories to store files
