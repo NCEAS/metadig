@@ -182,7 +182,6 @@ def sampleDocuments(sample_size = 5):
 		
 	# Read in the existing documents
 	documents = pandas.read_csv(documents_csv_filepath)
-	print(documents.shape)
 	
 	unique_mns = pandas.unique(documents['authoritativeMN'])
 	sampled_documents = pandas.DataFrame({'identifier' : [], 'authoritativeMN' : []})
@@ -293,7 +292,7 @@ def getAndSaveDocuments():
 	documents = pandas.read_csv(sampled_documents_filepath)
 	nodes = getNodeList()
 	
-	print("Saving " + str(documents.shape[0]) + " documents ")
+	print("Saving " + str(documents.shape[0]) + " documents.")
 	
 	for i in range(0, documents.shape[0]):		
 		node_identifier = documents.iloc[i, 0]
