@@ -122,14 +122,21 @@ def getAllPages(node = None, page_size = 1000):
 	:output documents.csv: A .csv file of authoritativeMN & identifiers
 	"""
 	
-	documents_csv_filepath = getScriptDirectory() + "/documents.csv"
+	documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
 	
 	# Check if the output file exists
 	# If it does, we can skip all of this
-	
 	if(os.path.isfile(documents_csv_filepath)):
 		return
 	
+	
+	# Check if result folder has been made
+	result_folder = getScriptDirectory() + "/result"
+	
+	if not os.path.exists(result_folder):
+		os.makedirs(result_folder)
+		
+		
 	# Continue fetching fresh results from the server
 	num_results = getNumResults(node);
 	
@@ -158,13 +165,20 @@ def sampleDocuments(sample_size = 5):
 	:output sampled_documents.csv: A .csv file of sampled authoritativeMN & identifiers.
 	"""
 	
-	documents_csv_filepath = getScriptDirectory() + "/documents.csv"
-	sampled_documents_filepath = getScriptDirectory() + "/sampled_documents.csv"
+	documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
+	sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
 	
 	# Check if the sample already exists
 	if(os.path.isfile(sampled_documents_filepath)):
 		return
 	
+	# Check if result folder has been made
+	result_folder = getScriptDirectory() + "/result"
+	
+	if not os.path.exists(result_folder):
+		os.makedirs(result_folder)
+		
+		
 	# Read in the existing documents
 	documents = pandas.read_csv(documents_csv_filepath)
 	print(documents.shape)
@@ -267,7 +281,7 @@ def getNodeList():
 def getAndSaveDocuments():
 	"""Get and save meta and object XML from node"""
 	
-	sampled_documents_filepath = getScriptDirectory() + "/sampled_documents.csv"
+	sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
 	
 	# Check if sample exists
 	if not os.path.isfile(sampled_documents_filepath):
@@ -284,7 +298,7 @@ def getAndSaveDocuments():
 		document_identifier = documents.iloc[i, 1]
 		
 		# Make the subdirectories to store files
-		subdirectory_path = getScriptDirectory() + "/results/" + node_identifier
+		subdirectory_path = getScriptDirectory() + "/result/" + node_identifier
 		
 		# Don't get metadata again if directory exists for identifier
 		if not os.path.exists(subdirectory_path):
