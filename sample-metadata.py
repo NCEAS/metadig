@@ -106,7 +106,7 @@ def getPageRange(page_range, page_size, delay=1):
 	authoritativeMNs = []
 
 	for p in page_range:
-		print "Getting page %d." % (p)
+		print "Getting page %d" % (p)
 
 		page_result = getPage(page=p)
 
@@ -133,6 +133,8 @@ def getAllPages(node = None, page_size = 1000):
 	# Check if the output file exists
 	# If it does, we can skip all of this
 	if(os.path.isfile(documents_csv_filepath)):
+		print("Documents already exist. Moving onto sampling.")
+
 		return
 	
 	
@@ -146,13 +148,12 @@ def getAllPages(node = None, page_size = 1000):
 	# Continue fetching fresh results from the server
 	num_results = getNumResults(node);
 	
+	print("Total results: %d" % (num_results))
+
 	pages_required = math.ceil((num_results + 0.0) / page_size)
 
-	print("Getting %d pages..." % (pages_required))
-	
-	range_of_pages = range(1, int(round(pages_required)))
-	
-	all_pages = getPageRange(range_of_pages, page_size, delay = 1)
+	print("Total pages: %d" % (pages_required))
+
 	
 	documents_df = pandas.DataFrame({
 		'identifier' : all_pages[0],
@@ -235,7 +236,7 @@ def getAndSaveDocuments():
 	documents = pandas.read_csv(sampled_documents_filepath)
 	nodes = getNodeList()
 	
-	print("Saving " + str(documents.shape[0]) + " documents.")
+	print("Total documents to save: %d" % documents.shape[0])
 	
 	for i in range(0, documents.shape[0]):		
 		node_identifier = documents.iloc[i, 0]
@@ -270,10 +271,6 @@ def getAndSaveDocuments():
 		else:
 			print "Sampled node (%s) not found in node list." % node_identifier
 			
-			return
-		
-		print(mn_url)
-		
 		meta_xml = getIdentifierMetaXML(mn_url, document_identifier)
 		object_xml = getIdentifierObjectXML(mn_url, document_identifier)
 		
@@ -296,14 +293,14 @@ def getIdentifierMetaXML(base_url, identifier):
 	base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1" # TODO: Remove this
 	
 	query_url = base_url + "/meta/" + identifier
-	print(query_url)
+	print("\t\t%s" % query_url)
 	
 	try:
 		request = urllib2.urlopen(query_url)
 		response = request.read()
 		response_xml = ET.fromstring(response)
 	except:
-		print "Failed request: %s" % query_url
+		print "\t\tFailed request: %s" % query_url
 		response_xml = None
 	
 	return response_xml
@@ -318,14 +315,14 @@ def getIdentifierObjectXML(base_url, identifier):
 
 	query_url = base_url + "/object/" + identifier
 
-	print(query_url)
+	print("\t\t%s" % query_url)
 
 	try:
 		request = urllib2.urlopen(query_url)
 		response = request.read()
 		response_xml = ET.fromstring(response)
 	except:
-		print "Failed request: %s" % query_url
+		print "\t\tFailed request: %s" % query_url
 
 		response_xml = None
 	
