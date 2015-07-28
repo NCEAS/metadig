@@ -17,6 +17,14 @@
 #
 # 	Meta and object XML are requested only from the CN.
 #
+# Requirements:
+#
+#   This script was designed and tested using 2.7.10
+#   
+#	Extra packages required:
+#		- pandas
+#
+#
 # Command line arguments:
 #
 # --node (-n): Member node identifier, e.g. urn:node:KNB
