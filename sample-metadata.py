@@ -277,9 +277,6 @@ def getAndSaveDocuments(delay=1):
 		# Don't get metadata again if directory exists for identifier
 		if not os.path.exists(subdirectory_path):
 			os.makedirs(subdirectory_path)
-		else:
-			continue
-		
 
 		if node_identifier in nodes:
 			mn_url = nodes[node_identifier]["base_url"]
