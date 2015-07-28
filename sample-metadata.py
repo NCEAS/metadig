@@ -46,8 +46,13 @@ def getNumResults(node):
 	
 	query_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
-	# If only sampling one node, append node as criterion
+	# If only sampling one node, append node as criterion.
 	# Node, e.g. urn:node:KNB, is searched as *KNB
+	# Otherwise, leave datasource criterion off.
+	#
+	# Here, we're querying the Solr index with 'datasource' (even though
+	# authoritativeMN might be better) because the index isn't searchable
+	# by authoritativeMN.
 
 	if node is not None:
 		node_short_identifier = node.split(":")
