@@ -5,10 +5,12 @@
 #
 # Summary:
 #
-# Sample research objects (?) within one or more member nodes (MN) and save 
-# system metadata andobject metadata to files. The purpose of this scriptis to 
-# allow metadata to be sampled randomly from withinmember nodes in order to test
-# the quality of metadataacross member nodes.
+# Sample research objects system and scientific metadata within one or more 
+# member nodes (MN) and save system metadata andobject metadata to files. 
+# The purpose of this script is to allow metadata to be sampled randomly from
+# withinmember nodes in order to test the quality of metadataacross member 
+# nodes.
+#
 #
 # Implementation details:
 #
