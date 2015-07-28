@@ -27,6 +27,7 @@
 #	e.g. Take a maximum sample of 100 identifiers from each MN
 # 		 python sample-metadata.py --sample-size 100
 
+
 def getNumResults(node):
 	"""Get the number of total results from the CN
 	
@@ -108,7 +109,7 @@ def getPageRange(page_range, page_size, delay=1):
 	for p in page_range:
 		print "Getting page %d" % (p)
 
-		page_result = getPage(page=p)
+		page_result = getPage(page = p)
 
 		identifiers = identifiers + page_result[0]
 		authoritativeMNs = authoritativeMNs + page_result[1]
@@ -130,7 +131,7 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 	"""
 	
 	documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
-	
+
 	# Check if the output file exists
 	# If it does, we can skip all of this
 	if(os.path.isfile(documents_csv_filepath)):
@@ -148,12 +149,11 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 		
 	# Continue fetching fresh results from the server
 	num_results = getNumResults(node);
-	
 	print("Total results: %d" % (num_results))
 
 	pages_required = math.ceil((num_results + 0.0) / page_size)
-
 	print("Total pages: %d" % (pages_required))
+
 
 	range_of_pages = range(1, int(pages_required) + 1)
 
@@ -225,6 +225,7 @@ def sampleDocuments(sample_size = 250):
 	
 	return
 
+
 def getAndSaveDocuments(delay=1):
 	"""Get and save meta and object XML from node
 
@@ -241,12 +242,14 @@ def getAndSaveDocuments(delay=1):
 		print "getAndSaveDocuments() was called but sampled_documents.csv doesn't exist."
 		
 		return
-		
+	
+
 	# Get and save each document in the sample
 	documents = pandas.read_csv(sampled_documents_filepath)
 	nodes = getNodeList()
 	
 	print("Total documents to save: %d" % documents.shape[0])
+	
 	
 	for i in range(0, documents.shape[0]):		
 		node_identifier = documents.iloc[i, 0]
@@ -270,12 +273,14 @@ def getAndSaveDocuments(delay=1):
 		# Make the subdirectories to store files
 		subdirectory_path = getScriptDirectory() + "/result/" + node_short_identifier
 		
+		
 		# Don't get metadata again if directory exists for identifier
 		if not os.path.exists(subdirectory_path):
 			os.makedirs(subdirectory_path)
 		else:
 			continue
 		
+
 		if node_identifier in nodes:
 			mn_url = nodes[node_identifier]["base_url"]
 		else:
@@ -288,19 +293,19 @@ def getAndSaveDocuments(delay=1):
 		if delay is not None:
 			time.sleep(delay)
 
+
 		object_xml = getIdentifierObjectXML(mn_url, document_identifier)
 
 		if delay is not None:
 			time.sleep(delay)
 		
+
 		if meta_xml is not None:
 			ET.ElementTree(meta_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-meta.xml")
 
 		if object_xml is not None:
 			ET.ElementTree(object_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-object.xml")
-			
-		
-		
+				
 		
 def getIdentifierMetaXML(base_url, identifier):
 	"""Get system (meta) metadata as XML
@@ -330,10 +335,10 @@ def getIdentifierObjectXML(base_url, identifier):
 	:param base_url: Base URL of the CN or MN used to get metadata
 	:param identifier: Metadata identifier.
 	"""
+
 	base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1" # TODO: Remove this
 
 	query_url = base_url + "/object/" + identifier
-
 	print("\t\t%s" % query_url)
 
 	try:
@@ -416,7 +421,6 @@ if __name__ == "__main__":
 	import time
 	import os
 	import getopt
-	
 	
 	# Default options
 	node = None
