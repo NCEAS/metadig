@@ -157,6 +157,7 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 
 	range_of_pages = range(1, int(pages_required) + 1)
 
+	all_pages = getPageRange(range_of_pages, page_size, delay)
 	
 	documents_df = pandas.DataFrame({
 		'identifier' : all_pages[0],
