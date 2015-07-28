@@ -248,7 +248,7 @@ def getAndSaveDocuments(delay=1):
 	documents = pandas.read_csv(sampled_documents_filepath)
 	nodes = getNodeList()
 	
-	print("Total documents to save: %d" % documents.shape[0])
+	print("Total sampled documents to save: %d" % documents.shape[0])
 	
 	
 	for i in range(0, documents.shape[0]):		
