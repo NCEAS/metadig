@@ -39,7 +39,10 @@ def getNumResults(node):
 	# Node, e.g. urn:node:KNB, is searched as *KNB
 
 	if node is not None:
-		query_url += "+AND+datasource:*" + node.split(":")[2]
+		node_short_identifier = node.split(":")
+		node_short_identifier[len(node_short_identifier) - 1]
+		
+		query_url += "+AND+datasource:*" + node_short_identifier
 
 	query_url += "&rows=0&start=0"
 	
@@ -68,7 +71,10 @@ def getPage(page=1, page_size=1000):
 	query_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
 	if node is not None:
-		query_url = query_url + "+AND+datasource:*" + node.split(":")[2]
+		node_short_identifier = node.split(":")
+		node_short_identifier[len(node_short_identifier) - 1]
+
+		query_url = query_url + "+AND+datasource:*" + node_short_identifier
 
 	query_url = query_url + "&rows=" + \
 		str(param_rows) + "&start=" + str(param_start)
@@ -245,12 +251,13 @@ def getAndSaveDocuments():
 		# from the terminal. This fixes removes the ambiguity between the terminal
 		# and Cocoa applications.
 		
-		node_identifier = node_identifier.split(":")[2]
+		node_short_identifier = node_identifier.split(":")
+		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 		
 		document_identifier = documents.iloc[i, 1]
 		
 		# Make the subdirectories to store files
-		subdirectory_path = getScriptDirectory() + "/result/" + node_identifier
+		subdirectory_path = getScriptDirectory() + "/result/" + node_short_identifier
 		
 		# Don't get metadata again if directory exists for identifier
 		if not os.path.exists(subdirectory_path):
