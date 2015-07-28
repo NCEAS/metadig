@@ -124,6 +124,7 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 	
 	:param node: (Optional) Specify a single node to query for.
 	:param page_size: Number of results per page.
+	:param delay: Delay, in seconds, between requests.
 	
 	:output documents.csv: A .csv file of authoritativeMN & identifiers
 	"""
@@ -221,8 +222,14 @@ def sampleDocuments(sample_size = 5):
 	
 	return
 
-def getAndSaveDocuments():
-	"""Get and save meta and object XML from node"""
+def getAndSaveDocuments(delay=1):
+	"""Get and save meta and object XML from node
+
+	:param delay: Delay, in seconds, between getting documents.
+
+	:output Subdirectories of the folder `result`, in the form of 
+	 		`result/{NODE_IDENTIFIER}/{INDEX}-{meta-object}.xml`
+	"""
 	
 	sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
 	
