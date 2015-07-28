@@ -168,7 +168,7 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 	return
 
 	
-def sampleDocuments(sample_size = 5):
+def sampleDocuments(sample_size = 250):
 	"""Generate a sample of identifiers for each MN
 	
 	:param sample_size: Number of identifiers for each MN
@@ -420,7 +420,7 @@ if __name__ == "__main__":
 	
 	# Default options
 	node = None
-	sample_size = 5
+	sample_size = 250
 	
 	# Parse command line arguments
 	argv = sys.argv[1:]
