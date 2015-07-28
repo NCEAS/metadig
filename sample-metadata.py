@@ -147,8 +147,10 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 	
 	documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
 
+
 	# Check if the output file exists
 	# If it does, we can skip all of this
+
 	if(os.path.isfile(documents_csv_filepath)):
 		print("Documents already exist. Moving onto sampling.")
 
@@ -156,6 +158,7 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 	
 	
 	# Check if result folder has been made
+
 	result_folder = getScriptDirectory() + "/result"
 	
 	if not os.path.exists(result_folder):
@@ -163,6 +166,7 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 		
 		
 	# Continue fetching fresh results from the server
+
 	num_results = getNumResults(node);
 	print("Total results: %d" % (num_results))
 
