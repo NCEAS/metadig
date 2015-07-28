@@ -119,7 +119,7 @@ def getPageRange(page_range, page_size, delay=1):
 	return (identifiers, authoritativeMNs)
  
 	
-def getAllPages(node = None, page_size = 1000):
+def getAllPages(node = None, page_size = 1000, delay=1):
 	"""Get all possible pages from the Solr index.
 	
 	:param node: (Optional) Specify a single node to query for.
@@ -272,7 +272,14 @@ def getAndSaveDocuments():
 			print "Sampled node (%s) not found in node list." % node_identifier
 			
 		meta_xml = getIdentifierMetaXML(mn_url, document_identifier)
+
+		if delay is not None:
+			time.sleep(delay)
+
 		object_xml = getIdentifierObjectXML(mn_url, document_identifier)
+
+		if delay is not None:
+			time.sleep(delay)
 		
 		if meta_xml is not None:
 			ET.ElementTree(meta_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-meta.xml")
