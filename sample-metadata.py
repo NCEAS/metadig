@@ -281,6 +281,8 @@ def getAndSaveDocuments(delay=1):
 		else:
 			print "Sampled node (%s) not found in node list." % node_identifier
 			
+			continue
+
 		meta_xml = getIdentifierMetaXML(mn_url, document_identifier)
 
 		if delay is not None:
