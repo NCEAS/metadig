@@ -312,8 +312,7 @@ def getIdentifierMetaXML(base_url, identifier):
 	"""
 	
 	base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1" # TODO: Remove this
-	
-	query_url = base_url + "/meta/" + identifier
+	query_url = base_url + "/meta/" + urllib.quote_plus(identifier)
 	print("\t\t%s" % query_url)
 	
 	try:
@@ -334,8 +333,7 @@ def getIdentifierObjectXML(base_url, identifier):
 	"""
 
 	base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1" # TODO: Remove this
-
-	query_url = base_url + "/object/" + identifier
+	query_url = base_url + "/object/" + urllib.quote_plus(identifier)
 	print("\t\t%s" % query_url)
 
 	try:
@@ -406,7 +404,8 @@ def usage():
 	return
 	
 if __name__ == "__main__":
-	import urllib2
+	import urllib # for quote_plus
+	import urllib2 # for the rest (urlopen, etc)
 	import xml.etree.ElementTree as ET
 	import re
 	import csv
