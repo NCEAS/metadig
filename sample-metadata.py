@@ -53,11 +53,11 @@
 #
 # Command line arguments:
 #
-# --node (-n): Member node identifier, e.g. urn:node:KNB
+# --node (-n): (optional) Member node identifier, e.g. urn:node:KNB
 #	e.g. Sample only from KNB
 #		 python sample-metadata.py --node "urn:node:KNB"
 #
-# --sample-size (-s): Return at least {atleast} objects
+# --sample-size (-s): (optional) Return at least {atleast} objects
 #	e.g. Take a maximum sample of 100 identifiers from each MN
 # 		 python sample-metadata.py --sample-size 100
 #
