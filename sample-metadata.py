@@ -202,6 +202,10 @@ def getAllPages(base_url, node = None, page_size = 1000, delay=None):
 	num_results = getNumResults(base_url, node);
 	print("Total results: %d" % (num_results))
 
+	if num_results is 0:
+		print "No results were found. Exiting."
+		exit
+
 	pages_required = math.ceil((num_results + 0.0) / page_size)
 	print("Total pages: %d" % (pages_required))
 
