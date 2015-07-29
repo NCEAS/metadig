@@ -5,19 +5,43 @@
 #
 # Summary:
 #
-# Sample research objects system and scientific metadata within one or more 
-# member nodes (MN) and save system metadata andobject metadata to files. 
+# Sample research objects system and scientific metadata within one or all 
+# member nodes (MN) and save system metadata and object metadata to files. 
+#
 # The purpose of this script is to allow metadata to be sampled randomly from
-# withinmember nodes in order to test the quality of metadataacross member 
-# nodes.
+# within member nodes in order to test the quality of metadataacross member 
+#
+# By default, the script will query all member nodes and target a sample size
+# of 250 objects from each member node. Settings that can be customized by
+# command-line switches are (1) which coordination node (CN) to run queries 
+# against, (2) target a specific member node to sample documents from, and
+# (3) change the target sample size for each member node.
+#
+#
+# How to run:
+#
+#	Get a random sample (w/o replacement) of 250 system + science metadata 
+#	objects across all member nodes. If a member node doesn't have 250
+# 	objects, all objects from the node are used instead of randomly sampled.
+#
+#	$ python sample-metadata.py
+#
+#
+#	Do the same as above but change the sample size of 250 to 50.
+#
+#	$ python sample-metadata.py -s 50
+#
+#	
+#	Sample from only one member node (KNB).
+#   
+#   $ python sample-metadata.py -n "urn:node:KNB"
 #
 #
 # Implementation details:
 #
-# 	The coordinating node (CN) is queried for all documents
-# 	regardless of the authoritative MN.
+# 	The coordinating node (CN) is queried for and used to retrieve all
+#   documents regardless of the authoritative MN or replicaMNs.
 #
-# 	Meta and object XML are requested only from the CN.
 #
 # Requirements:
 #
