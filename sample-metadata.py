@@ -352,10 +352,10 @@ def getAndSaveDocuments(base_url, delay=None):
 		
 
 		if meta_xml is not None:
-			ET.ElementTree(meta_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-meta.xml")
+			ET.ElementTree(meta_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml")
 
 		if object_xml is not None:
-			ET.ElementTree(object_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-object.xml")
+			ET.ElementTree(object_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-metadata.xml")
 				
 		
 def getIdentifierMetaXML(base_url, identifier):
