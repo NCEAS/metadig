@@ -297,7 +297,9 @@ def getAndSaveDocuments(base_url, delay=None):
 	print("Total sampled documents to save: %d" % documents.shape[0])
 	
 	
-	for i in range(0, documents.shape[0]):		
+	for i in range(0, documents.shape[0]):
+		print "[%d of %d]" % (i, documents.shape[0])
+
 		node_identifier = documents.iloc[i, 0]
 		
 
