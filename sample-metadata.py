@@ -60,15 +60,18 @@
 # --sample-size (-s): Return at least {atleast} objects
 #	e.g. Take a maximum sample of 100 identifiers from each MN
 # 		 python sample-metadata.py --sample-size 100
+#
+# --test (-t): (optional) Run against the test CN instead of production.
+#  	e.g. python sample-metadata.py --test
 
 
-def getNumResults(node):
+def getNumResults(base_url, node):
 	"""Get the number of total results from the CN
 	
 	:param node: (Optional) Specify a single node to sample from.
 	"""
 	
-	query_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
+	query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
 	# If only sampling one node, append node as criterion.
 	# Node, e.g. urn:node:KNB, is searched as *KNB
@@ -95,7 +98,7 @@ def getNumResults(node):
 	return int(result[0].get("numFound"))
 
 
-def getPage(page=1, page_size=1000):
+def getPage(base_url, page=1, page_size=1000):
 	"""Get a specific page of results from the Solr index.
 	
 	:param page: Page of results to get.
@@ -108,7 +111,7 @@ def getPage(page=1, page_size=1000):
 	param_rows = page_size
 	param_start = (page - 1) * page_size
 
-	query_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
+	query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
 	if node is not None:
 		node_short_identifier = node.split(":")
@@ -134,7 +137,7 @@ def getPage(page=1, page_size=1000):
 	return (identifiers, authoritativeMNs)
 
 
-def getPageRange(page_range, page_size, delay=1):
+def getPageRange(base_url, page_range, page_size, delay=None):
 	"""Get a range of pages from the Solr index.
 	
 	:param page_range: Range of pages to get.
@@ -148,7 +151,7 @@ def getPageRange(page_range, page_size, delay=1):
 	for p in page_range:
 		print "Getting page %d" % (p)
 
-		page_result = getPage(page = p)
+		page_result = getPage(base_url, page = p)
 
 		identifiers = identifiers + page_result[0]
 		authoritativeMNs = authoritativeMNs + page_result[1]
@@ -159,7 +162,7 @@ def getPageRange(page_range, page_size, delay=1):
 	return (identifiers, authoritativeMNs)
  
 	
-def getAllPages(node = None, page_size = 1000, delay=1):
+def getAllPages(base_url, node = None, page_size = 1000, delay=None):
 	"""Get all possible pages from the Solr index.
 	
 	:param node: (Optional) Specify a single node to query for.
@@ -191,7 +194,7 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 		
 	# Continue fetching fresh results from the server
 
-	num_results = getNumResults(node);
+	num_results = getNumResults(base_url, node);
 	print("Total results: %d" % (num_results))
 
 	pages_required = math.ceil((num_results + 0.0) / page_size)
@@ -200,7 +203,7 @@ def getAllPages(node = None, page_size = 1000, delay=1):
 
 	range_of_pages = range(1, int(pages_required) + 1)
 
-	all_pages = getPageRange(range_of_pages, page_size, delay)
+	all_pages = getPageRange(base_url, range_of_pages, page_size, delay)
 	
 	documents_df = pandas.DataFrame({
 		'identifier' : all_pages[0],
@@ -269,7 +272,7 @@ def sampleDocuments(sample_size = 250):
 	return
 
 
-def getAndSaveDocuments(delay=1):
+def getAndSaveDocuments(base_url, delay=None):
 	"""Get and save meta and object XML from node
 
 	:param delay: Delay, in seconds, between getting documents.
@@ -289,7 +292,7 @@ def getAndSaveDocuments(delay=1):
 
 	# Get and save each document in the sample
 	documents = pandas.read_csv(sampled_documents_filepath)
-	nodes = getNodeList()
+	nodes = getNodeList(base_url)
 	
 	print("Total sampled documents to save: %d" % documents.shape[0])
 	
@@ -297,6 +300,7 @@ def getAndSaveDocuments(delay=1):
 	for i in range(0, documents.shape[0]):		
 		node_identifier = documents.iloc[i, 0]
 		
+
 		# Remove "urn:node:" from node_identifier
 		#
 		# This remove redundant text from the folder names
@@ -321,20 +325,16 @@ def getAndSaveDocuments(delay=1):
 		if not os.path.exists(subdirectory_path):
 			os.makedirs(subdirectory_path)
 
-		if node_identifier in nodes:
-			mn_url = nodes[node_identifier]["base_url"]
-		else:
-			print "Sampled node (%s) not found in node list." % node_identifier
-			
-			continue
 
-		meta_xml = getIdentifierMetaXML(mn_url, document_identifier)
+		# Get the meta and object XML
+
+		meta_xml = getIdentifierMetaXML(base_url, document_identifier)
 
 		if delay is not None:
 			time.sleep(delay)
 
 
-		object_xml = getIdentifierObjectXML(mn_url, document_identifier)
+		object_xml = getIdentifierObjectXML(base_url, document_identifier)
 
 		if delay is not None:
 			time.sleep(delay)
@@ -354,7 +354,6 @@ def getIdentifierMetaXML(base_url, identifier):
 	:param identifier: Metadata identifier.
 	"""
 	
-	base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1" # TODO: Remove this
 	query_url = base_url + "/meta/" + urllib.quote_plus(identifier)
 	print("\t\t%s" % query_url)
 	
@@ -375,7 +374,6 @@ def getIdentifierObjectXML(base_url, identifier):
 	:param identifier: Metadata identifier.
 	"""
 
-	base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1" # TODO: Remove this
 	query_url = base_url + "/object/" + urllib.quote_plus(identifier)
 	print("\t\t%s" % query_url)
 
@@ -391,13 +389,13 @@ def getIdentifierObjectXML(base_url, identifier):
 	return response_xml
 	
 	
-def getNodeList():
+def getNodeList(base_url):
 	"""Get list of CNs and MNs
 	
 	:returns Hash of {identifier/type/base_url}
 	"""
 	
-	query_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1/node"
+	query_url = base_url + "/node"
 	request = urllib2.urlopen(query_url)
 	response = request.read()
 	response_xml = ET.fromstring(response)
@@ -416,14 +414,14 @@ def getNodeList():
 	return node_list
 
 		
-def main(node, sample_size):
+def main(base_url, node, sample_size):
 	"""Make-like execution flow
 	Function will not run if dependent file exists
 	"""
 	
-	getAllPages(node) # Depends on document.csv
+	getAllPages(base_url, node) # Depends on document.csv
 	sampleDocuments(sample_size) # Depends on sampled_documents.csv
-	getAndSaveDocuments()
+	getAndSaveDocuments(base_url)
 
 def getScriptDirectory():
 	"""Get the directory the script is being run from
@@ -433,16 +431,19 @@ def getScriptDirectory():
 	return os.path.dirname(os.path.realpath(__file__))
 
 def usage():
-	print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE]\r\n"
+	print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--test]\r\n"
 	
 	print "-h, --help"
-	print "\tPrint this information."
-	
+	print "\tPrint this information.\n"
+
 	print "-n, --node"
-	print "\tSample a single node. e.g. --node \"urn:node:KNB\""
-	print "\t"
+	print "\tSample a single node. e.g. --node \"urn:node:KNB\"\n"
+
 	print "-s, --sample-size"
-	print "\tSpecify a minimum sample size per node. e.g. --sample-size 50"
+	print "\tSpecify a minimum sample size per node. e.g. --sample-size 50\n"
+
+	print "-t, --test"
+	print "\tRun all queries against the development CN instead of production CN."
 
 	return
 	
@@ -462,14 +463,15 @@ if __name__ == "__main__":
 	import getopt
 	
 	# Default options
-	node = None
-	sample_size = 250
-	
+	node = None # Sample all member nodes
+	sample_size = 250 # Target a minimum sample of 250 objects
+	base_url = "https://cn.dataone.org/cn/v1" # Production CN
+
 	# Parse command line arguments
 	argv = sys.argv[1:]
 	
 	try:
-		opts, args = getopt.getopt(argv, "hn:s:", ["help", "node=", "sample-size="])
+		opts, args = getopt.getopt(argv, "hn:s:t", ["help", "node=", "sample-size=", "test"])
 	except getopt.GetoptError:
 		usage()
 		sys.exit(2)
@@ -487,9 +489,17 @@ if __name__ == "__main__":
 				sample_size = int(arg)
 			except:
 				print "Couldn't parse the provided sample size."
-			
+
 			print "Setting sample size to %d" % sample_size
+
+		elif opt in ("-t", "--test"):
+			try:
+				base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1"
+			except:
+				print "Couldn't set CN to development. Using production instead."
+			
+			
 	try:
-		main(node, sample_size)
+		main(base_url, node, sample_size)
 	except KeyboardInterrupt:
 		sys.exit()
