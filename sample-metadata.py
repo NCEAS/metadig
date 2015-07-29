@@ -5,17 +5,21 @@
 #
 # Summary:
 #
-# Sample research objects system and scientific metadata within one or all 
-# member nodes (MN) and save system metadata and object metadata to files. 
+# Sample research objects system and scientific metadata within one or across
+# all member nodes (MN) and save system metadata and object metadata to files. 
 #
 # The purpose of this script is to allow metadata to be sampled randomly from
-# within member nodes in order to test the quality of metadataacross member 
+# within member nodes in order to test the quality of metadata across member 
+# nodes.
 #
 # By default, the script will query all member nodes and target a sample size
-# of 250 objects from each member node. Settings that can be customized by
-# command-line switches are (1) which coordination node (CN) to run queries 
-# against, (2) target a specific member node to sample documents from, and
-# (3) change the target sample size for each member node.
+# of 250 objects from each member node. If a member node does not contain
+# 250 objects, all objects from that member node will be sampled.
+#
+# Settings that can be customized by command-line switches are (1) which 
+# coordination node (CN) to run queries against, (2) target a specific member 
+# node to sample documents from, and (3) change the target sample size for
+# each member node.
 #
 #
 # How to run:
@@ -33,6 +37,7 @@
 #
 #	
 #	Sample from only one member node (KNB).
+#   Note that the full node identifier is passed with quotes around it.
 #   
 #   $ python sample-metadata.py -n "urn:node:KNB"
 #
@@ -45,10 +50,10 @@
 #
 # Requirements:
 #
-#   This script was designed and tested using 2.7.10
+#   This script was designed and tested using Python 2.7.10
 #   
 #	Extra packages required:
-#		- pandas
+#		- pandas (install with `pip install pandas`)
 #
 #
 # Command line arguments:
@@ -58,7 +63,7 @@
 #		 python sample-metadata.py --node "urn:node:KNB"
 #
 # --sample-size (-s): (optional) Return at least {atleast} objects
-#	e.g. Take a maximum sample of 100 identifiers from each MN
+#	e.g. Target a sample of 100 identifiers from each MN
 # 		 python sample-metadata.py --sample-size 100
 #
 # --test (-t): (optional) Run against the test CN instead of production.
@@ -439,13 +444,15 @@ def usage():
 	print "\tPrint this information.\n"
 
 	print "-n, --node"
-	print "\tSample a single node. e.g. --node \"urn:node:KNB\"\n"
+	print "\tSpecify a single node to sample from. e.g. --node \"urn:node:KNB\""
+	print "\tOmitting this switch will sample from ALL member nodes.\n"
 
 	print "-s, --sample-size"
-	print "\tSpecify a minimum sample size per node. e.g. --sample-size 50\n"
+	print "\tSpecify a minimum sample size per member node. e.g. --sample-size 50"
+	print "\tDefault: 250"
 
 	print "-t, --test"
-	print "\tRun all queries against the development CN instead of production CN."
+	print "\tRun all queries against the development CN instead of the production CN."
 
 	return
 	
