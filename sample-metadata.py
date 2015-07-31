@@ -302,6 +302,7 @@ def getAndSaveDocuments(base_url, delay=None):
 	# Get and save each document in the sample
 	documents = pandas.read_csv(sampled_documents_filepath)
 	nodes = getNodeList(base_url)
+	formats = getFormatList(base_url)
 	
 	print("Total sampled documents to save: %d" % documents.shape[0])
 	
@@ -348,15 +349,15 @@ def getAndSaveDocuments(base_url, delay=None):
 		
 		# Extract the formatId from the sysmeta
 		
-		format_id = None
+		format_path = None
 
 		if meta_xml is not None:
 			format_id_element = meta_xml.find("./formatId")
 
 			if format_id_element is not None:
-				format_id = makeValidPath(format_id_element.text)
+				format_path = formats[format_id_element.text]['formatPath']
 
-		if format_id is None:
+		if format_path is None:
 			print "\t\tFailed to extract metadata format from system metadata file. Continuing."
 
 			continue
@@ -375,7 +376,7 @@ def getAndSaveDocuments(base_url, delay=None):
 		if meta_xml is not None:
 			ET.ElementTree(meta_xml).write(sysmeta_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml")
 
-		metadata_path = subdirectory_path + "/" + format_id + "/xml"
+		metadata_path = subdirectory_path + "/" + format_path + "/xml"
 		
 		if not os.path.exists(metadata_path):
 			os.makedirs(metadata_path)
@@ -451,6 +452,32 @@ def getNodeList(base_url):
 	return node_list
 
 		
+def getFormatList(base_url):
+	"""Get list of data and metadata formats
+	
+	:returns Hash of {identifier,name,type,dirname} indexed on identifier
+	"""
+	
+	query_url = base_url + "/formats"
+	request = urllib2.urlopen(query_url)
+	response = request.read()
+	response_xml = ET.fromstring(response)
+
+	fmt_list = {}
+
+	formats = response_xml.findall(".//objectFormat")
+
+	for f in formats:
+		fmt_identifier = f.find("formatId").text
+		fmt_name = f.find("formatName").text
+		fmt_type = f.find("formatType").text
+		fmt_path = makeValidFormatPath(fmt_name)
+
+		fmt_list[fmt_identifier] = { "formatId" : fmt_identifier, "formatName" : fmt_name, "formatType" : fmt_type, "formatPath" : fmt_path }
+
+	return fmt_list
+
+		
 def main(base_url, node, sample_size):
 	"""Make-like execution flow
 	Function will not run if dependent file exists
@@ -468,8 +495,9 @@ def getScriptDirectory():
 	return os.path.dirname(os.path.realpath(__file__))
 
 
-def makeValidPath(path):
-	"""Returns a valid path string where / and : are omitted.
+def makeValidFormatPath(path):
+	"""Returns a valid path format path string where / and : are omitted, and comma, 
+	dash and whitespace sequences are changed to underscore.
 
 	:param path: Path to be converted to a valid path.
 
@@ -480,8 +508,9 @@ def makeValidPath(path):
 		return None
 
 	valid_path = ''.join(c for c in path if c not in "/:")
+	replaced = re.sub('\s*,?-?\s+', '_', valid_path)
 
-	return valid_path
+	return replaced
 
 
 def usage():
