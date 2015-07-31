@@ -345,17 +345,43 @@ def getAndSaveDocuments(base_url, delay=None):
 			time.sleep(delay)
 
 
+		
+		# Extract the formatId from the sysmeta
+		
+		format_id = None
+
+		if meta_xml is not None:
+			format_id_element = meta_xml.find("./formatId")
+
+			if format_id_element is not None:
+				format_id = makeValidPath(format_id_element.text)
+
+		if format_id is None:
+			print "\t\tFailed to extract metadata format from system metadata file. Continuing."
+
+			continue
+
 		object_xml = getIdentifierObjectXML(base_url, document_identifier)
 
 		if delay is not None:
 			time.sleep(delay)
 		
 
-		if meta_xml is not None:
-			ET.ElementTree(meta_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml")
+		sysmeta_path = subdirectory_path + "/sysmeta/xml"
 
+		if not os.path.exists(sysmeta_path):
+			os.makedirs(sysmeta_path)
+
+		if meta_xml is not None:
+			ET.ElementTree(meta_xml).write(sysmeta_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml")
+
+		metadata_path = subdirectory_path + "/" + format_id + "/xml"
+		
+		if not os.path.exists(metadata_path):
+			os.makedirs(metadata_path)
+		
 		if object_xml is not None:
-			ET.ElementTree(object_xml).write(subdirectory_path + "/" + str(i).rjust(5, '0') + "-metadata.xml")
+			ET.ElementTree(object_xml).write(metadata_path + "/" + str(i).rjust(5, '0') + "-metadata.xml")
 				
 		
 def getIdentifierMetaXML(base_url, identifier):
@@ -440,6 +466,23 @@ def getScriptDirectory():
 	:return String: Absolute directory name."""
 	
 	return os.path.dirname(os.path.realpath(__file__))
+
+
+def makeValidPath(path):
+	"""Returns a valid path string where / and : are omitted.
+
+	:param path: Path to be converted to a valid path.
+
+	:return Valid path as a String
+	"""
+
+	if len(path) <= 0:
+		return None
+
+	valid_path = ''.join(c for c in path if c not in "/:")
+
+	return valid_path
+
 
 def usage():
 	print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--test]\r\n"
