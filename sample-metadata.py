@@ -313,6 +313,20 @@ def getAndSaveDocuments(base_url, delay=None):
 		node_identifier = documents.iloc[i, 0]
 		
 
+		# Get the meta and object XML
+		document_identifier = documents.iloc[i, 1]
+		meta_xml = getIdentifierMetaXML(base_url, document_identifier)
+
+		# Determine if the node identifier is in the Node list 
+		# if not, it is an invalid node id, and should be replaced from sysmeta
+		valid_node = True 
+		if (node_identifier not in nodes):
+			valid_node = False 
+			if meta_xml is not None:
+				node_id_element = meta_xml.find("./formatId")
+				if node_id_element is not None:
+					node_identifier = node_id_element.text
+
 		# Remove "urn:node:" from node_identifier
 		#
 		# This remove redundant text from the folder names
@@ -327,8 +341,6 @@ def getAndSaveDocuments(base_url, delay=None):
 		node_short_identifier = node_identifier.split(":")
 		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 		
-		document_identifier = documents.iloc[i, 1]
-		
 		# Make the subdirectories to store files
 		subdirectory_path = getScriptDirectory() + "/result/" + node_short_identifier
 		
@@ -337,10 +349,6 @@ def getAndSaveDocuments(base_url, delay=None):
 		if not os.path.exists(subdirectory_path):
 			os.makedirs(subdirectory_path)
 
-
-		# Get the meta and object XML
-
-		meta_xml = getIdentifierMetaXML(base_url, document_identifier)
 
 		if delay is not None:
 			time.sleep(delay)
