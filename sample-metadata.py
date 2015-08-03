@@ -266,10 +266,10 @@ def sampleDocuments(sample_size = 250):
 			sampled_rows = [0]
 		else:		
 			if nrows > sample_size:
-				rows_to_sample = range(0, nrows - 1)
+				rows_to_sample = range(0, nrows)
 				sampled_rows = numpy.random.choice(rows_to_sample, sample_size)
 			else:
-				sampled_rows = range(0, nrows - 1)
+				sampled_rows = range(0, nrows)
 
 		df_subset_filtered = df_subset.iloc[sampled_rows,:]
 
