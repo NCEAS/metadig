@@ -317,15 +317,22 @@ def getAndSaveDocuments(base_url, delay=None):
 		document_identifier = documents.iloc[i, 1]
 		meta_xml = getIdentifierMetaXML(base_url, document_identifier)
 
-		# Determine if the node identifier is in the Node list 
-		# if not, it is an invalid node id, and should be replaced from sysmeta
-		valid_node = True 
+		
+		# Determine if the node identifier is in the Node list. 
+		# If not, it is an invalid node id, and should be replaced with
+		# the authoritativeMN from the system metadata
+		
+		valid_node = True
+
 		if (node_identifier not in nodes):
 			valid_node = False 
+			
 			if meta_xml is not None:
-				node_id_element = meta_xml.find("./formatId")
+				node_id_element = meta_xml.find("./authoritativeMN")
+
 				if node_id_element is not None:
 					node_identifier = node_id_element.text
+
 
 		# Remove "urn:node:" from node_identifier
 		#
