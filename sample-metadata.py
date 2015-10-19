@@ -88,8 +88,8 @@ def getNumResults(base_url, node):
 
 	if node is not None:
 		node_short_identifier = node.split(":")
-		node_short_identifier[len(node_short_identifier) - 1]
 		
+		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 		query_url += "+AND+datasource:*" + node_short_identifier
 
 	query_url += "&rows=0&start=0"
@@ -120,7 +120,7 @@ def getPage(base_url, page=1, page_size=1000):
 
 	if node is not None:
 		node_short_identifier = node.split(":")
-		node_short_identifier[len(node_short_identifier) - 1]
+		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 
 		query_url = query_url + "+AND+datasource:*" + node_short_identifier
 
