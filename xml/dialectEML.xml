@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cw:crosswalk xmlns:cw="http://www.hdfgroup.org/metadata/published/xsd">
+                <cw:dialect>
+                                <cw:title>Ecological Metadata Language</cw:title>
+                                <cw:code>EML</cw:code>
+                </cw:dialect>
+                <cw:spiral>
+                                <cw:item name="Abstract">/eml:dataset/eml:abstract</cw:item>
+                                <cw:description>A paragraph describing the resource.</cw:description>
+                                <cw:item name="Author / Originator">/eml:eml/eml:dataset/eml:creator</cw:item>
+                                <cw:description>The principal author of the resource</cw:description>
+                                <cw:item name="Easternmost Longitude">/eml:dataset/eml:coverage/eml:geographicCoverage/eml:boundingCoordinates/eml:eastBoundingCoordinate</cw:item>
+                                <cw:description>The easternmost longitude of the bounding rectangle.</cw:description>
+                                <cw:item name="End Time">/eml:dataset/eml:coverage/eml:temporalCoverage/eml:rangeOfDates/eml:endDate/eml:calendarDate</cw:item>
+                                <cw:description>The end of the bounding time period</cw:description>
+                                <cw:item name="Northernmost Latitude">/eml:eml/eml:dataset/eml:coverage/eml:geographicCoverage/eml:boundingCoordinates/eml:northBoundingCoordinate</cw:item>
+                                <cw:description>The northernmost latitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Originating Organization">/eml:eml/eml:dataset/eml:creator/eml:organizationName</cw:item>
+                                <cw:description>The organization responsible for creating the resource</cw:description>
+                                <cw:item name="Publication Date">/eml:eml/eml:dataset/eml:pubDate</cw:item>
+                                <cw:description>Date of publication of the cited resource</cw:description>
+                                <cw:item name="Resource Title">/eml:eml/eml:dataset/eml:title</cw:item>
+                                <cw:description>A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined.</cw:description>
+                                <cw:item name="Southernmost Latitude">/eml:eml/eml:dataset/eml:coverage/eml:geographicCoverage/eml:boundingCoordinates/eml:southBoundingCoordinate</cw:item>
+                                <cw:description>The southernmost latitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Start Time">/eml:eml/eml:dataset/eml:coverage/eml:temporalCoverage/eml:rangeOfDates/eml:beginDate/eml:calendarDate/</cw:item>
+                                <cw:description>The start of the bounding time period</cw:description>
+                                <cw:item name="Theme Keyword">/eml:eml/eml:dataset/eml:keywordSet/eml:keyword/eml:text</cw:item>
+                                <cw:description>A word or phrase that describes some aspect of a resource. Can be one of several types.</cw:description>
+                                <cw:item name="Resource on-line Link">/eml:eml/eml:dataset/eml:distribution/eml:online/eml:url</cw:item>
+                                <cw:description>Address of the online resource</cw:description>
+                                <cw:item name="Westernmost Longitude">/eml:eml/eml:dataset/eml:coverage/eml:geographicCoverage/eml:boundingCoordinates/eml:westBoundingCoordinate</cw:item>
+                                <cw:description>The westernmost longitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Resource Identifier">/eml:eml/@packageId</cw:item>
+                                <cw:item name="Resource Title">/eml:eml/eml:dataset/eml:title</cw:item>
+                                <cw:item name="Author / Originator">/eml:eml/eml:dataset/eml:creator</cw:item>
+                                <cw:item name="Metadata Contact">/eml:eml/eml:dataset/eml:metadataProvider</cw:item>
+                                <cw:item name="Contributor Name">/eml:eml/eml:dataset/eml:associatedParty</cw:item>
+                                <cw:item name="Publisher">/eml:eml/dataset/eml:publisher</cw:item>
+                                <cw:item name="Publication Date">/eml:eml/dataset/eml:pubDate</cw:item>
+                                <cw:item name="Resource Contact">/eml:eml/eml:dataset/eml:contact</cw:item>
+                                <cw:item name="Abstract">/eml:eml/eml:dataset/eml:abstract</cw:item>
+                                <cw:item name="Theme Keyword">/eml:eml/eml:dataset/eml:keywordSet/eml:keyword</cw:item>
+                                <cw:item name="Resource Distribution">//eml:distribution</cw:item>
+                                <cw:item name="Spatial Extent">/eml:eml/eml:dataset/eml:coverage/eml:geographicCoverage</cw:item>
+                                <cw:item name="Taxonomic Extent">/eml:eml/eml:dataset/eml:coverage/eml:taxonomicCoverage</cw:item>
+                                <cw:item name="Temporal Extent">/eml:eml/eml:dataset/eml:coverage/eml:temporalCoverage</cw:item>
+                                <cw:item name="Maintenance">/eml:eml/eml:dataset/eml:maintenance/eml:description</cw:item>
+                                <cw:item name="Resource Use Constraints">/eml:eml/eml:dataset/eml:intellectualRights</cw:item>
+                                <cw:item name="Process Step">/eml:eml/eml:dataset/eml:methods</cw:item>
+                                <cw:item name="Project Description">/eml:eml/eml:dataset/eml:project </cw:item>
+                                <cw:item name="Entity Type Definition">/eml:eml/eml:dataset/eml:dataTable/eml:entityDescription</cw:item>
+                                <cw:item name="Attribute Definition">/eml:eml/eml:dataset/eml:dataTable/eml:attributeList/eml:attribute </cw:item>
+                                <cw:item name="Resource Access Constraints">/eml:eml/dataset/eml:access</cw:item>
+                                <cw:item name="Resource Format">/eml:eml/dataset/eml:dataTable/eml:physical</cw:item>
+                                <cw:item name="Attribute List">/eml:eml/dataset/eml:dataTable/eml:attributeList</cw:item>
+                                <cw:item name="Attribute Constraints">/eml:eml/dataset/eml:dataTable/eml:constraint</cw:item>
+                                <cw:item name="Resource Quality Description">//eml:methods/eml:qualityControl</cw:item>
+                </cw:spiral>
+</cw:crosswalk>
