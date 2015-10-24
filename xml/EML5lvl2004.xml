@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cw:crosswalk xmlns:cw="http://www.hdfgroup.org/metadata/published/xsd">
+    <cw:spiral order="2525">
+        <cw:title>LTER Completeness-Identification</cw:title>
+        <cw:code>LTER_Identification</cw:code>
+        <cw:description>Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)</cw:description>
+        <cw:url name="Completeness Levels">http://intranet2.lternet.edu/sites/intranet2.lternet.edu/files/documents/Scientific_Reports/Informatics/emlbestpractices_oct2004_final.pdf</cw:url>
+        <cw:item name="Resource Identifier"/>
+        <cw:item name="Resource Title"/>
+        <cw:item name="Author / Originator"/>
+        <cw:item name="Metadata Contact"/>
+        <cw:item name="Contributor Name"/>
+        <cw:item name="Publisher"/>
+        <cw:item name="Publication Date"/>
+        <cw:item name="Resource Contact"/>
+        <cw:item name="Abstract"/>
+        <cw:item name="Theme Keyword"/>
+        <cw:item name="Resource Distribution"/>
+    </cw:spiral>
+    <cw:spiral order="2011">
+        <cw:title>LTER Completeness-Discovery</cw:title>
+        <cw:code>LTER_Discovery</cw:code>
+        <cw:description>Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.</cw:description>
+        <cw:url name="Completeness Levels">http://intranet2.lternet.edu/sites/intranet2.lternet.edu/files/documents/Scientific_Reports/Informatics/emlbestpractices_oct2004_final.pdf</cw:url>
+        <cw:item name="Spatial Extent"/>
+        <cw:item name="Taxonomic Extent"/>
+        <cw:item name="Temporal Extent"/>
+        <cw:item name="Maintenance"/>
+    </cw:spiral>
+    <cw:spiral order="2526">
+        <cw:title>LTER Completeness-Evaluation</cw:title>
+        <cw:code>LTER_Evaluation</cw:code>
+        <cw:description>Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.</cw:description>
+        <cw:url name="Completeness Levels">http://intranet2.lternet.edu/sites/intranet2.lternet.edu/files/documents/Scientific_Reports/Informatics/emlbestpractices_oct2004_final.pdf</cw:url>
+        <cw:item name="Resource Use Constraints"/>
+        <cw:item name="Process Step"/>
+        <cw:item name="Project Description"/>
+        <cw:item name="Entity Type Definition"/>
+        <cw:item name="Attribute Definition"/>
+    </cw:spiral>
+    <cw:spiral order="2567">
+        <cw:title>LTER Completeness-Access</cw:title>
+        <cw:code>LTER_Access</cw:code>
+        <cw:description>Access-level metadata should provide a user with all the information needed to access and download the data tables, even if the tables’ attributes are not thoroughly described. The tags required at this level specify access control and the physical description of the table.</cw:description>
+        <cw:url name="Completeness Levels">http://intranet2.lternet.edu/sites/intranet2.lternet.edu/files/documents/Scientific_Reports/Informatics/emlbestpractices_oct2004_final.pdf</cw:url>
+        <cw:item name="Resource Access Constraints"/>
+        <cw:item name="Resource Format"/>
+    </cw:spiral>
+    <cw:spiral order="2493">
+        <cw:title>LTER Completeness-Integration</cw:title>
+        <cw:code>LTER_Integration</cw:code>
+        <cw:description>Integration-level metadata should support computer-mediated access and processing of data, and therefore requires that all aspects of the data package be fully described. </cw:description>
+        <cw:item name="Attribute List"/>
+        <cw:item name="Attribute Constraints"/>
+        <cw:item name="Resource Quality Description"/>
+    </cw:spiral>
+</cw:crosswalk>
