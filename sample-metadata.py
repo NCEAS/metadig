@@ -6,25 +6,25 @@
 # Summary:
 #
 # Sample research objects system and scientific metadata within one or across
-# all member nodes (MN) and save system metadata and object metadata to files. 
+# all member nodes (MN) and save system metadata and object metadata to files.
 #
 # The purpose of this script is to allow metadata to be sampled randomly from
-# within member nodes in order to test the quality of metadata across member 
+# within member nodes in order to test the quality of metadata across member
 # nodes.
 #
 # By default, the script will query all member nodes and target a sample size
 # of 250 objects from each member node. If a member node does not contain
 # 250 objects, all objects from that member node will be sampled.
 #
-# Settings that can be customized by command-line switches are (1) which 
-# coordination node (CN) to run queries against, (2) target a specific member 
+# Settings that can be customized by command-line switches are (1) which
+# coordination node (CN) to run queries against, (2) target a specific member
 # node to sample documents from, and (3) change the target sample size for
 # each member node.
 #
 #
 # How to run:
 #
-#	Get a random sample (w/o replacement) of 250 system + science metadata 
+#	Get a random sample (w/o replacement) of 250 system + science metadata
 #	objects across all member nodes. If a member node doesn't have 250
 # 	objects, all objects from the node are used instead of randomly sampled.
 #
@@ -35,10 +35,10 @@
 #
 #	$ python sample-metadata.py -s 50
 #
-#	
+#
 #	Sample from only one member node (KNB).
 #   Note that the full node identifier is passed with quotes around it.
-#   
+#
 #   $ python sample-metadata.py -n "urn:node:KNB"
 #
 #
@@ -51,7 +51,7 @@
 # Requirements:
 #
 #   This script was designed and tested using Python 2.7.10
-#   
+#
 #	Extra packages required:
 #		- pandas (install with `pip install pandas`)
 #
@@ -72,10 +72,10 @@
 
 def getNumResults(base_url, node):
 	"""Get the number of total results from the CN
-	
+
 	:param node: (Optional) Specify a single node to sample from.
 	"""
-	
+
 	query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
 	# If only sampling one node, append node as criterion.
@@ -88,12 +88,12 @@ def getNumResults(base_url, node):
 
 	if node is not None:
 		node_short_identifier = node.split(":")
-		
+
 		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 		query_url += "+AND+datasource:*" + node_short_identifier
 
 	query_url += "&rows=0&start=0"
-	
+
 	request = urllib2.urlopen(query_url)
 	response = request.read()
 	response_xml = ET.fromstring(response)
@@ -103,13 +103,14 @@ def getNumResults(base_url, node):
 	return int(result[0].get("numFound"))
 
 
-def getPage(base_url, page=1, page_size=1000):
+def getPage(base_url, node, page=1, page_size=1000):
 	"""Get a specific page of results from the Solr index.
-	
+
+	:param node: Node to sample.
 	:param page: Page of results to get.
 	:param page_size: Number of results in the page.
 	"""
-	
+
 	identifiers = []
 	authoritativeMNs = []
 
@@ -142,21 +143,22 @@ def getPage(base_url, page=1, page_size=1000):
 	return (identifiers, authoritativeMNs)
 
 
-def getPageRange(base_url, page_range, page_size, delay=None):
+def getPageRange(base_url, node, page_range, page_size, delay=None):
 	"""Get a range of pages from the Solr index.
-	
+
+	:param node: Node to sample.
 	:param page_range: Range of pages to get.
 	:param page_size: Number of results per page.
 	:param delay: Delay, in seconds, between requests.
 	"""
-	
+
 	identifiers = []
 	authoritativeMNs = []
 
 	for p in page_range:
 		print "Getting page %d" % (p)
 
-		page_result = getPage(base_url, page = p)
+		page_result = getPage(base_url, node, page = p)
 
 		identifiers = identifiers + page_result[0]
 		authoritativeMNs = authoritativeMNs + page_result[1]
@@ -165,18 +167,18 @@ def getPageRange(base_url, page_range, page_size, delay=None):
 			time.sleep(delay)
 
 	return (identifiers, authoritativeMNs)
- 
-	
+
+
 def getAllPages(base_url, node = None, page_size = 1000, delay=None):
 	"""Get all possible pages from the Solr index.
-	
+
 	:param node: (Optional) Specify a single node to query for.
 	:param page_size: Number of results per page.
 	:param delay: Delay, in seconds, between requests.
-	
+
 	:output documents.csv: A .csv file of authoritativeMN & identifiers
 	"""
-	
+
 	documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
 
 
@@ -187,16 +189,16 @@ def getAllPages(base_url, node = None, page_size = 1000, delay=None):
 		print("Documents already exist. Moving onto sampling.")
 
 		return
-	
-	
+
+
 	# Check if result folder has been made
 
 	result_folder = getScriptDirectory() + "/result"
-	
+
 	if not os.path.exists(result_folder):
 		os.makedirs(result_folder)
-		
-		
+
+
 	# Continue fetching fresh results from the server
 
 	num_results = getNumResults(base_url, node);
@@ -212,59 +214,59 @@ def getAllPages(base_url, node = None, page_size = 1000, delay=None):
 
 	range_of_pages = range(1, int(pages_required) + 1)
 
-	all_pages = getPageRange(base_url, range_of_pages, page_size, delay)
-	
+	all_pages = getPageRange(base_url, node, range_of_pages, page_size, delay)
+
 	documents_df = pandas.DataFrame({
 		'identifier' : all_pages[0],
 		'authoritativeMN' : all_pages[1]})
-	
+
 	documents_df.to_csv(documents_csv_filepath, index = False, encoding = "utf-8")
-	
+
 	return
 
-	
+
 def sampleDocuments(sample_size = 250):
 	"""Generate a sample of identifiers for each MN
-	
+
 	:param sample_size: Number of identifiers for each MN
-	
+
 	:output sampled_documents.csv: A .csv file of sampled authoritativeMN & identifiers.
 	"""
-	
+
 	documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
 	sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
 	sample_statistics_filepath = getScriptDirectory() + "/result/statistics.csv"
-	
+
 	# Check if the sample already exists
 	if(os.path.isfile(sampled_documents_filepath)):
 		print "Sample already exists. Moving on to getting metadata."
-		
+
 		return
-	
+
 	# Check if result folder has been made
 	result_folder = getScriptDirectory() + "/result"
-	
+
 	if not os.path.exists(result_folder):
 		os.makedirs(result_folder)
-		
-		
+
+
 	# Read in the existing documents
 	documents = pandas.read_csv(documents_csv_filepath)
-	
+
 	unique_mns = pandas.unique(documents['authoritativeMN'])
 	sampled_documents = pandas.DataFrame({'identifier' : [], 'authoritativeMN' : []})
 
 	for mn in unique_mns:
 		df_subset = documents[documents.authoritativeMN == mn]
 		nrows = df_subset.shape[0]
-	
+
 		print("  Member node " + mn + " has " + str(nrows) + " rows")
 
 		if nrows is 0:
 			continue
 		elif nrows is 1:
 			sampled_rows = [0]
-		else:		
+		else:
 			if nrows > sample_size:
 				rows_to_sample = range(0, nrows)
 				sampled_rows = numpy.random.choice(rows_to_sample, sample_size)
@@ -274,10 +276,10 @@ def sampleDocuments(sample_size = 250):
 		df_subset_filtered = df_subset.iloc[sampled_rows,:]
 
 		sampled_documents = pandas.concat([sampled_documents, df_subset_filtered])
-	
+
 	sampled_documents.groupby(["authoritativeMN"]).aggregate(['count']).to_csv(sample_statistics_filepath, encoding = "utf-8")
 	sampled_documents.to_csv(sampled_documents_filepath, index = False, encoding = "utf-8")
-	
+
 	return
 
 
@@ -286,47 +288,47 @@ def getAndSaveDocuments(base_url, delay=None):
 
 	:param delay: Delay, in seconds, between getting documents.
 
-	:output Subdirectories of the folder `result`, in the form of 
+	:output Subdirectories of the folder `result`, in the form of
 	 		`result/{NODE_IDENTIFIER}/{INDEX}-{meta-object}.xml`
 	"""
-	
+
 	sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
-	
+
 	# Check if sample exists
 	if not os.path.isfile(sampled_documents_filepath):
 		print "getAndSaveDocuments() was called but sampled_documents.csv doesn't exist."
-		
+
 		return
-	
+
 
 	# Get and save each document in the sample
 	documents = pandas.read_csv(sampled_documents_filepath)
 	nodes = getNodeList(base_url)
 	formats = getFormatList(base_url)
-	
+
 	print("Total sampled documents to save: %d" % documents.shape[0])
-	
-	
+
+
 	for i in range(0, documents.shape[0]):
 		print "[%d of %d]" % (i + 1, documents.shape[0])
 
 		node_identifier = documents.iloc[i, 0]
-		
+
 
 		# Get the meta and object XML
 		document_identifier = documents.iloc[i, 1]
 		meta_xml = getIdentifierMetaXML(base_url, document_identifier)
 
-		
-		# Determine if the node identifier is in the Node list. 
+
+		# Determine if the node identifier is in the Node list.
 		# If not, it is an invalid node id, and should be replaced with
 		# the authoritativeMN from the system metadata
-		
+
 		valid_node = True
 
 		if (node_identifier not in nodes):
-			valid_node = False 
-			
+			valid_node = False
+
 			if meta_xml is not None:
 				node_id_element = meta_xml.find("./authoritativeMN")
 
@@ -339,19 +341,19 @@ def getAndSaveDocuments(base_url, delay=None):
 		# This remove redundant text from the folder names
 		# but also deals with how Mac OS handles colons in file paths.
 		# Mac OS considers colons (:) to separate folders in a file
-		# hierarchy so ./result/urn:node:foo will be shown in Cocoa apps as 
+		# hierarchy so ./result/urn:node:foo will be shown in Cocoa apps as
 		# ./result/urn/node/foo where urn/node/foo is the folder name.
 		# This is confusing because the folder appears with colons when viewed
 		# from the terminal. This fixes removes the ambiguity between the terminal
 		# and Cocoa applications.
-		
+
 		node_short_identifier = node_identifier.split(":")
 		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
-		
+
 		# Make the subdirectories to store files
 		subdirectory_path = getScriptDirectory() + "/result/" + node_short_identifier
-		
-		
+
+
 		# Don't get metadata again if directory exists for identifier
 		if not os.path.exists(subdirectory_path):
 			os.makedirs(subdirectory_path)
@@ -361,9 +363,9 @@ def getAndSaveDocuments(base_url, delay=None):
 			time.sleep(delay)
 
 
-		
+
 		# Extract the formatId from the sysmeta
-		
+
 		format_path = None
 
 		if meta_xml is not None:
@@ -381,7 +383,7 @@ def getAndSaveDocuments(base_url, delay=None):
 
 		if delay is not None:
 			time.sleep(delay)
-		
+
 
 		sysmeta_path = subdirectory_path + "/sysmeta/xml"
 
@@ -392,24 +394,24 @@ def getAndSaveDocuments(base_url, delay=None):
 			ET.ElementTree(meta_xml).write(sysmeta_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml")
 
 		metadata_path = subdirectory_path + "/" + format_path + "/xml"
-		
+
 		if not os.path.exists(metadata_path):
 			os.makedirs(metadata_path)
-		
+
 		if object_xml is not None:
 			ET.ElementTree(object_xml).write(metadata_path + "/" + str(i).rjust(5, '0') + "-metadata.xml")
-				
-		
+
+
 def getIdentifierMetaXML(base_url, identifier):
 	"""Get system (meta) metadata as XML
-	
+
 	:param base_url: Base URL of the CN or MN used to get metadata
 	:param identifier: Metadata identifier.
 	"""
-	
+
 	query_url = base_url + "/meta/" + urllib.quote_plus(identifier)
 	print("\t\t%s" % query_url)
-	
+
 	try:
 		request = urllib2.urlopen(query_url)
 		response = request.read()
@@ -417,12 +419,12 @@ def getIdentifierMetaXML(base_url, identifier):
 	except:
 		print "\t\tFailed request: %s" % query_url
 		response_xml = None
-	
+
 	return response_xml
 
 def getIdentifierObjectXML(base_url, identifier):
 	"""Get research (object) metadata XML
-	
+
 	:param base_url: Base URL of the CN or MN used to get metadata
 	:param identifier: Metadata identifier.
 	"""
@@ -438,16 +440,16 @@ def getIdentifierObjectXML(base_url, identifier):
 		print "\t\tFailed request: %s" % query_url
 
 		response_xml = None
-	
+
 	return response_xml
-	
-	
+
+
 def getNodeList(base_url):
 	"""Get list of CNs and MNs
-	
+
 	:returns Hash of {identifier/type/base_url}
 	"""
-	
+
 	query_url = base_url + "/node"
 	request = urllib2.urlopen(query_url)
 	response = request.read()
@@ -466,13 +468,13 @@ def getNodeList(base_url):
 
 	return node_list
 
-		
+
 def getFormatList(base_url):
 	"""Get list of data and metadata formats
-	
+
 	:returns Hash of {identifier,name,type,dirname} indexed on identifier
 	"""
-	
+
 	query_url = base_url + "/formats"
 	request = urllib2.urlopen(query_url)
 	response = request.read()
@@ -492,26 +494,26 @@ def getFormatList(base_url):
 
 	return fmt_list
 
-		
+
 def main(base_url, node, sample_size):
 	"""Make-like execution flow
 	Function will not run if dependent file exists
 	"""
-	
+
 	getAllPages(base_url, node) # Depends on document.csv
 	sampleDocuments(sample_size) # Depends on sampled_documents.csv
 	getAndSaveDocuments(base_url)
 
 def getScriptDirectory():
 	"""Get the directory the script is being run from
-	
+
 	:return String: Absolute directory name."""
-	
+
 	return os.path.dirname(os.path.realpath(__file__))
 
 
 def makeValidFormatPath(path):
-	"""Returns a valid path format path string where / and : are omitted, and comma, 
+	"""Returns a valid path format path string where / and : are omitted, and comma,
 	dash and whitespace sequences are changed to underscore.
 
 	:param path: Path to be converted to a valid path.
@@ -530,7 +532,7 @@ def makeValidFormatPath(path):
 
 def usage():
 	print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--test]\r\n"
-	
+
 	print "-h, --help"
 	print "\tPrint this information.\n"
 
@@ -546,7 +548,7 @@ def usage():
 	print "\tRun all queries against the development CN instead of the production CN."
 
 	return
-	
+
 if __name__ == "__main__":
 	import urllib # for quote_plus
 	import urllib2 # for the rest (urlopen, etc)
@@ -561,7 +563,7 @@ if __name__ == "__main__":
 	import time
 	import os
 	import getopt
-	
+
 	# Default options
 	node = None # Sample all member nodes
 	sample_size = 250 # Target a minimum sample of 250 objects
@@ -569,7 +571,7 @@ if __name__ == "__main__":
 
 	# Parse command line arguments
 	argv = sys.argv[1:]
-	
+
 	try:
 		opts, args = getopt.getopt(argv, "hn:s:t", ["help", "node=", "sample-size=", "test"])
 	except getopt.GetoptError:
@@ -581,9 +583,9 @@ if __name__ == "__main__":
 			sys.exit()
 		elif opt in ("-n", "--node"):
 			node = arg
-			
+
 			print "Setting node to %s" % node
-			
+
 		elif opt in ("-s", "--sample-size"):
 			try:
 				sample_size = int(arg)
@@ -597,8 +599,8 @@ if __name__ == "__main__":
 				base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1"
 			except:
 				print "Couldn't set CN to development. Using production instead."
-			
-			
+
+
 	try:
 		main(base_url, node, sample_size)
 	except KeyboardInterrupt:
