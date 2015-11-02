@@ -103,9 +103,10 @@ def getNumResults(base_url, node):
 	return int(result[0].get("numFound"))
 
 
-def getPage(base_url, page=1, page_size=1000):
+def getPage(base_url, node, page=1, page_size=1000):
 	"""Get a specific page of results from the Solr index.
-	
+
+	:param node: Node to sample.
 	:param page: Page of results to get.
 	:param page_size: Number of results in the page.
 	"""
@@ -142,9 +143,10 @@ def getPage(base_url, page=1, page_size=1000):
 	return (identifiers, authoritativeMNs)
 
 
-def getPageRange(base_url, page_range, page_size, delay=None):
+def getPageRange(base_url, node, page_range, page_size, delay=None):
 	"""Get a range of pages from the Solr index.
-	
+
+	:param node: Node to sample.
 	:param page_range: Range of pages to get.
 	:param page_size: Number of results per page.
 	:param delay: Delay, in seconds, between requests.
@@ -156,7 +158,7 @@ def getPageRange(base_url, page_range, page_size, delay=None):
 	for p in page_range:
 		print "Getting page %d" % (p)
 
-		page_result = getPage(base_url, page = p)
+		page_result = getPage(base_url, node, page = p)
 
 		identifiers = identifiers + page_result[0]
 		authoritativeMNs = authoritativeMNs + page_result[1]
@@ -212,8 +214,8 @@ def getAllPages(base_url, node = None, page_size = 1000, delay=None):
 
 	range_of_pages = range(1, int(pages_required) + 1)
 
-	all_pages = getPageRange(base_url, range_of_pages, page_size, delay)
-	
+	all_pages = getPageRange(base_url, node, range_of_pages, page_size, delay)
+
 	documents_df = pandas.DataFrame({
 		'identifier' : all_pages[0],
 		'authoritativeMN' : all_pages[1]})
