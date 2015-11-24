@@ -635,14 +635,16 @@ def get_format_list(base_url):
     return fmt_list
 
 
-def main(base_url, node, sample_size):
+def main(base_url, node, sample_size, download, attribute):
     """Make-like execution flow
     Function will not run if dependent file exists
     """
+    delay = 0.1
 
-    getAllPages(base_url, node) # Depends on document.csv
-    sampleDocuments(sample_size) # Depends on sampled_documents.csv
-    getAndSaveDocuments(base_url)
+    get_documents(base_url, node=node, delay=delay, attribute=attribute) # Depends on document.csv
+    shuffle_documents()
+    sample_documents(base_url, sample_size=sample_size, delay=delay)
+
 
 def get_script_directory():
     """Get the directory the script is being run from
