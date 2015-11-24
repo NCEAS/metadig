@@ -431,6 +431,9 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True,
             document_identifier = documents_mn.iloc[i, 0]
             node_identifier = documents_mn.iloc[i, 1]
 
+            print "[%s][%d/%d][%s]" % (mn, sampled_count+1, sample_size, \
+                document_identifier)
+
             # Get sysmeta and scimeta files
             meta_xml = get_meta_xml(base_url, document_identifier)
 
@@ -548,9 +551,6 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True,
 
             sampled_count += 1
             statistics[mn]['sampled'] += 1
-
-            print "[%s][%d/%d][%s]" % (mn, sampled_count, sample_size, \
-                document_identifier)
 
 
     # Write out sampled.csv file
