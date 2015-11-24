@@ -628,7 +628,7 @@ def get_format_list(base_url):
         fmt_identifier = f.find("formatId").text
         fmt_name = f.find("formatName").text
         fmt_type = f.find("formatType").text
-        fmt_path = makeValidFormatPath(fmt_name)
+        fmt_path = make_valid_format_path(fmt_name)
 
         fmt_list[fmt_identifier] = { "formatId" : fmt_identifier, "formatName" : fmt_name, "formatType" : fmt_type, "formatPath" : fmt_path }
 
