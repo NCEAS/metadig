@@ -305,7 +305,7 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
 
     if num_results is 0:
         print "No results were found. Exiting."
-        exit
+        sys.exit()
 
     pages_required = math.ceil((num_results + 0.0) / page_size)
     print("Total pages: %d" % (pages_required))
