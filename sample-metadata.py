@@ -549,7 +549,7 @@ def get_meta_xml(base_url, identifier):
     query_url = base_url + "/meta/" + quote_plus(identifier)
 
     try:
-        request = urllib2.urlopen(query_url)
+        request = urlopen(query_url)
         response = request.read()
         response_xml = ET.fromstring(response)
     except:
@@ -569,7 +569,7 @@ def get_object_xml(base_url, identifier):
     query_url = base_url + "/object/" + quote_plus(identifier)
 
     try:
-        request = urllib2.urlopen(query_url)
+        request = urlopen(query_url)
         response = request.read()
         response_xml = ET.fromstring(response)
     except:
@@ -589,7 +589,7 @@ def get_node_list(base_url):
     """
 
     query_url = base_url + "/node"
-    request = urllib2.urlopen(query_url)
+    request = urlopen(query_url)
     response = request.read()
     response_xml = ET.fromstring(response)
 
@@ -616,7 +616,7 @@ def get_format_list(base_url):
     """
 
     query_url = base_url + "/formats"
-    request = urllib2.urlopen(query_url)
+    request = urlopen(query_url)
     response = request.read()
     response_xml = ET.fromstring(response)
 
