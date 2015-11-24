@@ -153,6 +153,10 @@ def get_num_results(base_url, node=None, attribute=False):
 
     query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
+    # Add field for getting only documents with attribute-level information
+    if attribute is True:
+        query_url += "+AND+attribute:*"
+
     # If only sampling one node, append node as criterion.
     # Node, e.g. urn:node:KNB, is searched as *KNB
     # Otherwise, leave datasource criterion off.
@@ -197,14 +201,16 @@ def get_page(base_url, node=None, page=1, page_size=1000, attribute=False):
 
     query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
 
+    if attribute:
+        query_url += "+AND+attribute:*"
+
     if node is not None:
         node_short_identifier = node.split(":")
         node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 
-        query_url = query_url + "+AND+datasource:*" + node_short_identifier
+        query_url += "+AND+datasource:*" + node_short_identifier
 
-    query_url = query_url + "&rows=" + \
-        str(param_rows) + "&start=" + str(param_start)
+    query_url += "&rows=" + str(param_rows) + "&start=" + str(param_start)
 
     request = urllib2.urlopen(query_url)
     response = request.read()
