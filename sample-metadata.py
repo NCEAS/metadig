@@ -141,6 +141,7 @@ import time
 import os
 import getopt
 
+def get_num_results(base_url, node=None, attribute=False):
     """Get the number of total results from the CN
 
     :param node: (Optional) Specify a single node to sample from.
@@ -173,7 +174,7 @@ import getopt
     return int(result[0].get("numFound"))
 
 
-def getPage(base_url, node, page=1, page_size=1000):
+def get_page(base_url, node=None, page=1, page_size=1000, attribute=False):
     """Get a specific page of results from the Solr index.
 
     :param node: Node to sample.
@@ -213,7 +214,7 @@ def getPage(base_url, node, page=1, page_size=1000):
     return (identifiers, authoritativeMNs)
 
 
-def getPageRange(base_url, node, page_range, page_size, delay=None):
+def get_page_range(base_url, node, page_range, page_size, delay=None, attribute=False):
     """Get a range of pages from the Solr index.
 
     :param node: Node to sample.
@@ -239,7 +240,7 @@ def getPageRange(base_url, node, page_range, page_size, delay=None):
     return (identifiers, authoritativeMNs)
 
 
-def getAllPages(base_url, node = None, page_size = 1000, delay=None):
+def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=False):
     """Get all possible pages from the Solr index.
 
     :param node: (Optional) Specify a single node to query for.
@@ -295,8 +296,8 @@ def getAllPages(base_url, node = None, page_size = 1000, delay=None):
     return
 
 
-def sampleDocuments(sample_size = 250):
     """Generate a sample of identifiers for each MN
+def shuffle_documents():
 
     :param sample_size: Number of identifiers for each MN
 
@@ -352,8 +353,8 @@ def sampleDocuments(sample_size = 250):
 
     return
 
+def sample_documents(base_url, sample_size=250, delay=None, download=True, attribute=False):
 
-def getAndSaveDocuments(base_url, delay=None):
     """Get and save meta and object XML from node
 
     :param delay: Delay, in seconds, between getting documents.
@@ -472,7 +473,7 @@ def getAndSaveDocuments(base_url, delay=None):
             ET.ElementTree(object_xml).write(metadata_path + "/" + str(i).rjust(5, '0') + "-metadata.xml")
 
 
-def getIdentifierMetaXML(base_url, identifier):
+def get_meta_xml(base_url, identifier):
     """Get system (meta) metadata as XML
 
     :param base_url: Base URL of the CN or MN used to get metadata
@@ -492,7 +493,7 @@ def getIdentifierMetaXML(base_url, identifier):
 
     return response_xml
 
-def getIdentifierObjectXML(base_url, identifier):
+def get_object_xml(base_url, identifier):
     """Get research (object) metadata XML
 
     :param base_url: Base URL of the CN or MN used to get metadata
@@ -514,7 +515,7 @@ def getIdentifierObjectXML(base_url, identifier):
     return response_xml
 
 
-def getNodeList(base_url):
+def get_node_list(base_url):
     """Get list of CNs and MNs
 
     :returns Hash of {identifier/type/base_url}
@@ -539,7 +540,7 @@ def getNodeList(base_url):
     return node_list
 
 
-def getFormatList(base_url):
+def get_format_list(base_url):
     """Get list of data and metadata formats
 
     :returns Hash of {identifier,name,type,dirname} indexed on identifier
