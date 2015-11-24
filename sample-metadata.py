@@ -517,7 +517,7 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
             sampled_count += 1
             statistics[mn]['sampled'] += 1
 
-            print "[%s][%s][%d/%d]" % (mn, document_identifier, sampled_count, sample_size)
+            print "[%s][%d/%d][%s]" % (mn, sampled_count, sample_size, document_identifier)
 
 
     # Write out sampled.csv file
