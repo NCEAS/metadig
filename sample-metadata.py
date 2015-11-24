@@ -212,9 +212,21 @@ def get_page(base_url, node=None, page=1, page_size=1000, attribute=False):
 
     query_url += "&rows=" + str(param_rows) + "&start=" + str(param_start)
 
-    request = urllib2.urlopen(query_url)
-    response = request.read()
-    response_xml = ET.fromstring(response)
+    print "Page: %d" % page
+
+    try:
+        request = urlopen(query_url)
+        response = request.read()
+    except:
+        print "Failed to open URL: %s. Exiting." % base_url
+        sys.exit()
+
+    try:
+        response_xml = ET.fromstring(response)
+    except:
+        print "Failed to parse response as XML. Exiting."
+        sys.exit()
+
     docs = response_xml.findall(".//doc")
 
     for d in docs:
