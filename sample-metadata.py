@@ -336,14 +336,12 @@ def shuffle_documents():
     :output shuffled_documents.csv: A .csv file for shuffled documents.
     """
 
-    documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
-    sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
-    sample_statistics_filepath = getScriptDirectory() + "/result/statistics.csv"
+    documents_csv_filepath = get_script_directory() + "/result/documents.csv"
+    shuffled_documents_filepath = get_script_directory() + "/result/shuffled_documents.csv"
 
     # Check if the sample already exists
-    if(os.path.isfile(sampled_documents_filepath)):
+    if(os.path.isfile(shuffled_documents_filepath)):
         print "Sample already exists. Moving on to getting metadata."
-
         return
 
     # Check if result folder has been made
@@ -357,33 +355,16 @@ def shuffle_documents():
     documents = pandas.read_csv(documents_csv_filepath)
 
     unique_mns = pandas.unique(documents['authoritativeMN'])
-    sampled_documents = pandas.DataFrame({'identifier' : [], 'authoritativeMN' : []})
+    shuffled = pandas.DataFrame({'identifier' : [], 'authoritativeMN' : []})
 
+    # Shuffle and append each MN's documents
     for mn in unique_mns:
-        df_subset = documents[documents.authoritativeMN == mn]
-        nrows = df_subset.shape[0]
+        documents_mn = documents[documents.authoritativeMN == mn]
+        shuffled_mn = documents_mn.reindex(numpy.random.permutation(documents_mn.index))
+        shuffled = pandas.concat([shuffled, shuffled_mn])
 
-        print("  Member node " + mn + " has " + str(nrows) + " rows")
+    shuffled.to_csv(shuffled_documents_filepath, index=False, encoding="utf-8", columns=["identifier", "authoritativeMN"])
 
-        if nrows is 0:
-            continue
-        elif nrows is 1:
-            sampled_rows = [0]
-        else:
-            if nrows > sample_size:
-                rows_to_sample = range(0, nrows)
-                sampled_rows = numpy.random.choice(rows_to_sample, sample_size)
-            else:
-                sampled_rows = range(0, nrows)
-
-        df_subset_filtered = df_subset.iloc[sampled_rows,:]
-
-        sampled_documents = pandas.concat([sampled_documents, df_subset_filtered])
-
-    sampled_documents.groupby(["authoritativeMN"]).aggregate(['count']).to_csv(sample_statistics_filepath, encoding = "utf-8")
-    sampled_documents.to_csv(sampled_documents_filepath, index = False, encoding = "utf-8")
-
-    return
 
 def sample_documents(base_url, sample_size=250, delay=None, download=True, attribute=False):
     """Get and save meta and object XML from node.
