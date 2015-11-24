@@ -255,7 +255,7 @@ def get_page_range(base_url, node, page_range, page_size, delay=None, attribute=
     authoritativeMNs = []
 
     for p in page_range:
-        page_result = getPage(base_url, node, page = p)
+        page_result = get_page(base_url, node, page = p, attribute=attribute)
 
         identifiers = identifiers + page_result[0]
         authoritativeMNs = authoritativeMNs + page_result[1]
@@ -343,7 +343,7 @@ def shuffle_documents():
         return
 
     # Check if result folder has been made
-    result_folder = getScriptDirectory() + "/result"
+    result_folder = get_script_directory() + "/result"
 
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
@@ -646,7 +646,7 @@ def main(base_url, node, sample_size):
     sampleDocuments(sample_size) # Depends on sampled_documents.csv
     getAndSaveDocuments(base_url)
 
-def getScriptDirectory():
+def get_script_directory():
     """Get the directory the script is being run from
 
     :return String: Absolute directory name."""
@@ -654,7 +654,7 @@ def getScriptDirectory():
     return os.path.dirname(os.path.realpath(__file__))
 
 
-def makeValidFormatPath(path):
+def make_valid_format_path(path):
     """Returns a valid path format path string where / and : are omitted, and comma,
     dash and whitespace sequences are changed to underscore.
 
