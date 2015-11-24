@@ -319,9 +319,7 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
         'identifier' : all_pages[0],
         'authoritativeMN' : all_pages[1]})
 
-    documents_df.to_csv(documents_csv_filepath, index = False, encoding = "utf-8")
-
-    return
+    documents_df.to_csv(documents_csv_filepath, index = False, encoding = "utf-8", columns=['identifier','authoritativeMN'])
 
 
     """Generate a sample of identifiers for each MN
