@@ -434,32 +434,29 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True,
             print "[%s][%d/%d][%s]" % (mn, sampled_count+1, sample_size, \
                 document_identifier)
 
-            # Get sysmeta and scimeta files
-            meta_xml = get_meta_xml(base_url, document_identifier)
-
-            if meta_xml is None:
-                continue
-
-            if delay is not None:
-                time.sleep(delay)
-
-            object_xml = None
-
-            if download:
-                object_xml = get_object_xml(base_url, document_identifier)
-
-            if delay is not None:
-                time.sleep(delay)
-
-            if download is True and object_xml is None:
-                continue
-
             # This somewhat-nasty if statement controls whether or not we do
             # the work related to downloading and storing files. This should be
             # factored out into a method but more parts of the program would
             # need to be rewritten to make that easy.
 
             if download:
+                # Get sysmeta and scimeta files
+                meta_xml = get_meta_xml(base_url, document_identifier)
+
+                if meta_xml is None:
+                    continue
+
+                if delay is not None:
+                    time.sleep(delay)
+
+                object_xml = get_object_xml(base_url, document_identifier)
+
+                if delay is not None:
+                    time.sleep(delay)
+
+                if object_xml is None:
+                    continue
+
                 # Determine if the node identifier is in the Node list.
                 # If not, it is an invalid node id, and should be replaced with
                 # the authoritativeMN from the system metadat
