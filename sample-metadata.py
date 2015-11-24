@@ -1,5 +1,6 @@
 #! /usr/bin/env python
-
+# -*- coding: utf-8 -*-
+#
 """sample-metadata.py
 Author: Bryce Mecum (mecum@nceas.ucsb.edu)
 
@@ -37,27 +38,27 @@ in the 'results' directory:
 
 ```
 result/
-|-- TFRI # A Member Node
-|   ├-- Ecological_Metadata_Language_version_2.0.1
-|   |   └-- xml
-|   |       ├-- 00000-metadata.xml
-|   |       ├-- 00001-metadata.xml
-|   |       ├-- 00002-metadata.xml
-|   |       └-- 00004-metadata.xml
-|   ├-- Ecological_Metadata_Language_version_2.1.1
-|   |   └-- xml
-|   |       └-- 00003-metadata.xml
-|   └-- sysmeta
-|       └-- xml
-|           ├-- 00000-sysmeta.xml
-|           ├-- 00001-sysmeta.xml
-|           ├-- 00002-sysmeta.xml
-|           ├-- 00003-sysmeta.xml
-|           └-- 00004-sysmeta.xml
-├-- documents.csv # All documents on the Coordinating Node
-├-- sampled_documents.csv # Successfully sampled documents
-├-- shuffled_documents.csv # Documents shuffled by Member Node
-└-- statistics.csv # Statistics about the sampling process
+├── TFRI # A Member Node
+│   ├── Ecological_Metadata_Language_version_2.0.1
+│   │   └── xml
+│   │       ├── 00000-metadata.xml
+│   │       ├── 00001-metadata.xml
+│   │       ├── 00002-metadata.xml
+│   │       └── 00004-metadata.xml
+│   ├── Ecological_Metadata_Language_version_2.1.1
+│   │   └── xml
+│   │       └── 00003-metadata.xml
+│   └── sysmeta
+│       └── xml
+│           ├── 00000-sysmeta.xml
+│           ├── 00001-sysmeta.xml
+│           ├── 00002-sysmeta.xml
+│           ├── 00003-sysmeta.xml
+│           └── 00004-sysmeta.xml
+├── documents.csv # All documents on the Coordinating Node
+├── sampled_documents.csv # Successfully sampled documents
+├── shuffled_documents.csv # Documents shuffled by Member Node
+└── statistics.csv # Statistics about the sampling process
 ```
 
 
