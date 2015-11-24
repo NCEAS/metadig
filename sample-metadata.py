@@ -1,76 +1,133 @@
 #! /usr/bin/env python
 
-# sample-metadata.py
-# Author: Bryce Mecum (mecum@nceas.ucsb.edu)
-#
-# Summary:
-#
-# Sample research objects system and scientific metadata within one or across
-# all member nodes (MN) and save system metadata and object metadata to files.
-#
-# The purpose of this script is to allow metadata to be sampled randomly from
-# within member nodes in order to test the quality of metadata across member
-# nodes.
-#
-# By default, the script will query all member nodes and target a sample size
-# of 250 objects from each member node. If a member node does not contain
-# 250 objects, all objects from that member node will be sampled.
-#
-# Settings that can be customized by command-line switches are (1) which
-# coordination node (CN) to run queries against, (2) target a specific member
-# node to sample documents from, and (3) change the target sample size for
-# each member node.
-#
-#
-# How to run:
-#
-#    Get a random sample (w/o replacement) of 250 system + science metadata
-#    objects across all member nodes. If a member node doesn't have 250
-#     objects, all objects from the node are used instead of randomly sampled.
-#
-#    $ python sample-metadata.py
-#
-#
-#    Do the same as above but change the sample size of 250 to 50.
-#
-#    $ python sample-metadata.py -s 50
-#
-#
-#    Sample from only one member node (KNB).
-#   Note that the full node identifier is passed with quotes around it.
-#
-#   $ python sample-metadata.py -n "urn:node:KNB"
-#
-#
-# Implementation details:
-#
-#     The coordinating node (CN) is queried for and used to retrieve all
-#   documents regardless of the authoritative MN or replicaMNs.
-#
-#
-# Requirements:
-#
-#   This script was designed and tested using Python 2.7.10
-#
-#    Extra packages required:
-#        - pandas (install with `pip install pandas`)
-#
-#
-# Command line arguments:
-#
-# --node (-n): (optional) Member node identifier, e.g. urn:node:KNB
-#    e.g. Sample only from KNB
-#         python sample-metadata.py --node "urn:node:KNB"
-#
-# --sample-size (-s): (optional) Return at least {atleast} objects
-#    e.g. Target a sample of 100 identifiers from each MN
-#          python sample-metadata.py --sample-size 100
-#
-# --test (-t): (optional) Run against the test CN instead of production.
-#      e.g. python sample-metadata.py --test
+"""sample-metadata.py
+Author: Bryce Mecum (mecum@nceas.ucsb.edu)
+
+Samples scientific metadata from the holdings on DataOne.
+
+Overview:
+---------
+
+This script was written to allow sampling (w/o replacement) of scientific
+metadata on a per- Member Node basis for the purpose of analyzing the metadata
+holdings of DataOne Member Nodes. The script is executed by calling
+
+      python sample-metadata.py
+
+and produces a sample of scientific metadata in the `results` folder in the
+working directory (the directory your shell was in when you ran the above
+comamnd). By default, the script will query across all member nodes on the
+production Coordinating Node (cn.dataone.org) and attempt to sample 250
+documents from each Member Node. When a Member Node doesn't have 250 documents,
+all documents from the Member Node are downloaded instead of a sampled.
+
+Settings that can be customized by command-line switches are:
+
+  - Whether queries are run against the production or test CN
+  - Target a single Member Node rather than all
+  - Target a sample size other than 250
+  - Skip downloading scientific metadata (XML) files
+  - Only sample documents with attribute-level metadata
+
+The script creates a number of tracking (papertrail) CSV files which are used
+for both the script's function as well as to help analyse the runs of the
+script. The script also creates a number of files, two (scimeta + sysmeta) for
+each document sampled. Both the tracking and scimeta/sysmeta files are created
+in the 'results' directory:
+
+```
+result/
+|-- TFRI # A Member Node
+|   ├-- Ecological_Metadata_Language_version_2.0.1
+|   |   └-- xml
+|   |       ├-- 00000-metadata.xml
+|   |       ├-- 00001-metadata.xml
+|   |       ├-- 00002-metadata.xml
+|   |       └-- 00004-metadata.xml
+|   ├-- Ecological_Metadata_Language_version_2.1.1
+|   |   └-- xml
+|   |       └-- 00003-metadata.xml
+|   └-- sysmeta
+|       └-- xml
+|           ├-- 00000-sysmeta.xml
+|           ├-- 00001-sysmeta.xml
+|           ├-- 00002-sysmeta.xml
+|           ├-- 00003-sysmeta.xml
+|           └-- 00004-sysmeta.xml
+├-- documents.csv # All documents on the Coordinating Node
+├-- sampled_documents.csv # Successfully sampled documents
+├-- shuffled_documents.csv # Documents shuffled by Member Node
+└-- statistics.csv # Statistics about the sampling process
+```
 
 
-def getNumResults(base_url, node):
+Before Running:
+-------------
+
+This script was designed and tested using Python 2.7.10. Using another version
+of Python 2.7.x should work but may produce incorrect results.
+
+Extra packages required:
+    - pandas (install with `pip install pandas`)
+
+
+Running:
+--------
+
+Get a random sample (w/o replacement) of 250 documents across all member nodes.
+If a member node doesn't have 250 documents, all documents from the node are
+used instead of randomly sampled.
+
+$ python sample-metadata.py
+
+
+Do the same as above but change the sample size of 250 to 50.
+
+$ python sample-metadata.py -s 50
+
+
+Sample from only one member node (KNB). Note that the full node identifier is
+passed with quotes around it.
+
+  $ python sample-metadata.py -n "urn:node:KNB"
+
+
+Sample only documents with attribute-level metadata and don't download the
+scientific metadata for each document:
+
+$ python sample-metadata.py --attribute
+
+
+Notes:
+------
+
+- The coordinating node (CN) is queried for and used to retrieve all documents
+regardless of the authoritative MN or replicaMNs.
+
+
+
+Command line arguments:
+-----------------------
+
+Run `python sample-metadata.py --help` to see this display:
+
+--node (-n): (optional) Member node identifier, e.g. urn:node:KNB
+   e.g. Sample only from KNB
+        python sample-metadata.py --node "urn:node:KNB"
+
+--sample-size (-s): (optional) Return at least {atleast} objects
+   e.g. Target a sample of 100 identifiers from each MN
+         python sample-metadata.py --sample-size 100
+
+--test (-t): (optional) Run against the test CN instead of production.
+     e.g. python sample-metadata.py --test
+
+
+--no-download (-d): (optional) Don't download scientific metadata
+    e.g. python sample-metadata.py --no-download
+
+--attribute (-a): (optional) Skip documents without attribute-level information.
+"""
     """Get the number of total results from the CN
 
     :param node: (Optional) Specify a single node to sample from.
