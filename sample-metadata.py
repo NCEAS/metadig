@@ -601,7 +601,7 @@ def makeValidFormatPath(path):
 
 
 def usage():
-    print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--test]\r\n"
+    print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--test] [--no-download] [--attribute]\r\n"
 
     print "-h, --help"
     print "\tPrint this information.\n"
@@ -612,10 +612,16 @@ def usage():
 
     print "-s, --sample-size"
     print "\tSpecify a minimum sample size per member node. e.g. --sample-size 50"
-    print "\tDefault: 250"
+    print "\tDefault: 250\n"
 
     print "-t, --test"
-    print "\tRun all queries against the development CN instead of the production CN."
+    print "\tRun all queries against the development CN instead of the production CN.\n"
+
+    print "-d, --no-download"
+    print "\tDon't download sys/scimeta files.\n"
+
+    print "-a, --attribute"
+    print "\tSkip documents without attribute-level information."
 
     return
 
@@ -624,15 +630,17 @@ if __name__ == "__main__":
     node = None # Sample all member nodes
     sample_size = 250 # Target a minimum sample of 250 objects
     base_url = "https://cn.dataone.org/cn/v1" # Production CN
+    download = True # Download scientific metadata
+    attribute = False # Include documents w/ and w/o attribute information
 
     # Parse command line arguments
     argv = sys.argv[1:]
 
     try:
-        opts, args = getopt.getopt(argv, "hn:s:t", ["help", "node=", "sample-size=", "test"])
+        opts, args = getopt.getopt(argv, "hn:s:tda", ["help", "node=", "sample-size=", "test", "no-download", "attribute"])
     except getopt.GetoptError:
         usage()
-        sys.exit(2)
+        sys.exit()
     for opt, arg in opts:
         if opt in ("-h", "--help"):
             usage()
@@ -656,8 +664,20 @@ if __name__ == "__main__":
             except:
                 print "Couldn't set CN to development. Using production instead."
 
+        elif opt in ("-d", "--no-download"):
+            try:
+                download = False
+            except:
+                print "Couldn't set --no-download option. Defaulting to downloading."
+
+        elif opt in ("-a", "--attribute"):
+            try:
+                attribute = True
+            except:
+                print "Couldn't set --attribute option. Defaulting to sampling documents with and without attribute-level information."
+
 
     try:
-        main(base_url, node, sample_size)
+        main(base_url, node, sample_size, download, attribute)
     except KeyboardInterrupt:
         sys.exit()
