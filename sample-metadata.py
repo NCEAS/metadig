@@ -142,6 +142,7 @@ import time
 import os
 import getopt
 
+
 def get_num_results(base_url, node=None, attribute=False):
     """Get the number of total results from the CN
 
@@ -283,23 +284,17 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
 
     # Check if the output file exists
     # If it does, we can skip all of this
-
     if(os.path.isfile(documents_csv_filepath)):
         print("Documents already exist. Moving onto sampling.")
-
         return
 
-
     # Check if result folder has been made
-
     result_folder = get_script_directory() + "/result"
 
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
 
-
     # Continue fetching fresh results from the server
-
     num_results = get_num_results(base_url, node, attribute)
     print("Total results: %d" % (num_results))
 
@@ -310,9 +305,7 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
     pages_required = math.ceil((num_results + 0.0) / page_size)
     print("Total pages: %d" % (pages_required))
 
-
     range_of_pages = range(1, int(pages_required) + 1)
-
     all_pages = get_page_range(base_url, node, range_of_pages, page_size, delay, attribute)
 
     documents_df = pandas.DataFrame({
@@ -322,7 +315,6 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
     documents_df.to_csv(documents_csv_filepath, index = False, encoding = "utf-8", columns=['identifier','authoritativeMN'])
 
 
-    """Generate a sample of identifiers for each MN
 def shuffle_documents():
     """Shuffle the documents by MN.
 
@@ -345,7 +337,6 @@ def shuffle_documents():
 
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
-
 
     # Read in the existing documents
     documents = pandas.read_csv(documents_csv_filepath)
@@ -489,7 +480,6 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
 
             sysmeta_path = subdirectory_path + "/sysmeta/xml"
 
-            format_id_element = meta_xml.find("./formatId")
             if not os.path.exists(sysmeta_path):
                 os.makedirs(sysmeta_path)
 
