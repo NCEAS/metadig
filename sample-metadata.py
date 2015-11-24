@@ -169,7 +169,7 @@ def get_num_results(base_url, node=None, attribute=False):
 
     query_url += "&rows=0&start=0"
 
-    request = urllib2.urlopen(query_url)
+    request = urlopen(query_url)
     response = request.read()
     response_xml = ET.fromstring(response)
 
@@ -263,8 +263,7 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
     :output documents.csv: A .csv file of authoritativeMN & identifiers
     """
 
-    documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
-
+    documents_csv_filepath = get_script_directory() + "/result/documents.csv"
 
     # Check if the output file exists
     # If it does, we can skip all of this
@@ -277,7 +276,7 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
 
     # Check if result folder has been made
 
-    result_folder = getScriptDirectory() + "/result"
+    result_folder = get_script_directory() + "/result"
 
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
@@ -285,7 +284,7 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
 
     # Continue fetching fresh results from the server
 
-    num_results = getNumResults(base_url, node);
+    num_results = get_num_results(base_url, node, attribute)
     print("Total results: %d" % (num_results))
 
     if num_results is 0:
@@ -298,7 +297,7 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
 
     range_of_pages = range(1, int(pages_required) + 1)
 
-    all_pages = getPageRange(base_url, node, range_of_pages, page_size, delay)
+    all_pages = get_page_range(base_url, node, range_of_pages, page_size, delay, attribute)
 
     documents_df = pandas.DataFrame({
         'identifier' : all_pages[0],
