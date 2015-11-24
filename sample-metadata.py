@@ -144,7 +144,10 @@ import getopt
 def get_num_results(base_url, node=None, attribute=False):
     """Get the number of total results from the CN
 
+    :param base_url: The base URL (CN or test) to execute queries against.
     :param node: (Optional) Specify a single node to sample from.
+    :param attribute: Adds the `attribute` field to the Solr query so only
+        documents with attribute-level information will be returned.
     """
 
     query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
@@ -177,9 +180,12 @@ def get_num_results(base_url, node=None, attribute=False):
 def get_page(base_url, node=None, page=1, page_size=1000, attribute=False):
     """Get a specific page of results from the Solr index.
 
+    :param base_url: The base URL (CN or test) to execute queries against.
     :param node: Node to sample.
     :param page: Page of results to get.
     :param page_size: Number of results in the page.
+    :param attribute: Adds the `attribute` field to the Solr query so only
+        documents with attribute-level information will be returned.
     """
 
     identifiers = []
@@ -217,10 +223,13 @@ def get_page(base_url, node=None, page=1, page_size=1000, attribute=False):
 def get_page_range(base_url, node, page_range, page_size, delay=None, attribute=False):
     """Get a range of pages from the Solr index.
 
+    :base_url: The base URL (CN or test) to execute queries against.
     :param node: Node to sample.
     :param page_range: Range of pages to get.
     :param page_size: Number of results per page.
     :param delay: Delay, in seconds, between requests.
+    :param attribute: Adds the `attribute` field to the Solr query so only
+        documents with attribute-level information will be returned.
     """
 
     identifiers = []
@@ -243,9 +252,12 @@ def get_page_range(base_url, node, page_range, page_size, delay=None, attribute=
 def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=False):
     """Get all possible pages from the Solr index.
 
+    :base_url: The base URL (CN or test) to execute queries against.
     :param node: (Optional) Specify a single node to query for.
     :param page_size: Number of results per page.
     :param delay: Delay, in seconds, between requests.
+    :param attribute: Adds the `attribute` field to the Solr query so only
+        documents with attribute-level information will be returned.
 
     :output documents.csv: A .csv file of authoritativeMN & identifiers
     """
@@ -298,10 +310,12 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
 
     """Generate a sample of identifiers for each MN
 def shuffle_documents():
+    """Shuffle the documents by MN.
 
-    :param sample_size: Number of identifiers for each MN
+    This function reads in the documents.csv file and shuffles the documents
+    contained inside by Member Node.
 
-    :output sampled_documents.csv: A .csv file of sampled authoritativeMN & identifiers.
+    :output shuffled_documents.csv: A .csv file for shuffled documents.
     """
 
     documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
@@ -354,10 +368,18 @@ def shuffle_documents():
     return
 
 def sample_documents(base_url, sample_size=250, delay=None, download=True, attribute=False):
+    """Get and save meta and object XML from node.
 
-    """Get and save meta and object XML from node
+    Targets the sample size given. This often results in sampling the given
+    number of documents but for member nodes with fewer documents than the
+    sample size, all documents will be sampled.
 
+    :base_url: The base URL (CN or test) to execute queries against.
+    :param sample_size: Sample size target to aim for.
     :param delay: Delay, in seconds, between getting documents.
+    :param download: Skip downloading of scientific metadata
+    :param attribute: Adds the `attribute` field to the Solr query so only
+        documents with attribute-level information will be returned.
 
     :output Subdirectories of the folder `result`, in the form of
              `result/{NODE_IDENTIFIER}/{INDEX}-{meta-object}.xml`
@@ -476,7 +498,7 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
 def get_meta_xml(base_url, identifier):
     """Get system (meta) metadata as XML
 
-    :param base_url: Base URL of the CN or MN used to get metadata
+    :param base_url: The base URL (CN or test) to execute queries against.
     :param identifier: Metadata identifier.
     """
 
@@ -496,7 +518,7 @@ def get_meta_xml(base_url, identifier):
 def get_object_xml(base_url, identifier):
     """Get research (object) metadata XML
 
-    :param base_url: Base URL of the CN or MN used to get metadata
+    :param base_url: The base URL (CN or test) to execute queries against.
     :param identifier: Metadata identifier.
     """
 
@@ -517,6 +539,8 @@ def get_object_xml(base_url, identifier):
 
 def get_node_list(base_url):
     """Get list of CNs and MNs
+
+    :param base_url: The base URL (CN or test) to execute queries against.
 
     :returns Hash of {identifier/type/base_url}
     """
@@ -542,6 +566,8 @@ def get_node_list(base_url):
 
 def get_format_list(base_url):
     """Get list of data and metadata formats
+
+    :param base_url: The base URL (CN or test) to execute queries against.
 
     :returns Hash of {identifier,name,type,dirname} indexed on identifier
     """
