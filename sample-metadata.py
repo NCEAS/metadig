@@ -535,7 +535,6 @@ def get_meta_xml(base_url, identifier):
     :param identifier: Metadata identifier.
     """
 
-    print "Getting system metadata XML for `%s`." % identifier
     query_url = base_url + "/meta/" + quote_plus(identifier)
 
     try:
@@ -555,7 +554,6 @@ def get_object_xml(base_url, identifier):
     :param identifier: Metadata identifier.
     """
 
-    print "Getting science metadata XML for `%s`." % identifier
     query_url = base_url + "/object/" + quote_plus(identifier)
 
     try:
