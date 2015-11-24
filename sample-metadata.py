@@ -384,114 +384,162 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
              `result/{NODE_IDENTIFIER}/{INDEX}-{meta-object}.xml`
     """
 
-    sampled_documents_filepath = getScriptDirectory() + "/result/sampled_documents.csv"
+    shuffled_documents_filepath = get_script_directory() + "/result/shuffled_documents.csv"
+    sampled_documents_filepath = get_script_directory() + "/result/sampled_documents.csv"
+    statistics_filepath = get_script_directory() + "/result/statistics.csv"
 
-    # Check if sample exists
-    if not os.path.isfile(sampled_documents_filepath):
-        print "getAndSaveDocuments() was called but sampled_documents.csv doesn't exist."
-
+    # Check if shuffled documents file exists
+    if not os.path.isfile(shuffled_documents_filepath):
+        print "sample_documents() was called but results/shuffled_documents.csv doesn't exist. Exiting."
         return
 
-
     # Get and save each document in the sample
-    documents = pandas.read_csv(sampled_documents_filepath)
-    nodes = getNodeList(base_url)
-    formats = getFormatList(base_url)
+    documents = pandas.read_csv(shuffled_documents_filepath)
+    nodes = get_node_list(base_url)
+    formats = get_format_list(base_url)
 
-    print("Total sampled documents to save: %d" % documents.shape[0])
+    unique_mns = pandas.unique(documents['authoritativeMN'])
+    sampled = pandas.DataFrame({'identifier' : [], 'authoritativeMN' : []})
+
+    # Store statisitcs, indexed by MN, with data on total documents and
+    # sampled documents
+    statistics = {}
+
+    for mn in unique_mns:
+        documents_mn = documents[documents.authoritativeMN == mn]
+        sampled_mn = pandas.DataFrame({'identifier' : [], 'authoritativeMN' : []})
+
+        # Initialize statistics for the current MN
+        if mn not in statistics:
+            statistics[mn] = { 'total': 0, 'sampled': 0}
+
+        statistics[mn]['total'] = documents_mn.shape[0]
+
+        # Initialize tracking variables
+        i = -1 # Track the row in the shuffled documents we're on
+        sampled_count = 0 # Track the number of successfully sampled documents
+
+        # Work as long as we...
+        # 1. Haven't hit our sample size
+        # 2. Haven't hit the last document we could sample
+        while sampled_count < sample_size and i < (documents_mn.shape[0] - 1):
+            # Incrememnt row indexer
+            i+= 1
+
+            # Get the identifier and node
+            document_identifier = documents_mn.iloc[i, 0]
+            node_identifier = documents_mn.iloc[i, 1]
+
+            # Get sysmeta and scimeta files
+            meta_xml = get_meta_xml(base_url, document_identifier)
+
+            if meta_xml is None:
+                continue
+
+            if delay is not None:
+                time.sleep(delay)
+
+            if download:
+                object_xml = get_object_xml(base_url, document_identifier)
+
+            if delay is not None:
+                time.sleep(delay)
+
+            if download is True and object_xml is None:
+                continue
+
+            # Determine if the node identifier is in the Node list.
+            # If not, it is an invalid node id, and should be replaced with
+            # the authoritativeMN from the system metadat
+            #
+            if (node_identifier not in nodes):
+                if meta_xml is not None:
+                    node_id_element = meta_xml.find("./authoritativeMN")
+                    if node_id_element is not None:
+                        node_identifier = node_id_element.text
 
 
-    for i in range(0, documents.shape[0]):
-        print "[%d of %d]" % (i + 1, documents.shape[0])
+            # Remove "urn:node:" from node_identifier
+            #
+            # This remove redundant text from the folder names
+            # but also deals with how Mac OS handles colons in file paths.
+            # Mac OS considers colons (:) to separate folders in a file
+            # hierarchy so ./result/urn:node:foo will be shown in Cocoa apps as
+            # ./result/urn/node/foo where urn/node/foo is the folder name.
+            # This is confusing because the folder appears with colons when viewed
+            # from the terminal. This fixes removes the ambiguity between the terminal
+            # and Cocoa applications.
 
-        node_identifier = documents.iloc[i, 0]
+            node_short_identifier = node_identifier.split(":")
+            node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 
+            # Make the subdirectories to store files
+            subdirectory_path = get_script_directory() + "/result/" + node_short_identifier
 
-        # Get the meta and object XML
-        document_identifier = documents.iloc[i, 1]
-        meta_xml = getIdentifierMetaXML(base_url, document_identifier)
+            # Don't get metadata again if directory exists for identifier
+            if not os.path.exists(subdirectory_path):
+                os.makedirs(subdirectory_path)
 
-
-        # Determine if the node identifier is in the Node list.
-        # If not, it is an invalid node id, and should be replaced with
-        # the authoritativeMN from the system metadata
-
-        valid_node = True
-
-        if (node_identifier not in nodes):
-            valid_node = False
-
-            if meta_xml is not None:
-                node_id_element = meta_xml.find("./authoritativeMN")
-
-                if node_id_element is not None:
-                    node_identifier = node_id_element.text
-
-
-        # Remove "urn:node:" from node_identifier
-        #
-        # This remove redundant text from the folder names
-        # but also deals with how Mac OS handles colons in file paths.
-        # Mac OS considers colons (:) to separate folders in a file
-        # hierarchy so ./result/urn:node:foo will be shown in Cocoa apps as
-        # ./result/urn/node/foo where urn/node/foo is the folder name.
-        # This is confusing because the folder appears with colons when viewed
-        # from the terminal. This fixes removes the ambiguity between the terminal
-        # and Cocoa applications.
-
-        node_short_identifier = node_identifier.split(":")
-        node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
-
-        # Make the subdirectories to store files
-        subdirectory_path = getScriptDirectory() + "/result/" + node_short_identifier
-
-
-        # Don't get metadata again if directory exists for identifier
-        if not os.path.exists(subdirectory_path):
-            os.makedirs(subdirectory_path)
-
-
-        if delay is not None:
-            time.sleep(delay)
-
-
-
-        # Extract the formatId from the sysmeta
-
-        format_path = None
-
-        if meta_xml is not None:
+            # Extract the formatId from the sysmeta
+            format_path = None
             format_id_element = meta_xml.find("./formatId")
 
             if format_id_element is not None:
                 format_path = formats[format_id_element.text]['formatPath']
 
-        if format_path is None:
-            print "\t\tFailed to extract metadata format from system metadata file. Continuing."
+            if format_path is None:
+                print "Failed to extract metadata format from system metadata file. Continuing."
+                continue
 
-            continue
+            sysmeta_path = subdirectory_path + "/sysmeta/xml"
 
-        object_xml = getIdentifierObjectXML(base_url, document_identifier)
+            format_id_element = meta_xml.find("./formatId")
+            if not os.path.exists(sysmeta_path):
+                os.makedirs(sysmeta_path)
 
-        if delay is not None:
-            time.sleep(delay)
+            if meta_xml is not None:
+                try:
+                    meta_filepath = sysmeta_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml"
+                    ET.ElementTree(meta_xml).write(meta_filepath)
+                except:
+                    print "Failed to write sysmeta for %s." % document_identifier
+                    continue
+
+            metadata_path = subdirectory_path + "/" + format_path + "/xml"
+
+            if not os.path.exists(metadata_path):
+                os.makedirs(metadata_path)
+
+            if object_xml is not None:
+                try:
+                    object_filepath = metadata_path + "/" + str(i).rjust(5, '0') + "-metadata.xml"
+                    ET.ElementTree(object_xml).write(object_filepath)
+                except:
+                    print "Failed to write sysmeta for %s." % document_identifier
+                    continue
 
 
-        sysmeta_path = subdirectory_path + "/sysmeta/xml"
+            # If we got this far, we've sampled the file
+            # Verify we successfully download the object XML
+            # Then save it in sampled.csv
 
-        if not os.path.exists(sysmeta_path):
-            os.makedirs(sysmeta_path)
+            if not os.path.isfile(object_filepath):
+                print "Object XML file not found. Skipping."
+                continue
 
-        if meta_xml is not None:
-            ET.ElementTree(meta_xml).write(sysmeta_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml")
+            sampled = pandas.concat([sampled, pandas.DataFrame([{'identifier': document_identifier, 'authoritativeMN': node_identifier}])])
+            sampled_count += 1
+            statistics[mn]['sampled'] += 1
 
-        metadata_path = subdirectory_path + "/" + format_path + "/xml"
+            print "[%s][%s][%d/%d]" % (mn, document_identifier, sampled_count, sample_size)
 
-        if not os.path.exists(metadata_path):
-            os.makedirs(metadata_path)
 
-        if object_xml is not None:
-            ET.ElementTree(object_xml).write(metadata_path + "/" + str(i).rjust(5, '0') + "-metadata.xml")
+    # Write out sampled.csv file
+    sampled.to_csv(sampled_documents_filepath, index = False, encoding = "utf-8", columns=['identifier','authoritativeMN'])
+
+    # Write out statisitcs csv file
+    statistics_df = pandas.DataFrame.from_dict(statistics, orient='index')
+    statistics_df.to_csv(statistics_filepath, encoding = "utf-8")
 
 
 def get_meta_xml(base_url, identifier):
