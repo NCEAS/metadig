@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-#
+
 """sample-metadata.py
 Author: Bryce Mecum (mecum@nceas.ucsb.edu)
 
@@ -152,7 +152,8 @@ def get_num_results(base_url, node=None, attribute=False):
         documents with attribute-level information will be returned.
     """
 
-    query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
+    query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN"
+    query_url += "&q=formatType:METADATA+AND+-obsoletedBy:*"
 
     # Add field for getting only documents with attribute-level information
     if attribute is True:
@@ -167,10 +168,10 @@ def get_num_results(base_url, node=None, attribute=False):
     # by authoritativeMN.
 
     if node is not None:
-        node_short_identifier = node.split(":")
+        short_identifier = node.split(":")
 
-        node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
-        query_url += "+AND+datasource:*" + node_short_identifier
+        short_identifier = short_identifier[len(short_identifier) - 1]
+        query_url += "+AND+datasource:*" + short_identifier
 
     query_url += "&rows=0&start=0"
 
@@ -200,16 +201,17 @@ def get_page(base_url, node=None, page=1, page_size=1000, attribute=False):
     param_rows = page_size
     param_start = (page - 1) * page_size
 
-    query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
+    query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN"
+    query += "&q=formatType:METADATA+AND+-obsoletedBy:*"
 
     if attribute:
         query_url += "+AND+attribute:*"
 
     if node is not None:
-        node_short_identifier = node.split(":")
-        node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
+        node_identifier = node.split(":")
+        node_identifier = node_identifier[len(node_identifier) - 1]
 
-        query_url += "+AND+datasource:*" + node_short_identifier
+        query_url += "+AND+datasource:*" + node_identifier
 
     query_url += "&rows=" + str(param_rows) + "&start=" + str(param_start)
 
@@ -240,7 +242,8 @@ def get_page(base_url, node=None, page=1, page_size=1000, attribute=False):
     return (identifiers, authoritativeMNs)
 
 
-def get_page_range(base_url, node, page_range, page_size, delay=None, attribute=False):
+def get_page_range(base_url, node, page_range, page_size, delay=None,
+                   attribute=False):
     """Get a range of pages from the Solr index.
 
     :base_url: The base URL (CN or test) to execute queries against.
@@ -267,7 +270,8 @@ def get_page_range(base_url, node, page_range, page_size, delay=None, attribute=
     return (identifiers, authoritativeMNs)
 
 
-def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=False):
+def get_documents(base_url, node=None, page_size=1000, delay=None,
+                  attribute=False):
     """Get all possible pages from the Solr index.
 
     :base_url: The base URL (CN or test) to execute queries against.
@@ -306,13 +310,15 @@ def get_documents(base_url, node=None, page_size=1000, delay=None, attribute=Fal
     print("Total pages: %d" % (pages_required))
 
     range_of_pages = range(1, int(pages_required) + 1)
-    all_pages = get_page_range(base_url, node, range_of_pages, page_size, delay, attribute)
+    all_pages = get_page_range(base_url, node, range_of_pages, page_size, delay,
+                               attribute)
 
     documents_df = pandas.DataFrame({
         'identifier' : all_pages[0],
         'authoritativeMN' : all_pages[1]})
 
-    documents_df.to_csv(documents_csv_filepath, index = False, encoding = "utf-8", columns=['identifier','authoritativeMN'])
+    documents_df.to_csv(documents_csv_filepath, index=False, encoding="utf-8",
+                        columns=['identifier','authoritativeMN'])
 
 
 def shuffle_documents():
@@ -325,7 +331,8 @@ def shuffle_documents():
     """
 
     documents_csv_filepath = get_script_directory() + "/result/documents.csv"
-    shuffled_documents_filepath = get_script_directory() + "/result/shuffled_documents.csv"
+    shuffled_documents_filepath = get_script_directory() + \
+        "/result/shuffled_documents.csv"
 
     # Check if the sample already exists
     if(os.path.isfile(shuffled_documents_filepath)):
@@ -347,13 +354,17 @@ def shuffle_documents():
     # Shuffle and append each MN's documents
     for mn in unique_mns:
         documents_mn = documents[documents.authoritativeMN == mn]
-        shuffled_mn = documents_mn.reindex(numpy.random.permutation(documents_mn.index))
+        shuffled_mn = documents_mn.reindex(numpy.random.permutation( \
+            documents_mn.index))
+
         shuffled = pandas.concat([shuffled, shuffled_mn])
 
-    shuffled.to_csv(shuffled_documents_filepath, index=False, encoding="utf-8", columns=["identifier", "authoritativeMN"])
+    shuffled.to_csv(shuffled_documents_filepath, index=False, encoding="utf-8",
+                    columns=["identifier", "authoritativeMN"])
 
 
-def sample_documents(base_url, sample_size=250, delay=None, download=True, attribute=False):
+def sample_documents(base_url, sample_size=250, delay=None, download=True,
+                     attribute=False):
     """Get and save meta and object XML from node.
 
     Targets the sample size given. This often results in sampling the given
@@ -371,13 +382,16 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
              `result/{NODE_IDENTIFIER}/{INDEX}-{meta-object}.xml`
     """
 
-    shuffled_documents_filepath = get_script_directory() + "/result/shuffled_documents.csv"
-    sampled_documents_filepath = get_script_directory() + "/result/sampled_documents.csv"
+    shuffled_documents_filepath = get_script_directory() + \
+        "/result/shuffled_documents.csv"
+    sampled_documents_filepath = get_script_directory() + \
+        "/result/sampled_documents.csv"
     statistics_filepath = get_script_directory() + "/result/statistics.csv"
 
     # Check if shuffled documents file exists
     if not os.path.isfile(shuffled_documents_filepath):
-        print "sample_documents() was called but results/shuffled_documents.csv doesn't exist. Exiting."
+        print "sample_documents() was called but results/shuffled_documents.csv\
+            doesn't exist. Exiting."
         return
 
     # Get and save each document in the sample
@@ -394,7 +408,7 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
 
     for mn in unique_mns:
         documents_mn = documents[documents.authoritativeMN == mn]
-        sampled_mn = pandas.DataFrame({'identifier' : [], 'authoritativeMN' : []})
+        sampled_mn = pandas.DataFrame({'identifier': [],'authoritativeMN': []})
 
         # Initialize statistics for the current MN
         if mn not in statistics:
@@ -448,20 +462,20 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
 
             # Remove "urn:node:" from node_identifier
             #
-            # This remove redundant text from the folder names
-            # but also deals with how Mac OS handles colons in file paths.
-            # Mac OS considers colons (:) to separate folders in a file
-            # hierarchy so ./result/urn:node:foo will be shown in Cocoa apps as
-            # ./result/urn/node/foo where urn/node/foo is the folder name.
-            # This is confusing because the folder appears with colons when viewed
-            # from the terminal. This fixes removes the ambiguity between the terminal
-            # and Cocoa applications.
+            # This remove redundant text from the folder names but also deals
+            # with how Mac OS handles colons in file paths. Mac OS considers
+            # colons (:) to separate folders in a file hierarchy so
+            # ./result/urn:node:foo will be shown in Cocoa apps as
+            # ./result/urn/node/foo where urn/node/foo is the folder name. This
+            # is confusing because the folder appears with colons when viewed
+            # from the terminal. This fixes removes the ambiguity between the
+            # terminal and Cocoa applications.
 
-            node_short_identifier = node_identifier.split(":")
-            node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
+            node_short = node_identifier.split(":")
+            node_short = node_short[len(node_short) - 1]
 
             # Make the subdirectories to store files
-            subdirectory_path = get_script_directory() + "/result/" + node_short_identifier
+            subdirectory_path = get_script_directory() + "/result/" + node_short
 
             # Don't get metadata again if directory exists for identifier
             if not os.path.exists(subdirectory_path):
@@ -475,7 +489,8 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
                 format_path = formats[format_id_element.text]['formatPath']
 
             if format_path is None:
-                print "Failed to extract metadata format from system metadata file. Continuing."
+                print "Failed to extract metadata format from system metadata \
+                    file. Continuing."
                 continue
 
             sysmeta_path = subdirectory_path + "/sysmeta/xml"
@@ -485,10 +500,12 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
 
             if meta_xml is not None:
                 try:
-                    meta_filepath = sysmeta_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml"
+                    meta_filepath = sysmeta_path + "/" + str(i).rjust(5, '0') +\
+                        "-sysmeta.xml"
                     ET.ElementTree(meta_xml).write(meta_filepath)
                 except:
-                    print "Failed to write sysmeta for %s." % document_identifier
+                    print "Failed to write sysmeta for %s." % \
+                        document_identifier
                     continue
 
             metadata_path = subdirectory_path + "/" + format_path + "/xml"
@@ -498,7 +515,9 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
 
             if object_xml is not None:
                 try:
-                    object_filepath = metadata_path + "/" + str(i).rjust(5, '0') + "-metadata.xml"
+                    object_filepath = metadata_path + "/" + \
+                        str(i).rjust(5, '0') + \
+                        "-metadata.xml"
                     ET.ElementTree(object_xml).write(object_filepath)
                 except:
                     print "Failed to write sysmeta for %s." % document_identifier
@@ -513,15 +532,24 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True, attri
                 print "Object XML file not found. Skipping."
                 continue
 
-            sampled = pandas.concat([sampled, pandas.DataFrame([{'identifier': document_identifier, 'authoritativeMN': node_identifier}])])
+            sampled = pandas.concat([sampled, pandas.DataFrame( \
+            [
+                {
+                    'identifier': document_identifier,
+                    'authoritativeMN': node_identifier
+                }
+            ])])
+
             sampled_count += 1
             statistics[mn]['sampled'] += 1
 
-            print "[%s][%d/%d][%s]" % (mn, sampled_count, sample_size, document_identifier)
+            print "[%s][%d/%d][%s]" % (mn, sampled_count, sample_size, \
+                document_identifier)
 
 
     # Write out sampled.csv file
-    sampled.to_csv(sampled_documents_filepath, index = False, encoding = "utf-8", columns=['identifier','authoritativeMN'])
+    sampled.to_csv(sampled_documents_filepath, index=False, encoding="utf-8",
+                   columns=['identifier','authoritativeMN'])
 
     # Write out statisitcs csv file
     statistics_df = pandas.DataFrame.from_dict(statistics, orient='index')
@@ -590,7 +618,10 @@ def get_node_list(base_url):
         node_type = n.attrib["type"]
         node_base_url = n.find("baseURL").text
 
-        node_list[node_identifier] = { "identifier" : node_identifier, "type" : node_type, "base_url" : node_base_url }
+        node_list[node_identifier] = { "identifier": node_identifier,
+                                       "type": node_type,
+                                       "base_url" : node_base_url
+                                     }
 
     return node_list
 
@@ -618,7 +649,11 @@ def get_format_list(base_url):
         fmt_type = f.find("formatType").text
         fmt_path = make_valid_format_path(fmt_name)
 
-        fmt_list[fmt_identifier] = { "formatId" : fmt_identifier, "formatName" : fmt_name, "formatType" : fmt_type, "formatPath" : fmt_path }
+        fmt_list[fmt_identifier] = { "formatId": fmt_identifier,
+                                     "formatName" : fmt_name,
+                                     "formatType" : fmt_type,
+                                     "formatPath" : fmt_path
+                                   }
 
     return fmt_list
 
@@ -629,7 +664,8 @@ def main(base_url, node, sample_size, download, attribute):
     """
     delay = 0.1
 
-    get_documents(base_url, node=node, delay=delay, attribute=attribute) # Depends on document.csv
+    # Depends on document.csv
+    get_documents(base_url, node=node, delay=delay, attribute=attribute)
     shuffle_documents()
     sample_documents(base_url, sample_size=sample_size, delay=delay)
 
@@ -643,8 +679,8 @@ def get_script_directory():
 
 
 def make_valid_format_path(path):
-    """Returns a valid path format path string where / and : are omitted, and comma,
-    dash and whitespace sequences are changed to underscore.
+    """Returns a valid path format path string where / and : are omitted, and
+    comma, dash and whitespace sequences are changed to underscore.
 
     :param path: Path to be converted to a valid path.
 
@@ -661,7 +697,8 @@ def make_valid_format_path(path):
 
 
 def usage():
-    print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--test] [--no-download] [--attribute]\r\n"
+    print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] \
+[--sample-size SAMPLE_SIZE] [--test] [--no-download] [--attribute]\r\n"
 
     print "-h, --help"
     print "\tPrint this information.\n"
@@ -671,11 +708,13 @@ def usage():
     print "\tOmitting this switch will sample from ALL member nodes.\n"
 
     print "-s, --sample-size"
-    print "\tSpecify a minimum sample size per member node. e.g. --sample-size 50"
+    print "\tSpecify a minimum sample size per member node. e.g. \
+--sample-size 50"
     print "\tDefault: 250\n"
 
     print "-t, --test"
-    print "\tRun all queries against the development CN instead of the production CN.\n"
+    print "\tRun all queries against the development CN instead of the \
+production CN.\n"
 
     print "-d, --no-download"
     print "\tDon't download sys/scimeta files.\n"
@@ -697,7 +736,8 @@ if __name__ == "__main__":
     argv = sys.argv[1:]
 
     try:
-        opts, args = getopt.getopt(argv, "hn:s:tda", ["help", "node=", "sample-size=", "test", "no-download", "attribute"])
+        opts, args = getopt.getopt(argv, "hn:s:tda", ["help", "node=",
+            "sample-size=", "test", "no-download", "attribute"])
     except getopt.GetoptError:
         usage()
         sys.exit()
@@ -722,19 +762,22 @@ if __name__ == "__main__":
             try:
                 base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1"
             except:
-                print "Couldn't set CN to development. Using production instead."
+                print "Couldn't set CN to development. Using production \
+                    instead."
 
         elif opt in ("-d", "--no-download"):
             try:
                 download = False
             except:
-                print "Couldn't set --no-download option. Defaulting to downloading."
+                print "Couldn't set --no-download option. Defaulting to \
+                    downloading."
 
         elif opt in ("-a", "--attribute"):
             try:
                 attribute = True
             except:
-                print "Couldn't set --attribute option. Defaulting to sampling documents with and without attribute-level information."
+                print "Couldn't set --attribute option. Defaulting to sampling \
+                    documents with and without attribute-level information."
 
 
     try:
