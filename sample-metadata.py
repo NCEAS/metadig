@@ -202,7 +202,7 @@ def get_page(base_url, node=None, page=1, page_size=1000, attribute=False):
     param_start = (page - 1) * page_size
 
     query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN"
-    query += "&q=formatType:METADATA+AND+-obsoletedBy:*"
+    query_url += "&q=formatType:METADATA+AND+-obsoletedBy:*"
 
     if attribute:
         query_url += "+AND+attribute:*"
