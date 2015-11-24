@@ -255,8 +255,6 @@ def get_page_range(base_url, node, page_range, page_size, delay=None, attribute=
     authoritativeMNs = []
 
     for p in page_range:
-        print "Getting page %d" % (p)
-
         page_result = getPage(base_url, node, page = p)
 
         identifiers = identifiers + page_result[0]
@@ -549,15 +547,15 @@ def get_meta_xml(base_url, identifier):
     :param identifier: Metadata identifier.
     """
 
-    query_url = base_url + "/meta/" + urllib.quote_plus(identifier)
-    print("\t\t%s" % query_url)
+    print "Getting system metadata XML for `%s`." % identifier
+    query_url = base_url + "/meta/" + quote_plus(identifier)
 
     try:
         request = urllib2.urlopen(query_url)
         response = request.read()
         response_xml = ET.fromstring(response)
     except:
-        print "\t\tFailed request: %s" % query_url
+        print "Failed request: %s" % query_url
         response_xml = None
 
     return response_xml
@@ -569,15 +567,15 @@ def get_object_xml(base_url, identifier):
     :param identifier: Metadata identifier.
     """
 
-    query_url = base_url + "/object/" + urllib.quote_plus(identifier)
-    print("\t\t%s" % query_url)
+    print "Getting science metadata XML for `%s`." % identifier
+    query_url = base_url + "/object/" + quote_plus(identifier)
 
     try:
         request = urllib2.urlopen(query_url)
         response = request.read()
         response_xml = ET.fromstring(response)
     except:
-        print "\t\tFailed request: %s" % query_url
+        print "Failed request: %s" % query_url
 
         response_xml = None
 
