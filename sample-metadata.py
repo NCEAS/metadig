@@ -128,6 +128,19 @@ Run `python sample-metadata.py --help` to see this display:
 
 --attribute (-a): (optional) Skip documents without attribute-level information.
 """
+
+from urllib import quote_plus
+from urllib2 import urlopen
+import xml.etree.ElementTree as ET
+import re
+import sys
+import math
+import pandas
+import numpy
+import time
+import os
+import getopt
+
     """Get the number of total results from the CN
 
     :param node: (Optional) Specify a single node to sample from.
@@ -607,20 +620,6 @@ def usage():
     return
 
 if __name__ == "__main__":
-    import urllib # for quote_plus
-    import urllib2 # for the rest (urlopen, etc)
-    import xml.etree.ElementTree as ET
-    import re
-    import csv
-    import string
-    import sys
-    import math
-    import pandas
-    import numpy
-    import time
-    import os
-    import getopt
-
     # Default options
     node = None # Sample all member nodes
     sample_size = 250 # Target a minimum sample of 250 objects
