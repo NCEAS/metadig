@@ -374,7 +374,7 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True,
     :base_url: The base URL (CN or test) to execute queries against.
     :param sample_size: Sample size target to aim for.
     :param delay: Delay, in seconds, between getting documents.
-    :param download: Skip downloading of scientific metadata
+    :param download: Download scientific metadata after shuffling.
     :param attribute: Adds the `attribute` field to the Solr query so only
         documents with attribute-level information will be returned.
 
@@ -440,6 +440,8 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True,
             if delay is not None:
                 time.sleep(delay)
 
+            object_xml = None
+
             if download:
                 object_xml = get_object_xml(base_url, document_identifier)
 
@@ -449,56 +451,61 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True,
             if download is True and object_xml is None:
                 continue
 
-            # Determine if the node identifier is in the Node list.
-            # If not, it is an invalid node id, and should be replaced with
-            # the authoritativeMN from the system metadat
-            #
-            if (node_identifier not in nodes):
-                if meta_xml is not None:
-                    node_id_element = meta_xml.find("./authoritativeMN")
-                    if node_id_element is not None:
-                        node_identifier = node_id_element.text
+            # This somewhat-nasty if statement controls whether or not we do
+            # the work related to downloading and storing files. This should be
+            # factored out into a method but more parts of the program would
+            # need to be rewritten to make that easy.
+
+            if download:
+                # Determine if the node identifier is in the Node list.
+                # If not, it is an invalid node id, and should be replaced with
+                # the authoritativeMN from the system metadat
+                #
+                if (node_identifier not in nodes):
+                    if meta_xml is not None:
+                        node_id_element = meta_xml.find("./authoritativeMN")
+                        if node_id_element is not None:
+                            node_identifier = node_id_element.text
 
 
-            # Remove "urn:node:" from node_identifier
-            #
-            # This remove redundant text from the folder names but also deals
-            # with how Mac OS handles colons in file paths. Mac OS considers
-            # colons (:) to separate folders in a file hierarchy so
-            # ./result/urn:node:foo will be shown in Cocoa apps as
-            # ./result/urn/node/foo where urn/node/foo is the folder name. This
-            # is confusing because the folder appears with colons when viewed
-            # from the terminal. This fixes removes the ambiguity between the
-            # terminal and Cocoa applications.
+                # Remove "urn:node:" from node_identifier
+                #
+                # This remove redundant text from the folder names but also deals
+                # with how Mac OS handles colons in file paths. Mac OS considers
+                # colons (:) to separate folders in a file hierarchy so
+                # ./result/urn:node:foo will be shown in Cocoa apps as
+                # ./result/urn/node/foo where urn/node/foo is the folder name. This
+                # is confusing because the folder appears with colons when viewed
+                # from the terminal. This fixes removes the ambiguity between the
+                # terminal and Cocoa applications.
 
-            node_short = node_identifier.split(":")
-            node_short = node_short[len(node_short) - 1]
+                node_short = node_identifier.split(":")
+                node_short = node_short[len(node_short) - 1]
 
-            # Make the subdirectories to store files
-            subdirectory_path = get_script_directory() + "/result/" + node_short
+                # Make the subdirectories to store files
+                subdirectory_path = get_script_directory() + "/result/" + node_short
 
-            # Don't get metadata again if directory exists for identifier
-            if not os.path.exists(subdirectory_path):
-                os.makedirs(subdirectory_path)
+                # Don't get metadata again if directory exists for identifier
+                if not os.path.exists(subdirectory_path):
+                    os.makedirs(subdirectory_path)
 
-            # Extract the formatId from the sysmeta
-            format_path = None
-            format_id_element = meta_xml.find("./formatId")
+                # Extract the formatId from the sysmeta
+                format_path = None
+                format_id_element = meta_xml.find("./formatId")
 
-            if format_id_element is not None:
-                format_path = formats[format_id_element.text]['formatPath']
+                if format_id_element is not None:
+                    format_path = formats[format_id_element.text]['formatPath']
 
-            if format_path is None:
-                print "Failed to extract metadata format from system metadata \
-                    file. Continuing."
-                continue
+                if format_path is None:
+                    print "Failed to extract metadata format from system metadata \
+                        file. Continuing."
+                    continue
 
-            sysmeta_path = subdirectory_path + "/sysmeta/xml"
+                sysmeta_path = subdirectory_path + "/sysmeta/xml"
 
-            if not os.path.exists(sysmeta_path):
-                os.makedirs(sysmeta_path)
+                if not os.path.exists(sysmeta_path):
+                    os.makedirs(sysmeta_path)
 
-            if meta_xml is not None:
                 try:
                     meta_filepath = sysmeta_path + "/" + str(i).rjust(5, '0') +\
                         "-sysmeta.xml"
@@ -508,12 +515,11 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True,
                         document_identifier
                     continue
 
-            metadata_path = subdirectory_path + "/" + format_path + "/xml"
+                metadata_path = subdirectory_path + "/" + format_path + "/xml"
 
-            if not os.path.exists(metadata_path):
-                os.makedirs(metadata_path)
+                if not os.path.exists(metadata_path):
+                    os.makedirs(metadata_path)
 
-            if object_xml is not None:
                 try:
                     object_filepath = metadata_path + "/" + \
                         str(i).rjust(5, '0') + \
@@ -524,13 +530,13 @@ def sample_documents(base_url, sample_size=250, delay=None, download=True,
                     continue
 
 
-            # If we got this far, we've sampled the file
-            # Verify we successfully download the object XML
-            # Then save it in sampled.csv
+                # If we got this far, we've sampled the file
+                # Verify we successfully download the object XML
+                # Then save it in sampled.csv
 
-            if not os.path.isfile(object_filepath):
-                print "Object XML file not found. Skipping."
-                continue
+                if not os.path.isfile(object_filepath):
+                    print "Object XML file not found. Skipping."
+                    continue
 
             sampled = pandas.concat([sampled, pandas.DataFrame( \
             [
@@ -667,7 +673,7 @@ def main(base_url, node, sample_size, download, attribute):
     # Depends on document.csv
     get_documents(base_url, node=node, delay=delay, attribute=attribute)
     shuffle_documents()
-    sample_documents(base_url, sample_size=sample_size, delay=delay)
+    sample_documents(base_url, sample_size=sample_size, delay=delay, download=download)
 
 
 def get_script_directory():
