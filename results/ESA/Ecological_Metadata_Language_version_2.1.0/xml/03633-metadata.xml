@@ -1,0 +1,674 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.92.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier system="University of Alberta">OSIBI_2007-2009</alternateIdentifier>
+<title>Plant community composition, environmental, and land-use data from oil sands reclamation and reference wetlands</title>
+<creator>
+<organizationName>University of Alberta</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Rebecca</givenName>
+<surName>Rooney</surName>
+</individualName>
+<organizationName>University of Alberta</organizationName>
+<address>
+<deliveryPoint>CW405 Biological Sciences Bldg</deliveryPoint>
+<city>Edmonton</city>
+<administrativeArea>Alberta</administrativeArea>
+<postalCode>T6G 2E9</postalCode>
+<country>CANADA</country>
+</address>
+<phone>(780) 722-7633</phone>
+<electronicMailAddress>rrooney@ualberta.ca</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Rebecca</givenName>
+<surName>Rooney</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Rebecca</givenName>
+<surName>Rooney</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Dr. Suzanne</givenName>
+<surName>Bayley</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2011-02-16</pubDate>
+<abstract>
+<para>Our goal was to evaluate the success of wetland reclamation efforts on oil sands mining company lease-holdings in Alberta, Canada. Already 60,200 ha of land have been disturbed by mining, and an additional 419,800 ha will be mined in the future. Wetland reclamation efforts have been underway for 35 years, and current mine closure plans call for the construction of 15,840 ha of wetland habitat. There are, however, no accepted criteria by which the Alberta Government can evaluate constructed wetlands. We employed the reference condition approach, comparing reclamation wetlands to appropriate natural analogues with plants as bioindicators of wetland condition. The dataset includes 74 wetlands, spanning a range in salinity, nutrient levels, size, and degree of human disturbance. Reclamation wetlands include those contaminated with oil sands tailings (oil sands process affected, OSPA, n = 13) and those free from tailings (oil sands reference, OSREF, n = 12). In contrast, some natural wetlands are exposed to agricultural impacts (AG, n = 12), but the majority represent our least-disturbed condition (reference wetlands, REF, n = 37). The dataset includes species relative abundance from plant communities in the wet meadow, emergent, and open-water vegetation zones. In addition, we measured water and sediment chemistry variables and physical variables to quantify local environmental conditions. We also quantified land-use surrounding 45 of the wetlands in a series of nested buffers ranging from 300 m to 2000 m from the edge of each wetland's open-water zone. This dataset represents the most comprehensive, publicly available data on reclamation wetlands from the lease areas of the two largest oil sands mining companies. It might be used to investigate changes in wetland plant community composition along both natural and human-caused environmental gradients, including contamination by oil sands mine tails. The data could also inform studies into the effects of surrounding land-use on wetland plants and local-level environmental conditions. Information about reclamation wetlands could serve as a basis for tracking reclamation trajectories over time, whereas information about reference wetlands could be used to characterize natural variability in plant communities in shallow open-water wetlands from the Boreal Plains ecoregion.</para>
+</abstract>
+<keywordSet>
+<keyword>oil sands</keyword>
+<keyword>reclamation</keyword>
+<keyword>reference condition</keyword>
+<keyword>aquatic plants</keyword>
+<keyword>wetland</keyword>
+<keyword>saline</keyword>
+<keyword>alkaline</keyword>
+<keyword>naphthenic acids</keyword>
+<keyword>submersed aquatic vegetation</keyword>
+<keyword>floating vegetation</keyword>
+<keyword>emergent vegetation</keyword>
+<keyword>wet meadow vegetation</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>Please contact Rebecca Rooney for additional information.</para>
+</additionalInfo>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2007-05-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2009-09-01</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Shallow open-water wetlands of the Boreal Plains ecoregion in Alberta and Saskatchewan, Canada</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-121.6250</westBoundingCoordinate>
+<eastBoundingCoordinate>-105.0000</eastBoundingCoordinate>
+<northBoundingCoordinate>66.8750</northBoundingCoordinate>
+<southBoundingCoordinate>46.6250</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>E.H. Moss, J.G. Packer, Flora of Alberta, 2nd ed., University of Toronto Press, Toronto, ON, 1983.
+</generalTaxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Achillea</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Acorus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Actaea</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Agrimonia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Agropyron</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Agrostis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Alisma</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Alnus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Alopecurus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Amelanchier</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Anemone</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Arctostaphylos</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Arnica</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Artemisia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Aster</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Astragalus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Atriplex</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Beckmannia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Betula</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Calamagrostis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Calla</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Caltha</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Carex</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Castilleja</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Ceratophyllum demersum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Chenopodium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Chrysoplenium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Cicuta</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Cirsium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Coptis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Cornus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Deschampsia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Descurainia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Distichlis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Drepanocladus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Eleocharis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Elodea</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Elymus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Epilobium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Equisetum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Erigeron</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Erysimum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Festuca</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Fragaria</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Galeopsis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Galium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Geranium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Geum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Glaux</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Glyceria</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Habenaria</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Hieracium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Hierochloe</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Hippuris</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Hordeum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Impatiens</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Juncus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Larix</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Lathyrus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Ledum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Lemna</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Lotus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Lycopodium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Lycopus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Lysimachia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Marchantia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Melilotus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Mentha</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Menyanthes</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Mitella</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Myrica</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Myriophyllum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Najas</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Nuphar</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Oxycoccus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Oxytropis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Parnassia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Petasites</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Phalaris</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Phragmites</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Plantago</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Poa</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Polygonum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Potamogeton</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Potentilla</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Puccinellia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Pyrola</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Ranunculus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Rhinanthus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Ricciocarpus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Rorippa</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Rosa</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Rubus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Rumex</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Ruppia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Sagittaria</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Salicornia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Salix</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Scirpus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Scolochloa</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Scutellaria</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Senecio</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Sium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Smilacina</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Solidago</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Sonchus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Sparganium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Spartina</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Stachys</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Stellaria</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Stuckenia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Suaeda</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Taraxacum</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Trifolium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Triglochin</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Typha</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Urtica</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Utricularia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Vaccinium</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Veronica</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Vicia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Viola</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Zannichellia</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Genus</taxonRankName>
+  <taxonRankValue>Zizania</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Rebecca</givenName>
+<surName>Rooney</surName>
+</individualName>
+<organizationName>University of Alberta</organizationName>
+<address>
+<deliveryPoint>CW405 Biological Sciences Bldg</deliveryPoint>
+<city>Edmonton</city>
+<administrativeArea>Alberta</administrativeArea>
+<postalCode>T6G 2E9</postalCode>
+<country>CANADA</country>
+</address>
+<phone>(780) 722-7633</phone>
+<electronicMailAddress>rrooney@ualberta.ca</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Sampling and Analysis</title>
+<para>General Sampling Scheme: 
+Each wetland was visited in spring (May or June) and again in fall (July or August), when peak vegetation biomass was expected. Generally, each wetland was divided into thirds by radial transects that passed from the upland vegetation through the wet meadow and emergent zones, and ended about 1 m into the open-water zone. Sampling of sediment, wet meadow and emergent zone vegetation, and estimates of zone width were conducted along these transects. Transects were marked, to ensure that the same transects were used in both spring and fall sampling.</para>
+<para>Water Sampling: 
+Sampling was carried out during both the spring and fall (peak biomass) visits. The deepest point of each wetland was accessed by kayak, so as not to disturb the sediment. If the water was &gt;50 cm deep, an integrated-depth sampler was used to collect a 2 L water sample. Otherwise, water samples were collected by immersing the 2L acid washed sample bottle directly. A second sample was taken in a 1 L glass jar for analysis of naphthenic acids. After collecting the water samples, Secchi depth was measured with a 20 cm diameter Secchi disk and conductivity was measured with a handheld YSI 556 Multiprobe System. Water samples were kept in coolers at about 4&#203;&#154;C until analysis.</para>
+<para>Water analysis: 
+Water samples underwent preliminary processing in the field. Water was filtered through Whatman GF/F glass microfiber filters for analysis of cations (Na+, K+, Ca2+, Mg2+ and NH4+) and anions (SO42-, Cl-, NO2-+NO3-, CO32- and HCO3-), soluble reactive phosphorus, total dissolved nitrogen, dissolved organic carbon, total dissolved phosphorus, Fe, Al, Si, and total dissolved solids. An unfiltered water subsample was retained for analysis of total nitrogen, total phosphorus, total organic carbon, alkalinity and total suspended solids. Phytoplankton Chlorophyll-a was measured using a Shimadzu RF-1501 spectrofluorophotometer at an excitation wavelength of 436 nm and an emission wavelength of 680 nm. Metals (Al, Fe) and some cations (Na+, K+, Ca2+, Mg2+) were determined using an Elan 6000, Perkin Elmer ICP-MS following accepted standard methods (AWWA 1999a). Detection limits for cations by this method were 0.0005 mg Na/L, 0.002 mg Mg/L, 0.03 mg Ca/L, and 0.006 mg K/L. Nitrogen, phosphorus, and Si were measured using a Lachat QuikChem 8500 FIA automated ion analyzer, following standard methods (AWWA 1999b, c, d, e). TN, TDN, TP, and TDP were first digested using potassium persulfate, and then measured following standard methods for NO2-+NO3- (AWWA 1999c) and SRP (AWWA 1999d), respectively. TOC and DOC were measured using a Shimadzu 5000A TOC analyzer, following U.S. EPA method 415.1 (U.S.EPA. 1979). Alkalinity, CO32-, and HCO3- were determined by titration with 0.01 M sulfuric acid. Cl- and SO42- were determined using a Dionex DX600 Ion Chromatograph and following U.S.EPA method 300.1 (Pfaff, et al. 1997). TDS and TSS were determined gravimetrically from residues obtained by oven drying at 103&#194;&#176;C. The water sample taken for analysis of naphthenic acids was processed following the Fourier-transform infrared spectroscopy method (Jivraj, et al. 1996). 
+References 
+AWWA, 3125-Metals by inductively coupled plasma/mass spectrometry, in: Standard methods for the examination of water and wastewater, American Public Health Association, American Water Works Association, and the Water Environment Federation, 1999a. 
+AWWA, 4500-NH3 F, in: Standard methods for the examination of water and wastewater, American Public Health Association, American Water Works Association, and the Water Environment Federation, 1999b. AWWA, 4500-NO3 I, in: Standard methods for the examination of water and wastewater, American Public Health Association, American Water Works Association, and the Water Environment Federation, 1999c. 
+AWWA, 4500-P F, in: Standard methods for the examination of water and wastewater, American Public Health Association, American Water Works Association, and the Water Environment Federation, 1999d. AWWA, 4500-Silica F, in: Standard methods for the examination of water and wastewater, American Public Health Association, American Water Works Association, and the Water Environment Federation, 1999e. M.N. Jivraj, M. MacKinnon, B. Fung, Naphthenic acid extraction and quantitative analysis with FT-IR Spectroscopy, in: Research Report, Syncrude Canada Ltd., Edmonton, AB, 1996, pp. 12. 
+J.D. Pfaff, D.P. Hautman, D.J. Munch, EPA method 300.1: Determination of inorganic anions in drinking water by ion chromatography, in: U.S.EPA. (Ed.), National Exposure Research Laboratory Office of Research and Development, U.S. Environmental Protection Agency, Cincinnati, Ohio, 1997, pp. 39. 
+U.S.EPA., EPA Method 415.1: Total organic carbon (combustion or oxidation), in, U.S. Environmental Protection Agency, Cincinnati, Ohio, 1979, pp. 3.</para>
+<para>Sediment sampling: 
+Sediment sampling was carried out on during fall sampling, when peak biomass was expected. There were three sediment samples collected from each wetland: one from within each of the wet meadow, emergent and open-water vegetation zones. Each sample was a composite of three replicate cores taken along transects that divided each wetland into thirds. Each core was about 10 cm deep and was collected using a suction-corer with an inner diameter of 5.72 cm. Sediment samples were extruded into zip lock bags and frozen until analysis.</para>
+<para>Sediment analysis: 
+A subsample of each sediment sample was analysed using a Coulter LS230 laser diffraction particle analyzer that measures solids ranging from 0.04 to 2000 &#194;&#181;m. The oil, water, and solids content was measured using refluxing toluene in a soxhlet extraction apparatus (Syncrude 2006). Another sub-sample was oven-dried at 60&#194;&#176;C for 48 hours and then ground and further sub-sampled for analysis of particulate carbon (PC), particulate nitrogen (PN), particulate phosphorus (PP) and loss on ignition (LOI). Sub-samples of 4 to 6 mg were measured with a Mettler Toledo XP56 microbalance (&#194;&#177; 0.001 mg) before analysis of PC and PN by combustion in an Exeter Analytical CE40 Elemental Analyzer. Sub-samples of 0.2 g were weighed using a Mettler Toledo AT261 Delta Range microbalance (&#194;&#177; 0.00001 mg) for analysis of PP using the peroxide/sulfuric acid digestion method (Parkinson and Allen 1975) and a Varian Cary 50 spectrophotometer. A 0.5 g sub-sample was weighed out using a Mettler Toledo AE240 balance (&#194;&#177; 0.0001 mg) and then placed in a muffle furnace at 550&#194;&#176;C for 4 hours and re-weighed to measure LOI. 
+
+References 
+J.A. Parkinson, S.E. Allen, A wet oxidation procedure suitable for the determination of nitrogen and mineral nutrients in biological materials., Communications in Soil Science and Plant Analysis, 6 (1975) 1-11. 
+Syncrude, Syncrude analytical methods manual: Updated 2006, Syncrude Canada Ltd. Research Department, Edmonton, AB, 2006.</para>
+<para>Amplitude: 
+During spring sampling, HOBO depth data loggers were installed either at the point of maximum depth or at an adjacent location and the difference between logger depth and maximum depth was recorded. Loggers recorded water depth every 6 hours until they were retrieved during fall sampling, when peak vegetation biomass was expected. Amplitude was calculated as the maximum depth minus the minimum depth recorded by the loggers. Where loggers failed, amplitude is recorded as NA</para>
+<para>Zone width: 
+During fall sampling, when peak biomass is expected, a surveyor&#226;&#128;&#153;s tape was used to measure the width of the emergent and wet meadow vegetation zones along each of the three transects. The three measurements were then averaged to give a mean zone width for each zone.</para>
+<para>Open-water vegetation: 
+Sampling occurred during fall visits and was conducted by kayak. Ten zig-zagging transects were made across each open-water zone, and along each transect a 1 m2 quadrat was deployed. First, the water depth in the centre point of the quadrat was measured. Second, the Secchi depth within the quadrat was measured. Third, the percent cover of floating vegetation was assessed within the boundaries of the quadrat. Fourth, the rake technique was employed to estimate relative abundance of each species of submersed vegetation present in each quadrat. Fifth, the vegetation was assigned an abundance score of between 1 and 5, where 1 = 0%, 2 = &lt; 5%, 3 = 5-25%, 4 = 25-75%, and 5 &gt;75% infestation. This density scoring technique has shown good correlation with biomass measurements (Bayley, et al. 2007). For relative abundance estimates, plants were identified to the lowest practical taxonomic level (usually species) following Moss and Packer (1983) with taxonomy updated according to the Integrated Taxonomic Information System (ITIS 2010). Voucher specimens of hard to identify species were collected, pressed, and are housed at the ALTA Vascular Plant Herbarium, at the University of Alberta. Relative abundance data was averaged across the ten quadrats to give mean percent abundance at each wetland. References S.E. Bayley, I.F. Creed, G.Z. Sass, A.S. Wong, Frequent regime shifts in trophic states in shallow lakes on the Boreal Plain: Alternative "unstable" states?, Limnology and Oceanography, 52 (2007) 2002-2012. ITIS, 2010, Integrated Taxanomic Information System Database. Accessed 20 Sep 2010. http://www.itis.gov. E.H. Moss, J.G. Packer, Flora of Alberta, 2nd ed., University of Toronto Press, Toronto, ON, 1983.</para>
+<para>Emergent vegetation: 
+Emergent vegetation sampling was carried out in the fall, when peak biomass was expected. It consisted of relative abundance estimates from six 1 m2 quadrats, height measurements within each 1 m2 quadrat, biomass clippings from three 0.25 m2 quadrats, and a 15 min time restricted diversity walk-about to increase the probability of encountering rare species. The relative abundance of species in the emergent zone was estimated within six 1 m2 quadrats. Quadrats were deployed in about the middle of the emergent vegetation zone, one on either side of each of the three transects, such that quadrats were spaced at least 5 m apart. Within each of these quadrats, plants were identified to the lowest practical taxonomic level (usually species) following Moss and Packer (1983) with taxonomy updated according to the Integrated Taxonomic Information System (ITIS 2010). The percent cover of each species was recorded, and an average of the percent cover of each species in the six 1 m2 quadrats was taken to yield mean value for each species for each wetland. The mean height of vegetation within each 1 m2 quadrat was estimated, and similarly averaged to give a single measure per wetland. Biomass clippings were taken from 0.25 m2 quadrats adjacent to each of the three transects in the emergent zone. Samples were oven dried at 60&#203;&#154;C to constant mass and then weighed to give total aboveground biomass. The three measures were averaged to give a single value per wetland. Total richness was the sum of all species observed in quadrats and any additional species encountered during the 15 min time restricted walk-about. Voucher specimens of many species were collected and are housed at the ALTA Vascular Plant Herbarium, at the University of Alberta. References ITIS, 2010, Integrated Taxanomic Information System Database. Accessed 20 Sep 2010. http://www.itis.gov. E.H. Moss, J.G. Packer, Flora of Alberta, 2nd ed., University of Toronto Press, Toronto, ON, 1983.</para>
+<para>Wet meadow vegetation: 
+Wet meadow vegetation sampling was carried out in the fall, when peak biomass was expected. It consisted of relative abundance estimates from six 1 m2 quadrats, height measurements within each 1 m2 quadrat, Robel height estimates, biomass clippings from six 0.25 m2 quadrats, and a 15 min time restricted diversity walk-about to increase the probability of encountering rare species. The relative abundance of species in the wet meadow zone was estimated within six 1 m2 quadrats. Quadrats were deployed in about the middle of the zone, one on either side of each of the three transects, such that quadrats were spaced at least 5 m apart. Within each of these quadrats, plants were identified to the lowest practical taxonomic level (usually species) following Moss and Packer (1983) with taxonomy updated according to the Integrated Taxonomic Information System (ITIS 2010). The percent cover of each species was recorded, and an average of the percent cover of each species in the six 1 m2 quadrats was taken to yield mean value for each species for each wetland. The mean height of vegetation within each 1 m2 quadrat was estimated, and similarly averaged to give a single measure per wetland. Robel height is a biomass estimate derived from visual obstruction. It is a non-destructive surrogate for biomass clippings in grasslands (Robel, et al. 1970). The visual obstruction observation was made from 4 m distant at either 1 m or 1.5 m above ground. One Robel height estimate was taken at each 1 m2 quadrat, and these six measures were then averaged to yield a single value per wetland. Biomass clippings were taken from six 0.25 m2 quadrats, two per transects in the wet meadow zone, positioned at least 5 m apart. Samples were oven dried at 60&#203;&#154;C to constant mass and then weighed to give total aboveground biomass. The three measures were averaged to give a single value per wetland. Total richness was the sum of all species observed in quadrats and any additional species encountered during the 15 min time restricted walk-about. Voucher specimens of many species were collected and are housed at the ALTA Vascular Plant Herbarium, at the University of Alberta. References ITIS, 2010, Integrated Taxanomic Information System Database. Accessed 20 Sep 2010. http://www.itis.gov. E.H. Moss, J.G. Packer, Flora of Alberta, 2nd ed., University of Toronto Press, Toronto, ON, 1983. R.I. Robel, J.N. Briggs, A.D. Dayton, L.C. Hulbert, Relationships between visual obstruction measurements and weight of grassland vegetation, J. Range Manage., 23 (1970) 295-297.</para>
+<para>GIS data: 
+A GPS was used in the field to gather latitude and longitude data for all 74 wetlands. We obtained recent (&lt;5 yrs) aerial photographs or Quickbird Pansharpened 3-Band satellite imagery of a 45 wetland subset of the entire dataset. All images were imported into a digital file for measurement using GIS software (ESRI 2009) such that the final imagery had pixels &#226;&#137;&#164;3 m in resolution. Those images missing spatial reference data were geo-referenced to existing digitized topographical maps from the Canadian National Topographic Database. Using this imagery, we measured the open-water and marsh (emergent zone plus wet meadow zone) area of each wetland. We identified 13 major land-cover types within a 2 km buffer surrounding the open water at each wetland: lentic water, lotic water, wetland, forest, open-green (lawn), agriculture (row crop and pasture), roads (paved and unpaved), residential, industrial-commercial, oil and gas, tailings water, solid tailings, and bare ground. We created a shapefile of polygons representing the 13 land-cover types by digitizing at a visual scale between 1:1000 and 1:2500 with ESRI&#194;&#174; ArcMap&#226;&#132;&#162; 9.3.1 software (ESRI 2009). We then created a series of nested buffers of different widths surrounding each open-water zone: 300 m, 500 m, 1000 m, 1500 m, and 2000 m, giving us 5 landscape sizes for each wetland. The buffer sizes were selected to reflect landscape sizes used in similar studies (e.g., Akasaka, et al. 2010; Houlahan, et al. 2006; Matthews, et al. 2009). We then extracted the percent cover of each land-cover type within each of the five buffer widths. References M. Akasaka, N. Takamura, H. Mitsuhashi, Y. Kadono, Effects of land use on aquatic macrophyte diversity and water quality of ponds, Freshwater Biology, 55 (2010) 909-922. ESRI, ArcMap, in, Environmental Systems Research Institute, Inc, Redlands, California, 2009, pp. Geographic Information Software. J.E. Houlahan, P.A. Keddy, K. Makkay, C.S. Findlay, The effects of adjacent land use on wetland species richness and community composition, Wetlands, 26 (2006) 79-96. J.W. Matthews, A.L. Peralta, D.N. Flanagan, P.M. Baldwin, A. Soni, A.D. Kent, A.G. Endress, Relative influence of landscape vs. local factors on plant community assembly in restored wetlands, Ecological Applications, 19 (2009) 2108-2123.</para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>The 74 wetlands sampled in this study are located within the Boreal Plains ecoregion of Alberta and Saskatchewan. They were visited at least once during the open water season (May to September) of 2007, 2008, and 2009. The taxanomic extent includes macrophytes, mainly vascular aquatic plants.</para>
+</description></studyExtent>
+<samplingDescription>
+<para>The 74 wetlands belonged to one of four types. There were 13 oil sands process affected (OSPA) wetlands, which were known to be contaminated with oil sands process affected water and/or solid tailings. There were 12 oil sands reference (OSREF) wetlands, which were situated on oil sands company leases but were not directly contaminated with oil sands tailings, although they may have been constructed using stockpiled overburden or peat. There were 12 natural wetlands that were situated in an agricultural landscape (AG), and another 37 natural wetlands that were situated in relatively undisturbed landscapes (REF), usually in parks or other protected areas.</para>
+</samplingDescription>
+</sampling>
+</methods>
+</dataset></ns0:eml>

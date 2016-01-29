@@ -1,0 +1,962 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.109872.10" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset>  <title>Long term Weather  data for Addo Elephant National Park historical data up until 2009</title>
+<creator id="1383118954010"> <organizationName>SAWS</organizationName>
+ </creator>
+ <associatedParty><references>1383118961030</references>
+ <role>Collaborator</role>
+ </associatedParty>
+ <associatedParty id="1383119026191"><individualName><givenName>Peggy</givenName>
+ <surName>Madonsela</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <role>Data Curator</role>
+ </associatedParty>
+<abstract><para>Weather data for six stations. Some basic quality checks were done on the data and appear in the methods section</para>
+</abstract>
+  <keywordSet><keyword>SANParks, South Africa, Addo Elephant  National Park, South Africa</keyword>
+ <keyword>Weather, climate, humidity,pressure,rainfall,temperature,wind</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data belongs to the SAWS and may therefore only be used for reserach purposes. If you would like to use this for any other reason please contact the SAWS directly</para>
+ </intellectualRights>
+ <coverage> <temporalCoverage><rangeOfDates><beginDate><calendarDate>1973</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>AddoElephantNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>24.961638</westBoundingCoordinate>
+ <eastBoundingCoordinate>26.663796</eastBoundingCoordinate>
+ <northBoundingCoordinate>-33.071541</northBoundingCoordinate>
+ <southBoundingCoordinate>-33.772324</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1383118961030"><individualName><salutation>Dr</salutation>
+ <givenName>Nicola</givenName>
+ <surName>Van Wilgen</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ </contact>
+<methods><methodStep><description><section><title>Notes for AGR basic data quality checks</title>
+<para>0035334 3     AGR station Lat:	-33.57	Long:	25.69	Height: 43  m	C</para>
+<para>There is no data in the 20h humidity or wind series</para>
+<para>2003/07/29, 2003/08/26, 2003/09/02, 2003/09/16 and 2003/09/23 repeated in the 8h wind and humidity series - repeated entries deleted</para>
+<para>2003/08/31 missing from the 14h humidity and wind series - missing date added</para>
+<para>2003/09/30, 2003/10/28 missing from the 14h wind series - repeated dates and data deleted</para>
+<para>2003/10/20 repeated in the 8h and 14h wind series</para>
+<para>2003/12/25 to 31 missing from the 14h wind series - dates added</para>
+<para>duplicated and missing dates in both wind series between 2003/09/28 to 30 - corrected</para>
+<para>1999/02/01missing from Rainfall series - added</para>
+<para>Dec 2001 missing from Rainfall series - added</para>
+<para>Deleted rainfall data after September 2009 as there were too many gaps from here</para>
+<para>General comments</para>
+<para>Temperature: There are no large gaps in the data. Nov 1965 has no maximum temperatures recorded, Jan 1963 no minima and there is no data for Dec 1998. There is a strong annual cyclical pattern in temperature.</para>
+<para>Rainfall: There are no large gaps in the data, though Dec 2001 is missing and there are 26 occurences (0.14% of failed recordings). Most rainfall comes in summer, except for 1979, where 131.5mm fell in July. (Similar spike in rain on this day for other stations).</para>
+<para>Humidity: There are three small gaps of less than 1 month to a month in 1993, 1998/9 and 2003. There is strong annual pattern in humidity, with highest humidity in the 8h series in winter. There is lower humidity in the 14h series.</para>
+<para>Wind: There is no 20h data series. There are no large gaps in the 8h and 14h series, though there are a few weeks missing data in Dec 1999 and possibly elsewhere. There is a strong annual pattern in wind speed and wind direction.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Notes for Alexandria Bos data quality checks</title>
+<para>0036642 8	ALEXANDRIA - BOS	Lat:	-33.7	Long:	26.37	Height: 198  m	RAINFALL	CurOrder:</para>
+<para>1952 had an incredibly rainy day (287.5 mm - 1952/09/25)</para>
+<para>General comments</para>
+<para>Only 59 occurences of failed readings across the 90 year period. No obvious occurences of gaps in the data. Spring to summer rainfall seems to be the most common.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Notes for MentzDam basic data quality check</title>
+<para>Notes</para>
+<para>There is a large percentage of missing data (gaps) in the rainfall series</para>
+<para>General comments</para>
+<para>Rainfall: Station called Darlington Dam in the original data files. 504 occurnces (2.2%) failed readings - this includes Dec 2003 and March to July 2004 and April and October 2006 (i.e. these dates are missing). 1948/12/31 to 1949/09/01 missing; 1949/12/31 to 1951/07/01 missing; 1952, 1953, 1954 missing; Jul, Aug, Sep 1955 missing; Feb, Mar 1956 missing; 1957, 1958 missing. THis means that there is a large proportion (c.a 8 or 9 years) of missing data in this set. There is about 61 years of data spanning almost 70 years.</para>
+<para>Temperature: Called Darlington Dam in the original data files. There are no large gaps in the dataset and there is a strong annual pattern in temperature.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Notes for OifantsPark basic data quality checks</title>
+<para>0055447A7	ADDO ELEPHANT PARK	Lat:	-33.44	Long:	25.75	Height: 143  m	CurOrder:	ELEC_TEMPNotes</para>
+<para>2005/02/01to 04 missing from the rain data series - these dates were added</para>
+<para>It seems as though data from two different (or an old and a new recording device) were spliced together at this date -- April 2005 (the fonts change here)</para>
+<para>Spike in July 1979 rainfall confirmed by other stations.</para>
+<para>General comments</para>
+<para>Temperature: Besides March 2008, there are no gaps in the data. There is an annual pattern and no obvious errors.</para>
+<para>Rainfall: July 1979 shows the same spike in rainfall to other adjecent stations. Otherwise there is generally summer rainfall and there are no apparent gaps.</para>
+<para>Humidity: Besides March 2008, there are no gaps in the data. There is an annual pattern in humidity and lowest humidity in the middle of the day.</para>
+<para>Pressure: Besides March 2008, there are no gaps in the data. There is an annual pattern in pressure with lowest pressure in summer (highest in winter).</para>
+<para>Wind: Besides March 2008, there are no gaps in the data. There is an annual pattern in wind speed and direction data</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Notes for Sondagsriveiermond-Bos basic data quality check</title>
+<para>0035643 3	SONDAGSRIVIERMOND - BOS	Lat:	-33.72	Long:	25.87	Height: 15  m	CLOSED	CurOrder:</para>
+<para>Notes</para>
+<para>There is a three month gap in 2005 where no readings were taken. Other than this, there is little apparent missing data (and only 2 other failed readings - i.e. cases of "Error (No Contact)"). There is no definite pattern in rainfall seasonality.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Notes for Zuurberg- Bos basic data quality checks</title>
+<para>0055410 8	ZUURBERG - BOS	Lat:	-33.35	Long:	25.74	Height: 594  m	RAINFALL	CurOrder:</para>
+<para>General comments</para>
+<para>337 (1%) occurences of failed readings. Most rainfall falls in summer. From 1944 to 1947 there are a large number of days where no rainfall was recorded, but this was accumulated - data may be difficult to interpret. There is also a long period in 1945 of failed readings. Also a large number of accumulated days in 1974 and 1980/81. This is followed by 6 months of failed readings at the end of 1981.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+  <dataTable id="1383126662090"><entityName>Addo - ALEXANDRIA - BOSrainfall_2009.txt</entityName>
+ <physical id="1383126594319"><objectName>Addo - ALEXANDRIA - BOSrainfall_2009.txt</objectName>
+ <size unit="byte">1560195</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109873.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383126662100"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383126662110"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383126662120"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383126662130"><attributeName>Rainfall amount</attributeName>
+ <attributeDefinition>Rainfall amount</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383126662140"><attributeName>Rainfall types</attributeName>
+ <attributeDefinition>Rainfall types</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall types</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>32938</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383127422975"><entityName>Addo - MENTZDAMRainfall_2009.txt</entityName>
+ <physical id="1383127353095"><objectName>Addo - MENTZDAMRainfall_2009.txt</objectName>
+ <size unit="byte">1023808</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109874.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383127422985"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383127422995"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383127423005"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383127423015"><attributeName>Amount of rainfall</attributeName>
+ <attributeDefinition>Amount of rainfall</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383127423025"><attributeName>TYpe of rainfall event</attributeName>
+ <attributeDefinition>TYpe of rainfall event</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>TYpe of rainfall event</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>22588</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383127700190"><entityName>Addo - MENTZDAMTemperature_2009.txt</entityName>
+ <physical id="1383127591588"><objectName>Addo - MENTZDAMTemperature_2009.txt</objectName>
+ <size unit="byte">146105</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109875.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383127700200"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383127700210"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383127700220"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383127700230"><attributeName>Maximum temperature</attributeName>
+ <attributeDefinition>Maximum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383127700240"><attributeName>Minimum Temperature</attributeName>
+ <attributeDefinition>Minimum Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>3288</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383128029317"><entityName>Addo - Sondagsrivermond - bosRainfall_2009.txt</entityName>
+ <physical id="1383127949876"><objectName>Addo - Sondagsrivermond - bosRainfall_2009.txt</objectName>
+ <size unit="byte">789086</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109876.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383128029327"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128029337"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128029347"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128029357"><attributeName>AMount of rainfall</attributeName>
+ <attributeDefinition>AMount of rainfall</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128029367"><attributeName>Type of rainfall</attributeName>
+ <attributeDefinition>Type of rainfall</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Type of rainfall</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>14638</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383128269681"><entityName>Addo - ZUURBERG - BOSRainfall_2009.txt</entityName>
+ <physical id="1383128192410"><objectName>Addo - ZUURBERG - BOSRainfall_2009.txt</objectName>
+ <size unit="byte">1403637</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109877.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383128269691"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128269701"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128269711"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128269721"><attributeName>Rainfall amount</attributeName>
+ <attributeDefinition>Rainfall amount</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128269731"><attributeName>Type of rainfall event</attributeName>
+ <attributeDefinition>Type of rainfall event</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Type of rainfall event</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>30863</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383128878017"><entityName>Addo - AGRHumidity_2009.txt</entityName>
+ <physical id="1383128780446"><objectName>Addo - AGRHumidity_2009.txt</objectName>
+ <size unit="byte">539433</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109879.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383128878027"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128878037"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128878047"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128878057"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383128878067"><attributeName>Humidity</attributeName>
+ <attributeDefinition>Humidity</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>16655</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383129055859"><entityName>Addo - AGRRainfall_2009.txt</entityName>
+ <physical id="1383128959288"><objectName>Addo - AGRRainfall_2009.txt</objectName>
+ <size unit="byte">766079</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109880.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383129055869"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129055879"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129055889"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129055899"><attributeName>Rainfall</attributeName>
+ <attributeDefinition>Rainfall</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129055909"><attributeName>Type of rainfall event</attributeName>
+ <attributeDefinition>Type of rainfall event</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Type of rainfall event</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>18596</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383129752578"><entityName>Addo - AGRWind_2009.txt</entityName>
+ <physical id="1383129391452"><objectName>Addo - AGRWind_2009.txt</objectName>
+ <size unit="byte">1408838</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109881.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383129752588"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129752598"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129752608"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129752618"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129752628"><attributeName>Wind speed</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383129752638"><attributeName>Wind direction</attributeName>
+ <attributeDefinition>Wind direction (in degrees) measured at 8:00; 14:00 and 20:00
+N 	dir&gt;=348.75 OR dir &lt; 11.25
+NNE 	11.25 to 33.74
+NE 	33.75 to 56.24
+ENE 	56.25 to 78.74
+E 	78.75 to 101.24
+ESE 	101.25 to 123.74
+SE 	123.75 to 146.24
+SSE 	146.25 to 168.74
+S 	168.75 to 191.24
+SSW 	191.25 to 213.74
+SW 	213.75 to 236.24
+WSW 	236.25 to 258.74
+W 	258.75 to 281.24
+WNW 	281.25 to 303.74
+NW 	303.75 to 326.24
+NNW 	326.25 to 348.74</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>29778</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383135370451"><entityName>Addo - OLIFANTPARKHumidity_2009.txt</entityName>
+ <physical id="1383134746364"><objectName>Addo - OLIFANTPARKHumidity_2009.txt</objectName>
+ <size unit="byte">245106</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109882.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383135370461"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135370471"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135370481"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135370491"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135370501"><attributeName>Humidity</attributeName>
+ <attributeDefinition>Humidity</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5385</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383135622326"><entityName>Addo - OLIFANTPARKPressure_2009.txt</entityName>
+ <physical id="1383135484164"><objectName>Addo - OLIFANTPARKPressure_2009.txt</objectName>
+ <size unit="byte">314907</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109883.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383135622336"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135622346"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135622356"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135622366"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135622376"><attributeName>Pressure</attributeName>
+ <attributeDefinition>Pressure</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Hecta Pascal</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5427</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383135838435"><entityName>Addo - OLIFANTPARKRainfall_2009.txt</entityName>
+ <physical id="1383135721034"><objectName>Addo - OLIFANTPARKRainfall_2009.txt</objectName>
+ <size unit="byte">892470</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109884.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383135838445"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135838455"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135838465"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135838475"><attributeName>Rainfall</attributeName>
+ <attributeDefinition>Rainfall</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383135838485"><attributeName>Rainfall Type</attributeName>
+ <attributeDefinition>Rainfall Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17135</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383136010287"><entityName>Addo - OLIFANTPARKTemperature_2009.txt</entityName>
+ <physical id="1383135915742"><objectName>Addo - OLIFANTPARKTemperature_2009.txt</objectName>
+ <size unit="byte">95709</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109885.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383136010297"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136010307"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136010317"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136010327"><attributeName>Maximum temperature</attributeName>
+ <attributeDefinition>Maximum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136010337"><attributeName>Minimum Temperature</attributeName>
+ <attributeDefinition>Minimum Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1791</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383136199034"><entityName>Addo - OLIFANTPARKWind_2009.txt</entityName>
+ <physical id="1383136075949"><objectName>Addo - OLIFANTPARKWind_2009.txt</objectName>
+ <size unit="byte">333577</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109886.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383136199044"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136199054"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136199064"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136199074"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136199084"><attributeName>Wind speed</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383136199094"><attributeName>Wind direction in degrees</attributeName>
+ <attributeDefinition>Wind direction in degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5376</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="Hecta Pascal" multiplierToSI="100" name="Hecta Pascal" parentSI="pascal" unitType="pressure"><description>Hecta Pascal</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

@@ -1,0 +1,722 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-vcr.202.9" system="VCR" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst">
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+      <allow>
+         <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+   </access>
+
+<dataset id="202" system="VCR">
+   <alternateIdentifier>VCR12194</alternateIdentifier>
+   <title>LiDAR-based Digital Elevation Model for Northampton and Accomack Co., VA, 2010</title>
+   <creator>
+      <individualName>
+         <surName>VITA</surName>
+      </individualName>
+   </creator>
+   <metadataProvider>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </metadataProvider>
+   <pubDate>2011-02-15</pubDate>
+   <abstract>
+  <para>This dataset contains a bare-earth digital elevation model (DEM) for Northampton and Accomack Counties, Virginia based on data collected March 25-30, 2010 and processed to yield bare-earth elevations.</para>
+  <para>It was created using LiDAR by Sanborne Geosystems under a contract with the Virginia Information Technologies Agency (VITA) with funding from The Nature Conservancy, USGS and the Virginia Coast Reserve Long-term Ecological Research project of the University of Virginia.</para>
+  <para>Original LiDAR point data (approximately 1 meter spacing) was used to create a digital elevation model (DEM) with a cell resolution of 10 ft. (3.048 m).&#160;</para>
+  <para>The DEM data layer is in the State Plane coordinate system (U.S. Feet) and uses the NAVD88 vertical datum with the 2009 Geoid for elevation in feet. As detailed in the included quality report, elevations are accurate to 0.65 feet or better.</para>
+  <para>Water areas have been hydroflattened and may also include salt marsh areas that were inundated at the time of the flights. &#160;As a result, water areas were given a default minimum elevation below the minimum elevation measured by LiDAR over a given area and dependent on tidal cycle.&#160; Areas at or below this minimum elevation within the water mask may include salt marsh and tidal flats as well as open water.&#160; The elevation of the hydroflattening varies spatially.</para>
+  <para>Salt marsh areas within the water mask were later determined by VCRLTER staff based on the following factors: (1) present as marsh (code 18) in the NOAA CCAP 2006 land cover layer and not included as an open water feature in the 2010 USGS National Hydrography Dataset, (2) minimum contiguous area of 1800 square meters, approximately equal to two 30 meter resolution CCAP pixel cells, and (3) includes extensive areas of salt marsh within north-south flight line &#226;&#8364;&#339;stripes&#226;&#8364;, primarily the seaside lagoons and marshes south of Parramore Island and the town of Wachapreague plus Chesapeake Bay marshes immediately north of &#160;Tangier Island (and excludes edge-only areas elsewhere).</para>
+  <para>Two polygon shapefiles have been added to this dataset: one shapefile shows the region-specific water masks and includes the elevation of the masks (in meters, not feet); the other shapefile shows areas of saltmarsh hidden within the water mask and includes a recommended replacement elevation (0.404 meters) based on the average above-water-mask LiDAR elevations of all CCAP-minus-NHD-water-determined marshes of all seaside marshes south of Chincoteague Inlet.&#160; The two polygon shapefiles have been reprojected to the WGS84 UTM zone 18N coordinate system, and the NAVD88 vertical elevations converted from feet to meters.</para>
+   </abstract>
+   <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">System State/Condition</keyword>
+      <keywordThesaurus>VCRLTERCoreAreas</keywordThesaurus>
+   </keywordSet>
+   <keywordSet>
+      <keyword keywordType="theme">elevation</keyword>
+      <keyword keywordType="theme">digital elevation model</keyword>
+      <keyword keywordType="theme">LiDAR</keyword>
+   </keywordSet>
+   <intellectualRights>
+            <section>
+                <title>Data License</title>
+                <para>Data and documentation is copyrighted by The Virginia Coast Reserve LTER
+                    project of the University of Virginia (UVA), and ownership remains with the UVA.</para>
+                <para>The UVA grants you (hereafter, Licensee) a license to use the data and
+                    documentation for academic, and research purposes only, without a fee.</para>
+                <para>Licensee may make derivative works. However, if Licensee distributes any
+                    derivative work based on or derived from the data and documentation, then
+                    Licensee will</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>notify the VCR/LTER designated contact (typically the investigator
+                                who collected the data) regarding its distribution of the derivative
+                                work, and</para>
+                        </listitem>
+                        <listitem>
+                            <para>clearly notify users that such derivative work is a modified
+                                version and not the original data and documentation distributed by
+                                the UVA.</para>
+                        </listitem>
+                        <listitem>
+                            <para>acknowledge the support of NSF Grants BSR-8702333-06, DEB-9211772,
+                                DEB-9411974, DEB-0080381 and DEB-0621014 in any publications using the data and documentation.</para>
+                        </listitem>
+                        <listitem>
+                            <para>send to the address, above, two reprints of any publications
+                                resulting from use of the data and documentation. </para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>Any Licensee wishing to make commercial use of the data and documentation
+                    should contact the UVA, c/o VCR/LTER, to negotiate an appropriate license for
+                    such commercial use. Commercial use includes</para>
+                <para>
+                    <orderedlist>
+                        <listitem>
+                            <para>integration of all or part of the data and documentation into a
+                                product for sale or license by or on behalf of Licensee to third
+                                parties, or</para>
+                        </listitem>
+                        <listitem>
+                            <para> distribution of the data or documentation to third parties that
+                                need it to utilize a commercial product sold or licensed by or on
+                                behalf of Licensee.</para>
+                        </listitem>
+                    </orderedlist>
+                </para>
+                <para>
+                    <emphasis>UVA MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS DATA AND
+                        DOCUMENTATION FOR ANY PURPOSE. IT IS PROVIDED "AS IS" WITHOUT EXPRESS OR
+                        IMPLIED WARRANTY. THE UVA SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                        THE USERS OF THIS DATA AND DOCUMENTATION.</emphasis>
+                </para>
+                <para>By using or copying this data and documentation, Licensee agrees to abide by
+                    the copyright law and all other applicable laws of the U.S. including, but not
+                    limited to, export control laws, and the terms of this license. UVA shall have
+                    the right to terminate this license immediately by written notice upon
+                    Licensee's breach of, or non-compliance with, any of its terms. Licensee may be
+                    held legally responsible for any copyright infringement that is caused or
+                    encouraged by Licensee's failure to abide by the terms of this license. </para>
+            </section>
+   </intellectualRights>
+   <coverage>
+      <geographicCoverage>
+         <geographicDescription>ACOMACCOU - northern county on Eastern Shore,VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.350000</westBoundingCoordinate>
+            <eastBoundingCoordinate>-75.983333</eastBoundingCoordinate>
+            <northBoundingCoordinate>38.016667</northBoundingCoordinate>
+            <southBoundingCoordinate>37.500000</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+         <geographicDescription>NHAMPCOUNT - Southern county of Eastern Shore,VA</geographicDescription>
+         <boundingCoordinates>
+            <westBoundingCoordinate>-75.791667</westBoundingCoordinate>
+            <eastBoundingCoordinate>-76.083333</eastBoundingCoordinate>
+            <northBoundingCoordinate>37.500000</northBoundingCoordinate>
+            <southBoundingCoordinate>37.088889</southBoundingCoordinate>
+         </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+         <rangeOfDates>
+            <beginDate>
+               <calendarDate>2010-03-25</calendarDate>
+            </beginDate>
+            <endDate>
+               <calendarDate>2010-03-30</calendarDate>
+            </endDate>
+         </rangeOfDates>
+      </temporalCoverage>
+   </coverage>
+   <maintenance>
+      <description>
+<para>Data are updated as needed</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+   </maintenance>
+   <contact>
+      <individualName>
+         <givenName>John</givenName>
+         <surName>Porter</surName>
+      </individualName>
+      <address>
+         <deliveryPoint>UVA, Department of Environmental Sciences, 291 McCormick Road, P.O. Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22903-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jhp7e@virginia.edu</electronicMailAddress>
+      <userId directory="http://www.vcrlter.virginia.edu/cgi-bin/w3e/msql/personnel/msql2/person.html?QID=">jporter</userId>
+   </contact>
+   <contact id="im">
+      <positionName>Information manager - Virginia Coast Reserve Long-Term Ecological Research Project</positionName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-8999</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <electronicMailAddress>jporter@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.vcrlter.virginia.edu/jhp7e.html</onlineUrl>
+   </contact>
+   <publisher>
+      <organizationName>Virginia Coast Reserve Long-Term Ecological Research Project</organizationName>
+      <address>
+         <deliveryPoint>Department of Environmental Sciences, University of Virginia, 291 McCormick Road, PO Box 400123</deliveryPoint>
+         <city>Charlottesville</city>
+         <administrativeArea>VA</administrativeArea>
+         <postalCode>22904-4123</postalCode>
+         <country>USA</country>
+      </address>
+      <phone phonetype="voice">434-924-7761</phone>
+      <phone phonetype="facsimile">434-982-2137</phone>
+      <onlineUrl>http://www.vcrlter.virginia.edu</onlineUrl>
+   </publisher>
+   <pubPlace>Charlottesville, Virginia</pubPlace>
+   <otherEntity>
+      <entityName>VCR12194</entityName>
+      <entityDescription>
+The DEM is distributed as an ERDAS Imagine .IMG fileset stored in a .zip file. Also included in the .ZIP file are reports from Sanborne Geosystems on the creation of the data and from Dewberry on the quality assurance. When unzipped, the data requires approximately 5 GB of disk space. 
+
+
+      </entityDescription>
+      <physical>
+         <objectName>esva_dem2010.zip</objectName>
+         <characterEncoding>Binary</characterEncoding>
+         <dataFormat>
+            <externallyDefinedFormat>
+               <formatName>Esoteric</formatName>
+            </externallyDefinedFormat>
+         </dataFormat>
+         <distribution>
+            <online>
+               <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.202.9&amp;urlHeadID=2&amp;urlTail=1/VCR12194/VCR12194/esva_dem2010.zip</url>
+            </online>
+            <access authSystem="knb" order="allowFirst">
+               <allow>
+                  <principal>public</principal>
+                  <permission>read</permission>
+               </allow>
+               <allow>
+                  <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+                  <permission>all</permission>
+               </allow>
+            </access>
+         </distribution>
+      </physical>
+      <entityType>file      </entityType>
+   </otherEntity>
+      <spatialRaster id="esva_dem.img">
+         <alternateIdentifier>VCR12194-2</alternateIdentifier>
+         <entityName>esva_dem</entityName>
+         <entityDescription>    Provide high density LiDAR elevation data map of Accomack County, VA. Provide Bare Earth DEM (vegetation removal) of Accomack County, VA.     This dataset contains a bare-earth digital elevation model (DEM) for Northampton and Accomack Counties, Virginia based on data collected March 25-30, 2010 and processed to yield bare-earth elevations.      It was created using LiDAR by Sanborne Geosystems under a contract with the Virginia Information Technologies Agency (VITA) with funding from The Nature Conservancy, USGS and the Virginia Coast Reserve Long-term Ecological Research project of the University of Virginia.      Original LiDAR point data (approximately 1 meter spacing) was used to create a digital elevation model (DEM) with a cell resolution of 10 ft. (3.048 m).       The DEM data layer is in the State Plane coordinate system (U.S. Feet) and uses the NAVD88 vertical datum with the 2009 Geoid for elevation in feet. As detailed in the included quality report, elevations are accurate to 0.65 feet or better.       Water areas have been hydroflattened and may also include salt marsh areas that were inundated at the time of the flights.        </entityDescription>
+         <physical>
+            <objectName>esva_dem2010.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with Erdas IMAGINE Image file(s) </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.202.9&amp;urlHeadID=2&amp;urlTail=2/VCR12194/esva_dem2010.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.059306</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.228177</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.063148</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.042108</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>Layer_1</attributeName>
+               <attributeDefinition>bare-earth elevation (feet, NAVD88)</attributeDefinition>
+               <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <customUnit>[ft_us]</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-7.535075</minimum>
+                           <maximum exclusive="false">119.218575</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>-3.4028235e+038</code>
+                  <codeExplanation>no data / missing value </codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="NAD_1983_HARN_StatePlane_Virginia_South_FIPS_4502_Feet">
+               <projCoordSys>
+                  <geogCoordSys name="D_North_American_1983_HARN">
+                     <datum name="D_North_American_1983_HARN" />
+                     <spheroid denomFlatRatio="298.257222101" name="GRS_1980" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Lambert_Conformal_Conic">
+                     <parameter name="False_Easting" value="11482916.66666666" />
+                     <parameter name="False_Northing" value="3280833.333333333" />
+                     <parameter name="Central_Meridian" value="-78.5" />
+                     <parameter name="Standard_Parallel_1" value="36.76666666666667" />
+                     <parameter name="Standard_Parallel_2" value="37.96666666666667" />
+                     <parameter name="Latitude_Of_Origin" value="36.33333333333334" />
+                     <unit name="Foot_US" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>North_American_Vertical_Datum_1988</altitudeDatumName>
+                  <altitudeResolution>unspecified</altitudeResolution>
+                  <altitudeDistanceUnits>Foot_US</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>unspecified</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+         <georeferenceInfo>
+            <cornerPoint>
+               <xCoordinate>12195000.048934</xCoordinate>
+               <yCoordinate>3555000.049478</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>12195000.048934</xCoordinate>
+               <yCoordinate>3920000.049478</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Left</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>12425000.048934</xCoordinate>
+               <yCoordinate>3920000.049478</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Upper Right</corner>
+            </cornerPoint>
+            <cornerPoint>
+               <xCoordinate>12425000.048934</xCoordinate>
+               <yCoordinate>3555000.049478</yCoordinate>
+               <pointInPixel>center</pointInPixel>
+               <corner>Lower Right</corner>
+            </cornerPoint>
+         </georeferenceInfo>
+         <horizontalAccuracy>
+            <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>10.000000</cellSizeXDirection>
+         <cellSizeYDirection>10.000000</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>36500</rows>
+         <columns>23000</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+      <spatialVector id="lidarwatermaskpoly">
+         <alternateIdentifier>VCR12194-3</alternateIdentifier>
+         <entityName>lidarwatermaskpoly</entityName>
+         <entityDescription>     This dataset contains a variable-elevation water mask derived from a bare-earth digital elevation model (DEM) for Northampton and Accomack Counties, Virginia based on data collected March 25-30, 2010.    Original LiDAR point data (approximately 1 meter spacing) was used to create a digital elevation model (DEM) with a cell resolution of 10 ft. (3.048 m).     Water areas in the DEM have been hydroflattened and may also include salt marsh areas that were inundated at the time of the flights. As a result, water areas were given a default minimum elevation below the minimum elevation measured by LiDAR over a given area and dependent on tidal cycle. Areas at or below this minimum elevation within the water mask may include salt marsh and tidal flats as well as open water. The elevation of the hydroflattening varies spatially.    This polygon shapefile shows the region-specific water masks and includes the elevation of the masks (in meters, not feet).    It has been reprojected to the WGS84 UTM zone 18N coordinate system, and the NAVD88 vertical elevations converted from feet to meters.             </entityDescription>
+         <physical>
+            <objectName>LIDARwatermarshmasks.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.202.9&amp;urlHeadID=2&amp;urlTail=3/VCR12194/LIDARwatermarshmasks.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.055054</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.225950</eastBoundingCoordinate>
+                  <northBoundingCoordinate>38.028397</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.071405</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>ID</attributeName>
+               <attributeLabel>ID</attributeLabel>
+               <attributeDefinition>internal id #</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GRIDCODE</attributeName>
+               <attributeLabel>GRIDCODE</attributeLabel>
+               <attributeDefinition>mask code (all 1)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>WATERMASK</attributeName>
+               <attributeLabel>WATERMASK</attributeLabel>
+               <attributeDefinition>mask code (all 1)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">SmallInteger</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>DEPTH</attributeName>
+               <attributeLabel>DEPTH</attributeLabel>
+               <attributeDefinition>elevation (meters) relative to NAVD88</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>Unitless Values or Unit Unknown or Not Reported</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>1965</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>North_American_Vertical_Datum_1988</altitudeDatumName>
+                  <altitudeResolution>unspecified</altitudeResolution>
+                  <altitudeDistanceUnits>Meter</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>unspecified</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+      </spatialVector>
+      <spatialVector id="lidarwmarshmaskpoly">
+         <alternateIdentifier>VCR12194-4</alternateIdentifier>
+         <entityName>lidarwmarshmaskpoly</entityName>
+         <entityDescription>   This dataset contains areas of water-masked salt-marshes based on bare-earth digital elevation model (DEM) for Northampton and Accomack Counties, Virginia based on data collected March 25-30, 2010.    Water areas in the DEM have been hydroflattened and may also include salt marsh areas that were inundated at the time of the flights.      Salt marsh areas within the water mask were later determined by VCRLTER staff based on the following factors: (1) present as marsh (code 18) in the NOAA CCAP 2006 land cover layer and not included as an open water feature in the 2010 USGS National Hydrography Dataset, (2) minimum contiguous area of 1800 square meters, approximately equal to two 30 meter resolution CCAP pixel cells, and (3) includes extensive areas of salt marsh within north-south flight line &#8220;stripes&#8221;, primarily the seaside lagoons and marshes south of Parramore Island and the town of Wachapreague plus Chesapeake Bay marshes immediately north of Tangier Island (and excludes edge-only areas elsewhere).     This polygon shapefile shows areas of saltmarsh hidden within the water mask and includes a recommended replacement elevation (0.404 meters) based on the average above-water-mask LiDAR elevations of all CCAP-minus-NHD-water-determined marshes of all seaside marshes south of Chincoteague Inlet. It has been reprojected to the WGS84 UTM zone 18N coordinate system, and the NAVD88 vertical elevations converted from feet to meters.               </entityDescription>
+         <physical>
+            <objectName>LIDARwatermarshmasks.zip</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>zip file with ARC/INFO shape file </formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+               <distribution>
+      <online>
+         <url function="download">http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-vcr.202.9&amp;urlHeadID=2&amp;urlTail=4/VCR12194/LIDARwatermarshmasks.zip</url>
+      </online>
+      <access authSystem="knb" order="allowFirst">
+         <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+         </allow>
+         <allow>
+            <principal>uid=VCR,o=lter,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+         </allow>
+      </access>
+   </distribution>
+
+         </physical>
+         <coverage>
+            <geographicCoverage>
+               <geographicDescription>Eastern Shore of Virginia</geographicDescription>
+               <boundingCoordinates>
+                  <westBoundingCoordinate>-76.000222</westBoundingCoordinate>
+                  <eastBoundingCoordinate>-75.545565</eastBoundingCoordinate>
+                  <northBoundingCoordinate>37.852832</northBoundingCoordinate>
+                  <southBoundingCoordinate>37.120198</southBoundingCoordinate>
+               </boundingCoordinates>
+            </geographicCoverage>
+         </coverage>
+         <attributeList>
+            <attribute>
+               <attributeName>FID</attributeName>
+               <attributeLabel>FID</attributeLabel>
+               <attributeDefinition>Internal feature number.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Sequential unique whole numbers that are automatically
+                        generated.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Shape</attributeName>
+               <attributeLabel>Shape</attributeLabel>
+               <attributeDefinition>Feature geometry.</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Coordinates defining the features.</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>ID</attributeName>
+               <attributeLabel>ID</attributeLabel>
+               <attributeDefinition>internal id #</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>GRIDCODE</attributeName>
+               <attributeLabel>GRIDCODE</attributeLabel>
+               <attributeDefinition>mask code (all 1)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>AREA</attributeName>
+               <attributeLabel>AREA</attributeLabel>
+               <attributeDefinition>area (square meters)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>squareMeter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>DEFLT_ELEV</attributeName>
+               <attributeLabel>DEFLT_ELEV</attributeLabel>
+               <attributeDefinition>reccommended default elevation (m, NAVD88)</attributeDefinition>
+               <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Double</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <geometry>Polygon</geometry>
+         <geometricObjectCount>594</geometricObjectCount>
+         <spatialReference>
+            <horizCoordSysDef name="WGS_1984_UTM_Zone_18N">
+               <projCoordSys>
+                  <geogCoordSys name="D_WGS_1984">
+                     <datum name="D_WGS_1984" />
+                     <spheroid denomFlatRatio="298.257223563" name="WGS_1984" semiAxisMajor="6378137.0" />
+                     <primeMeridian longitude="0.0" name="Greenwich" />
+                     <unit name="degree" />
+                  </geogCoordSys>
+                  <projection name="Transverse_Mercator">
+                     <parameter name="False_Easting" value="500000.0" />
+                     <parameter name="False_Northing" value="0.0" />
+                     <parameter name="Central_Meridian" value="-75.0" />
+                     <parameter name="Latitude_Of_Origin" value="0.0" />
+                     <parameter name="Scale_Factor" value="0.9996" />
+                     <unit name="meter" />
+                  </projection>
+               </projCoordSys>
+            </horizCoordSysDef>
+            <vertCoordSys>
+               <altitudeSysDef>
+                  <altitudeDatumName>North_American_Vertical_Datum_1988</altitudeDatumName>
+                  <altitudeResolution>unspecified</altitudeResolution>
+                  <altitudeDistanceUnits>Meter</altitudeDistanceUnits>
+                  <altitudeEncodingMethod>unspecified</altitudeEncodingMethod>
+               </altitudeSysDef>
+            </vertCoordSys>
+         </spatialReference>
+      </spatialVector>
+
+</dataset>
+<additionalMetadata>
+   <metadata>
+      <ns2:unitList>
+      <ns2:unit id="[ft_us]" />
+      <ns2:unit id="Unitless Values or Unit Unknown or Not Reported" />
+      </ns2:unitList>
+   </metadata>
+</additionalMetadata>
+<additionalMetadata>
+   <metadata>
+      <localtags>
+         <system>VCRLTER</system>
+         <weight>-21</weight>
+      </localtags>
+   </metadata>
+</additionalMetadata>
+
+</ns0:eml>

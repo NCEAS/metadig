@@ -1,0 +1,117 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.7.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+
+
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=jtallant,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Temperature, pH,Dissolve Oxygen, and Conductivity Profiles, Douglas Lake, UMBS</title>
+<creator>
+<organizationName>University of MIchigan Biological Station</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Jason</givenName>
+<surName>Tallant</surName>
+</individualName>
+<organizationName>University of Michigan </organizationName>
+</creator>
+<metadataProvider><individualName>
+<givenName>Jason</givenName>
+<surName>Tallant</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Jason</givenName>
+<surName>Tallant</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2014-10-27</pubDate>
+<abstract>
+<para>Temperature, pH, dissolved oxygen, and conductivity profiles sampled by Paul Welch and Frank Eggleton in South Fishtail Bay, Douglas Lake, MI from 1913-1950. 132 sample dates over 38 years at depths from 0-21 meters.</para>
+</abstract>
+<keywordSet>
+<keyword>Profiles</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>1913</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>1950</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Pellston, Michigan; Northern Lower Michigan, US</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-84.6731</westBoundingCoordinate>
+<eastBoundingCoordinate>-84.6731</eastBoundingCoordinate>
+<northBoundingCoordinate>45.5617</northBoundingCoordinate>
+<southBoundingCoordinate>45.5617</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Jason</givenName>
+<surName>Tallant</surName>
+</individualName>
+</contact>
+<otherEntity id="848538bc2a1bdb6053ee8bf18737a6d4f6c324fd001" scope="document">
+            <entityName>welch_sfbay_profiles_1913-1950.csv</entityName>
+            <physical scope="document">
+                <objectName>welch_sfbay_profiles_1913-1950.csv</objectName>
+                <size>69305</size>
+                <authentication method="SHA1">848538bc2a1bdb6053ee8bf18737a6d4f6c324fd</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>application/vnd.ms-excel</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="848538bc2a1bdb6053ee8bf18737a6d4f6c324fd002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.6.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>uid=jtallant,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+ 
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</ns0:eml>

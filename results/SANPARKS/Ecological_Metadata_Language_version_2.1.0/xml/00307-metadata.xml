@@ -1,0 +1,251 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.109957.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Thermal adaptation in South African Odonates</title>
+ <creator id="1393999484530"> <individualName><givenName>Erik</givenName>
+ <surName>Svensson</surName>
+ </individualName>
+ <organizationName>Evolutionary Ecology Unit, Department of Biology, Lund University</organizationName>
+ <electronicMailAddress>erik.svensson@biol.lu.se</electronicMailAddress>
+ </creator>
+ <abstract><para>Data on body temperatures and thermal niches have been collected for various odonate species (&#8220;dragonflies and damselflies&#8221;) using thermal imaging (infrared camera, or IR-camera). These data were collected in SANParks and other areas (i. e. nature reserves) during 2012 and 2013, as part of research collaboration involving Lund University (Sweden) and Stellenbosch University (Western Cape Province, South Africa). The enclosed data is part of a larger study aiming to understand the evolution of thermal adaptations and thermal plasticity in relation to phylogeny, biogeography and local microclimatic variation in odonates. Such data are of interest not only in terms of basic research questions in ecology and evolution, but might also be of relevance in conservation biology and management planning, particularly  in the light of ongoing climate change and rising global temperatures that can increase extinction risk of ectothermic animals like insects.</para>
+ </abstract>
+ <keywordSet><keyword>body temperature, damselflies, dragonflies, infrared camera, insects, Odonata</keyword>
+ </keywordSet>
+ <keywordSet><keyword>SANParks, South Africa</keyword>
+ <keyword>Bontebok National Park, South Africa</keyword>
+ <keyword>Wilderness National Park, South Africa</keyword>
+ <keyword>Tsitsikamma National Park, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights><para>This dataset is lead time potected please contact the owner of the dataset if you would like access to the data</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>bnp</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>20.413354</westBoundingCoordinate>
+ <eastBoundingCoordinate>20.517388</eastBoundingCoordinate>
+ <northBoundingCoordinate>-34.041405</northBoundingCoordinate>
+ <southBoundingCoordinate>-34.094836</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>GardenRouteNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>22.528246</westBoundingCoordinate>
+ <eastBoundingCoordinate>24.198612</eastBoundingCoordinate>
+ <northBoundingCoordinate>-33.812601</northBoundingCoordinate>
+ <southBoundingCoordinate>-34.094318</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>2012</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1393999484530</references>
+ </contact>
+ <methods><methodStep><description><section><title>Methods</title>
+ <para>The data are temperature measurements of odonates (dragonflies and damselflies), ambient (air) temperature, maximum -, minimum- and mean substrate temperatures, as well as species names (in latin), dates, localities (SANParks) and GPS-positions. These data have been collected in the field using thermal imaging (infrared, or IR camera).</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1394000810652"><entityName>OdonateTemperature.txt</entityName>
+ <physical id="1394000279073"><objectName>OdonateTemperature.txt</objectName>
+ <size unit="byte">19675</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.109959.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1394000810662"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810672"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810682"><attributeName>Country</attributeName>
+ <attributeDefinition>Country</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>South Africa</code>
+ <definition>Country</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810692"><attributeName>State</attributeName>
+ <attributeDefinition>Province</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Province</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810702"><attributeName>Locale</attributeName>
+ <attributeDefinition>Location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810712"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810722"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810742"><attributeName>Species</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810752"><attributeName>Sex</attributeName>
+ <attributeDefinition>Sex</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>m</code>
+ <definition>male</definition>
+ </codeDefinition>
+ <codeDefinition><code>f</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition><code>?</code>
+ <definition>unknown</definition>
+ </codeDefinition>
+ <codeDefinition><code>m?</code>
+ <definition>possibly a male</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810762"><attributeName>Shade/Sun</attributeName>
+ <attributeDefinition>Shade/Sun</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Shade/Sun</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810772"><attributeName>Ambient temperature</attributeName>
+ <attributeDefinition>Ambient temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810782"><attributeName>Head temperature</attributeName>
+ <attributeDefinition>Head temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810792"><attributeName>Abdomen temperature</attributeName>
+ <attributeDefinition>Abdomen temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810802"><attributeName>Thorax temperature</attributeName>
+ <attributeDefinition>Thorax temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810812"><attributeName>Wing temperature</attributeName>
+ <attributeDefinition>Wing temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810822"><attributeName>Maximum substrate temperature</attributeName>
+ <attributeDefinition>Maximum substrate temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810832"><attributeName>Minimum substrate temperature</attributeName>
+ <attributeDefinition>Minimum substrate temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1394000810842"><attributeName>Average substrate temperature</attributeName>
+ <attributeDefinition>Average substrate temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>112</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>ThermalAdaptationOdonatesErikSvenssonPresentation.pdf</entityName>
+ <physical><objectName>ThermalAdaptationOdonatesErikSvenssonPresentation.pdf</objectName>
+ <size unit="byte">2731536</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1394000849721"><online><url function="download">ecogrid://knb/judithk.109960.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

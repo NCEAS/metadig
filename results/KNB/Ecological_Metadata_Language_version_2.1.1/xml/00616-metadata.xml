@@ -1,0 +1,118 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.302.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+
+
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=hammill,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Costa Rica trait-mediated communities</title>
+<creator>
+<organizationName>UBC</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Edd</givenName>
+<surName>Hammill</surName>
+</individualName>
+<organizationName>University of British Columbia</organizationName>
+<electronicMailAddress>edd_hammill@hotmail.com</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Edd</givenName>
+<surName>Hammill</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Edd</givenName>
+<surName>Hammill</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2013-01-24</pubDate>
+<abstract>
+<para>Data on the trait-medaited effects of predators at the community and ecosystem level</para>
+</abstract>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<singleDateTime>
+<calendarDate>2011</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Pitilla, Guanacaste Costa Rica</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>0.0000</westBoundingCoordinate>
+<eastBoundingCoordinate>0.0000</eastBoundingCoordinate>
+<northBoundingCoordinate>0.0000</northBoundingCoordinate>
+<southBoundingCoordinate>0.0000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Edd</givenName>
+<surName>Hammill</surName>
+</individualName>
+<organizationName>University of British Columbia</organizationName>
+<electronicMailAddress>edd_hammill@hotmail.com</electronicMailAddress>
+</contact>
+<otherEntity id="6a59e3eae7d5eda7ca31259d8135c01d48ba15db001" scope="document">
+            <entityName>total only densities.csv</entityName>
+            <physical scope="document">
+                <objectName>total only densities.csv</objectName>
+                <size>4786</size>
+                <authentication method="SHA1">6a59e3eae7d5eda7ca31259d8135c01d48ba15db</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="6a59e3eae7d5eda7ca31259d8135c01d48ba15db002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.301.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>uid=hammill,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+ 
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</ns0:eml>

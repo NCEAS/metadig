@@ -1,0 +1,216 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="connolly.277.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>Physical data for six lakes in Wisconsin, USA, 1984-1995.</title>
+ <creator id="1131049708264" scope="document"> <organizationName>NCEAS 2244: Ives: Intrinsic and extrinsic variability in community dynamics</organizationName>
+ </creator>
+ <creator id="1131049684940" scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator id="1131049318994" scope="document"> <individualName> <givenName>Stephen</givenName>
+ <surName>Carpenter</surName>
+ </individualName>
+ <organizationName>Center for Limnology, University of Wisconsin - Madison</organizationName>
+ <address scope="document"> <deliveryPoint>226a Limnology Laboratory, Hesler, Arthur D</deliveryPoint>
+ <deliveryPoint>680 North Park St</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ </address>
+ <electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+ <onlineUrl>http://limnology.wisc.edu/personnel/carpenter/</onlineUrl>
+ </creator>
+ <associatedParty id="1132936886280" scope="document"><individualName><givenName>Kathy</givenName>
+ <surName>Cottingham</surName>
+ </individualName>
+ <organizationName>Department of Biological Sciences,  Dartmouth College</organizationName>
+ <address scope="document"><deliveryPoint>6044 Gilman Laboratory</deliveryPoint>
+ <city>Hanover</city>
+ <administrativeArea>NH</administrativeArea>
+ <postalCode>03755</postalCode>
+ <country>USA</country>
+ </address>
+ <electronicMailAddress>Kathryn.Cottingham@dartmouth.edu</electronicMailAddress>
+ <onlineUrl>http://www.dartmouth.edu/~cottingh/</onlineUrl>
+ <role>Content Provider</role>
+ </associatedParty>
+ <abstract><para>Physical data for six lakes in Wisconsin (Peter, Paul, Tuesday, East Long, Central Long, and West Long Lakes), USA, 1984-1995.
+For details see Voichick, N., and J. P. LeBouton. 1994. Methods of the cascading trophic interactions project. Fourth edition. Center for Limnology, Madison, Wisconsin, USA.</para>
+ </abstract>
+ <keywordSet><keyword>lakes</keyword>
+ <keyword>Wisconsin</keyword>
+ <keyword>thermocline depth</keyword>
+ <keyword>secchi depth</keyword>
+ </keywordSet>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1984</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1995</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"><geographicDescription>University of Notre Dame Environmental Research Center (UNDERC), near Land o' Lakes, Wisconsin, USA</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-89.216666</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.216666</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.216666</northBoundingCoordinate>
+ <southBoundingCoordinate>46.216666</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <references>1131049318994</references>
+ </contact>
+ <access authSystem="knb" order="allowFirst" scope="document"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataTable id="1133393636455" scope="document"><entityName>PHYS8495.txt</entityName>
+ <entityDescription>Physical data for six lakes in Wisconsin (Peter, Paul, Tuesday, East Long, Central Long, and West Long Lakes), USA, 1984-1995.</entityDescription>
+ <physical id="1133393635474" scope="document"><objectName>PHYS8495.txt</objectName>
+ <size unit="byte">29149</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/connolly.278.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1133393636465" scope="document"><attributeName>LAKE</attributeName>
+ <attributeLabel>Lake</attributeLabel>
+ <attributeDefinition>Abbreviated lake name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>C</code>
+ <definition>Central Long Lake</definition>
+ </codeDefinition>
+ <codeDefinition><code>E</code>
+ <definition>East Long Lake</definition>
+ </codeDefinition>
+ <codeDefinition><code>L</code>
+ <definition>Paul Lake</definition>
+ </codeDefinition>
+ <codeDefinition><code>R</code>
+ <definition>Peter Lake</definition>
+ </codeDefinition>
+ <codeDefinition><code>T</code>
+ <definition>Tuesday Lake</definition>
+ </codeDefinition>
+ <codeDefinition><code>W</code>
+ <definition>West Long Lake</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1133393636475" scope="document"><attributeName>YEAR</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year samples were taken</attributeDefinition>
+ <measurementScale><datetime><formatString>YY</formatString>
+ </datetime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1133393636485" scope="document"><attributeName>DAY</attributeName>
+ <attributeLabel>Day</attributeLabel>
+ <attributeDefinition>Day of the year according to the Julian calendar</attributeDefinition>
+ <measurementScale><datetime><formatString>DDD</formatString>
+ </datetime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1133393636495" scope="document"><attributeName>ZTHER</attributeName>
+ <attributeLabel>Thermocline depth</attributeLabel>
+ <attributeDefinition>Thermocline depth (m) : depth of maximum temperature change</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1133393636505" scope="document"><attributeName>EPIT</attributeName>
+ <attributeLabel>Temperature</attributeLabel>
+ <attributeDefinition>Temperature in the epilimnion (Celsius degrees)</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1133393636515" scope="document"><attributeName>Z1MGDO</attributeName>
+ <attributeDefinition>Depth of 1 mg/L dissolved oxygen (m)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1133393636525" scope="document"><attributeName>ZMAXDO</attributeName>
+ <attributeDefinition>Depth of maximum dissolved oxygen (m)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1133393636535" scope="document"><attributeName>Z1LT</attributeName>
+ <attributeDefinition>Depth of 1% surface irradiance (m)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1133393636545" scope="document"><attributeName>THERLT</attributeName>
+ <attributeLabel>Thermocline light</attributeLabel>
+ <attributeDefinition>% Light at the thermocline</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>fraction</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1133393636555" scope="document"><attributeName>SECCHI</attributeName>
+ <attributeLabel>Secchi depth</attributeLabel>
+ <attributeDefinition>Secchi depth (m)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>.</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>805</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><unitList><unit id="fraction" multiplerToSI=" " name="fraction" parentSI="mole" unitType="amount"><description>fraction</description>
+ </unit>
+ </unitList>
+ </additionalMetadata>
+ </ns0:eml>

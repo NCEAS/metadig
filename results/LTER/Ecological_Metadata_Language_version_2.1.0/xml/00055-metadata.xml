@@ -1,0 +1,1701 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.323.9" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0    http://data.gios.asu.edu/eml2_1_0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="323.323_1" system="gios_dataset">
+    <alternateIdentifier system="gios_dataset">323</alternateIdentifier>
+    <shortName>rainfall2000.tif</shortName>
+    <title>Precipitation analysis of the central Arizona-Phoenix area from 2000 to 2005</title>
+    <creator>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <surName>Buyantuyev</surName>
+      </individualName>
+      <organizationName>Global Institute of Sustainability</organizationName>
+      <address>
+        <deliveryPoint>Global Institute of Sustainability, Arizona State University, PO Box 875401,Tempe, AZ 85287-3211</deliveryPoint>
+      </address>
+    </creator>
+    <pubDate>2007</pubDate>
+    <language>en</language>
+    <abstract>
+      <para>The dataset is part of the effort to provide the most detailed climate data for CAPLTER and related projects. This dataset represents average monthly rainfall derived from spatial interpolation of daily rainfall data from a dense network of precipitation sensors for the period of 5 years (2000-2005).</para>
+    </abstract><keywordSet><keyword keywordType="theme">Climate, Ecosystems and People</keyword><keywordThesaurus>IPA and Core Area CAP Data Portal Controler</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="place">sonoran desert</keyword><keyword keywordType="place">phoenix</keyword><keyword keywordType="theme">urban</keyword><keyword keywordType="theme">metropolitan area</keyword><keyword keywordType="theme">gis</keyword><keyword keywordType="theme">geosciences</keyword><keyword keywordType="theme">precipitation</keyword><keyword keywordType="theme">rain</keyword><keyword keywordType="theme">climate</keyword><keyword keywordType="theme">Climate, Ecosystems and People</keyword><keyword keywordType="theme">weather</keyword><keyword keywordType="theme">rainfall</keyword><keyword keywordType="theme">ecosystems people</keyword><keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">maps</keyword><keyword keywordType="theme">vegetation</keyword><keyword keywordType="theme">precipitation</keyword><keyword keywordType="theme">rain</keyword><keyword keywordType="theme">modeling</keyword><keyword keywordType="theme">climate</keyword><keyword keywordType="theme">weather</keyword><keyword keywordType="theme">floods</keyword><keywordThesaurus>LTER Controlled Vocabulary Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">caplter</keyword><keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword><keyword keywordType="place">arizona</keyword><keyword keywordType="theme">caplter created</keyword><keyword keywordType="place">az</keyword><keyword keywordType="theme">cap</keyword><keyword keywordType="theme">arid land</keyword><keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus></keywordSet>
+    
+    
+    
+    <intellectualRights>
+      <section>
+        <para>Copyright Board of Regents, Arizona State University. This dataset is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available "as is".</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+            </listitem>
+            <listitem>
+              <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+            </listitem>
+            <listitem>
+              <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=323</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2000-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2005-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <geographicCoverage>
+        <geographicDescription>Central Arizona Phoenix</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-112.860109</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.487525</eastBoundingCoordinate>
+          <northBoundingCoordinate>33.894016</northBoundingCoordinate>
+          <southBoundingCoordinate>33.010982</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <purpose>
+      <para>The dataset to be used for various exploration and modeling tasks. It is suitable for detailed spatial and temporal analysis with other spatial data. Although this dataset represents a monthly average the original raw data can be used to create monthly and daily rainfall maps upon request.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <para>This research study has been concluded.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="323.Datamanager">
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Global Institute of Sustainability</deliveryPoint>
+        <deliveryPoint>Arizona State University</deliveryPoint>
+        <deliveryPoint>POB 875402</deliveryPoint>
+        <city>TEMPE</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-5402</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(480) 965 2975</phone>
+      <phone phonetype="fax">(480) 965-8087</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Meteorological data acquisition and preprocessing</title>
+            <para>Precipitation data were obtained from different sources including the Flood Control Disctrict of Maricopa County (ALERT), the National Weather Service (NWS), the Arizona Meteorological Network (AZMET), and the Phoenix Real-time Instrumentation for Surface Meteorological Studies (PRISMS) Network. Instrument locations were first geocoded using the station descriptions from each network. Daily measurements were then aggregated to bi-weekly periods to match the temporal resolution of MODIS (The Moderate Resolution Imaging Spectroradiometer) Normalized Difference Vegetation Index (NDVI) images. MODIS is a key instrument aboard the Terra (EOS AM) and Aqua (EOS PM) satellites designed for global monitoring of key biophysical parameters including vegetation. Tables with aggregated precipitation were then joined to the shapefile of precipitaiton sensors.</para>
+          </section>
+          <section>
+            <title>Spatial interpolation</title>
+            <para>I performed ordinary kriging to create precipitaion surfaces. The maps were created using Geostatistical Analyst, the ArcGIS 9.1 extension. Spherical models were used in all semivariogram models and predictions were checked interactively using the built-in tools. Standard Error maps were also produced along with prediction surfaces that were all rasterized to a 250 meter resolution grid.</para>
+          </section>
+          <section>
+            <title>Temporal aggregations</title>
+            <para>Biweekly precipitation surfaces were aggregated to monthly time step. In turn monthly surfaces were summed up to derive annual precipitation grids. For each month I computed the average 6-year precipitaion. Finally the average annual precipitation was also computed for the period of 2000-2006.</para>
+          </section>
+        </description>
+        <dataSource>
+          <title>AZMET meteorological data</title>
+          <creator>
+            <organizationName>University of Arizona</organizationName>
+          </creator>
+          <contact>
+            <individualName>
+              <givenName>Paul</givenName>
+              <surName>Brown</surName>
+            </individualName>
+            <organizationName>The Arizona Meteorological Network (AZMET) is part of the Extension Biometeorology Program, which is a service of the University of Arizona Cooperative Extension within the College of Agriculture</organizationName>
+            <address>
+              <deliveryPoint>Soils, Water and Environmental Science Dept (SWES)</deliveryPoint>
+              <deliveryPoint>429 Shantz Bldg #38 / Univ. of Arizona / Tucson, AZ 85721</deliveryPoint>
+              <city>Tuscon</city>
+            </address>
+          </contact>
+        </dataSource>
+        <dataSource>
+          <title>ALERT weather data</title>
+          <creator>
+            <organizationName>Flood Control District of Maricopa County</organizationName>
+          </creator>
+          <contact>
+            <organizationName>Flood Control District of Maricopa County</organizationName>
+            <address>
+              <deliveryPoint>2801 W. Durango Street, Phoenix, AZ 85009</deliveryPoint>
+              <city>Phoenix</city>
+            </address>
+          </contact>
+        </dataSource>
+        <dataSource>
+          <title>PRISMS network data</title>
+          <creator>
+            <organizationName>OFFICE OF THE ARIZONA STATE CLIMATOLOGIST</organizationName>
+          </creator>
+          <contact>
+            <individualName>
+              <givenName>Nancy</givenName>
+              <surName>Selover</surName>
+            </individualName>
+            <organizationName>THE OFFICE OF THE ARIZONA STATE CLIMATOLOGIST</organizationName>
+            <address>
+              <deliveryPoint>Office of Climatology, Arizona State University, Box 871508</deliveryPoint>
+              <city>Tempe</city>
+            </address>
+          </contact>
+        </dataSource>
+      </methodStep>
+    </methods>
+    <spatialRaster id="323.Band_1">
+      <entityName>2000 Annual Precipitation</entityName>
+      <entityDescription>Year 2000 analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>323.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/323.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-02-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2000-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="323.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="323.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of annual rainfall in millimeters in
+                        2000</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="354.Band_1">
+      <entityName>2001 Annual Precipitation</entityName>
+      <entityDescription>Year 2001 analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>Band_1</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/354.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2001-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2001-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="354.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="354.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of annual rainfall in millimeters in
+                        2001</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="324.Band_1">
+      <entityName>2002 Annual Precipitation</entityName>
+      <entityDescription>Year 2002 analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>324.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/324.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2002-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2002-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="324.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="324.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of annual rainfall in millimeters in
+                        2002</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="325.Band_1">
+      <entityName>2003 Annual Precipitation</entityName>
+      <entityDescription>Year 2003 analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>325.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/325.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2003-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2003-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="325.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="325.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of annual rainfall in millimeters in
+                        2003</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="326.Band_1">
+      <entityName>2004 Annual Precipitation</entityName>
+      <entityDescription>Year 2004 analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>326.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/326.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2004-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2004-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="326.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="326.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of annual rainfall in millimeters in
+                        2004</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="327.Band_1">
+      <entityName>2005 Annual Precipitation</entityName>
+      <entityDescription>Year 2005 analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>327.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/327.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2005-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="327.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="327.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of annual rainfall in millimeters in
+                        2005</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="328.Band_1">
+      <entityName>Mean Annual Precipitation</entityName>
+      <entityDescription>Years mean analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>328.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/328.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-02-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="328.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="328.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>6 year mean annual rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="329.Band_1">
+      <entityName>Average precipitation in April in Central Arizona</entityName>
+      <entityDescription>April months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>329.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/329.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-04-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-04-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="329.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="329.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="330.Band_1">
+      <entityName>Average precipitation in August in Central Arizona</entityName>
+      <entityDescription>August months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>330.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/330.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-08-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-08-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="330.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="330.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="331.Band_1">
+      <entityName>Average precipitation in December in Central Arizona</entityName>
+      <entityDescription>December months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>331.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/331.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-12-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="331.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="331.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="332.Band_1">
+      <entityName>Average precipitation in January in Central Arizona</entityName>
+      <entityDescription>January months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>332.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/332.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-01-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="332.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="332.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="333.Band_1">
+      <entityName>Average precipitation in February in Central Arizona</entityName>
+      <entityDescription>February months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>Band_1</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/333.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-02-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-02-28</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="333.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="333.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="334.Band_1">
+      <entityName>Average precipitation in July in Central Arizona</entityName>
+      <entityDescription>July months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>334.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/334.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-07-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-07-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="334.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="334.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="335.Band_1">
+      <entityName>Average precipitation in June in Central Arizona</entityName>
+      <entityDescription>June months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>335.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/335.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-06-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="335.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="335.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="336.Band_1">
+      <entityName>Average precipitation in March in Central Arizona</entityName>
+      <entityDescription>March months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>336.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/336.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-03-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-03-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="336.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="336.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="337.Band_1">
+      <entityName>Average precipitation in May in Central Arizona</entityName>
+      <entityDescription>May months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>337.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/337.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-05-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-05-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="337.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="337.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="338.Band_1">
+      <entityName>Average precipitation in November in Central Arizona</entityName>
+      <entityDescription>November months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>338.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/338.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-11-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-11-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="338.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="338.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="339.Band_1">
+      <entityName>Average precipitation in October in Central Arizona</entityName>
+      <entityDescription>October months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>339.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/339.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-10-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="339.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="339.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster id="340.Band_1">
+      <entityName>Average precipitation in September in Central Arizona</entityName>
+      <entityDescription>September months analysis of the rain fall through out the caplter research area, a 5 year analysis</entityDescription>
+      <physical>
+        <objectName>340.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Raster Dataset</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://data.gios.asu.edu/datasets/cap/340.zip</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2000-02-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2005-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="340.ObjectID">
+          <attributeName>ObjectID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are
+                                        automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="340.Value">
+          <attributeName>Value</attributeName>
+          <attributeDefinition>Amount of average monthly rainfall in
+                        millimeters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>not assessed</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>250.000000</cellSizeXDirection>
+      <cellSizeYDirection>250.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>386</rows>
+      <columns>506</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+  </dataset>
+</ns0:eml>

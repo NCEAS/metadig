@@ -1,0 +1,815 @@
+<ns0:metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Ebisuzaki, Dr. Wesley</origin>
+        <title>NCEP Global Reanalysis</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/curtis/metadata/climate/ncep_reanalysis.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/curtis/metadata/climate/ncep_reanalysis.xml</alt_onlink>
+        <onlink />
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The NCEP Global Reanalysis (GR) project is a joint project between the National Centers for Environmental Prediction (NCEP, formerly NMC) and the National Center for Atmospheric Research (NCAR). The goal of this joint effort is to produce new atmospheric analyses using historical data (1948 onwards) and as well to produce analyses of the current atmospheric state (Climate Data Assimilation System, CDAS). 
+
+Until recently, the meteorological community has had to use analyses that supported the real-time weather forecasting. These analyses are very inhomogeneous in time as there have been big improvements in the data assimilation systems. This played havoc with climate monitoring as these improvements were often produced changes in the apparent climate. Even fundamental quantities such as the strength of the Hadley cell has changed over the years as a result of the changes in the data assimilation systems. 
+
+The quality and utility of the re-analyses should be superior to earlier NCEP analyses because:
+
+(1) a state-of-the-art data assimilation system is used; 
+(2) more observations (later data cut-off time) are used;
+(3) quality control has been improved; 
+(4) the model/data assimilation procedure remains essentially unchanged during the entire NCEP/NCAR Reanalysis project (1948-1995) and for the ongoing CDAS (Climate Diagnostics Assimilation System). (Of course there will be some changes as the types and numbers of observations change over the years.)
+(5) many more fields are being saved (ex. potential vorticity on isentropic surfaces, diabatic heating);
+(6) global coverage (some older analyses were hemispheric); and 
+(7) better vertical resolution (stratosphere).</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19480101</begdate>
+          <enddate />
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Ongoing</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>GEOPOTENTIAL HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PLANETARY BOUNDARY LAYER HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>ATMOSPHERIC PRESSURE MEASUREMENTS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>GRAVITY WAVE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PRESSURE TENDENCY|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PRESSURE THICKNESS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEA LEVEL PRESSURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SURFACE PRESSURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>AIR TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>ATMOSPHERIC STABILITY|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>POTENTIAL TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SKIN TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>MAXIMUM/MINIMUM TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SKIN TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SURFACE AIR TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>TEMPERATURE TENDENCY|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>VIRTUAL TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>EVAPORATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>HUMIDITY|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PRECIPITABLE WATER|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>WATER VAPOR|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>BOUNDARY LAYER WINDS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CONVECTION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CONVERGENCE/DIVERGENCE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>STREAMFUNCTIONS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SURFACE WINDS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>UPPER LEVEL WINDS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>VERTICAL WIND MOTION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>VORTICITY|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>WIND SHEAR|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>WIND STRESS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CLOUD AMOUNT/FREQUENCY|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CLOUD BASE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CLOUD FORCING|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CLOUD HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LIQUID WATER EQUIVALENT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PRECIPITATION RATE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SNOW|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>ALBEDO|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>ATMOSPHERIC HEATING|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>HEAT FLUX|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LONGWAVE RADIATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>OUTGOING LONGWAVE RADIATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>NET RADIATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>RADIATIVE FLUX|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SHORTWAVE RADIATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SOLAR RADIATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEA ICE CONCENTRATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SNOW DEPTH|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SNOW WATER EQUIVALENT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>RUNOFF|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SOIL MOISTURE/WATER CONTENT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SURFACE ROUGHNESS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEA SURFACE TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEA ICE CONCENTRATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SOIL HEAT BUDGET|ANALYSIS|COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>GEOPOTENTIAL HEIGHT</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>ANALYSIS</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>Global (gridded)</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Ebisuzaki, Dr. Wesley</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; Wesley.Ebisuzaki@noaa.gov</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>National Oceanic and Atmospheric Administration (NOAA), National Weather Service, National Centers for Environmental Prediction, Climate Prediction Center, Camp Springs, Maryland, USA</cntorg>
+          <cntper>Ebisuzaki, Dr. Wesley</cntper>
+        </cntperp>
+        <cntvoice>+1-301-763-8000, ext 7576</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; Wesley.Ebisuzaki@noaa.gov</cntfax>
+        <cntemail>Wesley.Ebisuzaki@noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://www.cpc.ncep.noaa.gov/</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>NCEP Global Reanalysis (GR). NOAA/NWS National Centers for Environmental Prediction, Climate Prediction Center, Camp Springs, Maryland, USA.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20081207 065919</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntperp>
+        <cntvoice>+1-804-769-2495</cntvoice>
+        <cntemail>cncurtis@crosslink.net</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19480101</begdate>
+    <enddate>2014924</enddate>
+    <Site_Information>
+      <Site>Global (gridded)</Site>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Southernmost_Latitude>-90</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>Air temperature</Keywords>
+    <Keywords>Brunt Vaisala frequency</Keywords>
+    <Keywords>Clear sky upward longwave flux</Keywords>
+    <Keywords>Clear sky upward solar flux</Keywords>
+    <Keywords>Climate Collections</Keywords>
+    <Keywords>Cloud cover</Keywords>
+    <Keywords>Convective precipitation</Keywords>
+    <Keywords>Corrected precipitation</Keywords>
+    <Keywords>Covariance</Keywords>
+    <Keywords>Downward solar radiation flux</Keywords>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>Geopotential height</Keywords>
+    <Keywords>Global</Keywords>
+    <Keywords>GPCP precipitation</Keywords>
+    <Keywords>Land sea mask</Keywords>
+    <Keywords>Latent heat flux</Keywords>
+    <Keywords>Mass weighted zonal wind</Keywords>
+    <Keywords>Merged precipitation estimate</Keywords>
+    <Keywords>Meridional wind stress</Keywords>
+    <Keywords>Momentum flux</Keywords>
+    <Keywords>Montgomery stream function</Keywords>
+    <Keywords>NCEP/NCAR Reanalysis</Keywords>
+    <Keywords>North America</Keywords>
+    <Keywords>Potential temperature</Keywords>
+    <Keywords>Precipitable water content</Keywords>
+    <Keywords>Pressure</Keywords>
+    <Keywords>Psiticity</Keywords>
+    <Keywords>Relative humidity</Keywords>
+    <Keywords>Sea level pressure</Keywords>
+    <Keywords>Sensible heat flux</Keywords>
+    <Keywords>Snow</Keywords>
+    <Keywords>Snow water equivalent</Keywords>
+    <Keywords>Specific humidity</Keywords>
+    <Keywords>Streamfunction</Keywords>
+    <Keywords>Surface flux</Keywords>
+    <Keywords>Total cloud cover</Keywords>
+    <Keywords>Total precipitation rate</Keywords>
+    <Keywords>Tropopause</Keywords>
+    <Keywords>Upward long wave radiation flux</Keywords>
+    <Keywords>Upward solar radiation flux</Keywords>
+    <Keywords>u-wind</Keywords>
+    <Keywords>v-wind</Keywords>
+    <Keywords>Velocity potential</Keywords>
+    <Keywords>Volumetric soil moisture content</Keywords>
+    <Keywords>Water runoff</Keywords>
+    <Keywords>Wind speed</Keywords>
+    <Keywords>Zonal wind stress</Keywords>
+    <Parameter_Description>
+      <Parameter>GEOPOTENTIAL HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ALTITUDE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PLANETARY BOUNDARY LAYER HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ALTITUDE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ATMOSPHERIC PRESSURE MEASUREMENTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC PRESSURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>GRAVITY WAVE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC PRESSURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PRESSURE TENDENCY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC PRESSURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PRESSURE THICKNESS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC PRESSURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEA LEVEL PRESSURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC PRESSURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SURFACE PRESSURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC PRESSURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>AIR TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ATMOSPHERIC STABILITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>POTENTIAL TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SKIN TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>MAXIMUM/MINIMUM TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SKIN TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SURFACE AIR TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>TEMPERATURE TENDENCY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>VIRTUAL TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>EVAPORATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WATER VAPOR</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>HUMIDITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WATER VAPOR</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PRECIPITABLE WATER</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WATER VAPOR</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WATER VAPOR</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WATER VAPOR</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>BOUNDARY LAYER WINDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CONVECTION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CONVERGENCE/DIVERGENCE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>STREAMFUNCTIONS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SURFACE WINDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>UPPER LEVEL WINDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>VERTICAL WIND MOTION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>VORTICITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WIND SHEAR</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WIND STRESS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC WINDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CLOUD AMOUNT/FREQUENCY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>CLOUDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CLOUD BASE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>CLOUDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CLOUD FORCING</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>CLOUDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CLOUD HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>CLOUDS</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LIQUID WATER EQUIVALENT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>PRECIPITATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PRECIPITATION RATE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>PRECIPITATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SNOW</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>PRECIPITATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ALBEDO</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ATMOSPHERIC HEATING</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>HEAT FLUX</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LONGWAVE RADIATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>OUTGOING LONGWAVE RADIATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>NET RADIATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>RADIATIVE FLUX</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SHORTWAVE RADIATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOLAR RADIATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ATMOSPHERIC RADIATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEA ICE CONCENTRATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SEA ICE</Term>
+      <Topic>CRYOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SNOW DEPTH</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SNOW/ICE</Term>
+      <Topic>CRYOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SNOW WATER EQUIVALENT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SNOW/ICE</Term>
+      <Topic>CRYOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>RUNOFF</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SURFACE WATER</Term>
+      <Topic>HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL MOISTURE/WATER CONTENT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SURFACE ROUGHNESS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TOPOGRAPHY</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEA SURFACE TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>OCEAN TEMPERATURE</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEA ICE CONCENTRATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SEA ICE</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL HEAT BUDGET</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Project />
+    <Navpath>COMPUTER MODEL|ANALYSIS|GEOPOTENTIAL HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PLANETARY BOUNDARY LAYER HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|ATMOSPHERIC PRESSURE MEASUREMENTS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|GRAVITY WAVE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PRESSURE TENDENCY</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PRESSURE THICKNESS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEA LEVEL PRESSURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SURFACE PRESSURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|AIR TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|ATMOSPHERIC STABILITY</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|POTENTIAL TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SKIN TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|MAXIMUM/MINIMUM TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SKIN TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SURFACE AIR TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|TEMPERATURE TENDENCY</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|VIRTUAL TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|EVAPORATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|HUMIDITY</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PRECIPITABLE WATER</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|WATER VAPOR</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|BOUNDARY LAYER WINDS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CONVECTION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CONVERGENCE/DIVERGENCE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|STREAMFUNCTIONS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SURFACE WINDS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|UPPER LEVEL WINDS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|VERTICAL WIND MOTION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|VORTICITY</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|WIND SHEAR</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|WIND STRESS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CLOUD AMOUNT/FREQUENCY</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CLOUD BASE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CLOUD FORCING</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CLOUD HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LIQUID WATER EQUIVALENT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PRECIPITATION RATE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SNOW</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|ALBEDO</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|ATMOSPHERIC HEATING</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|HEAT FLUX</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LONGWAVE RADIATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|OUTGOING LONGWAVE RADIATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|NET RADIATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|RADIATIVE FLUX</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SHORTWAVE RADIATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SOLAR RADIATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEA ICE CONCENTRATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SNOW DEPTH</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SNOW WATER EQUIVALENT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|RUNOFF</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SOIL MOISTURE/WATER CONTENT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SURFACE ROUGHNESS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEA SURFACE TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEA ICE CONCENTRATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SOIL HEAT BUDGET</Navpath>
+    <Principal_Investigator>
+      <Name>Ebisuzaki, Dr. Wesley</Name>
+      <Email>Wesley.Ebisuzaki@noaa.gov</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://www.cpc.ncep.noaa.gov/products/wesley/reanalysis.html</URL>
+      <Label>NCEP Global Reanalysis (GR) Climate Data Assimilation System (CDAS) Data Set</Label>
+      <Link_Note>A subset of the NCEP Global Reanalysis (GR) (CDAS) data set is available on the Internet so that the public can receive the analyses in a timely manner. (Note: NCEP is not an archive site and cannot provide tapes.) The subset includes monthly and daily averages of many standard pressure-level data and surface flux quantities. This subset should be updated by the 5th of the month for the previous month. The NCEP web facilities allow you to (1) make plots, (2) obtain time series of a box average, (3) obtain subsets of the GRIB fields, and (4) access many of the GRIB fields by FTP.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://nomad2.ncep.noaa.gov/ncep_data/</URL>
+      <Label>NCEP Global Reanalysis (GR) Data Sets via NCEP NOMADS Site</Label>
+      <Link_Note>You can find reanalysis, climate monitoring, and real-time high resolution NCEP models and data if you follow this link to the NCEP NOMADS site.</Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status>Ongoing</Data_Set_Status>
+      <Data_Set_Restrictions>Public</Data_Set_Restrictions>
+      <Data_Set_Location>Data Support Section (DSS), Scientific Computing Division (SCD), National Center for Atmospheric Research (NCAR), University Corporation for Atmospheric Research (UCAR), Boulder, Colorado, USA</Data_Set_Location>
+      <Data_Contact_Person>
+        <Email>chifan@ucar.edu</Email>
+        <Name>Shih, Chi-Fan</Name>
+        <Phone>+1-303-497-1833</Phone>
+        <Data_Center_URL>http://dss.ucar.edu/pub/reanalysis/</Data_Center_URL>
+      </Data_Contact_Person>
+      <Data_Center_URL>http://dss.ucar.edu/pub/reanalysis/</Data_Center_URL>
+      <Data_Set_Citation>NCEP Global Reanalysis (GR) Data Sets. Available at [http://dss.ucar.edu/pub/reanalysis/] from the National Center for Atmospheric Research (NCAR), University Corporation for Atmospheric Research (UCAR), Boulder, Colorado, USA.</Data_Set_Citation>
+      <Data_Set_Link>
+        <URL>http://dss.ucar.edu/pub/reanalysis/rean_cdroms.html</URL>
+        <Label>NCEP Global Reanalysis (GR) CD-ROMs</Label>
+        <Link_Note>Three types of NCEP Global Reanalysis (GR) CD-ROMs are available for purchase from NCAR: (1) Annual NCEP/NCAR CD-ROMs contain a carefully selected subset of fields from most of the major file types in the complete Reanalysis data set.  All 1950-present reanalysis annual CD-ROMs, including TOVS reruns CD-ROMs for 1997, 1998, 1999, are available from NCAR. (2) A 1979-1996 Global Synoptic Time Series CD-ROM contains once-daily global time series of geopotential height at 1000mb and 500mb, winds at 850mb and 200mb, and 500mb vertical velocity for 1979-1996 together with a daily climatology of these fields averaged over 1979-1995 from the NCEP/NCAR Reanalysis Project. (3) NCEP/NCAR Reanalysis 1948-1998 Monthly Means CD-ROM released as part of Bulletin of American Meteorological Society, February 2001 issue contains fifty-one years of reanalysis data. [The previous version (dated 7/1999) is still available.] The cost is $10 per CD-ROM plus a per-order shipping/handling fee. The shipping/handling charge is $10 for U.S. orders (by FedEx); about $30 for foreign orders (by FedEx), or about $15 for foreign orders (by regular air mail). Orders may be placed with NCAR by mail, email, fax, or telephone.  An order form is found at http://dss.ucar.edu/datasets/ds090.0/docs/cdroms-order-form.</Link_Note>
+        <Data_Center_URL>http://dss.ucar.edu/pub/reanalysis/</Data_Center_URL>
+      </Data_Set_Link>
+      <Data_Set_Link>
+        <URL>http://dss.ucar.edu/datasets/ds090.0/</URL>
+        <Label>NCEP Global Reanalysis Products, 6-hrly, monthly (DS090.0)</Label>
+        <Link_Note>This data set contains NCEP/NCAR Reanalysis output products for over 80 different variables and several different coordinate systems for the period 1948jan01-2004jan01 (continuing). The coordinate systems are a pressure level stack (17 levels) on a 2.5x2.5 degree lat-lon grid, a sigma level stack (28 levels) on Gaussian 192x94 grid, and a theta surface stack (11 levels) on a 2.5x2.5 degree lat-lon grid.  Information about purchasing this data set is found at this link.</Link_Note>
+        <Data_Center_URL>http://dss.ucar.edu/pub/reanalysis/</Data_Center_URL>
+      </Data_Set_Link>
+      <Data_Set_Link>
+        <URL>http://dss.ucar.edu/datasets/ds090.1/</URL>
+        <Label>NCEP Global Reanalysis Products, 8-Day Forecast, every 5 Days (DS090.1)</Label>
+        <Link_Note>This data set contains forecast products from the NCEP Global Reanalysis (GR) project for the period 1948jan01-2003dec31 (continuing). Every five days, beginning with 00Z 01 January, an 8 day forecast run is made. The initial time and outputs for every 12 hours are saved from this run. Pressure level and special level data are archived on the 2.5x2.5 latitude-longitude grid and flux fields are archived on the 192x94 Gaussian grid. Information about purchasing this data set is found at this link.</Link_Note>
+        <Data_Center_URL>http://dss.ucar.edu/pub/reanalysis/</Data_Center_URL>
+      </Data_Set_Link>
+      <Data_Set_Link>
+        <URL>http://dss.ucar.edu/datasets/ds090.2/</URL>
+        <Label>NCEP Global Reanalysis (GR) Monthly Mean Subsets from DS090.0 (DS090.2)</Label>
+        <Link_Note>This data set is prepared using the monthly means of file_type 3D,prs, grib in ds090.0 NMC Global Reanalysis data for the period 1948jan01-2003dec31 (continuing). The ten subsets are called dgn, presA, presB, theta, xprod, 00Z, 06Z, 12Z, 18Z, and rest groups. A brief description of the content of each group is given at this link.</Link_Note>
+        <Data_Center_URL>http://dss.ucar.edu/pub/reanalysis/</Data_Center_URL>
+      </Data_Set_Link>
+      <Data_Set_Link>
+        <URL>http://dss.ucar.edu/datasets/ds090.0/data/monthly/</URL>
+        <Label>Selected Monthly Means Extracted from DS090.0</Label>
+        <Link_Note>These subsets are free by FTP.</Link_Note>
+        <Data_Center_URL>http://dss.ucar.edu/pub/reanalysis/</Data_Center_URL>
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <Alternate_Data_Access>
+      <Data_Set_Status>Ongoing</Data_Set_Status>
+      <Data_Set_Restrictions>Public</Data_Set_Restrictions>
+      <Data_Set_Location>NOAA-Cooperative Institute for Research in Environmental Sciences (CIRES), Climate Diagnostics Center (CDC), University of Colorado, Boulder, Colorado, USA</Data_Set_Location>
+      <Data_Contact_Person>
+        <Email>cdcdata@noaa.gov</Email>
+        <Name>Data Management Personnel</Name>
+        <Phone>+1-303-497-6640</Phone>
+        <Data_Center_URL>http://www.cdc.noaa.gov/cdc/reanalysis/reanalysis.shtml</Data_Center_URL>
+      </Data_Contact_Person>
+      <Data_Center_URL>http://www.cdc.noaa.gov/cdc/reanalysis/reanalysis.shtml</Data_Center_URL>
+      <Data_Set_Citation>NCEP Global Reanalysis (GR) Data Sets.  Available at [http://www.cdc.noaa.gov/cdc/reanalysis/reanalysis.shtml] from NOAA-Cooperative Institute for Research in Environmental Sciences (CIRES), Climate Diagnostics Center, University of Colorado, Boulder, Colorado, USA.</Data_Set_Citation>
+      <Data_Set_Link>
+        <URL>http://www.cdc.noaa.gov/cdc/data.ncep.reanalysis.derived.html</URL>
+        <Label>NCEP Global Reanalysis (GR) Monthly Means and Other Derived Variables</Label>
+        <Link_Note>A subset of NCEP Global Reanalysis (GR) data has been processed to create monthly means from a subset of the original data. There are also files containing data from variables derived from the reanalysis and some other statistics. Information about the 4-times and daily data is available, as well, at this link.</Link_Note>
+        <Data_Center_URL>http://www.cdc.noaa.gov/cdc/reanalysis/reanalysis.shtml</Data_Center_URL>
+      </Data_Set_Link>
+      <Data_Set_Link>
+        <URL>http://www.cdc.noaa.gov/cgi-bin/DataIntro.pl?dataset=NCEP</URL>
+        <Label>NCEP Reanalysis Electronic Atlas</Label>
+        <Link_Note>The NCEP Reanalysis Electronic Atlas allows users to visualize NCEP data.</Link_Note>
+        <Data_Center_URL>http://www.cdc.noaa.gov/cdc/reanalysis/reanalysis.shtml</Data_Center_URL>
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <Alternate_Data_Access>
+      <Data_Set_Status>Ongoing</Data_Set_Status>
+      <Data_Set_Restrictions>Public</Data_Set_Restrictions>
+      <Data_Set_Location>National Oceanic and Atmospheric Administration, National Climatic Data Center, Asheville, North Carolina, USA</Data_Set_Location>
+      <Data_Contact_Person>
+        <Email>ncdc.info@noaa.gov</Email>
+        <Name>National Climatic Data Center, Federal Building, 151 Patton Ave., Asheville, NC, 28801-5001 USA</Name>
+        <Phone>+1-828-271-4800</Phone>
+        <Data_Center_URL>http://www.ncdc.noaa.gov/</Data_Center_URL>
+      </Data_Contact_Person>
+      <Data_Center_URL>http://www.ncdc.noaa.gov/</Data_Center_URL>
+      <Data_Set_Citation>NCEP Global Reanalysis (GR) Data Sets.  Available from the National Oceanic and Atmospheric Administration, National Climatic Data Center, Asheville, North Carolina, USA.</Data_Set_Citation>
+      <Data_Set_Link>
+        <URL>mailto:NCDC.Orders@noaa.gov</URL>
+        <Label>NCEP Global Reanalysis (GR) Data Sets, TD6160-TD6170</Label>
+        <Link_Note>Send an email to NCDC&amp;#226;&#239;&#191;&#189;&amp;#153;s Climate Services and ask about the cost of obtaining these data sets.</Link_Note>
+        <Data_Center_URL>http://www.ncdc.noaa.gov/</Data_Center_URL>
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>metadata24.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>Wesley.Ebisuzaki@noaa.gov</Email>
+      <Name>Ebisuzaki, Dr. Wesley</Name>
+      <Phone>+1-301-763-8000, ext 7576</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>Created 20040227 132249 by 206.246.119.52</File_ID>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Extent>64800</Spatial_Extent>
+    <Search_Text_Link>
+      <URL />
+      <Label />
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</ns0:metadata>

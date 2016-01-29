@@ -1,0 +1,3628 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="nceas.328.26" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>Analysis of long-term litter decomposition experiments</title>
+ <creator scope="document"> <organizationName>NCEAS       6840 : Harmon: Analysis of long-term litter decomposition experiments</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Mark</givenName>
+ <surName>Harmon</surName>
+ </individualName>
+ <organizationName>Oregon State University</organizationName>
+ <address scope="document"> <administrativeArea>Select state or territory here.</administrativeArea>
+ </address>
+ <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Callie</givenName>
+ <surName>Bowdish</surName>
+ </individualName>
+ </metadataProvider>
+ <pubDate>2007-05-04</pubDate>
+ <abstract> <para>Although numerous short-term experiments have been used to develop conceptual and simulation models of decomposition, very little is known about the later stages of this process. Exclusion of this later stage has led, at best, to incomplete understanding of ecosystem carbon and nitrogen dynamics. This working group examined the wealth of litter and decomposition data that has been produced by several recent long-term field experiments. Our analysis will initially be based on data from LIDET (Long-term Intersite Decomposition Experiment Team), a 27-site experiment conducted over a 10-year period.</para>
+ </abstract>
+ <keywordSet> <keyword>Wood</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Carbon</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Decay rates</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Decomposition</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Fine roots</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Leaf litter</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Litterfall</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Nitrogen</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Phosphorus</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Roots</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <additionalInfo> <para>The raw data used to generate this data set is at the TD023 - LTER Intersite Fine Litter Decomposition Experiment (LIDET) website. This site indcludes metadata that may be relevant to some of this data set. 
+
+http://www.fsl.orst.edu/lter/data/abstract.cfm?dbcode=TD023&amp;topnav=1</para>
+ </additionalInfo>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1990</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2002</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Sites Ranging from British Columbia to Panama</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-139.3308</westBoundingCoordinate>
+ <eastBoundingCoordinate>-79.8478</eastBoundingCoordinate>
+ <northBoundingCoordinate>59.8456</northBoundingCoordinate>
+ <southBoundingCoordinate>9.1506</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Mark</givenName>
+ <surName>Harmon</surName>
+ </individualName>
+ <organizationName>Oregon State University</organizationName>
+ <address scope="document"> <administrativeArea>Select state or territory here.</administrativeArea>
+ </address>
+ <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Experiment Design</title>
+ <para>The major factors to be considered in this experiment will be site, species of and type of litter (leaves, vs. roots vs dowels), and time. Twenty-one sites, representing a wide array of moisture and temperature conditions, will be used for litter incubations. Ten types of 'standard' litters will be sent to each site. These include three types of fine roots (graminoid, hardwood, and conifer), six types of leaf litter (which range in lignin/nitrogen ratio from 5 to 75), and wooden dowels. Samples will be collected ten times; the time between samples will be one year for all sites except LaSelva and Luquillo which will collect samples every three months. There will be four replicates for each species, site and time.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep> <description> <section> <title>Equations used in SAS proc NLIN to model decomp. Rate (k), m0 (intercept), s0 (stable portion)</title>
+ <para>Input raw field data:  MPAFRM=mean percent ashfree remaining mass</para>
+ <para>MTIMEOUT=years sample decomposed</para>
+ <para>Model 1  MPAFRM = (m0*EXP(-k*MTIMEOUT)); (no force intercept)</para>
+ <para>Model  2 MPAFRM = (m0*EXP(-k*mtimeout)); (forced intercept)</para>
+ <para>Model  3 MPAFRM = (m0*EXP(-k*TIMEout))+s0; (stable portion)</para>
+ <para>Model  4 MPAFRM = ((100 - s0)*EXP(-k*MTIMEOUT))+ s0; (stable portion forced intercept)</para>
+ <para>Model 5 MPAFRM = (m0f*EXP(-kf*MTIMEOUT))+(100-m0f)*exp(-ks*MTIMEOUT); (k fast and k slow, dual model)</para>
+ <para>Model  6 MPAFRM = (m0*EXP(-k*MTIMEOUT)); (last 4 years only)</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep> <description> <section> <title>Integrated-k calculations</title>
+ <para>1.  Calculate predicted remaining mass over long time period using best fit k and intercept from nlin output.</para>
+ <para>PredPAFRM = (M0F * exp(-KF*TIMEOUT)) + (100 - M0F) * exp(-KS * TIMEOUT);</para>
+ <para>run;</para>
+ <para>2.  Sum the predicted masses</para>
+ <para>3.  Calculate Integrated k:  =100/sumpred*-1;</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>The data used for analysis is from TD023 Intersite Fine litter Decomposition Experiment (LIDET) More information on the methods of collecting the data is at: http://www.fsl.orst.edu/lter/data/abstractdetail.cfm?dbcode=TD023&amp;topnav=1</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>In addition to the standard litters, each site will be represented by a 'wildcard' litter which appears at one site for each sample collection. The purpose of the wildcard species is to verify the predictions from the standard species. There will be four replicates for each wildcard species, site and time.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=bfasth,o=LTER,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=bowdish,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataTable id="1178312875343" scope="document"> <entityName>predicted_pafrm_using_model_outputs_L_R.csv</entityName>
+ <entityDescription>Predicted percent ash free remaining mass outputs L R</entityDescription>
+ <physical id="1178312872750" scope="document"> <objectName>predicted_pafrm_using_model_outputs_L_R.csv</objectName>
+ <size unit="byte">168745</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.810.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1178312875359" scope="document"> <attributeName>site</attributeName>
+ <attributeDefinition>The site where the litter was incubated.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ARC</code>
+ <definition>Arctic LTER site</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BCI</code>
+ <definition>Barro Colorado Island, Panama</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BSF</code>
+ <definition>Blodgett State Research Park, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BNZ</code>
+ <definition>Bonanza Creek Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CDR</code>
+ <definition>Cedar Creek Natural History Area, Minnesota</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CPR</code>
+ <definition>Central Plains Experimental Range, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CWT</code>
+ <definition>Coweeta Hydrologic Laboratory</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CV</code>
+ <definition>Curley Valley, Utah</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DUK</code>
+ <definition>Duke Forest, North Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GSF</code>
+ <definition>Guanica State Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AND</code>
+ <definition>H.J. ANDREWS EXPERIMENTAL FOREST OREGON, POST-1996</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HFR</code>
+ <definition>Harvard Forest, Massachusetts</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HBR</code>
+ <definition>Hubbard Brook Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JRN</code>
+ <definition>Jornada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUN</code>
+ <definition>Juneau, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KBS</code>
+ <definition>Kellog Biological Station, Michigan</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KNZ</code>
+ <definition>Konza Prairie Research Natural Area, Kansas</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LBS</code>
+ <definition>LaSelva Biological Station, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LVW</code>
+ <definition>Loch Vale Watershed, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LUQ</code>
+ <definition>Luquillo Experimental Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MTV</code>
+ <definition>Monte Verde, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NWT</code>
+ <definition>Niwot Ridge and Green Lakes Valley, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NIN</code>
+ <definition>North Inlet, South Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NLK</code>
+ <definition>North Temeperate Lakes, Wisconsin</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OLY</code>
+ <definition>Olympic National Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMR</code>
+ <definition>Santa Margarita Ecological Reserve, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEV</code>
+ <definition>Sevilleta, New Mexico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UBC</code>
+ <definition>University of British Columbia, Canada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UFL</code>
+ <definition>University of Florida, Florida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCR</code>
+ <definition>Virginia Coast Reserve, Virginia</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875375" scope="document"> <attributeName>species</attributeName>
+ <attributeDefinition>The species code for scientific name and common name.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ABAM</code>
+ <definition>Abies amabilis, Pacific silver fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABBA</code>
+ <definition>Abies balsamea, Balsam Fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABCO</code>
+ <definition>Abies concolor, white fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABGR</code>
+ <definition>Abies grandis, grand fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABLA2</code>
+ <definition>Abies lasiocarpa, subalpine fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABPR</code>
+ <definition>Abies procera, noble fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABLA</code>
+ <definition>Abronia latifolia, coastal sand verbena</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACCI</code>
+ <definition>Acer circinatum, vine maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACMA</code>
+ <definition>Acer macrophyllum, bigleaf maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACPE</code>
+ <definition>Acer pensylvanicum, Striped Maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACSA</code>
+ <definition>Acer saccharum, Sugar Maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACMI</code>
+ <definition>Achillea millefolium, common yarrow</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACROT</code>
+ <definition>Acomastylis rossii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACRU</code>
+ <definition>Actaea rubra, red baneberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ADBI</code>
+ <definition>Adenocaulon bicolor, American trailplant</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ADPE</code>
+ <definition>Adiantum aleuticum, Aleutian maidenhair</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALFA</code>
+ <definition>Allium falcifolium, scytheleaf onion</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALCR6</code>
+ <definition>Alnus crispa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALRU</code>
+ <definition>Alnus rubra, red alder</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AMPS</code>
+ <definition>Ambrosia psilostachya, Cuman ragweed</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AMBR</code>
+ <definition>Ammophila breviligulata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANMA</code>
+ <definition>Anaphalis margaritacea, western pearly everlasting</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANSC1</code>
+ <definition>Andropogon scoparius</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ARCA3</code>
+ <definition>Aralia californica, California spikenard</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ASPI</code>
+ <definition>Aster pilosus, hairy white oldfield aster</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ATFI</code>
+ <definition>Athyrium filix-femina, common ladyfern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BETUL</code>
+ <definition>Betula, birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BEAL</code>
+ <definition>Betula alleghaniensis, Yellow Birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BELU</code>
+ <definition>Betula lutea, Yellow Birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BEPA</code>
+ <definition>Betula papyrifera, paper birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BLSP</code>
+ <definition>Blechnum spicant, deer fern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANBL</code>
+ <definition>Bothriochloa bladhii,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BOER</code>
+ <definition>Bouteloua eriopoda,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BOGR</code>
+ <definition>Bouteloua gracilis,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BRIN</code>
+ <definition>Bromus inermis, smooth brome</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CACA</code>
+ <definition>Calamagrostis canadensis, bluejoint</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CADE3</code>
+ <definition>Calocedrus decurrens, incense cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CALE2</code>
+ <definition>Caltha leptosepala, white marsh marigold</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CAAQ</code>
+ <definition>Carex aquatilis, water sedge</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CARYA</code>
+ <definition>Carya</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CADE4</code>
+ <definition>Castanea dentata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CACH</code>
+ <definition>Castanopsis chrysophylla</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CEGR</code>
+ <definition>Ceanothus greggii, desert ceanothus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CEVE</code>
+ <definition>Ceanothus velutinus, snowbrush ceanothus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CHLA</code>
+ <definition>Chamaecyparis lawsoniana, Port Orford cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CHNO</code>
+ <definition>Chamaecyparis nootkatensis, Alaska cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CIDO</code>
+ <definition>Citharexylum donnell-smithii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COOE</code>
+ <definition>Conostegia oerstendiana</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COCY</code>
+ <definition>Cordia cymosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CODR</code>
+ <definition>Cornus drummondii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COFL</code>
+ <definition>Cornus florida, Flowering Dogwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CONU</code>
+ <definition>Cornus nuttallii, Pacific dogwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COAM</code>
+ <definition>Corylus americana</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COCOC</code>
+ <definition>Corylus cornuta var. californica, California hazelnut</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DECA</code>
+ <definition>Deschampsia caespitosa, tufted hairgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DISP</code>
+ <definition>Distichlis spicata, inland saltgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DRGL</code>
+ <definition>Drypetes glauca</definition>
+ </codeDefinition>
+ <codeDefinition> <code>EPAN</code>
+ <definition>Epilobium angustifolium, Fireweed, Blooming Sally</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FAGR</code>
+ <definition>Fagus grandifolia, American Beech</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FITU</code>
+ <definition>Ficus tuerckheimii,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FRAM</code>
+ <definition>Fraxinus americana, White Ash</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GASH</code>
+ <definition>Gaultheria shallon, salal</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GOBA</code>
+ <definition>Gonystylus bancanus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GYLU</code>
+ <definition>Gymnanthes lucida,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUNCU</code>
+ <definition>Juncus, rush</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JURO</code>
+ <definition>Juncus roemerianus,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KOMY</code>
+ <definition>Kobresia myosuroides, Bellardi bog sedge</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LAMU</code>
+ <definition>Lactuca muralis</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LALA</code>
+ <definition>Larix laricina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LAOC</code>
+ <definition>Larix occidentalis, western larch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LATR</code>
+ <definition>Larrea tridentata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LECA</code>
+ <definition>Lespedeza capitata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LIST</code>
+ <definition>Liquidambar styraciflua, Sweetgum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LITU</code>
+ <definition>Liriodendron tulipifera, Tuliptree</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MAOP</code>
+ <definition>Matayba oppositifolia</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MEVE</code>
+ <definition>Meliosma vernicosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MOFI</code>
+ <definition>Monarda fistulosa, wild bergamot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MYCE</code>
+ <definition>Myrica cerifera</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OXOR</code>
+ <definition>Oxalis oregana, redwood-sorrel</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OXAR</code>
+ <definition>Oxydendrum arboreum, Sourwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PAVI2</code>
+ <definition>Panicum virgatum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PEFR2</code>
+ <definition>Petasites frigidus, arctic sweet coltsfoot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PICEA</code>
+ <definition>Picea, spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIEN</code>
+ <definition>Picea engelmannii, Engelmann spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIGL</code>
+ <definition>Picea glauca, White Spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIMA</code>
+ <definition>Picea mariana, Black Spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PISI</code>
+ <definition>Picea sitchensis, Sitka spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PICO</code>
+ <definition>Pinus contorta, lodgepole pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIEL</code>
+ <definition>Pinus elliotii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIFL</code>
+ <definition>Pinus flexilis, limber pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PILA</code>
+ <definition>Pinus lambertiana, sugar pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIMO</code>
+ <definition>Pinus monticola, western white pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIPO</code>
+ <definition>Pinus ponderosa, ponderosa pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIRE</code>
+ <definition>Pinus resinosa, Red Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIST</code>
+ <definition>Pinus strobus, Eastern White Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PITA</code>
+ <definition>Pinus taeda, Loblolly Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BIBI5</code>
+ <definition>Polygonum bistortoides</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POBA2</code>
+ <definition>Populus balsamifera, balsam poplar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POTR</code>
+ <definition>Populus tremuloides, quaking aspen</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POTR2</code>
+ <definition>Populus trichocarpa, Black Cottonwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PRGL2</code>
+ <definition>Prosopis glandulosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PREM</code>
+ <definition>Prunus emarginata, bitter cherry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PSME</code>
+ <definition>Pseudotsuga menziesii, Douglas-fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PTAQ</code>
+ <definition>Pteridium aquilinum, western brackenfern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUAL</code>
+ <definition>Quercus alba, White Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUCO</code>
+ <definition>Quercus coccinea, Scarlet Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUKE</code>
+ <definition>Quercus kelloggii, California black oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUMA</code>
+ <definition>Quercus marilandica, Blackjack Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUMU</code>
+ <definition>Quercus muehlenbergii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUPR</code>
+ <definition>Quercus prinus, Chestnut Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QURU</code>
+ <definition>Quercus rubra, Red Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RHMA</code>
+ <definition>Rhododendron macrophyllum, Pacific rhododendron</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ROPS</code>
+ <definition>Robinia pseudoacacia, black locust</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUPA</code>
+ <definition>Rubus parviflorus, thimbleberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUSP</code>
+ <definition>Rubus spectabilis, salmonberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUUR</code>
+ <definition>Rubus ursinus, California blackberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SALIX</code>
+ <definition>Salix, willow</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SAGL</code>
+ <definition>Sapium glandulosum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANGE</code>
+ <definition>Schizachyrium gerardi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANSC</code>
+ <definition>Schizachyrium scoparium, litte bluestem</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SESE</code>
+ <definition>Senecio serra, tall ragwort</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEGI</code>
+ <definition>Sequoiadendron giganteum, giant redwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMST</code>
+ <definition>Smilacina stellata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SOCA</code>
+ <definition>Solidago canadensis, Canada goldenrod</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SORI</code>
+ <definition>Solidago rigida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SONU</code>
+ <definition>Sorghastrum nutans</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SPAL</code>
+ <definition>Spartina alterniflora</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SPPA</code>
+ <definition>Spartina patens, saltmeadow cordgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>STSP</code>
+ <definition>Stipa spartea</definition>
+ </codeDefinition>
+ <codeDefinition> <code>THPL</code>
+ <definition>Thuja plicata, western red cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TRAE</code>
+ <definition>Triticum aestivum, common wheat</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TSHE</code>
+ <definition>Tsuga heterophylla, western hemlock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TSME</code>
+ <definition>Tsuga mertensiana, mountain hemlock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VACCI</code>
+ <definition>Vaccinium, blueberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VAPA</code>
+ <definition>Vaccinium parvifolium, red huckleberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VOFE</code>
+ <definition>Vochysia ferraggenea</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875390" scope="document"> <attributeName>type</attributeName>
+ <attributeDefinition>L for leaves and R for roots</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Leaves and Roots</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875406" scope="document"> <attributeName>mesh</attributeName>
+ <attributeDefinition>The mesh size of the bag. For leaves this corresponds to the top side of the bag; all the bottoms were 0.1 mm for leaves.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875421" scope="document"> <attributeName>timeout</attributeName>
+ <attributeDefinition>years sample decomposed</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875437" scope="document"> <attributeName>pafrm</attributeName>
+ <attributeDefinition>Percent ash free remaining mass</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875453" scope="document"> <attributeName>m1</attributeName>
+ <attributeDefinition>Model 1  MPAFRM = (m0*EXP(-k*MTIMEOUT)); (no force intercept)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875468" scope="document"> <attributeName>m2</attributeName>
+ <attributeDefinition>Model  2 MPAFRM = (m0*EXP(-k*mtimeout)); (forced intercept)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875484" scope="document"> <attributeName>m3</attributeName>
+ <attributeDefinition>Model  3 MPAFRM = (m0*EXP(-k*TIMEout))+s0; (stable portion)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875500" scope="document"> <attributeName>m4</attributeName>
+ <attributeDefinition>Model  4 MPAFRM = ((100 - s0)*EXP(-k*MTIMEOUT))+ s0; (stable portion forced intercept)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875515" scope="document"> <attributeName>m5</attributeName>
+ <attributeDefinition>Model 5 MPAFRM = (m0f*EXP(-kf*MTIMEOUT))+(100-m0f)*exp(-ks*MTIMEOUT); (k fast and k slow, dual model)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178312875531" scope="document"> <attributeName>m6</attributeName>
+ <attributeDefinition>model  6 MPAFRM = (m0*EXP(-k*MTIMEOUT)); (last 4 years only)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2748</numberOfRecords>
+ </dataTable>
+ <dataTable id="1178314693437" scope="document"> <entityName>int_k_coeff_and_eqn_type_L_R.csv</entityName>
+ <entityDescription>need description Y = (M0F * exp(-KF*TIMEOUT)) + (100 - M0F) * exp(-KS * TIMEOUT)</entityDescription>
+ <physical id="1178314691859" scope="document"> <objectName>int_k_coeff_and_eqn_type_L_R.csv</objectName>
+ <size unit="byte">12512</size>
+ <dataFormat> <textFormat> <numHeaderLines>6</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.811.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1178314693453" scope="document"> <attributeName>SITE</attributeName>
+ <attributeDefinition>The site where the litter was incubated.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ARC</code>
+ <definition>Arctic LTER site</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BCI</code>
+ <definition>Barro Colorado Island, Panama</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BSF</code>
+ <definition>Blodgett State Research Park, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BNZ</code>
+ <definition>Bonanza Creek Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CDR</code>
+ <definition>Cedar Creek Natural History Area, Minnesota</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CPR</code>
+ <definition>Central Plains Experimental Range, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CWT</code>
+ <definition>Coweeta Hydrologic Laboratory</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CV</code>
+ <definition>Curley Valley, Utah</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DUK</code>
+ <definition>Duke Forest, North Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GSF</code>
+ <definition>Guanica State Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AND</code>
+ <definition>H.J. ANDREWS EXPERIMENTAL FOREST OREGON, POST-1996</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HFR</code>
+ <definition>Harvard Forest, Massachusetts</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HBR</code>
+ <definition>Hubbard Brook Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JRN</code>
+ <definition>Jornada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUN</code>
+ <definition>Juneau, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KBS</code>
+ <definition>Kellog Biological Station, Michigan</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KNZ</code>
+ <definition>Konza Prairie Research Natural Area, Kansas</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LBS</code>
+ <definition>LaSelva Biological Station, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LVW</code>
+ <definition>Loch Vale Watershed, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LUQ</code>
+ <definition>Luquillo Experimental Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MTV</code>
+ <definition>Monte Verde, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NWT</code>
+ <definition>Niwot Ridge and Green Lakes Valley, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NIN</code>
+ <definition>North Inlet, South Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NLK</code>
+ <definition>North Temeperate Lakes, Wisconsin</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OLY</code>
+ <definition>Olympic National Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMR</code>
+ <definition>Santa Margarita Ecological Reserve, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEV</code>
+ <definition>Sevilleta, New Mexico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UBC</code>
+ <definition>University of British Columbia, Canada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UFL</code>
+ <definition>University of Florida, Florida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCR</code>
+ <definition>Virginia Coast Reserve, Virginia</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693468" scope="document"> <attributeName>SPP</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>This is the species code for scientific name and common name.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ABAM</code>
+ <definition>Abies amabilis, Pacific silver fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABBA</code>
+ <definition>Abies balsamea, Balsam Fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABCO</code>
+ <definition>Abies concolor, white fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABGR</code>
+ <definition>Abies grandis, grand fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABLA2</code>
+ <definition>Abies lasiocarpa, subalpine fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABPR</code>
+ <definition>Abies procera, noble fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABLA</code>
+ <definition>Abronia latifolia, coastal sand verbena</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACCI</code>
+ <definition>Acer circinatum, vine maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACMA</code>
+ <definition>Acer macrophyllum, bigleaf maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACPE</code>
+ <definition>Acer pensylvanicum, Striped Maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACSA</code>
+ <definition>Acer saccharum, Sugar Maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACMI</code>
+ <definition>Achillea millefolium, common yarrow</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACROT</code>
+ <definition>Acomastylis rossii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACRU</code>
+ <definition>Actaea rubra, red baneberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ADBI</code>
+ <definition>Adenocaulon bicolor, American trailplant</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ADPE</code>
+ <definition>Adiantum aleuticum, Aleutian maidenhair</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALFA</code>
+ <definition>Allium falcifolium, scytheleaf onion</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALCR6</code>
+ <definition>Alnus crispa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALRU</code>
+ <definition>Alnus rubra, red alder</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AMPS</code>
+ <definition>Ambrosia psilostachya, Cuman ragweed</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AMBR</code>
+ <definition>Ammophila breviligulata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANMA</code>
+ <definition>Anaphalis margaritacea, western pearly everlasting</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANSC1</code>
+ <definition>Andropogon scoparius</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ARCA3</code>
+ <definition>Aralia californica, California spikenard</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ASPI</code>
+ <definition>Aster pilosus, hairy white oldfield aster</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ATFI</code>
+ <definition>Athyrium filix-femina, common ladyfern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BETUL</code>
+ <definition>Betula, birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BEAL</code>
+ <definition>Betula alleghaniensis, Yellow Birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BELU</code>
+ <definition>Betula lutea, Yellow Birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BEPA</code>
+ <definition>Betula papyrifera, paper birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BLSP</code>
+ <definition>Blechnum spicant, deer fern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANBL</code>
+ <definition>Bothriochloa bladhii,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BOER</code>
+ <definition>Bouteloua eriopoda,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BOGR</code>
+ <definition>Bouteloua gracilis,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BRIN</code>
+ <definition>Bromus inermis, smooth brome</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CACA</code>
+ <definition>Calamagrostis canadensis, bluejoint</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CADE3</code>
+ <definition>Calocedrus decurrens, incense cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CALE2</code>
+ <definition>Caltha leptosepala, white marsh marigold</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CAAQ</code>
+ <definition>Carex aquatilis, water sedge</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CARYA</code>
+ <definition>Carya</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CADE4</code>
+ <definition>Castanea dentata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CACH</code>
+ <definition>Castanopsis chrysophylla</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CEGR</code>
+ <definition>Ceanothus greggii, desert ceanothus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CEVE</code>
+ <definition>Ceanothus velutinus, snowbrush ceanothus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CHLA</code>
+ <definition>Chamaecyparis lawsoniana, Port Orford cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CHNO</code>
+ <definition>Chamaecyparis nootkatensis, Alaska cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CIDO</code>
+ <definition>Citharexylum donnell-smithii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COOE</code>
+ <definition>Conostegia oerstendiana</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COCY</code>
+ <definition>Cordia cymosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CODR</code>
+ <definition>Cornus drummondii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COFL</code>
+ <definition>Cornus florida, Flowering Dogwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CONU</code>
+ <definition>Cornus nuttallii, Pacific dogwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COAM</code>
+ <definition>Corylus americana</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COCOC</code>
+ <definition>Corylus cornuta var. californica, California hazelnut</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DECA</code>
+ <definition>Deschampsia caespitosa, tufted hairgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DISP</code>
+ <definition>Distichlis spicata, inland saltgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DRGL</code>
+ <definition>Drypetes glauca</definition>
+ </codeDefinition>
+ <codeDefinition> <code>EPAN</code>
+ <definition>Epilobium angustifolium, Fireweed, Blooming Sally</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FAGR</code>
+ <definition>Fagus grandifolia, American Beech</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FITU</code>
+ <definition>Ficus tuerckheimii,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FRAM</code>
+ <definition>Fraxinus americana, White Ash</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GASH</code>
+ <definition>Gaultheria shallon, salal</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GOBA</code>
+ <definition>Gonystylus bancanus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GYLU</code>
+ <definition>Gymnanthes lucida,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUNCU</code>
+ <definition>Juncus, rush</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JURO</code>
+ <definition>Juncus roemerianus,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KOMY</code>
+ <definition>Kobresia myosuroides, Bellardi bog sedge</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LAMU</code>
+ <definition>Lactuca muralis</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LALA</code>
+ <definition>Larix laricina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LAOC</code>
+ <definition>Larix occidentalis, western larch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LATR</code>
+ <definition>Larrea tridentata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LECA</code>
+ <definition>Lespedeza capitata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LIST</code>
+ <definition>Liquidambar styraciflua, Sweetgum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LITU</code>
+ <definition>Liriodendron tulipifera, Tuliptree</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MAOP</code>
+ <definition>Matayba oppositifolia</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MEVE</code>
+ <definition>Meliosma vernicosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MOFI</code>
+ <definition>Monarda fistulosa, wild bergamot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MYCE</code>
+ <definition>Myrica cerifera</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OXOR</code>
+ <definition>Oxalis oregana, redwood-sorrel</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OXAR</code>
+ <definition>Oxydendrum arboreum, Sourwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PAVI2</code>
+ <definition>Panicum virgatum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PEFR2</code>
+ <definition>Petasites frigidus, arctic sweet coltsfoot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PICEA</code>
+ <definition>Picea, spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIEN</code>
+ <definition>Picea engelmannii, Engelmann spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIGL</code>
+ <definition>Picea glauca, White Spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIMA</code>
+ <definition>Picea mariana, Black Spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PISI</code>
+ <definition>Picea sitchensis, Sitka spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PICO</code>
+ <definition>Pinus contorta, lodgepole pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIEL</code>
+ <definition>Pinus elliotii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIFL</code>
+ <definition>Pinus flexilis, limber pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PILA</code>
+ <definition>Pinus lambertiana, sugar pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIMO</code>
+ <definition>Pinus monticola, western white pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIPO</code>
+ <definition>Pinus ponderosa, ponderosa pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIRE</code>
+ <definition>Pinus resinosa, Red Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIST</code>
+ <definition>Pinus strobus, Eastern White Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PITA</code>
+ <definition>Pinus taeda, Loblolly Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BIBI5</code>
+ <definition>Polygonum bistortoides</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POBA2</code>
+ <definition>Populus balsamifera, balsam poplar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POTR</code>
+ <definition>Populus tremuloides, quaking aspen</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POTR2</code>
+ <definition>Populus trichocarpa, Black Cottonwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PRGL2</code>
+ <definition>Prosopis glandulosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PREM</code>
+ <definition>Prunus emarginata, bitter cherry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PSME</code>
+ <definition>Pseudotsuga menziesii, Douglas-fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PTAQ</code>
+ <definition>Pteridium aquilinum, western brackenfern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUAL</code>
+ <definition>Quercus alba, White Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUCO</code>
+ <definition>Quercus coccinea, Scarlet Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUKE</code>
+ <definition>Quercus kelloggii, California black oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUMA</code>
+ <definition>Quercus marilandica, Blackjack Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUMU</code>
+ <definition>Quercus muehlenbergii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUPR</code>
+ <definition>Quercus prinus, Chestnut Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QURU</code>
+ <definition>Quercus rubra, Red Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RHMA</code>
+ <definition>Rhododendron macrophyllum, Pacific rhododendron</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ROPS</code>
+ <definition>Robinia pseudoacacia, black locust</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUPA</code>
+ <definition>Rubus parviflorus, thimbleberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUSP</code>
+ <definition>Rubus spectabilis, salmonberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUUR</code>
+ <definition>Rubus ursinus, California blackberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SALIX</code>
+ <definition>Salix, willow</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SAGL</code>
+ <definition>Sapium glandulosum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANGE</code>
+ <definition>Schizachyrium gerardi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANSC</code>
+ <definition>Schizachyrium scoparium, litte bluestem</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SESE</code>
+ <definition>Senecio serra, tall ragwort</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEGI</code>
+ <definition>Sequoiadendron giganteum, giant redwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMST</code>
+ <definition>Smilacina stellata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SOCA</code>
+ <definition>Solidago canadensis, Canada goldenrod</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SORI</code>
+ <definition>Solidago rigida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SONU</code>
+ <definition>Sorghastrum nutans</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SPAL</code>
+ <definition>Spartina alterniflora</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SPPA</code>
+ <definition>Spartina patens, saltmeadow cordgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>STSP</code>
+ <definition>Stipa spartea</definition>
+ </codeDefinition>
+ <codeDefinition> <code>THPL</code>
+ <definition>Thuja plicata, western red cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TRAE</code>
+ <definition>Triticum aestivum, common wheat</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TSHE</code>
+ <definition>Tsuga heterophylla, western hemlock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TSME</code>
+ <definition>Tsuga mertensiana, mountain hemlock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VACCI</code>
+ <definition>Vaccinium, blueberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VAPA</code>
+ <definition>Vaccinium parvifolium, red huckleberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VOFE</code>
+ <definition>Vochysia ferraggenea</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693484" scope="document"> <attributeName>TYPE</attributeName>
+ <attributeDefinition>L for leaves and R for roots</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Leaves and Roots</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693500" scope="document"> <attributeName>MESH</attributeName>
+ <attributeDefinition>The mesh size of the bag. For leaves this corresponds to the top side of the bag; all the bottoms were 0.1 mm for leaves.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693515" scope="document"> <attributeName>KF</attributeName>
+ <attributeDefinition>SAS proc nlin faster decay rate value used in equation to determine int-k</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693531" scope="document"> <attributeName>KS</attributeName>
+ <attributeDefinition>SAS proc nlin slower decay rate value used in equation to determine int-k</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693546" scope="document"> <attributeName>MOF</attributeName>
+ <attributeDefinition>SAS proc nlin intercept value used in equation to determine int-k</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693562" scope="document"> <attributeName>R2</attributeName>
+ <attributeDefinition>r-squared of model used to determine int-k</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693578" scope="document"> <attributeName>switchQ</attributeName>
+ <attributeLabel>switch?</attributeLabel>
+ <attributeDefinition>if proc nlin had ks larger than kf then switch is Y and mof= 100-mof</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Y</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ <codeDefinition> <code>N</code>
+ <definition>no</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693593" scope="document"> <attributeName>eqn type</attributeName>
+ <attributeDefinition>name of equation used to determine int-k</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>eqn type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178314693609" scope="document"> <attributeName>COMMENTS</attributeName>
+ <attributeDefinition>comments</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>246</numberOfRecords>
+ </dataTable>
+  <dataTable id="1178320373000" scope="document"> <entityName>int_k_coeff_eqn_and_final_values_wood.csv</entityName>
+ <entityDescription>Output from NLIN mode runs wood</entityDescription>
+ <physical id="1178320368781" scope="document"> <objectName>int_k_coeff_eqn_and_final_values_wood.csv</objectName>
+ <size unit="byte">7410</size>
+ <dataFormat> <textFormat> <numHeaderLines>2</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.813.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1178320373015" scope="document"> <attributeName>SITE</attributeName>
+ <attributeDefinition>The site where the litter was incubated.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ARC</code>
+ <definition>Arctic LTER site</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BCI</code>
+ <definition>Barro Colorado Island, Panama</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BSF</code>
+ <definition>Blodgett State Research Park, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BNZ</code>
+ <definition>Bonanza Creek Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CDR</code>
+ <definition>Cedar Creek Natural History Area, Minnesota</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CPR</code>
+ <definition>Central Plains Experimental Range, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CWT</code>
+ <definition>Coweeta Hydrologic Laboratory</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CV</code>
+ <definition>Curley Valley, Utah</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DUK</code>
+ <definition>Duke Forest, North Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GSF</code>
+ <definition>Guanica State Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AND</code>
+ <definition>H.J. ANDREWS EXPERIMENTAL FOREST OREGON, POST-1996</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HFR</code>
+ <definition>Harvard Forest, Massachusetts</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HBR</code>
+ <definition>Hubbard Brook Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JRN</code>
+ <definition>Jornada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUN</code>
+ <definition>Juneau, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KBS</code>
+ <definition>Kellog Biological Station, Michigan</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KNZ</code>
+ <definition>Konza Prairie Research Natural Area, Kansas</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LBS</code>
+ <definition>LaSelva Biological Station, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LVW</code>
+ <definition>Loch Vale Watershed, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LUQ</code>
+ <definition>Luquillo Experimental Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MTV</code>
+ <definition>Monte Verde, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NWT</code>
+ <definition>Niwot Ridge and Green Lakes Valley, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NIN</code>
+ <definition>North Inlet, South Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NLK</code>
+ <definition>North Temeperate Lakes, Wisconsin</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OLY</code>
+ <definition>Olympic National Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMR</code>
+ <definition>Santa Margarita Ecological Reserve, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEV</code>
+ <definition>Sevilleta, New Mexico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UBC</code>
+ <definition>University of British Columbia, Canada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UFL</code>
+ <definition>University of Florida, Florida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCR</code>
+ <definition>Virginia Coast Reserve, Virginia</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373031" scope="document"> <attributeName>TYPE</attributeName>
+ <attributeDefinition>A above part of wooden dowels
+B Below part of wooden dowels</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>A</code>
+ <definition>Above part of wooden dowels</definition>
+ </codeDefinition>
+ <codeDefinition> <code>B</code>
+ <definition>Below part of wooden dowels</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373046" scope="document"> <attributeName>MSH</attributeName>
+ <attributeDefinition>mesh size on belowground</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373078" scope="document"> <attributeName>int_k</attributeName>
+ <attributeDefinition>integrated decay rate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373093" scope="document"> <attributeName>model</attributeName>
+ <attributeDefinition>model used to determine integrated decay rate</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>model number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373109" scope="document"> <attributeName>model R2</attributeName>
+ <attributeDefinition>r-squared of model used to determine int-k</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373125" scope="document"> <attributeName>model name</attributeName>
+ <attributeDefinition>name of model used to determine int-k</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373140" scope="document"> <attributeName>formula</attributeName>
+ <attributeDefinition>formula of model used to determine int-k</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>formula</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373156" scope="document"> <attributeName>empty column</attributeName>
+ <attributeDefinition>empty column</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>empty</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373171" scope="document"> <attributeName>empty column</attributeName>
+ <attributeDefinition>empty column</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>empty column</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373187" scope="document"> <attributeName>empty column</attributeName>
+ <attributeDefinition>empty column</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>empty</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373203" scope="document"> <attributeName>empty column</attributeName>
+ <attributeDefinition>empty column</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>empty</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373218" scope="document"> <attributeName>k1</attributeName>
+ <attributeDefinition>SAS proc nlin decay rate value used in equation to determine int-k using model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373250" scope="document"> <attributeName>m01</attributeName>
+ <attributeDefinition>SAS proc nlin intercept value used in equation to determine int-k using model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373265" scope="document"> <attributeName>kf5</attributeName>
+ <attributeDefinition>SAS proc nlin faster decay rate value used in equation to determine int-k using model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373281" scope="document"> <attributeName>ks5</attributeName>
+ <attributeDefinition>SAS proc nlin slower decay rate value used in equation to determine int-k using model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373296" scope="document"> <attributeName>m0f5</attributeName>
+ <attributeDefinition>SAS proc nlin intercept value used in equation to determine int-k using model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373312" scope="document"> <attributeName>k7</attributeName>
+ <attributeDefinition>SAS proc nlin decay rate value used in equation to determine int-k using model 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373328" scope="document"> <attributeName>lag7</attributeName>
+ <attributeDefinition>SAS proc nlin lag value used in equation to determine int-k using model 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373343" scope="document"> <attributeName>k2</attributeName>
+ <attributeDefinition>SAS proc nlin decay rate value used in equation to determine int-k using model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178320373359" scope="document"> <attributeName>m02</attributeName>
+ <attributeDefinition>SAS proc nlin intercept value used in equation to determine int-k using model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>79</numberOfRecords>
+ </dataTable>
+ <dataTable id="1178570360468" scope="document"> <entityName>predicted_pafrm_using_model_outputs_wood.csv</entityName>
+ <entityDescription>Predicted percent ash free remaining mass outputs wood</entityDescription>
+ <physical id="1178570358984" scope="document"> <objectName>predicted_pafrm_using_model_outputs_wood.csv</objectName>
+ <size unit="byte">37497</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.814.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1178570360484" scope="document"> <attributeName>SITE</attributeName>
+ <attributeDefinition>The site where the litter was incubated.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ARC</code>
+ <definition>Arctic LTER site</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BCI</code>
+ <definition>Barro Colorado Island, Panama</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BSF</code>
+ <definition>Blodgett State Research Park, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BNZ</code>
+ <definition>Bonanza Creek Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CDR</code>
+ <definition>Cedar Creek Natural History Area, Minnesota</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CPR</code>
+ <definition>Central Plains Experimental Range, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CWT</code>
+ <definition>Coweeta Hydrologic Laboratory</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CV</code>
+ <definition>Curley Valley, Utah</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DUK</code>
+ <definition>Duke Forest, North Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GSF</code>
+ <definition>Guanica State Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AND</code>
+ <definition>H.J. ANDREWS EXPERIMENTAL FOREST OREGON, POST-1996</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HFR</code>
+ <definition>Harvard Forest, Massachusetts</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HBR</code>
+ <definition>Hubbard Brook Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JRN</code>
+ <definition>Jornada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUN</code>
+ <definition>Juneau, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KBS</code>
+ <definition>Kellog Biological Station, Michigan</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KNZ</code>
+ <definition>Konza Prairie Research Natural Area, Kansas</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LBS</code>
+ <definition>LaSelva Biological Station, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LVW</code>
+ <definition>Loch Vale Watershed, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LUQ</code>
+ <definition>Luquillo Experimental Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MTV</code>
+ <definition>Monte Verde, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NWT</code>
+ <definition>Niwot Ridge and Green Lakes Valley, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NIN</code>
+ <definition>North Inlet, South Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NLK</code>
+ <definition>North Temeperate Lakes, Wisconsin</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OLY</code>
+ <definition>Olympic National Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMR</code>
+ <definition>Santa Margarita Ecological Reserve, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEV</code>
+ <definition>Sevilleta, New Mexico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UBC</code>
+ <definition>University of British Columbia, Canada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UFL</code>
+ <definition>University of Florida, Florida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCR</code>
+ <definition>Virginia Coast Reserve, Virginia</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360500" scope="document"> <attributeName>TYPE</attributeName>
+ <attributeDefinition>The substrate of the litter: leaves, roots, wood
+Aboveground or belowground</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>A</code>
+ <definition>Above part of wooden dowels</definition>
+ </codeDefinition>
+ <codeDefinition> <code>B</code>
+ <definition>Below  part of wooden dowels</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360515" scope="document"> <attributeName>mesh</attributeName>
+ <attributeDefinition>mesh on belowground wood for timeout 11-15 
+The mesh size of the bag. For leaves this corresponds to the top side of the bag; all the bottoms were 0.1 mm for leaves.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360531" scope="document"> <attributeName>TIMEOUT</attributeName>
+ <attributeDefinition>Time in years the litter incubated</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360546" scope="document"> <attributeName>PAFRM</attributeName>
+ <attributeDefinition>Percent ash free remaining mass</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360562" scope="document"> <attributeName>pred1</attributeName>
+ <attributeDefinition>Predicted PAFRM using model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360578" scope="document"> <attributeName>pred2</attributeName>
+ <attributeDefinition>Predicted PAFRM using model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360593" scope="document"> <attributeName>pred3</attributeName>
+ <attributeDefinition>Predicted PAFRM using model 3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360609" scope="document"> <attributeName>pred4</attributeName>
+ <attributeDefinition>Predicted PAFRM using model 4</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360625" scope="document"> <attributeName>pred5</attributeName>
+ <attributeDefinition>Predicted PAFRM using model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360640" scope="document"> <attributeName>pred6</attributeName>
+ <attributeDefinition>Predicted PAFRM using model 6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360656" scope="document"> <attributeName>pred7</attributeName>
+ <attributeDefinition>Predicted PAFRM using model 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178570360671" scope="document"> <attributeName>pred8</attributeName>
+ <attributeDefinition>Predicted PAFRM using model 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>594</numberOfRecords>
+ </dataTable>
+ <dataTable id="1178639929078" scope="document"> <entityName>output_from_nlin_model_runs_L_R.csv</entityName>
+ <entityDescription>Output form nlin model runs Leaf and Root</entityDescription>
+ <physical id="1178639926500" scope="document"> <objectName>output_from_nlin_model_runs_L_R.csv</objectName>
+ <size unit="byte">42524</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.816.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1178639929093" scope="document"> <attributeName>site</attributeName>
+ <attributeDefinition>The site where the litter was incubated.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ARC</code>
+ <definition>Arctic LTER site</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BCI</code>
+ <definition>Barro Colorado Island, Panama</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BSF</code>
+ <definition>Blodgett State Research Park, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BNZ</code>
+ <definition>Bonanza Creek Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CDR</code>
+ <definition>Cedar Creek Natural History Area, Minnesota</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CPR</code>
+ <definition>Central Plains Experimental Range, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CWT</code>
+ <definition>Coweeta Hydrologic Laboratory</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CV</code>
+ <definition>Curley Valley, Utah</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DUK</code>
+ <definition>Duke Forest, North Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GSF</code>
+ <definition>Guanica State Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AND</code>
+ <definition>H.J. ANDREWS EXPERIMENTAL FOREST OREGON, POST-1996</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HFR</code>
+ <definition>Harvard Forest, Massachusetts</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HBR</code>
+ <definition>Hubbard Brook Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JRN</code>
+ <definition>Jornada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUN</code>
+ <definition>Juneau, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KBS</code>
+ <definition>Kellog Biological Station, Michigan</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KNZ</code>
+ <definition>Konza Prairie Research Natural Area, Kansas</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LBS</code>
+ <definition>LaSelva Biological Station, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LVW</code>
+ <definition>Loch Vale Watershed, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LUQ</code>
+ <definition>Luquillo Experimental Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MTV</code>
+ <definition>Monte Verde, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NWT</code>
+ <definition>Niwot Ridge and Green Lakes Valley, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NIN</code>
+ <definition>North Inlet, South Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NLK</code>
+ <definition>North Temeperate Lakes, Wisconsin</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OLY</code>
+ <definition>Olympic National Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMR</code>
+ <definition>Santa Margarita Ecological Reserve, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEV</code>
+ <definition>Sevilleta, New Mexico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UBC</code>
+ <definition>University of British Columbia, Canada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UFL</code>
+ <definition>University of Florida, Florida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCR</code>
+ <definition>Virginia Coast Reserve, Virginia</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929109" scope="document"> <attributeName>species</attributeName>
+ <attributeDefinition>The species code for scientific name and common name.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ABAM</code>
+ <definition>Abies amabilis, Pacific silver fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABBA</code>
+ <definition>Abies balsamea, Balsam Fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABCO</code>
+ <definition>Abies concolor, white fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABGR</code>
+ <definition>Abies grandis, grand fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABLA2</code>
+ <definition>Abies lasiocarpa, subalpine fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABPR</code>
+ <definition>Abies procera, noble fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABLA</code>
+ <definition>Abronia latifolia, coastal sand verbena</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACCI</code>
+ <definition>Acer circinatum, vine maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACMA</code>
+ <definition>Acer macrophyllum, bigleaf maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACPE</code>
+ <definition>Acer pensylvanicum, Striped Maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACSA</code>
+ <definition>Acer saccharum, Sugar Maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACMI</code>
+ <definition>Achillea millefolium, common yarrow</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACROT</code>
+ <definition>Acomastylis rossii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACRU</code>
+ <definition>Actaea rubra, red baneberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ADBI</code>
+ <definition>Adenocaulon bicolor, American trailplant</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ADPE</code>
+ <definition>Adiantum aleuticum, Aleutian maidenhair</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALFA</code>
+ <definition>Allium falcifolium, scytheleaf onion</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALCR6</code>
+ <definition>Alnus crispa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALRU</code>
+ <definition>Alnus rubra, red alder</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AMPS</code>
+ <definition>Ambrosia psilostachya, Cuman ragweed</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AMBR</code>
+ <definition>Ammophila breviligulata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANMA</code>
+ <definition>Anaphalis margaritacea, western pearly everlasting</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANSC1</code>
+ <definition>Andropogon scoparius</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ARCA3</code>
+ <definition>Aralia californica, California spikenard</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ASPI</code>
+ <definition>Aster pilosus, hairy white oldfield aster</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ATFI</code>
+ <definition>Athyrium filix-femina, common ladyfern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BETUL</code>
+ <definition>Betula, birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BEAL</code>
+ <definition>Betula alleghaniensis, Yellow Birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BELU</code>
+ <definition>Betula lutea, Yellow Birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BEPA</code>
+ <definition>Betula papyrifera, paper birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BLSP</code>
+ <definition>Blechnum spicant, deer fern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANBL</code>
+ <definition>Bothriochloa bladhii,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BOER</code>
+ <definition>Bouteloua eriopoda,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BOGR</code>
+ <definition>Bouteloua gracilis,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BRIN</code>
+ <definition>Bromus inermis, smooth brome</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CACA</code>
+ <definition>Calamagrostis canadensis, bluejoint</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CADE3</code>
+ <definition>Calocedrus decurrens, incense cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CALE2</code>
+ <definition>Caltha leptosepala, white marsh marigold</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CAAQ</code>
+ <definition>Carex aquatilis, water sedge</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CARYA</code>
+ <definition>Carya</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CADE4</code>
+ <definition>Castanea dentata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CACH</code>
+ <definition>Castanopsis chrysophylla</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CEGR</code>
+ <definition>Ceanothus greggii, desert ceanothus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CEVE</code>
+ <definition>Ceanothus velutinus, snowbrush ceanothus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CHLA</code>
+ <definition>Chamaecyparis lawsoniana, Port Orford cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CHNO</code>
+ <definition>Chamaecyparis nootkatensis, Alaska cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CIDO</code>
+ <definition>Citharexylum donnell-smithii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COOE</code>
+ <definition>Conostegia oerstendiana</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COCY</code>
+ <definition>Cordia cymosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CODR</code>
+ <definition>Cornus drummondii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COFL</code>
+ <definition>Cornus florida, Flowering Dogwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CONU</code>
+ <definition>Cornus nuttallii, Pacific dogwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COAM</code>
+ <definition>Corylus americana</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COCOC</code>
+ <definition>Corylus cornuta var. californica, California hazelnut</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DECA</code>
+ <definition>Deschampsia caespitosa, tufted hairgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DISP</code>
+ <definition>Distichlis spicata, inland saltgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DRGL</code>
+ <definition>Drypetes glauca</definition>
+ </codeDefinition>
+ <codeDefinition> <code>EPAN</code>
+ <definition>Epilobium angustifolium, Fireweed, Blooming Sally</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FAGR</code>
+ <definition>Fagus grandifolia, American Beech</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FITU</code>
+ <definition>Ficus tuerckheimii,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FRAM</code>
+ <definition>Fraxinus americana, White Ash</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GASH</code>
+ <definition>Gaultheria shallon, salal</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GOBA</code>
+ <definition>Gonystylus bancanus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GYLU</code>
+ <definition>Gymnanthes lucida,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUNCU</code>
+ <definition>Juncus, rush</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JURO</code>
+ <definition>Juncus roemerianus,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KOMY</code>
+ <definition>Kobresia myosuroides, Bellardi bog sedge</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LAMU</code>
+ <definition>Lactuca muralis</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LALA</code>
+ <definition>Larix laricina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LAOC</code>
+ <definition>Larix occidentalis, western larch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LATR</code>
+ <definition>Larrea tridentata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LECA</code>
+ <definition>Lespedeza capitata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LIST</code>
+ <definition>Liquidambar styraciflua, Sweetgum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LITU</code>
+ <definition>Liriodendron tulipifera, Tuliptree</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MAOP</code>
+ <definition>Matayba oppositifolia</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MEVE</code>
+ <definition>Meliosma vernicosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MOFI</code>
+ <definition>Monarda fistulosa, wild bergamot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MYCE</code>
+ <definition>Myrica cerifera</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OXOR</code>
+ <definition>Oxalis oregana, redwood-sorrel</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OXAR</code>
+ <definition>Oxydendrum arboreum, Sourwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PAVI2</code>
+ <definition>Panicum virgatum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PEFR2</code>
+ <definition>Petasites frigidus, arctic sweet coltsfoot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PICEA</code>
+ <definition>Picea, spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIEN</code>
+ <definition>Picea engelmannii, Engelmann spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIGL</code>
+ <definition>Picea glauca, White Spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIMA</code>
+ <definition>Picea mariana, Black Spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PISI</code>
+ <definition>Picea sitchensis, Sitka spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PICO</code>
+ <definition>Pinus contorta, lodgepole pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIEL</code>
+ <definition>Pinus elliotii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIFL</code>
+ <definition>Pinus flexilis, limber pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PILA</code>
+ <definition>Pinus lambertiana, sugar pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIMO</code>
+ <definition>Pinus monticola, western white pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIPO</code>
+ <definition>Pinus ponderosa, ponderosa pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIRE</code>
+ <definition>Pinus resinosa, Red Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIST</code>
+ <definition>Pinus strobus, Eastern White Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PITA</code>
+ <definition>Pinus taeda, Loblolly Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BIBI5</code>
+ <definition>Polygonum bistortoides</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POBA2</code>
+ <definition>Populus balsamifera, balsam poplar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POTR</code>
+ <definition>Populus tremuloides, quaking aspen</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POTR2</code>
+ <definition>Populus trichocarpa, Black Cottonwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PRGL2</code>
+ <definition>Prosopis glandulosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PREM</code>
+ <definition>Prunus emarginata, bitter cherry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PSME</code>
+ <definition>Pseudotsuga menziesii, Douglas-fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PTAQ</code>
+ <definition>Pteridium aquilinum, western brackenfern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUAL</code>
+ <definition>Quercus alba, White Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUCO</code>
+ <definition>Quercus coccinea, Scarlet Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUKE</code>
+ <definition>Quercus kelloggii, California black oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUMA</code>
+ <definition>Quercus marilandica, Blackjack Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUMU</code>
+ <definition>Quercus muehlenbergii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUPR</code>
+ <definition>Quercus prinus, Chestnut Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QURU</code>
+ <definition>Quercus rubra, Red Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RHMA</code>
+ <definition>Rhododendron macrophyllum, Pacific rhododendron</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ROPS</code>
+ <definition>Robinia pseudoacacia, black locust</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUPA</code>
+ <definition>Rubus parviflorus, thimbleberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUSP</code>
+ <definition>Rubus spectabilis, salmonberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUUR</code>
+ <definition>Rubus ursinus, California blackberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SALIX</code>
+ <definition>Salix, willow</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SAGL</code>
+ <definition>Sapium glandulosum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANGE</code>
+ <definition>Schizachyrium gerardi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANSC</code>
+ <definition>Schizachyrium scoparium, litte bluestem</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SESE</code>
+ <definition>Senecio serra, tall ragwort</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEGI</code>
+ <definition>Sequoiadendron giganteum, giant redwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMST</code>
+ <definition>Smilacina stellata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SOCA</code>
+ <definition>Solidago canadensis, Canada goldenrod</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SORI</code>
+ <definition>Solidago rigida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SONU</code>
+ <definition>Sorghastrum nutans</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SPAL</code>
+ <definition>Spartina alterniflora</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SPPA</code>
+ <definition>Spartina patens, saltmeadow cordgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>STSP</code>
+ <definition>Stipa spartea</definition>
+ </codeDefinition>
+ <codeDefinition> <code>THPL</code>
+ <definition>Thuja plicata, western red cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TRAE</code>
+ <definition>Triticum aestivum, common wheat</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TSHE</code>
+ <definition>Tsuga heterophylla, western hemlock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TSME</code>
+ <definition>Tsuga mertensiana, mountain hemlock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VACCI</code>
+ <definition>Vaccinium, blueberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VAPA</code>
+ <definition>Vaccinium parvifolium, red huckleberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VOFE</code>
+ <definition>Vochysia ferraggenea</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929125" scope="document"> <attributeName>type</attributeName>
+ <attributeDefinition>The substrate of the litter : leaves, roots</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>L</code>
+ <definition>Leaves</definition>
+ </codeDefinition>
+ <codeDefinition> <code>R</code>
+ <definition>Fine roots</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929140" scope="document"> <attributeName>MESH</attributeName>
+ <attributeDefinition>The mesh size of the bag. For leaves this corresponds to the top side of the bag; all the bottoms were 0.1 mm for leaves.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929156" scope="document"> <attributeName>K1</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929171" scope="document"> <attributeName>M01</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of intercept from model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929187" scope="document"> <attributeName>K2</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929203" scope="document"> <attributeName>M02</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of intercept from model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929218" scope="document"> <attributeName>K3</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929234" scope="document"> <attributeName>s03</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of stable portion from model 3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929250" scope="document"> <attributeName>K4</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 4</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929265" scope="document"> <attributeName>s04</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of stable portion from model 4</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929281" scope="document"> <attributeName>Kf5</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of faster portion of decay rate from model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929296" scope="document"> <attributeName>ks5</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of slower portion of decay rate from model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929343" scope="document"> <attributeName>m0f5</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of intercept from model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929359" scope="document"> <attributeName>K6</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178639929375" scope="document"> <attributeName>m06</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of intercept from model 6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>457</numberOfRecords>
+ </dataTable>
+ <dataTable id="1178641470500" scope="document"> <entityName>output_from_nlin_model_runs_wood_r2.csv</entityName>
+ <entityDescription>Output from the nlin model runs wood</entityDescription>
+ <physical id="1178641468750" scope="document"> <objectName>output_from_nlin_model_runs_wood_r2.csv</objectName>
+ <size unit="byte">15686</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.817.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1178641470515" scope="document"> <attributeName>SITE</attributeName>
+ <attributeDefinition>The site where the litter was incubated.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ARC</code>
+ <definition>Arctic LTER site</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BCI</code>
+ <definition>Barro Colorado Island, Panama</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BSF</code>
+ <definition>Blodgett State Research Park, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BNZ</code>
+ <definition>Bonanza Creek Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CDR</code>
+ <definition>Cedar Creek Natural History Area, Minnesota</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CPR</code>
+ <definition>Central Plains Experimental Range, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CWT</code>
+ <definition>Coweeta Hydrologic Laboratory</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CV</code>
+ <definition>Curley Valley, Utah</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DUK</code>
+ <definition>Duke Forest, North Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GSF</code>
+ <definition>Guanica State Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AND</code>
+ <definition>H.J. ANDREWS EXPERIMENTAL FOREST OREGON, POST-1996</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HFR</code>
+ <definition>Harvard Forest, Massachusetts</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HBR</code>
+ <definition>Hubbard Brook Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JRN</code>
+ <definition>Jornada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUN</code>
+ <definition>Juneau, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KBS</code>
+ <definition>Kellog Biological Station, Michigan</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KNZ</code>
+ <definition>Konza Prairie Research Natural Area, Kansas</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LBS</code>
+ <definition>LaSelva Biological Station, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LVW</code>
+ <definition>Loch Vale Watershed, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LUQ</code>
+ <definition>Luquillo Experimental Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MTV</code>
+ <definition>Monte Verde, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NWT</code>
+ <definition>Niwot Ridge and Green Lakes Valley, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NIN</code>
+ <definition>North Inlet, South Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NLK</code>
+ <definition>North Temeperate Lakes, Wisconsin</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OLY</code>
+ <definition>Olympic National Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMR</code>
+ <definition>Santa Margarita Ecological Reserve, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEV</code>
+ <definition>Sevilleta, New Mexico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UBC</code>
+ <definition>University of British Columbia, Canada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UFL</code>
+ <definition>University of Florida, Florida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCR</code>
+ <definition>Virginia Coast Reserve, Virginia</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1178641470531" scope="document"> <attributeName>TYPE</attributeName>
+ <attributeDefinition>The substrate of the litter : leaves, roots, wood.
+Aboveground or belowground</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>A</code>
+ <definition>Above part of wooden dowels</definition>
+ </codeDefinition>
+ <codeDefinition> <code>B</code>
+ <definition>Below part of wooden dowels</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470532" scope="document"> <attributeName>mesh</attributeName>
+ <attributeDefinition>mesh on belowground wood for timeout 11-15
+
+The mesh size of the bag. For leaves this corresponds to the top side of the bag; all the bottoms were 0.1 mm for leaves.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470533" scope="document"> <attributeName>K1</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470534" scope="document"> <attributeName>m01</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of intercept from model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470535" scope="document"> <attributeName>r^2-1</attributeName>
+ <attributeDefinition>r-squared model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470536" scope="document"> <attributeName>intk1</attributeName>
+ <attributeDefinition>Integrated decay rate value using model 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470537" scope="document"> <attributeName>K2</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470538" scope="document"> <attributeName>M02</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of intercept from model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470539" scope="document"> <attributeName>r^2-2</attributeName>
+ <attributeDefinition>r-squared model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470540" scope="document"> <attributeName>intk2</attributeName>
+ <attributeDefinition>Integrated decay rate value using model 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470541" scope="document"> <attributeName>K3</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470542" scope="document"> <attributeName>s03</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of stable portion from model 3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470543" scope="document"> <attributeName>r^2-3</attributeName>
+ <attributeDefinition>r-squared model 3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470544" scope="document"> <attributeName>K4</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 4</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470545" scope="document"> <attributeName>s04</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of stable portion from model 4</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470546" scope="document"> <attributeName>r^2-4</attributeName>
+ <attributeDefinition>r-squared model 4</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470547" scope="document"> <attributeName>Kf5</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of faster portion of decay rate from model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470548" scope="document"> <attributeName>ks5</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of slower portion of decay rate from model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470549" scope="document"> <attributeName>m0f5</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of intercept from model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470550" scope="document"> <attributeName>r^2-5</attributeName>
+ <attributeDefinition>r-squared model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470551" scope="document"> <attributeName>intk5</attributeName>
+ <attributeDefinition>Integrated decay rate value using model 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470552" scope="document"> <attributeName>K6</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470553" scope="document"> <attributeName>m06</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of intercept from model 6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470554" scope="document"> <attributeName>r^2-6</attributeName>
+ <attributeDefinition>r-squared model 6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470555" scope="document"> <attributeName>K7</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470556" scope="document"> <attributeName>lag7</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of lag from model 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470557" scope="document"> <attributeName>r^2-7</attributeName>
+ <attributeDefinition>r-squared model 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470558" scope="document"> <attributeName>intk7</attributeName>
+ <attributeDefinition>Integrated decay rate value using model 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470559" scope="document"> <attributeName>K8</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of decay rate from model 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470560" scope="document"> <attributeName>lag8</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of lag from model 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="9998641470561" scope="document"> <attributeName>s08</attributeName>
+ <attributeDefinition>SAS Proc NLIN estimate of stable portion from model 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>77</numberOfRecords>
+ </dataTable>
+ <dataTable id="1186416197586" scope="document"> <entityName>integrated_k_values_leaf_root.csv</entityName>
+ <entityDescription>integrated k valuues leaf root</entityDescription>
+ <physical id="1186416195145" scope="document"> <objectName>integrated_k_values_leaf_root.csv</objectName>
+ <size unit="byte">9711</size>
+ <dataFormat> <textFormat> <numHeaderLines>4</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.847.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1186416197587" scope="document"> <attributeName>SITE</attributeName>
+ <attributeDefinition>site where litter was incubated</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ARC</code>
+ <definition>Arctic LTER site</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BCI</code>
+ <definition>Barro Colorado Island, Panama</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BSF</code>
+ <definition>Blodgett State Research Park, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BNZ</code>
+ <definition>Bonanza Creek Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CDR</code>
+ <definition>Cedar Creek Natural History Area, Minnesota</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CPR</code>
+ <definition>Central Plains Experimental Range, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CWT</code>
+ <definition>Coweeta Hydrologic Laboratory</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CV</code>
+ <definition>Curley Valley, Utah</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DUK</code>
+ <definition>Duke Forest, North Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GSF</code>
+ <definition>Guanica State Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AND</code>
+ <definition>H.J. ANDREWS EXPERIMENTAL FOREST OREGON, POST-1996</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HFR</code>
+ <definition>Harvard Forest, Massachusetts</definition>
+ </codeDefinition>
+ <codeDefinition> <code>HBR</code>
+ <definition>Hubbard Brook Experimental Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JRN</code>
+ <definition>Jornada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUN</code>
+ <definition>Juneau, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KBS</code>
+ <definition>Kellog Biological Station, Michigan</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KNZ</code>
+ <definition>Konza Prairie Research Natural Area, Kansas</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LBS</code>
+ <definition>LaSelva Biological Station, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LVW</code>
+ <definition>Loch Vale Watershed, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LUQ</code>
+ <definition>Luquillo Experimental Forest, Puerto Rico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MTV</code>
+ <definition>Monte Verde, Costa Rica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NWT</code>
+ <definition>Niwot Ridge and Green Lakes Valley, Colorado</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NIN</code>
+ <definition>North Inlet, South Carolina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NLK</code>
+ <definition>North Temeperate Lakes, Wisconsin</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OLY</code>
+ <definition>Olympic National Forest</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMR</code>
+ <definition>Santa Margarita Ecological Reserve, California</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEV</code>
+ <definition>Sevilleta, New Mexico</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UBC</code>
+ <definition>University of British Columbia, Canada</definition>
+ </codeDefinition>
+ <codeDefinition> <code>UFL</code>
+ <definition>University of Florida, Florida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCR</code>
+ <definition>Virginia Coast Reserve, Virginia</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1186416197588" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>genus species code</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>ABAM</code>
+ <definition>Abies amabilis, Pacific silver fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABBA</code>
+ <definition>Abies balsamea, Balsam Fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABCO</code>
+ <definition>Abies concolor, white fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABGR</code>
+ <definition>Abies grandis, grand fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABLA2</code>
+ <definition>Abies lasiocarpa, subalpine fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABPR</code>
+ <definition>Abies procera, noble fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ABLA</code>
+ <definition>Abronia latifolia, coastal sand verbena</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACCI</code>
+ <definition>Acer circinatum, vine maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACMA</code>
+ <definition>Acer macrophyllum, bigleaf maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACPE</code>
+ <definition>Acer pensylvanicum, Striped Maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACSA</code>
+ <definition>Acer saccharum, Sugar Maple</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACMI</code>
+ <definition>Achillea millefolium, common yarrow</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACROT</code>
+ <definition>Acomastylis rossii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ACRU</code>
+ <definition>Actaea rubra, red baneberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ADBI</code>
+ <definition>Adenocaulon bicolor, American trailplant</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ADPE</code>
+ <definition>Adiantum aleuticum, Aleutian maidenhair</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALFA</code>
+ <definition>Allium falcifolium, scytheleaf onion</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALCR6</code>
+ <definition>Alnus crispa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ALRU</code>
+ <definition>Alnus rubra, red alder</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AMPS</code>
+ <definition>Ambrosia psilostachya, Cuman ragweed</definition>
+ </codeDefinition>
+ <codeDefinition> <code>AMBR</code>
+ <definition>Ammophila breviligulata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANMA</code>
+ <definition>Anaphalis margaritacea, western pearly everlasting</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANSC1</code>
+ <definition>Andropogon scoparius</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ARCA3</code>
+ <definition>Aralia californica, California spikenard</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ASPI</code>
+ <definition>Aster pilosus, hairy white oldfield aster</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ATFI</code>
+ <definition>Athyrium filix-femina, common ladyfern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BETUL</code>
+ <definition>Betula, birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BEAL</code>
+ <definition>Betula alleghaniensis, Yellow Birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BELU</code>
+ <definition>Betula lutea, Yellow Birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BEPA</code>
+ <definition>Betula papyrifera, paper birch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BLSP</code>
+ <definition>Blechnum spicant, deer fern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANBL</code>
+ <definition>Bothriochloa bladhii,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BOER</code>
+ <definition>Bouteloua eriopoda,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BOGR</code>
+ <definition>Bouteloua gracilis,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BRIN</code>
+ <definition>Bromus inermis, smooth brome</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CACA</code>
+ <definition>Calamagrostis canadensis, bluejoint</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CADE3</code>
+ <definition>Calocedrus decurrens, incense cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CALE2</code>
+ <definition>Caltha leptosepala, white marsh marigold</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CAAQ</code>
+ <definition>Carex aquatilis, water sedge</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CARYA</code>
+ <definition>Carya</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CADE4</code>
+ <definition>Castanea dentata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CACH</code>
+ <definition>Castanopsis chrysophylla</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CEGR</code>
+ <definition>Ceanothus greggii, desert ceanothus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CEVE</code>
+ <definition>Ceanothus velutinus, snowbrush ceanothus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CHLA</code>
+ <definition>Chamaecyparis lawsoniana, Port Orford cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CHNO</code>
+ <definition>Chamaecyparis nootkatensis, Alaska cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CIDO</code>
+ <definition>Citharexylum donnell-smithii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COOE</code>
+ <definition>Conostegia oerstendiana</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COCY</code>
+ <definition>Cordia cymosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CODR</code>
+ <definition>Cornus drummondii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COFL</code>
+ <definition>Cornus florida, Flowering Dogwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CONU</code>
+ <definition>Cornus nuttallii, Pacific dogwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COAM</code>
+ <definition>Corylus americana</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COCOC</code>
+ <definition>Corylus cornuta var. californica, California hazelnut</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DECA</code>
+ <definition>Deschampsia caespitosa, tufted hairgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DISP</code>
+ <definition>Distichlis spicata, inland saltgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DRGL</code>
+ <definition>Drypetes glauca</definition>
+ </codeDefinition>
+ <codeDefinition> <code>EPAN</code>
+ <definition>Epilobium angustifolium, Fireweed, Blooming Sally</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FAGR</code>
+ <definition>Fagus grandifolia, American Beech</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FITU</code>
+ <definition>Ficus tuerckheimii,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FRAM</code>
+ <definition>Fraxinus americana, White Ash</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GASH</code>
+ <definition>Gaultheria shallon, salal</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GOBA</code>
+ <definition>Gonystylus bancanus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GYLU</code>
+ <definition>Gymnanthes lucida,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JUNCU</code>
+ <definition>Juncus, rush</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JURO</code>
+ <definition>Juncus roemerianus,</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KOMY</code>
+ <definition>Kobresia myosuroides, Bellardi bog sedge</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LAMU</code>
+ <definition>Lactuca muralis</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LALA</code>
+ <definition>Larix laricina</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LAOC</code>
+ <definition>Larix occidentalis, western larch</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LATR</code>
+ <definition>Larrea tridentata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LECA</code>
+ <definition>Lespedeza capitata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LIST</code>
+ <definition>Liquidambar styraciflua, Sweetgum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>LITU</code>
+ <definition>Liriodendron tulipifera, Tuliptree</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MAOP</code>
+ <definition>Matayba oppositifolia</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MEVE</code>
+ <definition>Meliosma vernicosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MOFI</code>
+ <definition>Monarda fistulosa, wild bergamot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MYCE</code>
+ <definition>Myrica cerifera</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OXOR</code>
+ <definition>Oxalis oregana, redwood-sorrel</definition>
+ </codeDefinition>
+ <codeDefinition> <code>OXAR</code>
+ <definition>Oxydendrum arboreum, Sourwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PAVI2</code>
+ <definition>Panicum virgatum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PEFR2</code>
+ <definition>Petasites frigidus, arctic sweet coltsfoot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PICEA</code>
+ <definition>Picea, spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIEN</code>
+ <definition>Picea engelmannii, Engelmann spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIGL</code>
+ <definition>Picea glauca, White Spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIMA</code>
+ <definition>Picea mariana, Black Spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PISI</code>
+ <definition>Picea sitchensis, Sitka spruce</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PICO</code>
+ <definition>Pinus contorta, lodgepole pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIEL</code>
+ <definition>Pinus elliotii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIFL</code>
+ <definition>Pinus flexilis, limber pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PILA</code>
+ <definition>Pinus lambertiana, sugar pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIMO</code>
+ <definition>Pinus monticola, western white pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIPO</code>
+ <definition>Pinus ponderosa, ponderosa pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIRE</code>
+ <definition>Pinus resinosa, Red Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PIST</code>
+ <definition>Pinus strobus, Eastern White Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PITA</code>
+ <definition>Pinus taeda, Loblolly Pine</definition>
+ </codeDefinition>
+ <codeDefinition> <code>BIBI5</code>
+ <definition>Polygonum bistortoides</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POBA2</code>
+ <definition>Populus balsamifera, balsam poplar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POTR</code>
+ <definition>Populus tremuloides, quaking aspen</definition>
+ </codeDefinition>
+ <codeDefinition> <code>POTR2</code>
+ <definition>Populus trichocarpa, Black Cottonwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PRGL2</code>
+ <definition>Prosopis glandulosa</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PREM</code>
+ <definition>Prunus emarginata, bitter cherry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PSME</code>
+ <definition>Pseudotsuga menziesii, Douglas-fir</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PTAQ</code>
+ <definition>Pteridium aquilinum, western brackenfern</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUAL</code>
+ <definition>Quercus alba, White Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUCO</code>
+ <definition>Quercus coccinea, Scarlet Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUKE</code>
+ <definition>Quercus kelloggii, California black oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUMA</code>
+ <definition>Quercus marilandica, Blackjack Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUMU</code>
+ <definition>Quercus muehlenbergii</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QUPR</code>
+ <definition>Quercus prinus, Chestnut Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QURU</code>
+ <definition>Quercus rubra, Red Oak</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RHMA</code>
+ <definition>Rhododendron macrophyllum, Pacific rhododendron</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ROPS</code>
+ <definition>Robinia pseudoacacia, black locust</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUPA</code>
+ <definition>Rubus parviflorus, thimbleberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUSP</code>
+ <definition>Rubus spectabilis, salmonberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>RUUR</code>
+ <definition>Rubus ursinus, California blackberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SALIX</code>
+ <definition>Salix, willow</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SAGL</code>
+ <definition>Sapium glandulosum</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANGE</code>
+ <definition>Schizachyrium gerardi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ANSC</code>
+ <definition>Schizachyrium scoparium, litte bluestem</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SESE</code>
+ <definition>Senecio serra, tall ragwort</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SEGI</code>
+ <definition>Sequoiadendron giganteum, giant redwood</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SMST</code>
+ <definition>Smilacina stellata</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SOCA</code>
+ <definition>Solidago canadensis, Canada goldenrod</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SORI</code>
+ <definition>Solidago rigida</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SONU</code>
+ <definition>Sorghastrum nutans</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SPAL</code>
+ <definition>Spartina alterniflora</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SPPA</code>
+ <definition>Spartina patens, saltmeadow cordgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>STSP</code>
+ <definition>Stipa spartea</definition>
+ </codeDefinition>
+ <codeDefinition> <code>THPL</code>
+ <definition>Thuja plicata, western red cedar</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TRAE</code>
+ <definition>Triticum aestivum, common wheat</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TSHE</code>
+ <definition>Tsuga heterophylla, western hemlock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TSME</code>
+ <definition>Tsuga mertensiana, mountain hemlock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VACCI</code>
+ <definition>Vaccinium, blueberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VAPA</code>
+ <definition>Vaccinium parvifolium, red huckleberry</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VOFE</code>
+ <definition>Vochysia ferraggenea</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1186416197589" scope="document"> <attributeName>TYPE</attributeName>
+ <attributeDefinition>leaf or root</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>L</code>
+ <definition>Leaf</definition>
+ </codeDefinition>
+ <codeDefinition> <code>R</code>
+ <definition>Root</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1186416197590" scope="document"> <attributeName>MESH</attributeName>
+ <attributeDefinition>mesh size of litterbag top</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1186416197591" scope="document"> <attributeName>kf5</attributeName>
+ <attributeDefinition>k-fast coefficient used in dual exponential equation for calculating ki</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1186416197592" scope="document"> <attributeName>ks5</attributeName>
+ <attributeDefinition>k-slow coefficient used in dual exponential equation for calculating ki</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1186416197593" scope="document"> <attributeName>m0f5</attributeName>
+ <attributeDefinition>intercept coefficient used in dual exponential equation for calculating ki</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1186416197594" scope="document"> <attributeName>ki</attributeName>
+ <attributeDefinition>integrated-k value</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>246</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

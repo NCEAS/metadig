@@ -1,0 +1,180 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="lusteve.67.16" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Stromflow characteristics of the Chungliaoshi forested watersheds in southern Taiwan</title>
+ <creator id="1288336792734" scope="document"> <individualName> <givenName>Hui-sheng</givenName>
+ <surName>Lu</surName>
+ </individualName>
+ <organizationName>Division of Watershed Management, Taiwan Forestry Research Institute</organizationName>
+ <positionName>Senior Scientist</positionName>
+ <address scope="document"> <deliveryPoint>53, Nan-hai Road</deliveryPoint>
+ <city>Taipei</city>
+ <administrativeArea>Taiwan</administrativeArea>
+ <postalCode>10066</postalCode>
+ <country>R.O.C</country>
+ </address>
+ <phone phonetype="voice">886-2-23039978#1624</phone>
+ <phone phonetype="fax">886-2-23752164</phone>
+ <electronicMailAddress>lusteve@tfri.gov.tw</electronicMailAddress>
+ </creator>
+ <abstract> <para>Stormflow characteristics of the Chungliaoshi upstream and mainstem forested watersheds were monitored to detect effects of large and small forest cover area on stormflow from 2004 to 2008. Based on analysis of 5-yr stormflow data by year, stormflow rates of the upstream forested watershed  were 34.18%, 37.08%, 54.02%, 49.06%, and 33.01%; stormflow rates of the mainstem forested watershed were 21.80%, 28.70%, 41.02%, 46.32%, and 28.80%; and stormflow rates of the upstream forested watershed differed from those of the mainstem forested watershed as follow 1.57, 1.29, 1.32, 1.06, 1nd 1.15. Stormflow rates of the upstream forested watershed were larger than those of the mainstem forested watershed, illustrating the effetcs of large forest cover area in reducing stormflow rates were larger than the effects of small forest cover area. The stormflow volume increased as storm rainfall increased and could be estimated from a simple regression equation of stormflow volume to storm rainfall. The peak flow was estimated from a multiple regression equation of peak flow for both storm rainfall and average intensity, and was calculated from the beginning of stormflow to the time of the peak. However nonlinear regression equations were better than linear regression equations for estimating the stormflow volume.The curve numbers of the Chungliaoshi upstream and mainstem forested watersheds were determined using the SCS runoff curve number methods, measuring 57 and 48, respectively. The ranges of peak flow coefficients in the rational formulae for the Chungliaoshi upstream and mainstem forested watersheds were 0.006~0.449 and 0.004~0.601, respectively.</para>
+ </abstract>
+ <keywordSet> <keyword>stormflow characteristics</keyword>
+ <keyword>peak flow</keyword>
+ <keyword>forested watershed</keyword>
+ </keywordSet>
+ <intellectualRights> <para>This data is only  for academic use.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Chungliaoshi watershed, Liukuei, Kaohsiung county, Taiwan</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>120.66</westBoundingCoordinate>
+ <eastBoundingCoordinate>120.72</eastBoundingCoordinate>
+ <northBoundingCoordinate>23.01</northBoundingCoordinate>
+ <southBoundingCoordinate>22.98</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2004-01-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2008-12-31</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1288337054580" scope="document"> <individualName> <givenName>Hui-sheng</givenName>
+ <surName>Lu</surName>
+ </individualName>
+ <organizationName>Division of Watershed Management, Taiean Forestry Reserach Institute</organizationName>
+ <positionName>Senior Scientist</positionName>
+ <address scope="document"> <deliveryPoint>53-Nan-hai Road</deliveryPoint>
+ <city>Taipei</city>
+ <administrativeArea>Taiwan</administrativeArea>
+ <postalCode>10066</postalCode>
+ <country>R.O.C.</country>
+ </address>
+ <phone phonetype="voice">886-2-23039978#1624</phone>
+ <phone phonetype="fax">886-2-23752164</phone>
+ <electronicMailAddress>lusteve@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Hydrological data collecting</title>
+ <para>Using pressure transduce to detect water level and data logger to store data</para>
+ </section>
+ </description>
+ <instrumentation>CR 10 datalogger</instrumentation>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>hydrological data collection at upstream and mainstem watersheds at Chungliaoshi creak, Liukuei, southern of Taiwan, every hour from 2004 to 2008.</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>Collecting water level data per hour, and changing water level to water discharge</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1288421843316" scope="document"> <entityName>Hydrological data of Chungliaoshi mainstem forested watershed during 2004-2008,CL-M,a.csv</entityName>
+ <entityDescription>Hydrologial data of Chungliaoshi mainstem forested watershed during 2004-2008</entityDescription>
+ <physical id="1288421841274" scope="document"> <objectName>CL-M,a.csv</objectName>
+ <size unit="byte">1203</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/lusteve.72.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1288421843331" scope="document"> <attributeName>event number</attributeName>
+ <attributeLabel>No</attributeLabel>
+ <attributeDefinition>number of storm event</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>0</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1288421843347" scope="document"> <attributeName>storm rainfall</attributeName>
+ <attributeLabel>P</attributeLabel>
+ <attributeDefinition>storm rainfall amount (mm) of a storm event</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1288421843362" scope="document"> <attributeName>stormflow</attributeName>
+ <attributeLabel>Q</attributeLabel>
+ <attributeDefinition>stormflow amount (mm) of a storm event</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>0.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>83</numberOfRecords>
+ </dataTable>
+ <dataTable id="1288422904793" scope="document"> <entityName>Hydrological data of Chungliaoshi upstream forested watershed 2004-2008,CL-U,a.csv</entityName>
+ <entityDescription>Hydrological data of Chungliaoshi upstream forested watershed 2004-2008</entityDescription>
+ <physical id="1288422896142" scope="document"> <objectName>CL-U,a.csv</objectName>
+ <size unit="byte">1347</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/lusteve.73.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1288422904808" scope="document"> <attributeName>event number</attributeName>
+ <attributeLabel>No</attributeLabel>
+ <attributeDefinition>number of storm event</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>0</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1288422904824" scope="document"> <attributeName>storm rainfall</attributeName>
+ <attributeLabel>P</attributeLabel>
+ <attributeDefinition>storm rainfall amount (mm) of a storm event</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1288422904839" scope="document"> <attributeName>stormflow</attributeName>
+ <attributeLabel>Q</attributeLabel>
+ <attributeDefinition>stormflow volume (mm) of a storm event</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>0.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>93</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

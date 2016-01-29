@@ -1,0 +1,739 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.110140.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Long term Weather  data for West Coast National Park  1973-2009</title>
+ <creator id="1383118954010"> <organizationName>SAWS</organizationName>
+ </creator>
+ <associatedParty><references>1383118961030</references>
+ <role>Collaborator</role>
+ </associatedParty>
+ <associatedParty id="1383119026191"><individualName><givenName>Peggy</givenName>
+ <surName>Madonsela</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <role>Data Curator</role>
+ </associatedParty>
+ <abstract><para>Weather data for two stations namley Geelbek and Langebaan with  different time spans for different variables. Some basic quality checks were done with the data and these are noted in the methods section as well as the details of the stations .
+Both stations are  Automatic Weather Stations (ELEC_TEMP) which report the following weather variables: 
+&#8226;	Temperature , Humidity,Rainfall,Wind Speed,Wind Direction,Pressure</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, West Coast National Park, South Africa</keyword>
+ <keyword>Weather, climate, humidity,pressure,rainfall,temperature,wind</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data belongs to the SAWS and may therefore only be used for reserach purposes. If you would like to use this for any other reason please contact the SAWS directly</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>WestCoastNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>17.951963</westBoundingCoordinate>
+ <eastBoundingCoordinate>18.334481</eastBoundingCoordinate>
+ <northBoundingCoordinate>-33.069658</northBoundingCoordinate>
+ <southBoundingCoordinate>-33.336961</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1973</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1383118961030"><individualName><salutation>Dr</salutation>
+ <givenName>Nicola</givenName>
+ <surName>Van Wilgen</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ </contact>
+ <methods><methodStep><description><section><title>Notes for Geelbek basic data quality checks</title>
+ <para>Geelbek station : station number 0040192 4, Latitude:	-33.2,Longitude:18.12, Height: 4  m</para>
+ <para>Deleted a large time series for which there was no data (1990-1997) for both humidity and pressure and wind</para>
+ <para>Exceptionally high rainfall in 1994, 1997, 2009 - this does not seem to correspond with the data from Langebaan</para>
+ <para>Large gap in rainfall and temperature data between end 1994 and beginning 1997 - I have inserted cells to fill in the dates that span these gaps</para>
+ <para>Deleted 1997 humidity as this was a short section of data followed by a 5 year gap</para>
+ <para>Added several dates to the temperature series in the analysis file. May 1998 added to the rain series in the analysis file.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Notes for Langebaan basic data quality checks</title>
+ <para>Langebaan station:  station number 0061298 8,Latitude:-32.97,Longitude:18.16,	Height: 31  m</para>
+ <para>Deleted a value of 1799 from the pressure records - this was clearly an outlier (DATE: 1994/03/23)</para>
+ <para>On the 5th of Agust 1974 57mm of rain were recorded - is this possible? Again in 2007</para>
+ <para>I put together an unborken rainfall stretch from 1973-2009, by inserting blank rows for dates where no data existed. This allows for better viewing of trends and gaps in graph format</para>
+ <para>The same 1991 gap that appears in the rainfall data also appears in the temperature data - I have inserted cells with dates for these periods as above. There is no 2003-2005 gap in the temperature data</para>
+ <para>0 degrees recorded as minimum on 24/02/1994 - this is completey outside the cycle and is probably incorrect; 0 also recorded on 1993/09/10, temperatures were generally lower at this time, but 0 is at least 7 degrees lower than other nearby lows.</para>
+ <para>Data gap in wind data with discontinuity bfore and after gap (1993/10)</para>
+ <para>One week of missing dates added to the temperature series in the analysis file</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1383120404382"><entityName>GeelbekHumidityUpuntil2009.txt</entityName>
+ <physical id="1383120242660"><objectName>GeelbekHumidityUpuntil2009.txt</objectName>
+ <size unit="byte">309892</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109860.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383120404392"><attributeName>Station identifier</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383120404402"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383120404412"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383120404422"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383120404432"><attributeName>Humidity</attributeName>
+ <attributeDefinition>Humidity measured in percentage</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>8040</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383120663074"><entityName>GeelbekPressureUpuntil2009.txt</entityName>
+ <physical id="1383120489393"><objectName>GeelbekPressureUpuntil2009.txt</objectName>
+ <size unit="byte">540762</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109861.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383120663084"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383120663094"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383120663104"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383120663114"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383120663124"><attributeName>Pressure</attributeName>
+ <attributeDefinition>Pressure (barometric pressure in hPa) measured at 8:00; 14:00 and 20:00</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Hecta Pascal</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>14073</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383121724774"><entityName>GeelbekRainfallUpuntil2009.txt</entityName>
+ <physical id="1383121599925"><objectName>GeelbekRainfallUpuntil2009.txt</objectName>
+ <size unit="byte">246428</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109864.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383121724784"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383121724794"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383121724804"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383121724814"><attributeName>Rainfall</attributeName>
+ <attributeDefinition>Rainfall (in mm):
+Normal; Drops; Accumulated; Accumulated Total</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383121724824"><attributeName>Type of rain</attributeName>
+ <attributeDefinition>Type of rain</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Type of rain</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>6544</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383122008155"><entityName>GeelbekTemperatureUpuntil2009.txt</entityName>
+ <physical id="1383121877511"><objectName>GeelbekTemperatureUpuntil2009.txt</objectName>
+ <size unit="byte">243480</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109865.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383122008165"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122008175"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122008185"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122008195"><attributeName>Maximum Temperature</attributeName>
+ <attributeDefinition>Temperature (in &#186;C) minimum and maximum for each day</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122008205"><attributeName>Minimum Temperature</attributeName>
+ <attributeDefinition>Temperature (in &#186;C) minimum and maximum for each day</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>6585</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383122276351"><entityName>GeelbekWindUpuntil2009.txt</entityName>
+ <physical id="1383122105617"><objectName>GeelbekWindUpuntil2009.txt</objectName>
+ <size unit="byte">675053</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109866.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383122276361"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122276371"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122276381"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122276391"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122276401"><attributeName>Wind speed</attributeName>
+ <attributeDefinition>Wind speed (in m/s) measured at 8:00; 14:00 and 20:00</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122276411"><attributeName>Wind direction (in degrees) measured at 8:00; 14:00 and 20:00</attributeName>
+ <attributeDefinition>Wind direction (in degrees) measured at 8:00; 14:00 and 20:00</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>14067</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383122493233"><entityName>LangebaanHumidityupintil2009.txt</entityName>
+ <physical id="1383122393342"><objectName>LangebaanHumidityupintil2009.txt</objectName>
+ <size unit="byte">895651</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109867.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383122493243"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122493253"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122493263"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122493273"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122493283"><attributeName>Humidity</attributeName>
+ <attributeDefinition>Humidity (in %) measured at 8:00; 14:00 and 20:00</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>20535</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383122636184"><entityName>LangebaanPressureupuntil2009.txt</entityName>
+ <physical id="1383122550593"><objectName>LangebaanPressureupuntil2009.txt</objectName>
+ <size unit="byte">1647271</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109868.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383122636194"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122636204"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122636214"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122636224"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122636234"><attributeName>Pressure</attributeName>
+ <attributeDefinition>Pressure (barometric pressure in hPa) measured at 8:00; 14:00 and 20:00</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Hecta Pascal</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>34772</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383122809776"><entityName>LangebaanRainfallupuntil2009.txt</entityName>
+ <physical id="1383122704775"><objectName>LangebaanRainfallupuntil2009.txt</objectName>
+ <size unit="byte">631371</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109869.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383122809786"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122809796"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122809806"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122809816"><attributeName>Rainfall</attributeName>
+ <attributeDefinition>Rainfall (in mm):
+Normal; Drops; Accumulated; Accumulated Total</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122809826"><attributeName>Rainfall type</attributeName>
+ <attributeDefinition>Rainfall type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>13424</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383122963568"><entityName>LangebaanTemperatureupuntil2009.txt</entityName>
+ <physical id="1383122880187"><objectName>LangebaanTemperatureupuntil2009.txt</objectName>
+ <size unit="byte">633127</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109870.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383122963578"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122963588"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122963598"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122963608"><attributeName>Maximum temperature</attributeName>
+ <attributeDefinition>Temperature (in &#186;C) minimum and maximum for each day</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383122963618"><attributeName>Minimum temperature</attributeName>
+ <attributeDefinition>Temperature (in &#186;C) minimum and maximum for each day</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>13449</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383123127419"><entityName>LangebaanWindupuntil2009.txt</entityName>
+ <physical id="1383122993938"><objectName>LangebaanWindupuntil2009.txt</objectName>
+ <size unit="byte">1972305</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109871.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383123127429"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383123127439"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383123127449"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383123127459"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383123127469"><attributeName>Wind speed (in m/s) measured at 8:00; 14:00 and 20:00</attributeName>
+ <attributeDefinition>Wind speed (in m/s) measured at 8:00; 14:00 and 20:00</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383123127479"><attributeName>Wind direction</attributeName>
+ <attributeDefinition>N 	dir&gt;=348.75 OR dir &lt; 11.25
+NNE 	11.25 to 33.74
+NE 	33.75 to 56.24
+ENE 	56.25 to 78.74
+E 	78.75 to 101.24
+ESE 	101.25 to 123.74
+SE 	123.75 to 146.24
+SSE 	146.25 to 168.74
+S 	168.75 to 191.24
+SSW 	191.25 to 213.74
+SW 	213.75 to 236.24
+WSW 	236.25 to 258.74
+W 	258.75 to 281.24
+WNW 	281.25 to 303.74
+NW 	303.75 to 326.24
+NNW 	326.25 to 348.74</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>34772</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="Hecta Pascal" multiplierToSI="100" name="Hecta Pascal" parentSI="pascal" unitType="pressure"><description>Hecta Pascal</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

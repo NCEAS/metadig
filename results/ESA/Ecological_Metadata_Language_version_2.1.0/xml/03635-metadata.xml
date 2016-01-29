@@ -1,0 +1,105 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.51.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Plant functional traits from Brazilian savannas</title>
+<creator>
+<organizationName>Universidade Federal de Sao Carlos</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Marcus</givenName>
+<surName>Cianciaruso</surName>
+</individualName>
+<organizationName>Universidade Federal de Sao Carlos</organizationName>
+<address>
+<country>Brazil</country>
+</address>
+<electronicMailAddress>cianciaruso@gmail.com</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Marcus</givenName>
+<surName>Cianciaruso</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Marcus</givenName>
+<surName>Cianciaruso</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Marco</givenName>
+<surName>Batalha</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2010-05-11</pubDate>
+<abstract>
+<para>Datasets comprised individual-level functional information (i.e., functional traits) on woody species from two different cerrado (Brazilian savannas) forms: four savanna woodlands (campo cerrado) and two woodlands (cerrado sensu stricto). The following functional traits are available from six different locations (communities): plant height, bark thickness, basal area, specific leaf area, leaf area, leaf dry matter content, pollination and dispersal syndromes. It also includes for some sites information on stem specific density, leaf N and P content, resprouting at soil level and clonal reproduction.</para>
+</abstract>
+<keywordSet>
+<keyword>plant functional traits, savanna</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<singleDateTime>
+<calendarDate>2006</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Emas National Park (Central Brazil), Itirapina Experimental Station, and University of Sao Carlos cerrado reserve (southeastern Brazil)</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-52.8997</westBoundingCoordinate>
+<eastBoundingCoordinate>-47.8606</eastBoundingCoordinate>
+<northBoundingCoordinate>-18.3139</northBoundingCoordinate>
+<southBoundingCoordinate>-22.2156</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Marcus</givenName>
+<surName>Cianciaruso</surName>
+</individualName>
+<organizationName>Universidade Federal de Sao Carlos</organizationName>
+<address>
+<country>Brazil</country>
+</address>
+<electronicMailAddress>cianciaruso@gmail.com</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<para>Functional traits were collected following Cornelissen et al. 2003. A handbook of protocols for standardised and easy measurement of plant functional traits worldwide. Australian Journal of Botany 51: 335-380.</para>
+</section></description></methodStep>
+</methods>
+</dataset></ns0:eml>

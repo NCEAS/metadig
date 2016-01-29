@@ -1,0 +1,273 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.1235.8" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>uid=botha,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset> <title>Augrabies fall NP Hourly temperature and rainfall.data</title>
+ <creator id="1334057090711"> <individualName><surName>SANParks</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>SANParks</positionName>
+ </creator>
+ <keywordSet><keyword>SANParks, South African National Parks</keyword>
+ <keyword>Augrabies Falls National Park, South Africa</keyword>
+ <keyword>Rainfall, temperature</keyword>
+ </keywordSet>
+ <coverage><temporalCoverage><singleDateTime><calendarDate>2012</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>AugrabiesFallsNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>19.88465</westBoundingCoordinate>
+ <eastBoundingCoordinate>20.402625</eastBoundingCoordinate>
+ <northBoundingCoordinate>-28.40751</northBoundingCoordinate>
+ <southBoundingCoordinate>-28.623567</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1334057101354"><individualName><surName>Hugo</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>SANParks</positionName>
+ </contact>
+ <dataTable id="1334057315857"><entityName>Augrabies Temparature daily data.txt</entityName>
+ <physical id="1334057196287"><objectName>Augrabies Temparature daily data.txt</objectName>
+ <size unit="byte">3582</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.1233.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1334057315873"><attributeName>Year</attributeName>
+ <attributeDefinition>YEAR</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057315888"><attributeName>Month</attributeName>
+ <attributeDefinition>MONTH</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057315904"><attributeName>DD</attributeName>
+ <attributeDefinition>DAY</attributeDefinition>
+ <measurementScale><dateTime><formatString>DD-MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057315920"><attributeName>avg</attributeName>
+ <attributeDefinition>AVARAGE</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057315935"><attributeName>mx</attributeName>
+ <attributeDefinition>MAXIMUM</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057315951"><attributeName>tm</attributeName>
+ <attributeDefinition>TIME</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057315966"><attributeName>mn</attributeName>
+ <attributeDefinition>minimum</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057315982"><attributeName>tm</attributeName>
+ <attributeDefinition>time</attributeDefinition>
+ <measurementScale><dateTime><formatString>Thh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>94</numberOfRecords>
+ </dataTable>
+ <dataTable id="1334057408282"><entityName>Augrabies daily rainfall data.txt</entityName>
+ <physical id="1334057348559"><objectName>Augrabies daily rainfall data.txt</objectName>
+ <size unit="byte">1388</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.1234.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1334057408298"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057408313"><attributeName>Month</attributeName>
+ <attributeDefinition>MONTH</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057408329"><attributeName>DD</attributeName>
+ <attributeDefinition>DAY</attributeDefinition>
+ <measurementScale><dateTime><formatString>DD-MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1334057408345"><attributeName>tot</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>93</numberOfRecords>
+ </dataTable>
+ <dataTable id="1364293248080"><entityName>Agrabies daily Rainfail 2013.txt</entityName>
+ <physical id="1364293143479"><objectName>Agrabies daily Rainfail 2013.txt</objectName>
+ <size unit="byte">376</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109781.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1364293248096"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1364293248111"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1364293248127"><attributeName>DD</attributeName>
+ <attributeDefinition>DAY</attributeDefinition>
+ <measurementScale><dateTime><formatString>DD-MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1364293248142"><attributeName>tot</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>28</numberOfRecords>
+ </dataTable>
+ <dataTable id="1364374266156"><entityName>Augrabies Temparature 2013.txt</entityName>
+<physical id="1364374085415"><objectName>Augrabies Temparature 2013.txt</objectName>
+<size unit="byte">987</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109782.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1364374266172"><attributeName>Year</attributeName>
+<attributeDefinition>Year</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy-dd-mm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1364374266187"><attributeName>Month</attributeName>
+<attributeDefinition>Month</attributeDefinition>
+<measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1364374266203"><attributeName>DD</attributeName>
+<attributeDefinition>DAY</attributeDefinition>
+<measurementScale><dateTime><formatString>DD-MM-YYYY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1364374266219"><attributeName>Avg</attributeName>
+<attributeDefinition>AVARAGE</attributeDefinition>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1364374266234"><attributeName>MX</attributeName>
+<attributeDefinition>MAXIMUM</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1364374266250"><attributeName>tm</attributeName>
+<attributeDefinition>TIME</attributeDefinition>
+<measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1364374266265"><attributeName>mn</attributeName>
+<attributeDefinition>minimum</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1364374266281"><attributeName>tm</attributeName>
+<attributeDefinition>time</attributeDefinition>
+<measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>28</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

@@ -1,0 +1,120 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.217.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd">
+
+
+<dataset scope="document">
+<title>Methane fluxes from an Alaskan rich fen (APEX)</title>
+<creator scope="document">
+<organizationName>Michigan State University</organizationName>
+</creator>
+<creator scope="document">
+<individualName>
+<givenName>Merritt</givenName>
+<surName>Turetsky</surName>
+</individualName>
+<organizationName>Michigan State University</organizationName>
+<address scope="document">
+<deliveryPoint>Dept. Plant Biology, Michigan State University</deliveryPoint>
+<city>East Lansing</city>
+<administrativeArea>Michigan</administrativeArea>
+<postalCode>48824</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">517-353-5554</phone>
+<phone phonetype="Fax">517-353-1926</phone>
+<electronicMailAddress>mrt@msu.edu</electronicMailAddress>
+</creator>
+<metadataProvider scope="document"><individualName>
+<givenName>Claire</givenName>
+<surName>Treat</surName>
+</individualName>
+</metadataProvider>
+<associatedParty scope="document"><individualName>
+<givenName>Merritt</givenName>
+<surName>Turetsky</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2008-04-07</pubDate>
+<abstract>
+<para>Methane fluxes were collected at APEX rich fen using the static chamber method during the summer of 2005 and summer 2006.  The field site uses a full-factorial water table (flooded or raised, lowered or drained, and control plots, as well as a moisture gradient) by warming manipulation experiment (warmed, unwarmed) which are reflected in the plot column and the warming column, respectively.</para>
+</abstract>
+<keywordSet>
+<keyword>Methane</keyword>
+<keywordThesaurus>GCMD</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>other</para>
+<para>cite author in publication</para>
+</intellectualRights>
+<distribution scope="document">
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage scope="document">
+<temporalCoverage scope="document">
+<rangeOfDates>
+<beginDate>
+<calendarDate>2005-06-16</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2006-09-10</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage scope="document">
+<geographicDescription>APEX rich fen located in the Bonanza Creek Long-term ecological research center outside of Fairbanks, Alaska, USA</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-147.8700
+</westBoundingCoordinate>
+<eastBoundingCoordinate>-147.8700
+</eastBoundingCoordinate>
+<northBoundingCoordinate>64.8200
+</northBoundingCoordinate>
+<southBoundingCoordinate>64.8200
+</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact scope="document">
+<individualName>
+<givenName>Merritt</givenName>
+<surName>Turetsky</surName>
+</individualName>
+<organizationName>Michigan State University</organizationName>
+<address scope="document">
+<deliveryPoint>Dept. Plant Biology, Michigan State University</deliveryPoint>
+<city>East Lansing</city>
+<administrativeArea>Michigan</administrativeArea>
+<postalCode>48824</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">517-353-5554</phone>
+<phone phonetype="Fax">517-353-1926</phone>
+<electronicMailAddress>mrt@msu.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>methane flux using static chamber method</title>
+<para>Methane samples were collected from clear static chambers (0.6 m x 0.6 m x 0.6 m) placed on collars that are permanently embedded in the peat.  Collars were sealed using foam tape.  Gas samples were collected over a period of 30 - 40 minutes and analyzed for methane concentrations using a GC equipped with an FID detector.</para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>Data were collected from 18 collars located within the water table by warming treatments at APEX as described above.  Moisture gradient collars range from a black spruce site (Gradient 1), a site dominated by willow-birch (Gradient 2), a tussock site (Gradient 3, located on a tussock), and a site dominated by equisetum and carex (Gradient 4).  Data coverage at all sites from 6/16/2005 - 8/22/2005, and from 6/19/2006 - 9/10/2006.</para>
+</description></studyExtent>
+<samplingDescription>
+<para>Water table treatments were randomly assigned to each plot.  Permanent gas measurement collars were established within these plots and randomly assigned to a warming treatment.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<access authSystem="knb" order="denyFirst" scope="document">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=turetskylab,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+</dataset>
+</ns0:eml>

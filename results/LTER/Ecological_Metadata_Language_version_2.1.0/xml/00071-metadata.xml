@@ -1,0 +1,762 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.76.15" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF076">
+    <alternateIdentifier>HF076</alternateIdentifier>
+    <title>Long-term Vegetation Dynamics on the Massachusetts Coast from 2000 BP to Present</title>
+    <creator>
+      <individualName>
+        <givenName>Tim</givenName>
+        <surName>Parshall</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Foster</surName>
+      </individualName>
+    </creator>
+    <pubDate>2003</pubDate>
+    <abstract>
+      <section>
+        <para>We use a retrospective approach to reconstruct the past distribution of fire in New England and to investigate the important drivers of this pattern across the period of European arrival to North America.  Our study sites are in New England, and range from pitch pine and oak forests of coastal Massachusetts, pine and hardwood forests of central Massachusetts, and northern hardwood and spruce fir forests of northern Massachusetts and Vermont.  We collected sediment profiles from 18 lakes across the study area to assess fossil charcoal and pollen abundance over the past 1000 years and including the time period of European arrival and settlement.</para>
+        <para>Based on presettlement pollen composition, our study sites are divided into three vegetation types: 1) pitch pine and oak, 2) oak, pine, and hardwood, and 3) northern hardwoods.  The abundance of presettlement charcoal in these lakes is closely related to climate and the composition of surrounding vegetation.  Charcoal is most abundant in pitch pine forests and least common in northern hardwood and spruce forests.  Following the arrival of Europeans, charcoal abundance increases, at most sites substantially, and vegetation composition changed in a direction of either greater dominance by pitch pine or white pine, depending on whether the forests were located in the southern or northern part of New England.</para>
+        <para>The major factor influencing the distribution of fire across New England is climate, which has a direct effect on the physical conditions conducive to fire ignition and spread and an indirect effect on fire through its control on the distribution of vegetation at this spatial scale.  We find evidence that other factors exert some control over local fire regimes as well including landforms and their impact on vegetation composition, firebreaks, and prevailing winds.  Native Americans likely influenced the local occurrence of fire, but their impact on regional fire regimes in New England is not apparent from this or other studies.   However, additional paleoecological, archaeological and historical work needs to be done to better address this question.  In contrast, Europeans had a dramatic effect on fire throughout the New England landscape, increasing its occurrence almost everywhere.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>charcoal</keyword>
+      <keyword>fires</keyword>
+      <keyword>land use</keyword>
+      <keyword>paleoecology</keyword>
+      <keyword>pollen</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>disturbance</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf076</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cape Cod MA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.6</westBoundingCoordinate>
+          <eastBoundingCoordinate>-69.9</eastBoundingCoordinate>
+          <northBoundingCoordinate>+42.0</northBoundingCoordinate>
+          <southBoundingCoordinate>+41.3</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>0001</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2000</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Acer</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>rubrum</taxonRankValue>
+            <commonName>red maple</commonName>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>saccharum</taxonRankValue>
+            <commonName>sugar maple</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Betula</taxonRankValue>
+          <commonName>birch</commonName>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Carya</taxonRankValue>
+          <commonName>hickory</commonName>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Castanea</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>dentata</taxonRankValue>
+            <commonName>chestnut</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Picea</taxonRankValue>
+          <commonName>spruce</commonName>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Pinus</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>rigida</taxonRankValue>
+            <commonName>pitch pine</commonName>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>strobus</taxonRankValue>
+            <commonName>white pine</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Quercus</taxonRankValue>
+          <commonName>oak</commonName>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Tsuga</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>canadensis</taxonRankValue>
+            <commonName>eastern hemlock</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Foster</surName>
+      </individualName>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <electronicMailAddress>drfoster@fas.harvard.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>LOI</title>
+            <para>% organic carbon was determined by standard loss-on-ignition at 550&#176;C (Dean 1974).</para>
+          </section>
+          <section>
+            <title>Pollen analysis</title>
+            <para>Sediment preparation for pollen analysis followed standard procedures including a sieving step with a 180 um screen, and pollen was counted to a total of 500 tree and shrub grains at 400x (Faegri and Iversen 1975). The timing of European settlement in the cores was assessed from changes in pollen representing open vegetation, including a decline in tree pollen and an increase in herbaceous pollen, especially ragweed (Ambrosia), sorrel (Rumex) and grass (Poaceae).</para>
+          </section>
+          <section>
+            <title>210Pb dating</title>
+            <para>210Pb inventory was counted on an Ortec Alpha Spectrometer 576A, based on activity of the daughter product 210Po using a spike of 245.4 milli-Bequerel (mBq) 209Po added as a tracer. 210Pb dates and sedimentation rates were calculated using a CRS (constant rate of supply) model (Binford; Kahl, and Norton 1993;Binford and others 1993).</para>
+          </section>
+          <section>
+            <title>Radiocarbon dating</title>
+            <para>Samples of organic-rich lacustrine sediment were submitted to the University of Arizona AMS lab for AMS radiocarbon dating. Radiocarbon dates were calibrated using Radiocarbon Calibration Program Rev 4.3 (Calib) (Stuiver and Reimer 1993). Age models were derived from radiocarbon dates of lake sediments along with 210Pb dates for each site. We used second and third order polynomials to interpolate ages between these dates and arrive at a sedimentation rate.</para>
+          </section>
+          <section>
+            <title>Charcoal analysis</title>
+            <para>Microscopic charcoal abundance was quantified using an image analysis system. The area of all charcoal fragments encountered along transects on microscope slides was measured using the same samples assessed for pollen content, and marker grains were counted at the same time to determine the amount of sample volume observed. Fragments less than 10&#181;m in length were not included in the final value of the charcoal abundance as then can be confused with opaque mineral matter.</para>
+            <para>Charcoal to pollen ratios were calculated using: C/P = (Total area of charcoal * # exotic grains counted with pollen) / (# exotic grains counted with charcoal * upland pollen sum).</para>
+            <para>Charcoal concentration (&#181;m2/cm3) = (# exotic added to sample / cm3 sediment volume) * (total charcoal area)
+</para>
+            <para>Charcoal influx (&#181;m2/ cm2/yr)  = (Charcoal concentration) * (sedimentation rate cm/yr)</para>
+            <para>Macroscopic charcoal (pieces larger than 180 um length in contiguous 1-cm samples) are represented as influx (mm2 cm&#8211;2 year -1), a 5-year moving average of influx and residual influx values.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="hf076-01">
+      <entityName>hf076-01-loi.csv</entityName>
+      <entityDescription>loss on ignition</entityDescription>
+      <physical id="1183659266637">
+        <objectName>hf076-01-loi.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/76/15/5bde6886fee56eb427008e53f7c7d545</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1239039107704">
+          <attributeName>site</attributeName>
+          <attributeDefinition>site name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DP</code>
+                    <definition>Deep Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EP</code>
+                    <definition>Eagle Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FP</code>
+                    <definition>Fresh Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IHP</code>
+                    <definition>Ice House Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JP</code>
+                    <definition>Jemima Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RP</code>
+                    <definition>Round Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SHP</code>
+                    <definition>Sandy Hill Pond</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1183659267549">
+          <attributeName>depth</attributeName>
+          <attributeDefinition>depth in centimeters in the sediment column</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1183659267559">
+          <attributeName>organic.per</attributeName>
+          <attributeDefinition>% organic carbon as determined by loss-on-ignition method</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1011</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf076-02">
+      <entityName>hf076-02-pollen.csv</entityName>
+      <entityDescription>pollen</entityDescription>
+      <physical id="1239039632526">
+        <objectName>hf076-02-pollen.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/76/15/7da6bdff8706edae57d714bc88b7efa4</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1239039633464">
+          <attributeName>site</attributeName>
+          <attributeDefinition>site name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DP</code>
+                    <definition>Deep Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EP</code>
+                    <definition>Eagle Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FP</code>
+                    <definition>Fresh Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IHP</code>
+                    <definition>Ice House Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JP</code>
+                    <definition>Jemima Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RP</code>
+                    <definition>Round Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SHP</code>
+                    <definition>Sandy HIll Pond</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1239039633480">
+          <attributeName>depth</attributeName>
+          <attributeDefinition>depth in centimeters in the sediment column</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1239039633495">
+          <attributeName>taxa</attributeName>
+          <attributeDefinition>taxa name. Indet. Crumple: Number of indeterminable crumpled pollen grain. Indet. Corroded: Number of indeterminable corroded pollen grain. Indet. Obscured: Number of indeterminable obscured pollen grain. Unknown: Number of unknown or unidentified pollen grains.
+# Exotic: Number of exotic pollen grains identified</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>taxa name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1239039633511">
+          <attributeName>count</attributeName>
+          <attributeDefinition>number of pollen grains of individual taxa identified.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>29613</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf076-03">
+      <entityName>hf076-03-age.csv</entityName>
+      <entityDescription>age model</entityDescription>
+      <physical id="1183661331326">
+        <objectName>hf076-03-age.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/76/15/c79f51cef118865e9be8133fd6625f73</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1239039229110">
+          <attributeName>site</attributeName>
+          <attributeDefinition>site name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DP</code>
+                    <definition>Deep Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EP</code>
+                    <definition>Eagle Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FP</code>
+                    <definition>Fresh Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IHP</code>
+                    <definition>Ice House Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JP</code>
+                    <definition>Jemima Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RP</code>
+                    <definition>Round Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SHP</code>
+                    <definition>Sandy Hill Pond</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1183661331997">
+          <attributeName>depth</attributeName>
+          <attributeDefinition>depth in centimeters in the sediment column</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1183661332007">
+          <attributeName>age</attributeName>
+          <attributeDefinition>age in years before sediment core was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1183661332017">
+          <attributeName>analysis</attributeName>
+          <attributeDefinition>analysis by which age was determined</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AMS</code>
+                    <definition>Accelerated mass. Spectrometry radiocarbon analysis on lacustrine organic matter.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pb210</code>
+                    <definition>lead 210 analysis interpreted by constant rate of supply method</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pollen</code>
+                    <definition>rise in Ambrosia and agricultural weeds associated with European settlement</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1183661332027">
+          <attributeName>error</attributeName>
+          <attributeDefinition>error in radiocarbon date reported by lab (&#177; years)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1183661332037">
+          <attributeName>cal.ybp</attributeName>
+          <attributeDefinition>calibrated radiocarbon date, in years before 1950, determined by Calib 4.0</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1183661332047">
+          <attributeName>status</attributeName>
+          <attributeDefinition>status</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>rejected</code>
+                    <definition>indicates radiocarbon date was not used in age-depth model due to possible carbon contamination</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>missing value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1183661332057">
+          <attributeName>year.cored</attributeName>
+          <attributeDefinition>year (AD) sediment core was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>119</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf076-04">
+      <entityName>hf076-04-charcoal.csv</entityName>
+      <entityDescription>charcoal</entityDescription>
+      <physical id="1183661426102">
+        <objectName>hf076-04-charcoal.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/76/15/6a940e3e16034089a59ef33a6651014f</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1239039416186">
+          <attributeName>site</attributeName>
+          <attributeDefinition>site name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DP</code>
+                    <definition>Deep Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EP</code>
+                    <definition>Eagle Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FP</code>
+                    <definition>Fresh Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IHP</code>
+                    <definition>Ice House Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JP</code>
+                    <definition>Jemima Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RP</code>
+                    <definition>Round Pond</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SHP</code>
+                    <definition>Sandy Hill Pond</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1183661426914">
+          <attributeName>depth</attributeName>
+          <attributeDefinition>depth in centimeters in the sediment column</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1183661426924">
+          <attributeName>c.p</attributeName>
+          <attributeDefinition>ratio of charcoal to pollen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>260</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>completed</status>
+        <researchTopic>historical</researchTopic>
+        <researchTopic>community</researchTopic>
+        <researchTopic>regional</researchTopic>
+        <studyType>paleological</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

@@ -1,0 +1,861 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35b.132.5" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset>  <title>Pop-up Satellite Tag Pacific Halibut (Hippoglossus stenolepis) Depth Data, Gulf of Alaska (2000-2002)</title>
+<creator id="1375304371682"> <individualName><salutation>Dr.</salutation>
+ <givenName>Andrew</givenName>
+ <surName>Seitz</surName>
+ </individualName>
+ <organizationName>Scool of Fisheries and Ocean Sciences, University of Alaska, Fairbanks</organizationName>
+ <positionName>Assistant Professor</positionName>
+ <address><deliveryPoint>202 Arctic Health Research Bldg.</deliveryPoint>
+ <deliveryPoint>P.O. Box 757220</deliveryPoint>
+ <city>Fairbanks</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99775-7220</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 474-5254</phone>
+ <phone phonetype="fax">(907) 474-7204</phone>
+ <electronicMailAddress>acseitz@alaska.edu</electronicMailAddress>
+ <onlineUrl>http://www.sfos.uaf.edu/directory/faculty/seitz/</onlineUrl>
+ </creator>
+ <associatedParty><references>1375304371682</references>
+ <role>Principal Investigator</role>
+ </associatedParty>
+ <associatedParty id="1375304608230"><individualName><givenName>Derek</givenName>
+ <surName>Wilson</surName>
+ </individualName>
+ <organizationName>Biological Resources Division, U.S. Geological Survey</organizationName>
+ <positionName>Fisheries Biologist</positionName>
+ <role>Author</role>
+ </associatedParty>
+ <associatedParty id="1375304864837"><individualName><salutation>Dr.</salutation>
+ <givenName>Jennifer</givenName>
+ <surName>Nielsen</surName>
+ </individualName>
+ <organizationName>Alaska Science Center, US Geological Society</organizationName>
+ <positionName>Fisheries Research Scientist</positionName>
+ <address><deliveryPoint>4210 University Drive</deliveryPoint>
+ <city>Anchorage</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99508</postalCode>
+ </address>
+ <phone phonetype="voice">(907) 786-7062</phone>
+ <phone phonetype="fax">(907) 786-7021</phone>
+ <electronicMailAddress>jlnielsen@usgs.gov</electronicMailAddress>
+ <role>Author</role>
+ </associatedParty>
+ <associatedParty id="1375305128927"><individualName><givenName>Jessica</givenName>
+ <surName>Couture</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Research Assistant</positionName>
+ <address><deliveryPoint>National Center for Ecological Analysis and Synthesis, Unversity of California, Santa Barbara</deliveryPoint>
+ <deliveryPoint>735 State St.</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">805-892-2500</phone>
+ <phone phonetype="fax">805-892-2510</phone>
+ <electronicMailAddress>couture@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+<abstract><para>To maintain healthy commercial and sport fisheries for Pacific halibut (Hippoglossus stenolepis), critical habitat must be defined by determining life history patterns on a daily and seasonal basis. Pop-up satellite archival transmitting (PSAT) tags provide a fisheries-independent method of collecting environmental preference data (depth and ambient water temperature) as well as daily geolocation estimates based on ambient light conditions. In this study, 14 adult halibut (107-165 cm FL) were tagged and released with PSAT tags in and around Resurrection Bay, Alaska. Commercial fishermen recovered two tags, while five tags transmitted data to ARGOS satellites. Horizontal migration was not consistent among fish as three halibut remained in the vicinity of release while four traveled up to 358 km from the release site. Vertical migration was not consistent among fish and over time, but they spent most their time between 150-350 m. The minimum and maximum depths reached by any of the halibut were 2m and 502m, respectively. The fish preferred water temperatures of roughly 6 degC while experiencing ambient temperatures between 4.3 degC and 12.2 degC. Light attenuation with depth prevented existing geolocation software and light sensing hardware from accurately estimating geoposition, however, information from temperature, depth, ocean bathymetry, and pop-off locations provided inference on fish movement in the study area. PSAT tags were a viable tool for determining daily and seasonal behavior and identifying critical halibut habitat, which will aid fisheries managers in future decisions regarding commercial and sport fishing regulations.</para>
+</abstract>
+ <keywordSet><keyword>pop-up satellite archival transmitting tag</keyword>
+<keyword>PSAT</keyword>
+<keyword>Pacific Halibut</keyword>
+<keyword>Hippoglossus stenolepis</keyword>
+<keyword>geolocation estimate</keyword>
+<keyword>Gulf of Alaska</keyword>
+<keyword>critical habitat</keyword>
+<keyword>migration</keyword>
+<keyword>Resurrection Bay</keyword>
+<keyword>depth profile</keyword>
+<keyword>vertical migration</keyword>
+<keywordThesaurus>project terms</keywordThesaurus>
+</keywordSet>
+<keywordSet><keyword>EVOSTC</keyword>
+<keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+<keyword>Oil Spill</keyword>
+<keyword>Exxon Valdez</keyword>
+<keyword>Alaska</keyword>
+<keyword>Pelagic</keyword>
+<keyword>Fish</keyword>
+<keyword>Benthic</keyword>
+<keyword>Satellites and Sensors</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+   <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and USGS. Please let the Owner know when these data are used.
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <coverage><taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Hippoglossus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>stenolepis</taxonRankValue>
+ <commonName>Pacific halibut</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2001-03-03</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2001-11-28</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>Gulf of Alaska, Alaksa</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-159.8752</westBoundingCoordinate>
+ <eastBoundingCoordinate>-121.65</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.77312</northBoundingCoordinate>
+ <southBoundingCoordinate>43.83333</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact><references>1375304371682</references>
+ </contact>
+ <methods><methodStep><description><section><title>Bringing adult halibut into captivity</title>
+ <para>On 7-8 August 2000, eleven live halibut (107-137 cm FL) were captured by a chartered commercial longline fishing vessel off Bear Glacier, Resurrection Bay, AK (59.89 N, 149.49 W). Standard fork length (cm) and caudal fin clips were taken before the fish were placed in holding caddies with continuously circulating seawater for transport to the Alaska SeaLife Center (ASLC), Seward, AK. The holding caddies were moved by forklift from the vessel to a flatbed truck and driven to ASLC (10 minutes). Four fish died within 24 hours of capture. These fish were subsequently frozen and later used to test optimal tag anchor placement. Of the remaining seven, four were placed in an 11 m3 tank and three were placed into two 4.5 m3 tanks (two in one and one in the other) where they were fed Pacific herring until satiation every other day.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Tagging captive halibut with PSAT tags</title>
+ <para>On 19-20 October 2000, six captive halibut were tagged with PSAT tags (PAT, Wildlife Computers, Redmond, WA, USA); one was left untagged as a control animal. The halibut were anesthetized in a small pool of water containing buffered MS-222 (100mg/l; Malmstrom et al. 1993) and a local anesthetic (bupivicaine, 2.0 mg) was injected at the tag insertion point. The PSAT tags were attached through the pterygiophores roughly 2.5 cm below the halibut's dorsal fin on the eyed-side of the halibut where the body began to taper towards the tail. A single cruciate suture was used to close the insertion wound. These tagged fish were then observed daily to monitor the effects of the externally attached PSAT tags.</para>
+ <para>The design, function and attachment techniques of PSAT tags were adapted from Gunn and Block (2001) and Block et al. (2001b). The PSAT tags were programmed to sample pressure, ambient temperature and light every minute and the data was binned into twelve-hour histograms for downloading to ARGOS satellites. These PSAT tags were programmed to detach on 15 June 2001.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Release of captive fish</title>
+ <para>On 20 November 2000, the control fish at ASLC was tagged with a PSAT tag programmed as described for the six previous tags. Five tagged fish were then loaded into three holding caddies (smaller fish sharing caddies while the biggest fish was alone) and driven 10 minutes to the commercial fishing vessel. During truck transport, pure oxygen was diffused through an air stone into the water and maintained at roughly 125% saturation to prevent transport mortality. Once on the vessel, seawater was continuously circulated into the caddies to maintain water quality. The vessel traveled to close proximity of the original capture location and the fish were released (Table 1 and Figure 1). All fish actively swam away from the vessel upon release. The remaining two tagged halibut, 00-0740 and 00-0741, were kept in an 11 m3 holding tank at the ASLC as control animals to test long-term tag attachment and to calibrate geoposition estimates with Wildlife Computers' proprietary software. The fishes remained in the outside holding tank from 21 October 2000 to 20 April 2001, when they were moved inside. On 19 June 2001, the tags were removed from the fish, archival data was downloaded, and these fish were retagged. On 5 July 2001, the tagged-halibut at ASLC were released into the wild according to previously described captive fish release procedures.</para>
+ </section>
+ </description>
+ <instrumentation>pop-up satellite archival transmitting (PSAT) tags</instrumentation>
+ </methodStep>
+ <methodStep><description><section><title>Tagging wild halibut with PSAT tags</title>
+ <para>On 16 March 2001, three additional halibut were captured on setline gear aboard a chartered commercial fishing vessel. The fish were pulled to the surface while hooked and brought onto the vessel in a net. They were placed on a pre-wetted, smooth piece of marine plywood, blindfolded to remain calm and the scientists and captain assessed their condition for post-release viability. After determining they were healthy, the fish were measured, tagged and released (Table 1 and Figure 1). The PSAT tags were programmed as previously described with the pop-off date set for 15 November 2001.</para>
+ <para>On 5 July 2001, four additional wild halibut were tagged and released following the procedure previously described for tagging wild fish. These PSAT tags sampled pressure, ambient temperature and light every two minutes and the data was binned into twelve-hour histograms. The PSAT tags were programmed to release from the fish on 15 November 2001.</para>
+ <para>The PAT User's Manual (Wildlife Computers) describes the PSAT tag's onboard data collection and processing. Longitude estimates for tags communicating through ARGOS as well as latitude and longitude estimates for recovered tags are described in the PAT Geolocation Software Manual (Wildlife Computers), Hill (1994) and Hill and Braun (2001). Post processing of data received through ARGOS is described in Block et al. (2001b) and Gunn and Block (2001). The tags endpoint positions upon popping-up were determined from the Doppler shift of the transmitted radio frequency in successive uplinks received during one ARGOS satellite pass (Schaefer and Liller 1990; Keating 1995).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Reward program</title>
+ <para>As incentive to return recaptured tags, a dual sponsored reward program was established. First, fishermen received $500 from the ASLC for the return of each recaptured PSAT tag. The costs of electronic tagging justified encouraging fishermen to return PSAT tags by offering a large monetary reward. Second, the IPHC established a quota waiver for recovered PSAT-tagged fish. Fish captured with a PSAT tag may be sold commercially and the weight of the fish does not count towards the captain's individual quota. Tagged halibut were sold as second-grade fish and did not fetch highest price because of flesh damage at the tag anchor and insertion point. The IPHC established the quota waiver to encourage fishing captains to retain PSAT-tagged fish even though the flesh was second-grade.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+<project><title>Testing Pop-up Satellite Tags as a Tool for Identifying Critical Habitat for Pacific Halibut (Hippoglossus stenolepis) in the Gulf of Alaska</title>
+<personnel id="1375305266160"><individualName><givenName>Andrew</givenName>
+<surName>Seitz</surName>
+</individualName>
+<organizationName>US Geological Survey</organizationName>
+<positionName>Fisheries Biologist</positionName>
+<electronicMailAddress>acseitz@alaska.edu</electronicMailAddress>
+<role>Principal Investigator</role>
+</personnel>
+<funding><para>Exxon Valdez Oil Spill Trustee Council project numbers: 00478, 01478; US Geological Survey, Alaska SeaLife Center (USGS)</para>
+</funding>
+</project>
+  <dataTable id="1376330266089"><entityName>timeAtDepth.csv</entityName>
+ <entityDescription>Percentage of time at depth interval</entityDescription>
+ <physical id="1376328180694"><objectName>timeAtDepth.csv</objectName>
+ <size unit="byte">84702</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.128.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1376330266090"><attributeName>tag</attributeName>
+ <attributeLabel>Tag Identifier</attributeLabel>
+ <attributeDefinition>Tag code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>tag id</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266091"><attributeName>dataDateTime</attributeName>
+ <attributeLabel>Date &amp; time</attributeLabel>
+ <attributeDefinition>Date and time of data were received, not associated when tags were at depths.</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266092"><attributeName>minus40_minus1</attributeName>
+ <attributeLabel>Depth bin(-40 to -1m)</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths btween -40 to -1 m.  Negative 40m represents 40m above the surface of the water.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266093"><attributeName>0_10</attributeName>
+ <attributeLabel>Depth bin 0 to 10m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths between 0 to 10 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266094"><attributeName>10_50</attributeName>
+ <attributeLabel>Dapth bin 10 to 50m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths between 10 to 50 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266095"><attributeName>50_100</attributeName>
+ <attributeLabel>Depth bin 50 to 100m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths 50 to 100 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266096"><attributeName>100_150</attributeName>
+ <attributeLabel>Depth bin 100 to 150m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths 100 to 150 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266097"><attributeName>150_250</attributeName>
+ <attributeLabel>Depth bin 150 to 250m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths 150 to 250 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266098"><attributeName>250_350</attributeName>
+ <attributeLabel>Depth bin 250 to 350m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths of 250 to 350 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266099"><attributeName>350_450</attributeName>
+ <attributeLabel>Depth bin 350 to 450m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths of 350 to 450 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266100"><attributeName>450_550</attributeName>
+ <attributeLabel>Depth bin 450 to 550m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths of 450 to 550 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266101"><attributeName>550_650</attributeName>
+ <attributeLabel>Depth bin 550 to 650m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths of 550 to 650 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266102"><attributeName>650_750</attributeName>
+ <attributeLabel>Depth bin 650 to 750m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths of 650 to 750 meters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266103"><attributeName>750_1000</attributeName>
+ <attributeLabel>Depth bin 750 to 1000m</attributeLabel>
+ <attributeDefinition>Proportion of time interval spent at depths of 750 to 1000</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266104"><attributeName>transDateTime</attributeName>
+ <attributeLabel>Transmission date &amp; time</attributeLabel>
+ <attributeDefinition>Date and time data were collected, actual date and time tags were recorded at depth data.</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376330266105"><attributeName>repeats</attributeName>
+ <attributeDefinition>Records how many times the&#160;information was actually received by the satellites because of duplicative satellite coverage.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1015</numberOfRecords>
+ </dataTable>
+ <dataTable id="1376342831543"><entityName>pdtData.csv</entityName>
+ <entityDescription>Pop-up archival transmitting tag Depth Temperature data</entityDescription>
+ <physical id="1376334063801"><objectName>pdtData.csv</objectName>
+ <size unit="byte">154735</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.130.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1376342831544"><attributeName>tag</attributeName>
+ <attributeLabel>Tag Identifier</attributeLabel>
+ <attributeDefinition>Tag identifier code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>tag id</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376342831545"><attributeName>dataDateTime</attributeName>
+ <attributeLabel>Date &amp; Time</attributeLabel>
+ <attributeDefinition>Date and time data were received, not associated with when tags (fish) were at given depths.</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376342831546"><attributeName>depth1</attributeName>
+ <attributeLabel>Depth of interval 1</attributeLabel>
+ <attributeDefinition>Depth measurement taken during the first sampling of the vertical movement event, measured in meters. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831547"><attributeName>minTemp1</attributeName>
+ <attributeLabel>Minimum Temperature 1</attributeLabel>
+ <attributeDefinition>Minimum temperature measurement taken during the first sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831548"><attributeName>maxTemp1</attributeName>
+ <attributeLabel>Maximum Temp 1</attributeLabel>
+ <attributeDefinition>Maximun temperature measurement taken during the first sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831549"><attributeName>depth2</attributeName>
+ <attributeLabel>Depth of interval 2</attributeLabel>
+ <attributeDefinition>Depth measurement taken during the second sampling of the vertical movement event, measured in meters.
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831550"><attributeName>minTemp2</attributeName>
+ <attributeLabel>Minimum Temperature 2</attributeLabel>
+ <attributeDefinition>Minimum temperature measurement taken during the second sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831551"><attributeName>maxTemp2</attributeName>
+ <attributeLabel>Maximum Temperature</attributeLabel>
+ <attributeDefinition>Maximum temperature measurement taken during the second sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831552"><attributeName>depth3</attributeName>
+ <attributeLabel>Depth of interval 3</attributeLabel>
+ <attributeDefinition>Depth measurement taken during the third sampling of the vertical movement event, measured in meters. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831553"><attributeName>minTemp3</attributeName>
+ <attributeLabel>Minimum Temp 3</attributeLabel>
+ <attributeDefinition>Minimum temperature measurement taken during the third sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831554"><attributeName>maxTemp3</attributeName>
+ <attributeLabel>Maximum Temp 3</attributeLabel>
+ <attributeDefinition>Maximum temperature measurement taken during the third sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831555"><attributeName>depth4</attributeName>
+ <attributeLabel>Depth of interval 4</attributeLabel>
+ <attributeDefinition>Depth measurement taken during the fourth sampling of the vertical movement event, measured in meters. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376342831556"><attributeName>minTemp4</attributeName>
+ <attributeLabel>Minimum Temp 4</attributeLabel>
+ <attributeDefinition>Minimum temperature measurement taken during the fourth sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831557"><attributeName>maxTemp4</attributeName>
+ <attributeLabel>Maximum Temp 4</attributeLabel>
+ <attributeDefinition>Maximum temperature measurement taken during the fourth sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831558"><attributeName>depth5</attributeName>
+ <attributeLabel>Depth of interval 5</attributeLabel>
+ <attributeDefinition>Depth measurement taken during the fifth sampling of the vertical movement event, measured in meters. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831559"><attributeName>minTemp5</attributeName>
+ <attributeLabel>Minimum Temp 5</attributeLabel>
+ <attributeDefinition>Minimum temperature measurement taken during the fifth sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831560"><attributeName>maxTemp5</attributeName>
+ <attributeLabel>Maximum Temp 5</attributeLabel>
+ <attributeDefinition>Maximum temperature measurement taken during the fifth sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376342831561"><attributeName>depth6</attributeName>
+ <attributeLabel>Depth of interval 6</attributeLabel>
+ <attributeDefinition>Depth measurement taken during the sixth sampling of the vertical movement event, measured in meters. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831562"><attributeName>minTemp6</attributeName>
+ <attributeLabel>Minimum Temp 6</attributeLabel>
+ <attributeDefinition>Minimum temperature measurement taken during the sixth sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831563"><attributeName>maxTemp6</attributeName>
+ <attributeLabel>Maximum Temp 6</attributeLabel>
+ <attributeDefinition>Maximum temperature measurement taken during the sixth sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831564"><attributeName>depth7</attributeName>
+ <attributeLabel>Depth of interval 7</attributeLabel>
+ <attributeDefinition>Depth Minimum temperature measurement taken during the seventh sampling of the vertical movement event, measured in meters. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831565"><attributeName>minTemp7</attributeName>
+ <attributeLabel>Minimum Temp 7</attributeLabel>
+ <attributeDefinition>Minimum temperature measurement taken during the seventh sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831566"><attributeName>maxTemp7</attributeName>
+ <attributeLabel>Maximum Temp 7</attributeLabel>
+ <attributeDefinition>Maximum temperature measurement taken during the seventh sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831567"><attributeName>depth8</attributeName>
+ <attributeLabel>Depth of interval 8</attributeLabel>
+ <attributeDefinition>Depth measurement taken during the eighth sampling of the vertical movement event, measured in meters.
+ 
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831568"><attributeName>minTemp8</attributeName>
+ <attributeLabel>Minimum Temp 8</attributeLabel>
+ <attributeDefinition>Minimum temperature measurement taken during the eighth sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376342831569"><attributeName>maxTemp8</attributeName>
+ <attributeLabel>Maximum Temp 8</attributeLabel>
+ <attributeDefinition>Maximum temperature measurement taken during the eighth sampling of the vertical movement event, measured in degrees Celsius. 
+
+Software identifies changes in depth and reports evenly spaced depth intervals between the 1st and 8th measurements. In cases of minimal vertical movement, fewer intervals are recorded.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376342831570"><attributeName>transDateTime</attributeName>
+ <attributeLabel>Transmission Date &amp; Time</attributeLabel>
+ <attributeDefinition>Date and time data were collected, actual date and time tags were recorded at depth data.</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376342831571"><attributeName>repeats</attributeName>
+ <attributeDefinition>Records how many times the&#160;information was actually received by the satellites because of duplicative satellite coverage.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1179</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>locations.csv</entityName>
+ <entityDescription>Locations data provides useable longitudinal coordinates as well as light level readings and the resulting geoposition estimates data that must be processed via a proprietary geolocation algorithm onboard the tag.</entityDescription>
+ <physical><objectName>locations.csv</objectName>
+ <size unit="byte">156246</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1376343139058"><online><url function="download">ecogrid://knb/df35b.131.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <dataTable id="1376414963799"><entityName>sensorData.csv</entityName>
+ <entityDescription>Sensor Data</entityDescription>
+ <physical id="1376412499688"><objectName>sensorData.csv</objectName>
+ <size unit="byte">55317108</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.137.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1376414963800"><attributeName>tagID</attributeName>
+ <attributeLabel>Tag Identifier</attributeLabel>
+ <attributeDefinition>Tag identifier code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>tag id</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376414963801"><attributeName>dateTime</attributeName>
+ <attributeLabel>Date &amp; Time</attributeLabel>
+ <attributeDefinition>Date and time of reading</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376414963802"><attributeName>depth</attributeName>
+ <attributeLabel>Depth</attributeLabel>
+ <attributeDefinition>Depth of sensor at given time recorded, in meters.
+Depth is measured from 0 to 1000m with a resolution of 0.5m</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376414963803"><attributeName>temp</attributeName>
+ <attributeLabel>Temperature</attributeLabel>
+ <attributeDefinition>Temperature measured by sensor at given time, in degrees Celsius. Temperature is measured from -40 degC to +60 degC with a resolution of 0.05 degC.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376414963804"><attributeName>lightLevel</attributeName>
+ <attributeLabel>Light Level</attributeLabel>
+ <attributeDefinition>Light level is measured as irradiance at a wavelength of 550nm. The sensor measures from 5 x 10^(-12) W.cm^(-2) to 5 x 10^(-2) W.cm^(-2) in logarithmic units. Dawn and dusk events can be discriminated at depths up to 300m in clear water conditions.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376414963805"><attributeName>hour</attributeName>
+ <attributeLabel>Hour</attributeLabel>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>no data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376414963806"><attributeName>batteryVolt</attributeName>
+ <attributeLabel>Battery Voltage</attributeLabel>
+ <attributeDefinition>Battery Voltage</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1376414963807"><attributeName>protocol</attributeName>
+ <attributeLabel>Protocol</attributeLabel>
+ <attributeDefinition>Protocol notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1025690</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,376 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="Marjaana_Toivonen.69.7" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=aakkula,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset> <title>Soil quality tests of arable land under different cultivation methods in south and southwestern Finland, 2010 - 2011</title>
+ <creator id="1318594979804"> <organizationName>MTT Agrifood Research Finland, Plant Production Research</organizationName>
+ <address><city>Jokioinen</city>
+ <postalCode>FI-31600</postalCode>
+ <country>Finland</country>
+ </address>
+ </creator>
+ <associatedParty id="1318595167537"><individualName><givenName>Kari</givenName>
+ <surName>Koppelm&#228;ki</surName>
+ </individualName>
+ <organizationName>Centre for Economic Development, Transport and the Environment (Uusimaa)</organizationName>
+ <role>Co-operation with RaHa-hanke in Uusimaa region, farm groups 1-5</role>
+ </associatedParty>
+ <abstract><para>The data originates from national monitoring on the effects of the Finnish agri-environment support scheme (MYTVAS). In 2010 - 2011, soil quality of agricultural fields under different cultivation methods were studied in south and southwestern Finland. Farm selection was done with the help of two regional projects for environmental protection of agriculture: RaHa-project in Uusimaa region and TEHO-project in Varsinais-Suomi and Satakunta regions. Within each farm group there were four different tillage intensities performed: ploughed, permanent / long-term grass, mouldboard ploughed and direct drilling (no-till).
+
+Data set is not yet ready. Chemical analysis will be performed during winter 2011 - 2012.</para>
+ </abstract>
+ <keywordSet><keyword>soil quality</keyword>
+ <keyword>tillage</keyword>
+ <keyword>soil structure</keyword>
+ <keyword>compaction</keyword>
+ <keyword>soil biology</keyword>
+ <keyword>organic matter</keyword>
+ <keyword>roots</keyword>
+ </keywordSet>
+ <intellectualRights><para>Obtain permission from data set owner(s)</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Southern (Uusimaa) and south-western (Varsinais-Suomi ja Satakunta) Finland</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>22.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>24.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.0</northBoundingCoordinate>
+ <southBoundingCoordinate>60.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2010</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2011</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1318595057678"><individualName><givenName>Ansa</givenName>
+ <surName>Paloj&#228;rvi</surName>
+ </individualName>
+ <organizationName>MTT Agrifood Research Finland, Plant Production Research</organizationName>
+ <positionName>Senior Scientist</positionName>
+ <address><city>Jokioinen</city>
+ <postalCode>FI-31600</postalCode>
+ <country>Finland</country>
+ </address>
+ <electronicMailAddress>ansa.palojarvi@mtt.fi</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Soil quality test</title>
+ <para>From each farm group, fields of different tillage intensities were selected, preferrably as close to each others as possible. On each field, two separate soil quality test pits were dug and studied. For soil quality test (Peltomaan laatutesti), see: www.agronet.fi.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project><title>Monitoring the impacts of Finnish agri-environmental support scheme (MYTVAS 3)</title>
+ <personnel id="1318595296161"><individualName><givenName>Jyrki</givenName>
+ <surName>Aakkula</surName>
+ </individualName>
+ <organizationName>MTT Agrifood Research Finland, Environmental Research</organizationName>
+ <positionName>Director</positionName>
+ <address><city>Jokioinen</city>
+ <postalCode>FI-31600</postalCode>
+ <country>Finland</country>
+ </address>
+ <electronicMailAddress>jyrki.aakkula@mtt.fi</electronicMailAddress>
+ <role>Co-ordinator of MYTVAS 3</role>
+ </personnel>
+ <funding><para>Ministry of Agriculture and Forestry</para>
+ </funding>
+ </project>
+ <dataTable id="1318856409820"><entityName>Variables</entityName>
+ <physical><objectName>Intranet folder: 7201244_1a4_maanrakenne</objectName>
+ <dataFormat> <externallyDefinedFormat><formatName>application/vnd.ms-excel</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard disk, intranet folder</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1318856409835"><attributeName>Farm groups</attributeName>
+ <attributeDefinition>Farm groups; RaHa-hanke, TEHO-hanke</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1 - 9</code>
+ <definition>Farm groups</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409851"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409867"><attributeName>Region</attributeName>
+ <attributeDefinition>Region</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>South Finland</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>South-West Finland</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409882"><attributeName>Treatment</attributeName>
+ <attributeDefinition>Treatment</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>Ploughed</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Grass</definition>
+ </codeDefinition>
+ <codeDefinition><code>3</code>
+ <definition>Mouldboard ploughed</definition>
+ </codeDefinition>
+ <codeDefinition><code>4</code>
+ <definition>Direct drilling</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409898"><attributeName>Measuring point</attributeName>
+ <attributeDefinition>Measuring point in the treatment area</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1 - 2</code>
+ <definition>Measuring point</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409914"><attributeName>Compacted layers</attributeName>
+ <attributeDefinition>Compacted layers in soil profile</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Thick compacted layer</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>No compacted layers</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409929"><attributeName>General structure (topsoil)</attributeName>
+ <attributeDefinition>General structure (topsoil)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Massive</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Blocky</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Granular</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409945"><attributeName>Break up of soil  (topsoil)</attributeName>
+ <attributeDefinition>Break up of soil (topsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Hard to break</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Easy to break</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409960"><attributeName>Shape of aggregates (topsoil)</attributeName>
+ <attributeDefinition>Shape of aggregates (topsoil)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Clayey soils: Plate-like aggregates</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Clayey soils: Angular aggregates</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Clayey soils: Round aggregates</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409976"><attributeName>Size of aggregates (topsoil)</attributeName>
+ <attributeDefinition>Size of aggregates (topsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Clayey soils: aggregates &gt;20 mm or &lt;2 mm in diameter</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Clayey soils: aggregates 5-20 mm in diameter</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Clayey soils: aggregates 2-5 mm in diameter</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856409992"><attributeName>Stability of surface structure (topsoil)</attributeName>
+ <attributeDefinition>Stability of surface structure (topsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Surface stucture has broken down; crustling</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Granular structure</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856410007"><attributeName>Organic matter content (topsoil)</attributeName>
+ <attributeDefinition>Organic matter content (topsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Low organic matter content; light color</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>High organic matter content; dark color</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856410023"><attributeName>Wormholes (topsoil)</attributeName>
+ <attributeDefinition>Wormholes (topsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>No</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Abundantly</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856410039"><attributeName>Decomposition of crop residues (topsoil)</attributeName>
+ <attributeDefinition>Decomposition of crop residues (topsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Crop residues have not decomposed; bad smell</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Crop residues have decomposed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856410054"><attributeName>Legume nodules (topsoil</attributeName>
+ <attributeDefinition>Legume nodules (topsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>No</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Abundantly</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856410070"><attributeName>General structure (subsoil)</attributeName>
+ <attributeDefinition>General structure (subsoil)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Massive</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Blocky or plate-like</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Granular</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856410085"><attributeName>Organic matter content (subsoil)</attributeName>
+ <attributeDefinition>Organic matter content (subsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Low organic matter content; light color</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>High organic matter content; dark color</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856410101"><attributeName>Wormholes (subsoil)</attributeName>
+ <attributeDefinition>Wormholes (subsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>No</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Several. at least one per dm2</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1318856410117"><attributeName>Root channels (subsoil)</attributeName>
+ <attributeDefinition>Root channels (subsoil)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>No or very few</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>-</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Root channels and roots evenly distributed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

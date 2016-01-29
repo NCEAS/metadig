@@ -1,0 +1,406 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-nwt.42.7" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1    http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=NWT,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <title>Snow depth data for saddle grid, 1982 - 1990.</title>
+    <creator scope="document">
+      <individualName>
+        <givenName>Jim</givenName>
+        <surName>Halfpenny</surName>
+      </individualName>
+      <address scope="document">
+        <deliveryPoint>PO Box 989</deliveryPoint>
+        <deliveryPoint>300 Scott</deliveryPoint>
+        <city>Gardiner</city>
+        <administrativeArea>Montana</administrativeArea>
+        <postalCode>59030</postalCode>
+        <country>UNITED STATES</country>
+      </address>
+      <phone phonetype="business">(406)848-9458</phone>
+    </creator>
+    <metadataProvider>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>INSTAAR, University of Colorado</deliveryPoint>
+        <deliveryPoint>1560 30th Street</deliveryPoint>
+        <deliveryPoint>UCB 450</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80309-0450</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">303-492-2594</phone>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+    </metadataProvider>
+    <associatedParty id="12010" scope="system" system="FLS">
+      <individualName>
+        <givenName>Timothy</givenName>
+        <surName>Seastedt</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>INSTAAR, University of Colorado</deliveryPoint>
+        <deliveryPoint>1560 30th Street</deliveryPoint>
+        <deliveryPoint>UCB 450</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80309-0450</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">303-492-3302</phone>
+      <electronicMailAddress>timothy.seastedt@colorado.edu</electronicMailAddress>
+      <role>Data Contact</role>
+    </associatedParty>
+    <associatedParty id="12020" scope="system" system="FLS">
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>INSTAAR, University of Colorado</deliveryPoint>
+        <deliveryPoint>1560 30th Street</deliveryPoint>
+        <deliveryPoint>UCB 450</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80309-0450</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">303-492-2594</phone>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+      <role>Data Contact</role>
+    </associatedParty>
+    <pubDate>1994</pubDate>
+    <abstract>
+      <section>
+        <title>Some of these data were published in a data report:</title>
+        <para>Halfpenny, J.C., and O. Pollak. 1983. Snow survey data 
+					from the Saddle, Niwot Ridge, Colorado, 1982-1983. University of 
+					Colorado Long-Term Ecological Research Data Report 83/9. 53 pp.</para>
+      </section>
+      <section>
+        <para> The depth of snow was measured at 88 points on the Saddle grid. Depths were
+				measured from fixed extendable poles on the western or accumulation portion of the
+				350 x 500 m grid, while depths were measured by probing on the eastern portion.
+				Measurements during winter months varied from every 2 weeks to about monthly
+				depending on weather conditions. Measurements during the summer were approximately
+				weekly until all snow disappeared or snow accumulation began for the next winter.
+				Meltout date can be determined from the last date snow was present at a grid point.
+				The area of the study was 19.7 ha.</para>
+        <para>NOTE: The LTER data portal display does not display important maintenance/log
+						information or other EML metadata features. Please be sure to view the EML file (a
+						text file that contains XML tags) which is included in the zip archive (click on
+						"Download zip archive") pertaining to each dataset. The EML file name will have the
+						following format: knb-lter-nwt.[3 digit dataset number].[version number].xml. Most
+						web browsers can parse the EML so it's easier to read.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>NWT</keyword>
+      <keyword>Niwot Ridge LTER</keyword>
+      <keyword>climate</keyword>
+      <keyword>snow</keyword>
+      <keyword>snowmelt</keyword>
+      <keyword>snowpack</keyword>
+      <keyword>snow accumulation</keyword>
+      <keyword>snow survey</keyword>
+      <keyword>meteorology</keyword>
+      <keyword>climatology</keyword>
+      <keyword>hydrology</keyword>
+      <keyword>saddle grid</keyword>
+      <keywordThesaurus>Niwot Ridge LTER site thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Niwot LTER Data Policy</title>
+        <para> The following acknowledgment should accompany any publication or citation of
+					these data: <itemizedlist>
+            <listitem>
+              <para> Logistical support and/or data were provided by the NSF-supported
+								Niwot Ridge (NWT) Long-Term Ecological Research (LTER) project and
+								the University of Colorado (CU) Mountain Research Station (MRS).
+							</para>
+            </listitem>
+            <listitem>
+              <para> The user of NWT LTER data agrees to provide proper acknowledgment
+								with each usage of the data. Citation of the name(s) of the
+								investigator(s) responsible for the data set, in addition to the
+								generic statement above, constitutes proper acknowledgment.
+								Author(s) (including NWT investigators) of published material that
+								makes use of previously unpublished NWT data agree to provide the
+								NWT data manager with a PDF of that material as soon as it becomes
+								available. The user of NWT data agrees not to resell or redistribute
+								shared data.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para> The NSF-supported NWT LTER project shall not be held liable for improper or
+					incorrect use of the data described and/or contained herein, nor assumes
+					liability for misuse, manipulation or distribution of the data. These data are
+					not legal documents and are not intended to be used as such. The information
+					contained in these data is dynamic and may change over time. The user of these
+					data should be aware that, while efforts have been taken to ensure that these
+					data are of the highest quality, there is no guarantee of perfection for the
+					data contained herein and the possibility of errors exists. It is the
+					responsibility of the data user to use the data appropriately and in a manner
+					consistent with the limitations of data in general and these data in particular.
+					Users assume responsibility to determine the usability of the dataset. NWT LTER
+					gives no warranty, expressed or implied, as to the accuracy, reliability, or
+					completeness of these data. It is strongly recommended that these data be
+					directly acquired from the NWT LTER server and not indirectly through other
+					sources that may have changed the data in some way. Although these data have
+					been processed successfully on computer systems at CU, no warranty expressed or
+					implied is made regarding the utility of the data on other systems for general
+					or scientific purposes, nor shall the act of distribution constitute any such
+					warranty. This disclaimer applies both to individual use of the data and
+					aggregate use with other data. </para>
+      </section>
+    </intellectualRights>
+    <distribution scope="document">
+      <online>
+        <url function="download">http://niwot.colorado.edu/data_csvs/saddsnow.jh.data.csv</url>
+      </online>
+    </distribution>
+    <coverage scope="document">
+      <temporalCoverage scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1982-04-03</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1990-06-11</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <geographicCoverage scope="document">
+        <geographicDescription>The study area was the Saddle grid and included the 88 grid
+					points. The original data are with Jim Halfpenny.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.643 </westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.3753 </eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0615 </northBoundingCoordinate>
+          <southBoundingCoordinate>39.9932 </southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>The original iteration of the documentation section of this file was developed
+					from the NWT LTER Data Directory (Symphony files DDABSTRA.WR1, DDDOCUME.WR1,
+					DDMASTER.WR1, DDVARIAB.WR1; last updated 16 December 1991) by Susan Kindig and
+					Rick Ingersoll in early March 1993. Additional comments were extracted from
+					Halfpenny and Pollak (1983) and were added by RCI on 21 February 1994. Comments
+					provided by JH in July 1993 were also incorporated at this time.[RCI 21 February
+					1994] Data for the years 1982 through 1986 and 1989 through 1990 were appended
+					to the data section on 10 March 1994 and the file was put under sccs control
+					then as well.[RCI 10 March 1994] URL locations for related data were updated on
+					27 September 2000.[MAH 27 September 2000] Title was updated to reflect actual
+					time-span of the dataset (previously stated as 1992). [TMA 24 April 2008] Title,
+					keywords, cols, and data format edited. [HCH 05 July 2013]</para>
+        <para>begin 3 April 1982, ongoing, bi-monthly to monthly.</para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>INSTAAR, University of Colorado</deliveryPoint>
+        <deliveryPoint>1560 30th Street</deliveryPoint>
+        <deliveryPoint>UCB 450</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80309-0450</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">303-492-2594</phone>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>INSTAAR, University of Colorado</deliveryPoint>
+        <deliveryPoint>1560 30th Street</deliveryPoint>
+        <deliveryPoint>UCB 450</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80309-0450</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">303-492-2594</phone>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Citations:</title>
+            <para>Halfpenny, J.C., O.D. Pollak, and M.W. Heffernan. 1984. Snowpack
+							patterns in the alpine tundra, Niwot Ridge, Front Range, Colorado.
+							Proceedings International Snow Science Workshop: A Merging of Theory
+							and Practice, 24-27 October 1984, Aspen, Colorado, pp 155-160.
+						</para>
+            <para>
+              <ulink url="http://dx.doi.org/10.2307/1312061">Walker, D.A., J.C. Halfpenny, M.D. Walker, and C.A. Wessman. 1993.
+							Long-term studies of snow-vegetation interactions. BioScience 43:
+							287-301. DOI: 10.2307/1312061</ulink>
+            </para>
+          </section>
+          <section>
+            <title>Methods:</title>
+            <para>A thorough description of the methodology used to obtain these data is
+							contained in Halfpenny and Pollack (1983). The data were provided by Jim
+							Halfpenny in July 1993 as ASCII files (*.prn) that had been saved from
+							1-2-3 spreadsheet files. These files are archived in
+							/data1/Datman/Halfcent/Sadsnow/Archive. The format of these files
+							differs from that presented in the data section below. Scripts were
+							written to generate a format more consistent with the file containing
+							later snow surveys
+							(http://niwot.colorado.edu/data_csvs/saddsnow.dw.data.csv).</para>
+            <para> No changes
+							were made to actual snow depth values. </para>
+            <para>The initial iteration of this
+							file contained only data for 1982 to 1986. Data for 1987 and 1988 had
+							not been provided by JH and the data for 1989 to 1991 were not
+							sufficiently reduced for inclusion. Notes included in the files that
+							were the sources of the data were:</para>
+            <para> snodep82.prn ("Snow survey at Saddle,
+							Spring and Summer 1982 (compiled by LB and NA 12/88 from DR-83/9)");</para>
+            <para>
+							snodep83.prn ("Snow survey at Saddle, Winter 1982-83, Spring and Summer
+							1983 (compiled by LB 12/88 from DR-83/9)"); </para>
+            <para>snodep84.prn ("Snow survey
+							at Saddle, Winter 1983-84, Spring and Summer 1984 (compiled by NA 12/88
+							from summary snow survey sheet) **(data on 6/1 differs from survey
+							table, data on 6/11 had numerous "239" values which I left as blank)");</para>
+            <para>
+							snodep85.prn ("Snow survey at Saddle, Winter 1984-85, Spring and Summer
+							1985 compiled 01/06/89 from snow survey tables of Taylor zeroes and no
+							data points are as appear on tables. Some data differ from raw data e.g.
+							05/31 #s 54, 55, 56"); </para>
+            <para>snodep86.prn ("Snow survey at Saddle, Winter
+							1985-86, Summer 1986 (compiled 12/88 by NA and LB from raw data (1st
+							three) and Spencer's data sheets) No surveys 1/86 - 5/86 due to buried
+							poles");</para>
+            <para> snodep89.prn (Snow survey at Saddle, Winter 1988-89, Summer
+							1989); snodep90.prn (Snow Survey at Saddle, Spring 1990).</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable scope="document">
+      <entityName>saddsnow.jh.data.csv</entityName>
+      <entityDescription>Snow depth data for saddle grid, 1982 - 1990. Variables are snow depth.</entityDescription>
+      <physical scope="document">
+        <objectName>saddsnow.jh.data.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/42/7/77535e6dd879cb2967db458027d6922c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute scope="document">
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1982-04-03</minimum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>saddle grid stake number</attributeName>
+          <attributeLabel>saddle grid stake number</attributeLabel>
+          <attributeDefinition>Saddle grid numbers are 1-88 and then addons 80A, 81A, etc
+						or sometimes 801, 802, etc.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>point identification number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>snow depth</attributeName>
+          <attributeLabel>snow depth</attributeLabel>
+          <attributeDefinition>snow depth</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</ns0:eml>

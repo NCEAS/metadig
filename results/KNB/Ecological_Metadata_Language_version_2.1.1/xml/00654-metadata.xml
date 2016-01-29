@@ -1,0 +1,85 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.359.2" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=Machac,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Stem data 450-908HE</title>
+ <creator scope="document"> <organizationName>NCEAS</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Jim</givenName>
+ <surName>Regetz</surName>
+ </individualName>
+ <organizationName>NCEAS</organizationName>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Antonin</givenName>
+ <surName>Machac</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Jim</givenName>
+ <surName>Regetz</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <pubDate>2013-06-21</pubDate>
+ <abstract> <para>Stem data for plants from plots in california, GPS XXX-YYY</para>
+ </abstract>
+ <keywordSet> <keyword>stem, plant</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>Obtain permission from data set owner(s)</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2009-02-18</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2010-02-17</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>California</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>0.0000</westBoundingCoordinate>
+ <eastBoundingCoordinate>0.0000</eastBoundingCoordinate>
+ <northBoundingCoordinate>0.0000</northBoundingCoordinate>
+ <southBoundingCoordinate>0.0000</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Antonin</givenName>
+ <surName>Machac</surName>
+ </individualName>
+ </contact>
+ <otherEntity id="02d4ee2d352b980dd4ba43876fe68a58a977d841001" scope="document"> <entityName>stem.csv</entityName>
+ <physical scope="document"> <objectName>stem.csv</objectName>
+ <size>383</size>
+ <authentication method="SHA1">02d4ee2d352b980dd4ba43876fe68a58a977d841</authentication>
+ <dataFormat> <externallyDefinedFormat> <formatName>text/csv</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="02d4ee2d352b980dd4ba43876fe68a58a977d841002" scope="document"> <online> <url function="download">ecogrid://knb/knb.358.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"> <allow> <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=Machac,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

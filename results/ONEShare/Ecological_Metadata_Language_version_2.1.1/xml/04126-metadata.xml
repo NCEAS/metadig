@@ -1,0 +1,397 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="UC3/CDL" system="DataUp" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <dataset>
+    <title>Eurytemora affinis 2008 Experiments</title>
+    <creator>
+      <individualName>
+        <givenName>Carly</givenName>
+        <surName>Strasser</surName>
+      </individualName>
+      <organizationName>California Digital Library</organizationName>
+      <address>
+        <deliveryPoint>415 20th St</deliveryPoint>
+        <city>Oakland</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>94612</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>8510-987-0179</phone>
+      <electronicMailAddress>carly.strasser@ucop.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2012-12-14</pubDate>
+    <abstract>Experiments to determine population growth rate</abstract>
+    <keywordSet>
+      <keyword>Eurytemora affinis</keyword>
+    </keywordSet>
+    <intellectualRights>Creative Commons Zero License</intellectualRights>
+    <distribution>
+      <online>
+        <url>No url for data provided</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Strait of Georgia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>0</westBoundingCoordinate>
+          <eastBoundingCoordinate>0</eastBoundingCoordinate>
+          <northBoundingCoordinate>0</northBoundingCoordinate>
+          <southBoundingCoordinate>0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage id="tempcov">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-09-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2008-12-10</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Carly</givenName>
+        <surName>Strasser</surName>
+      </individualName>
+      <organizationName>California Digital Library</organizationName>
+      <address>
+        <deliveryPoint>415 20th St</deliveryPoint>
+        <city>Oakland</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>94612</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>510-987-0179</phone>
+      <electronicMailAddress>carly.strasser@ucop.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>No publisher name provided</organizationName>
+    </publisher>
+    <project>
+      <title>No project title provided</title>
+      <personnel>
+        <individualName>
+          <surName>No project personnel surname provided</surName>
+        </individualName>
+        <organizationName>No project organization name provided</organizationName>
+        <role>No project personnel role provided</role>
+      </personnel>
+      <abstract>
+        <para>No project abstract provided</para>
+      </abstract>
+      <funding>Canadian Aquatic Invasive Species Network</funding>
+    </project>
+    <dataTable>
+      <entityName>Eaffinis_2008experiments - Eaffinis_2008experiments</entityName>
+      <entityDescription>2008 Experiments on E. affinis</entityDescription>
+      <attributeList>
+        <attribute>
+          <attributeName>Salinity</attributeName>
+          <attributeDefinition>Salinity of treatment water. 4 8 or 12 PSU</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temperature</attributeName>
+          <attributeDefinition>Temperature of treatment water. 5 10 or 15 C</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TreatNum</attributeName>
+          <attributeDefinition>Number of treatment. There were 9 treatments total (3 salinities crossed with 3 temps)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Replicate</attributeName>
+          <attributeDefinition>Replicate number for this treatment. Each treatment had 3 replicates.</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TimeStep</attributeName>
+          <attributeDefinition>Time step at which the population estimate was made. Each time step represents approximately 48 hours</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N1</attributeName>
+          <attributeDefinition>roportion of individuals sampled who were in the naupliar 1 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N2</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the naupliar 2 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N3</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the naupliar 3 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N4</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the naupliar 4 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N5</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the naupliar 5 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N6</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the naupliar 6 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C1</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the copepodite 1 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C2</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the copepodite 2 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C3</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the copepodite 3 stage</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C4F</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the copepodite 4 stage and were female</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C4M</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the copepodite 4 stage and were male</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C5F</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the copepodite 5 stage and were female</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C5M</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the copepodite 5 stage and were male</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AF</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the adult stage and were female</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AFE</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the adult stage and were female</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AM</attributeName>
+          <attributeDefinition>Proportion of individuals sampled who were in the adult stage and were male</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <describes>tempcov</describes>
+    <metadata>
+      <description>No description of temporal coverage provided</description>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <formattedCitation>Strasser, Carly (2012) : Eurytemora affinis 2008 Experiments. Version 1.0. Strasser, Carly. ark:/90135/q13j39xf</formattedCitation>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

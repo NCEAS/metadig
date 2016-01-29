@@ -1,0 +1,1489 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="nceas.963.20" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=mintaschaefer,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>POD!_National Pollution Discharge Elimination System_Delta Discharge_1998-2007</title>
+ <creator scope="document"> <organizationName>NCEAS 12198: Fleishman: Potential role of contaminants in declines of pelagic organisms in the Upper San Francisco Estuary, California</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Michael</givenName>
+ <surName>Johnson</surName>
+ </individualName>
+ <organizationName>University of California, Davis</organizationName>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Michael</givenName>
+ <surName>Johnson</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Michael</givenName>
+ <surName>Johnson</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <pubDate>2010-04-23</pubDate>
+ <abstract><para>General water quality and toxicity data collected from 1998 to 2007 for compliance with National Pollution Discharge Elimination System (NPDES) permits by the following wastewater treatment plants:
+
+Brentwood Wastewater Treatment Plant;
+Discovery Bay Wastewater Treatment Plant;
+Manteca Wastewater Treatment Plant;
+Merced Wastewater Treatment Plant;
+Modesto Wastewater Treatment Plant;
+Mountain House Wastewater Treatment Plant;
+Rio Vista Beach Wastewater Treatment Plant;
+Sacramento Regional Wastewater Treatment Plant;
+Stockton Wastewater Treatment Plant;
+Tracy Wastewater Treatment Plant;
+Turlock Wastewater Treatment Plant;
+White Slough Water Pollution Control Plant (City of Lodi);
+Vacaville Wastewater Treatment Plant.
+
+Note: These data were transcribed from Excel and pdf files for formatting purposes and are presented as provided by the wastewater treatment plants.</para>
+ </abstract>
+ <keywordSet><keyword>National Pollution Discharge Elimination System</keyword>
+ <keyword>NPDES</keyword>
+ <keyword>water quality</keyword>
+ <keyword>toxicity</keyword>
+ <keyword>pH</keyword>
+ <keyword>dissolved oxygen</keyword>
+ <keyword>ammonia</keyword>
+ <keyword>unionized ammonia</keyword>
+ <keyword>chloride</keyword>
+ <keyword>water temperature</keyword>
+ <keyword>turbidity</keyword>
+ <keyword>electrical conductivity</keyword>
+ <keyword>Pimephales promelas</keyword>
+ <keyword>Fathead minnow</keyword>
+ <keyword>Ceriodaphnia dubia</keyword>
+ <keyword>Selenastrum capricornutum</keyword>
+ </keywordSet>
+ <keywordSet><keyword>acute bioassay</keyword>
+ <keyword>chronic bioassay</keyword>
+ <keyword>total dissolved solids</keyword>
+ <keyword>TDS</keyword>
+ <keyword>hardness</keyword>
+ <keyword>coliform</keyword>
+ <keyword>mercury</keyword>
+ <keyword>biochemical oxygen demand</keyword>
+ <keyword>BOD</keyword>
+ <keyword>total suspended solids</keyword>
+ <keyword>TSS</keyword>
+ <keyword>salinity</keyword>
+ <keyword>EPA Priority Pollutants</keyword>
+ <keyword>EPA Toxic Pollutants</keyword>
+ </keywordSet>
+ <keywordSet><keyword>chronic toxicity</keyword>
+ <keyword>acute toxicity</keyword>
+ </keywordSet>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage><rangeOfDates><beginDate><calendarDate>1998</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2007</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>Wastewater treatment plants that discharge into the Sacramento-San Joaquin Delta. Coordinates for monitoring stations provided in a separate file in list of files for download.</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>1.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>1.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>1.0</northBoundingCoordinate>
+ <southBoundingCoordinate>1.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Michael</givenName>
+ <surName>Johnson</surName>
+ </individualName>
+ </contact>
+ <dataTable id="1276547559249"><entityName>Brentwood Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Brentwood.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.9.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276547559264"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276547559280"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276547559296"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276547559311"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276547559327"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276547843631"><entityName>Discovery Bay Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_DiscoBay.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.10.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276547843647"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276547843662"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276547843678"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276547843693"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276547843709"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276548290388"><entityName>Lodi Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Lodi.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.12.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276548290404"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548290419"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548290435"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548290450"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548290466"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276548548492"><entityName>Manteca Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Manteca.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.13.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276548548508"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548548523"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548548539"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548548555"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548548570"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276548780942"><entityName>Merced Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Merced.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.14.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276548780957"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548780973"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548780989"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548781004"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276548781020"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276549144641"><entityName>Modesto Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Modesto.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.15.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276549144657"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549144672"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549144688"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549144703"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549144719"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276549338391"><entityName>Mountain House Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_MtnHouse.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.16.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276549338406"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549338422"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549338437"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549338453"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549338469"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276549869297"><entityName>Rio Vista Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_RioVista.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.17.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276549869312"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549869328"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549869343"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549869359"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276549869375"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276550032077"><entityName>Sacramento Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Sacramento.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.18.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276550032092"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550032108"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550032124"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550032139"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550032155"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276550183051"><entityName>Stockton Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Stockton.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.19.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276550183067"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550183083"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550183099"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550183115"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550183131"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276550501487"><entityName>Turlock Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Turlock.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.21.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276550501503"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550501519"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550501535"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550501551"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550501567"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276550670050"><entityName>Vacaville Water Quality Data</entityName>
+ <physical><objectName>WQ_Data_Vacaville.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.22.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276550670065"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550670081"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550670097"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Analyte</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analyte</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550670112"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276550670128"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276551397097"><entityName>Brentwood Toxicity Data</entityName>
+ <physical><objectName>Tox_Data_Brentwood.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.23.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276551397113"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551397128"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551397144"><attributeName>Method</attributeName>
+ <attributeDefinition>Method</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551397160"><attributeName>Analysis Type</attributeName>
+ <attributeDefinition>Analysis Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analysis Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551397175"><attributeName>Species</attributeName>
+ <attributeDefinition>Species used in toxicity test</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551397191"><attributeName>Endpoint</attributeName>
+ <attributeDefinition>Endpoint - Specific adverse effect analyzed in toxicity test.
+NOEC or NOAEC - No Observed Effect Concentration or No Observed Adverse Effect Concentration - Highest concentration that did not cause adverse effect statistically different from the control.
+LOEC or LOAEC - Lowest Observed Effect Concentration or Lowest Observed Adverse Effect Concentration - Lowest concentration that caused an effect statistically different from the control
+LC50 - Lethal concentration killing 50 percent of exposed organisms at specific time interval.
+IC25, IC50 - Inhibition concentration - statistically derived concentration that would cause a 25 or 50 percent reduction in a biological measurement such as fecundity or growth.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Endpoint</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551397206"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551397222"><attributeName>Toxicity Units</attributeName>
+ <attributeDefinition>A mathematical conversion of an NOEC, IC25, IC50, LC25, or LC50 into a relatable value. TU = 100/NOEC.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Toxicity Units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276551630663"><entityName>Discovery Bay Toxicity Data</entityName>
+ <physical><objectName>Tox_Data_DiscoBay.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.24.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276551630678"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551630694"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551630710"><attributeName>Method</attributeName>
+ <attributeDefinition>Method</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551630725"><attributeName>Analysis Type</attributeName>
+ <attributeDefinition>Analysis Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analysis Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551630741"><attributeName>Species</attributeName>
+ <attributeDefinition>Species used in toxicity test</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551630757"><attributeName>Endpoint</attributeName>
+ <attributeDefinition>Endpoint - Specific adverse effect analyzed in toxicity test.
+NOEC or NOAEC - No Observed Effect Concentration or No Observed Adverse Effect Concentration - Highest concentration that did not cause adverse effect statistically different from the control.
+LOEC or LOAEC - Lowest Observed Effect Concentration or Lowest Observed Adverse Effect Concentration - Lowest concentration that caused an effect statistically different from the control
+LC50 - Lethal concentration killing 50 percent of exposed organisms at specific time interval.
+IC25, IC50 - Inhibition concentration - statistically derived concentration that would cause a 25 or 50 percent reduction in a biological measurement such as fecundity or growth.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Endpoint</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551630772"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276551630788"><attributeName>Toxicity Units</attributeName>
+ <attributeDefinition>A mathematical conversion of an NOEC, IC25, IC50, LC25, or LC50 into a relatable value. TU = 100/NOEC.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Toxicity Units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276552836098"><entityName>Merced Toxicity Data</entityName>
+ <physical><objectName>Tox_Data_Merced.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.25.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276552836114"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276552836129"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276552836145"><attributeName>Method</attributeName>
+ <attributeDefinition>Method</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276552836161"><attributeName>Analysis Type</attributeName>
+ <attributeDefinition>Analysis Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analysis Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276552836176"><attributeName>Species</attributeName>
+ <attributeDefinition>Species used in toxicity test</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276552836192"><attributeName>Endpoint</attributeName>
+ <attributeDefinition>Endpoint - Specific adverse effect analyzed in toxicity test.
+NOEC or NOAEC - No Observed Effect Concentration or No Observed Adverse Effect Concentration - Highest concentration that did not cause adverse effect statistically different from the control.
+LOEC or LOAEC - Lowest Observed Effect Concentration or Lowest Observed Adverse Effect Concentration - Lowest concentration that caused an effect statistically different from the control
+LC50 - Lethal concentration killing 50 percent of exposed organisms at specific time interval.
+IC25, IC50 - Inhibition concentration - statistically derived concentration that would cause a 25 or 50 percent reduction in a biological measurement such as fecundity or growth.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Endpoint</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276552836207"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276552836223"><attributeName>Toxicity Units</attributeName>
+ <attributeDefinition>A mathematical conversion of an NOEC, IC25, IC50, LC25, or LC50 into a relatable value. TU = 100/NOEC.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Toxicity Units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276553694535"><entityName>Modesto Toxicity Data</entityName>
+ <physical><objectName>Tox_Data_Modesto.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.26.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276553694551"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553694567"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553694582"><attributeName>Method</attributeName>
+ <attributeDefinition>Method</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553694598"><attributeName>Analysis Type</attributeName>
+ <attributeDefinition>Analysis Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analysis Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553694613"><attributeName>Species</attributeName>
+ <attributeDefinition>Species used in toxicity test</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553694629"><attributeName>Endpoint</attributeName>
+ <attributeDefinition>Endpoint - Specific adverse effect analyzed in toxicity test.
+NOEC or NOAEC - No Observed Effect Concentration or No Observed Adverse Effect Concentration - Highest concentration that did not cause adverse effect statistically different from the control.
+LOEC or LOAEC - Lowest Observed Effect Concentration or Lowest Observed Adverse Effect Concentration - Lowest concentration that caused an effect statistically different from the control
+LC50 - Lethal concentration killing 50 percent of exposed organisms at specific time interval.
+IC25, IC50 - Inhibition concentration - statistically derived concentration that would cause a 25 or 50 percent reduction in a biological measurement such as fecundity or growth.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Endpoint</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553694645"><attributeName>Result</attributeName>
+ <attributeDefinition>Results</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553694660"><attributeName>Toxicity Units</attributeName>
+ <attributeDefinition>A mathematical conversion of an NOEC, IC25, IC50, LC25, or LC50 into a relatable value. TU = 100/NOEC.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Toxicity Units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276553976548"><entityName>Rio Vista Toxicity Data</entityName>
+ <physical><objectName>Tox_Data_RioVista.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.27.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276553976563"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553976579"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553976594"><attributeName>Method</attributeName>
+ <attributeDefinition>Method</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553976610"><attributeName>Analysis Type</attributeName>
+ <attributeDefinition>Analysis Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analysis Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553976626"><attributeName>Species</attributeName>
+ <attributeDefinition>Species used in toxicity test</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553976641"><attributeName>Enpoint</attributeName>
+ <attributeDefinition>Endpoint - Specific adverse effect analyzed in toxicity test.
+NOEC or NOAEC - No Observed Effect Concentration or No Observed Adverse Effect Concentration - Highest concentration that did not cause adverse effect statistically different from the control.
+LOEC or LOAEC - Lowest Observed Effect Concentration or Lowest Observed Adverse Effect Concentration - Lowest concentration that caused an effect statistically different from the control
+LC50 - Lethal concentration killing 50 percent of exposed organisms at specific time interval.
+IC25, IC50 - Inhibition concentration - statistically derived concentration that would cause a 25 or 50 percent reduction in a biological measurement such as fecundity or growth.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Enpoint</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553976657"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276553976673"><attributeName>Toxicity Units</attributeName>
+ <attributeDefinition>A mathematical conversion of an NOEC, IC25, IC50, LC25, or LC50 into a relatable value. TU = 100/NOEC.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Toxicity Units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276554289751"><entityName>Tracy Toxicity Data</entityName>
+ <physical><objectName>Tox_Data_Tracy.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.28.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276554289766"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554289782"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554289798"><attributeName>Method</attributeName>
+ <attributeDefinition>Method</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554289813"><attributeName>Analysis Type</attributeName>
+ <attributeDefinition>Analysis Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analysis Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554289829"><attributeName>Species</attributeName>
+ <attributeDefinition>Species used in toxicity test</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554289845"><attributeName>Endpoint</attributeName>
+ <attributeDefinition>Endpoint - Specific adverse effect analyzed in toxicity test.
+NOEC or NOAEC - No Observed Effect Concentration or No Observed Adverse Effect Concentration - Highest concentration that did not cause adverse effect statistically different from the control.
+LOEC or LOAEC - Lowest Observed Effect Concentration or Lowest Observed Adverse Effect Concentration - Lowest concentration that caused an effect statistically different from the control
+LC50 - Lethal concentration killing 50 percent of exposed organisms at specific time interval.
+IC25, IC50 - Inhibition concentration - statistically derived concentration that would cause a 25 or 50 percent reduction in a biological measurement such as fecundity or growth.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Endpoint</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554289860"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554289876"><attributeName>Toxicity Units</attributeName>
+ <attributeDefinition>A mathematical conversion of an NOEC, IC25, IC50, LC25, or LC50 into a relatable value. TU = 100/NOEC.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Toxicity Units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276554750325"><entityName>Turlock Toxicity Data</entityName>
+ <physical><objectName>Tox_Data_Turlock.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.29.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276554750340"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554750356"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554750372"><attributeName>Method</attributeName>
+ <attributeDefinition>Method</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554750387"><attributeName>Analysis Type</attributeName>
+ <attributeDefinition>Analysis Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analysis Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554750403"><attributeName>Species</attributeName>
+ <attributeDefinition>Species used in toxicity test</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554750419"><attributeName>Endpoint</attributeName>
+ <attributeDefinition>Endpoint - Specific adverse effect analyzed in toxicity test.
+NOEC or NOAEC - No Observed Effect Concentration or No Observed Adverse Effect Concentration - Highest concentration that did not cause adverse effect statistically different from the control.
+LOEC or LOAEC - Lowest Observed Effect Concentration or Lowest Observed Adverse Effect Concentration - Lowest concentration that caused an effect statistically different from the control
+LC50 - Lethal concentration killing 50 percent of exposed organisms at specific time interval.
+IC25, IC50 - Inhibition concentration - statistically derived concentration that would cause a 25 or 50 percent reduction in a biological measurement such as fecundity or growth.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Endpoint</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554750434"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276554750450"><attributeName>Toxicity Units</attributeName>
+ <attributeDefinition>A mathematical conversion of an NOEC, IC25, IC50, LC25, or LC50 into a relatable value. TU = 100/NOEC.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Toxicity Units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276809902519"><entityName>Water Quality Data - All Jurisdictions</entityName>
+ <entityDescription>Water quality data from all data tables in this data package in one table</entityDescription>
+ <physical><objectName>WQ_Data_All.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.30.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276809902534"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276809902550"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276809902566"><attributeName>Analyte</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sample Date</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276809902581"><attributeName>Unit</attributeName>
+ <attributeDefinition>Unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276809902597"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276810513570"><entityName>Toxicity Data - All Jurisdictions</entityName>
+ <entityDescription>All toxicity data from data tables in this data package in one data table</entityDescription>
+ <physical><objectName>Tox_Data_All.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.31.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276810513586"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station Code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276810513601"><attributeName>Sample Date</attributeName>
+ <attributeDefinition>Sample Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276810513617"><attributeName>Method</attributeName>
+ <attributeDefinition>Method</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276810513633"><attributeName>Analysis Type</attributeName>
+ <attributeDefinition>Analysis Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Analysis Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276810513648"><attributeName>Species</attributeName>
+ <attributeDefinition>Species used in toxicity test</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276810513664"><attributeName>Endpoint</attributeName>
+ <attributeDefinition>Endpoint - Specific adverse effect analyzed in toxicity test.
+NOEC or NOAEC - No Observed Effect Concentration or No Observed Adverse Effect Concentration - Highest concentration that did not cause adverse effect statistically different from the control.
+LOEC or LOAEC - Lowest Observed Effect Concentration or Lowest Observed Adverse Effect Concentration - Lowest concentration that caused an effect statistically different from the control
+LC50 - Lethal concentration killing 50 percent of exposed organisms at specific time interval.
+IC25, IC50 - Inhibition concentration - statistically derived concentration that would cause a 25 or 50 percent reduction in a biological measurement such as fecundity or growth.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Endpoint</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276810513680"><attributeName>Result</attributeName>
+ <attributeDefinition>Result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Result</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276810513695"><attributeName>Toxicity Units</attributeName>
+ <attributeDefinition>A mathematical conversion of an NOEC, IC25, IC50, LC25, or LC50 into a relatable value. TU = 100/NOEC.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Toxicity Units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1276816396083"><entityName>Station Location Coordinates</entityName>
+ <physical><objectName>Summary.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mintaschaefer.33.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1276816396098"><attributeName>Agency Name</attributeName>
+ <attributeDefinition>Agency Name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Agency Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276816396114"><attributeName>Facility Name</attributeName>
+ <attributeDefinition>Facility Name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Facility Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276816396129"><attributeName>Receiving Water Body</attributeName>
+ <attributeDefinition>Receiving Water Body</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Receiving Water Body</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276816396145"><attributeName>Station Code</attributeName>
+ <attributeDefinition>Station code without the prefix included in station codes presented in data tables.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276816396161"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Latitude</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276816396176"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Longitude</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276816396192"><attributeName>Location Source</attributeName>
+ <attributeDefinition>Source of the station location coordinates (provided by State Water Resources Control Board)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location Source</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1276816396208"><attributeName>NPDES Permit Number</attributeName>
+ <attributeDefinition>NPDES Permit Number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>NPDES Permit Number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,116 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.97.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier system="USGS - CERC">PLS10-006_4/28/2010</alternateIdentifier>
+<title>Pallid Sturgeon Migration Pathway, PLS10-006_4/28/2010</title>
+<creator>
+<organizationName>USGS - CERC</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Brandon</givenName>
+<surName>McElroy</surName>
+</individualName>
+<organizationName>US Geological Survey, Columbia Environmental Research Center</organizationName>
+<electronicMailAddress>bmcelroy@uwyo.edu</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Brandon</givenName>
+<surName>McElroy</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Brandon</givenName>
+<surName>McElroy</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Robb</givenName>
+<surName>Jacobson</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2011-09-12</pubDate>
+<abstract>
+<para>Fishes that swim upstream in rivers to spawn must navigate complex fluvial velocity fields to arrive at their ultimate locations.  One hypothesis with substantial implications is that fish traverse pathways that minimize their energetic expenditure during migration.  Herein we present the methodological and theoretical developments necessary to test this and similar hypotheses.   First, a cost-function is derived for upstream migration which relates work done by a fish to swimming drag.  The energetic cost scales with the cube of a fish's relative velocity integrated along its path.  By normalizing to the energetic requirements of holding a position in the slowest waters at the path&#226;&#128;&#153;s origin, a cost function is derived that depends only on the physical environment and not on specifics of individual fish.  Then, as an example we demonstrate the analysis of a migration pathway of a telemetrically tracked pallid sturgeon (Scaphirhynchus albus) in the Missouri River.  The actual pathway cost is lower than 10^5 random paths through the surveyed reach and is consistent with the optimization hypothesis.  The implication &#226;&#128;&#147; subject to more extensive validation &#226;&#128;&#147; is that reproductive success in managed rivers could be increased through manipulation of reservoir releases or channel morphology to increase abundance of lower-cost migration pathways.</para>
+</abstract>
+<keywordSet>
+<keyword>Migration</keyword>
+<keyword>Energetics</keyword>
+<keyword>Spawning</keyword>
+<keyword>Pallid sturgeon</keyword>
+<keyword>Missouri River</keyword>
+<keyword>Least-Cost</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2010-04-28</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2010-04-28</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Missouri River @ USACE River Mile 199, between Boonville, MO and confluence of Lamine River with Missouri River</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-92.7908</westBoundingCoordinate>
+<eastBoundingCoordinate>-92.7908</eastBoundingCoordinate>
+<northBoundingCoordinate>38.9722</northBoundingCoordinate>
+<southBoundingCoordinate>38.9722</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Scaphirhynchus albus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Brandon</givenName>
+<surName>McElroy</surName>
+</individualName>
+<electronicMailAddress>bmcelroy@uwyo.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Coupled acoustic telemetry and acoustic Doppler surveying</title>
+<para>Methods developed &amp; described in ESA publication, McElroy, DeLonay &amp; Jacobson,  Optimum swimming pathways of fish spawning migrations in rivers, Ecology.</para>
+</section></description></methodStep>
+</methods>
+</dataset></ns0:eml>

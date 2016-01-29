@@ -1,0 +1,505 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35b.273.6" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset> <title>Age-Sex-Length-Weight data for pacific herring in Prince William Sound, Alaska (1973-2014)</title>
+<creator id="1427914417204"><individualName><givenName>Steve</givenName>
+<surName>Moffitt</surName>
+</individualName>
+<organizationName>Alaska Department of Fish and Game</organizationName>
+<positionName>Fishery Biologist</positionName>
+<address><deliveryPoint>PO Box 669</deliveryPoint>
+<city>Cordova</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99574-0669</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">907-424-3212</phone>
+<electronicMailAddress>steve.moffitt@alaska.gov</electronicMailAddress>
+</creator>
+<creator id="1427914185683"><individualName><givenName>Richard</givenName>
+<surName>Brenner</surName>
+</individualName>
+<organizationName>Alaska Department of Fish and Game</organizationName>
+<positionName>Fishery Biologist</positionName>
+<address><deliveryPoint>PO Box 115526</deliveryPoint>
+<city>Juneau</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99811-5526</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">(907)465-6154</phone>
+<electronicMailAddress>richard.brenner@alaska.gov</electronicMailAddress>
+</creator>
+<associatedParty id="1428687769296"><individualName><givenName>Jessica</givenName>
+ <surName>Couture</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Research Assistant</positionName>
+ <address><deliveryPoint>735 State St., Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <electronicMailAddress>couture@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+<abstract><para>Data below include pacific herring age-sex-weight-length (ASWL) data and scale growth data from fishery independent sampling in Prince William Sound, Alaska. Original data are reported in the attached xlsm file, with multiple worksheets. ASWL and scale growth data have been isolated and posted here in individual tables (pwsHerrAWSL.csv, pwsHerrSclGrth.csv) based on the included R script (pwsHerrASWL.R)
+
+Herring biomass assessment data, note that pounds, short tons and metric tons are all used depending upon the agency and type of assessment, etc. "Pound" fishery does not refer to the unit of weight, rather a "pound" is where herring are placed such that they will deposit eggs on fronds of kelp, which will then be sold.</para>
+</abstract>
+     <keywordSet><keyword>pacific herring</keyword>
+ <keyword>Clupea pallasii</keyword>
+ <keyword>Prince William Sound</keyword>
+ <keyword>Alaska</keyword>
+ <keyword>age</keyword>
+ <keyword>sex</keyword>
+ <keyword>length</keyword>
+ <keyword>weight</keyword>
+ <keyword>biomass</keyword>
+ </keywordSet>
+ <intellectualRights><para>These data belong to the Alaska Department of Fish and Game (ADF&amp;G) . Any use should be properly attributed to ADF&amp;G and the listed data owners. Contacts should be notified of data use so that changes in data can be properly tracked and provided when necessary.
+
+ADF&amp;G retains intellectual property rights to data collected by or for ADF&amp;G. Any dissemination of the data must credit ADF&amp;G as the source, with a disclaimer that exonerates the department for errors or deficiencies in reproduction, subsequent analysis, or interpretation.
+
+Original data (PWS_Herring_Age_Sex_Length_Weight_1973-2014.xlsm) was produced by ADF&amp;G, all other versions have been manipulated or assessed by outside parties.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Prince William Sound, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-152.62762</westBoundingCoordinate>
+ <eastBoundingCoordinate>-145.99754</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.12401</northBoundingCoordinate>
+ <southBoundingCoordinate>58.50127</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1973</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2014</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Clupea</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>pallasii</taxonRankValue>
+ <commonName>pacific herring</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+<contact><references>1427914185683</references>
+ </contact>
+  <methods><methodStep><description><section><title>Data/Sample Collection</title>
+ <para>Age, weight, length and sex (AWLS) information were collected from commercial sac roe, spawn-on-kelp,and food-and-bait fisheries and during ADF&amp;G research trips throughout Prince William Sound (PWS). Ideally, during each fishing period, samples from the harvest of a minimum of five vessels were collected. Purse seine vessels and tender vessels brought their harvests into the processors in Cordova; samples were dip-netted from the hold of the boats or were collected from the processor as they were pumped into the processing plant. Samples were collected from the major sightings for spawning herring by vessels chartered by the Alaska Department of Fish and Game (ADF&amp;G). Purse seines, cast nets and variable mesh gillnets were used by ADF&amp;G to collect herring from the major sightings of spawn biomass. For purse seine collections, samples were dip-netted from the seine net catches.</para>
+ <para>All samples collected during the spawning migration were placed in polyethylene bags and clearly labeled. The samples were picked up daily, or as weather permitted, by aerial survey plane or by a chartered float plane. All samples were delivered to the department's laboratory in Cordova, placed in fish totes, chilled with ice or frozen, and logged in a sampling notebook.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Lab Methods</title>
+ <para>In the lab, herring were randomly sampled from the fish totes. Ten herring were placed on a sampling tray at one time. From each herring sampled, the weight was measured to the nearest 0.01g using an electronic scale, the standard length (tip of snout to the end of the hyperal plate) was measured to the nearest millimeter using calipers, sex was determined from inspection of the gonads, and one readable scale was removed from the preferred area (ie. the area between the left pectoral fin and the lateral line approximately 3-4 scales posterior to the fin origin).</para>
+ <para>Each scale was cleaned and checked for regeneration. If the scale was regenerated or unreadable, the process was repeated until one readable scale was found for each fish sampled. The individual scaled from the ten fish were mounted on a labeled glass slide (25x75x1mm) by dipping the readable scale into mucilage glue solution (1:10 solution of mucilage glue and water) and placing on the glass slide. Labels for the glass slides included year, fishery, location, sample number, gear type, dates, and slide number. Each scale was pressed firmly against the slide with a paper towel after mounting the remove excess glue. After all ten scaled had been mounted on a slide, a second glass slide was placed on top of the first and the two slides were taped together with cellophane tape. The completed scale mounts were stored in a slide box for subsequent age estimation and permanent storage.</para>
+ <para>Age of each herring sampled was estimated from the mounted scales by a committee of two to three persons. Scale images were projected on a micofiche reader (50x) and each person estimated the age from each scale independently. If there were differences between the estimated age, then the differences were discussed and the age was estimated by mutual consensus.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <otherEntity><entityName>PWS_Herring_Age_Sex_Length_Weight_1973-2014.xlsm zip file</entityName>
+ <entityDescription>Prince William Sound herring age, sex length and weight data from 1973-2014 in compressed macros excel file (xlsm)</entityDescription>
+ <physical><objectName>PWS_Herring_Age_Sex_Length_Weight_1973-2014.xlsm.zip</objectName>
+ <size unit="byte">32930145</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.281.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <dataTable id="1428365339093"><entityName>pwsHerrSclGrth.csv</entityName>
+ <entityDescription>Prince William Sound herring scale growth data, includes age and sex data</entityDescription>
+ <physical id="1428364195926"><objectName>pwsHerrSclGrth.csv</objectName>
+ <size unit="byte">1068775</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.249.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1428365339094"><attributeName>Image_Name</attributeName>
+ <attributeDefinition>Image name corresponds to images of the scales stored in a separate database. Contact data owner for access.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>img name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339095"><attributeName>Date_Measured</attributeName>
+ <attributeDefinition>Date archived samples were scanned</attributeDefinition>
+ <measurementScale><dateTime><formatString>Mon DD YYY hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339096"><attributeName>Measured_initials</attributeName>
+ <attributeDefinition>Initials of the individual that measured the sample</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>rca</code>
+ <definition>Ronald C. Andersen</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339097"><attributeName>Comments</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339098"><attributeName>S1</attributeName>
+ <attributeDefinition>Length from the focus of the scale to the end of the age-1 annulus in millimeters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339099"><attributeName>S2</attributeName>
+ <attributeDefinition>Length from end of age-1 annulus to the end of the age-2 annulus in millimeters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339100"><attributeName>S3</attributeName>
+ <attributeDefinition>Length from end of age-2 annulus to the end of the age-3 annulus in millimeters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339101"><attributeName>S4</attributeName>
+ <attributeDefinition>Length from end of age-3 annulus to the end of the age-4 annulus in millimeters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339102"><attributeName>S5</attributeName>
+ <attributeDefinition>Length from end of age-4 annulus to the end of the age-5 annulus in millimeters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339103"><attributeName>S6</attributeName>
+ <attributeDefinition>Length from end of age-5 annulus to the end of the age-6 annulus in millimeters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339104"><attributeName>Year</attributeName>
+ <attributeDefinition>Year sample was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339105"><attributeName>Age</attributeName>
+ <attributeDefinition>Age of specimen as determined by scale annuli</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339106"><attributeName>Sex.</attributeName>
+ <attributeDefinition>Sex of specimen based on gonad observations</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>F</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition><code>M</code>
+ <definition>male</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339107"><attributeName>SG_Year1</attributeName>
+ <attributeDefinition>Calendar year for which S1 growth occured</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339108"><attributeName>SG_Year2</attributeName>
+ <attributeDefinition>Calendar year for which S2 growth occured</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339109"><attributeName>SG_Year3</attributeName>
+ <attributeDefinition>Calendar year for which S3 growth occured</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339110"><attributeName>SG_Year4</attributeName>
+ <attributeDefinition>Calendar year for which S4 growth occured</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339111"><attributeName>SG_Year5</attributeName>
+ <attributeDefinition>Calendar year for which S5 growth occured</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339112"><attributeName>SG_Year6</attributeName>
+ <attributeDefinition>Calendar year for which S6 growth occured</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339113"><attributeName>FileName</attributeName>
+ <attributeDefinition>File name follows ADFG naming conventions: Fishery, gear, age, sex, location codes, file naming conversions, and sample size requirements used for Herring AWL sampling in PWS: 
+year(YY)log no.(##) Fishery(F)Gear(G)Location(LL)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>fileName</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339114"><attributeName>Samples.Table.FileName</attributeName>
+ <attributeDefinition>Defines any discrepancies between this sheet and samples table (not included here)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>file name change</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339115"><attributeName>Year_Measured</attributeName>
+ <attributeDefinition>Year samples were measured</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339116"><attributeName>Collection.Date</attributeName>
+ <attributeDefinition>Date fish was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339117"><attributeName>Collection.Location</attributeName>
+ <attributeDefinition>General location sample was collected</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>sites</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428365339118"><attributeName>Salmon.District</attributeName>
+ <attributeDefinition>ADFG salmon district where sample was collected</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>salmon district</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5068</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>pwsHerrASLW.R</entityName>
+ <entityDescription>R script used to format data from original xlsm file to csv</entityDescription>
+ <physical><objectName>pwsHerrASLW.R</objectName>
+ <size unit="byte">1042</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.250.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <dataTable id="1434564691033"><entityName>pwsHerrASWL.csv</entityName>
+ <entityDescription>All herring age, sex, length, weight data collected by ADFG 1973-2014</entityDescription>
+ <physical id="1434563880369"><objectName>pwsHerrASWL.csv</objectName>
+ <size unit="byte">18508292</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.276.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1434564691034"><attributeName>ObsNum2</attributeName>
+ <attributeDefinition>Observation number</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><textDomain><definition>obsNum</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691035"><attributeName>SDATE</attributeName>
+ <attributeDefinition>sample date</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691036"><attributeName>Year</attributeName>
+ <attributeDefinition>sample year</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691037"><attributeName>Month</attributeName>
+ <attributeDefinition>Sample month</attributeDefinition>
+ <measurementScale><dateTime><formatString>M</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691038"><attributeName>SAMPLE_ID</attributeName>
+ <attributeDefinition>sample identifier: year sample# (YYYY###)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>YYYY###</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691039"><attributeName>FILENAME</attributeName>
+ <attributeDefinition>name of local file</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>file name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691040"><attributeName>SLIDE</attributeName>
+ <attributeDefinition>slide</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>slide</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691041"><attributeName>FISH</attributeName>
+ <attributeDefinition>fish number for given sample/pull</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691042"><attributeName>SEX</attributeName>
+ <attributeDefinition>gender of sample (1= F, 2=M) --&gt; guess</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>male</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691043"><attributeName>GonadWt</attributeName>
+ <attributeDefinition>Gonad weight (kg)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milligram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>no data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1434564691044"><attributeName>LENGTH</attributeName>
+ <attributeDefinition>Lenght of sampled fish in mm</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691045"><attributeName>WEIGHT</attributeName>
+ <attributeDefinition>Weight of sampled fish in grams</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691046"><attributeName>AGE</attributeName>
+ <attributeDefinition>Age of sampled fish in years</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691047"><attributeName>GI.</attributeName>
+ <attributeDefinition>???</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>GI</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691048"><attributeName>Comments</attributeName>
+ <attributeDefinition>Comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1434564691049"><attributeName>IMAGE_NAME</attributeName>
+ <attributeDefinition>Image name, if one was taken</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>imgName</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>226353</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

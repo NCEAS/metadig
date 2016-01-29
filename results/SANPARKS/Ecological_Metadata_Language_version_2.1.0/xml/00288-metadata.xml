@@ -1,0 +1,1102 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.110002.9" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Long term Weather data for Table Mountain National Park 1900-2009</title>
+ <creator id="1383118954010" scope="document"> <organizationName>SAWS</organizationName>
+ </creator>
+ <associatedParty scope="document"> <references>1383118961030</references>
+ <role>Collaborator</role>
+ </associatedParty>
+ <associatedParty id="1383119026191" scope="document"> <individualName> <givenName>Peggy</givenName>
+ <surName>Madonsela</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <role>Data Curator</role>
+ </associatedParty>
+ <abstract><para>Weather data for 3 of 5 5 station in the Table Mountain National Park vicinity. Basic data quality checks are in the method section</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Table Mountain National Park, South Africa</keyword>
+ <keyword>Weather, climate, humidity,pressure,rainfall,temperature,wind</keyword>
+ </keywordSet>
+ <intellectualRights> <para>This data belongs to the SAWS and may therefore only be used for reserach purposes. If you would like to use this for any other reason please contact the SAWS directly</para>
+ </intellectualRights>
+ <coverage scope="document"> <temporalCoverage><rangeOfDates><beginDate><calendarDate>1900</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>TableMountainNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>18.307306</westBoundingCoordinate>
+ <eastBoundingCoordinate>18.497789</eastBoundingCoordinate>
+ <northBoundingCoordinate>-33.911796</northBoundingCoordinate>
+ <southBoundingCoordinate>-34.359241</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1383118961030" scope="document"> <individualName> <salutation>Dr</salutation>
+ <givenName>Nicola</givenName>
+ <surName>Van Wilgen</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ </contact>
+<methods><methodStep><description><section><title>Baic data quality chackes for Slangkop</title>
+<para>0004549 2	CAPE TOWN SLANGKOP	Lat:	-34.15	Long:	18.32	Height: 8  m	CurOrder:	ELEC_MANUAL</para>
+<para>Notes</para>
+<para>No march 31 2002 for 14h and 20h in wind, humidity and pressure data -- dates inserted into the time series</para>
+<para>Deleted duplicate record from 2003/11/03, 10, 17, 24 - there were two entries in the wind column at 14h</para>
+<para>Deleted duplicate record from 2003/12/01,08, 15, 22, 29 and 2004/01/05 - there were two entries in the wind column at 14h</para>
+<para>The same 14h duplications were found and deleted from the humidity data</para>
+<para>Duplicate of 2003/10/20 for 14h and 20h and 2003/10/21 for 8h, but no recordings taken. Duplicate entries were deleted (Humidity). Same for 2003/10 27-28</para>
+<para>The same 14h duplications were found and deleted from the pressure data</para>
+<para>Two clear outliers (&lt;10 and 100) deleted from the pressure data in December 2001</para>
+<para>General comments</para>
+<para>Temperature: Data missing for September 2003 (as for other variables from this station), but no other large gaps. Strong cyclical pattern in temperature.</para>
+<para>Rainfall: No large gaps in data, most rainfall in winter.</para>
+<para>Humidity: No data from September 2003 to January 2007 (i.e. four year gap). Humidity fairly constant throughout the day, with gentle annual fluctuation.</para>
+<para>Pressure: There is a strong cyclical pattern in pressure. The data are reasonably consistent with no large gaps.</para>
+<para>Wind: Wind speed fairly constant throughout the day and year. Multiple cases of repeat 14h readings at the end of 2003. Small gap in data in September 2003.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Baisc data quality checks for Cape town Astronomical observatory</title>
+<para>0020866 9	S A ASTRONOMICAL OBSERVATORY	Lat:	-33.94	Long:	18.48	Height: 15  m	CurOrder:	ELEC_TEMP</para>
+<para>Notes</para>
+<para>No data for humidity and wind and pressure data only start in 2009</para>
+<para>General comments</para>
+<para>Temperature: The records are reasonably complete except for many single days with missing data or missing data for either the min/max in the 1970s, 1980s. Dec 1986 - No data, missing data for 2 or so weeks in Dec 1994, April 1994, December 1997. There is a strong annual cyclical pattern in temperatures.</para>
+<para>Rainfall: Good rainfall data for 109 years. Most rain falls in winter, but there are cases of some heavy summer rainfall events as well as intermittent rainfall events at other times of the year. Feb 1988 missing from the series.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Basic data quality checks for  Cape Point</title>
+<para>0004891A3	CAPE POINT AWS	Lat:	-34.35	Long:	18.49	Height: 231  m	CurOrder:	CLOSED</para>
+<para>Notes</para>
+<para>Deleted the first four days of humidity data as these were followed by almost a months gap</para>
+<para>There is a strong discontinuity in the pressure data. There are four missing days in December 2003, whereafter all the readings follow a similar annual pattern to previous years but at a pressure average of 26 less than before</para>
+<para>High rainfall (80.6 mm) recorded on 10 April 2005</para>
+<para>There were no dates in the record for July 1998 - added to the series as missing data</para>
+<para>General comments</para>
+<para>Temperature: Values for July 1998 missing.</para>
+<para>Rainfall: Rainfall seems to be rather variable but falls mostly in winter. June 1998 missing from rainfall record.</para>
+<para>Humidity: August - mid September 1998 missing. August - mid September 2000 also missing. September 2003 - mid November 2004 missing (there are a few values in March). December 2006 missing.</para>
+<para>Pressure: Discontinuity in data - see above.</para>
+<para>Wind: Several gaps of one week to two months throughout both speed and direction records: Jan-mid Feb 1998; week in April 2002, October 2003 Dec/Jan 2004, May 2004, Oct/Nov.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+  <dataTable id="1384424971040"><entityName>Table Moutain (Cape Town Astron Obs)Pressure_2009.txt</entityName>
+ <physical id="1384424862796"><objectName>Table Moutain (Cape Town Astron Obs)Pressure_2009.txt</objectName>
+ <size unit="byte">8733</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110011.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384424971050"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0020866 9</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384424971060"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>S A ASTRONOMICAL OBSERVATORY</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384424971070"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384424971080"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384424971090"><attributeName>Pressure</attributeName>
+ <attributeDefinition>Pressure</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Hecta Pascal</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>134</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384425305858"><entityName>Table Moutain (Cape Town Astron Obs)Rainfall2009.txt</entityName>
+ <physical id="1384425241261"><objectName>Table Moutain (Cape Town Astron Obs)Rainfall2009.txt</objectName>
+ <size unit="byte">2398933</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110012.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384425305868"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0020866 9</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425305878"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>S A ASTRONOMICAL OBSERVATORY</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425305888"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425305898"><attributeName>Rainfall</attributeName>
+ <attributeDefinition>Rainfall</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425305908"><attributeName>Rainfall type</attributeName>
+ <attributeDefinition>Rainfall type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>40107</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384425499992"><entityName>Table Moutain (Cape Town Astron Obs)Temperature2009.txt</entityName>
+ <physical id="1384425433152"><objectName>Table Moutain (Cape Town Astron Obs)Temperature2009.txt</objectName>
+ <size unit="byte">1063890</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110013.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384425500002"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0020866 9</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425500012"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>S A ASTRONOMICAL OBSERVATORY</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425500022"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425500032"><attributeName>Maximum temperature</attributeName>
+ <attributeDefinition>Maximum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425500042"><attributeName>Minimum temperature</attributeName>
+ <attributeDefinition>Minimum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>18119</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384425679926"><entityName>Table Moutain (Cape Town Astron Obs)Wind2009.txt</entityName>
+ <physical id="1384425603502"><objectName>Table Moutain (Cape Town Astron Obs)Wind2009.txt</objectName>
+ <size unit="byte">7793</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110014.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384425679936"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0020866 9</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425679946"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>S A ASTRONOMICAL OBSERVATORY</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425679956"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425679966"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425679976"><attributeName>Wind speed</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384425679986"><attributeName>Wind direction</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>128</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384426018656"><entityName>Table Moutain (Cape Town Slangkop)Humidity2009.txt</entityName>
+ <physical id="1384425949608"><objectName>Table Moutain (Cape Town Slangkop)Humidity2009.txt</objectName>
+ <size unit="byte">709412</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110015.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384426018666"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004549 2</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426018676"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE TOWN SLANGKOP</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426018686"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426018696"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426018706"><attributeName>Humidity in %</attributeName>
+ <attributeDefinition>Humidity in %</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>13893</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384426188574"><entityName>Table Moutain (Cape Town Slangkop)Pressure2009.txt</entityName>
+ <physical id="1384426118487"><objectName>Table Moutain (Cape Town Slangkop)Pressure2009.txt</objectName>
+ <size unit="byte">826928</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110016.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384426188584"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004549 2</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426188594"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE TOWN SLANGKOP</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426188604"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426188614"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426188624"><attributeName>Pressure</attributeName>
+ <attributeDefinition>Pressure</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Hecta Pascal</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>15000</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384426366764"><entityName>Table Moutain (Cape Town SlangkopRainfall2009.txt</entityName>
+ <physical id="1384426299406"><objectName>Table Moutain (Cape Town SlangkopRainfall2009.txt</objectName>
+ <size unit="byte">245450</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110017.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384426366774"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004549 2</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426366784"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE TOWN SLANGKOP</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426366794"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426366804"><attributeName>Rainfall</attributeName>
+ <attributeDefinition>Rainfall</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426366814"><attributeName>Type of rainfall</attributeName>
+ <attributeDefinition>Type of rainfall</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Type of rainfall</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>4961</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384426536563"><entityName>Table Moutain (Cape Town SlangkopTemperature2009.txt</entityName>
+ <physical id="1384426465915"><objectName>Table Moutain (Cape Town SlangkopTemperature2009.txt</objectName>
+ <size unit="byte">242589</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110018.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384426536573"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004549 2</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426536583"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE TOWN SLANGKOP</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426536593"><attributeName>Date</attributeName>
+ <attributeDefinition>DAte</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426536603"><attributeName>Maximum temperature</attributeName>
+ <attributeDefinition>Maximum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426536613"><attributeName>Minimum temperature</attributeName>
+ <attributeDefinition>Minimum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>4979</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384426728946"><entityName>Table Moutain (Cape Town SlangkopWind2009.txt</entityName>
+ <physical id="1384426613592"><objectName>Table Moutain (Cape Town SlangkopWind2009.txt</objectName>
+ <size unit="byte">878948</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110019.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384426728956"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004549 2</code>
+ <definition>Station number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426728966"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE TOWN SLANGKOP</code>
+ <definition>Station name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426728976"><attributeName>Dete</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426728986"><attributeName>Hour</attributeName>
+ <attributeDefinition>Hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426728996"><attributeName>Wind speed</attributeName>
+ <attributeDefinition>Speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384426729006"><attributeName>Wind direction</attributeName>
+ <attributeDefinition>Direction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>14994</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384430027994"><entityName>Table Moutain (Simonstad Kaappunt)Humisity2009.txt</entityName>
+<physical id="1384429923634"><objectName>Table Moutain (Simonstad Kaappunt)Humisity2009.txt</objectName>
+<size unit="byte">532368</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.110020.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384430028004"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004891A3</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430028014"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE POINT AWS</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430028024"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384430028034"><attributeName>Hour</attributeName>
+<attributeDefinition>Hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384430028044"><attributeName>Humidity in %</attributeName>
+<attributeDefinition>Humidity in %</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10784</numberOfRecords>
+</dataTable>
+<dataTable id="1384430210179"><entityName>Table Moutain (Simonstad Kaappunt)Pressure2009.txt</entityName>
+<physical id="1384430129008"><objectName>Table Moutain (Simonstad Kaappunt)Pressure2009.txt</objectName>
+<size unit="byte">553735</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.110021.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384430210189"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004891A3</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430210199"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE POINT AWS</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430210209"><attributeName>Date</attributeName>
+<attributeDefinition>DAte</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384430210219"><attributeName>hour</attributeName>
+<attributeDefinition>hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384430210229"><attributeName>Pressure</attributeName>
+<attributeDefinition>Pressure</attributeDefinition>
+<measurementScale><ratio><unit><customUnit>Hecta Pascal</customUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10857</numberOfRecords>
+</dataTable>
+<dataTable id="1384430394760"><entityName>Table Moutain (Simonstad Kaappunt)Rainfall2009.txt</entityName>
+<physical id="1384430335370"><objectName>Table Moutain (Simonstad Kaappunt)Rainfall2009.txt</objectName>
+<size unit="byte">163597</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.110022.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384430394770"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004891A3</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430394779"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE POINT AWS</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430394789"><attributeName>Dete</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384430394799"><attributeName>Rainfall</attributeName>
+<attributeDefinition>Rainfall</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384430394809"><attributeName>Rainfall type</attributeName>
+<attributeDefinition>Rainfall type</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>3594</numberOfRecords>
+</dataTable>
+<dataTable id="1384430556669"><entityName>Table Moutain (Simonstad Kaappunt)Temperature2009.txt</entityName>
+<physical id="1384430484314"><objectName>Table Moutain (Simonstad Kaappunt)Temperature2009.txt</objectName>
+<size unit="byte">165467</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.110023.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384430556679"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430556689"><attributeName>Station anme</attributeName>
+<attributeDefinition>Station anme</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE POINT AWS</code>
+<definition>Station anme</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430556699"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384430556709"><attributeName>Maximum temperature</attributeName>
+<attributeDefinition>Maximum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384430556719"><attributeName>Minimum temperature</attributeName>
+<attributeDefinition>Minimum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>3648</numberOfRecords>
+</dataTable>
+<dataTable id="1384430728943"><entityName>Table Moutain (Simonstad Kaappunt)wind2009.txt</entityName>
+<physical id="1384430637012"><objectName>Table Moutain (Simonstad Kaappunt)wind2009.txt</objectName>
+<size unit="byte">609077</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.110024.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384430728953"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0004891A3</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430728963"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CAPE POINT AWS</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384430728973"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384430728983"><attributeName>Hour</attributeName>
+<attributeDefinition>Hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384430728993"><attributeName>Wind speed</attributeName>
+<attributeDefinition>Wind speed</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384430729003"><attributeName>Wind direction</attributeName>
+<attributeDefinition>Wind direction</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10857</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="Hecta Pascal" multiplierToSI="100" name="Hecta Pascal" parentSI="pascal" unitType="pressure"> <description>Hecta Pascal</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

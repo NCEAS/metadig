@@ -1,0 +1,735 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35b.19.5" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset> <title>PWSRCAC Long-Term Environmental Monitoring Program, 1993-2009</title>
+<creator id="1360344369267"><individualName><givenName>Joe</givenName>
+ <surName>Banta</surName>
+ </individualName>
+ <organizationName>Prince William Sound Regional Citizens' Advisory Council</organizationName>
+ <positionName>Environmental Monitoring Project Manager</positionName>
+ <address><deliveryPoint>3709 Spenard Rd.</deliveryPoint>
+ <deliveryPoint>Suite 100</deliveryPoint>
+ <city>Anchorage</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99503</postalCode>
+ </address>
+ <phone phonetype="voice">(907) 273-6222</phone>
+ </creator>
+<creator id="1371656759107"><individualName><givenName>Marie L.</givenName>
+ <surName>Larsen</surName>
+ </individualName>
+ <organizationName>Auke Bay Laboratories, NOAA Fisheries</organizationName>
+ <positionName>Research Chemist</positionName>
+ <address><deliveryPoint>Auke Bay Laboratories, Alaska Fisheries Science Center, NOAA Fisheries, Ted Stevens Marine Research Institute</deliveryPoint>
+ <deliveryPoint>17109 poin Lena Loop Rd</deliveryPoint>
+ <city>Juneau</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99801</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-789-6065</phone>
+ <electronicMailAddress>Marine.Larsen@noaa.gov</electronicMailAddress>
+ </creator>
+<creator id="1371655436856"><individualName><salutation>Dr.</salutation>
+ <givenName>James R.</givenName>
+ <surName>Payne</surName>
+ </individualName>
+ <organizationName>Payne Environmental Consultants Inc.</organizationName>
+ <positionName>President</positionName>
+ <address><deliveryPoint>Payne Environmental Consultants Inc.</deliveryPoint>
+ <deliveryPoint>1991 Village Park Way, Suite B</deliveryPoint>
+ <city>Encinitas</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>92024</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">760-942-1015</phone>
+ <electronicMailAddress>jrpayne@sbcglobal.net</electronicMailAddress>
+ </creator>
+<creator id="1371655595052"><individualName><givenName>William B.</givenName>
+ <surName>Driskell</surName>
+ </individualName>
+ <organizationName>Independent Consultant</organizationName>
+ <positionName>Contract Chemist - Payne Environmental Consultants</positionName>
+ <address><deliveryPoint>6536 20th Avenue NE</deliveryPoint>
+ <city>Seattle</city>
+ <administrativeArea>WA</administrativeArea>
+ <postalCode>98115</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">206-522-5930</phone>
+ <electronicMailAddress>bdriskell@comcast.net</electronicMailAddress>
+ </creator>
+<creator id="1380828079889"><individualName><salutation>Dr.</salutation>
+ <givenName>Mark</givenName>
+ <surName>Swanson</surName>
+ </individualName>
+ <organizationName>Prince William Sound Regional Citizens' Advisory Council</organizationName>
+ <positionName>Executive Director</positionName>
+ <address><deliveryPoint>P.O. Box 3089</deliveryPoint>
+ <deliveryPoint>130 S. Meals Ste 202</deliveryPoint>
+ <city>Valdez</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99686</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-835-5926</phone>
+ <electronicMailAddress>mark.swanson@pwsrcac.org</electronicMailAddress>
+ </creator>
+<creator id="1371656537724"><individualName><salutation>Dr.</salutation>
+ <givenName>Jeffrey W.</givenName>
+ <surName>Short</surName>
+ </individualName>
+ <organizationName>Auke Bay Laboratories</organizationName>
+ <positionName>Research Chemist</positionName>
+ <address><deliveryPoint>Auke Bay Laboratories, Alaska Fisheries Science Center, NOAA Fisheries, Ted Stevens Marine Research Institute</deliveryPoint>
+ <deliveryPoint>17109 Point Lena Loop Rd.</deliveryPoint>
+ <city>Juneau</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99801</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-789-6065</phone>
+ <electronicMailAddress>jeff.short@noaa.gov</electronicMailAddress>
+ </creator>
+       <associatedParty id="1371658814952"><individualName><givenName>Jessica</givenName>
+ <surName>Couture</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Research Assistant</positionName>
+ <address><deliveryPoint>National Center for Ecological Analysis and Synthesis, Unversity of California, Santa Barbara</deliveryPoint>
+ <deliveryPoint>735 State St.</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">805-892-2500</phone>
+ <phone phonetype="fax">805-892-2510</phone>
+ <electronicMailAddress>couture@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty id="1360359602654"><individualName><givenName>Joe</givenName>
+ <surName>Banta</surName>
+ </individualName>
+ <organizationName>Prince William Sound Regional Citizens' Advisory Council</organizationName>
+ <positionName>Environmental Monitoring Project Manager</positionName>
+ <address><deliveryPoint>3709 Spenard Rd.</deliveryPoint>
+ <deliveryPoint>Suite 100</deliveryPoint>
+ <city>Anchorage</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99503</postalCode>
+ </address>
+ <phone phonetype="voice">(907) 273-6222</phone>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+ <associatedParty id="1362156921161"><individualName><salutation>Dr.</salutation>
+ <givenName>Mark</givenName>
+ <surName>Swanson</surName>
+ </individualName>
+ <organizationName>Prince William Sound Regional Citizens' Advisory Council</organizationName>
+ <positionName>Executive Director</positionName>
+ <address><deliveryPoint>3709 Spenard Rd.</deliveryPoint>
+ <deliveryPoint>Suite 100</deliveryPoint>
+ <city>Anchorage</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99503</postalCode>
+ </address>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+ <associatedParty id="1360344585848"><individualName><salutation>Dr.</salutation>
+ <givenName>John</givenName>
+ <surName>Devens</surName>
+ </individualName>
+ <organizationName>Prince William Sound Regional Citizens' Advisory Council</organizationName>
+ <positionName>Executive Director (Retired)</positionName>
+ <role>Principal Investigator</role>
+ </associatedParty>
+ <abstract><para>Prince William Sound Regional Citizens Advisory Council (PWSRCAC) Long Term (oil) Monitoring Program data from mussel tissues, intertidal and subtidal sediments from fixed monitoring sites in Prince William Sound, Outer Kenai Coast and Kodiak, Alaska. Since 1993, the council has monitored samples from mussels and sediments at 10 sites in Prince William Sound and the Gulf of Alaska. The samples are monitored for the presence of petroleum hydrocarbons. Samples are collected in summer and late winter and results are presented in an annual report. This information provides a benchmark for assessing the ongoing impacts of routine tanker and terminal operations. The program has sampled twice a year since 1994 for evidence of hydrocarbons in mussel tissue and sediment samples. In recent years, the program was cut back to just mussel tissue at all sites with subtidal sediments only in Port Valdez (site of Alyeska Marine Terminal's tanker operations). For more complete sampling in Port Valdez, mussels are also collected in October. All samples are analyzed for PAH and AHC; sediments are also analzyed for TOC and sediment grain size. Results from PWSRCAC's studies indicate a variety of sources of hydrocarbons in Prince William Sound including the Exxon Valdez spill in 1989, operations at the Alyeska terminal, combustion sources, boating and shipping activities, normal oil seepage or coal deposits, biological processes, and atmospheric fallout. Generally, the hydrocarbon levels detected under LTEMP have been relatively low. The stations farthest from the Alyeska terminal show low hydrocarbon levels, while those closest to the terminal show higher levels. Concern over the hydrocarbon levels at the terminal prompted PWSRCAC to add an additional sampling effort at the two Port Valdez stations in the fall of each year. 
+
+DATA CAN BE ACCESSED ON THE PWSRCAC WEBSITE: http://www.pwsrcac.org/programs/environmental-monitoring/ltemp/
+
+REFERENCES:
+***Folk, Robert L. (1974). Petrology of sedimentary rocks. Austin, Texas : Hemphill Publishing Co. 
+***Kinnetic Laboratories, Inc. (KLI), 2002. 2000-2002 LTEMP Monitoring Report. Prepared for the Prince William Sound Regional Citizens' Advisory Council Long-Term Environmental Monitoring Program. 94 pp. and appendices. 
+***Larsen, M.L. and L.G. Holland 2004. Standard operating procedure for the determination of particle grain size in marine sediments analyzed at the Auke Bay Laboratory. Auke Bay Laboratory, Alaska Fisheries.</para>
+ </abstract>
+<keywordSet><keyword>beaches</keyword>
+<keyword>mussels</keyword>
+<keyword>sediment</keyword>
+<keyword>hydrocarbon</keyword>
+<keyword>monitoring</keyword>
+<keyword>benthic</keyword>
+</keywordSet>
+<keywordSet><keyword>Alaska</keyword>
+<keyword>Prince William Sound</keyword>
+<keyword>Kodiak</keyword>
+<keyword>Outer Kodiak</keyword>
+</keywordSet>
+<keywordSet><keyword>EVOSTC</keyword>
+<keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+<keyword>Oil Spill</keyword>
+<keyword>Exxon Valdez</keyword>
+<keyword>Environmental Drivers</keyword>
+<keyword>Benthic</keyword>
+<keyword>Invertebrates and Algae</keyword>
+<keyword>Oil and Contaminants</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+    <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Funding for this work was provided by the Exxon Valdez Oil Spill Trustee Council for three years and has otherwise been funded by the Prince William Sound Regional Citizens Advisory Council.
+
+Standard scientific norms for attribution and credit to the Exxon Valdez Oil Spill Trustee Council and The Prince William Sound Regional Citizens Advisory Council should be followed when using this data. Please let the Owner know when this data is used.
+
+This data is licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Prince Willim Sound, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-152.62762</westBoundingCoordinate>
+ <eastBoundingCoordinate>-145.99754</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.12401</northBoundingCoordinate>
+ <southBoundingCoordinate>58.50127</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1993-06-01</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009-07-03</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Phylum</taxonRankName>
+ <taxonRankValue>Mollusca</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Class</taxonRankName>
+ <taxonRankValue>Bivalvia</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Order</taxonRankName>
+ <taxonRankValue>Heterodonta</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Mytilinae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Mytilus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>trossulus</taxonRankValue>
+ <commonName>bay mussel</commonName>
+ <commonName>foolish mussel</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact><references>1360344369267</references>
+ </contact>
+ <contact id="1371656948280"><individualName><givenName>William B.</givenName>
+ <surName>Driskell</surName>
+ </individualName>
+ <organizationName>Independent Consultant</organizationName>
+ <positionName>Contract Chemist - Payne Environmental Consultants</positionName>
+ <address><deliveryPoint>6536 20th Ave. NE</deliveryPoint>
+ <city>Seattle</city>
+ <administrativeArea>WA</administrativeArea>
+ <postalCode>98115</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">206-522-5930</phone>
+ <electronicMailAddress>bdriskell@comcast.net</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Sampling: Mussels tissues &amp; Sediment</title>
+ <para>For both the tissue and sediment collections, the current sample design followed efforts from the previous years (KLI 2002) with slight modifications. Mussel tissues are sampled at ten sites and sediments from two sites in Port Valdez on a biannual basis (March-April and July-August). Mussel tissues are also collected from the two Port Valdez sites in October.</para>
+ <para>TISSUES:</para>
+ <para>For tissues, three replicates were typically taken from random locations spread between the transect end-markers at each site. At Sleepy Bay and Knowles Head, the absence of mussels along the transects (starfish predation) necessitated off-transect sampling. Each replicate of 25-30 mussels was collected by hand using Nitrile gloves, wrapped in aluminum foil, Ziplock bagged, labeled, double-bagged and kept chilled until reaching the nearest freezer. The collection site was photographed and GPS coordinates recorded for chain-of-custody documentation. The entire trip collection was eventually air-freighted frozen to the NOAA/NMFS Auke Bay Laboratory in Juneau.</para>
+ <para>SEDIMENT:</para>
+ <para>Subtidal sediments were collected from the M/V Auklet support vessel using a modified Van Veen grab sampler, i.e., the standard pincer-jawed, bucket grab commonly augmented with an encircling stabilization frame to theoretically ensure vertical penetration. Upon retrieval, only the top centimeter of undisturbed sediment was collected from the center of each sample (away from the edges of the grab), scooping with a pre-cleaned spoon into a contaminant-free glass jar. An additional sample was also taken from each grab for particle-grain-size analysis. Water depth and GPS location were recorded for each sample. Prior to sampling at each station, the grab was scrubbed with Alconox detergent to prevent cross-contamination, rinsed with a previously tested, seawater deck hose, dunked overboard, and the drippings collected as a rinsate blank. The deck hose was also used for rinsing the grab between samples. The sediment samples are immediately frozen onboard and eventually air-freighted to Auke Bay Laboratory in Juneau.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Sample Analysis</title>
+ <para>Sediment samples (~50 g wet weight) or whole mussel tissue samples (~10 g wet weight) were spiked with a suite of 5 aliphatic and 6 aromatic perdeuterated hydrocarbon surrogate standards and then extracted with dichloromethane at 100degC and 2,000 psi for 10 min in a Dionex ASE 200 accelerated solvent extractor. The dichloromethane solutions were exchanged with hexane over steam, and separated into aliphatic and aromatic fractions by column chromatography (10 g 2%-deactivated alumina over 20 g 5%-deactivated silica gel; columns for sediments also contained 20 g granular elemental copper and 8 g anhydrous sodium sulfate for removal of sulfur and water, respectively). Aliphatics eluting with 50 mL pentane were analyzed by gas chromatography with a flame ionization detector (GC/FID) following concentration to ~ 1 mL hexane over steam and addition of dodecylcyclohexane as an internal standard to evaluate recoveries of the surrogate standards. PAH constituents from the sample extracts were further purified by gel-permeation high performance liquid chromatography (HPLC). The injection volume was 0.5 mL into dichloromethane flowing at 7 mL/min through two size-exclusion gel columns (Phenomenex, phenogel, 22.5 mm x 250 mm, 100 Angstrom pore size) connected sequentially. The initial 110 mL eluate was discarded, and the following 50 mL was collected and concentrated over a 60-70deg C water bath and exchanged with hexane to a final volume of ca. 1 mL, then spiked with hexamethylbenzene as an internal standard for estimating recoveries of the initially added perdeuterated aromatic hydrocarbon surrogate standards.</para>
+ <para>POLYCYCLIC (OR POLYNUCLEAR) AROMATIC HYDROCARBONS:</para>
+ <para>PAHs in extracts were separated and analyzed with a Hewlett-Packard 6890 gas chromatograph equipped with a 5973 mass selective detector (MSD). The injection volume was 1 microL into a splitless injection port at 300 degC. The initial oven temperature was 60degC, increasing at 10degC per minute immediately following injection to a final temperature of 300degC, then held for 12 min. The chromatographic column was a 25 m fused silica capillary (0.20 mm ID) coated with 5% phenyl methyl silicone. The helium carrier gas was maintained at 70 kPa inlet pressure. The gas chromatographic column was eluted into the 70 eV electron impact MSD through a 240degC transfer line. The ionizer temperature and pressure were 240degC and 10-5 torr, respectively. The MSD was operated in the selected-ion-monitoring (SIM) mode. The MSD was tuned with mass 69, 102, and 512 fragments of perfluorotributylamine before each batch of samples was analyzed.</para>
+ <para>Calibrated PAHs were identified based on retention time and ratio of two mass fragment ions characteristic of each hydrocarbon. Calibrated PAHs are identified by bold typeface in Table 2, and include dibenzothiophene and the aromatic hydrocarbons in SRMs supplied by NIST. Chromatographic peaks were identified as a calibrated aromatic hydrocarbon if both ions were co-detected at retention times within +/-0.15 minutes (9 seconds) of the mean retention time of the hydrocarbon in the calibration standards, and if the ratio of the confirmation ion to the quantification ion was within +/-30% of the expected ratio.</para>
+ <para>Uncalibrated PAHs include the alkyl-substituted isomers of naphthalene (except the 1- and 2-methyl-substituted homologues), fluorene, dibenzothiophene, phenanthrene/ anthracene, fluoranthene/pyrene, and chrysene. Uncalibrated PAHs were identified by the presence, within a relatively wide retention time window, of a single mass fragment ion that is characteristic of the uncalibrated PAH sought. Wider retention time windows were necessary for the uncalibrated PAH because of the range of retention times of the various isomers that are included in an uncalibrated PAH homologue grouping (e.g. C3-phenanthrene).</para>
+ <para>Concentrations of calibrated PAHs in extracts were estimated by a method employing multiple internal standards and a five-point calibration curve for each calibrated PAH. The deuterated surrogate standards that were initially spiked into each sample are treated as internal standards, where each surrogate compound is associated with one or more calibrated PAHs. A calibration curve for each calibrated PAH and batch of samples analyzed was based on five different hexane dilutions of the PAH standard run before each sample batch or "laboratory string." Each calibration curve was derived from linear regression of (1) the ratio of MSD/SIM quantification ion response of the calibrated PAH and the associated deuterated surrogate standard and (2) the ratio of the amount of calibrated PAH and the amount of deuterated surrogate in the calibration standards. This approach effectively means that all reported analytes are corrected for the appropriate surrogate recoveries.</para>
+ <para>Concentrations of uncalibrated PAHs in extracts were determined with calibration curves and procedures for the most similar calibrated PAH. The MSD/SIM response to the quantification ion of each uncalibrated PAH homologue isomer were summed; this sum was used in place of the calibrated PAH response in the procedure described above for calculating concentrations of calibrated PAHs. For example, the fluorene calibration curve and procedure was used for all the alkyl-substituted fluorenes identified, but 2,6-dimethylnaphthalene, 2,3,5-trimethylnaphthalene and 1-methylphenanthrene calibration curves were used for C2-naphthalenes, C3-naphthalenes, and for all the alkyl-substituted phenanthrenes, respectively.</para>
+ <para>ALKANES:</para>
+ <para>Alkanes in extracts were separated and analyzed with a Hewlett-Packard 5890 gas chromatograph equipped with a flame ionization detector (FID). The injection volume was 1 microL into a splitless injection port at 300degC. The 60degC initial oven temperature was maintained for 1 minute, then increased at 6degC per minute to a final temperature of 300degC, then held for 25 min. The detector temperature was 320degC. The chromatographic column was the same as that used for PAH analysis (see above). The helium carrier gas flow rate was 0.80-2.0 mL per minute, and the column effluent was combined with 34 mL per minute nitrogen make-up gas before entering the FID. The FID was operated with hydrogen- and air-flow rates of approximately 33 and 360-410 mL per minute, respectively. Alkane hydrocarbons were identified based on their retention times. Any peak detected above the integrator threshold within +/-0.25% of the mean retention time of the alkane in the calibration standards was identified and quantified as that alkane.</para>
+ <para>Concentrations of calibrated alkanes were determined by an internal-standard method employing a five-point calibration curve for each alkane. The deuterated surrogate standards that were initially spiked into each sample were treated as internal standards, where each surrogate compound was associated with a group of calibrated alkanes. A calibration curve for each calibrated alkane and batch of samples analyzed was based on five different hexane dilutions of the alkane standards. Each calibration curve was derived from linear regression of (1) the ratio of FID response of the alkane and the associated deuterated surrogate standard, and (2) the ratio of the amount of calibrated alkane and the amount of deuterated surrogate in the calibration standards. As with quantitation of the PAH, this approach means that reported concentrations for all n-alkanes are surrogate-recovery corrected.</para>
+ <para>Amounts of uncalibrated alkane hydrocarbons and the cumulative amount of hydrocarbons in the unresolved complex mixture (UCM) were based on detector responses and the calibration curve for hexadecane. Flame ionization detector response due to the UCM was determined as the difference of the total FID response and the response due to distinguishable peaks using valley-to-valley baseline integrations.</para>
+ <para>SOIL MOISTURE CONTENT:</para>
+ <para>Weighed aliquots of wet mussel homogenates or of sediments were dried at 100degC for 24 h and re-weighed to determine the moisture content, and the ratio of these wet and dry weights was used to convert PAH and SHC concentrations to a dry weight basis.</para>
+ <para>PARTICLE GRAIN SIZE:</para>
+ <para>Determination of the distribution of particle grain sizes in the sediment samples was determined by a combination of sieving and pipette methods based on the procedures given by Folk (1974). Implementation of these procedures at ABL (Larsen and Holland 2004) is almost identical with the method described in SOP-8908 at GERG. The ABL procedure differs from the GERG procedure in the sample pre-treatment. At ABL, a somewhat smaller sample aliquot is used (8 - 12 g instead of 15 - 20 g sediment), the minimum amount of hydrogen peroxide is used to oxidize organic matter (typically 30 - 60 mL of 30% H2O2 instead of 50 - 100 mL), the sample is not washed with distilled water to remove soluble salts at ABL because of the risk of loosing sediment fines, and only ~ 100 mL of sodium hexametaphosphate solution is used to disperse the sample at ABL instead of 400 mL at GERG. These changes were implemented at ABL because they were specifically optimized for the samples analyzed for the LTEMP program. The effects of these minor procedural differences on the estimates of particle grain size distributions in comparison with results produced at GERG are almost certainly negligible.</para>
+ <para>TOTAL ORGANIC CARBON AND TOTAL CARBON:</para>
+ <para>Analytical measurements of total organic and total carbon are determined on oven dried and pulverized sediment samples using a Dohrmann DC-85A TOC catalytic combustion (oxygen at 200 mL/min and cobalt oxide on alumina) furnace. The carbon dioxide produced is passed through an acidified liquid sparger (scrubs out entrained water vapor and corrosive species), two scrubbers (copper and tin) and linearized non-dispersive infrared detection, by comparison with results from a calibration curve based on potassium acid phthalate. Total organic carbon (TOC) and total carbon (TC) are determined on samples treated with and without 10% HCl in methanol. Total inorganic carbon is calculated as the difference between TC and TOC.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Data Analysis</title>
+ <para>For data analysis, we primarily use standard accepted practices in forensic pattern recognition, which involves subjectively assessing the analyte levels and composition patterns to identify sources and weathering/transport processes (Wang and Stout, 2007). Bar chart PAH and SHC plots for each sample, ordered by increasing molecular weight (number of aromatic rings and degree of alkylation), are scrutinized for relevant details relating to weathering or dissolution behavior. Each replicate is examined separately in order to assess fidelity of the triplicate patterns and avoid any potentially confounding amalgam of replicates with radically differing profiles; identifying the source is more important than the average quantification. Standard errors of the mean are displayed, where practical, for averaged index trends.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project><title>PWSRCAC Long-Term Environmental  Monitoring Program</title>
+ <personnel><references>1360344369267</references>
+ <role>Custodian/Steward</role>
+ </personnel>
+ <personnel id="1371657681644"><individualName><salutation>Dr.</salutation>
+ <givenName>Mark</givenName>
+ <surName>Swanson</surName>
+ </individualName>
+ <organizationName>Prince William Sound Regional Citizens' Advisory Council</organizationName>
+ <positionName>Executive Director</positionName>
+ <address><deliveryPoint>P.O. Box 3089</deliveryPoint>
+ <deliveryPoint>130 S. Meals Ste 202</deliveryPoint>
+ <city>Valdez</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99686</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-835-5926</phone>
+ <electronicMailAddress>mark.swanson@pwsrcac.org</electronicMailAddress>
+ <role>PWSRCAC Executive Director</role>
+ </personnel>
+ <funding><para>Exxon-Valdez Oil Spill Trustee Council Project Number 030623, Prince William Sound Regional Citizens' Advisory Council</para>
+ </funding>
+ </project>
+ <dataTable id="1371571608510"><entityName>ltemSampleData.csv</entityName>
+ <entityDescription>Data for each sample collected and assessed</entityDescription>
+ <physical id="1371509466202"><objectName>ltemSampleData.csv</objectName>
+ <size unit="byte">135624</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.15.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1371571608511"><attributeName>index</attributeName>
+ <attributeDefinition>entry number</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><textDomain><definition>entry number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371571608512"><attributeName>stationMatrix</attributeName>
+ <attributeLabel>Station of analysis and matrix type</attributeLabel>
+ <attributeDefinition>Collection location along with abreviation for matrix type (biologic or sediment)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>AIB-B</code>
+ <definition>'Aialik Bay, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>AMT-B</code>
+ <definition>'Alyeska Marine Terminal (Saw Island), Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>COH-B</code>
+ <definition>'Constantine Harbor, Hinchinbrook Island, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>DII-B</code>
+ <definition>'Disk Island, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>GOC-B</code>
+ <definition>'Gold Creek, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>KNH-B</code>
+ <definition>'Knowles Head, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>SHB-B</code>
+ <definition>'Sheep Bay, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>SHH-B</code>
+ <definition>'Shuyak Harbor, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>SLB-B</code>
+ <definition>'Sleepy Bay, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>WIB-B</code>
+ <definition>'Windy Bay, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>ZAB-B</code>
+ <definition>Zaikof Bay, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>AMT-S</code>
+ <definition>'Alyeska Marine Terminal (Saw Island), Deep Subtidal Sediment Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>GOC-S</code>
+ <definition>'Gold Creek, Deep Subtidal Sediment Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>AMT-Rinse-04-2-1</code>
+ <definition>Rinse</definition>
+ </codeDefinition>
+ <codeDefinition><code>AMT-Rinse-04-2-2</code>
+ <definition>Rinse</definition>
+ </codeDefinition>
+ <codeDefinition><code>GOC-Rinse-04-2-1</code>
+ <definition>Rinse</definition>
+ </codeDefinition>
+ <codeDefinition><code>Auklet deck hose-04-2</code>
+ <definition>M/V Auklet sea water source test</definition>
+ </codeDefinition>
+ <codeDefinition><code>AMT-Rinse-05-1-1</code>
+ <definition>Rinse</definition>
+ </codeDefinition>
+ <codeDefinition><code>GOC-Rinse-05-1-2</code>
+ <definition>Rinse</definition>
+ </codeDefinition>
+ <codeDefinition><code>Trip Blank-04-2</code>
+ <definition>Blank</definition>
+ </codeDefinition>
+ <codeDefinition><code>Trip Blank -05-1</code>
+ <definition>Blank</definition>
+ </codeDefinition>
+ <codeDefinition><code>FIELD BLANK-S</code>
+ <definition>Blank</definition>
+ </codeDefinition>
+ <codeDefinition><code>TB04</code>
+ <definition>Thumb Bay, SCAT samples</definition>
+ </codeDefinition>
+ <codeDefinition><code>OLB-B</code>
+ <definition>'Olson Bay, Intertidal Mussel Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>SBLK</code>
+ <definition>Sand blank</definition>
+ </codeDefinition>
+ <codeDefinition><code>MBLK</code>
+ <definition>Method blank</definition>
+ </codeDefinition>
+ <codeDefinition><code>AREF</code>
+ <definition>Refrence</definition>
+ </codeDefinition>
+ <codeDefinition><code>BREF</code>
+ <definition>Reference</definition>
+ </codeDefinition>
+ <codeDefinition><code>Sand</code>
+ <definition>% sand</definition>
+ </codeDefinition>
+ <codeDefinition><code>COH-S</code>
+ <definition>'Constantine Harbor, Hinchinbrook Island,Subtidal Sediment Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>Port Chalmers</code>
+ <definition>Port Chalmers</definition>
+ </codeDefinition>
+ <codeDefinition><code>OLB-S</code>
+ <definition>'Olson Bay, Deep Subtidal Sediment Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>SMB-S</code>
+ <definition>St Matthew's Bay Subtidal Sediment Collection Site</definition>
+ </codeDefinition>
+ <codeDefinition><code>AMT-R</code>
+ <definition>Rinse</definition>
+ </codeDefinition>
+ <codeDefinition><code>GOC-R</code>
+ <definition>AMYT Rinse</definition>
+ </codeDefinition>
+ <codeDefinition><code>NISTA</code>
+ <definition>National Institute of Standards and Technology certified standard reference (sample A)</definition>
+ </codeDefinition>
+ <codeDefinition><code>Blank</code>
+ <definition>Blank</definition>
+ </codeDefinition>
+ <codeDefinition><code>Rinse</code>
+ <definition>Rinse</definition>
+ </codeDefinition>
+ <codeDefinition><code>Aukle</code>
+ <definition>M/V Auklet sea water source test</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371571608513"><attributeName>labID</attributeName>
+ <attributeLabel>Lab ID</attributeLabel>
+ <attributeDefinition>label used by specific lab, may coincide with SampleID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Lab ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371571608514"><attributeName>matrix</attributeName>
+ <attributeDefinition>Matrix Type sampled</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Tissue</code>
+ <definition>Tissue</definition>
+ </codeDefinition>
+ <codeDefinition><code>TISSUE</code>
+ <definition>Tissue</definition>
+ </codeDefinition>
+ <codeDefinition><code>Sediment</code>
+ <definition>Sediment</definition>
+ </codeDefinition>
+ <codeDefinition><code>SEDIMENT</code>
+ <definition>Sediment</definition>
+ </codeDefinition>
+ <codeDefinition><code>WATER</code>
+ <definition>DI Water</definition>
+ </codeDefinition>
+ <codeDefinition><code>QCSBLANK</code>
+ <definition>Blank</definition>
+ </codeDefinition>
+ <codeDefinition><code>QCBLANK</code>
+ <definition>Blank</definition>
+ </codeDefinition>
+ <codeDefinition><code>QCTISSUE</code>
+ <definition>Tissue</definition>
+ </codeDefinition>
+ <codeDefinition><code>QCSED</code>
+ <definition>Sediment</definition>
+ </codeDefinition>
+ <codeDefinition><code>QCCALI</code>
+ <definition>Calibration</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371571608515"><attributeName>lab</attributeName>
+ <attributeDefinition>Lab where analysis was done</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>GERG</code>
+ <definition>Geochemical and Environmental Research Group, Texas A&amp;M Univ.</definition>
+ </codeDefinition>
+ <codeDefinition><code>ABL</code>
+ <definition>Auke Bay Laboratories, Alaska Fisheries Scienc Center, NOAA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371571608516"><attributeName>catalog</attributeName>
+ <attributeDefinition>Organizational refrence, Auk Bay Labs.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>catalog</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Data not classified this way</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1371571608517"><attributeName>sampleID</attributeName>
+ <attributeLabel>Sample ID</attributeLabel>
+ <attributeDefinition>Identifier for each sample collected and analyzed.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Data lost or not collected</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1371571608518"><attributeName>sampDate</attributeName>
+ <attributeLabel>Collection Date</attributeLabel>
+ <attributeDefinition>Date sample was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm-dd-yyyy</formatString>
+ <dateTimePrecision>1 day</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Data lost or not collected</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1371571608519"><attributeName>dryWt</attributeName>
+ <attributeLabel>Dry Weight</attributeLabel>
+ <attributeDefinition>Dry weight of the sample (g)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>#NA</code>
+ <codeExplanation>Data lost or not collected</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1371571608520"><attributeName>wetWt</attributeName>
+ <attributeLabel>Wet Weight</attributeLabel>
+ <attributeDefinition>Wet weight of the sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>#NA</code>
+ <codeExplanation>Data lost or not collected</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1371571608521"><attributeName>hcUnits</attributeName>
+ <attributeLabel>analyte units</attributeLabel>
+ <attributeDefinition>Hydrocarbons in sediment and tissue samples are recorded in ng/g, water samples are in ng/L</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>analyte units</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371571608522"><attributeName>useability</attributeName>
+ <attributeLabel>Useability</attributeLabel>
+ <attributeDefinition>If sample was used in report, labled 'ok'</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>suspect</code>
+ <definition>Sample was not used in analysis</definition>
+ </codeDefinition>
+ <codeDefinition><code>ok</code>
+ <definition>Sample was used in analysis</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>not rated</definition>
+ </codeDefinition>
+ <codeDefinition><code>#N/A</code>
+ <definition>not rated</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Not rated</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1344</numberOfRecords>
+ </dataTable>
+ <dataTable id="1371576995197"><entityName>pwsrcacLongTermEnvtlMonitorData.csv</entityName>
+ <entityDescription>Hydrocarbon concentrations, sample idetifiers refer to supplemental table identifiers</entityDescription>
+ <physical id="1371574955662"><objectName>pwsrcacLongTermEnvtlMonitorData.csv</objectName>
+ <size unit="byte">9642781</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.17.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1371576995198"><attributeName>sampleID</attributeName>
+ <attributeDefinition>Sample ID corresponds to sample IDs in accompanyng table with sample with sample details (ltemSampleData.csv)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371576995199"><attributeName>chemGrp</attributeName>
+ <attributeDefinition>Chemical structure or analysis group</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>PAH</code>
+ <definition>Polycyclic aromatic hydrocarbon</definition>
+ </codeDefinition>
+ <codeDefinition><code>alkanes</code>
+ <definition>alkanes</definition>
+ </codeDefinition>
+ <codeDefinition><code>MDL</code>
+ <definition>Method detection limit</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371576995200"><attributeName>chemical</attributeName>
+ <attributeLabel>Analyte</attributeLabel>
+ <attributeDefinition>Hydrocarbon analyte concentrations recorded in nanograms: ng/g for tissues and sediments and ng/L for water samples</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1371578436972</entityReference>
+ <valueAttributeReference>1371578436973</valueAttributeReference>
+ <definitionAttributeReference>1371578436974</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371576995201"><attributeName>concentration</attributeName>
+ <attributeLabel>ng/g</attributeLabel>
+ <attributeDefinition>concentration of hydrocarbon, ng/g for tissue and sediment samples and ng/L for water samples (rinses)</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>nanoGramsPerGram</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371576995202"><attributeName>dataQualifier</attributeName>
+ <attributeLabel>Data qualifier</attributeLabel>
+ <attributeDefinition>Notes and qualification of samples and analytes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Not applicable</definition>
+ </codeDefinition>
+ <codeDefinition><code>ND</code>
+ <definition>Not detected (not measured above 0)</definition>
+ </codeDefinition>
+ <codeDefinition><code>J</code>
+ <definition>Quantity below the estimated MDL (method detection limit)</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>Not applicable</definition>
+ </codeDefinition>
+ <codeDefinition><code>M</code>
+ <definition>Matrix interface</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>201600</numberOfRecords>
+ </dataTable>
+ <dataTable id="1371578436972"><entityName>hcCodeDef.csv</entityName>
+ <entityDescription>Definitions for analyte values in LTEM data table</entityDescription>
+ <physical id="1371577259984"><objectName>hcCodeDef.csv</objectName>
+ <size unit="byte">2264</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.18.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1371578436973"><attributeName>value</attributeName>
+ <attributeLabel>analyte values</attributeLabel>
+ <attributeDefinition>values for defninitions in next column, define 'chemical' column in pwscacLTEM data table</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>values for defnintions</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1371578436974"><attributeName>definition</attributeName>
+ <attributeLabel>analyte definitions</attributeLabel>
+ <attributeDefinition>Definitions for 'chemical' column in pwsrcacLTEM data table</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Hydrocarbon analyte definitions</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>88</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="nanoGramsPerGram" multiplierToSI="0.000000001" name="nanoGramsPerGram" parentSI="gramsPerGram" unitType="massPerMass"><description>nanoGramsPerGram</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

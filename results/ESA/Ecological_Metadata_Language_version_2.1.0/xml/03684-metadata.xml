@@ -1,0 +1,154 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.86.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Basal and field metabolic rates with body mass of Mammals</title>
+<creator>
+<organizationName>Durham University, UK</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Isabella</givenName>
+<surName>Capellini</surName>
+</individualName>
+<organizationName>Durham University</organizationName>
+<address>
+<deliveryPoint>Anthropology Dept, Dawson Building, South Road</deliveryPoint>
+<city>Durham</city>
+<postalCode>DH1 3LE</postalCode>
+<country>United Kingdom</country>
+</address>
+<phone>0044-191-3343298</phone>
+<electronicMailAddress>Isabella.Capellini@dur.ac.uk</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Isabella</givenName>
+<surName>Capellini</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Isabella</givenName>
+<surName>Capellini</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Robert </givenName>
+<surName>Barton</surName>
+</individualName>
+<role>User</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Chris</givenName>
+<surName>Venditti</surName>
+</individualName>
+<role>User</role>
+</associatedParty>
+<pubDate>2010-09-03</pubDate>
+<abstract>
+<para>Dataset of basal metabolic rate (BMR, in ml O2/hour) with experimental animal body mass (in grams) for 580 mammalian species, and field metabolic rate (FMR, in KJ/day) with wild animal body mass (in grams) for 119 mammalian species. 
+
+Data were extracted from the literature. BMR data were included in the dataset if they fulfilled the requirements of the protocol for measuring BMR  (measurements are taken on adult non-reproductive individuals that are postabsorptive, resting but not sleeping, and with ambient temperature within the thermoneutral zone for the species). Data on FMR were included in the dataset if total daily energy expenditure was estimated using doubly labelled water methods and taken on wild adult individuals.
+
+The dataset, that can be downloaded from the ESA website and accompanies the paper cited below as supplementary information, where detailed description of the dataset and data sources can be found:
+
+Capellini, Isabella, Chris Venditti, and Robert Barton. In press. PHYLOGENY AND METABOLIC SCALING IN MAMMALS. Ecology. [doi:10.1890/09-0817.1]</para>
+</abstract>
+<keywordSet>
+<keyword>Basal metabolic rate</keyword>
+<keyword>BMR</keyword>
+<keyword>Field metabolic rate</keyword>
+<keyword>FMR</keyword>
+<keyword>Total daily energy expenditure</keyword>
+<keyword>Body mass</keyword>
+<keyword>Mammals</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>Capellini, Isabella, Chris Venditti, and Robert Barton. In press. PHYLOGENY AND METABOLIC SCALING IN MAMMALS. Ecology. [doi:10.1890/09-0817.1]</para>
+</additionalInfo>
+<intellectualRights>
+<para>other</para>
+<para>citation of the paper for which the dataset was compiled</para>
+</intellectualRights>
+<distribution>
+<online>
+<url>http://www.esajournals.org/doi/abs/10.1890/09-0817.1</url>
+</online>
+</distribution>
+<distribution>
+<offline>
+<mediumName>other online</mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<singleDateTime>
+<calendarDate>2008</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>global</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-180.0000</westBoundingCoordinate>
+<eastBoundingCoordinate>180.0000</eastBoundingCoordinate>
+<northBoundingCoordinate>90.0000</northBoundingCoordinate>
+<southBoundingCoordinate>-90.0000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Wilson &amp; Reeder (2005) Mammal species of the world. A taxonomic and geographic reference. Third Edition. John Hopkins University Press.</generalTaxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Class</taxonRankName>
+  <taxonRankValue>Mammalia</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Isabella</givenName>
+<surName>Capellini</surName>
+</individualName>
+<organizationName>Durham University</organizationName>
+<address>
+<city>Durham</city>
+<country>United Kingdom</country>
+</address>
+<electronicMailAddress>Isabella.Capellini@dur.ac.uk</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Literature review</title>
+<para>Data were extracted from the literature.</para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>Global. All mammalian species for which data on BMR and FMR have been published up to 2008</para>
+</description></studyExtent>
+<samplingDescription>
+<para>BMR data were included in the dataset if they fulfilled the requirements of the protocol for measuring BMR  (measurements are taken on adult non-reproductive individuals that are postabsorptive, resting but not sleeping, and with ambient temperature within the thermoneutral zone for the species). 
+
+Data on FMR were included in the dataset if total daily energy expenditure was estimated using doubly labelled water methods and taken on wild adult individuals.</para>
+</samplingDescription>
+</sampling>
+</methods>
+</dataset></ns0:eml>

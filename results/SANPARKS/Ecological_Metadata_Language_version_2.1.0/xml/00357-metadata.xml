@@ -1,0 +1,347 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1723.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Supersites_Streamflow Granites</title>
+ <creator id="1366958300447"> <organizationName>Centre for Water Resources Research,University of Kwazulu Natal</organizationName>
+ <positionName>WRC project K5/2051</positionName>
+ </creator>
+ <creator id="1366958320477"><organizationName>SANParks</organizationName>
+ <positionName>Scientific Services</positionName>
+ </creator>
+ <abstract><para>Streamflow for the Granitic supersites</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Kruger National Park, South Africa</keyword>
+ <keyword>Streamflow, supersites</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data is lead time protected. If you would like access to the data please contact ES Riddell</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>KNP_Boundary</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>30.888418</westBoundingCoordinate>
+ <eastBoundingCoordinate>32.033169</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.32785</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.528913</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2011-12-01</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013-04-09</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1366958343082"><individualName><givenName>ES</givenName>
+ <surName>Riddell</surName>
+ </individualName>
+ <organizationName>UKZN</organizationName>
+ <electronicMailAddress>edriddell@gmail.com</electronicMailAddress>
+ </contact>
+ <contact id="1366958366949"><individualName><givenName>IPJ</givenName>
+ <surName>Smit</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <electronicMailAddress>Izak.Smit@sanparks.org</electronicMailAddress>
+ </contact>
+ <dataTable id="1366962076793"><entityName>GraniteStreamflowsites.txt</entityName>
+<physical id="1366961990975"><objectName>GraniteStreamflowsites.txt</objectName>
+<size unit="byte">1135</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1728.2</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=Supersites,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366962076809"><attributeName>Site_Name</attributeName>
+<attributeDefinition>Site_Name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Site_Name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366962076824"><attributeName>Site_Description</attributeName>
+<attributeDefinition>Site_Description</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Site_Description</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366962076840"><attributeName>Easting</attributeName>
+<attributeDefinition>Easting</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962076855"><attributeName>Northing</attributeName>
+<attributeDefinition>Northing</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962076871"><attributeName>Altitude (m)</attributeName>
+<attributeDefinition>Altitude (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962076887"><attributeName>depth</attributeName>
+<attributeDefinition>depth</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962076902"><attributeName>Metadata</attributeName>
+<attributeDefinition>Metadata</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Metadata</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>5</numberOfRecords>
+</dataTable>
+<dataTable id="1366962202688"><entityName>SGR_Q1.txt</entityName>
+<physical id="1366962099617"><objectName>SGR_Q1.txt</objectName>
+<size unit="byte">18652613</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1729.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=Supersites,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366962202704"><attributeName>DATETIME_S</attributeName>
+<attributeDefinition>Date and time</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1366962202719"><attributeName>LEVEL</attributeName>
+<attributeDefinition>levellogger water level (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962202735"><attributeName>TEMPERATUR</attributeName>
+<attributeDefinition>Temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962202750"><attributeName>STAGE</attributeName>
+<attributeDefinition>Water level above groundsurface (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962202766"><attributeName>DATETIME</attributeName>
+<attributeDefinition>Date and time</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1366962202782"><attributeName>DISCHARGE</attributeName>
+<attributeDefinition>Cubic Metres per second
+([Stage]^2.3557)*35.238</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>cubicMetersPerSecond</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>212073</numberOfRecords>
+</dataTable>
+<dataTable id="1366962343793"><entityName>SGR_Q2.txt</entityName>
+<physical id="1366962226963"><objectName>SGR_Q2.txt</objectName>
+<size unit="byte">19274165</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1730.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=Supersites,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366962343809"><attributeName>DATETIME_S</attributeName>
+<attributeDefinition>Date and time</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1366962343825"><attributeName>LEVEL</attributeName>
+<attributeDefinition>levellogger water level (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962343840"><attributeName>TEMPERATUR</attributeName>
+<attributeDefinition>Temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962343856"><attributeName>STAGE</attributeName>
+<attributeDefinition>Water level above groundsurface (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962343871"><attributeName>DATETIME</attributeName>
+<attributeDefinition>Date and time</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1366962343887"><attributeName>DISCHARGE</attributeName>
+<attributeDefinition>Cubic Metres per second
+([Stage]^2.3557)*35.238</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>cubicMetersPerSecond</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>211994</numberOfRecords>
+</dataTable>
+<dataTable id="1366962451981"><entityName>SGR_Q3.txt</entityName>
+<physical id="1366962361999"><objectName>SGR_Q3.txt</objectName>
+<size unit="byte">19015473</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1731.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=Supersites,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366962451996"><attributeName>DATETIME_S</attributeName>
+<attributeDefinition>Date and time</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1366962452012"><attributeName>LEVEL</attributeName>
+<attributeDefinition>levellogger water level (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962452027"><attributeName>TEMPERATUR</attributeName>
+<attributeDefinition>Temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962452043"><attributeName>STAGE</attributeName>
+<attributeDefinition>Water level above groundsurface (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366962452059"><attributeName>DATETIME</attributeName>
+<attributeDefinition>Date and time</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1366962452074"><attributeName>DISCHARGE</attributeName>
+<attributeDefinition>Cubic Metres per second
+([Stage]^2.3557)*35.238</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>cubicMetersPerSecond</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>211882</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

@@ -1,0 +1,654 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.109982.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Grass forage quality and quantity in savannas: Will elevated atmospheric CO2 concentration induced increases in water use efficiency compromise C4 grass soil nitrogen acquisition?</title>
+ <creator id="1395304465704"> <organizationName>SANParks</organizationName>
+ </creator>
+ <creator id="1395304479320"><organizationName>University of Freiburg</organizationName>
+ </creator>
+ <abstract><para>Photosynthesis (Amax), stomatal conductance (gs), water use efficiency (WUE), nutrient gain and biomass of six grass species under direct, indirect (mass-flow), and no nutrient supply (control). Leaf vein density, specific leaf area and stomata density of the same species measured on well fertilized plants.</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Kruger Ntional Park, South Africa</keyword>
+ <keyword>C4 grasses, Mass-flow, Nitrogen, Stomata density, Vein density, Water use efficiency</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data should NOT be shared yet, because it hasn't been published. Exceptions might be made on personal request to: laura.rose@biologie.uni-freiburg.de</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>KNP_Boundary</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>30.888418</westBoundingCoordinate>
+ <eastBoundingCoordinate>32.033169</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.32785</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.528913</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2013-02-20</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013-05-20</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Aristida</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Congesta</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Chloris</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>virgata</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Heteropogon</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>contortus</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Melinis</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>repens</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Pogonarthria</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>squarrosa</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Schizachyrium</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>sanguineum</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1395304504224"><individualName><givenName>Laura</givenName>
+ <surName>Rose</surName>
+ </individualName>
+ <organizationName>University of Freiburg</organizationName>
+ <electronicMailAddress>laura.rose@biologie.uni-freiburg.de, PI</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Methods</title>
+ <para>We set up an experiment in the plant nursery in Skukuza using 8 grass species common in the Kruger National Park. After 5 weeks of establishment we exposed the plants to three different nutrient treatments for three weeks after which they were harvested. The treatments were: direct nutrient supply (D), spatially separated nutrient supply (MF), and no nutrient supply (C).We measured photosynthesis (Amax), stomatal conductance (gs), water use efficiency (WUE), with a LICOR6400XT Irga Starting 2 weeks after treatment application on the youngest fully expanded leaf. Nutrient gain and biomass of six grass species were measured after 3 weeks of treatments. Traits were analyses on extra well fertilized plants</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1395307229829"><entityName>Data.txt</entityName>
+ <physical id="1395304948061"><objectName>Data.txt</objectName>
+ <size unit="byte">50727</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.109978.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+ <permission>read</permission>
+ </deny>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1395307229839"><attributeName>ID</attributeName>
+ <attributeDefinition>Unique plant ID</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229849"><attributeName>Species</attributeName>
+ <attributeDefinition>Plant species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Ac</code>
+ <definition>Aristida congesta</definition>
+ </codeDefinition>
+ <codeDefinition><code>Cv</code>
+ <definition>Chloris virgata</definition>
+ </codeDefinition>
+ <codeDefinition><code>Hc</code>
+ <definition>Heteropogon contortus</definition>
+ </codeDefinition>
+ <codeDefinition><code>Mr</code>
+ <definition>Melinis repens</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ps</code>
+ <definition>Pogonarthria squarrosa</definition>
+ </codeDefinition>
+ <codeDefinition><code>Scs</code>
+ <definition>Schizachyrium sanguineum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229859"><attributeName>Block</attributeName>
+ <attributeDefinition>Block of the eperimental design</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229869"><attributeName>Row</attributeName>
+ <attributeDefinition>Row of the experimental design</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229879"><attributeName>Treatment</attributeName>
+ <attributeDefinition>Tratment</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>C</code>
+ <definition>and no nutrient supply</definition>
+ </codeDefinition>
+ <codeDefinition><code>D</code>
+ <definition>direct nutrient supply</definition>
+ </codeDefinition>
+ <codeDefinition><code>MF</code>
+ <definition>spatially separated nutrient supply</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229889"><attributeName>Sown</attributeName>
+ <attributeDefinition>Sowing date</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>24.02.2013</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>06.03.2013</definition>
+ </codeDefinition>
+ <codeDefinition><code>3</code>
+ <definition>12.03.2013</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229899"><attributeName>Leaf_n_1</attributeName>
+ <attributeDefinition>Leaf number at date 1 (38 days after sowing d)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229909"><attributeName>Height_1</attributeName>
+ <attributeDefinition>Plant height/length at date 1(38 days after sowing d)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <precision>0.5</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229919"><attributeName>Leaf_n_2</attributeName>
+ <attributeDefinition>Leaf number at date 2 (63 +-1 days after sowing d)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229929"><attributeName>Height_2</attributeName>
+ <attributeDefinition>Plant height/length at date 2 (63 +-1 days after sowing d)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <precision>0.5</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229939"><attributeName>AGBM</attributeName>
+ <attributeDefinition>Aboveground dry plant biomass at date 2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <precision>0.005</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229949"><attributeName>BGBM</attributeName>
+ <attributeDefinition>Belowground dry plant biomass at date 2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <precision>0.005</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229959"><attributeName>NL</attributeName>
+ <attributeDefinition>Aboveground nitrogen concentration(%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ <bounds><minimum exclusive="true">0</minimum>
+ <maximum exclusive="true">100</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229969"><attributeName>dNL</attributeName>
+ <attributeDefinition>Aboveground 15N/14N ratio *</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229979"><attributeName>CL</attributeName>
+ <attributeDefinition>Aboveground carbon concentration(%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">100</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229989"><attributeName>dCL</attributeName>
+ <attributeDefinition>Aboveground 13C/12C ratio *</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307229999"><attributeName>NR</attributeName>
+ <attributeDefinition>Belowground nitrogen concentration(%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">100</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230009"><attributeName>dNR</attributeName>
+ <attributeDefinition>Belowground  15N/14N ratio *</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230019"><attributeName>CR</attributeName>
+ <attributeDefinition>Belowground  carbon concentration</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">100</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230029"><attributeName>dCR</attributeName>
+ <attributeDefinition>Belowground  13C/12C ratio *</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230039"><attributeName>P_L</attributeName>
+ <attributeDefinition>Aboveground phosphorus concentration</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">100</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230049"><attributeName>P_R</attributeName>
+ <attributeDefinition>Belowground phosphorus concentration(%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">100</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230059"><attributeName>HHMMSS</attributeName>
+ <attributeDefinition>Time of Gas exchange measurement &#179;
+&#179; from LI6400XT.Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ <dateTimePrecision>30 sec</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230069"><attributeName>Photo</attributeName>
+ <attributeDefinition>Photosynthetic rate &#179;&#181;mol CO2 per m2 per sec
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230079"><attributeName>Cond</attributeName>
+ <attributeDefinition>Stomatal conductance &#179;mol H2O per m2 per sec
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230089"><attributeName>Ci</attributeName>
+ <attributeDefinition>Intercellular CO2 concentration &#179;
+&#181;mol CO2 per mol
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230099"><attributeName>Trmmol</attributeName>
+ <attributeDefinition>Transpiration rate &#179;mmol H2O per m2 per sec&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230109"><attributeName>VpdL</attributeName>
+ <attributeDefinition>Vapour pressure deficit based on Leaf temp &#179;
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230119"><attributeName>CTleaf</attributeName>
+ <attributeDefinition>Calculated leaf temperature &#179;
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230129"><attributeName>Area</attributeName>
+ <attributeDefinition>Leaf area in the chamber &#179;
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>squareCentimeters</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ <bounds><minimum exclusive="true">0</minimum>
+ <maximum exclusive="true">6</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230139"><attributeName>BLCond</attributeName>
+ <attributeDefinition>-9</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230149"><attributeName>Tair</attributeName>
+ <attributeDefinition>Temperature of the air in the sample chamber &#179;
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230159"><attributeName>Tleaf</attributeName>
+ <attributeDefinition>Temperature of the leaf thermocouple &#179;&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230169"><attributeName>TBlk</attributeName>
+ <attributeDefinition>Temperature of the Cooler block &#179;
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230179"><attributeName>CO2R</attributeName>
+ <attributeDefinition>CO2 concentration reference chamber &#179;
+&#181;mol CO2
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230189"><attributeName>CO2S</attributeName>
+ <attributeDefinition>CO2 concentration sample chamber &#179;
+&#181;mol CO2
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230199"><attributeName>H2OR</attributeName>
+ <attributeDefinition>H2O concentration reference chamber &#179;
+mmol H2O
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230209"><attributeName>H2OS</attributeName>
+ <attributeDefinition>H2O concentration sample chamber &#179;mmol H2O
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230219"><attributeName>RH_R</attributeName>
+ <attributeDefinition>relative humidity sample chamber (%) 
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230229"><attributeName>RH_S</attributeName>
+ <attributeDefinition>relative humidity sample chamber &#179;(%) 
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230239"><attributeName>Flow</attributeName>
+ <attributeDefinition>Flow rate of air to the sample cell &#956;mol per s
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230249"><attributeName>PARi</attributeName>
+ <attributeDefinition>Photosynthetic active ratiation in the sample chamber &#181;mol per m2 per sec
+
+&#179; from LI6400XT	Measured between day 57 and 62 after sowing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230259"><attributeName>SLA</attributeName>
+ <attributeDefinition>Specific leaf areacm&#178; per g dry weight</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>mole</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230269"><attributeName>Density_bottom</attributeName>
+ <attributeDefinition>Stomatal density at the bottom side of the leaf
+number per mm&#178;</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230279"><attributeName>Density_top</attributeName>
+ <attributeDefinition>Stomatal density at the top side of the leaf
+number per mm&#178;</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230289"><attributeName>Leaf_width</attributeName>
+ <attributeDefinition>Leave width at the widest point of the leaf</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395307230299"><attributeName>Vein_den</attributeName>
+ <attributeDefinition>Leaf vein density at the widest point of the leaf
+veins per mm</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>135</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>Poster_2013.pdf</entityName>
+ <physical><objectName>Poster_2013.pdf</objectName>
+ <size unit="byte">426280</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1395307350508"><online><url function="download">ecogrid://knb/judithk.109979.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Talk_2014.pdf</entityName>
+ <physical><objectName>Talk_2014.pdf</objectName>
+ <size unit="byte">1795317</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1395307359557"><online><url function="download">ecogrid://knb/judithk.109980.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Final Research Report 2013_LRose.docx</entityName>
+ <physical><objectName>Final Research Report 2013_LRose.docx</objectName>
+ <size unit="byte">110993</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1395307367637"><online><url function="download">ecogrid://knb/judithk.109981.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

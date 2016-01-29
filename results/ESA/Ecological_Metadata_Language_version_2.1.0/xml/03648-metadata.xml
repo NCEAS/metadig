@@ -1,0 +1,138 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.89.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier system="University of Wyoming, Department of Zoology and Physiology">All Location Data.txt</alternateIdentifier>
+<title>ZIP codes of Ecological Society of America members (2008)</title>
+<creator>
+<organizationName>University of Wyoming, Department of Zoology and Physiology</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Benjamin</givenName>
+<surName>Koch</surName>
+</individualName>
+<organizationName>University of Wyoming, Department of Zoology and Physiology</organizationName>
+<address>
+<deliveryPoint>1000 E. University Ave.
+Dept 3166
+</deliveryPoint>
+<city>Laramie</city>
+<administrativeArea>Wyoming</administrativeArea>
+<postalCode>82071</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>bkoch@uwyo.edu</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Benjamin</givenName>
+<surName>Koch</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Benjamin</givenName>
+<surName>Koch</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>John</givenName>
+<surName>Pokallus</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Grant</givenName>
+<surName>Campbell</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Jonathan</givenName>
+<surName>Pauli</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2011-08-10</pubDate>
+<abstract>
+<para>This data includes the addresses (city, state, and ZIP code) of all Ecological Society of America Members in the year 2008.  This data was compiled to map an index of the spatial distribution of ecologists throughout the United States.</para>
+</abstract>
+<keywordSet>
+<keyword>ecologist</keyword>
+<keyword>ZIP code</keyword>
+<keyword>Ecological Society of America</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2008-03-07</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2008-03-07</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>global</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-125.0000</westBoundingCoordinate>
+<eastBoundingCoordinate>-66.0000</eastBoundingCoordinate>
+<northBoundingCoordinate>50.0000</northBoundingCoordinate>
+<southBoundingCoordinate>24.0000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Benjamin</givenName>
+<surName>Koch</surName>
+</individualName>
+<organizationName>University of Wyoming, Department of Zoology and Physiology</organizationName>
+<address>
+<deliveryPoint>1000 E. University Ave.
+Dept 3166
+</deliveryPoint>
+<city>Laramie</city>
+<administrativeArea>Wyoming</administrativeArea>
+<postalCode>82071</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>bkoch@uwyo.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Data request from ESA</title>
+<para>We compiled this data by requesting only the city, state, and ZIP code fields of addresses for all current Ecological Society of America (ESA) members.  We requested this information on March 7, 2008 from the ESA membership office.</para>
+</section></description></methodStep>
+</methods>
+</dataset></ns0:eml>

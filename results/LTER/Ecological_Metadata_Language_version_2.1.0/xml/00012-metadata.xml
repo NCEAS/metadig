@@ -1,0 +1,267 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.178.7" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF178">
+    <alternateIdentifier>HF178</alternateIdentifier>
+    <title>Stream Suspended Sediment and Particulate Organic Matter at Harvard Forest since 2009</title>
+    <creator>
+      <individualName>
+        <givenName>Sara Gran</givenName>
+        <surName>Mitchell</surName>
+      </individualName>
+    </creator>
+    <pubDate>2011</pubDate>
+    <abstract>
+      <section>
+        <para>In addition to conveying water and nutrients and providing habitat to a variety of ecosystems, streams transport downstream mineral sediment and other particulate matter washed in from hillslopes and eroded from its channel and banks.  At high levels, suspended sediment can be a devastating pollutant for aquatic organisms. The amount of suspended material in a stream varies tremendously with discharge; typically, suspended sediment increases with discharge, as stormwater runoff and overland flow carry particles from the hillslopes into the channel. Suspended sediment can also be a function of land use and vegetation, both of which affect the infiltration capacity of the landscape; more infiltration generally means less surface runoff and thus less sediment. Forested watersheds such as the Bigelow Brook watershed will typically have less suspended sediment than similar watersheds in urban environments. By analyzing how suspended sediment varies with discharge, I will be able to compare the relative effectiveness of overland flow of stormwater in washing materials into the streams. It is also possible that tree loss due to the wooly adelgid, ice storms, or fire in the watershed may increase the amount of sediment to Bigelow Brook, as a loss in tree canopy may result in more soil erosion due to rain splash and more water overall reaching the stream. For this reason, I hope to continue monitoring sediment in Bigelow Brook for an extended period of time to record any significant changes due to changing vegetation. Furthermore, by determining how much of the suspended sediment consists of particulate organic matter (using standard LOI techniques), I will be able to estimate the net carbon export from the two watersheds via that pathway. Preliminary, back-of-the-envelope calculations suggest that as much as 3-5% of the total annual carbon export leaves the Harvard Forest watershed via stream-transported particulate organic matter. To this end, I propose to measure suspended sediment and particulate organic matter in Bigelow Brook over the next several years, and compare these data with those collected in an urban setting; Beaver Brook in Worcester. This work will be conducted at Harvard Forest by me (Sara Mitchell) and undergraduate researchers from the College of the Holy Cross, in Worcester, MA.</para>
+        <para>Harvard Forest is an ideal site for this analysis. First, the area is protected from development, contains few roads, no storm drains, and very little infrastructure, and thus represents as close to a "natural" and undisturbed setting as can be found in New England. While the area certainly has been disturbed in the past, the land use history is well-documented and mapped. Second, the site has a great combination of being accessible by car yet protected from the general public. Third and most importantly, the site already has an outstanding hydrological data collection system and existing data set, with precipitation and discharge measured every 15 minutes for the past several years. With any project that involves comparing a variable to discharge, one of the most difficult data sets to collect is the discharge data.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>hydrology</keyword>
+      <keyword>organic matter</keyword>
+      <keyword>sediments</keyword>
+      <keyword>stream discharge</keyword>
+      <keyword>suspended solids</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>inorganic nutrients</keyword>
+      <keyword>organic matter</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf178</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-72.20</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.17</eastBoundingCoordinate>
+          <northBoundingCoordinate>+42.55</northBoundingCoordinate>
+          <southBoundingCoordinate>+42.53</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>280</altitudeMinimum>
+            <altitudeMaximum>420</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing />
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2009-09-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-03-26</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Sara Gran</givenName>
+        <surName>Mitchell</surName>
+      </individualName>
+      <organizationName>College of the Holy Cross</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology, PO Box B</deliveryPoint>
+        <deliveryPoint>1 College Street</deliveryPoint>
+        <city>Worcester</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01610</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 793-3420</phone>
+      <electronicMailAddress>smitchel@holycross.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>Water samples (0.5L) are collected with a US DH-48 integrated depth sampler. Samples are collected by wading into the stream and lowering the sampler through the water column. The date, time, and location of each sample is recorded.</para>
+            <para>Samples are analyzed for SSC using standard vacuum filtration methods. POM is measured from the same filters using standard loss-on-ignition methods.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="hf178-01">
+      <entityName>hf178-01-SSC-POM.csv</entityName>
+      <entityDescription>SSC and POM</entityDescription>
+      <physical id="1322511749888">
+        <objectName>hf178-01-SSC-POM.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/178/7/4f37d4f72b28eec31fc3c4435b780180</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1322511966622">
+          <attributeName>date</attributeName>
+          <attributeDefinition>date of sampling</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1322511966638">
+          <attributeName>time</attributeName>
+          <attributeDefinition>time of sampling, in hh:mm (12-hour clock)</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1322511966653">
+          <attributeName>location</attributeName>
+          <attributeDefinition>location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF1</code>
+                    <definition>upper Bigelow Brook weir</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HF2</code>
+                    <definition>lower Bigelow Brook weir</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1322511966669">
+          <attributeName>ssc</attributeName>
+          <attributeDefinition>suspended sediment concentration</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1322511966685">
+          <attributeName>pom</attributeName>
+          <attributeDefinition>particulate organic matter</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>20</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>ongoing</status>
+        <researchTopic>watershed</researchTopic>
+        <studyType>short-term measurement</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <additionalLinks>
+        <url name="Prospect Hill Hydrological Stations at Harvard Forest since 2005">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf070</url>
+      </additionalLinks>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

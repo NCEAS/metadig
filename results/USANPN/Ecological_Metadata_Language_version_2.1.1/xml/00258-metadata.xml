@@ -1,0 +1,633 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="USA_NPN.4.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+	<access authSystem="knb" order="allowFirst" scope="document">
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset scope="document">
+		<title>USA National Phenology Network (USA-NPN) Plant and Animal Phenology Data for the United States, 2008</title>
+		<creator id="1364408538107" scope="document">
+			<organizationName>USA National Phenology Network (USA-NPN)</organizationName>
+			<address scope="document">
+				<deliveryPoint>National Coordinating Office</deliveryPoint>
+				<deliveryPoint>1955 E. Sixth St.</deliveryPoint>
+				<city>Tucson</city>
+				<administrativeArea>AZ</administrativeArea>
+				<postalCode>85721</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">520-626-3821</phone>
+			<electronicMailAddress>nco@usanpn.org</electronicMailAddress>
+		</creator>
+		<associatedParty id="1364410795268" scope="document">
+			<individualName>
+				<givenName>Alyssa</givenName>
+				<surName>Rosemartin</surName>
+			</individualName>
+			<organizationName>USA National Phenology Network</organizationName>
+			<positionName>Assistant Director, IT &amp; Communications Coordinator</positionName>
+			<address scope="document">
+				<city>Tucson</city>
+				<administrativeArea>AZ</administrativeArea>
+				<postalCode>85721</postalCode>
+			</address>
+			<role>Author</role>
+		</associatedParty>
+		<abstract>
+			<para>In response to the growing need to understand the response of plant and animal species to environmental variation and climate change and to develop a widespread baseline against which future phenological change may be measured, a consortium of scientists and agencies organized the USA-NPN, with a mandate to collect and share phenology data. More information on the USA-NPN can be found at http://www.usanpn.org/about.
+
+As of January 1, 2013, the dataset contains phenology data on 591 species of plants and animals, with 7,512 locations registered across the United States. Protocols used are documented in Denny et. al., Submitted (contact nco@usanpn.org for more information). Data were collected using the phenophase status approach (Thomas et. al., 2010; Denny et. al. Submitted). Latitude and longitude given in WGS84 Datum. This is a suite of yearly data sets (Plants beginning in 2009, Animals beginning in 2010) each provided with and without full phenophase definitions.
+
+Supplemental Information:
+Denny, E.G., K.L. Gerst, A.J. Miller-Rushing, G.L. Tierney, T.M. Crimmins, C.A.F. Enquist, P. Guertin, A.H. Rosemartin, M.D. Schwartz, K.A. Thomas and J.F. Weltzin. Submitted. Standardized phenology monitoring methods to track plant and animal activity for science and resource management applications. 
+
+Thomas, K.A., E.G. Denny, A.J. Miller-Rushing, T.M. Crimmins, and J.F. Weltzin. 2010. The National Phenology Monitoring System v0.1. USA-NPN Technical Series 2010-001. www.usanpn.org.</para>
+		</abstract>
+		<keywordSet>
+			<keyword>plants</keyword>
+			<keyword>animals</keyword>
+			<keyword>ground stations</keyword>
+			<keyword>migratory routes/rates</keyword>
+			<keyword>species life history</keyword>
+			<keyword>biosphere</keyword>
+			<keyword>biota</keyword>
+			<keyword>phenology</keyword>
+		</keywordSet>
+		<intellectualRights>
+			<para>The USA-NPN National Coordinating Office (nco@usanpn.org), referred to as the &#8220;USA-NPN,&#8221; as operator of the USA-NPN Website, requires all users, referred to as &#8220;Users,&#8221; who have access to USA-NPN data via the Website to abide by the following terms of this USA-NPN Data Use Policy. 1. Data accessible via the USA-NPN National Phenology Database and Site are openly and universally available to all users. 2. The USA-NPN is not responsible for data content or the use of the data. 3. Neither the USA-NPN nor its employees or contractors is liable or responsible for the content of data, or for any loss, damage, claim, cost, or expense, however it may arise, from an inability to use the USA-NPN National Phenology Database and Site. 4. The USA-NPN disclaims all liability for and makes no warranties, expressed or implied, with respect to these products and their manufacturers, including without limitation, any implied warranties or merchantability or fitness for a particular purpose. 5. While substantial efforts are made to ensure the accuracy of USA-NPN data and documentation contained in a data set, complete accuracy of data and metadata cannot be guaranteed. All USA-NPN data and metadata are made available &#8220;as is.&#8221; Users of USA-NPN data hold all parties involved in the production and distribution of a data set harmless for damages resulting from its use or interpretation.  Disclaimer: While substantial efforts are made to ensure the accuracy of USA-NPN data and documentation contained in a data set, complete accuracy of data and metadata cannot be guaranteed. All USA-NPN data and metadata are made available "as is." Users of USA-NPN data hold all parties involved in the production and distribution of a data set harmless for damages resulting from its use or interpretation.</para>
+		</intellectualRights>
+		<coverage scope="document">
+			<geographicCoverage scope="document">
+				<geographicDescription>United States</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-124.36</westBoundingCoordinate>
+					<eastBoundingCoordinate>-52.78</eastBoundingCoordinate>
+					<northBoundingCoordinate>49.25</northBoundingCoordinate>
+					<southBoundingCoordinate>29.53</southBoundingCoordinate>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage scope="document">
+				<singleDateTime>
+					<calendarDate>2008</calendarDate>
+				</singleDateTime>
+			</temporalCoverage>
+		</coverage>
+		<contact id="1364408644837" scope="document">
+			<individualName>
+				<givenName>Ellen</givenName>
+				<surName>Denny</surName>
+			</individualName>
+			<positionName>Monitoring Design and Data Coordinator</positionName>
+			<address scope="document">
+				<deliveryPoint>USA National Phenology Network</deliveryPoint>
+				<city>Tucson</city>
+				<administrativeArea>AZ</administrativeArea>
+				<postalCode>85721</postalCode>
+			</address>
+			<phone phonetype="voice">207-475-2365</phone>
+		</contact>
+		<methods>
+			<methodStep>
+				<description>
+					<section>
+						<title>Join Nature's Notebok</title>
+						<para>Create an account at www.nn.usanpn.org with email and password.</para>
+					</section>
+				</description>
+			</methodStep>
+			<methodStep>
+				<description>
+					<section>
+						<title>Choose a site</title>
+						<para>A site is the area within which you will look for your chosen animal species, and which encompasses any plants you choose to observe. When you select a site, such as your yard or a nearby natural area, consider these guidelines:</para>
+						<para>Convenience: You will be visiting your site(s) regularly, so it should be convenient and easily accessible. Consider your yard or another area that your visit frequently.</para>
+						<para>Representative location: As much as is practical, the selected site(s) should be representative of the environmental conditions for your area.</para>
+						<para>Uniform habitat: The conditions of your selected site(s) should be relatively uniform across the site. If you would like to observe two adjacent but distinct habitats, please document them as separate sites. For example, a wetland adjacent to or surrounded by a drier grassland or forest should be documented as a separate site from the grassland or forest.</para>
+						<para>Appropriate size: A site should be no larger than 15 acres (6 hectares or 250 x 250 meters), a square with sides the length of 2 &#189; football fields. A site can certainly be smaller than this, and larger areas can be divided into multiple sites.</para>
+						<para>Proper permission: If you do not own the property where the site is located, you must get permission from the landowner before marking the site, the plants or reporting the site location information (such as latitude/longitude coordinates).</para>
+						<para>You may want to mark your site, so that you can find it again in the future.</para>
+					</section>
+				</description>
+			</methodStep>
+			<methodStep>
+				<description>
+					<section>
+						<title>Select species to observe</title>
+						<para>Select species to observe from the online list of species. https://www.usanpn.org/nn/species_search</para>
+					</section>
+				</description>
+			</methodStep>
+			<methodStep>
+				<description>
+					<section>
+						<title>Make observations and enter them online</title>
+						<para>Print paper datasheets and enter the data online or enter observations directly to smartphone app. Each data record contains the following information:</para>
+						<para>Phenophase status record</para>
+						<para>Each record gives the status of a phenophase for given species (for animals) or individual organism (plants), phenophase, location and day. (Source: Denny, E.G., K.L. Gerst, A.J. Miller-Rushing, G.L. Tierney, T.M. Crimmins, C.A.F. Enquist, P. Guertin, A.H. Rosemartin, M.D. Schwartz, K.A. Thomas and J.F. Weltzin. Submitted. Standardized phenology monitoring methods to track plant and animal activity for science and resource management applications.)</para>
+					</section>
+				</description>
+			</methodStep>
+			<sampling>
+				<studyExtent>
+					<description>
+						<para>N/A</para>
+					</description>
+				</studyExtent>
+				<samplingDescription>
+					<para>N/A</para>
+				</samplingDescription>
+			</sampling>
+		</methods>
+		<dataTable id="1365619814788" scope="document">
+			<entityName>USA-NPN Plant and Animal Species List</entityName>
+			<entityDescription>List of species availabe for observation either through the USA-NPN's Nature's Notebook program, or as part of an integrated dataset. List may also be found at https://www.usanpn.org/nn/species_search.</entityDescription>
+			<physical scope="document">
+				<objectName>NN_species_list_2013.xls</objectName>
+				<dataFormat>
+					<externallyDefinedFormat>
+						<formatName>application/vnd.ms-excel</formatName>
+					</externallyDefinedFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url>https://mynpn.usanpn.org/knb/d1/mn/object/USANPN_SPECIES_LIST.1</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute id="1365619814789" scope="document">
+					<attributeName>Kingdom</attributeName>
+					<attributeDefinition>Animalia or Plantae</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Kingdom name.</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1365619814790" scope="document">
+					<attributeName>Group</attributeName>
+					<attributeDefinition>Group to which the plant or animal belongs.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Taxa name.</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1365619814791" scope="document">
+					<attributeName>Focal Species</attributeName>
+					<attributeDefinition>The Species and Protocols Group (S&amp;P) applied a combination of desired criteria and applications to a comprehensive plant database (http://www.natureserve.org/explorer/) and has developed a list of about 150 species, which will be vetted by participating networks and programs. The primary goal of this selection is to establish a baseline of phenological patterns for plants and animals across the nation, help monitor and detect phenological responses to climate change, immediately demonstrate the national scope of network, and engage the largest possible number of participants within a backbone network.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>x</code>
+										<definition>means the species is a focal species</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1365619814792" scope="document">
+					<attributeName>Genus</attributeName>
+					<attributeDefinition>The genus to which the species belongs.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Genus name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1365619814793" scope="document">
+					<attributeName>Species</attributeName>
+					<attributeDefinition>Species name.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Species name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1365619814794" scope="document">
+					<attributeName>Common_Name</attributeName>
+					<attributeDefinition>Common name of the species.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Common name of the species</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1365619814795" scope="document">
+					<attributeName>URL</attributeName>
+					<attributeDefinition>Website on usanpn.org/nn that contains the protocol for the species.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Website url for the species protocol.</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+			</attributeList>
+		</dataTable>
+		<dataTable id="1379455582761" scope="document">
+			<entityName>USA National Phenology Network (USA-NPN) Plant and Animal Phenology Data for the United States, 2008</entityName>
+			<entityDescription>The entire dataset from January 1, 2008 through December 31, 2008.</entityDescription>
+			<physical scope="document">
+				<objectName>NN_data_2008.xlsx</objectName>
+				<dataFormat>
+					<textFormat>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url>https://mynpn.usanpn.org/knb/d1/mn/object/NN_data_2008.0</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute id="1379455582762" scope="document">
+					<attributeName>Observation_ID</attributeName>
+					<attributeDefinition>The unique identifier for each record in this data set, and the primary key in the observation table of the National Phenology Database.</attributeDefinition>
+					<measurementScale>
+						<ordinal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Sequential, unique identifier for each record submitted to the database</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</ordinal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582763" scope="document">
+					<attributeName>Observation_Date</attributeName>
+					<attributeDefinition>The date the observation was made.</attributeDefinition>
+					<measurementScale>
+						<dateTime>
+							<formatString>YYYY-MM-DD</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582764" scope="document">
+					<attributeName>Observation_Time</attributeName>
+					<attributeDefinition>The time the observation was made.</attributeDefinition>
+					<measurementScale>
+						<dateTime>
+							<formatString>hh:mm:ss</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582765" scope="document">
+					<attributeName>Day_of_Year</attributeName>
+					<attributeDefinition>The day of the year the observation was made.</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>nominalDay</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>natural</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582766" scope="document">
+					<attributeName>Site_ID</attributeName>
+					<attributeDefinition>The unique identifier for the site at which the observation was recorded.</attributeDefinition>
+					<measurementScale>
+						<ordinal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>number</code>
+										<definition>Sequential, unique identifier</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</ordinal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582767" scope="document">
+					<attributeName>Latitude</attributeName>
+					<attributeDefinition>The latitude of the observation location (site).</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<standardUnit>degree</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582768" scope="document">
+					<attributeName>Longitude</attributeName>
+					<attributeDefinition>The longitude of the observation location (site).</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<standardUnit>degree</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>real</numberType>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582769" scope="document">
+					<attributeName>Phenophase_Status</attributeName>
+					<attributeDefinition>The yes, no, or uncertain value for a phenophase.</attributeDefinition>
+					<measurementScale>
+						<ordinal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>-1</code>
+										<definition>Uncertain if the phenophase is occuring</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>1</code>
+										<definition>The phenophase is occuring</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>0</code>
+										<definition>The phenophase is not occuring</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</ordinal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582770" scope="document">
+					<attributeName>Elevation</attributeName>
+					<attributeDefinition>The elevation, in meteres, of the observation location (from USGS web service, or free-form entered by the user).</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>meter</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>natural</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582771" scope="document">
+					<attributeName>State</attributeName>
+					<attributeDefinition>The United State postal code, or Canadian province code, in which the observation was made.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>United State, given as 2 letter postal code e.g. AK</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582772" scope="document">
+					<attributeName>Genus</attributeName>
+					<attributeDefinition>The genus name of the organism on which the observation was made.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Genus name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582773" scope="document">
+					<attributeName>Species</attributeName>
+					<attributeDefinition>The species name of the organism on which the observation was made.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Species name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582774" scope="document">
+					<attributeName>Common_Name</attributeName>
+					<attributeDefinition>The common name of the species observed.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Common name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582775" scope="document">
+					<attributeName>Individual_ID</attributeName>
+					<attributeDefinition>The unique identifier for tha plant or animal species for which the observation is about. For animals, the number definies the species; for plants, the number defines the individual plant.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>number</code>
+										<definition>Unique identifier</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582776" scope="document">
+					<attributeName>Phenophase_ID</attributeName>
+					<attributeDefinition>Unique identifier for the phenophase name</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<entityCodeList>
+										<entityReference>1379457136165</entityReference>
+										<valueAttributeReference>1379457136166</valueAttributeReference>
+										<definitionAttributeReference>1379457136168</definitionAttributeReference>
+									</entityCodeList>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582777" scope="document">
+					<attributeName>Phenophase_Name</attributeName>
+					<attributeDefinition>The title for each phenophase</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>The title for each phenophase</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582778" scope="document">
+					<attributeName>Intensity_Category_ID</attributeName>
+					<attributeDefinition>The category description for the Intensity_Question.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>The category description for the Intensity_Question.</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582779" scope="document">
+					<attributeName>Intensity_Question</attributeName>
+					<attributeDefinition>The question asked of the observer about the intensity or abundance of the phenophase observed.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Questions about the intensity or abundance of the phenophase observed.</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582780" scope="document">
+					<attributeName>Intensity_Value</attributeName>
+					<attributeDefinition>Bin of values reported to answer the Intensity_Question for plant species.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Bin of values</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582781" scope="document">
+					<attributeName>Raw_Abundance_Value</attributeName>
+					<attributeDefinition>Number of individual animals observed in the phenophase asked in the Intensity_Question. A value of-1 means either no value is reported, or that species/phenophase doesn't support raw abundance.</attributeDefinition>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>dimensionless</standardUnit>
+							</unit>
+							<numericDomain>
+								<numberType>integer</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379455582782" scope="document">
+					<attributeName>Species_Types</attributeName>
+					<attributeDefinition>Group names to which the species being observed belongs.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Group names to which the species being observed belongs</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+			</attributeList>
+		</dataTable>
+		<dataTable id="1379457136165" scope="document">
+			<entityName>USA-NPN Phenophase Definitions</entityName>
+			<entityDescription>Defines which phenophases to which the Phenophase_ID corresponds, as certain phenophase names have changee over time. Also gives a description of each phenophase.</entityDescription>
+			<physical scope="document">
+				<objectName>Phenophase_ID_definitions_table.csv</objectName>
+				<dataFormat>
+					<textFormat>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url>https://mynpn.usanpn.org/knb/d1/mn/object/USANPN_PHENOPHASE_LIST.1</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute id="1379457136166" scope="document">
+					<attributeName>Phenophase_ID</attributeName>
+					<attributeDefinition>The unique identifier for the phenophase.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>number</code>
+										<definition>Unique identifier</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379457136167" scope="document">
+					<attributeName>Phenophase_Name</attributeName>
+					<attributeDefinition>The title of the phenophase.</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Title of the phenophase</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="1379457136168" scope="document">
+					<attributeName>Description</attributeName>
+					<attributeDefinition>The description of the phenophase</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Description of the phenophase</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+			</attributeList>
+		</dataTable>
+	</dataset>
+</ns0:eml>

@@ -1,0 +1,430 @@
+<metadata><Source>http://www1.usgs.gov/metadata/mdata/vip/metacarlspatial.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Center for Remote Sensing and Mapping Science - University of Georgia</origin>
+        <origin>USGS/CSS/BIP/Center for Biological Informatics</origin>
+        <pubdate>Metadata created 3-13-07; data released 2005</pubdate>
+        <title>Carl Sandburg Home National Historic Site Vegetation Mapping Project - Spatial Vegetation Data</title>
+        <geoform>vector digital data</geoform>
+		<onlink>http://gis1.usgs.gov/arcgis/rest/services/nvcp/Carl_Sandburg_Home_NHS/MapServer</onlink>
+        <onlink>http://www1.usgs.gov/vip/carl/carlgeodata.zip</onlink>
+        <onlink>http://viewer.nationalmap.gov/viewer/?p=default&amp;b=base1&amp;q=http%3A%2F%2Fgis1.usgs.gov%2Farcgis%2Frest%2Fservices%2Fnvcp%2FCarl_Sandburg_Home_NHS%2FMapServer&amp;x=-9178580.649&amp;y=4200336.15165&amp;l=15&amp;sc=0&amp;v=</onlink>
+        <onlink>doi:10.5066/F7X92879</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Carl Sandburg Home NHS Vegetation Data</abstract>
+      <purpose>Detailed vegetation mapping for natural resource inventory and management.</purpose>
+      <supplinf>The Shapefile was imported to a file geodatabase by the USGS/CSS/BIP/Center for Biological Informatics.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20021102</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Carl Sandburg Home National Historic Site and environs</descgeog>
+      <bounding>
+        <westbc>-82.461235</westbc>
+        <eastbc>-82.443912</eastbc>
+        <northbc>35.274788</northbc>
+        <southbc>35.260895</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Vegetation Map</themekey>
+      </theme>
+      <theme>
+        <themekt>National Park Service Theme Category Thesaurus</themekt>
+        <themekey>Vegetation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Carl Sandburg Home NHS</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Standardized National Vegetation Classification System</taxonkey>
+        <taxonkey>vegetation classification</taxonkey>
+        <taxonkey>alliance</taxonkey>
+        <taxonkey>community association</taxonkey>
+      </keywtax>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Plantae</taxonrv>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tommy Jordan / Marguerite Madden</cntper>
+          <cntorg>Center for Remote Sensing and Mapping Science, University of Georgia</cntorg>
+        </cntperp>
+        <cntpos>Assoc Director / Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Dept of Geography/University of Georgia</address>
+          <city>Athens</city>
+          <state>GA</state>
+          <postal>30602</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>706-542-2372</cntvoice>
+        <cntvoice>706-542-2379</cntvoice>
+        <cntfax>706-542-2388</cntfax>
+        <cntemail>tombob@uga.edu</cntemail>
+        <cntemail>mmadden@uga.edu</cntemail>
+        <hours>0900 - 1700 M-F</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+  </idinfo>
+  <dataqual>
+    <logic>Unknown</logic>
+    <complete>Unknown</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal accuracy is designed to meet NMAS for the published map scale (1:14,000) - horizontal accuracy of well-defined points is approximately 4-5 meters. It should be noted that many of the polygon edge represent fuzzy boundaries or ecotones and, while interpreted as accurately as possible, these boundaries do not correspond to the same accuracy standards as the well-defined points described in the National Map Accuracy Standards.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Unknown</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Unknown</title>
+            <geoform>photo</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>16,000</srcscale>
+        <typesrc>Color-infrared aerial photographs</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20021102</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>photos</srccitea>
+        <srccontr>Unknown</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Vegetation polygons were delineated from 1:16,000 color aerial photographs recorded on Nov 2, 2002. The overlays were orthorectified to photogrammetric control and then converted to vector GIS Layers. After editing, the individual photo coverages were edgematched and attributed to create the final GIS vegetation layer.</procdesc>
+        <srcused>\\MARYVILLE1\tj_laptop_c\CUGA\Geodatabase\Cumberland_Gap_Final.mdb</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>C:\DOCUME~1\tombob\LOCALS~1\Temp\xml2D7.tmp</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The shapefile was imported into a geodatabase by the USGS/CSS/BIP/Center for Biological Informatics.</procdesc>
+        <procdate>201104</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <procdate>201104</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>189</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>17</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-81.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CARL_VegPolys</enttypl>
+        <enttypd>Feature class attribute table</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Poly_ID</attrlabl>
+        <attrdef>Unique identifier for each polygon</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Unique plot code.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MapUnit_ID</attrlabl>
+        <attrdef>Code used to represent the Map Unit</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Map unit code.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MapUnit_Name</attrlabl>
+        <attrdef>Full Map Unit name</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Map unit association common name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X_Centroid</attrlabl>
+        <attrdef>X Coordinate (UTM Easting) of the centroid of the polygon</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Easting coordinate.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y_Centroid</attrlabl>
+        <attrdef>Y Coordinate (UTM Northing) of the centroid of the polygon</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Northing coordinate.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>Area (unknown units)</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hectares</attrlabl>
+        <attrdef>Perimeter (unknown units)</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RuleID</attrlabl>
+        <attrdef>Rule identification</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Textual rule identification name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Override</attrlabl>
+        <attrdef>Unknown field created by originator but not documented.</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Blob.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>rc_VegPolys_tVegMapInfo</enttypl>
+        <enttypd>Defines relationship between Veg polygons and basic vegetation attributes</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+    </detailed>
+    <overview>
+      <eaover>Carl Sandburg Home National Historic Site Vegetation Map Community Legend
+Temperate Needle-Leaved Evergreen Woodland 7097 Blue Ridge Table Mountain
+Pine - Pitch Pine Woodland (Typic Type)
+
+Mixed Needle-Leaved Evergreen Cold-Deciduous Forest 7519 Appalachian White
+Pine - Xeric Oak Forest 8427 Appalachian Shortleaf Pine - Mesic Oak Forest
+7543 Southern Appalachian Acid Cove Forest (Typic Type)
+
+Sub-Montane Cold-Deciduous Forest 7267 Appalachian Montane Oak Hickory
+Forest (Chestnut Oak Type) 6271 Chestnut Oak Forest (Xeric Ridge Type)
+6286 Chestnut Oak Forest (Mesic Slope Health Type) 7230 Appalachian
+Montane Oak - Hickory Forest (Typic Acidic Type) 6192 Appalachian Montane
+Oak - Hickory Forest (Red Oak Type) 7221 Tuliptree - Hardwood Successional
+Forest
+
+Temperate Needle-Leaved Evergreen Forest 7944 Eastern White Pine
+Successional Forest 4048 Cultivated meadow - Lolium (arudinaceum,
+pretense) Herbaceous Vegetation 4112 Juncus effusus Seasonally Flooded
+Herbaceous Vegetation
+
+Granitic Dome Complex 7690 Appalachian Low-Elevation Granitic Dome 7690x
+Appalachian Low-Elevation Granitic Dome Complex with White Pine and Shrubs
+
+Open Water and Rooted Vegetation (Low Vegetation Cover) 2386 Water Lily
+Aquatic Wetland W Pond, Man-Made
+Additional Categories Sb Shrub Dd Dead C Culturally Modified Vegetation E
+Exotic Species O Old Orchard Home Carl Sandburg Home Bld Building Rd
+Roadway
+
+Special Modifiers Ar Red Maple (Acer rubrum) B Bamboo (Phyllostachys spp.)
+Jn Black Walnut (Junglans nigra) Jv Red Cedar (Juniper virginiana) Lj
+Japanese Honeysuckle (Lonicera japonica) Ls Chinese Privet (Ligustrum
+sinense) Lt Tuliptree (Liriodendron tulipifera) PIe Shortleaf Pine (Pinus
+echinata) PIr Pitch Pine (Pinus rigida) PIs White Pine (Pinus strobus) Po
+American Sycamore (Plantanus occidentalis) Q Mixed Oak (Quercus spp.) Qa
+White Oak (Quercus alba) Qc Scarlet Oak (Quercus coccinea) Qp Chestnut Oak
+(Quercus prinus) Rm Multiflora Rose (Rosa multiflora) Tc Eastern Hemlock
+(Tsuga canadensis) Up Siberian Elm (Ulnus pumila)</eaover>
+      <eadetcit>MMU = 0.5 ha</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>(303) 202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>The U.S. Geological Survey and the National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics (if available) are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  Any related graphics (if available) are intended to aid the data user in acquiring relevant data; it is not approriate to use the related graphics as data.
+
+The U.S. Geological Survey and the National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>HTML</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.usgs.gov/core_science_systems/csas/vip/parks/carl.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Internet Access</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20080519</metd>
+    <metrd>20110411</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>(303) 202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metextns>
+      <onlink>http://www.usgs.gov/core_science_systems/csas/metadata/index.html</onlink>
+    </metextns>
+  </metainfo>
+</metadata>

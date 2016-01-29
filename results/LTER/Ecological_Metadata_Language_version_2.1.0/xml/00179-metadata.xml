@@ -1,0 +1,2095 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.85.14" scope="system" system="hfr" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+   <access authSystem="knb" order="allowFirst" scope="document">
+      <allow>
+         <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset id="HF085">
+      <alternateIdentifier>HF085</alternateIdentifier>
+      <title>Avian Response to Hemlock Woolly Adelgid in Southern New England 2000-2001</title>
+      <creator>
+         <individualName>
+            <givenName>David</givenName>
+            <surName>Orwig</surName>
+         </individualName>
+      </creator>
+      <creator>
+         <individualName>
+            <givenName>Glenn</givenName>
+            <surName>Motzkin</surName>
+         </individualName>
+      </creator>
+      <associatedParty>
+         <individualName>
+            <givenName>Rebecca</givenName>
+            <surName>Field</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <associatedParty>
+         <individualName>
+            <givenName>Morgan</givenName>
+            <surName>Tingley</surName>
+         </individualName>
+         <role>Researcher</role>
+      </associatedParty>
+      <pubDate>2006</pubDate>
+      <abstract>
+         <section>
+            <para>This study examines changes in avian community composition associated with the decline and loss of eastern hemlock (Tsuga canadensis (L.) Carr.) resulting from chronic hemlock woolly adelgid (Adelges tsugae Annand; HWA) infestations. Overstory hemlock mortality was highly correlated with avian community composition.  Abundance of eastern wood-pewee (Contopus virens), brown-headed cowbird (Molothrus ater), tufted titmouse (Baeolophus bicolor), white-breasted nuthatch (Sitta carolinensis), red-eyed vireo (Vireo olivaceus),hooded warbler (Wilsonia citrina), and several woodpecker species was highest at points with greater than 60% mortality.  Black-throated green warbler (Dendroica virens), Acadian flycatcher (Empidonax virescens), blackburnian warbler (Dendroica fusca), and hermit thrush (Catharus guttatus) were strongly associated with intact hemlock stands that exhibit little or no mortality from HWA.  Eastern hemlock has unique structural characteristics that provide important habitat for numerous bird species in the northeastern U.S.  As a result, removal of hemlock by HWA has profound effects on avian communities.  Black-throated green warbler, blackburnian warbler, and Acadian flycatcher are very strongly associated with hemlock forests in southern New England and appear to be the species that are particularly sensitive to hemlock removal.  The hooded warbler, a species whose status is of regional concern, may actually benefit from the development of a dense seedling layer associated with high hemlock mortality.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>birds</keyword>
+         <keyword>community composition</keyword>
+         <keyword>forest disturbance</keyword>
+         <keyword>hemlock</keyword>
+         <keyword>hemlock woolly adelgid</keyword>
+         <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>disturbance</keyword>
+         <keywordThesaurus>LTER core area</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Harvard Forest</keyword>
+         <keyword>HFR</keyword>
+         <keyword>LTER</keyword>
+         <keyword>USA</keyword>
+         <keywordThesaurus>HFR default</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf085</url>
+         </online>
+      </distribution>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Central Connecticut</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-72.73</westBoundingCoordinate>
+               <eastBoundingCoordinate>-72.25</eastBoundingCoordinate>
+               <northBoundingCoordinate>+41.99</northBoundingCoordinate>
+               <southBoundingCoordinate>+41.28</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2000-06-01</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2001-08-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+         <taxonomicCoverage>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Adelges</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>tsugae</taxonRankValue>
+                  <commonName>hemlock woolly adelgid</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Betula</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>lenta</taxonRankValue>
+                  <commonName>black birch</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Catharus</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>guttatus</taxonRankValue>
+                  <commonName>hermit thrush</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Dendroica</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>fusca</taxonRankValue>
+                  <commonName>blackburnian warbler</commonName>
+               </taxonomicClassification>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>virens</taxonRankValue>
+                  <commonName>black-throated green warbler</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Empidonax</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>virescens</taxonRankValue>
+                  <commonName>acadian flycatcher</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+               <taxonRankName>genus</taxonRankName>
+               <taxonRankValue>Tsuga</taxonRankValue>
+               <taxonomicClassification>
+                  <taxonRankName>species</taxonRankName>
+                  <taxonRankValue>canadensis</taxonRankValue>
+                  <commonName>eastern hemlock</commonName>
+               </taxonomicClassification>
+            </taxonomicClassification>
+         </taxonomicCoverage>
+      </coverage>
+      <contact>
+         <individualName>
+            <givenName>David</givenName>
+            <surName>Orwig</surName>
+         </individualName>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <electronicMailAddress>orwig@fas.harvard.edu</electronicMailAddress>
+      </contact>
+      <publisher>
+         <organizationName>Harvard Forest</organizationName>
+         <address>
+            <deliveryPoint>324 North Main Street</deliveryPoint>
+            <city>Petersham</city>
+            <administrativeArea>MA</administrativeArea>
+            <postalCode>01366</postalCode>
+            <country>USA</country>
+         </address>
+         <phone phonetype="voice">(978) 724-3302</phone>
+         <phone phonetype="fax">(978) 724-3595</phone>
+         <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+      </publisher>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>The study was conducted in a 4900 km2 study region extending from Long Island Sound northward to the southern border of Massachusetts and including the Connecticut River Valley in Connecticut, USA. Bird surveys were conducted at 40 points in 12 hemlock stands varying in HWA infestation and overstory mortality levels during the avian breeding seasons of 2000 and 2001.  Ten-minute, 50-m radius point counts were used to survey all birds seen or heard at each point.  Overstory and understory vegetation were sampled at each point.  Indicator species analysis and non-metric multi-dimensional scaling were used to examine relationships between avian community composition and vegetation structure.</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <dataTable id="hf085-01">
+         <entityName>hf085-01-bird.csv</entityName>
+         <entityDescription>bird</entityDescription>
+         <physical id="1182452700683">
+            <objectName>hf085-01-bird.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p08/hf085/hf085-01-bird.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1182452701424">
+               <attributeName>Sample Point</attributeName>
+               <attributeDefinition>sample point</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>sample point</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1182452701434">
+               <attributeName>Mortality Class</attributeName>
+               <attributeDefinition>rating of overstory hemlock mortality</attributeDefinition>
+               <measurementScale>
+                  <ordinal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Low</code>
+                              <definition>0-10% overstory hemlock mortality</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Medium</code>
+                              <definition>11-60% overstory hemlock mortality</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>High-A</code>
+                              <definition>more than 60% hemlock mortality with little black birch regeneration</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>High-B</code>
+                              <definition>more than 60% hemlock mortality with dense black birch regeneration</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </ordinal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1182452701444">
+               <attributeName>ACFL</attributeName>
+               <attributeDefinition>average relative abundance of Acadian flycatcher (Empidonax virescens) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701454">
+               <attributeName>AMCR</attributeName>
+               <attributeDefinition>average relative abundance of American crow (Corvus brachyrhynchos) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701464">
+               <attributeName>AMGO</attributeName>
+               <attributeDefinition>average relative abundance of American goldfinch (Carduelis tristis) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701474">
+               <attributeName>AMRO</attributeName>
+               <attributeDefinition>average relative abundance of American robin (Turdus migratorius)  at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701484">
+               <attributeName>BAWW</attributeName>
+               <attributeDefinition>average relative abundance of Black-and-white warbler (Mniotilta varia) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701494">
+               <attributeName>BCCH</attributeName>
+               <attributeDefinition>average relative abundance of Black-capped Chickadee (Parus atricapillus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701504">
+               <attributeName>BHCO</attributeName>
+               <attributeDefinition>average relative abundance of Brown creeper (Certhia americana) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701514">
+               <attributeName>BLBW</attributeName>
+               <attributeDefinition>average relative abundance of Blackburnian warbler (Dendroica fusca) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701524">
+               <attributeName>BLJA</attributeName>
+               <attributeDefinition>average relative abundance of Blue jay (Cyanocitta cristata) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701534">
+               <attributeName>BRCR</attributeName>
+               <attributeDefinition>average relative abundance of Brown-headed cowbird (Molothrus ater) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701544">
+               <attributeName>BTNW</attributeName>
+               <attributeDefinition>average relative abundance of Black-throated green warbler (Dendroica virens) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701554">
+               <attributeName>CAWA</attributeName>
+               <attributeDefinition>average relative abundance of Canada warbler (Wilsonia canadensis) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701564">
+               <attributeName>CEDW</attributeName>
+               <attributeDefinition>average relative abundance of Cedar waxwing (Bombycilla cedrorum) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701574">
+               <attributeName>COGR</attributeName>
+               <attributeDefinition>average relative abundance of Common grackle (Quiscalus quiscula) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701584">
+               <attributeName>DOWO</attributeName>
+               <attributeDefinition>average relative abundance of Downy woodpecker (Picoides pubescens) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701594">
+               <attributeName>EAKI</attributeName>
+               <attributeDefinition>average relative abundance of Eastern kingbird (Tyrannus tyrannus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701604">
+               <attributeName>EAPH</attributeName>
+               <attributeDefinition>average relative abundance of Eastern phoebe (Sayornis phoebe) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701614">
+               <attributeName>EATO</attributeName>
+               <attributeDefinition>average relative abundance of Eastern towhee (Pipilo erythrophthalmus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701624">
+               <attributeName>EAWP</attributeName>
+               <attributeDefinition>average relative abundance of Eastern wood pewee (Contopus virens) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701634">
+               <attributeName>ETTI</attributeName>
+               <attributeDefinition>average relative abundance of Tufted titmouse (Parus bicolor) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701644">
+               <attributeName>GCFL</attributeName>
+               <attributeDefinition>average relative abundance of Great-crested flycatcher (Myiarchus crinitus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701654">
+               <attributeName>GCKI</attributeName>
+               <attributeDefinition>average relative abundance of Golden-crowned kinglet (Regulus satrapa) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701664">
+               <attributeName>GRCA</attributeName>
+               <attributeDefinition>average relative abundance of Gray catbird (Dumetella carolinensis) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701674">
+               <attributeName>HAWO</attributeName>
+               <attributeDefinition>average relative abundance of Hairy woodpecker (Picoides villosus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701684">
+               <attributeName>HETH</attributeName>
+               <attributeDefinition>average relative abundance of Hermit thrush (Catharus guttatus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701694">
+               <attributeName>HOWA</attributeName>
+               <attributeDefinition>average relative abundance of Hooded warbler (Wilsonia citrina) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701704">
+               <attributeName>MODO</attributeName>
+               <attributeDefinition>average relative abundance of Mourning dove (Zenaida macroura) 
+at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701714">
+               <attributeName>NOCA</attributeName>
+               <attributeDefinition>average relative abundance of Mourning dove (Zenaida macroura) 
+at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701724">
+               <attributeName>OVEN</attributeName>
+               <attributeDefinition>average relative abundance of Ovenbird (Seiurus aurocapillus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701734">
+               <attributeName>PIWA</attributeName>
+               <attributeDefinition>average relative abundance of Pine warbler (Dendroica pinus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701744">
+               <attributeName>PIWO</attributeName>
+               <attributeDefinition>average relative abundance of Pileated woodpecker (Dryocopus pileatus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701754">
+               <attributeName>RBGR</attributeName>
+               <attributeDefinition>average relative abundance of Rose-breasted grosbeak (Pheucticus ludovicianus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701764">
+               <attributeName>RBNU</attributeName>
+               <attributeDefinition>average relative abundance of Red-breasted nuthatch (Sitta canadensis) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701774">
+               <attributeName>REVI</attributeName>
+               <attributeDefinition>average relative abundance of Red-eyed vireo (Vireo olivacea) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701784">
+               <attributeName>RPHE</attributeName>
+               <attributeDefinition>average relative abundance of Ring-necked pheasant (Phasianus colchicus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701794">
+               <attributeName>RSHA</attributeName>
+               <attributeDefinition>average relative abundance of Red-shouldered hawk (Buteo lineatus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701804">
+               <attributeName>RTHA</attributeName>
+               <attributeDefinition>average relative abundance of Red-tailed hawk (Buteo jamaicensis) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701814">
+               <attributeName>RTHU</attributeName>
+               <attributeDefinition>average relative abundance of Ruby-throated hummingbird (Archilochus colubris) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701824">
+               <attributeName>SCJU</attributeName>
+               <attributeDefinition>average relative abundance of Dark-eyed junco (Junco hyemalis) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701834">
+               <attributeName>SCTA</attributeName>
+               <attributeDefinition>average relative abundance of Scarlet tanager (Piranga olivacea) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701844">
+               <attributeName>SOVI</attributeName>
+               <attributeDefinition>average relative abundance of Blue-headed vireo (Vireo solitarious) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701854">
+               <attributeName>VEER</attributeName>
+               <attributeDefinition>average relative abundance of Veery (Catharus fuscescens) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701864">
+               <attributeName>WBNU</attributeName>
+               <attributeDefinition>average relative abundance of White-breasted nuthatch (Sitta carolinensis) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701874">
+               <attributeName>WEWA</attributeName>
+               <attributeDefinition>average relative abundance of Worm-eating warbler (Helmitheros vermivorus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701884">
+               <attributeName>WITU</attributeName>
+               <attributeDefinition>average relative abundance of Wild turkey (Meleagris gallopavo) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701894">
+               <attributeName>WIWR</attributeName>
+               <attributeDefinition>average relative abundance of Winter wren (Troglodytes troglodytes) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701904">
+               <attributeName>WOTH</attributeName>
+               <attributeDefinition>average relative abundance of Wood thrush (Hylocichlia mustelina) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701914">
+               <attributeName>YSFL</attributeName>
+               <attributeDefinition>average relative abundance of Northern flicker (Colaptes auratus) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182452701924">
+               <attributeName>YTVI</attributeName>
+               <attributeDefinition>average relative abundance of Yellow-throated vireo (Vireo flavifrons) at each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>40</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf085-02">
+         <entityName>hf085-02-overstory.csv</entityName>
+         <entityDescription>overstory</entityDescription>
+         <physical id="1182453364968">
+            <objectName>hf085-02-overstory.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p08/hf085/hf085-02-overstory.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1182453365999">
+               <attributeName>Sample Point</attributeName>
+               <attributeDefinition>sample point</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>sample point</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1182453366009">
+               <attributeName>Mortality Class</attributeName>
+               <attributeDefinition>rating of overstory hemlock mortality</attributeDefinition>
+               <measurementScale>
+                  <ordinal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Low</code>
+                              <definition>0-10% overstory hemlock mortality</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Medium</code>
+                              <definition>11-60% overstory hemlock mortality</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>High-A</code>
+                              <definition>more than 60% hemlock mortality with little black birch regeneration</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>High-B</code>
+                              <definition>more than 60% hemlock mortality with dense black birch regeneration</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </ordinal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1182453366019">
+               <attributeName>TSCA (alive)</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366029">
+               <attributeName>TSCA (dead)</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366039">
+               <attributeName>TSCA (total)</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366049">
+               <attributeName>ACPE</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366059">
+               <attributeName>ACRU</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366069">
+               <attributeName>ACSA</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366079">
+               <attributeName>BEAL</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366089">
+               <attributeName>BELE</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366099">
+               <attributeName>BEPA</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366109">
+               <attributeName>CAOV</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366119">
+               <attributeName>FAGR</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366129">
+               <attributeName>FRPE</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366139">
+               <attributeName>PIRI</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366149">
+               <attributeName>PIST</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366160">
+               <attributeName>PRSE</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366170">
+               <attributeName>QUAL</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366180">
+               <attributeName>QUPR</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366190">
+               <attributeName>QURU</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366200">
+               <attributeName>QUVE</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366210">
+               <attributeName>SAAL</attributeName>
+               <attributeDefinition>basal area (m2/ha) for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453366220">
+               <attributeName>Total BA</attributeName>
+               <attributeDefinition>total basal area (m2/ha) at each sampling point measured with a 10-factor cruise-all</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>meterSquaredPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>40</numberOfRecords>
+      </dataTable>
+      <dataTable id="hf085-03">
+         <entityName>hf085-03-understory.csv</entityName>
+         <entityDescription>understory</entityDescription>
+         <physical id="1182453919766">
+            <objectName>hf085-03-understory.csv</objectName>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">http://harvardforest.fas.harvard.edu/data/p08/hf085/hf085-03-understory.csv</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute id="1182453920527">
+               <attributeName>Sample Point</attributeName>
+               <attributeDefinition>sample point</attributeDefinition>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>sample point</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1182453920537">
+               <attributeName>Mortality Class</attributeName>
+               <attributeDefinition>rating of overstory hemlock mortality</attributeDefinition>
+               <measurementScale>
+                  <ordinal>
+                     <nonNumericDomain>
+                        <enumeratedDomain>
+                           <codeDefinition>
+                              <code>Low</code>
+                              <definition>0-10% overstory hemlock mortality</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>Medium</code>
+                              <definition>11-60% overstory hemlock mortality</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>High-A</code>
+                              <definition>more than 60% hemlock mortality with little black birch regeneration</definition>
+                           </codeDefinition>
+                           <codeDefinition>
+                              <code>High-B</code>
+                              <definition>more than 60% hemlock mortality with dense black birch regeneration</definition>
+                           </codeDefinition>
+                        </enumeratedDomain>
+                     </nonNumericDomain>
+                  </ordinal>
+               </measurementScale>
+            </attribute>
+            <attribute id="1182453920547">
+               <attributeName>TSCA</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920557">
+               <attributeName>ACPE</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920567">
+               <attributeName>ACRU</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920577">
+               <attributeName>ACSA</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920587">
+               <attributeName>ACSA2</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920597">
+               <attributeName>BELE</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920607">
+               <attributeName>FAGR</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920617">
+               <attributeName>FRPE</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920627">
+               <attributeName>LITU</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920637">
+               <attributeName>PIST</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920647">
+               <attributeName>QUAL</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920657">
+               <attributeName>QUPR</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920667">
+               <attributeName>QURU</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920677">
+               <attributeName>QUVE</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920687">
+               <attributeName>SAAL</attributeName>
+               <attributeDefinition>seeds/ha for each species at each sampling point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>numberPerHectare</customUnit>
+                     </unit>
+                     <precision>1</precision>
+                     <numericDomain>
+                        <numberType>whole</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920697">
+               <attributeName>Fern Cover</attributeName>
+               <attributeDefinition>average percent cover of fern species in 4 subplots within each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920707">
+               <attributeName>Laurel Cover</attributeName>
+               <attributeDefinition>average percent cover of Laurel in 4 subplots within each sample point</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>number</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute id="1182453920717">
+               <attributeName>Birch Height</attributeName>
+               <attributeDefinition>average height of tallest birch in 4 subplots within each sample point</attributeDefinition>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <standardUnit>meter</standardUnit>
+                     </unit>
+                     <precision>.01</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+               <missingValueCode>
+                  <code>NA</code>
+                  <codeExplanation>missing value</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>40</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <additionalClassifications>
+            <status>completed</status>
+            <researchTopic>invasive</researchTopic>
+            <researchTopic>community</researchTopic>
+            <researchTopic>regional</researchTopic>
+            <studyType>short-term measurement</studyType>
+         </additionalClassifications>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <additionalLinks>
+            <url name="Stand and Community Response to Hemlock Woolly Adelgid in Southern New England since 1995">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf021</url>
+         </additionalLinks>
+      </metadata>
+   </additionalMetadata>
+   <additionalMetadata>
+      <metadata>
+         <ns2:unitList convention="CML">
+            <ns2:unit constantToSI="0.0" id="meterSquaredPerHectare" multiplierToSI="0.0001" name="meterSquaredPerHectare" parentSI="meterSquaredPerMeterSquared" unitType="areaPerArea" />
+            <ns2:unit constantToSI="0.0" id="numberPerHectare" multiplierToSI="0.0001" name="numberPerHectare" parentSI="numberPerMeterSquared" unitType="arealDensity" />
+         </ns2:unitList>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

@@ -1,0 +1,48 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="tao.12934.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>test</title>
+ <creator id="1396293051417"> <individualName><surName>test</surName>
+</individualName>
+</creator>
+ <contact id="1396293055922"><individualName><surName>test</surName>
+</individualName>
+</contact>
+<dataTable id="1396293089743"><entityName>test.txt</entityName>
+<physical id="1396293077457"><objectName>test.txt</objectName>
+<size unit="byte">8</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/tao.12933.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1396293089744"><attributeName>Column 1</attributeName>
+<attributeDefinition>1</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>metersPerSecondSquared</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1396293089745"><attributeName>Column 2</attributeName>
+<attributeDefinition>2</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>metersPerSecondSquared</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>2</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

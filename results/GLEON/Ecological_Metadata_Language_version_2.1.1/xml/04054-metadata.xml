@@ -1,0 +1,1713 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="gleon.1.9" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=cgries,o=LTER,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <alternateIdentifier system="NTL">knb-lter-ntl.277.2</alternateIdentifier>
+ <title>Fluxes project at North Temperate Lakes LTER: Random lake survey 2004</title>
+ <creator scope="document"> <individualName> <givenName>Paul</givenName>
+ <surName>Hanson</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>680 North Park Street</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(608) 262-5953</phone>
+ <phone phonetype="fax">(608) 265-2340</phone>
+ <electronicMailAddress>pchanson@wisc.edu</electronicMailAddress>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Stephen</givenName>
+ <surName>Carpenter</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>680 North Park Street</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(608) 262-3014</phone>
+ <phone phonetype="fax">(608) 265-2340</phone>
+ <electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Luke</givenName>
+ <surName>Winslow</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>680 North Park Str,</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(608) 263-2465</phone>
+ <electronicMailAddress>lawinslow@wisc.edu</electronicMailAddress>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Jeffrey</givenName>
+ <surName>Cardille</surName>
+ </individualName>
+ <organizationName>McGill University</organizationName>
+ <address scope="document"> <country>United States</country>
+ </address>
+ <electronicMailAddress>jeffrey.cardille@mcgill.ca</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <organizationName>North Temperate Lakes LTER</organizationName>
+ <address scope="document"> <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+ </metadataProvider>
+ <language>english</language>
+ <abstract> <para>The overarching goal of this project is to understand carbon and nutrient cycles for a landscape on which terrestrial and freshwater systems are intimately connected in multiple and reciprocal ways. In the Northern Highlands region of Wisconsin, they are studying a spatially complex landscape in which water features make up almost half of the land area, with wetlands (27% of land surface) and lakes (13%) both prevalent throughout the region, interspersed in upland forests. Weather and limnological data from a set of 170 lakes in the NHLD samples summer 2004. The sampled lakes were from a random stratified subsample (N=300 of 7588 total) of all the lakes in the NHLD.</para>
+ </abstract>
+ <keywordSet> <keyword>alkalinity</keyword>
+ <keyword>calcium</keyword>
+ <keyword>chloride</keyword>
+ <keyword>dissolved inorganic carbon</keyword>
+ <keyword>dissolved organic carbon</keyword>
+ <keyword>dissolved oxygen</keyword>
+ <keyword>iron</keyword>
+ <keyword>magnesium</keyword>
+ <keyword>manganese</keyword>
+ <keyword>ph</keyword>
+ <keyword>potassium</keyword>
+ <keyword>sodium</keyword>
+ <keyword>sulfate</keyword>
+ <keyword>total nitrogen</keyword>
+ <keyword>total organic carbon</keyword>
+ <keyword>total phosphorus</keyword>
+ <keyword>water chemistry</keyword>
+ <keyword>water temperature</keyword>
+ <keywordThesaurus>LTER Keywords</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>DIC</keyword>
+ <keyword>DO</keyword>
+ <keyword>DOC</keyword>
+ <keyword>TOC</keyword>
+ <keyword>color</keyword>
+ <keywordThesaurus>NTL Keywords</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <section> <title>Data Policies</title>
+ <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is
+					released to the public and may be used for academic, educational, or commercial purposes
+					subject to the following restrictions: The Data User must realize that these data sets are
+					being actively used by others for ongoing research and that coordination may be necessary
+					to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal
+					Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where
+					appropriate, the Data User may be encouraged to consider collaboration and/or
+					co-authorship with original investigators.</para>
+ <para>The Data User must realize that the data may be misinterpreted if taken out of
+					context. We request that you provide the NTL lead Principal Investigator, ATTN: Data
+					Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St.,
+					Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed
+					and comments provided on the presentation of our data.</para>
+ <para>The Data User must acknowledge use of the data by an appropriate citation (see
+					Citation) of the NTL-LTER database. A generic citation for our databases is: name of data
+					set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for
+					data set, Center for Limnology, University of Wisconsin-Madison. The data set name and
+					contact person for each data set can be found in the metadata header of the online data
+					sets.</para>
+ <para>The Data User must send two reprints of any publications resulting from use of the
+					data to the address above. We would like to include such manuscripts in our LTER
+					publications list.</para>
+ <para>The Data User must not redistribute original data and documentation without permission
+					from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para>
+ <para>While substantial efforts are made to ensure the accuracy of data and documentation,
+					complete accuracy of data sets cannot be guaranteed. All data are made available "as is".
+					The North Temperate Lakes LTER shall not be liable for damages resulting from any use or
+					misinterpretation of data sets. Data users should be aware that we periodically update
+					data sets.</para>
+ <para>Our goal is to release all long term data associated with core research areas within 2
+					years of collection. These data and accompanying metadata will be available for download
+					from the NTL-LTER web site.</para>
+ <para>By using these data, the Data User agrees to abide by the terms of this agreement.
+					Thank you for your cooperation.</para>
+ </section>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="information">http://lter.limnology.wisc.edu/node/32494</url>
+ </online>
+ </distribution>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Lakes within Northern Highlands Lakes Disctrict of Wisconsin.</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-90.930</westBoundingCoordinate>
+ <eastBoundingCoordinate>-88.060</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.720</northBoundingCoordinate>
+ <southBoundingCoordinate>45.030</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2004-06-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2004-08-31</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <maintenance> <description> <para>completed</para>
+ </description>
+ </maintenance>
+ <contact scope="document"> <organizationName>North Temperate Lakes LTER</organizationName>
+ <address scope="document"> <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+ </contact>
+ <publisher scope="document"> <organizationName>North Temperate Lakes LTER</organizationName>
+ <address scope="document"> <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+ </publisher>
+ <pubPlace>North Temperate Lakes</pubPlace>
+ <methods> <methodStep> <description> <section> <para>Hanson PC, Carpenter S, Cardille JA, Coe MT, Winslow LA. 2007. Small lakes dominate a random sample of regional lake characteristics. Freshwater Biology. 52:814-22 Lakes were selected from unique Water Body Identification Codes (WBICs). Linear features and water bodies identified as impoundments or stream openings were identified from maps digitised by the Departments of Natural Resources of Michigan and Wisconsin (1 : 24 000 USGS 7.5) topographic quadrangles) and were excluded. More than 7500 lakes ranging in size from about 0.01 to over 2800 ha remained in the data set. We used a stratified random survey, an approach consistent with the Environmental 	Monitoring and Assessment Program (EMAP) guidelines (Larsen et al., 1994) of the U.S. Environmental Protection Agency, to select and sample 300 lakes from the data set as follows. All lakes were ordered by area and divided into 20 bins of equal population. 							From each bin, 15 lakes were chosen at random. Because of logistical issues in 							travelling to many lakes scattered over a wide geographical region, we clustered lakes 							into 31 geographically small regions of about 150 km2 each. The order of regions 							sampled was randomised to reduce correlation of geographic region with time. For any 							one sampling date we visited only one region, although not all lakes in a region could 							be visited on a single trip. After all 31 regions were visited, the regions were again 							selected at random, and lakes previously not visited were sampled. There were 45 							sampling days spread between May 20 and August 19. Some lakes that were chosen for 							sampling could not be visited. Difficulty portaging the sampling gear to a lake or 							failure to gain access to a lake through private property were reasons for abandoning 							a sampling effort. Lakes were sampled at their approximate geographic centre. Lake 							depth and water clarity were measured with a Secchi disk. Our measurement of lake 							depth was neither a measurement of the maximum nor the mean depth. Because the 							measurement was made in the middle of the lake and most lakes in the region tend to be 							bowl shaped, our measurement was probably between mean and maximum depth. Dissolved 							oxygen (DO) and thermal profiles were obtained from a YSI Model 58 (YSI, Inc., Yellow 							Springs, OH, U.S.A.) metre (DO air calibrated; temperature calibrated in the 							laboratory), and the approximate middle of the epilimnion was estimated from the 							profile. Thermal stratification was calculated from the thermal profile according to 							the methods listed on the Internet at the North Temperate Lakes Long Term Ecological 							Research (NTL-LTER) program Web site (http://lter.limnology.wisc.edu). Water samples 							for later analyses (Table 1, chemical variables) were obtained from the middle of the 							epilimnion, using a peristaltic pump. For samples that required filtration [dissolved 							inorganic carbon (DIC), DOC, cations and anions], a 0.45 &#956;m filter was attached 							in-line. All samples were refrigerated upon returning to the vehicle, and samples for 							total nitrogen (TN) and total phosphorus (TP) were preserved by acidification. Acid 							neutralizing capacity (ANC) and pH were determined the day of sampling by Gran 							alkalinity titration (for ANC) and measurement by pH probe (Accumet 950; Fisher 							Scientific, Hanover Park, IL U.S.A.). pH was not air equilibrated. DIC and DOC were 							measured with a carbon analyzer (TOC-V; Shimadzu Scientific Instruments, Columbia, MD, 							U.S.A.). TN and TP were measured with a segmented flow auto-analyzer (Astoria-Pacific, 							Inc., Clackamas, OR, U.S.A.). Anions were measured using an ion chromatograph (DX500; 							Dionex Corporation, Sunnyvale, CA, U.S.A.), and cations using mass spectrometry 							(ICP-MS; PerkinElmer Life and Analytical Sciences, Shelton, CT, U.S.A.). Details of 							chemical analyses are available on the Internet at the NTL-LTER Web site listed above. 							To correct for bias introduced by not sampling all 300 lakes, we replaced missing data 							using multiple imputation (Levy, 1999). Multiple imputation is a technique for 							estimating the uncertainty of imputed variables. For each variable for each lake not 							sampled in a given bin, we chose at random (with replacement) a value from lakes 							sampled in that bin. We repeated the imputation 1000 times to provide a distribution 							of estimates for each variable in the lakes not sampled. The distribution mean for 							each variable in each lake was used in the calculation of the median for the regional 							lake population. We chose to present the median for the 300 lakes because 							distributions tended to be highly skewed. For comparison purposes, we also calculated 							the median from sampled lakes only (i.e. excluding imputed data). The mean cumulative 							distributions for some variables, including 95% confidence intervals, were plotted 							from the 1000 cumulative distributions generated by multiple imputation. We fit a 							Pareto distribution to the regional lake area data set to compare the size 							distribution of NHLD lakes with those of other regions. We used the maximum likelihood 							estimator for parameter estimates (Bernardo and Smith, 2000). Of particular interest 							is the parameter (&#946;) that describes the logarithmic decline in number of lakes with 							lake area, because this parameter has been used previously (Downing et al., 2006, 							Table 1) to compare lake area distributions among regions and to estimate the global 							abundance of lakes. Where indicated, results have been area weighted to reflect the 							influence of lake size. For correlations, data were transformed (log10) to normalise distributions and linearise relationships. Shoreline development factor (SDF), an index of the irregular shape of lakes, was calculated for each lake according to Kalff (2002). The minimum SDF, 1, indicates a lake is a perfect circle.</para>
+ </section>
+ <section> <para>Lab analyses: Lake samples were measured unfiltered. Instrument used: Trout Lake 							spectrophotometer (make and model?). Measurements were made using a 10-cm pathlength 							cuvette cell for all samples. For samples where absorbance was deemed too high, the 							measurement was repeated using a 1-cm pathlength cuvette cell. Millipure (DIW?) water 							blanks were run periodically on both 1-cm and 10-cm cells as a blank check. Absorption 							values were converted to absorption coefficients and corrected for scattering due to particles following the technique of Zhang, Y.L., and Qin, B.Q. 2007. Variations in spectral slope in lake taihu, a large subtropical shallow lake in China. Journal of Great Lakes Research 33(2): 483-496.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project scope="document"> <title>Hydrologic and biogeochemical fluxes in regional land-water mosaics (Mellon)</title>
+ <personnel scope="document"> <individualName> <givenName>Stephen</givenName>
+ <surName>Carpenter</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>680 North Park Street</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(608) 262-3014</phone>
+ <phone phonetype="fax">(608) 265-2340</phone>
+ <electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <personnel scope="document"> <individualName> <givenName>Jonathan</givenName>
+ <surName>Foley</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>1710 University Ave</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53715</postalCode>
+ </address>
+ <phone phonetype="voice">(608) 265-5144</phone>
+ <phone phonetype="fax">(608) 265-4113</phone>
+ <electronicMailAddress>jfoley@wisc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <personnel scope="document"> <individualName> <givenName>Monica</givenName>
+ <surName>Turner</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>430 Lincoln Dr</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(608) 262-2592</phone>
+ <electronicMailAddress>turnermg@wisc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <personnel scope="document"> <individualName> <givenName>Paul</givenName>
+ <surName>Hanson</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>680 North Park Street</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(608) 262-5953</phone>
+ <phone phonetype="fax">(608) 265-2340</phone>
+ <electronicMailAddress>pchanson@wisc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <personnel scope="document"> <individualName> <givenName>Ishi</givenName>
+ <surName>Buffam</surName>
+ </individualName>
+ <organizationName>Center for Limnology</organizationName>
+ <address scope="document"> <deliveryPoint>680 N Park St</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <electronicMailAddress>buffam@wisc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <abstract> <para>The overarching goal of this project is to understand carbon and nutrient cycles for a
+					landscape on which terrestrial and freshwater systems are intimately connected in multiple
+					and reciprocal ways. In the Northern Highlands region of Wisconsin, they are studying a
+					spatially complex landscape in which water features make up almost half of the land area,
+					with wetlands (27% of land surface) and lakes (13%) both prevalent throughout the region,
+					interspersed in upland forests. The Ecosystem and Landscape Ecology Lab hypothesize that
+					reciprocal interactions of terrestrial vegetation and lakes, through flows of water,
+					organic carbon, and nutrients, are more complex than previously thought. Improved
+					understanding of these interactions demands a combination of terrestrial and aquatic
+					expertise, in an appropriately integrated research plan.</para>
+ </abstract>
+ </project>
+ <dataTable scope="document"> <entityName>Random_lake_survey_sampling_conditions.csv</entityName>
+ <entityDescription>temperature and general weather during sampling</entityDescription>
+ <physical scope="document"> <objectName>Random_lake_survey_sampling_conditions.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ <quoteCharacter>"</quoteCharacter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.5.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>wbic</attributeName>
+ <attributeLabel>WBIC</attributeLabel>
+ <attributeDefinition>Wisconsin Department of Natural Resources Water Body Identification Code.</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Wisconsin Department of Natural Resources Water Body Identification Code.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>air_temp</attributeName>
+ <attributeLabel>air temperature</attributeLabel>
+ <attributeDefinition>air temperature</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">-50</minimum>
+ <maximum exclusive="false">50</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1398813311497" scope="document"><attributeName>barom_pres</attributeName>
+<attributeLabel>barometric pressure</attributeLabel>
+<attributeDefinition>barometric pressure in millimeter Mercury</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute scope="document"> <attributeName>depth</attributeName>
+ <attributeLabel>sample depth meter</attributeLabel>
+ <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>weather_comment</attributeName>
+ <attributeLabel>weather comment</attributeLabel>
+ <attributeDefinition>weather comment</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>weather comment</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>sample_time</attributeName>
+ <attributeLabel>sample time</attributeLabel>
+ <attributeDefinition>time of day at which the sample was taken</attributeDefinition>
+ <storageType>date</storageType>
+ <measurementScale> <dateTime> <formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>lat_decimal</attributeName>
+ <attributeLabel>latitude decimal</attributeLabel>
+ <attributeDefinition>latitude decimal</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>long_decimal</attributeName>
+ <attributeLabel>longitude decimal</attributeLabel>
+ <attributeDefinition>longitude decimal</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>sampledate</attributeName>
+ <attributeLabel>sample date</attributeLabel>
+ <attributeDefinition>sample date</attributeDefinition>
+ <storageType>date</storageType>
+ <measurementScale> <dateTime> <formatString>yyyy-MM-dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable scope="document"> <entityName>random_lake_survey_measured_parameters.csv</entityName>
+ <physical scope="document"> <objectName>random_lake_survey_measured_parameters.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.6.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>wbic</attributeName>
+ <attributeLabel>WBIC</attributeLabel>
+ <attributeDefinition>Wisconsin Department of Natural Resources Water Body Identification Code.</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Wisconsin Department of Natural Resources Water Body Identification Code.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>secchi</attributeName>
+ <attributeLabel>secchi depth</attributeLabel>
+ <attributeDefinition>secchi depth</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>depth_at_samplesite</attributeName>
+ <attributeLabel>depth at sample site</attributeLabel>
+ <attributeDefinition>depth at sample site in meter</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>top_hypolimnion</attributeName>
+ <attributeLabel>top of hypolimnion</attributeLabel>
+ <attributeDefinition>top of hypolimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>440_color_10_cm</attributeName>
+ <attributeLabel>440 color 10 cm</attributeLabel>
+ <attributeDefinition>absorption at 440 nm in 10 cm cuvetter</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>440_color_1_cm</attributeName>
+ <attributeLabel>440 color 1 cm</attributeLabel>
+ <attributeDefinition>absorption at 440 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>alk</attributeName>
+ <attributeLabel>alkalinity</attributeLabel>
+ <attributeDefinition>alkalinity</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microEquivalentsPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>ph</attributeName>
+ <attributeLabel>pH</attributeLabel>
+ <attributeDefinition>pH</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>pH</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">14</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>dic</attributeName>
+ <attributeLabel>dissolved inorganic carbon</attributeLabel>
+ <attributeDefinition>dissolved inorganic carbon</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>doc</attributeName>
+ <attributeLabel>dissolved organic carbon</attributeLabel>
+ <attributeDefinition>dissolved organic carbon</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>tic</attributeName>
+ <attributeLabel>total inorganic carbon</attributeLabel>
+ <attributeDefinition>total inorganic carbon</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>toc</attributeName>
+ <attributeLabel>total organic carbon</attributeLabel>
+ <attributeDefinition>total organic carbon</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>totnf</attributeName>
+ <attributeLabel>total N filtered</attributeLabel>
+ <attributeDefinition>total N filtered</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microgramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>totnuf</attributeName>
+ <attributeLabel>total N unfiltered</attributeLabel>
+ <attributeDefinition>total N unfiltered</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microgramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>totpf</attributeName>
+ <attributeLabel>total P filtered</attributeLabel>
+ <attributeDefinition>total P filtered</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microgramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>totpuf</attributeName>
+ <attributeLabel>total P unfiltered</attributeLabel>
+ <attributeDefinition>total P unfiltered</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microgramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>cl</attributeName>
+ <attributeLabel>chloride</attributeLabel>
+ <attributeDefinition>chloride concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>so4</attributeName>
+ <attributeLabel>sulfate</attributeLabel>
+ <attributeDefinition>sulfate concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>ca</attributeName>
+ <attributeLabel>Ca</attributeLabel>
+ <attributeDefinition>calcium</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>mg</attributeName>
+ <attributeLabel>magnesium</attributeLabel>
+ <attributeDefinition>magnesium</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>na</attributeName>
+ <attributeLabel>Sodium</attributeLabel>
+ <attributeDefinition>Sodium concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>k</attributeName>
+ <attributeLabel>potassium</attributeLabel>
+ <attributeDefinition>potassium concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>fe</attributeName>
+ <attributeLabel>Iron</attributeLabel>
+ <attributeDefinition>iron concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>mn</attributeName>
+ <attributeLabel>manganese</attributeLabel>
+ <attributeDefinition>manganese concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1398813425854" scope="document"><attributeName>upstream_lake_area</attributeName>
+<attributeLabel>upstream lake area</attributeLabel>
+<attributeDefinition>total area of lakes upstream from the one measured</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute scope="document"> <attributeName>upstream_wetland_area</attributeName>
+ <attributeLabel>upstream wetland area</attributeLabel>
+ <attributeDefinition>total area of wetland upstream of the lake within watershed</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>upstream_land_area</attributeName>
+ <attributeLabel>upstream land area</attributeLabel>
+ <attributeDefinition>total land area upstream of lake in watershed</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>upstream_total_area</attributeName>
+ <attributeLabel>upstream total area</attributeLabel>
+ <attributeDefinition>total area upstream of lake in watershed</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1398813442726" scope="document"><attributeName>watershed_area</attributeName>
+<attributeLabel>watershed area</attributeLabel>
+<attributeDefinition>total area of watershed the lake resides in</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute scope="document"> <attributeName>watershed_perimeter</attributeName>
+ <attributeLabel>watershed perimeter</attributeLabel>
+ <attributeDefinition>perimeter of watershed the lake resides in</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable scope="document"> <entityName>random_lake_survey_temp_do.csv</entityName>
+ <physical scope="document"> <objectName>random_lake_survey_temp_do.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.7.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>wbic</attributeName>
+ <attributeLabel>WBIC</attributeLabel>
+ <attributeDefinition>Wisconsin Department of Natural Resources Water Body Identification Code.</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Wisconsin Department of Natural Resources Water Body Identification Code.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>depth</attributeName>
+ <attributeLabel>sample depth meter</attributeLabel>
+ <attributeDefinition>depth at which the sample or measurement was taken</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>wtemp</attributeName>
+ <attributeLabel>water temperature</attributeLabel>
+ <attributeDefinition>water temperature</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>o2sat</attributeName>
+ <attributeLabel>percent oxygen saturation</attributeLabel>
+ <attributeDefinition>percent dissolved oxygen saturation</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>percent</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>do</attributeName>
+ <attributeLabel>dissolved oxygen</attributeLabel>
+ <attributeDefinition>dissolved oxygen [Winkler]</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable scope="document"> <entityName>random_lake_survey_lakes.csv</entityName>
+ <entityDescription>basic lake parameters for all 7588 lakes considered in this study</entityDescription>
+ <physical scope="document"> <objectName>random_lake_survey_lakes.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.8.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>wbic</attributeName>
+ <attributeLabel>WBIC</attributeLabel>
+ <attributeDefinition>Wisconsin Department of Natural Resources Water Body Identification Code.</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Wisconsin Department of Natural Resources Water Body Identification Code.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>elevation</attributeName>
+ <attributeLabel>elevation</attributeLabel>
+ <attributeDefinition>elevation</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1398813647334" scope="document"><attributeName>area in square meter</attributeName>
+<attributeLabel>area</attributeLabel>
+<attributeDefinition>Area of polygon.</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute scope="document"> <attributeName>elevation_ned</attributeName>
+ <attributeLabel>elevation</attributeLabel>
+ <attributeDefinition>Elevation derived from National Elevation Dataset</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>depth_ned</attributeName>
+ <attributeLabel>lake depth</attributeLabel>
+ <attributeDefinition>lake depth derived from National Elevation Dataset</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>long_decimal</attributeName>
+ <attributeLabel>longitude decimal</attributeLabel>
+ <attributeDefinition>longitude decimal</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>lat_decimal</attributeName>
+ <attributeLabel>latitude decimal</attributeLabel>
+ <attributeDefinition>latitude decimal</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>perimeter</attributeName>
+ <attributeLabel>perimeter</attributeLabel>
+ <attributeDefinition>Perimeter of polygon.</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable scope="document"> <entityName>random_lake_survey_imputed_parameters.csv</entityName>
+ <physical scope="document"> <objectName>random_lake_survey_imputed_parameters.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.9.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>wbic</attributeName>
+ <attributeLabel>WBIC</attributeLabel>
+ <attributeDefinition>Wisconsin Department of Natural Resources Water Body Identification Code.</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Wisconsin Department of Natural Resources Water Body Identification Code.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>secchi</attributeName>
+ <attributeLabel>secchi depth</attributeLabel>
+ <attributeDefinition>secchi depth</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>depth_at_samplesite</attributeName>
+ <attributeLabel>depth at sample site</attributeLabel>
+ <attributeDefinition>depth at sample site in meter</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>top_hypolimnion</attributeName>
+ <attributeLabel>top of hypolimnion</attributeLabel>
+ <attributeDefinition>top of hypolimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>440_color_10_cm</attributeName>
+ <attributeLabel>440 color 10 cm</attributeLabel>
+ <attributeDefinition>absorption at 440 nm in 10 cm cuvetter</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>440_color_1_cm</attributeName>
+ <attributeLabel>440 color 1 cm</attributeLabel>
+ <attributeDefinition>absorption at 440 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>alk</attributeName>
+ <attributeLabel>alkalinity</attributeLabel>
+ <attributeDefinition>alkalinity</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microEquivalentsPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>ph</attributeName>
+ <attributeLabel>pH</attributeLabel>
+ <attributeDefinition>pH</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>pH</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">14</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>dic</attributeName>
+ <attributeLabel>dissolved inorganic carbon</attributeLabel>
+ <attributeDefinition>dissolved inorganic carbon</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>doc</attributeName>
+ <attributeLabel>dissolved organic carbon</attributeLabel>
+ <attributeDefinition>dissolved organic carbon</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>tic</attributeName>
+ <attributeLabel>total inorganic carbon</attributeLabel>
+ <attributeDefinition>total inorganic carbon</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>toc</attributeName>
+ <attributeLabel>total organic carbon</attributeLabel>
+ <attributeDefinition>total organic carbon</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>totn</attributeName>
+ <attributeLabel>total N: filtered</attributeLabel>
+ <attributeDefinition>total N: filtered</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microgramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>totnuf</attributeName>
+ <attributeLabel>total N unfiltered</attributeLabel>
+ <attributeDefinition>total N unfiltered</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microgramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>totpf</attributeName>
+ <attributeLabel>total P filtered</attributeLabel>
+ <attributeDefinition>total P filtered</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microgramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>totpuf</attributeName>
+ <attributeLabel>total P unfiltered</attributeLabel>
+ <attributeDefinition>total P unfiltered</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>microgramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>cl</attributeName>
+ <attributeLabel>chloride</attributeLabel>
+ <attributeDefinition>chloride concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>so4</attributeName>
+ <attributeLabel>sulfate</attributeLabel>
+ <attributeDefinition>sulfate concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>ca</attributeName>
+ <attributeLabel>Ca</attributeLabel>
+ <attributeDefinition>calcium</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>mg</attributeName>
+ <attributeLabel>magnesium</attributeLabel>
+ <attributeDefinition>magnesium</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>na</attributeName>
+ <attributeLabel>Sodium</attributeLabel>
+ <attributeDefinition>Sodium concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>k</attributeName>
+ <attributeLabel>potassium</attributeLabel>
+ <attributeDefinition>potassium concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>fe</attributeName>
+ <attributeLabel>Iron</attributeLabel>
+ <attributeDefinition>iron concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>mn</attributeName>
+ <attributeLabel>manganese</attributeLabel>
+ <attributeDefinition>manganese concentration</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>upstream_lake_area</attributeName>
+ <attributeLabel>upstream lake area</attributeLabel>
+ <attributeDefinition>total area of lakes upstream from the one measured</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>upstream_wetland_area</attributeName>
+ <attributeLabel>upstream wetland area</attributeLabel>
+ <attributeDefinition>total area of wetland upstream of the lake within watershed</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>upstream_land_area</attributeName>
+ <attributeLabel>upstream land area</attributeLabel>
+ <attributeDefinition>total land area upstream of lake in watershed</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>upstream_total_area</attributeName>
+ <attributeLabel>upstream total area</attributeLabel>
+ <attributeDefinition>total area upstream of lake in watershed</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>watershed_area</attributeName>
+ <attributeLabel>watershed area</attributeLabel>
+ <attributeDefinition>total area of watershed the lake resides in</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>watershed_perimeter</attributeName>
+ <attributeLabel>watershed perimeter</attributeLabel>
+ <attributeDefinition>perimeter of watershed the lake resides in</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>wtemp_epil</attributeName>
+ <attributeLabel>water temperature epilimnion</attributeLabel>
+ <attributeDefinition>water temperature epilimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>do_epil</attributeName>
+ <attributeLabel>dissolved oxygen epilimnion</attributeLabel>
+ <attributeDefinition>dissolved oxygen epilimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>o2sat_epi</attributeName>
+ <attributeLabel>percent dissolved oxygen saturation epilimnion</attributeLabel>
+ <attributeDefinition>percent dissolved oxygen saturation epilimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>percent</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>wtemp_meta</attributeName>
+ <attributeLabel>water temperature metalimnion</attributeLabel>
+ <attributeDefinition>water temperature metalimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>do_metal</attributeName>
+ <attributeLabel>dissolved oxygen metalimnion</attributeLabel>
+ <attributeDefinition>dissolved oxygen metalimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>o2sat_metal</attributeName>
+ <attributeLabel>percent dissolved oxygen saturation metalimnion</attributeLabel>
+ <attributeDefinition>percent dissolved oxygen saturationmetalimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>percent</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>wtemp_hypol</attributeName>
+ <attributeLabel>water temperature hypolimnion</attributeLabel>
+ <attributeDefinition>water temperature hypolimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>do_hypol</attributeName>
+ <attributeLabel>dissolved oxygen hypolimnion</attributeLabel>
+ <attributeDefinition>dissolved oxygen hypolimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>milligramPerLiter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>o2sat_hpyol</attributeName>
+ <attributeLabel>percent dissolved oxygen saturation hypolimnion</attributeLabel>
+ <attributeDefinition>percent dissolved oxygen saturation hypolimnion</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <customUnit>percent</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable scope="document"> <entityName>random_lake_survey_raw_absorption.csv</entityName>
+ <entityDescription>raw absorption values for a range of wavelength</entityDescription>
+ <physical scope="document"> <objectName>random_lake_survey_raw_absorption.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.10.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>record_id</attributeName>
+ <attributeLabel>record id</attributeLabel>
+ <attributeDefinition>auto incremented count of records</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>auto incremented count of records</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>groupid</attributeName>
+ <attributeLabel>group id</attributeLabel>
+ <attributeDefinition>id number to link actual measurements with blanks</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>id number to link actual measurements with blanks</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>wbic</attributeName>
+ <attributeLabel>WBIC</attributeLabel>
+ <attributeDefinition>Wisconsin Department of Natural Resources Water Body Identification Code.</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Wisconsin Department of Natural Resources Water Body Identification Code.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>wavelength</attributeName>
+ <attributeLabel>wavelength</attributeLabel>
+ <attributeDefinition>wavelength</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>nanometer</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">200</minimum>
+ <maximum exclusive="false">800</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>absoprtion</attributeName>
+ <attributeLabel>raw absorption</attributeLabel>
+ <attributeDefinition>raw absorption values (AU)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>cuvette</attributeName>
+ <attributeLabel>cuvette thickness</attributeLabel>
+ <attributeDefinition>thickness of cuvette, 1 or 10 cm</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">1</minimum>
+ <maximum exclusive="false">10</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable scope="document"> <entityName>random_lake_survey_abs_coeff.csv</entityName>
+ <physical scope="document"> <objectName>random_lake_survey_abs_coeff.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.11.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>wbic</attributeName>
+ <attributeLabel>WBIC</attributeLabel>
+ <attributeDefinition>Wisconsin Department of Natural Resources Water Body Identification Code.</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Wisconsin Department of Natural Resources Water Body Identification Code.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>cuvette_use</attributeName>
+ <attributeLabel>cuvette size to use</attributeLabel>
+ <attributeDefinition>Use the 10-cm cell values for all samples except for those which max out above 60 m-1; for those, use the 1-cm cell values. The acceptable range is up to about 2.6 AU, that is about 60 m-1 for the 10cm cell, or 600 m-1 for the 1-cm cell.</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">1</minimum>
+ <maximum exclusive="false">10</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a254_10</attributeName>
+ <attributeLabel>absorption coefficient 254.10</attributeLabel>
+ <attributeDefinition>absorption coefficient at 254 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a280_10</attributeName>
+ <attributeLabel>absorption coefficient at 280.10</attributeLabel>
+ <attributeDefinition>absorption coefficient at 280 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a300_10</attributeName>
+ <attributeLabel>absorption coefficient at 300.10</attributeLabel>
+ <attributeDefinition>absorption coefficient at 300 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a320_10</attributeName>
+ <attributeLabel>absorption coefficient at 320.10</attributeLabel>
+ <attributeDefinition>absorption coefficient at 320 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a365_10</attributeName>
+ <attributeLabel>absorption coefficient at 365.10</attributeLabel>
+ <attributeDefinition>absorption coefficient at 365 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a400_10</attributeName>
+ <attributeLabel>absorption coefficient at 400.10</attributeLabel>
+ <attributeDefinition>absorption coefficient at 400 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a420_10</attributeName>
+ <attributeLabel>absorption coefficient at 420.10</attributeLabel>
+ <attributeDefinition>absorption coefficient at 420 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a440_10</attributeName>
+ <attributeLabel>absorption coefficient at 440.10</attributeLabel>
+ <attributeDefinition>absorption coefficient at 440 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a254_a365_10</attributeName>
+ <attributeLabel>absorption coefficient ratio at 254 to 365 nm in 10 cm cuvette</attributeLabel>
+ <attributeDefinition>absorption coefficient ratio at 254 to 365 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>S_10</attributeName>
+ <attributeLabel>Spectral slope from 280-500 nm in 10 cm cuvette</attributeLabel>
+ <attributeDefinition>Spectral slope from 280-500 nm in 10 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a254_1</attributeName>
+ <attributeLabel>absorption coefficient at 254.1</attributeLabel>
+ <attributeDefinition>absorption coefficient at 254 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a280_1</attributeName>
+ <attributeLabel>absorption coefficient at 280.1</attributeLabel>
+ <attributeDefinition>absorption coefficient at 280 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a300_1</attributeName>
+ <attributeLabel>absorption coefficient at 300.1</attributeLabel>
+ <attributeDefinition>absorption coefficient at 300 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a320_1</attributeName>
+ <attributeLabel>absorption coefficient at 320.1</attributeLabel>
+ <attributeDefinition>absorption coefficient at 320 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a365_1</attributeName>
+ <attributeLabel>absorption coefficient at 365.1</attributeLabel>
+ <attributeDefinition>absorption coefficient at 365 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a400_1</attributeName>
+ <attributeLabel>absorption coefficient at 400.1</attributeLabel>
+ <attributeDefinition>absorption coefficient at 400 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a420_1</attributeName>
+ <attributeLabel>absorption coefficient at 420.1</attributeLabel>
+ <attributeDefinition>absorption coefficient at 420 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a440_1</attributeName>
+ <attributeLabel>absorption coefficient at 440.1</attributeLabel>
+ <attributeDefinition>absorption coefficient at 440 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>a254_a365_1</attributeName>
+ <attributeLabel>absorption coefficient ratio at 254 to 365 nm in 1 cm cuvette</attributeLabel>
+ <attributeDefinition>absorption coefficient ratio at 254 to 365 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>S_1</attributeName>
+ <attributeLabel>Spectral slope from 280-500 nm in 1 cm cuvette</attributeLabel>
+ <attributeDefinition>Spectral slope from 280-500 nm in 1 cm cuvette</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1     http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd"> <ns2:unit abbreviation="ueq/L" id="microEquivalentsPerLiter" name="microEquivalentsPerLiter"> <ns2:description>Microequivalents per liter</ns2:description>
+ </ns2:unit>
+ <ns2:unit abbreviation="pH" id="pH" name="pH"> <ns2:description>pH</ns2:description>
+ </ns2:unit>
+ <ns2:unit abbreviation="mg/l" constantToSI="0" id="milligramPerLiter" multiplierToSI="0.001" name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity"> <ns2:description>milligrams / liter</ns2:description>
+ </ns2:unit>
+ <ns2:unit abbreviation="&#181;g/l" constantToSI="0" id="microgramPerLiter" multiplierToSI="0.000001" name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity"> <ns2:description>micrograms / liter</ns2:description>
+ </ns2:unit>
+ <ns2:unit abbreviation="%" constantToSI="0" id="percent" multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless"> <ns2:description>ratio of two quantities as percent composition
+						(1:100)</ns2:description>
+ </ns2:unit>
+ </ns2:unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

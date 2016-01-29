@@ -1,0 +1,131 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.81.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Time series and life history data for 1198 species</title>
+<creator>
+<organizationName>Environment Institute, The University of Adelaide</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Barry</givenName>
+<surName>Brook</surName>
+</individualName>
+<address>
+<country>Australia</country>
+</address>
+<electronicMailAddress>barry.brook@adelaide.edu.au</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Stephen</givenName>
+<surName>Gregory</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Barry</givenName>
+<surName>Brook</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Corey</givenName>
+<surName>Bradshaw</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Stephen</givenName>
+<surName>Gregory</surName>
+</individualName>
+<role>User</role>
+</associatedParty>
+<pubDate>2010-05-12</pubDate>
+<abstract>
+<para>Our dataset, originally compiled by BW Brook, CJA Bradshaw and others (see Brook, BW, Bradshaw, CJA, &amp;
+Traill, LW [2006] Ecology Letters, 9, 375-382) and updated by Gregory SD (see Gregory, SD, Bradshaw, CJA,
+Brook, BW, &amp; Courchamp, F [in press] Ecology; as at November 2009) is a compilation of population time series for 1198 species together with geographical and temporal metadata, and species life history information. All major taxonomic groups from plants to mammals are represented. Gregory et al. also used the Climate Research Unit's High Resolution Gridded Time Series datasets (CRU TS 2.1 available at http://www.cru.uea.ac.uk/cru/data/hrg.htm).</para>
+</abstract>
+<keywordSet>
+<keyword>Time series</keyword>
+<keyword>Global</keyword>
+<keyword>Vertebrates (all classes)</keyword>
+<keyword>Invertebrates (mainly insects and crustaceans)</keyword>
+<keyword>Plants</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>1538</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2007</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Global</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-180.0000</westBoundingCoordinate>
+<eastBoundingCoordinate>180.0000</eastBoundingCoordinate>
+<northBoundingCoordinate>90.0000</northBoundingCoordinate>
+<southBoundingCoordinate>-90.0000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Vertebrates</taxonRankName>
+  <taxonRankValue>all classes</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Invertebrates</taxonRankName>
+  <taxonRankValue>mainly insects and crustaceans</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Plants</taxonRankName>
+  <taxonRankValue>various</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Barry</givenName>
+<surName>Brook</surName>
+</individualName>
+<organizationName>Environment Institute, The University of Adelaide</organizationName>
+<address>
+<country>Australia</country>
+</address>
+<electronicMailAddress>barry.brook@adelaide.edu.au</electronicMailAddress>
+</contact>
+</dataset></ns0:eml>

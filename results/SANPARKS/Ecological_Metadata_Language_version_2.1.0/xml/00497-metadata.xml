@@ -1,0 +1,748 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1268.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Does pyrodiversity lead to greater biodiversity in African Savannas?:  Examining the impact of variance in fire return period</title>
+ <creator id="1336476553866"> <organizationName>SANParks</organizationName>
+ </creator>
+ <associatedParty id="1336476639587"><individualName><givenName>Karen</givenName>
+ <surName>Vickers</surName>
+ </individualName>
+ <organizationName>OTS</organizationName>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+ <abstract><para>The strong influence of fire on vegetation structure and floristics in savannas make it an important tool for managers of preserved areas.  Currently, Kruger National Park (KNP) uses a heterogeneous fire regime to promote biodiversity; however the effects of variance in fire return period on vegetation structural and compositional diversity have never been studied.  This study recorded structural and floristic data at 16 sites within KNP in order to explore the relationship between variance in fire return period and structural and compositional vegetation diversity.  We found variance in fire return period to have little influence over floristic and structural diversity.  Average fire return period explained more differences in diversity, and we observed that a fire return period of around 6 years fostered the greatest structural and floristic diversity.  These findings may be useful in informing future fire policy in KNP.</para>
+ </abstract>
+ <keywordSet><keyword>vegetation structural diversity, fire regime, floristic diversity, pyrodiversity</keyword>
+ <keyword>SANParks, South Africa, Kruger National Park, South Africa</keyword>
+ </keywordSet>
+ <coverage><geographicCoverage><geographicDescription>KNP_Boundary</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>30.888418</westBoundingCoordinate>
+ <eastBoundingCoordinate>32.033169</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.32785</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.528913</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2009-11-12</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009-11-16</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1336476560280"><individualName><givenName>Megan</givenName>
+ <surName>Howard</surName>
+ </individualName>
+ <organizationName>OTS</organizationName>
+ </contact>
+ <contact id="1336476588479"><individualName><givenName>Dani</givenName>
+ <surName>Potter</surName>
+ </individualName>
+ <organizationName>OTS</organizationName>
+ </contact>
+ <contact id="1336476604600"><individualName><givenName>Gabby</givenName>
+ <surName>Salazar</surName>
+ </individualName>
+ <organizationName>OTS</organizationName>
+ </contact>
+ <contact id="1336476619909"><individualName><givenName>Ciara</givenName>
+ <surName>Wirth</surName>
+ </individualName>
+ <organizationName>OTS</organizationName>
+ </contact>
+ <methods><methodStep><description><section><title>Methods</title>
+ <para>Methods</para>
+ <para>Study Site</para>
+ <para>Sixteen sites were selected in the Skukuza/Pretoriaskop region of KNP in South Africa (Figure 1).  GIS fire history data provided by Izak Smit of the park&#8217;s Scientific Services were used to select sites.  Fire scar data from 1941 to 2008 were overlayed in a GIS map, dividing the park into polygons, with each polygon consisting of an area of identical fire history.  We selected sites within two kilometers of a road for accessibility.  Using the known fire history of each site provided by the GIS data, we selected 16 sites paired by the same average fire return period in order to control for the effects of fire frequency.  While each pair had the same overall fire frequency through the past 69 years, one site in each pair had high variance in fire return period and the other had low variance (Table 1).</para>
+ <para> </para>
+ <para>FIGURE 1: Map of the 16 sites selected in Kruger National Park, with pairs labeled 1 through 8. Sites are paired by the same average fire return period, but one site in each pair has high variance in fire return period (shaded dark grey) and the other site has low variance in fire return period (shaded light grey).</para>
+ <para> </para>
+ <para>TABLE 1: Summary of fire history data of the 16 sites evaluated in the Skukuza/Pretoriaskop region of Kruger National Park in South Africa.  Sites are arranged in pairs with sites labeled with an A representing the high variance site of each pair and sites labeled with a B representing the low variance site of each pair.</para>
+ <para>Pair Number	Number of Fires 1941 &#8211; 2006	Average Fire Return Period (years)	Maximum Fire Return Period (years)	Variance in Fire Return Period (years)	Area (hectares)	Difference in Variance Between Pairs (years)</para>
+ <para>1A	16	3.941	23	25.231	2.25323</para>
+ <para>22.911</para>
+ <para>1B	25	2.577	8	2.320	32.35122</para>
+ <para>2A	14	4.467	33	60.109	28.02452</para>
+ <para>51.330</para>
+ <para>2B	14	4.467	10	8.779	28.46588</para>
+ <para>3A	13	4.786	33	63.171	70.66326</para>
+ <para>54.574</para>
+ <para>3B	13	4.786	10	8.597	623.39243</para>
+ <para>4A	10	6.091	36	91.547	20.73223</para>
+ <para>76.740</para>
+ <para>4B	10	6.091	17	14.807	45.51266</para>
+ <para>5A	9	6.700	36	102.820	754.74734</para>
+ <para>88.810</para>
+ <para>5B	9	6.700	17	14.010	150.60097</para>
+ <para>6A	7	8.375	34	100.481	26.73789</para>
+ <para>84.457</para>
+ <para>6B	8	7.444	17	16.024	27.37966</para>
+ <para>7A	8	7.444	36	109.349	40.13838</para>
+ <para>95.990</para>
+ <para>7B	8	7.444	17	13.359	4.50639</para>
+ <para>8A	3	16.750	56	514.700	21.33613</para>
+ <para>433.520</para>
+ <para>8B	3	16.750	27	81.180	218.39858</para>
+ <para>All sites had granitic soil, moderate rainfall (590-640mm per year), and knobthorn/scicklebush thorn thicket vegetation dominated by Grewias, Dichrostachys, Acacias and Combretums.  Within each site, a specific study plot was selected on the midslope of a catena, as defined by relative elevation and vegetation type, because vegetation type and structure is known to vary substantially between the crest and valley of a catena (Venter et al. 2003).</para>
+ <para>Experimental Design and Protocol</para>
+ <para>To examine the structural and floristic diversity at each site, we first defined four height classes for woody vegetation.  Height class one included all individuals less than one meter to account for recent recruitment of seedlings.  Although seedlings may not have experienced fire in their lifetime, the fire history of each site may influence their demographics and species composition.  Height class two included all individuals between one and three meters.  These individuals represent plants that have made it past the seedling stage, but are still vulnerable to fire.  Height classes three and four included individuals greater than three meters to account for trees that have escaped the &#8216;fire trap.&#8217;  Height class three included all individuals greater than three meters and less than six meters, and height class four included trees six meters and greater.  We separated height classes three and four to distinguish tall trees from tall shrubs and small trees.</para>
+ <para>In addition to height classes, we identified each individual to species and noted structural characteristics.  Each individual was classified as single-stemmed or multi-stemmed based on visual observation.  Multi-stemmed individuals are likely to be sprouters, while single-stemmed individuals may be non-sprouters.  Sprouters are better equipped to persist through fire (Bond and Midgley 2003), thus a higher number of multi-stemmed individuals relative to single-stemmed may indicate high selective pressure from fire.  We also classified the structure of each individual as cage or pole architecture in order to test our hypothesis that sites with more frequent, less variable fires in the past would have more individuals with pole architecture because of the pressure to escape the &#8216;fire trap.&#8217;  Cage architecture was defined as woody vegetation that appeared to be investing in growth by sending stems outward instead of upward.</para>
+ <para>We surveyed vegetation using a modified version of the Walker Transect method (Figure 2; L. Kruger pers. comm.).  The transect consisted of a 100 meter straight-line transect running along the catenal mid-slope in order to control for vegetation type because distinct species assemblages dominate different catenal zones (Venter et al. 2003).  In zone one, we identified every woody plant to species and recorded its height class and structural characteristics.  In zone two, we recorded data for only those woody plants that were one meter or greater in height, and in zone three, we recorded only trees above three meters in height.  We used this sampling method instead of identifying all individuals of all sizes in a smaller plot in order to cover a greater area and account for spatial variation in large individuals.</para>
+ <para> </para>
+ <para> </para>
+ <para>FIGURE 2: Structure of the 50 meter x 100 meter Walker Transect used to measure floristic and structural diversity within each of the 16 sites.  All woody individuals of all height classes were recorded in Zone 1.  Only woody individuals taller than one meter were recorded in Zone 2 and only taller individuals greater than three meters were recorded in Zone 3. Zones 1 &#8211; 3 are on both sides of the center line (a 100 meter straight-line transect).</para>
+ <para>For each site, we also recorded horizontal and vertical profiles in order to assess the overall spatial structure of the vegetation, including all plant biomass.  We recorded information on horizontal visibility, vertical vegetation biomass, and canopy cover every 10 meters along each transect.  A Cody&#8217;s vegetation index was used to evaluate horizontal visibility (K. Vickers, pers. comm.).  We assessed the visibility of a white sheet of paper held at 0.25, 0.5, 0.75, 1, and 1.5 meters above the ground by recording the distance at which 50% of the sheet of paper was no longer visible.  This measure allowed us to compare vegetation biomass between sites beyond woody vegetation and to construct an idea of what each site looks like in terms of vegetation density.  To establish a vertical vegetation profile, we estimated the percentage of space within a 2 m x 2 m x 2m box that was filled by vegetation at 0-2 m, 2-4 m, 4-6 m, 6-8 m, and so on, as high as was necessary in order to contrust a descriptive measure of the vertical density of biomass.  Both the horizontal and vertical profiles were taken to supplement the height class values because height class data does not provide a complete picture of density and distribution of vegetation within each site.  Finally, a densiometer was used to asses canopy cover.</para>
+ <para>Analysis</para>
+ <para>The objective of our study was to determine the effects of variance in fire return period on the floristics and structure of sites with similar average fire return periods.  In order to make these comparisons, it was necessary to simplify complex measures such as horizontal and vertical profiles and the relative abundance of woody individuals of each species within each site.  We used PRIMER&#8211;E 5.2.2 (Ltd, 2001) to calculate Shannon-Weiner diversity indices for floristics and for the following measures of structural diversity: height class, vertical profile, horizontal profile, cage and pole architecture, and multi-stemmed and single-stemmed architecture.  The Shannon-Weiner Diversity Index was favored over the Simpson&#8217;s Index because it places emphasis on evenness rather than rarity. We expected that sites with high variance in fire return period would have higher diversity index scores than sites with low variance in fire return period.</para>
+ <para>Paired T-tests were run on all diversity indices between matched sites using STATISTICA 6.1 (StatSoft, Inc. 1984-2004) in order to discern differences in diversity between sites of high and low variance.  Bi-variate regression analyses were conducted to different explanatory factors for structural and floristic diversity across the 16 sites.  For regressions of average fire return period against the number of woody individuals in each height class, one site (site 8b) was removed from the dataset due to uncertainty about the accuracy of the fire history (N. Govender, pers. comm.).</para>
+ <para>Between each pair, we also found the difference in the number of woody individuals and calculated an average difference in woody individuals across the eight pairs of sites.  We then compared the difference between individuals in each height class, the number of individuals that displayed cage and pole architecture, and the number of single-stemmed and multi-stemmed individuals.  Paired t-tests were performed in order to test if the mean difference between pairs was zero.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1336546030958"><entityName>PyrodiversitySitedata.txt</entityName>
+<physical id="1336545126574"><objectName>PyrodiversitySitedata.txt</objectName>
+<size unit="byte">3622</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1269.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1336546030973"><attributeName>new_site</attributeName>
+<attributeDefinition>site number based on pair and high or low variance in fire return period. Low number corresponds to low average fire return period. A refers to high variance in fire return period; B refers to low variance in fire return period.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>HIgh and low</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1336546030989"><attributeName>Site</attributeName>
+<attributeDefinition>number given to the site as data was collected. Refers to order in which sites were visited.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031004"><attributeName>Var_class</attributeName>
+<attributeDefinition>denotes high or low variance sites. H refers to the site within a pair with high variance in fire return period; L refers to low variance in fire return period.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>H</code>
+<definition>high variance in fire return period</definition>
+</codeDefinition>
+<codeDefinition><code>L</code>
+<definition>low variance in fire return period</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1336546031020"><attributeName>avg_class</attributeName>
+<attributeDefinition>denotes high or low average fire return period. F refers to sites where fire was designated frequent, and I refers to sites where fire was designated as infrequent.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>F</code>
+<definition>frequent fire</definition>
+</codeDefinition>
+<codeDefinition><code>I</code>
+<definition>infrequent fire</definition>
+</codeDefinition>
+<codeDefinition><code>i</code>
+<definition>infrequent fire</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1336546031036"><attributeName>Grand Total</attributeName>
+<attributeDefinition>total number of trees recorded at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031051"><attributeName>COUNT</attributeName>
+<attributeDefinition>total number of fires since 1941 excluding 2007-2009.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031067"><attributeName>F_MEAN</attributeName>
+<attributeDefinition>mean fire return period at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031082"><attributeName>F_MIN</attributeName>
+<attributeDefinition>minimum fire return period at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031098"><attributeName>F_MAX</attributeName>
+<attributeDefinition>maximum fire return period at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031114"><attributeName>F_MEDIAN</attributeName>
+<attributeDefinition>median fire return period at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031129"><attributeName>F_STDEV</attributeName>
+<attributeDefinition>standard deviation of fire return period at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031145"><attributeName>F_VAR</attributeName>
+<attributeDefinition>variance of fire return period at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031160"><attributeName>M</attributeName>
+<attributeDefinition>total number of multistemmed individuals at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031176"><attributeName>S</attributeName>
+<attributeDefinition>total number of singlestemmed individuals at the site</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031192"><attributeName>C</attributeName>
+<attributeDefinition>total number of woody individuals displaying cage architecture at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031207"><attributeName>P</attributeName>
+<attributeDefinition>total number of woody individuals displaying pole architecture at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031223"><attributeName>1</attributeName>
+<attributeDefinition>total number of woody individuals below one meter tall at the site</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031238"><attributeName>2</attributeName>
+<attributeDefinition>total number of woody individuals between one and three meters tall at the site</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031254"><attributeName>3</attributeName>
+<attributeDefinition>total number of woody individuals between three and six meters tall at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031270"><attributeName>4</attributeName>
+<attributeDefinition>total number of woody individuals greater than 6m tall at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031285"><attributeName># in 40-63</attributeName>
+<attributeDefinition>number of fires occurring between 1941 and 1963 at the</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031301"><attributeName># in 63-86</attributeName>
+<attributeDefinition>number of fires occurring between 1963 and 1986 at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031316"><attributeName># 86-2009</attributeName>
+<attributeDefinition>number of fires occurring between 1986 and 2009 at the site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031332"><attributeName>1w</attributeName>
+<attributeDefinition>percentage of total fires between 1940 and 2009 that occurred between 1940 and 1963</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031348"><attributeName>2w</attributeName>
+<attributeDefinition>percentage of total fires between 1940 and 2009 that occurred between 1963 and 1986.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031363"><attributeName>3w</attributeName>
+<attributeDefinition>percentage of total fires between 1940 and 2009 that occurred between 1986 and 2009.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031379"><attributeName>BH</attributeName>
+<attributeDefinition>Burn History. Denotes which third of the fire history (1=1940-1963; 2=1963-1986; 3=1986-2009) contained the most fires.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031394"><attributeName>time LB</attributeName>
+<attributeDefinition>time since last burn.</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1336546031410"><attributeName>new_count</attributeName>
+<attributeDefinition>total number of fires since 1941 including 2007-2009.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031426"><attributeName>num_in last 20years</attributeName>
+<attributeDefinition>number of fires occurring since 1989.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031441"><attributeName>Floristics</attributeName>
+<attributeDefinition>Shannon-Weiner diversity index score for floristics</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031457"><attributeName>Vertical</attributeName>
+<attributeDefinition>Shannon-Weiner diversity index score for vertical profile.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031472"><attributeName>Horizontal</attributeName>
+<attributeDefinition>Shannon-Weiner diversity index score for horizontal profile</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031488"><attributeName>C/P</attributeName>
+<attributeDefinition>Shannon-Weiner diversity index score for cage v pole architecture. Highest scores indicate sites where the ratio is closest to 50/50.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031504"><attributeName>MS/S</attributeName>
+<attributeDefinition>Shannon-Weiner diversity index score for single-stemmed or multi-stemmed individuals. Highest scores indicate sites where the ratio is closest to 50/50.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031519"><attributeName>Height Class</attributeName>
+<attributeDefinition>Shannon-Weiner diversity index score for height classes.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031535"><attributeName>GPS Start</attributeName>
+<attributeDefinition>GPS coordinates (in decimal degrees) at which our transect began. All sites were in region 36J.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546031550"><attributeName>GPS End</attributeName>
+<attributeDefinition>GPS coordinates (in decimal degrees) at which our transect ended. All sites were in region 36J. We failed to record the end of our transect at two of our sites. Oops.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>16</numberOfRecords>
+</dataTable>
+<dataTable id="1336546763711"><entityName>PyrodiversityTReedata.txt</entityName>
+<physical id="1336546544447"><objectName>PyrodiversityTReedata.txt</objectName>
+<size unit="byte">177025</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1270.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1336546763726"><attributeName>Species</attributeName>
+<attributeDefinition>species of tree being observed</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Tree species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1336546763742"><attributeName>Height (m)</attributeName>
+<attributeDefinition>size class into which tree was based. Size class one includes individuals 0-1m tall, size class two includes individuals 1-3m tall, size class three includes individuals 3-6m tall, and size class four includes individuals greater than 6m tall. Heights were estimated and individuals who were exactly 1m or 3m tall, they were included in size class two.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+<definition>0-1m</definition>
+</codeDefinition>
+<codeDefinition><code>2</code>
+<definition>1-3m</definition>
+</codeDefinition>
+<codeDefinition><code>3</code>
+<definition>3-6m</definition>
+</codeDefinition>
+<codeDefinition><code>4</code>
+<definition>&gt;6m</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1336546763758"><attributeName>S/M</attributeName>
+<attributeDefinition>Single-stemmed or multi-stemmed. If a tree appeared to have multiple stems, it was categorized as multi-stemmed (M). If not, it was described as single-stemmed (S)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>M</code>
+<definition>multi stemmed</definition>
+</codeDefinition>
+<codeDefinition><code>S</code>
+<definition>single-stemmed</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1336546763773"><attributeName>C/P</attributeName>
+<attributeDefinition>Cage or Pole. If a tree appeared to be investing the majority of its resources in growing up to escape the fire trap, it was described as a pole (P). If it appeared to be growing outward more, it was described as cage (C).</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>C</code>
+<definition>If it appeared to be growing outward more, it was described as cage</definition>
+</codeDefinition>
+<codeDefinition><code>P</code>
+<definition>nvesting the majority of its resources in growing up to escape the fire trap, it was described as a pole</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1336546763789"><attributeName>Site</attributeName>
+<attributeDefinition>the site at which the individual was observed.  Site number refers to the order in which we collected data on each site, in contrast to the site pair number given in the selection process. Conversions can be found on sheet 1: Site Summary Data in columns A and B.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336546763804"><attributeName>Notes</attributeName>
+<attributeDefinition>fallen/resprouting</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>FALLEN</code>
+<definition>fallen</definition>
+</codeDefinition>
+<codeDefinition><code>resprout</code>
+<definition>resprout</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>5540</numberOfRecords>
+</dataTable>
+<dataTable id="1336547048416"><entityName>PyrodiversityHorizontal.txt</entityName>
+<physical id="1336546941403"><objectName>PyrodiversityHorizontal.txt</objectName>
+<size unit="byte">3668</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1271.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1336547048431"><attributeName>site</attributeName>
+<attributeDefinition>site number for which the data was recorded. Site number refers to the order in which we collected data on each site, in contrast to the site pair number given in the selection process. Conversions can be found on sheet 1: Site Summary Data in columns A and B.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547048447"><attributeName>point</attributeName>
+<attributeDefinition>distance (m) along the transect at which the data was recorded</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547048463"><attributeName>H0.25  (m)</attributeName>
+<attributeDefinition>height at which data was recorded. Data refers to distance (m) 
+from transect at which half of a piece of paper was no longer visible. Averages are of all of the data at the given height for each site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547048478"><attributeName>H0.5 (m)</attributeName>
+<attributeDefinition>height at which data was recorded. Data refers to distance (m) 
+from transect at which half of a piece of paper was no longer visible. Averages are of all of the data at the given height for each site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547048494"><attributeName>H0.75 (m)</attributeName>
+<attributeDefinition>height at which data was recorded. Data refers to distance (m) 
+from transect at which half of a piece of paper was no longer visible. Averages are of all of the data at the given height for each site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547048509"><attributeName>H2 (m)</attributeName>
+<attributeDefinition>height at which data was recorded. Data refers to distance (m) 
+from transect at which half of a piece of paper was no longer visible. Averages are of all of the data at the given height for each site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547048525"><attributeName>H1.5 (m)</attributeName>
+<attributeDefinition>height at which data was recorded. Data refers to distance (m) 
+from transect at which half of a piece of paper was no longer visible. Averages are of all of the data at the given height for each site.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>160</numberOfRecords>
+</dataTable>
+<dataTable id="1336547506216"><entityName>PyrodiversityVertical.txt</entityName>
+<physical id="1336547410443"><objectName>PyrodiversityVertical.txt</objectName>
+<size unit="byte">3560</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1272.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1336547506232"><attributeName>Site</attributeName>
+<attributeDefinition>site at which data was recorded. Site number refers to the order in which we collected data on each site, in contrast to the site pair number given in the selection process. Conversions can be found on sheet 1: Site Summary Data in columns A and B.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547506247"><attributeName>Point (m)</attributeName>
+<attributeDefinition>distance (m along the transect at which the data was recorded</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547506263"><attributeName>Canopy</attributeName>
+<attributeDefinition>densiometer reading taken at the given point along the transect.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547506279"><attributeName>0 to 2</attributeName>
+<attributeDefinition>0 to 2&#8212;percentage of 2x2m box between 0 and 2m that is filled by vegetative biomass. 2-4, 4-6, 6-8, 8-10 refer to the same thing, but with the box between the heights given by the column heading.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547506294"><attributeName>2 to 4</attributeName>
+<attributeDefinition>0 to 2&#8212;percentage of 2x2m box between 0 and 2m that is filled by vegetative biomass. 2-4, 4-6, 6-8, 8-10 refer to the same thing, but with the box between the heights given by the column heading.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547506310"><attributeName>4 to 6</attributeName>
+<attributeDefinition>0 to 2&#8212;percentage of 2x2m box between 0 and 2m that is filled by vegetative biomass. 2-4, 4-6, 6-8, 8-10 refer to the same thing, but with the box between the heights given by the column heading.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547506325"><attributeName>6 to 8</attributeName>
+<attributeDefinition>0 to 2&#8212;percentage of 2x2m box between 0 and 2m that is filled by vegetative biomass. 2-4, 4-6, 6-8, 8-10 refer to the same thing, but with the box between the heights given by the column heading.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547506341"><attributeName>8 to 10</attributeName>
+<attributeDefinition>0 to 2&#8212;percentage of 2x2m box between 0 and 2m that is filled by vegetative biomass. 2-4, 4-6, 6-8, 8-10 refer to the same thing, but with the box between the heights given by the column heading.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1336547506357"><attributeName>-9</attributeName>
+<attributeDefinition>-9</attributeDefinition>
+<measurementScale><dateTime><formatString>-9</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1336547506372"><attributeName>-9</attributeName>
+<attributeDefinition>-9</attributeDefinition>
+<measurementScale><dateTime><formatString>-9</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>160</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

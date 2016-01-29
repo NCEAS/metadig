@@ -1,0 +1,941 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="jstocking.3.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Marine Bird Observations in Prince William Sound, AK, Nov2009 - Mar2012</title>
+ <creator id="1374788693631"><individualName><salutation>Dr.</salutation>
+ <givenName>Mary Anne</givenName>
+ <surName>Bishop</surName>
+ </individualName>
+ <organizationName>Prince William Sound Science Center</organizationName>
+ <positionName>Research Ecologist</positionName>
+ <address><deliveryPoint>300 Breakwater Ave.</deliveryPoint>
+ <deliveryPoint>P.O. Box 1215</deliveryPoint>
+ <city>Cordova</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99574</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">907.424.5800</phone>
+ <electronicMailAddress>mbishop@pwssc.org</electronicMailAddress>
+ <onlineUrl>http://www.pwssc.org</onlineUrl>
+ </creator>
+ <creator id="1374788776257"><individualName><salutation>Dr.</salutation>
+ <givenName>Kathy</givenName>
+ <surName>Kuletz</surName>
+ </individualName>
+ <organizationName>Migratory Bird Management, U.S. Fish and Wildlife Service</organizationName>
+ <address><deliveryPoint>1011 E. Tudor Rd.</deliveryPoint>
+ <city>Anchorage</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99503</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">907.786.3453</phone>
+ <phone phonetype="fax">907.786.3641</phone>
+ <electronicMailAddress>kathy_kuletz@fws.gov</electronicMailAddress>
+ </creator>
+ <associatedParty id="1375386932948"><individualName><givenName>Jessica</givenName>
+ <surName>Stocking</surName>
+ </individualName>
+ <organizationName>Prince William Sound Science Center</organizationName>
+ <positionName>Research Assistant</positionName>
+ <address><deliveryPoint>300 Breakwater Ave</deliveryPoint>
+ <deliveryPoint>P.O. Box 705</deliveryPoint>
+ <city>Cordova</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99574</postalCode>
+ </address>
+ <phone phonetype="voice">907.424.5800x240</phone>
+ <phone phonetype="fax">907.424.5820</phone>
+ <electronicMailAddress>jstocking@pwssc.org</electronicMailAddress>
+ <onlineUrl>http://www.pwssc.org</onlineUrl>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <abstract><para>Predation pressure on juvenile Pacific herring has been identified by the 2008 Integrated Herring Restoration Plan as one of five potential factors limiting recovery of Prince William Sound herring.  Juvenile herring are heavily predated by multiple species of seabirds, including six species initially injured by the Exxon Valdez oil spill and three species that have not yet recovered (Marbled Murrelet, Kittlitz&#226;&#128;&#153;s Murrelet and Pigeon Guillemot).  This November 2009 through March 2012 study investigated the spatial and temporal abundance of marine bird predators in and around juvenile herring schools during two time periods: November and March.  Our project was a component of the integrated, multi-project PWS Herring Survey program and relied on marine bird surveys being performed on vessels associated with hydroacoustic juvenile herring surveys.  Our data includes avian transects performed concurrent with hydroacoustic fish surveys as well as transects conducted while in transit between fish survey sites.</para>
+ </abstract>
+ <keywordSet><keyword>forage flock</keyword>
+ </keywordSet>
+ <keywordSet><keyword>marine mammals</keyword>
+ </keywordSet>
+ <keywordSet><keyword>seabird</keyword>
+ </keywordSet>
+ <keywordSet><keyword>Larus</keyword>
+ </keywordSet>
+ <keywordSet><keyword>fjords</keyword>
+ <keyword>bays</keyword>
+ </keywordSet>
+ <keywordSet><keyword>Common Murre</keyword>
+ </keywordSet>
+ <keywordSet><keyword>Marbled Murrelet</keyword>
+ </keywordSet>
+ <keywordSet><keyword>winter distribution</keyword>
+ </keywordSet>
+ <keywordSet><keyword>sea duck</keyword>
+ </keywordSet>
+ <keywordSet><keyword>non-breeding season</keyword>
+ </keywordSet>
+ <keywordSet><keyword>Pacific Herring</keyword>
+ <keyword>Culpea pallasii</keyword>
+ </keywordSet>
+ <intellectualRights><para>Permission required prior to use.  Contact Bishop/Kuletz.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Prince William Sound, AK</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-154.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>-150.875</eastBoundingCoordinate>
+ <northBoundingCoordinate>60.625</northBoundingCoordinate>
+ <southBoundingCoordinate>57.75</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2009-11-01</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2012-03-31</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Anas</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>acuta</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Anas</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>americana</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Anas</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>clypeata</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Anas</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>crecca</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Anas</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>platyrhynchos</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Anas</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>strepera</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Arenaria</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>melanocephala</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Brachyramphus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>brevirostris</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Brachyramphus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>marmoratus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Branta</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>canadensis</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Bucephala</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>albeola</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Bucephala</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>clangula</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Bucephala</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>islandica</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Calidris</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>ptilocnemis</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Cepphus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>columba</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Chroicocephalus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>philadelphia</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Cinclus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>mexicanus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Circus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>cyaneus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Clangula</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>hyemalis</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Corvus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>caurinus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Corvus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>corax</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Corvus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>corvus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Enhydra</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>lutris</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Eumetopias</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>jubatus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Falco</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>columbarius</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Fratercula</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>cirrhata</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Fratercula</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>corniculata</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Gavia</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>adamsii</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Gavia</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>immer</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Gavia</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>pacifica</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Gavia</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>stellata</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Grus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>canadensis</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Haematopus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>bachmani</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Haliaeetus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>leucocephalus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Histrionicus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>histrionicus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Larus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>argentatus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Larus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>canus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Larus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>glaucescens</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Larus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>hyperboreus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Laurs</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>thayeri</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Leucophaeus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>atricilla</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Lontra</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>canadensis</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Megaceryle</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>alcyon</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Megaptera</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>novaeangliae</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Melanitta</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>americana</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Melanitta</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>fusca</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Melanitta</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>perspicillata</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Mergus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>merganser</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Mergus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>serrator</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Oceanodroma</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>furcata</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Orcinus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>orca</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Phalacrocorax</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>auritus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Phalacrocorax</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>pelagicus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Phalacrocorax</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>urile</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Phalaropus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>lobatus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Phoca</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>vitulina</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Phocoena</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>phocoena</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Phocoenoides</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>dalli</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Pica</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>hudsonia</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Podiceps</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>auritus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Podiceps</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>grisegena</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Puffinus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>creatopus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Puffinus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>griseus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Rissa</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>tridactyla</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Stercorarius</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>parasiticus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Stercorarius</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>pomarinus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Synthliboramphus</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>antiquus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Tachycineta</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>bicolor</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Uria</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>aalge</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Uria</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>lomvia</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+<taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Xema</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>sabini</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+ <contact><references>1374788693631</references>
+ </contact>
+ <contact><references>1374788776257</references>
+ </contact>
+ <methods><methodStep><description><section><title>Data logging</title>
+ <para>The observer recorded observations into a laptop computer integrated with a global positioning system (GPS) using Dlog software (Ford Consulting, Inc., Portland OR).  The GPS-integrated program provided location data at 20-sec intervals and for every entered observation.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Count</title>
+ <para>One observer using 10x binoculars recorded number of birds occurring within a strip transect width of 300 m (150 m both sides and ahead of the boat, in 3 distance bins of 50m).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Behavior</title>
+ <para>All birds recorded were assigned a behavior, based on activity (on water, flying, foraging).</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling><studyExtent><description><para>Six surveys are included in the dataset: Nov. 2009, Mar. 2010, Nov. 2010, Mar. 2011, Nov. 2011, Mar. 2012.    Bird observations in the bays*** During each cruise, five &#226;&#128;&#156;core&#226;&#128;&#157; bays known as the Sound Ecosystem Assessment (SEA) bays were sampled:  Simpson, Eaglek, Zaikof, Whale and Lower Herring Bays.  Depending on the winter, additional bays were surveyed.  Observations were made in transit between bays.</para>
+ </description>
+ </studyExtent>
+ <samplingDescription><para>Our sampling efforts, including location and transect lengths, were determined by the sampling design designated for hydroacoustic juvenile herring surveys (P.I. Richard Thorne, EVOS 10100132-B).  The vessel followed a zigzag track, approximately 200m or greater from shore, and at a speed of approximately 6 knots.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <project><title>Prince William Sound Herring Survey</title>
+ <personnel id="1374792021823"><individualName><salutation>Dr.</salutation>
+ <givenName>W. Scott</givenName>
+ <surName>Pegau</surName>
+ </individualName>
+ <organizationName>Prince William Sound Science Center</organizationName>
+ <address><deliveryPoint>300 Breakwater Ave.</deliveryPoint>
+ <deliveryPoint>P.O. Box 705</deliveryPoint>
+ <city>Cordova</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99574</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">907.424.5800</phone>
+ <phone phonetype="fax">907.424.5820</phone>
+ <electronicMailAddress>wspegau@pwssc.org</electronicMailAddress>
+ <onlineUrl>http://www.pwssc.org</onlineUrl>
+ <role>Program Leader</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council #???????</para>
+ </funding>
+ </project>
+ <dataTable id="1375389409448"><entityName>BishopKuletz_Dlog_1Aug2013.csv</entityName>
+<entityDescription>Marine bird observations in the Prince William Sound during herring surveys, Nov.2009 - Mar.2012</entityDescription>
+<physical id="1375387747146"><objectName>BishopKuletz_Dlog_1Aug2013.csv</objectName>
+<size unit="byte">4990076</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/jstocking.16.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1375389409449"><attributeName>Latitude</attributeName>
+<attributeDefinition>Degrees latitude, NAD27</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1375389409450"><attributeName>Longitude</attributeName>
+<attributeDefinition>Degrees longitude, NAD27</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1375389409451"><attributeName>time</attributeName>
+<attributeDefinition>Time, recorded automatically by Dlog software</attributeDefinition>
+<measurementScale><dateTime><formatString>HH:MM</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1375389409452"><attributeName>date</attributeName>
+<attributeDefinition>Date, recorded automatically by Dlog software</attributeDefinition>
+<measurementScale><dateTime><formatString>DD-MMM-YY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1375389409453"><attributeName>Rec</attributeName>
+<attributeDefinition>Record number assigned by Dlog software - not unique or particularly useful</attributeDefinition>
+<measurementScale><interval><unit><standardUnit>number</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1375389409454"><attributeName>Type</attributeName>
+<attributeDefinition>Type of entry, either GPS (automatic) or USER (observer-entered)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>GPS</code>
+<definition>Entry automatically generated (location) by Dlog software</definition>
+</codeDefinition>
+<codeDefinition><code>USER</code>
+<definition>Observation actively entered by observer</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409455"><attributeName>Spp</attributeName>
+<attributeDefinition>Species code (see table for definitions)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1375389631441</entityReference>
+<valueAttributeReference>1375389631442</valueAttributeReference>
+<definitionAttributeReference>1375389631443</definitionAttributeReference>
+</entityCodeList>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409456"><attributeName>Behavior</attributeName>
+<attributeDefinition>Behavior of individuals at observation</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>no pattern</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409457"><attributeName>Comment1</attributeName>
+<attributeDefinition>Comment about species or conditions</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>no pattern</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409458"><attributeName>Count</attributeName>
+<attributeDefinition>Number of individuals observed</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1375389409459"><attributeName>Bin</attributeName>
+<attributeLabel>Distance bin</attributeLabel>
+<attributeDefinition>Distance bin, in 50-meter bins. 1=0-50m; 2=50-100m; 3=100-150m; 9=150-1000m. Bin 9 observations are not consistently collected and should be approached with caution.</attributeDefinition>
+<measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+<definition>0-50 meters from transect</definition>
+</codeDefinition>
+<codeDefinition><code>2</code>
+<definition>50-100 meters from transect</definition>
+</codeDefinition>
+<codeDefinition><code>3</code>
+<definition>100-150 meters from transect</definition>
+</codeDefinition>
+<codeDefinition><code>9</code>
+<definition>150 - 1000 meters from transect</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</ordinal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409460"><attributeName>Comment2</attributeName>
+<attributeDefinition>Comment about species or conditions</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>no pattern</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409461"><attributeName>Comment3</attributeName>
+<attributeDefinition>Comment about species or conditions</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>no pattern</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409462"><attributeName>ON_SURVEY</attributeName>
+<attributeDefinition>Binary, whether (YES) or not (NO) observer is systematically entering observations according to protocol</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>FALSE</code>
+<definition>observer not collecting data according to protocol</definition>
+</codeDefinition>
+<codeDefinition><code>TRUE</code>
+<definition>observer collecting data according to protocol</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409463"><attributeName>Transect</attributeName>
+<attributeLabel>Transect name</attributeLabel>
+<attributeDefinition>Name of transect. During hydroacoustic surveys, indicate simultaneously collected hydroacoustic data. At other times, defined by observer.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>no pattern</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409464"><attributeName>Hydroacoustic</attributeName>
+<attributeDefinition>Binary - is data concurrent with hydroacoustic data?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>BAY</code>
+<definition>entry collected during hydroacoustic survey in bay</definition>
+</codeDefinition>
+<codeDefinition><code>TRANSIT</code>
+<definition>entry collected in transit between survey bays</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409465"><attributeName>Obsr</attributeName>
+<attributeLabel>Observer</attributeLabel>
+<attributeDefinition>Observer initials</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>TCM</code>
+<definition>Tawna Morgan, PWSSC</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409466"><attributeName>Glare</attributeName>
+<attributeDefinition>Glare conditions</attributeDefinition>
+<measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+<definition>none</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>slight/grey (light)</definition>
+</codeDefinition>
+<codeDefinition><code>2</code>
+<definition>bright/1 side (moderate)</definition>
+</codeDefinition>
+<codeDefinition><code>3</code>
+<definition>bright/forward (harsh, reduces visibility)</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</ordinal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409467"><attributeName>Seas</attributeName>
+<attributeDefinition>Beafort Sea State code</attributeDefinition>
+<measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+<definition>calm, no waves (sea smooth and mirror-like)</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>light air, 1/4-foot waves (scale-like ripples without foam)</definition>
+</codeDefinition>
+<codeDefinition><code>2</code>
+<definition>light breeze, 1/2-foot waves (small, short wavelets; crests glassy and do not break)</definition>
+</codeDefinition>
+<codeDefinition><code>3</code>
+<definition>gentle breeze, 2-foot waves (large wavelets, some crests break; occasional foam crests)</definition>
+</codeDefinition>
+<codeDefinition><code>4</code>
+<definition>moderate breeze, 4-foot waves (small waves, fairly frequent foam crests)</definition>
+</codeDefinition>
+<codeDefinition><code>5</code>
+<definition>fresh breeze, 6-foot waves (moderate waves, many foam crests)</definition>
+</codeDefinition>
+<codeDefinition><code>6</code>
+<definition>strong breeze, 10-foot waves (large waves)</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</ordinal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409468"><attributeName>Obs</attributeName>
+<attributeLabel>Observability code</attributeLabel>
+<attributeDefinition>Observability code (see list)</attributeDefinition>
+<measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>E</code>
+<definition>excellent: all species visible to 300+ meters</definition>
+</codeDefinition>
+<codeDefinition><code>G</code>
+<definition>good: all species visible to 300 meters</definition>
+</codeDefinition>
+<codeDefinition><code>F</code>
+<definition>fair: storm-petrels, phalaropes, auklets visible to 200m and all other species to 300m</definition>
+</codeDefinition>
+<codeDefinition><code>P</code>
+<definition>fair: storm-petrels, phalaropes, auklets visible to 100m and all other species to 200m</definition>
+</codeDefinition>
+<codeDefinition><code>X</code>
+<definition>extremely bad: storm-petrels, phalaropes, auklets not reliably detected to 100m and all other species not reliably detected</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</ordinal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409469"><attributeName>WX</attributeName>
+<attributeLabel>Weather code</attributeLabel>
+<attributeDefinition>Weather code (see list)</attributeDefinition>
+<measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+<definition>&lt;50% clouds</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>&gt;50% clouds</definition>
+</codeDefinition>
+<codeDefinition><code>2</code>
+<definition>patchy fog</definition>
+</codeDefinition>
+<codeDefinition><code>3</code>
+<definition>solid fog</definition>
+</codeDefinition>
+<codeDefinition><code>4</code>
+<definition>mist/light rain</definition>
+</codeDefinition>
+<codeDefinition><code>5</code>
+<definition>med/heavy rain</definition>
+</codeDefinition>
+<codeDefinition><code>6</code>
+<definition>fog and rain</definition>
+</codeDefinition>
+<codeDefinition><code>7</code>
+<definition>snow</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</ordinal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409470"><attributeName>Vessel</attributeName>
+<attributeDefinition>Name of research vessel from which observations were recorded</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>AUKLET</code>
+<definition>Auklet</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389409471"><attributeName>TrWidth</attributeName>
+<attributeLabel>Transect width</attributeLabel>
+<attributeDefinition>Width of transect, typically 300m (150m on each side and in front of vessel)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1375389409472"><attributeName>Cruise</attributeName>
+<attributeDefinition>Cruise name, including month, year and concurrent surveys</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>MMMYY[survey type: Whale or Herring]</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>44527</numberOfRecords>
+</dataTable>
+<dataTable id="1375389631441"><entityName>Bishop_speciescodes_31July2013.csv</entityName>
+<entityDescription>Species codes</entityDescription>
+<physical id="1375389467330"><objectName>Bishop_speciescodes_31July2013.csv</objectName>
+<size unit="byte">3710</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/jstocking.18.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1375389631442"><attributeName>Code</attributeName>
+<attributeDefinition>4-letter species or event code</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Species or event code, 4-letter</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389631443"><attributeName>Common name</attributeName>
+<attributeDefinition>Common name of species, species group or event</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>no pattern</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389631444"><attributeName>Genus</attributeName>
+<attributeDefinition>Scientific name (genus)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Scientific name (genus)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1375389631445"><attributeName>species</attributeName>
+<attributeDefinition>Scientific name (species)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Scientific name (species)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>100</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

@@ -1,0 +1,185 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.82.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Studbook of cape mountain zebra population in the Mointain Zebra National Park (1950s to 1989).</title>
+ <creator id="1240910889047" scope="document"> <individualName> <surName>Novellie</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>General Manager</positionName>
+ <phone phonetype="voice">012 426 5066</phone>
+ <electronicMailAddress>petern@sanparks.org</electronicMailAddress>
+ </creator>
+ <associatedParty scope="document"> <references>1240910889047</references>
+ <role>Coservation Manager</role>
+ </associatedParty>
+ <abstract> <para>Mountain zebra are individualy recognizable from photographed individuals in the Mountain Zebra National Park were maintained from the 1950s to 1989 by a number of observers (Banie Penzhom, Anthony Hall-Martin, Hans Grobler, Peter Novellie and Achim Winkler) this database give the years of births, deaths and translocation of the known individuals from the inception of records up to 1989, when the record-keeping ceased. Note: there are gaps in the information in that the births and deaths of some individuals are unknown.</para>
+ </abstract>
+ <keywordSet> <keyword>Red-listed species, population dynamics, studbook, age specific mortality, age specific reproduction, Cape mountain Zebra.</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>Mountain Zebra National Park, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>SANParks sshould be acknowleged for the data captire and use. digital and non-digital data and metadata belonging to the SANParks, SANParks provided on an "as-is " basos with no guarantee as to data quility. Neither the staff nor South African National Parks (SANParks may be held liable for any loss of any sort resulting from use of data and/metedata provided by scientific Services.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>MountainZebraNationalPark</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>25.092719</westBoundingCoordinate>
+ <eastBoundingCoordinate>25.532273</eastBoundingCoordinate>
+ <northBoundingCoordinate>-32.089761</northBoundingCoordinate>
+ <southBoundingCoordinate>-32.315068</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1950-04-28</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1989-04-28</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1240910889047</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <para>"See obstract"</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1240917263687" scope="document"> <entityName>STUDBOOK.txt</entityName>
+ <entityDescription>studbook</entityDescription>
+ <physical id="1240917262657" scope="document"> <objectName>STUDBOOK.txt</objectName>
+ <size unit="byte">18874</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.83.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1240917263702" scope="document"> <attributeName>NAME</attributeName>
+ <attributeDefinition>The symbol (letter and number) of each individual zebra. The foals of a known mare received the mother, but there numbered in ordr of birth.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263718" scope="document"> <attributeName>SEX</attributeName>
+ <attributeDefinition>M=male; F=Female</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>m</code>
+ <definition>male</definition>
+ </codeDefinition>
+ <codeDefinition> <code>f</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition> <code>u</code>
+ <definition>u</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263733" scope="document"> <attributeName>BM</attributeName>
+ <attributeDefinition>The month of the animal was born, Number of the month of birth (0=birth mounth unknown).</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263749" scope="document"> <attributeName>BYEA</attributeName>
+ <attributeDefinition>The year the animal was born (0=year of birth unknown)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263765" scope="document"> <attributeName>DAM</attributeName>
+ <attributeDefinition>Symbol identifying the identity of the mother of the individual (u=dam unknown).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263780" scope="document"> <attributeName>SIRE</attributeName>
+ <attributeDefinition>Symbol identifying the stallion at the estimated time of conception of the foal (u=herd stallion unknown).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263796" scope="document"> <attributeName>DM</attributeName>
+ <attributeDefinition>the month of the dear of the individual (0=month of death unknown, 22=individual known to be alive in 1989).</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263811" scope="document"> <attributeName>DYEA</attributeName>
+ <attributeDefinition>Year of death of the individual (0=year of death unknown;2222=still alive in 1089)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263827" scope="document"> <attributeName>TRANS</attributeName>
+ <attributeDefinition>The name of the reserve or the surname of the private individual to which/who the animal was sold or danated (n=the animal was never taken out ofthe Mountain Zebra NP).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263843" scope="document"> <attributeName>TM</attributeName>
+ <attributeDefinition>Month in which the animal was translocated (0=the animal was not translocated).</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1240917263858" scope="document"> <attributeName>TYEA</attributeName>
+ <attributeDefinition>Year in which the animal was translocated (0=the animal was not translocated).</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>525</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,299 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.109845.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+<dataset> <title>Transect-survey of vegetation composition and structure</title>
+ <creator id="1374040154017"> <individualName><givenName>Marietjie</givenName>
+<surName>Landman</surName>
+</individualName>
+<organizationName>Centre for African Conservation Ecology, Nelson Mandela Metropolitan University</organizationName>
+<electronicMailAddress>marietjie.landman@nmmu.ac.za</electronicMailAddress>
+</creator>
+ <abstract><para>A transect-survey of vegetation composition and structure was conducted in the Main camp-section of the Addo Elephant National Park to monitor the effects of large herbivores, in particular elephant. Transects were permanently marked in 1977, when they were first surveyed, with further monitoring in 1981, 1989 and 2008 (providing temporal coverage of 31 years). Experimental plots were 5 m wide, while plot length scaled inversely with the abundance of the dominant shrub taxa. The following variables were recorded for each plant located along transects: (1) plant species, (2) maximum canopy height, (3) maximum crown diameter [D1], and (4) maximum crown diameter [D2] perpendicular to D1.</para>
+</abstract>
+<keywordSet><keyword>SANParks, South Africa, Addo Elephant National Park, South Africa</keyword>
+<keyword>Vegetation composition and structure</keyword>
+</keywordSet>
+<intellectualRights><para>This dataset is restricted please contact the owner if you would like access to it</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>AddoElephantNationalPark</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>24.961638</westBoundingCoordinate>
+<eastBoundingCoordinate>26.663796</eastBoundingCoordinate>
+<northBoundingCoordinate>-33.071541</northBoundingCoordinate>
+<southBoundingCoordinate>-33.772324</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1977</calendarDate>
+</beginDate>
+<endDate><calendarDate>2008</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact id="1374040217840"><organizationName>SANParks</organizationName>
+</contact>
+<methods><methodStep><description><section><title>Transect methodologies</title>
+<para>A transect-survey of vegetation composition and structure was conducted in the Main camp-section of the Addo Elephant National Park to monitor the effects of large herbivores, in particular elephant. Transects were permanently marked in 1977, when they were first surveyed, with further monitoring in 1981, 1989 and 2008 (providing temporal coverage of 31 years). Experimental plots were 5 m wide, while plot length scaled inversely with the abundance of the dominant shrub taxa. The following variables were recorded for each plant located along transects: (1) plant species, (2) maximum canopy height, (3) maximum crown diameter [D1], and (4) maximum crown diameter [D2] perpendicular to D1.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<dataTable id="1374043246051"><entityName>TransectPlotSpeciecodes.txt</entityName>
+<physical id="1374043183511"><objectName>TransectPlotSpeciecodes.txt</objectName>
+<size unit="byte">1419</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.109846.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1374043246067"><attributeName>Code</attributeName>
+<attributeDefinition>Code</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>codes</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1374043246082"><attributeName>Plant species</attributeName>
+<attributeDefinition>Plant species</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Plant species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>52</numberOfRecords>
+</dataTable>
+<dataTable id="1374043536423"><entityName>TransectPlotLocations.txt</entityName>
+<physical id="1374043273320"><objectName>TransectPlotLocations.txt</objectName>
+<size unit="byte">1618</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.109847.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1374043536439"><attributeName>Plot No.</attributeName>
+<attributeDefinition>Plot No.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043536454"><attributeName>X</attributeName>
+<attributeDefinition>X coordinate</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043536470"><attributeName>Y</attributeName>
+<attributeDefinition>Y coordinate</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043536486"><attributeName>1977Length (m)</attributeName>
+<attributeDefinition>Length of the plot in m in 1977</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043536501"><attributeName>x</attributeName>
+<attributeDefinition>x</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+<definition>x</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1374043536517"><attributeName>1977 Width (m)</attributeName>
+<attributeDefinition>Width of the plot in 1977</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043536532"><attributeName>ARea1977</attributeName>
+<attributeDefinition>Area of the plot in 1977</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043536548"><attributeName>Area1981</attributeName>
+<attributeDefinition>Area of the plot in 1981</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043536564"><attributeName>Area1989</attributeName>
+<attributeDefinition>Area of the plot in 1989</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043536579"><attributeName>Area2008</attributeName>
+<attributeDefinition>Area of the plot in 2008</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>34</numberOfRecords>
+</dataTable>
+<dataTable id="1374043675871"><entityName>TransectPlotData.txt</entityName>
+<physical id="1374043567739"><objectName>TransectPlotData.txt</objectName>
+<size unit="byte">421534</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.109848.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1374043675886"><attributeName>Year</attributeName>
+<attributeDefinition>Year</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1374043675902"><attributeName>Plot No.</attributeName>
+<attributeDefinition>Plot No.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043675918"><attributeName>Plot Length (m)</attributeName>
+<attributeDefinition>Plot Length (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043675933"><attributeName>Plot area (m2)</attributeName>
+<attributeDefinition>Plot area (m2)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043675949"><attributeName>Plant sp.</attributeName>
+<attributeDefinition>Plant sp.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1374043246051</entityReference>
+<valueAttributeReference>1374043246067</valueAttributeReference>
+<definitionAttributeReference>1374043246082</definitionAttributeReference>
+</entityCodeList>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1374043675964"><attributeName>Indiv.</attributeName>
+<attributeDefinition>Indiv.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043675980"><attributeName>Plant height (cm)</attributeName>
+<attributeDefinition>Plant height (cm)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043675996"><attributeName>Canopy Diameter D1 (cm)</attributeName>
+<attributeDefinition>Canopy Diameter D1 (cm)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1374043676011"><attributeName>Canopy Diameter D2 (cm)</attributeName>
+<attributeDefinition>Canopy Diameter D2 (cm)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>12443</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

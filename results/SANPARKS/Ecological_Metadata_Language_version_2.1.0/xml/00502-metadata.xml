@@ -1,0 +1,46 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="tao.12898.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>test</title>
+ <creator id="1243375099373"> <individualName><surName>test</surName>
+</individualName>
+</creator>
+ <contact id="1243375103579"><individualName><surName>test</surName>
+</individualName>
+</contact>
+<dataTable id="1243375152669"><entityName>data-test.txt</entityName>
+<physical id="1243375149915"><objectName>data-test.txt</objectName>
+<size unit="byte">10</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x20</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/tao.12897.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1243375152679"><attributeName>Column 1</attributeName>
+<attributeDefinition>1</attributeDefinition>
+<measurementScale><dateTime><formatString>s</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1243375152689"><attributeName>Column 2</attributeName>
+<attributeDefinition>2</attributeDefinition>
+<measurementScale><dateTime><formatString>x</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>2</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

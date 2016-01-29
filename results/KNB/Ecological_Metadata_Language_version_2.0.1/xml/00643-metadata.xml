@@ -1,0 +1,283 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="nceas.306.6" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>Foraging trait variation in Ambystoma maculatum</title>
+ <creator scope="document"> <organizationName>NCEAS      10641 : Urban: Interaction traits and metacommunity gene flow</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Mark</givenName>
+ <surName>Urban</surName>
+ </individualName>
+ <organizationName>NCEAS</organizationName>
+ <address scope="document"> <deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ </address>
+ <phone phonetype="voice">805-892-2520</phone>
+ <electronicMailAddress>urban@nceas.ucsb.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Mark</givenName>
+ <surName>Urban</surName>
+ </individualName>
+ </metadataProvider>
+ <pubDate>2007-03-09</pubDate>
+ <abstract><para>Predator-prey interactions often vary markedly across natural landscapes.  One explanation for this variation is local genetic differentiation of prey traits due to selection from predators.  Here, I evaluated the relative contributions of selection from a gape-limited predator (Ambystoma opacum) and spatial location within a larger landscape to explanations of variation in foraging, growth, and survival in 10 populations of temporary pond breeding salamander larvae (Ambystoma maculatum).  In parameterized models, high gape-limited predation risk was predicted to select for intense foraging and rapid growth in larvae when migration rates were low (less than 5%).  Under common garden conditions, salamander larvae from populations naturally exposed to constant predation risk from A. opacum foraged more actively than those from populations faced with lower predation risks.  Higher foraging rates were associated with lower survival in populations exposed to free-ranging A. opacum predators.  These results demonstrate for the first time that prey hunger can evolve in a natural landscape of variable gape-limited predation risk depending on natural selection for growth into a size refuge.  Moreover, evidence suggests that foraging-predation risk tradeoffs can evolve over microgeographic scales.  However, foraging rates also appear to have been affected by gene flow: prey individuals from populations with high predation risk foraged more actively if located within regions with similar predation threats.  This interaction between local selection and spatial location suggests a joint role for adaptation and maladaptation in shaping species interactions across natural landscapes, a finding with implications for dynamics at the population, community, and metacommunity levels.</para>
+ </abstract>
+ <keywordSet> <keyword keywordType="theme">predator-prey evolution</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>Obtain permission from data set owner(s)</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"><temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2004-04-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2004-06-15</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Totoket Ridge, Northford, CT</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-72.1333</westBoundingCoordinate>
+ <eastBoundingCoordinate>-72.1333</eastBoundingCoordinate>
+ <northBoundingCoordinate>41.4000</northBoundingCoordinate>
+ <southBoundingCoordinate>41.4000</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <taxonomicCoverage scope="document"> <taxonomicClassification> <taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ambystoma maculatum</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Mark</givenName>
+ <surName>Urban</surName>
+ </individualName>
+ <organizationName>NCEAS</organizationName>
+ <address scope="document"> <deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ </address>
+ <phone phonetype="voice">805-892-2520</phone>
+ <electronicMailAddress>urban@nceas.ucsb.edu</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section> <title>Common garden</title>
+ <para>Larvae were raised in a temperature and food-controlled environment.  A. opacum cues were added every 2 days.</para>
+ <para />
+ </section>
+ </description>
+ </methodStep>
+ <sampling><studyExtent><description> <para>full extent</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>Totally randomized design, containers were repositioned every 2 days.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=mcurban,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataTable id="1189110640799" scope="document"><entityName>feeding_data_deposit.txt</entityName>
+ <entityDescription>feeding data deposit</entityDescription>
+ <physical id="1189110639195" scope="document"><objectName>feeding_data_deposit.txt</objectName>
+ <size unit="byte">21260</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution id="9999999" scope="document"><online><url function="download">ecogrid://knb/nceas.346.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1189110640800" scope="document"><attributeName>pond</attributeName>
+ <attributeDefinition>Pond</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Pond</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640801" scope="document"><attributeName>sib</attributeName>
+ <attributeDefinition>sibling</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>sibling</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640802" scope="document"><attributeName>final_weight</attributeName>
+ <attributeDefinition>In final weight mg (milligrams)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milligram</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640803" scope="document"><attributeName>feeding_sum4wks</attributeName>
+ <attributeDefinition>Feeding sum (4 weeks) feeding strikes per minute</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640804" scope="document"><attributeName>feedingwk1</attributeName>
+ <attributeDefinition>feeding (week 1) feeding strikes per minute</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640805" scope="document"><attributeName>feedingwk2</attributeName>
+ <attributeDefinition>feeding (week 2) feeding strikes per minute</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640806" scope="document"><attributeName>feedingwk3</attributeName>
+ <attributeDefinition>feeding (week 3) feeding strikes per minute</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640807" scope="document"><attributeName>feedingwk4</attributeName>
+ <attributeDefinition>feeding (week 4) feeding strikes per minute</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640808" scope="document"><attributeName>feedingwk5</attributeName>
+ <attributeDefinition>feeding (week 5) feeding strikes per minute</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640809" scope="document"><attributeName>amop_prevalence</attributeName>
+ <attributeDefinition>Ambystoma opacum (amop) found per 3 years</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640810" scope="document"><attributeName>space _x</attributeName>
+ <attributeDefinition>space (x) centered and standardized longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640811" scope="document"><attributeName>space_y</attributeName>
+ <attributeDefinition>space (y) centered and standardized latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640812" scope="document"><attributeName>dytiscus_density</attributeName>
+ <attributeDefinition>dytiscus density per m^2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640813" scope="document"><attributeName>newt_density</attributeName>
+ <attributeDefinition>newt density per m^2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>mole</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640814" scope="document"><attributeName>pond_permanence</attributeName>
+ <attributeDefinition>pond permanence in days</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640815" scope="document"><attributeName>spring_temperature</attributeName>
+ <attributeDefinition>Spring temperature in Celsius</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1189110640816" scope="document"><attributeName>egg_density</attributeName>
+<attributeDefinition>Conspecific egg density, eggs per minute of search</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>.01</precision>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ </attributeList>
+ <numberOfRecords>247</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <describes>9999999</describes>
+ <access authSystem="knb" order="denyFirst"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=mcurban,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <deny> <principal>public</principal>
+ <permission>read</permission>
+ </deny>
+ </access>
+ </additionalMetadata>
+ </ns0:eml>

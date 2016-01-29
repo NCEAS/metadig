@@ -1,0 +1,183 @@
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>Bode, Collin</origin>
+                 
+                <pubdate>20070101</pubdate>
+                <title>Eel River 10m DEM</title>
+                
+                
+                <pubinfo>
+                    <pubplace>Minneapolis, MN, USA</pubplace>
+                    <publish>National Center for Earth-surface Dynamics, University of Minnesota</publish>
+                    
+                </pubinfo>
+                <onlink>https://repository.nced.umn.edu/browser.php?dataset_id=10</onlink>
+                
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Eel Watershed digital elevation models (DEM). This DVD contains DEMs of the entire Eel River watershed. The Eel River is located mostly in Mendocino County on the coast of California. The source data for these DEMs comes from NED, USGS. Source data was 10x10 meter resolution in ESRI ArcInfo grid format and in geographic (lat/long) projection with NAD83 datum. </abstract>
+            
+            <purpose>Models for basic grid of elevation, flow accumulation, azimuth, hillshade</purpose>
+
+        </descript>
+        <timeperd>
+            <timeinfo>
+                
+                    
+		                   
+		    <rngdates>
+                        <begdate>2003</begdate>
+                        <enddate>2005</enddate>
+                    </rngdates>
+                
+            </timeinfo>
+            <current>Date when data were loaded into NCED repository</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Not updated</update>
+        </status>
+        <spdom>
+            <bounding>
+		<westbc>-180.0</westbc>
+		<eastbc>180.0</eastbc>
+		<northbc>90.0</northbc>
+		<southbc>-90.0</southbc>
+	    </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>NASA Global Change Master Directory (GCMD) Science Keywords</themekt>
+                <themekey>EARTH SCIENCE</themekey>
+                <themekey>EARTH SCIENCE SERVICES","MODELS","DIGITAL ELEVATION/DIGITAL TERRAIN MODELS"</themekey>
+                <themekey>"EARTH SCIENCE","TERRESTRIAL HYDROSPHERE","SURFACE WATER","RIVERS/STREAMS"</themekey>
+                <themekey>"EARTH SCIENCE","TERRESTRIAL HYDROSPHERE","SURFACE WATER","WATERSHED CHARACTERISTICS","",""</themekey>
+            </theme>
+            <place>
+                <placekt>NASA Global Change Master Directory (GCMD) Location Keywords</placekt>
+                <placekey>Continent &gt; North America &gt; United States Of America &gt; California</placekey>
+            </place>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Eel River, California</placekey>
+            </place>
+        </keywords>
+	<accconst>You are free to download and use data from the NCED Data Repository providing you register, and include the citation below for all datasets. Where an additional citation accompanies a specific data set, please include it as well.
+Citation:
+National Center for Earth-surface Dynamics
+Data Repository
+http://www.nced.umn.edu/Data_Repository.html
+[add date you accessed the data]
+	</accconst>
+	<useconst>See access constraints information</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>National Center for Earth Surface Dynamics</cntorg>
+                    <cntper>Collin Bode, Dino Belugi</cntper>
+                </cntorgp>
+		<cntaddr>
+			<addrtype>mailing</addrtype>
+			<address>National Center for Earth-surface Dynamics</address>
+			<address>2 Third Avenue SE</address>
+			<city>Minneapolis</city>
+			<state>MN</state>
+			<postal>55414</postal>
+			<country>USA</country>
+		</cntaddr>
+		<cntvoice>612-624-4363</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        
+        <datacred>National Center for Earth Surface Dynamics, National Center for Airborne Laser Mapping NCALM, USGS, National Science Foundation</datacred>
+        
+    </idinfo>
+    <dataqual>
+       <logic>No data inconsistencies checks were performed.</logic>
+       <complete>The data set contains a series of DEMs.</complete>
+        <lineage>
+            <procstep>
+                <procdesc>It was downloaded from: http://seamless.usgs.gov/ The National Center for Airborne Laser Mapping (NCALM) processed the source grids as follows: 
+                    1. merged the tiles into one grid; 2. reprojected from geographic to UTM, zone 10, nad83 projection using bilinear interpolation; 3. Ran a series of analyses on the dataset to produce the following DEMS:
+                    eel10mdem: Basic grid of elevation, 10m resolution 
+                    eel10mdemacc: Flow accumulation. Grid shows how many other grids flow into each square. Used for watershed delineation and for channel creation. 
+                    eel10mdemdir: Azimuth. Shows direction from north a grid cell is facing. Only 8 directions used, moving clockwise. 
+                    eel10mdemfil: Sinkfill.To get the flow accumulation, you must fill holes and pockets in the elevation model. This grid is essential a step in the processing. 
+                    eel10mdemshd: Hillshade. Models realistic afternoon sun hitting the elevation model. Excellent for visualization. </procdesc>
+                <procdate>20070101</procdate>
+                <proccont>
+                    	<cntinfo>
+				<cntorgp>
+					<cntorg>National Center for Earth-surface Dynamics</cntorg>
+					<cntper>NCED Data Repository</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>National Center for Earth-surface Dynamics</address>
+					<address>2 Third Avenue SE</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55414</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>612-624-4363</cntvoice>
+				<cntemail>nced@umn.edu</cntemail>
+			</cntinfo>
+		
+                </proccont>
+            </procstep>
+          
+        </lineage>
+        
+      
+    </dataqual>
+    <distinfo>
+       <distrib>
+           <cntinfo>
+               <cntorgp>
+                   <cntorg>National Center for Earth Surface Dynamics</cntorg>
+                   <cntper>Collin Bode, Dino Belugi</cntper>
+               </cntorgp>
+               
+               <cntaddr>
+                   <addrtype>mailing</addrtype>
+                   <address>2 Third Avenue SE</address>
+                   <address>University of Colorado</address>
+                   <city>Minneapolis</city>
+                   <state>MN</state>
+                   <postal>55414</postal>
+                   <country>USA</country>
+               </cntaddr>
+               <cntvoice>Unknown</cntvoice>
+               <cntemail>nced@umn.edu</cntemail>
+               <cntemail>dino@eps.berkeley.edu</cntemail>
+           </cntinfo>
+           
+         </distrib>
+        <distliab>SEAD Virtual Archive is not liable for any damages caused by any errors or omissions in the data.</distliab>
+        
+    </distinfo>
+ <metainfo>
+        <metd>20130318</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>SEAD Virtual Archive</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <city>Bloomington</city>
+                    <state>IN</state>
+                    <postal>47408</postal>
+                </cntaddr>
+                <cntvoice>Not provided</cntvoice>
+                <cntemail>inkouper@indiana.edu</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-02-2000</metstdv>
+    </metainfo>
+</metadata>

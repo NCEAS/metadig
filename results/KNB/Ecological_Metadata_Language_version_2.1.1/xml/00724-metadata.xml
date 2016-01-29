@@ -1,0 +1,136 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="rkarban.7.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Facilitation of tiger moths by outbreaking tussock moths that share the same host plants</title>
+ <creator id="1405810153043"> <individualName><salutation>Dr.</salutation>
+<givenName>Richard</givenName>
+<surName>Karban</surName>
+</individualName>
+<organizationName>UC Davis</organizationName>
+</creator>
+ <abstract><para>&#8194;Ecologists have argued about the commonness and strength of interspecific competition between insect herbivores, but facilitation between herbivores has received much less consideration. We previously found that when two species of folivorous caterpillars co-occurred on a shared host plant, feeding by early season tiger moth caterpillars reduced the growth and reproduction of later season tussock caterpillars. However, densities of tussock caterpillars in summer were positively correlated with densities of tiger moth caterpillars the following spring.
+
+2.&#8194;In this study, we experimentally manipulated numbers of feeding tussock caterpillars and found that they facilitated tiger moth caterpillars.
+
+3.&#8194;The depth of the litter layer beneath host lupine bushes was positively correlated with the number of tussock caterpillars feeding on each bush. Experimental additions of litter beneath lupine canopies during summer resulted in increased numbers of tiger moth caterpillars in the following spring, indicating a causal role of litter. Litter potentially provides food, habitat and protection from desiccation and predation. We failed to find evidence that tussock caterpillars facilitated tiger moth caterpillars by mechanisms independent of litter.
+
+4.&#8194;Our study demonstrates that facilitation may operate between insect herbivores, across life-stages through indirect interactions that are non-trophic. Facilitation operated by a novel mechanism, the accumulation of litter which was a by-product of feeding by one species was valuable to a second species. Facilitation persisted in time and space far beyond the creation of litter by tussock caterpillars which should be considered important ecosystem engineers from the point of view of tiger moths. Facilitations that involve habitat modification may generally connect species that do not interact directly or trophically, and have not previously been considered to affect one another.
+
+Journal of animal ecology (2012)  volume: 81  issue: 5  page: 1095-1102</para>
+</abstract>
+<keywordSet><keyword>ecosystem engineer</keyword>
+<keyword>facilitation</keyword>
+<keyword>caterpillar</keyword>
+</keywordSet>
+<intellectualRights><para>No restrictions.</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Bodega Bay Marine Laboratory and Reserve</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-123.07</westBoundingCoordinate>
+<eastBoundingCoordinate>-122.94693</eastBoundingCoordinate>
+<northBoundingCoordinate>38.318</northBoundingCoordinate>
+<southBoundingCoordinate>38.318</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2008</calendarDate>
+</beginDate>
+<endDate><calendarDate>2011</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage><taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>Orgyia vetusta</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact id="1405810220168"><individualName><salutation>Dr.</salutation>
+<givenName>Richard</givenName>
+<surName>Karban</surName>
+</individualName>
+<organizationName>UC Davis</organizationName>
+</contact>
+<methods><methodStep><description><section><title>Effects of the number of tussock caterpillars on tiger moth caterpillars</title>
+<para>We added or removed tussock caterpillars from lupine bushes (L. arboreus) and recorded the number of tiger moth caterpillars on these bushes the following spring, once they became conspicuous. These experiments were conducted at 12 sites in largely grassland and dune habitats at the Bodega Marine Reserve, CA (sites are described in Appendix A; one site was excluded from this experiment because an insufficient number of L. arboreus bushes were present). We selected 15 healthy bushes separated by at least 5 m at each site and randomly assigned five bushes to each of three treatments consisting of tussock caterpillar addition, tussock caterpillar removal and unmanipulated controls. The three treatments were unbiased with respect to initial litter depth on 14 August (anovaF2,161 = 0&#183;37, P = 0&#183;69). We removed all visible tussock caterpillars from removal bushes on 15 August, 23 August, 26 August and 7 September 2009 and added them to the caterpillar addition bushes. We transferred a mean of 19&#183;2 (&#177;3&#183;2 SE) tussock caterpillars per bush. We recorded the number of tiger moth caterpillars on these same bushes on 27 February 2010, by which time they had become large enough to be conspicuous. We had observed that the ground beneath the canopy of bushes that were defoliated by tussock moths accumulated a thick layer of shed leaves, partly consumed leaf fragments and frass in late summer. This is the time when early instar tiger moth caterpillars are living hidden in the litter. We measured the thickness of the litter layer beneath each bush on 23 August 2009, 1 week after applying the tussock caterpillar treatments.</para>
+</section>
+</description>
+<instrumentation>na</instrumentation>
+</methodStep>
+<sampling><studyExtent><description><para>2009-2010</para>
+</description>
+</studyExtent>
+<samplingDescription><para>See method</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable id="1405813669958"><entityName>tussock&amp;woolies.csv</entityName>
+<entityDescription>The effect of tussocks on litter and woolies</entityDescription>
+<physical id="1405812919406"><objectName>tussock&amp;woolies.csv</objectName>
+<size unit="byte">4112</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/rkarban.6.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1405813669959"><attributeName>site</attributeName>
+<attributeDefinition>Site was used as blocking factor to account for difference across space.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>sites represent different sites where experiment was conducted</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1405813669960"><attributeName>litter</attributeName>
+<attributeDefinition>We measured leaf litter depth</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1405813669961"><attributeName>veg</attributeName>
+<attributeDefinition>Above ground vegetation height</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1405813669962"><attributeName>tussocks</attributeName>
+<attributeDefinition>1 is experimentally added tussock caterpillars, 2 is control and 3 is experimentally removed tussock caterpillars</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>1 = added tussocks, 2 = control, 3= removed tussocks</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1405813669963"><attributeName>woolies</attributeName>
+<attributeDefinition>Number of woolies per lupine bush</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1405813669964"><attributeName>transwoolies</attributeName>
+<attributeDefinition>log transfomred wooly counts</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>165</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

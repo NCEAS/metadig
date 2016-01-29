@@ -1,0 +1,826 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.109932.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document">  <title>Long term Weather  data for Kgalagadie Transfronteir National Park  1978-2009</title>
+<creator id="1383118954010" scope="document"> <organizationName>SAWS</organizationName>
+ </creator>
+ <associatedParty scope="document"> <references>1383118961030</references>
+ <role>Collaborator</role>
+ </associatedParty>
+ <associatedParty id="1383119026191" scope="document"> <individualName> <givenName>Peggy</givenName>
+ <surName>Madonsela</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <role>Data Curator</role>
+ </associatedParty>
+<abstract><para>Weather data for 3 stations. Basic data quality checks were done and these are described in the Methods</para>
+</abstract>
+<keywordSet><keyword>SANParks, South Africa, Kgalagadi Transfrontier National Park, South Africa</keyword>
+<keyword>Weather, climate, humidity,pressure,rainfall,temperature,wind</keyword>
+</keywordSet>
+   <intellectualRights> <para>This data belongs to the SAWS and may therefore only be used for reserach purposes. If you would like to use this for any other reason please contact the SAWS directly</para>
+ </intellectualRights>
+ <coverage scope="document">   <geographicCoverage><geographicDescription>KgalaghadiNationalPark</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>20.0</westBoundingCoordinate>
+<eastBoundingCoordinate>20.8636</eastBoundingCoordinate>
+<northBoundingCoordinate>-24.766703</northBoundingCoordinate>
+<southBoundingCoordinate>-26.483109</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1978</calendarDate>
+</beginDate>
+<endDate><calendarDate>2009</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+ <contact id="1383118961030" scope="document"> <individualName> <salutation>Dr</salutation>
+ <givenName>Nicola</givenName>
+ <surName>Van Wilgen</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ </contact>
+<methods><methodStep><description><section><title>Basic data quality checks for Mata Mata</title>
+<para>0497019 2	GEMSBOKPARK - MATA MATA	Lat:	-25.81	Long:	20.02	Height: 1,000  m	CurOrder:</para>
+<para>Notes</para>
+<para>177.2mm of rain recorded on 7 March 1976 - this is likely an error as only 28mm were recorded at Twee Rivieren</para>
+<para>There is no 20h wind series</para>
+<para>January 1975 missing from the temperature and rainfall series - dates added to rainfall</para>
+<para>April and May missing from 1988 temperature series - added</para>
+<para>Oct to Dec 2001 also missing from rainfall series - dates added</para>
+<para>General comments</para>
+<para>Temperature: There is a strong annual pattern in temperature, with winter temperatures very low (minima) and summer temperatures very high. There is a large gap in the minimum temperature series (Jan 1979, April to Jul 1979 and April 1983 to April 1984) as well as a gap in both series: Jul 2005 to end Dec 2006 and several interspersed months in 2003. April and May missing from 1988. The data after the 2006 gap become patchy.</para>
+<para>Rainfall: There is a gap in the data from Aug 2005 to Feb 2006 (due to failed readings) - this excludes the rainfall season. There is a strong summer rainfall pattern. 1976 data likely contain an error - see above. January 1975 missing and Oct to Dec 2001 also missing.</para>
+<para>Wind: Data only available for 1978 and 1979</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Basid cata quality checks for Nossb</title>
+<para>0535175 5	GEMSBOKPARK - NOSSOB	Lat:	-25.42	Long:	20.6	Height: 1,000  m	THIRD	CurOrder:</para>
+<para>Notes</para>
+<para>May 1988 missing from the temperature series - added</para>
+<para>The whole of 1992 and Oct - Dec 2001 missing from the rainfall series</para>
+<para>83mm of rain recorded on 5 Jan 1998 - possibly an error - 26mm recorded at Twee Rivieren</para>
+<para>General comments</para>
+<para>Temperature: There is a clear annual trend in temperatures and there is a fairly large difference between manima and maxima in all seasons. There are a few gaps in the data, especially towards the end of the series: Maxima: Feb-Mar 197, Sep 1980- Mar 1981, Jun-Aug 1992, Aug ; Minima: May 1990; Both series: several gaps in 1990, several gaps from Jun 1994 to May 1995, Dec 1995. There are no data for Mar-Dec 2006 and data begin again on 1 Jan 2007. Also no data from Feb-Jun 2009. There are also several other small gaps.</para>
+<para>Rainfall: There are only 14 occurences (0.1%) of failed readings. There is no data for 1992, Oct-Dec 2001 and six days in a row without a reading in Feb 2006, which could affect rainfall measured for the year as this area receives summer rainfall.</para>
+<para>Wind: Data only available for 1978 and 1979</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Basic data qualift checks for Twee Rivieren</title>
+<para>0461208 4	TWEE RIVIEREN	Lat:	-26.47	Long:	20.61	Height: 882  m	CurOrder:	ELEC_MANUAL</para>
+<para>Notes</para>
+<para>79mm of rain received on 9 Feb 1989 could be an error as 0 mm received at Nossob and 16mm at Mata mata</para>
+<para>The humidity data are plagued by gaps and seem rather irregular</para>
+<para>The wind data appear problematic</para>
+<para>2003/09/09 and 2003/09/30 repeated in the 8h humidity data series - deleted</para>
+<para>2003/09/08 repeated in the 14h and 20h humidity data series - deleted</para>
+<para>2003/09/02 repeated in the 8h pressure data series - deleted</para>
+<para>There were many gaps in the pressure data prior to 1983 and the pattern in these data seems questionable.</para>
+<para>Outlier in July 2007 pressure data</para>
+<para>2003/09/02 repeated in the 8h wind data series - deleted</para>
+<para>The wind data show highly erratic patterns (which stablize only in 2007)</para>
+<para>898.3 deleted from pressure data 20h series on 2002/7/22 - this was a clear outlier</para>
+<para>May1988 as well as several other data points missing from the temperature data</para>
+<para>July 1991 missing from the rain data series - added in analysis file</para>
+<para>General comments</para>
+<para>Temperature: There are a few small gaps in the data, but the only big one includes a one year gap in minimum temperature from November 1982 to November 1983. There is a strong annual cycle in minimum and maximum temp and there is a relatively large difference between minima and maxima.</para>
+<para>Rainfall: There is a strong pattern of summer rainfall. July 1991 missing from series.</para>
+<para>Humidity: The humidity data are plagued by gaps and seem rather irregular</para>
+<para>Pressure: The first few years of this data were deleted because they were faulty and full of gaps (start now 1983)</para>
+<para>Wind: The wind data show highly erratic patterns (which stablizes only in 2007) with several inconsistencies.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+ <dataTable id="1383814283075"><entityName>Kgalagadi - Gemsbokpark Mata mataRainfall_2009.txt</entityName>
+<physical id="1383814005303"><objectName>Kgalagadi - Gemsbokpark Mata mataRainfall_2009.txt</objectName>
+<size unit="byte">970660</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109933.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383814283085"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383814283095"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383814283105"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383814283115"><attributeName>Rainfall</attributeName>
+<attributeDefinition>Rainfall</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383814283125"><attributeName>Rainfall type</attributeName>
+<attributeDefinition>Rainfall type</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>17927</numberOfRecords>
+</dataTable>
+<dataTable id="1383814378431"><entityName>Kgalagadi - Gemsbokpark Mata mataTemperature_2009.txt</entityName>
+<physical id="1383814296848"><objectName>Kgalagadi - Gemsbokpark Mata mataTemperature_2009.txt</objectName>
+<size unit="byte">624929</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109934.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383814378441"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383814378451"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383814378461"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383814378471"><attributeName>Maximum temperature</attributeName>
+<attributeDefinition>Maximum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383814378481"><attributeName>Minimum temperature</attributeName>
+<attributeDefinition>Minimum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>11801</numberOfRecords>
+</dataTable>
+<dataTable id="1383814510440"><entityName>Kgalagadi - Gemsbokpark Mata mataWind_2009.txt</entityName>
+<physical id="1383814396698"><objectName>Kgalagadi - Gemsbokpark Mata mataWind_2009.txt</objectName>
+<size unit="byte">72842</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109935.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383814510450"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383814510460"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383814510470"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383814510480"><attributeName>Hour</attributeName>
+<attributeDefinition>Hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383814510490"><attributeName>Wind speed</attributeName>
+<attributeDefinition>Wind speed</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383814510500"><attributeName>Wind direction in degrees</attributeName>
+<attributeDefinition>Wind direction in degrees</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>1184</numberOfRecords>
+</dataTable>
+<dataTable id="1383816006772"><entityName>Kgalagadi - Gemsbokpark Nossob-Rainfall2009.txt</entityName>
+<physical id="1383815933492"><objectName>Kgalagadi - Gemsbokpark Nossob-Rainfall2009.txt</objectName>
+<size unit="byte">621851</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109936.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1383816006782"><attributeName>Staton number</attributeName>
+<attributeDefinition>Staton number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Staton number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383816006792"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383816006802"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383816006812"><attributeName>Rainfall amount</attributeName>
+<attributeDefinition>Rainfall amount</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383816006822"><attributeName>Rainfall type</attributeName>
+<attributeDefinition>Rainfall type</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>12173</numberOfRecords>
+</dataTable>
+<dataTable id="1383816150120"><entityName>Kgalagadi - Gemsbokpark Nossob-Temperature2009.txt</entityName>
+<physical id="1383816028594"><objectName>Kgalagadi - Gemsbokpark Nossob-Temperature2009.txt</objectName>
+<size unit="byte">604955</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109937.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383816150130"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383816150140"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383816150150"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383816150160"><attributeName>Maximum temperature</attributeName>
+<attributeDefinition>Maximum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383816150170"><attributeName>Minimum temperature</attributeName>
+<attributeDefinition>Minimum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>12149</numberOfRecords>
+</dataTable>
+<dataTable id="1383816311773"><entityName>Kgalagadi - Gemsbokpark Nossob-Wind2009.txt</entityName>
+<physical id="1383816163822"><objectName>Kgalagadi - Gemsbokpark Nossob-Wind2009.txt</objectName>
+<size unit="byte">69240</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109938.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383816311783"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383816311793"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383816311803"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383816311813"><attributeName>Hour</attributeName>
+<attributeDefinition>Hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383816311823"><attributeName>Wind speed</attributeName>
+<attributeDefinition>Wind speed</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383816311833"><attributeName>Wind direction in degrees</attributeName>
+<attributeDefinition>Wind direction in degrees</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>1183</numberOfRecords>
+</dataTable>
+<dataTable id="1383816928802"><entityName>Kgalagadi - Gemsbokpark Twee RivierenHumidity-2009.txt</entityName>
+<physical id="1383816732353"><objectName>Kgalagadi - Gemsbokpark Twee RivierenHumidity-2009.txt</objectName>
+<size unit="byte">962309</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109939.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383816928812"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383816928822"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383816928832"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383816928842"><attributeName>Hour</attributeName>
+<attributeDefinition>Hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383816928852"><attributeName>Humidity in %</attributeName>
+<attributeDefinition>Humidity in %</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>20827</numberOfRecords>
+</dataTable>
+<dataTable id="1383818267158"><entityName>Kgalagadi - Gemsbokpark Twee RivierenPressure-2009.txt</entityName>
+<physical id="1383817974274"><objectName>Kgalagadi - Gemsbokpark Twee RivierenPressure-2009.txt</objectName>
+<size unit="byte">1456242</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109940.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383818267168"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383818267178"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383818267188"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383818267198"><attributeName>hh</attributeName>
+<attributeDefinition>hh</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383818267208"><attributeName>Pressure</attributeName>
+<attributeDefinition>Pressure</attributeDefinition>
+<measurementScale><ratio><unit><customUnit>Hecta Pascal</customUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>29604</numberOfRecords>
+</dataTable>
+<dataTable id="1383818412245"><entityName>Kgalagadi - Gemsbokpark Twee RivierenRainfall-2009.txt</entityName>
+<physical id="1383818337348"><objectName>Kgalagadi - Gemsbokpark Twee RivierenRainfall-2009.txt</objectName>
+<size unit="byte">791025</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109941.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383818412255"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383818412265"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383818412275"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383818412285"><attributeName>Rainfall amount</attributeName>
+<attributeDefinition>Rainfall amount</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383818412295"><attributeName>Rainfall Type</attributeName>
+<attributeDefinition>Rainfall Type</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall Type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>17926</numberOfRecords>
+</dataTable>
+<dataTable id="1383818545298"><entityName>Kgalagadi - Gemsbokpark Twee RivierenTemperature-2009.txt</entityName>
+<physical id="1383818478847"><objectName>Kgalagadi - Gemsbokpark Twee RivierenTemperature-2009.txt</objectName>
+<size unit="byte">777664</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109942.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383818545308"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383818545318"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383818545328"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383818545338"><attributeName>Maximum temperature</attributeName>
+<attributeDefinition>Maximum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383818545348"><attributeName>Minimum temperature</attributeName>
+<attributeDefinition>Minimum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>17931</numberOfRecords>
+</dataTable>
+<dataTable id="1383818711866"><entityName>Kgalagadi - Gemsbokpark Twee RivierenWind-2009.txt</entityName>
+<physical id="1383818602846"><objectName>Kgalagadi - Gemsbokpark Twee RivierenWind-2009.txt</objectName>
+<size unit="byte">1801860</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109943.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1383818711876"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383818711886"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1383818711896"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>dd/mm/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383818711906"><attributeName>Hour</attributeName>
+<attributeDefinition>Hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1383818711916"><attributeName>Wind speed</attributeName>
+<attributeDefinition>Wind speed</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1383818711926"><attributeName>Wind direction in degrees</attributeName>
+<attributeDefinition>Wind direction in degrees</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>35076</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="Hecta Pascal" multiplierToSI="100" name="Hecta Pascal" parentSI="pascal" unitType="pressure"> <description>Hecta Pascal</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

@@ -1,0 +1,200 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.35.6" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.0 eml.xsd"> <dataset scope="document"> <title>KNP Ranger Diaries</title>
+ <creator id="1086295214645" scope="document"> <individualName><surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"><deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ </creator>
+ <abstract><para>Contains the sighting data thatwas recorded by the rangers and filed rangers on their daily patrols. The problem with this data is that there are no accurate GPS positions and the data is very subjective</para>
+ </abstract>
+ <keywordSet><keyword>Kill</keyword>
+ <keyword>Carcass</keyword>
+ <keyword>Fires</keyword>
+ <keywordThesaurus>Rangers_keywords</keywordThesaurus>
+ </keywordSet><keywordSet><keyword>SANParks, South Africa</keyword><keyword>Kruger National Park, South Africa</keyword></keywordSet>
+<intellectualRights><para>SANParks should be aknowledge for the data capture and use.
+Digital and non-digital data and metadata belonging to the Kruger National Park Scientific Services are provided on an "as-is" basis with no guarantee as to data quality. Neither the staff nor South African National Parks (SANParks) may be held liable for any loss of any sort resulting from use of data and/metadata provided by Scientific Services.</para>
+</intellectualRights>
+  <coverage scope="document"><geographicCoverage scope="document"><geographicDescription>Entire KNP</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>31.125</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.625</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.5</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.375</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"><rangeOfDates><beginDate><calendarDate>1987-07-14</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2000-07-14</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1086304783995" scope="document"><individualName><givenName>Judith</givenName>
+ <surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"><deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>SA</country>
+ </address>
+ <phone phonetype="voice">+0927 13 7354309</phone>
+ <phone phonetype="fax">+0927 13 7354055</phone>
+ <electronicMailAddress>judithk@sanparks.org</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Sighting recordings</title>
+ <para>After a patrol the ranger/field ranger notes what they saw while on patrol. the data is somewhatsubjective and in the latter years some of section rangers did nots submit this data</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <access authSystem="knb" order="denyFirst" scope="document"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataTable id="1089896440031" scope="document"><entityName>Ranger_section.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1089896438450" scope="document"><objectName>Ranger_section.txt</objectName>
+ <size unit="byte">1476</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.36.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1089896440032" scope="document"><attributeName>SectionName</attributeName>
+ <attributeLabel>Sname</attributeLabel>
+ <attributeDefinition>Name of the section</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Section names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1089896440033" scope="document"><attributeName>RANGER</attributeName>
+ <attributeLabel>code</attributeLabel>
+ <attributeDefinition>Codes used for the sections</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><textDomain><definition>call signs</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>98</numberOfRecords>
+ </dataTable>
+ <dataTable id="1089896492889" scope="document"><entityName>Ranger_Keywords.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1089896491780" scope="document"><objectName>Ranger_Keywords.txt</objectName>
+ <size unit="byte">5806</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x20</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.37.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1089896492890" scope="document"><attributeName>Keywords</attributeName>
+ <attributeDefinition>Kewords</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>keywords</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>372</numberOfRecords>
+ </dataTable>
+ <dataTable id="1089897136054" scope="document"><entityName>rangerdiaries.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1089897132153" scope="document"><objectName>rangerdiaries.txt</objectName>
+ <size unit="byte">7306605</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>;</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.39.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1089897136055" scope="document"><attributeName>RANGER</attributeName>
+ <attributeLabel>Section code</attributeLabel>
+ <attributeDefinition>Codes of the section</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><entityCodeList><entityReference>1089896440031</entityReference>
+ <valueAttributeReference>1089896440033</valueAttributeReference>
+ <definitionAttributeReference>1089896440032</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1089897136056" scope="document"><attributeName>DATE</attributeName>
+ <attributeLabel>Date</attributeLabel>
+ <attributeDefinition>date of the sighting</attributeDefinition>
+ <measurementScale><datetime><formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ <dateTimeDomain> </dateTimeDomain>
+ </datetime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1089897136057" scope="document"><attributeName>Keyword</attributeName>
+ <attributeDefinition>Keyword explaining the sighting</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>keyws</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1089897136058" scope="document"><attributeName>OBSERVER</attributeName>
+ <attributeDefinition>Oberver</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>SR</code>
+ <definition>Section ranger</definition>
+ </codeDefinition>
+ <codeDefinition><code>-9</code>
+ <definition>Unknown</definition>
+ </codeDefinition>
+ <codeDefinition><code>FR</code>
+ <definition>Field ranger</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1089897136059" scope="document"><attributeName>LOCALITY</attributeName>
+ <attributeDefinition>Location of the sighting</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>knp placenames</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1089897136060" scope="document"><attributeName>COMMENTS</attributeName>
+ <attributeDefinition>Comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>free text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>53295</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

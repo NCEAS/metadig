@@ -1,0 +1,340 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cgries.13.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Academic and non-academic uses of GLEON buoy data, questionaire, 2013</title>
+ <creator id="1407265424554"> <individualName><givenName>Alicia</givenName>
+<surName>Caruso</surName>
+</individualName>
+</creator>
+ <creator id="1407265467187"><individualName><givenName>Robyn</givenName>
+<surName>Smyth</surName>
+</individualName>
+</creator>
+<creator id="1407265490825"><individualName><givenName>Lisa</givenName>
+<surName>Borre</surName>
+</individualName>
+</creator>
+<creator id="1407265504979"><individualName><givenName>Guangwei</givenName>
+<surName>Zhu</surName>
+</individualName>
+</creator>
+<associatedParty id="1407265581060"><individualName><givenName>Mengyuan</givenName>
+<surName>Zhu</surName>
+</individualName>
+<role>field crew</role>
+</associatedParty>
+<abstract><para>These data are from a survey of the 45 GLEON sites in 2013 in which the primary site contacts were asked about the academic and non-academic applications of data from their site's lake buoy. The data was collected via SurveyMonkey from December 17 until January 31st. Responses were obtained from 25 sites. The data were collected as part of a M.S. thesis to understand how high-frequency data can be communicated between scientists and environmental decision makers submitted to Bard College in May 2013.</para>
+</abstract>
+<keywordSet><keyword>GLEON</keyword>
+<keyword>Site contact</keyword>
+<keyword>Communication</keyword>
+<keyword>applications</keyword>
+<keyword>management</keyword>
+<keyword>survey</keyword>
+<keyword>data use</keyword>
+</keywordSet>
+<intellectualRights><para>The GLEON Data Access Policy is designed to guide the use of GLEON data.  GLEON members endorse the principle that data from the GLEON database should be openly available for academic, research, education, and other not-for-profit professional purposes to the maximum extent possible. We believe this sharing of data will foster collaborative scientific research and educational activities internationally.  Each data set published on the web page should be accompanied by documentation (metadata), but please contact the responsible person for each GLEON site for further information.  We encourage the use of our data sets but ask that users read and agree to our Data Use Agreement below, and adhere to the principle of acknowledging the use of data and its attribution (GLEON OPP, Paragraph 4, and Annex V)
+Permission to download GLEON data sets is granted to the Data User subject to the following guidelines:
+The Data User realizes that these data sets are being actively used by others for ongoing research and that communication and coordination is necessary to prevent duplicate publication. The Data User also realizes that the data may be misinterpreted if taken out of context. Data are being collected by scientists in academic and other research organizations with the requirement to publish scientific papers. The Data User therefore agrees to contact the responsible person for each GLEON site to check on other uses of the data, receive information on data, and discuss collaboration and/or co-authorship.
+Acknowledgement: Consistent with the GLEON principle of acknowledgement and attribution (GLEON OPP Paragraph 4), use of the data in publications should include co-authorship and/or acknowledge the GLEON project as well as the responsible person and institution including institutional support or specific funding awards referenced in the metadata or given by the person responsible for the GLEON site. A generic citation for our databases is: 'name of data set', Global Lake Ecological Observatory Network (http://gleon.org), GLEON, 'contact person for data set and Institution'.
+Acceptable use: Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner.
+The Data User agrees to notify the responsible person for the GLEON site when any derivative work or publication based on or derived from the Data Set is distributed. The Data User is requested and encouraged to send two reprints (or a pdf) of any publications resulting from use of the data to the responsible person for the GLEON site and to the GLEON Program Coordinator. We would like to include such manuscripts in our GLEON publications list. 
+The Data User agrees not to redistribute original data and documentation without permission from the responsible person for each GLEON site or in a manner in agreement with the site policy.
+Disclaimer: By using these data, the Data User agrees to follow the guidelines of this agreement. While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". GLEON shall not be liable for damages resulting from any use or misinterpretation of data sets. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Data users should be aware that we periodically update data sets.</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>These survey data was received from 25 of 45 GLEON sites. Only 16 contacts provided the name of their site. A map of the sites is provided in the comments section.</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-180.0</westBoundingCoordinate>
+<eastBoundingCoordinate>180.0</eastBoundingCoordinate>
+<northBoundingCoordinate>77.125</northBoundingCoordinate>
+<southBoundingCoordinate>-59.5</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2013-12-17</calendarDate>
+</beginDate>
+<endDate><calendarDate>2014-01-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact id="1407265533731"><individualName><givenName>Robyn</givenName>
+<surName>Smyth</surName>
+</individualName>
+<electronicMailAddress>rsmyth@bard.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section><para>The questionnaire was developed based on knowledge of the organization and on literature on survey development and applications of high-frequency data amongst other organizations. GLEON primary site contacts were emailed an invitation to the survey along with information on confidentiality. They were provided with a link to the SurveyMonkey and were allowed to fill out as much or as little of the survey as they wanted. They received two reminder emails.</para>
+<para>There were some open-ended questions. In Excel, I list the answers that were written out by respondents.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<dataTable id="1407267855497"><entityName>GLEON_survey_answers.csv</entityName>
+<entityDescription>questions and answers from survey</entityDescription>
+<physical id="1407267296286"><objectName>GLEON_survey_answers.csv</objectName>
+<size unit="byte">9863</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/cgries.12.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1407267855498"><attributeName>recordID</attributeName>
+<attributeLabel>numeric ID field</attributeLabel>
+<attributeDefinition>numeric unique ID field</attributeDefinition>
+<storageType>integer</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>unique ID value for each row</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855499"><attributeName>Question</attributeName>
+<attributeDefinition>Question number in survey</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Question number in survey</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855500"><attributeName>Topic</attributeName>
+<attributeDefinition>question asked</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>question asked</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855501"><attributeName>Answer</attributeName>
+<attributeDefinition>possible answers</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>possible answers</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855502"><attributeName>27</attributeName>
+<attributeDefinition>answers from repsondent 27</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 27</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855503"><attributeName>26</attributeName>
+<attributeDefinition>answers from repsondent 26</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 26</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855504"><attributeName>25</attributeName>
+<attributeDefinition>answers from repsondent 25</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 25</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855505"><attributeName>24</attributeName>
+<attributeDefinition>answers from repsondent 24</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 24</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855506"><attributeName>23</attributeName>
+<attributeDefinition>answers from repsondent 23</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 23</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855507"><attributeName>22</attributeName>
+<attributeDefinition>answers from repsondent 22</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 22</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855508"><attributeName>21</attributeName>
+<attributeDefinition>answers from repsondent 21</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 21</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855509"><attributeName>20</attributeName>
+<attributeDefinition>answers from repsondent 20</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 20</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855510"><attributeName>19</attributeName>
+<attributeDefinition>answers from repsondent 19</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 19</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855511"><attributeName>18</attributeName>
+<attributeDefinition>answers from repsondent 18</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 18</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855512"><attributeName>17</attributeName>
+<attributeDefinition>answers from repsondent 17</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 17</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855513"><attributeName>16</attributeName>
+<attributeDefinition>answers from repsondent 16</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 16</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855514"><attributeName>15</attributeName>
+<attributeDefinition>answers from repsondent 15</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 15</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855515"><attributeName>14</attributeName>
+<attributeDefinition>answers from repsondent 14</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 14</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855516"><attributeName>13</attributeName>
+<attributeDefinition>answers from repsondent 13</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 13</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855517"><attributeName>12</attributeName>
+<attributeDefinition>answers from repsondent 12</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 12</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855518"><attributeName>11</attributeName>
+<attributeDefinition>answers from repsondent 11</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 11</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855519"><attributeName>10</attributeName>
+<attributeDefinition>answers from repsondent 10</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 10</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855520"><attributeName>9</attributeName>
+<attributeDefinition>answers from repsondent 9</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 9</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855521"><attributeName>8</attributeName>
+<attributeDefinition>answers from repsondent 8</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 8</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855522"><attributeName>7</attributeName>
+<attributeDefinition>answers from repsondent 7</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 7</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855523"><attributeName>6</attributeName>
+<attributeDefinition>answers from repsondent 6</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 6</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855524"><attributeName>5</attributeName>
+<attributeDefinition>answers from repsondent 5</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 5</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855525"><attributeName>4</attributeName>
+<attributeDefinition>answers from repsondent 4</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 4</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855526"><attributeName>3</attributeName>
+<attributeDefinition>answers from repsondent 3</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 3</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855527"><attributeName>2</attributeName>
+<attributeDefinition>answers from repsondent 2</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 2</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1407267855528"><attributeName>1</attributeName>
+<attributeDefinition>answers from repsondent 1</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>answers from repsondent 2</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>68</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

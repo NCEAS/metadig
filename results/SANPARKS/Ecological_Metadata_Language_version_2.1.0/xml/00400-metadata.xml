@@ -1,0 +1,116 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.84.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document">  <title>Cape mountain zebra population in the Mountain Zebra National Park (1937-1995).</title>
+<creator id="1241417797864" scope="document"> <individualName> <surName>Novellie</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Genaral Manager</positionName>
+ <phone phonetype="voice">012 426 5066</phone>
+ <electronicMailAddress>petern@sanparks.org</electronicMailAddress>
+ </creator>
+ <associatedParty scope="document"> <references>1241417797864</references>
+ <role>General Manager</role>
+ </associatedParty>
+<abstract><para>This data set records,  the total number of mountain zebra in the park from 1937-1995, the number brought into the park from elsewhere, and the number harvested from the population for establishment in other reserves.</para>
+</abstract>
+  <keywordSet> <keyword>Red-listed species, population growth, cape mountain zebra.</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ <keyword>Mountain Zebra National Park, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>SANParks should be acknowledge for the data capture and use.Digital and non-digital data and metadata belonging to the SANParks,SANParks provide on an ''as-is'' basis with no guarantee as to data quality. Neither the staff nor South African National Parks (SANParks) may held liable for any loss of any sort resulting from use of data and/metadata providede by Scentific Services.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>MountainZebraNationalPark</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>25.092719</westBoundingCoordinate>
+ <eastBoundingCoordinate>25.532273</eastBoundingCoordinate>
+ <northBoundingCoordinate>-32.089761</northBoundingCoordinate>
+ <southBoundingCoordinate>-32.315068</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1937-12-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1995-12-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1241417797864</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <para>''See abstract''</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1241423670757" scope="document"> <entityName>ZEBPOP.txt</entityName>
+ <entityDescription>ZEBPOP</entityDescription>
+ <physical id="1241423667476" scope="document"> <objectName>ZEBPOP.txt</objectName>
+ <size unit="byte">809</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.85.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1241423670772" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>The year of the record</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241423670788" scope="document"> <attributeName>TOTAL</attributeName>
+ <attributeDefinition>Total population of mountain zebra in the Mountain Zebra National Park (?=no record)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241423670804" scope="document"> <attributeName>NO_IN</attributeName>
+ <attributeDefinition>Number of zebra brought into park from elsewhere (?=no record).</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241423670819" scope="document"> <attributeName>NO_OUT</attributeName>
+ <attributeDefinition>Number of zebras harvested from the population for establishment in other reserves (?=no record)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>61</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,250 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="nikkis.173.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Klaserie VCA 1996-2006</title>
+ <creator id="1172131410664"> <individualName><salutation>Mr</salutation>
+ <surName>Rowles</surName>
+ </individualName>
+ <organizationName>Klaserie Private Nature Reserve</organizationName>
+ <positionName>Warden</positionName>
+ <phone phonetype="voice">0157933051</phone>
+ <electronicMailAddress>klaseriewarden@telkomsa.net</electronicMailAddress>
+ </creator>
+ <abstract><para>Every year, across each landscape type the management of Klaserie Private Nature Reserve conduct Veld Condition assessments in each of they landtypes. THe VCA's performed are done using the same methods as the orignal VCA's done in the Kruger National Park. Each VCA consists of 100 points were the nearest grass is recorded at each point and a biomass reading is taken. The grasses are identified if they belong to a list of 18 key species. If the grasses do not fall into that category they are recorded as other. All forbs are refered to as forbs. THe biomaass of the grass is recorded using a disc pasture meter</para>
+ </abstract>
+ <keywordSet><keyword>SAEON, South Africa</keyword>
+ <keyword>Ndlovu SAEON Node, South Africa</keyword>
+ <keyword>Veld condition assessment</keyword>
+ <keyword>monitoring</keyword>
+ <keyword>Klaserie</keyword>
+ <keyword>biomass</keyword>
+ </keywordSet>
+ <coverage><geographicCoverage><geographicDescription>Central lowveld, South Africa</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>30.5</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.625</eastBoundingCoordinate>
+ <northBoundingCoordinate>-23.875</northBoundingCoordinate>
+ <southBoundingCoordinate>-30.5</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1996-09-21</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2007-09-21</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1172131410664</references>
+ </contact>
+ <methods><methodStep><description><section><title>Veld conidiotn assesment</title>
+ <para>Step point method, 100m, identifying the grass nearest to the 1 m point and taking a corresponding biomass reading</para>
+ </section>
+ </description>
+ <instrumentation>Disc pasture meter</instrumentation>
+ </methodStep>
+ <sampling><studyExtent><description><para>Klaserie</para>
+ </description>
+ </studyExtent>
+ <samplingDescription><para>Every year, across each landscape type the management of Klaserie Private Nature Reserve conduct Veld Condition assessments in each of they landtypes. THe VCA's performed are done using the same methods as the orignal VCA's done in the Kruger National Park. Each VCA consists of 100 points were the nearest grass is recorded at each point and a biomass reading is taken. The grasses are identified if they belong to a list of 18 key species. If the grasses do not fall into that category they are recorded as other. All forbs are refered to as forbs. THe biomaass of the grass is recorded using a disc pasture meter</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1253527797546"><entityName>VCA_biomass.txt</entityName>
+ <entityDescription>Biomass</entityDescription>
+ <physical id="1253527793562"><objectName>VCA_biomass.txt</objectName>
+ <size unit="byte">1090889</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/nikkis.174.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1253527797562"><attributeName>Landscape unit description</attributeName>
+ <attributeDefinition>Description of landscape unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253527797578"><attributeName>landscape number</attributeName>
+ <attributeDefinition>Code given to each landscape unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253527797593"><attributeName>year</attributeName>
+ <attributeDefinition>Year of reocrding</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253527797609"><attributeName>date</attributeName>
+ <attributeDefinition>date of recording</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253527797625"><attributeName>recorder</attributeName>
+ <attributeDefinition>name of observer</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253527797640"><attributeName>disc pasture reading</attributeName>
+ <attributeDefinition>disc pasture meter reading/value</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17602</numberOfRecords>
+ </dataTable>
+ <dataTable id="1253528068281"><entityName>VCA_grass totals.txt</entityName>
+ <entityDescription>VCA grass species composition</entityDescription>
+ <physical id="1253528066500"><objectName>VCA_grass totals.txt</objectName>
+ <size unit="byte">2661328</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/nikkis.175.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1253528068296"><attributeName>landscape number</attributeName>
+ <attributeDefinition>Number of landscape unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253528068312"><attributeName>year</attributeName>
+ <attributeDefinition>year of recording</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253528068328"><attributeName>date</attributeName>
+ <attributeDefinition>date of recording</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253528068343"><attributeName>recorder</attributeName>
+ <attributeDefinition>name of recorder</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253528068359"><attributeName>species code</attributeName>
+ <attributeDefinition>plant species name (grass</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>panimaxi</code>
+ <definition>Panicum maximum</definition>
+ </codeDefinition>
+ <codeDefinition><code>setaincr</code>
+ <definition>Setaria incrasatia</definition>
+ </codeDefinition>
+ <codeDefinition><code>eragrigi</code>
+ <definition>Eragrostis rigidior</definition>
+ </codeDefinition>
+ <codeDefinition><code>pognsqua</code>
+ <definition>Pognathria squarrosa</definition>
+ </codeDefinition>
+ <codeDefinition><code>schmpapp</code>
+ <definition>Schmidia pappaphoroides</definition>
+ </codeDefinition>
+ <codeDefinition><code>tragbert</code>
+ <definition>Tragus bertornius</definition>
+ </codeDefinition>
+ <codeDefinition><code>arisbarb</code>
+ <definition>Aristida congresta subsp barbicolis</definition>
+ </codeDefinition>
+ <codeDefinition><code>ennacenc</code>
+ <definition>Ennapogon cenchroides</definition>
+ </codeDefinition>
+ <codeDefinition><code>urocmosa</code>
+ <definition>Urochloa mossambiquesis</definition>
+ </codeDefinition>
+ <codeDefinition><code>forbs</code>
+ <definition>forb</definition>
+ </codeDefinition>
+ <codeDefinition><code>others</code>
+ <definition>oher</definition>
+ </codeDefinition>
+ <codeDefinition><code>bare</code>
+ <definition>bare</definition>
+ </codeDefinition>
+ <codeDefinition><code>hyphfili</code>
+ <definition>Hypharenia filipendula</definition>
+ </codeDefinition>
+ <codeDefinition><code>digieria</code>
+ <definition>Digiteria erianthra</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253528068375"><attributeName>total count</attributeName>
+ <attributeDefinition>number of grasses observerd per site</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253528068390"><attributeName>coments</attributeName>
+ <attributeDefinition>comment on sampling</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>comment</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>65536</numberOfRecords>
+ </dataTable>
+ <dataTable id="1253528355359"><entityName>Landcsape map</entityName>
+ <entityDescription>Map of the landscapes in which sampling sites are placed (1 per landscape)</entityDescription>
+ <physical><objectName>Landscape map.jpg</objectName>
+ <dataFormat> <externallyDefinedFormat><formatName>jpeg</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/nikkis.177.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1253528355375"><attributeName>jpeg</attributeName>
+ <attributeDefinition>jpeg</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>jpeg</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

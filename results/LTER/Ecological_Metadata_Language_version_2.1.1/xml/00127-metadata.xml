@@ -1,0 +1,387 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.5014.5" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="5014">
+    <alternateIdentifier>knb-lter-sbc.5014</alternateIdentifier>
+    <shortName>County FCD Precipitation: StanwoodFS228</shortName>
+    <title>SBC LTER: Land: Hydrology: Santa Barbara County Flood Control District - Precipitation at Stanwood Fire Station (StanwoodFS228)</title>
+    <creator id="sbclter">
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="jmelack">
+      <individualName>
+        <givenName>John</givenName>
+        <givenName>M</givenName>
+        <surName>Melack</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Department of Ecology, Evolution and Marine Biology</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-9620</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">805-893-3879</phone>
+      <phone phonetype="fax">805-893-4724</phone>
+      <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2010-06-14</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Precipitation was collected by the Santa Barbara County Flood Control District at Stanwood Fire Station in the Santa Barbara coastal area (site ID: StanwoodFS228). Data are reported at 5 minute intervals. For more information, see http://www.countyofsb.org/pwd/.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">hydrology</keyword>
+      <keyword keywordType="theme">precipitation</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">STANWOODFS228</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Rain</keyword>
+      <keywordThesaurus>GCMD v6.0.0.0.0 Atmosphere</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">precipitation amount</keyword>
+      <keywordThesaurus>Global Change Master Directory (GCMD) v6.0.0.0.0</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC  investigator responsible for data) prior to publishing. Where appropriate, users whose projects are integrally dependent on SBC LTER 
+data are encouraged to consider   collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by   including the following statement in the Acknowledgments: "Data were provided by the  Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE-1232779)".</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to send the full citation of any publication using SBC LTER data   to sbclter@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC  LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,  but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term   Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture   of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential  information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="StanwoodFS228">
+        <geographicDescription>Stanwood Fire Station: Stanwood Fire Station</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.68333333</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.68333333</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.45</northBoundingCoordinate>
+          <southBoundingCoordinate>34.45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2000-10-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2008-09-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Data Collection</title>
+            <para>Precipitation is collected with a tipping bucket guage. For more
+              information, see the protocol document</para>
+          </section>
+        </description>
+        <protocol scope="document">
+          <title>SBCLTER_SBCPWD_Precipitation_Data_Retrieval_2009.pdf</title>
+          <creator scope="document">
+            <individualName>
+              <surName>Melack</surName>
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Land/Protocols/Precipitation/SBCLTER_SBCPWD_Precipitation_Data_Retrieval_2009.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Data Processing</title>
+            <para>See the document for a complete description.</para>
+          </section>
+        </description>
+        <protocol scope="document">
+          <title>SBCLTER_Precipitation_Data_Processing_2009.pdf</title>
+          <creator scope="document">
+            <individualName>
+              <surName>Melack</surName>
+            </individualName>
+          </creator>
+          <distribution scope="document">
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Land/Protocols/Precipitation/SBCLTER_SBCPWD_Precipitation_Data_Retrieval_2009.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Awards OCE-9982105, OCE-0620276, OCE-1232779</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable id="StanwoodFS228_precip_allyears.txt">
+      <entityName>Precipitation SBCoFC Stanwood FS 228, all years</entityName>
+      <entityDescription>SBCo PWD Precipitation data from Stanwood Fire Station (station = StanwoodFS228) from 2000-10-01 to 2008-09-30.</entityDescription>
+      <physical>
+        <objectName>StanwoodFS228_precip_allyears.txt</objectName>
+        <size unit="byte">32819951</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>yes</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/5014/5/55fc089fedf15bebfa86943a7cc00ba6</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=SBC,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ent1.att1">
+          <attributeName>timestamp_local</attributeName>
+          <attributeLabel>Date and Time, local</attributeLabel>
+          <attributeDefinition>local time of observation, no correction for daylight saving time</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DDThh:mm</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent1.att2">
+          <attributeName>timestamp_UTC</attributeName>
+          <attributeLabel>Date and Time, UTC</attributeLabel>
+          <attributeDefinition>time of observation, Universal Time Coordinate</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DDThh:mm</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="ent1.att3">
+          <attributeName>precipitation_mm</attributeName>
+          <attributeLabel>Precipitation</attributeLabel>
+          <attributeDefinition>Precipitation amount during the interval</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>841536</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit abbreviation="mm" id="millimeter" multiplierToSI="0.001" name="millimeter" parentSI="meter">
+          <ns2:description>.001 meters</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

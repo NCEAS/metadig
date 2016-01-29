@@ -1,0 +1,146 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="UC3/CDL" system="DataUp" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <dataset>
+    <title>Wind January 2013</title>
+    <creator>
+      <individualName>
+        <givenName>Fernando</givenName>
+        <surName>Aguilar</surName>
+      </individualName>
+      <organizationName>IFCA</organizationName>
+      <address>
+        <deliveryPoint>No street address for creator provided</deliveryPoint>
+        <city>No city for creator provided</city>
+        <administrativeArea>Cantabria</administrativeArea>
+        <postalCode>No postal code for creator provided</postalCode>
+        <country>Spain</country>
+      </address>
+      <phone>+0 (000) 000-0000</phone>
+      <electronicMailAddress>aguilarf@ifca.unican.es</electronicMailAddress>
+    </creator>
+    <pubDate>2013-11-28</pubDate>
+    <abstract>Wind Direction and speed in CDP</abstract>
+    <keywordSet>
+      <keyword>CDP</keyword>
+      <keyword>IFCA</keyword>
+      <keyword>CSIC</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>No statement of intellectual rights provided</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>No url for data provided</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>No description of geographic coverage provided</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>0</westBoundingCoordinate>
+          <eastBoundingCoordinate>0</eastBoundingCoordinate>
+          <northBoundingCoordinate>0</northBoundingCoordinate>
+          <southBoundingCoordinate>0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage id="tempcov">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>0001-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>0001-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>No given name for contact provided</givenName>
+        <surName>No surname for contact provided</surName>
+      </individualName>
+      <organizationName>No organization name for contact provided</organizationName>
+      <address>
+        <deliveryPoint>No street address for contact provided</deliveryPoint>
+        <city>No city for contact provided</city>
+        <administrativeArea>No state for contact provided</administrativeArea>
+        <postalCode>No postal code for contact provided</postalCode>
+        <country>No country for contact provided</country>
+      </address>
+      <phone>+0 (000) 000-0000</phone>
+      <electronicMailAddress>noemail@noemail.com</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>No publisher name provided</organizationName>
+    </publisher>
+    <project>
+      <title>No project title provided</title>
+      <personnel>
+        <individualName>
+          <surName>No project personnel surname provided</surName>
+        </individualName>
+        <organizationName>No project organization name provided</organizationName>
+        <role>No project personnel role provided</role>
+      </personnel>
+      <abstract>
+        <para>No project abstract provided</para>
+      </abstract>
+      <funding>
+        <para>No project funding described</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>wind_data_january_2013 - wind_data_january_2013</entityName>
+      <entityDescription>Wind</entityDescription>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>The user has designated this column as some form of date and/or time. No standard is specified due to DataUp coding constraints.</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sm</attributeName>
+          <attributeDefinition>Wind speed</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dm</attributeName>
+          <attributeDefinition>Wind direction</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <describes>tempcov</describes>
+    <metadata>
+      <description>No description of temporal coverage provided</description>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <formattedCitation>Aguilar, Fernando(2013): Wind January 2013. . Aguilar, Fernando. ark:/90135/q18p5xgr</formattedCitation>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

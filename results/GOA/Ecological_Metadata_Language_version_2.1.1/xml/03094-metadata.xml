@@ -1,0 +1,945 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.462.4" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+<dataset scope="document"> <title>GIS tracks for killer whale encounters in Alaska: 1984 - 2013</title>
+ <creator id="1347833103118" scope="document"> <individualName> <givenName>Craig</givenName>
+ <surName>Matkin</surName>
+ </individualName>
+ <organizationName>North Gulf Oceanic Society</organizationName>
+ <positionName>Director</positionName>
+ <electronicMailAddress>cmatkin@acsalaska.net</electronicMailAddress>
+ </creator>
+ <creator id="1365716520255" scope="document"> <individualName> <givenName>Eva</givenName>
+ <surName>Saulitis</surName>
+ </individualName>
+ </creator>
+ <creator id="1365716531634" scope="document"> <individualName> <givenName>Graeme</givenName>
+ <surName>Ellis</surName>
+ </individualName>
+ </creator>
+ <associatedParty id="1365716571654" scope="document"> <organizationName>North Gulf Oceanic Society</organizationName>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+ <associatedParty id="1365723958359" scope="document"> <individualName> <givenName>Sarah</givenName>
+ <surName>Clark</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Projects Data Coordinator</positionName>
+ <address scope="document"> <deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ </address>
+ <electronicMailAddress>sclark@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <abstract><para>Killer whales were monitored in Prince William Sound, Alaska with funding from the Exxon Valdez Oil Spill (EVOS) Trustee Council in 1989, 1990, and 1991 (damage assessment) and in 1993 (restoration monitoring). Monitoring was continued in 1995-2011 as part of the EVOS Trustee Council restoration program. The North Gulf Oceanic Society (NGOS) independently maintained a monitoring program in all other years since 1984. The goal of the photo monitoring has been to obtain identification photographs of all whales in all major resident pods and the AT1 transient group on an annual basis. Photo-identification techniques (after Bigg, et. al. 1990) were used to identify individual whales. The current photographic database includes tens of thousands of frames of film collected from 1984-2011 and is used to provide individual identifications for each encounter with whales. Vital rates for AB pod and all other frequently sighted resident pods have been calculated annually based on the photographic data.</para>
+ </abstract>
+ <keywordSet><keyword>prince william sound</keyword>
+ <keyword>orca</keyword>
+ <keyword>killer whale</keyword>
+ <keyword>kenai fjords</keyword>
+ <keyword>GIS</keyword>
+ <keyword>survey</keyword>
+ </keywordSet>
+ <keywordSet><keyword>EVOSTC</keyword>
+ <keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+ <keyword>EVOS Gulf Watch Projects</keyword>
+ <keyword>Oil Spill</keyword>
+ <keyword>Exxon Valdez</keyword>
+ <keyword>Alaska</keyword>
+ <keyword>Pelagic</keyword>
+ <keyword>Mammals</keyword>
+ <keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>This material is based upon work funded in part by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council. 
+
+Standard scientific norms for attribution and credit to funding agencies should be followed when using this data. Please let the Owner know when this data is used.
+
+This data is licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <coverage scope="document"> <taxonomicCoverage scope="document"> <taxonomicClassification> <taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Orcinus</taxonRankValue>
+ <taxonomicClassification> <taxonRankName>Species</taxonRankName>
+ <taxonRankValue>orca</taxonRankValue>
+ <commonName>Killer Whale</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1984</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>Prince William Sound, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-151.625</westBoundingCoordinate>
+ <eastBoundingCoordinate>-143.875</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.375</northBoundingCoordinate>
+ <southBoundingCoordinate>58.75</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Kenai Fjords, Alaska, USA</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-151.625</westBoundingCoordinate>
+ <eastBoundingCoordinate>-148.125</eastBoundingCoordinate>
+ <northBoundingCoordinate>60.375</northBoundingCoordinate>
+ <southBoundingCoordinate>59.125</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <references>1347833103118</references>
+ </contact>
+ <methods><methodStep><description><section><title>2003 Final Report Methods: Study Vessels and Area</title>
+ <para>Fieldwork for the entire study period was completed from small vessels (less than 12 meters). The primary research vessel for the past three years has been R/V Natoa, a 10.3 m inboard diesel powered vessel, capable of 18 knots and sleeping 4 researchers. In addition a number of other vessels have been used over the years, all have been smaller than 10 meters and have had either outboard on diesel inboard engines. These vessels operated in both the Kenai Fjords and Prince William Sound region. In addition during most years, the R/V Whale 1 (a 7.8 m light motor-sail vessel with 50hp outboard) also photographed killer whales and kept vessel logs and encounters sheets during surveys in Prince William Sound primarily directed at humpback whale photo-identification. The daily vessel logs and killer whale encounter sheets for this vessel were included in the GIS database and used in our analysis.</para>
+ <para>Researchers attempted to maximize the number of contacts with each killer whale pod based on current and historical sighting information to insure sufficient photographs of each individual within the pod. Consequently, searches were centered in areas that had produced the most encounters with killer whales in the past, unless sighting information indicated changes in whale distribution. Whales were found visually, or by listening for killer whale calls with a directional hydrophone, or by responding to VHF radio calls from other vessel operators. Regular requests for recent killer whale sightings were made on hailing Channel 16 VHF. In Kenai Fjords, Channel 77 was also monitored.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>2003 Final Report Methods: Encounters</title>
+ <para>An encounter was defined as the successful detection, approach and taking of identification photographs. Accounts of whales from other mariners (generally by VHF radio) were termed "reports". Although reports were used to select areas to be searched, all identifications were made from photographs taken during encounters. Photographs for individual identification were taken of the port side of each whale showing details of the dorsal fin and saddle patch. Photographs were taken at no less than 1/1000 sec. using Fuji Neopan 1600 high-speed black and white film. A Nikon N70 or similar auto focus camera with internal motor drive and a 300mm f4.5 auto focus lens was used. When whales were encountered, researchers systematically moved from one subgroup (or individual) to the next keeping track of the whales photographed. If possible, individual whales were photographed several times during each encounter to insure an adequate identification photograph. Whales were followed until all whales were photographed or until weather and/or darkness made photography impractical.</para>
+ <para>A vessel log and chart of the vessel track were kept for each day the research vessels operated. Similar logs were kept for all previous study years and have been placed in a GIS format and used to estimate effort (Scheel et al 2001). On these logs, the elapsed time and distance traveled were recorded. Vessel track was plotted and record was made of time and location of all whale sightings and weather and sea state noted at regular intervals.</para>
+ <para>Specifics of each encounter with killer whales were recorded on standardized data forms that have been used since 1984. These forms were modified in 1995 to improve collection of data for GIS input (Matkin, et. al. 1996). Data recorded included date, time, duration, and location of the encounter. Rolls of film exposed and the estimated number of whales photographed also were recorded. A chart of the whales' trackline during the encounter was drawn and the distance traveled by the vessel with the whales calculated. Specific group and individual behaviors (i.e. feeding, resting, traveling, socializing, milling) were recorded by time and location when possible. Encounters with whales averaged from 2-5 hours, providing considerable behavioral information (travel rates, duration of feeding bouts, etc.).</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project scope="document"> <title>Comprehensive Killer Whale Investigation in Prince William Sound/Kenai Fjords</title>
+ <personnel scope="document"> <references>1347833103118</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1365716615093" scope="document"> <individualName> <givenName>Eva</givenName>
+ <surName>Saulitis</surName>
+ </individualName>
+ <role>co-PI</role>
+ </personnel>
+ <personnel id="1365716627101" scope="document"> <individualName> <givenName>Graeme</givenName>
+ <surName>Ellis</surName>
+ </individualName>
+ <role>co-PI</role>
+ </personnel>
+ <funding> <para>Exxon Valdez Oil Spill Trustee Council projects 090742, 080742, 070742, 050742, 040012, 030012, 020012, 010012, 00012, 99012, 98012, 97012, 96012, 95012; North Gulf Oceanic Society</para>
+ </funding>
+ </project>
+ <dataTable id="1349990731560" scope="document"> <entityName>Boat Survey Metadata</entityName>
+ <entityDescription>Metadata for each boat survey of whales</entityDescription>
+ <physical id="1349989679754" scope="document"> <objectName>survey2012.csv</objectName>
+ <size unit="byte">544252</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/df35d.127.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1349990731562" scope="document"> <attributeName>AreaID</attributeName>
+ <attributeDefinition>ID for general location of survey</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373927705081</entityReference>
+ <valueAttributeReference>1373927705082</valueAttributeReference>
+ <definitionAttributeReference>1373927705083</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731563" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>Date of survey</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>MM/DD/YYYY</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731564" scope="document"> <attributeName>Platform</attributeName>
+ <attributeDefinition>Boat name ID for &#65279;the boat used during the survey</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373927844380</entityReference>
+ <valueAttributeReference>1373927844381</valueAttributeReference>
+ <definitionAttributeReference>1373927844382</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731565" scope="document"> <attributeName>UniqueID</attributeName>
+ <attributeDefinition>Survey unique ID (First 3 letters of Platform name &amp; Date)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731566" scope="document"> <attributeName>Begin Location</attributeName>
+ <attributeDefinition>General begin location of survey</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Place name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731567" scope="document"> <attributeName>End Location</attributeName>
+ <attributeDefinition>General location of the end of survey</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731568" scope="document"> <attributeName>Beg Lat</attributeName>
+ <attributeDefinition>Latitude of begin location</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731569" scope="document"> <attributeName>Beg Long</attributeName>
+ <attributeDefinition>Longtiude of begin location</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731570" scope="document"> <attributeName>End Lat</attributeName>
+ <attributeDefinition>Latitude of end location</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731571" scope="document"> <attributeName>End Long</attributeName>
+ <attributeDefinition>Longitude of end location</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731572" scope="document"> <attributeName>BeginTime</attributeName>
+ <attributeDefinition>Beginning time of survey in military time</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>HH:MM:SS</formatString>
+ <dateTimePrecision>Military</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731573" scope="document"> <attributeName>EndTime</attributeName>
+ <attributeDefinition>End time of survey in military time</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>HH:MM:SS</formatString>
+ <dateTimePrecision>Military</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731574" scope="document"> <attributeName>Search Time</attributeName>
+ <attributeDefinition>in hours (a decimal point equals 6 minutes)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>H</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731575" scope="document"> <attributeName>Time with Whales</attributeName>
+ <attributeDefinition>in hours (a decimal point equals 6 minutes)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>H</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731576" scope="document"> <attributeName>Surveyed</attributeName>
+ <attributeDefinition>Tracking distance surveyed in nautical miles</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>nauticalMile</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731577" scope="document"> <attributeName>Personnel</attributeName>
+ <attributeDefinition>Personnel on survey</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731578" scope="document"> <attributeName>Weather &amp; Sea State/Time</attributeName>
+ <attributeDefinition>Description of weather and sea state</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731579" scope="document"> <attributeName>Number of Encounters</attributeName>
+ <attributeDefinition>Number of whale encounters for survey</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731580" scope="document"> <attributeName>Whale Sighting Times</attributeName>
+ <attributeDefinition>Whale sighting times</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Time of day and notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731581" scope="document"> <attributeName>Activities/Comments</attributeName>
+ <attributeDefinition>Comments</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731582" scope="document"> <attributeName>NobelTech File Name</attributeName>
+ <attributeDefinition>ex. &#65279;KF/PWS-05Jul03-AND</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>?</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731583" scope="document"> <attributeName>Orca PhotoID</attributeName>
+ <attributeDefinition>ID'd killer whales (may not be up-to-date with field notes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731584" scope="document"> <attributeName>HW PhotoID</attributeName>
+ <attributeDefinition>ID'd humpback whales (may not be up-to-date with field notes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731585" scope="document"> <attributeName>Orca Recordings</attributeName>
+ <attributeDefinition>Made acoustic recordings (may not be up-to-date with field notes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731586" scope="document"> <attributeName>Orca Biopsies</attributeName>
+ <attributeDefinition>Biopsied whales (may not be up-to-date with field notes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731587" scope="document"> <attributeName>Kill</attributeName>
+ <attributeDefinition>prey data (may not be up-to-date with field notes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731588" scope="document"> <attributeName>Kill Samples</attributeName>
+ <attributeDefinition>samples of prey (may not be up-to-date with field notes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731589" scope="document"> <attributeName>Other Marine Mammals</attributeName>
+ <attributeDefinition>Other marine mammal presence (may not be up-to-date with field notes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731590" scope="document"> <attributeName>Dive Data</attributeName>
+ <attributeDefinition>Measurements of whale dives (may not be up-to-date with field notes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731591" scope="document"> <attributeName>Platform substr</attributeName>
+ <attributeDefinition>Boat name abbreviation</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373927844380</entityReference>
+ <valueAttributeReference>1373927844383</valueAttributeReference>
+ <definitionAttributeReference>1373927844382</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731592" scope="document"> <attributeName>Code</attributeName>
+ <attributeDefinition>Artifact of moving field notes to Access. &#65279;Example AND-03-002 (Initials of boat name-year-consecutive number)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349990731593" scope="document"> <attributeName>NewComments</attributeName>
+ <attributeDefinition>&#65279;New small comments box on the Survey form</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2888</numberOfRecords>
+ </dataTable>
+ <dataTable id="1349992665752" scope="document"> <entityName>Whale Encounter Metadata</entityName>
+ <entityDescription>Metadata for each whale encounter during a boat survey</entityDescription>
+ <physical id="1349991735195" scope="document"> <objectName>encounter2012.csv</objectName>
+ <size unit="byte">246960</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/df35d.128.7</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1349992665755" scope="document"> <attributeName>SurveyUniqueID</attributeName>
+ <attributeDefinition>Unique ID for boat survey (foreign key, Survey.csv table)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Foreign key</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665756" scope="document"> <attributeName>EncUniqueID</attributeName>
+ <attributeDefinition>Unique ID for boat survey encounter (&#65279;SurveyUniqueID &amp; BeginTime)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Unique ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665757" scope="document"> <attributeName>TimeBegin</attributeName>
+ <attributeDefinition>Begin time for whale encounter</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>HH:MM:SS</formatString>
+ <dateTimePrecision>Military</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665758" scope="document"> <attributeName>TimeEnd</attributeName>
+ <attributeDefinition>End time of whale encounter</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>HH:MM:SS</formatString>
+ <dateTimePrecision>Military</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665759" scope="document"> <attributeName>Total Time</attributeName>
+ <attributeDefinition>Total time of whale encounter (&#65279;(TimeBegin-TimeEnd)*24)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>H.MM</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665760" scope="document"> <attributeName>Photos?</attributeName>
+ <attributeDefinition>Photos of whales</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665761" scope="document"> <attributeName>All Whales Photographed?</attributeName>
+ <attributeDefinition>All Whales Photographed?</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>1</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ <codeDefinition> <code>0</code>
+ <definition>no</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665762" scope="document"> <attributeName>Ecotype</attributeName>
+ <attributeDefinition>Ecotype of whales</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>Transient</code>
+ <definition>transient</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Resident</code>
+ <definition>resident</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Offshore</code>
+ <definition>offshore</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unknown</code>
+ <definition>unknown</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665763" scope="document"> <attributeName>PodID</attributeName>
+ <attributeDefinition>Unique ID for whale pod encountered</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373930596760</entityReference>
+ <valueAttributeReference>1373930596761</valueAttributeReference>
+ <definitionAttributeReference>1373930596762</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665764" scope="document"> <attributeName>PodID2</attributeName>
+ <attributeDefinition>Unique ID for further whale pods encountered</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373930596760</entityReference>
+ <valueAttributeReference>1373930596761</valueAttributeReference>
+ <definitionAttributeReference>1373930596762</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665765" scope="document"> <attributeName>PodID3</attributeName>
+ <attributeDefinition>Unique ID for further whale pods encountered</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373930596760</entityReference>
+ <valueAttributeReference>1373930596761</valueAttributeReference>
+ <definitionAttributeReference>1373930596762</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665766" scope="document"> <attributeName>PodID4</attributeName>
+ <attributeDefinition>Unique ID for further whale pods encountered</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373930596760</entityReference>
+ <valueAttributeReference>1373930596761</valueAttributeReference>
+ <definitionAttributeReference>1373930596762</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665767" scope="document"> <attributeName>PodID5</attributeName>
+ <attributeDefinition>Unique ID for further whale pods encountered</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373930596760</entityReference>
+ <valueAttributeReference>1373930596761</valueAttributeReference>
+ <definitionAttributeReference>1373930596762</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373928884914" scope="document"> <attributeName>podID07</attributeName>
+ <attributeDefinition>Unique ID for further whale pods encountered</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373930596760</entityReference>
+ <valueAttributeReference>1373930596761</valueAttributeReference>
+ <definitionAttributeReference>1373930596762</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373928859330" scope="document"> <attributeName>podID08</attributeName>
+ <attributeDefinition>Unique ID for further whale pods encountered</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373930596760</entityReference>
+ <valueAttributeReference>1373930596761</valueAttributeReference>
+ <definitionAttributeReference>1373930596762</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665768" scope="document"> <attributeName>PodID6</attributeName>
+ <attributeDefinition>Unique ID for further whale pods encountered</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373930596760</entityReference>
+ <valueAttributeReference>1373930596761</valueAttributeReference>
+ <definitionAttributeReference>1373930596762</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665769" scope="document"> <attributeName>LocationBegin</attributeName>
+ <attributeDefinition>General location of beginning of encounter</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Place name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665774" scope="document"> <attributeName>Beg Lat</attributeName>
+ <attributeDefinition>Begin latitude</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665778" scope="document"> <attributeName>Beg Long</attributeName>
+ <attributeDefinition>longitude</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665779" scope="document"> <attributeName>LocationEnd</attributeName>
+ <attributeDefinition>General location of end of the whale encounter</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Place name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665781" scope="document"> <attributeName>End Lat</attributeName>
+ <attributeDefinition>End latitude</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665785" scope="document"> <attributeName>End Long</attributeName>
+ <attributeDefinition>End longitude</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665789" scope="document"> <attributeName>Pods</attributeName>
+ <attributeDefinition>Estimated number of pods present during encounter</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665790" scope="document"> <attributeName># Whales</attributeName>
+ <attributeDefinition>Estimated number of whales at encounter</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665791" scope="document"> <attributeName>Traveled</attributeName>
+ <attributeDefinition>Nautical miles traveled with whales</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>nauticalMile</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665792" scope="document"> <attributeName>Photographed</attributeName>
+ <attributeDefinition>Number of whales photographed</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665793" scope="document"> <attributeName>Males</attributeName>
+ <attributeDefinition>Number of male whales</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665794" scope="document"> <attributeName>FemalesJuveniles</attributeName>
+ <attributeDefinition>Number of female and juvenile whales</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665795" scope="document"> <attributeName>Calves</attributeName>
+ <attributeDefinition>Number of whale calves</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665796" scope="document"> <attributeName># Harassed</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665797" scope="document"> <attributeName>RecognizedIndividuals</attributeName>
+ <attributeDefinition>List of recognized whales</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Whale IDs</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665799" scope="document"> <attributeName>Code</attributeName>
+ <attributeDefinition>(artifact of movement from field notes to Access)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1349992665800" scope="document"> <attributeName>NewComments</attributeName>
+ <attributeDefinition>comments</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1239</numberOfRecords>
+ </dataTable>
+ <dataTable id="1373927705081" scope="document"> <entityName>Area.csv</entityName>
+ <entityDescription>Look-up table for area IDs and names</entityDescription>
+ <physical id="1373927662287" scope="document"> <objectName>Area.csv</objectName>
+ <size unit="byte">262</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/df35d.202.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1373927705082" scope="document"> <attributeName>AreaID</attributeName>
+ <attributeDefinition>Area code</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373927705083" scope="document"> <attributeName>Area</attributeName>
+ <attributeDefinition>Area code definition, place name</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Code definition</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373927705084" scope="document"> <attributeName>Code</attributeName>
+ <attributeDefinition>Alphabetic code</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>14</numberOfRecords>
+ </dataTable>
+ <dataTable id="1373927844380" scope="document"> <entityName>Platform.csv</entityName>
+ <entityDescription>Look-up table for Boat codes and names</entityDescription>
+ <physical id="1373927802696" scope="document"> <objectName>Platform.csv</objectName>
+ <size unit="byte">1041</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/df35d.203.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1373927844381" scope="document"> <attributeName>PlatformID</attributeName>
+ <attributeDefinition>Numeric code for boat</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373927844382" scope="document"> <attributeName>Name</attributeName>
+ <attributeDefinition>Full name of the boat</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Code definition</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373927844383" scope="document"> <attributeName>Platform_Code</attributeName>
+ <attributeDefinition>Alphabetic boat code</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>46</numberOfRecords>
+ </dataTable>
+ <dataTable id="1373930596760" scope="document"> <entityName>Pod.csv</entityName>
+ <entityDescription>Look-up table for whale pod codes and definitions</entityDescription>
+ <physical id="1373930522289" scope="document"> <objectName>Pod.csv</objectName>
+ <size unit="byte">16806</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/df35d.205.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1373930596761" scope="document"> <attributeName>PodID</attributeName>
+ <attributeDefinition>Code for the pod</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373930596762" scope="document"> <attributeName>Code</attributeName>
+ <attributeDefinition>Name of the pod</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Code definition</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373930596763" scope="document"> <attributeName>PodTypeID</attributeName>
+ <attributeDefinition>Pod Ecotype</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>1</code>
+ <definition>Resident</definition>
+ </codeDefinition>
+ <codeDefinition> <code>2</code>
+ <definition>Transient</definition>
+ </codeDefinition>
+ <codeDefinition> <code>3</code>
+ <definition>Offshore</definition>
+ </codeDefinition>
+ <codeDefinition> <code>4</code>
+ <definition>Unknown</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373930596764" scope="document"> <attributeName>History</attributeName>
+ <attributeDefinition>History of the pod</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>63</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>GIS.zip</entityName>
+ <entityDescription>Folders with GIS files of encounter and survey tracks from 1984 to 2013.</entityDescription>
+ <physical><objectName>GIS.zip</objectName>
+ <size unit="byte">179079375</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1387232062568"><online><url function="download">ecogrid://knb/df35d.463.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

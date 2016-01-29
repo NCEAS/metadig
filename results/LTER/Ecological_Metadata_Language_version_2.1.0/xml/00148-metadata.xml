@@ -1,0 +1,544 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.9011.5" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MCM,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Delta Stream Gauge Measurements</title>
+    <creator>
+      <individualName>
+        <givenName>Diane</givenName>
+        <surName>McKnight</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>INSTAAR</deliveryPoint>
+        <deliveryPoint>1560 30th Street</deliveryPoint>
+        <deliveryPoint>Campus Box 450 </deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80309-0450</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(303)492-4687</phone>
+      <electronicMailAddress>Diane.Mcknight@colorado.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology</deliveryPoint>
+        <deliveryPoint>University of New Mexico</deliveryPoint>
+        <deliveryPoint>MSC03 2020</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505-277-3418</phone>
+      <phone phonetype="fax">505-277-0304</phone>
+      <electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+    </metadataProvider>
+    <abstract>
+      <section>
+        <para>
+     As part of the Long Term Ecological Research (LTER) project in the McMurdo Dry
+      Valleys of Antarctica, a systematic sampling program has been undertaken to monitor the
+      glacial meltwater streams in that region. These tables contain data pertaining to continuous
+      monitored water quality and quantity parameters measured with automatic recording devices on
+      streams in this region. Specifically, this metadata record describes the hydrological data
+      collected at the Delta stream since 1993.
+    </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme"> streamflow</keyword>
+      <keyword keywordType="theme"> hydrology</keyword>
+      <keyword keywordType="theme"> discharge</keyword>
+      <keyword keywordType="theme"> conductivity</keyword>
+      <keyword keywordType="theme"> temperature</keyword>
+      <keyword keywordType="place">McMurdo Dry Valleys</keyword>
+      <keyword keywordType="place">Delta stream</keyword>
+      <keyword keywordType="theme">MCM</keyword>
+    </keywordSet>
+    <additionalInfo>
+      <section>
+        <title>Citations</title>
+        <para>
+          <literalLayout> None.</literalLayout>
+        </para>
+      </section>
+      <section>
+        <title>Notes</title>
+        <para>
+          <literalLayout> Data contained in these files has been subjected to quality control standards
+      imposed by the investigator. The user of this data should be aware that, while efforts have
+      been taken to ensure that these data are of the highest quality, there is no guarantee of
+      perfection for the data contained herein and the possibility of errors exists. If you
+      encounter questionable data, please contact the MCM LTER data manager corrected or qualified.
+      Thus, these data may be modified and future data will be appended.</literalLayout>
+        </para>
+      </section>
+      <section>
+        <title>COMMENTS Codes</title>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>
+                <literalLayout>Qe - Flow estimated by averaging adjacent 15-minute intervals</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>Qmf - Flow data Missing &#8211; flow present &#8211; either observed or suggested by water temperature and specific conductance data</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>Qmnf - Flow data Missing &#8211; no flow - either observed or suggested by water temperature and specific conductance data</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>Qmu - Flow data Missing &#8211; flow status unknown</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>Qno - No Flow all season</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>Qsed - Sediment build up on orifice line - may lead to recorded stage measurements corresponding to higher than actual discharge values</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>Wtx - No water temperature probe at station</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>WTexp - temperature probe may have been exposed to air because of low flows</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>SCx - No specific conductance probe at station</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>SCexp - Specific conductance probe may have been exposed to air because of low flows</literalLayout>
+              </para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </additionalInfo>
+    <intellectualRights>
+      <section>
+        <title>MCM LTER data may be used freely with the following restrictions:</title>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>
+                <literalLayout>The Principal Investigator be sent a notice stating reasons for acquiring any
+         data and a description of the publication intentions. </literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>The Principal Investigator of the data set be sent a copy of the report or
+         manuscript prior to submission and be adequately cited in any resultant
+        publications.</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>A copy of any resultant publications should be sent to the McMurdo data
+         manager and principal investigator.</literalLayout>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <literalLayout>The end-user follow the guidelines set forth in the LTER Network Data Access
+         Policy, Data Access Requirements, and General Data Use Agreement found at
+         http://www.mcmlter.org/data_guidelines.htm</literalLayout>
+              </para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://www.mcmlter.org/queries/hydro_results.jsp?begDate=01/01/0001&amp;endDate=01/01/3000&amp;hydroStation=DELTA</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription> Study areas were located in the McMurdo Dry Valleys of southern Victoria
+     Land, Antarctica (in the western coast of the Ross Sea at 77oS). Specific latitudes and
+     longitudes for each stream gauge can be found in the this web site.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162</westBoundingCoordinate>
+          <eastBoundingCoordinate>163.6</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.2</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.8</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>1000</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1990</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <para>
+            <literalLayout> The 'discrete_stream_gauge' table was created by Harry House in early 1994. It
+       was first stored in an INGRES database, but was converted to ORACLE format in early 1996.
+       Modifications were generally made each year after the initial creation in the early part of
+       the year. It was transferred to INSTAAR in late 1997, where it was stored in a Microsoft
+       Access database, and presented on the web in ascii, comma delimited files. 
+       
+       In October, 1999 Mike Gooseff submitted the 1997-98 data to Denise Steigerwald (the data manager) in ascii,
+       comma delimited files. In order to prepare the files for use in an Oracle database as well as
+       a geographic information system, Denise created a field for "strmgageid" (stream gauge id),
+       converted any time fields of 24:00 to 0:00 on the following day, combined the date and time
+       fields into one date/time field, and separated the data into separate files for each station.
+       Data which was previously presented according to decade collected is now presented according
+       to location, and contains records from the start date of monitoring for a given stream gauge.
+       The resulting files are available through the links provided above.
+      
+       In order to make the data more relational / useful in Oracle and ArcInfo, and generate links between
+       different data and metadata fields, a dataset code was added to these files.
+      </literalLayout>
+          </para>
+          <para>
+            <literalLayout>New codes for the COMMENTS column were created in 2005 after a meeting between the stream
+       team and the information manager (Chris Gardner).  These comments were added to stream data that were worked up
+       after that point  - they usually appear in the data around the 2003 season.</literalLayout>
+          </para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>LTER Network Office</organizationName>
+      <positionName>LNO Information Manager</positionName>
+    </contact>
+    <contact>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology</deliveryPoint>
+        <deliveryPoint>University of New Mexico</deliveryPoint>
+        <deliveryPoint>MSC03 2020</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505-277-3418</phone>
+      <phone phonetype="fax">505-277-0304</phone>
+      <electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology</deliveryPoint>
+        <deliveryPoint>University of New Mexico</deliveryPoint>
+        <deliveryPoint>MSC03 2020</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505-277-3418</phone>
+      <phone phonetype="fax">505-277-0304</phone>
+      <electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout> 
+       Campbell CR10 dataloggers were used to record stream stage, water temperature, 
+       and conductivity in a network of stream gauges. Stage is monitored with pressure
+       transducers; PSS-1 and PS-2 models form Paroscientific Corporation, and Accubars 
+       from Sutron Corporation. The pressure transducers measure the backpressure in orifice 
+       lines set into or above controls in the stream channel. In addition, some of the sites 
+       monitor water temperature and conductivity with either USGS minimonitor probes, or
+       Campbell temperature/conductivity probes.
+       
+       Ratings are developed for the stage/discharge relationship at each site by measuring 
+       streamflow with current meters or portable flumes, according to standard USGS methods. 
+       Datum corrections to the stage are determined by periodically surveying the elevation of the 
+       orifice line to the control and nearby reference marks. Calibrations for the temperature and
+       conductivity are assessed by measuring these parameters with portable field meters while 
+       simultaneously noting the readings from the gauge probes.
+       
+       Data is downloaded into Campbell storage modules, and retrieved into pcs. From there, the 
+       data is sent to a USGS computer, where time discrepancies are resolved, and the data is 
+       loaded into ADAPS, a database system developed in the USGS for maintaining and processing 
+       water data. A determination for each site as to when the stream was flowing and when it was not is made.
+       
+       For water temperature and conductivity, bad data is deleted. Variable shifts are determined based
+       on field calibration measurements, and other indicators. The shifts are applied to the remaining 
+       good data inside of ADAPS. The data is pulled out of ADAPS, and reformatted for input into ORACLE. 
+       Cases of water temperature below reasonable values are set to lower limits. A quality code is 
+       assigned to every value. The resulting data is uploaded into the ORACLE and the McMurdo database.
+       
+       For stage/discharge, bad data is deleted. Survey data is reviewed to compute weir elevations and
+       datum corrections. A rating curve is developed graphically, based on available data, and entered
+       into ADAPS. All applicable shifts and datum corrections are entered into ADAPS. All corrections 
+       and ratings are run against the good stage data to compute the discharge at each recording interval. 
+       The data is pulled out of ADAPS, and reformatted for input into ORACLE. A quality code is assigned 
+       to every value. The resulting data is uploaded into ORACLE and the McMurdo database. 
+      </literalLayout>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>Column_Descriptions_And_Units</entityName>
+      <physical>
+        <objectName>Column_Descriptions_And_Units</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>37</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/9011/5/Column_Descriptions_And_Units</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>Dataset code</attributeLabel>
+          <attributeDefinition>Code representing discrete stream gauge measurements dataset</attributeDefinition>
+          <storageType typeSystem="Text" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code representing discrete stream gauge measurements dataset</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>Required entry</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>STRMGAGEID</attributeName>
+          <attributeLabel>stream gage id</attributeLabel>
+          <attributeDefinition>Code representing stream gauge</attributeDefinition>
+          <storageType typeSystem="Text" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code representing stream gauge</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>Required entry</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>Date/time</attributeLabel>
+          <attributeDefinition>Date/time of sample (McMurdo time)</attributeDefinition>
+          <storageType typeSystem="Date" />
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY HH24:MM</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>Required entry</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DISCHARGE RATE</attributeName>
+          <attributeLabel>Discharge Rate</attributeLabel>
+          <attributeDefinition>Stream discharge</attributeDefinition>
+          <storageType typeSystem="Number" />
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>litersPerSecond</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DISCHARGE QLTY</attributeName>
+          <attributeLabel>Discharge Quality</attributeLabel>
+          <attributeDefinition>Estimated accuracy of discharge (good=most accurate within 10%, fair=most data accurate within 25%, poor=significant amounts of data may be &gt;25% off)</attributeDefinition>
+          <storageType typeSystem="Text" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Estimated accuracy of discharge</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WATER_TEMP</attributeName>
+          <attributeLabel>Water Temperature</attributeLabel>
+          <attributeDefinition>Water Temperature</attributeDefinition>
+          <storageType typeSystem="Number" />
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WATER_TEMP_QLTY</attributeName>
+          <attributeLabel>Water Temperature Quality</attributeLabel>
+          <attributeDefinition>Estimated accuracy of water temperature (good=most accurate within 10%, fair=most data accurate within 25%, poor=significant amounts of data may be &gt;25% off)</attributeDefinition>
+          <storageType typeSystem="Text" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Estimated accuracy of water temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CONDUCTIVITY</attributeName>
+          <attributeLabel>Conductivity</attributeLabel>
+          <attributeDefinition>Specific conductivity</attributeDefinition>
+          <storageType typeSystem="Number" />
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemens/cm</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CONDUCTIVITY_QLTY</attributeName>
+          <attributeLabel>Conductivity Quality</attributeLabel>
+          <attributeDefinition>Estimated accuracy of conductivity (good=most accurate within 10%, fair=most data accurate within 25%, poor=significant amounts of data may be &gt;25% off)</attributeDefinition>
+          <storageType typeSystem="Text" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Estimated accuracy of conductivity</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COMMENTS</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>Comments about the overall data</attributeDefinition>
+          <storageType typeSystem="Text" />
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments about the overall data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>None given</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="microsiemens/cm" />
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

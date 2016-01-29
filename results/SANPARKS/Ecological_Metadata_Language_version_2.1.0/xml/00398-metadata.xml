@@ -1,0 +1,151 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1577.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Beetle pollinators of Southern Africa: Survey, host-plant associations and approaches for Pollinator Conservation</title>
+ <creator id="1362056358285"> <organizationName>SANParks</organizationName>
+</creator>
+ <abstract><para>This dataset contains GPS locations of flowering trees and shrubs in the Kruger National Park observed during November and December in 2009, 2010, and 2011.  There is also a table showing the observed interactions between plant species and their insect pollinators, with relative magnitude of pollen loads.</para>
+</abstract>
+<keywordSet><keyword>Tree, shrub, flower, pollination, insect, beetle, bee, fly, butterfly, moth</keyword>
+<keyword>SANParks, South Africa, Kruger National Park, South Africa</keyword>
+</keywordSet>
+<intellectualRights><para>The data can be shared in the public domain.</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>KNP_Boundary</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>30.888418</westBoundingCoordinate>
+<eastBoundingCoordinate>32.033169</eastBoundingCoordinate>
+<northBoundingCoordinate>-22.32785</northBoundingCoordinate>
+<southBoundingCoordinate>-25.528913</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2009-11-28</calendarDate>
+</beginDate>
+<endDate><calendarDate>2012-12-28</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact id="1362056365789"><individualName><givenName>Jonathan</givenName>
+<surName>Mawdsley</surName>
+</individualName>
+<electronicMailAddress>mawdsley@heinzctr.org</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section><title>Methods</title>
+<para>We studied insect pollinator activity on flowers of 29 species of trees and shrubs in the Skukuza Ranger District, Kruger National Park, Mpumalanga Province, Republic of South Africa, during the late dry season and/or early rainy seasons in the years 2009-2012 (inclusive).  Floral visitor sampling was conducted under optimal temperature (greater than 20&#176; C) and precipitation (non-rainy, usually clear skies to partly cloudy) conditions for insect activity.  We recorded lists of pollinator species observed on each plant species for further food web analysis.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<otherEntity><entityName>Mawdsley et al 2011.pdf</entityName>
+<physical><objectName>Mawdsley et al 2011.pdf</objectName>
+<size unit="byte">608489</size>
+<dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution id="1362056531571"><online><url function="download">ecogrid://knb/judithk.1578.1</url>
+</online>
+</distribution>
+</physical>
+<entityType>Other</entityType>
+</otherEntity>
+<dataTable id="1362056622066"><entityName>Mawdsley Pollinator Sites 2009-2012.txt</entityName>
+<physical id="1362056552568"><objectName>Mawdsley Pollinator Sites 2009-2012.txt</objectName>
+<size unit="byte">33263</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1579.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1362056622082"><attributeName>Genus</attributeName>
+<attributeDefinition>Genus</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Genus</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362056622098"><attributeName>Species</attributeName>
+<attributeDefinition>Species</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362056622113"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>dd-mmm-yy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1362056622129"><attributeName>Latitude</attributeName>
+<attributeDefinition>Coordinates of the flowering tree or shrub observed</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362056622144"><attributeName>Longitude</attributeName>
+<attributeDefinition>Coordinates of the flowering tree or shrub observed</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>628</numberOfRecords>
+</dataTable>
+<dataTable id="1362056682142"><entityName>Mawdsley Pollinator Interactions 2009-2012.txt</entityName>
+<physical id="1362056647822"><objectName>Mawdsley Pollinator Interactions 2009-2012.txt</objectName>
+<size unit="byte">4514</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1580.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1362056682158"><attributeName>Plant Genus</attributeName>
+<attributeDefinition>Plant Genus</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Plant Genus</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362056682173"><attributeName>Plant Species</attributeName>
+<attributeDefinition>Plant Species</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Plant Species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362056682189"><attributeName>Observed Pollinators (with relative magnitude of pollen loads)</attributeName>
+<attributeDefinition>ed Pollinators (with relative magnitude of pollen loads)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Pollinators</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>26</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

@@ -1,0 +1,305 @@
+<metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Graham, Stephen</origin>
+        <origin>Famiglietti, Dr. Jay</origin>
+        <origin>Maidment, Dr. David</origin>
+        <title>Global Watersheds</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/metadata/hydrology/graham_watersheds.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/metadata/hydrology/graham_watersheds.xml</alt_onlink>
+        <onlink>http://www.ngdc.noaa.gov/seg/ecosys/ecosys.shtml</onlink>
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A new data set of watersheds and river networks is available, being derived primarily from the TerrainBase Global DTM (Digital Terrain Model) with additional information from the CIA World Data Bank II. These data are useful in hydrologic modeling, and can serve as a basemap for routing continental runoff to the appropriate coast, and therefore into the appropriate ocean or inland sea in a variety of methods. Using this data set, the runoff produced in any grid cell, when coupled with a routing algorithm, can easily be transported to the appropriate water body and distributed across that water body as desired. The data set includes watershed and flow direction information, as well as supporting hydrologic data at 5 minute, 1/2 degree, and 1 degree resolutions globally.
+
+The dataset is composed of nine spatial layers, each delineated at 3 resolutions.  These layers include:
+
+Land/Sea Mask -- Determined from TerrainBase DTM elevation data after conversion to GIS format. Some manual correction was also performed in land areas with elevations below sea level. 
+
+Flow Direction Data -- Derived from the filled digital elevation model produced from the land/sea mask and the TerrainBase DTM using GIS. Elevation data conditioned before filling by burning in rivers from the CIA World Data Bank II with subsequent manual corrections for discrepancies between model coastlines. Flow direction data in Antarctica altered to ensure valid flow direction information. 
+ 
+Flow Accumulation Data -- Derived from the flow direction data in GIS after correction. 
+
+Rivers Delineation -- Created from flow accumulation data based on threshold values using GIS. Greenland and Antarctica removed from river delineation. 
+
+55 Large Watersheds Delineation -- Derived from flow direction and flow accumulation data using GIS. Watershed selection conducted as combination of largest watersheds and those rivers suggested by Russell and Miller [1990] for use in global climate modeling studies. 
+
+Internally Draining Regions -- Defined as those large regions of Africa, central Eurasia, and Australia which were internally draining. Derived using GIS based on the original elevation data and closed depressions. 
+
+19 Large-Scale Drainage Regions -- Derived as watersheds from the flow direction data in conjunction with coastal cells in GIS. The 19 basins were originally selected as land-water body pairings for use in the National Center for Atmospheric Research (NCAR) Climate System Model (CSM). 
+
+19 Large-Scale Drainage Regions Including Water Bodies -- 19 large-scale drainage regions including water bodies were derived by computing nearest neighbor data values for grid cells without data values in GIS. Artificial divisions have been included in some areas as they are common geographic modeling divisions, or otherwise create a better separation of drainage regions. 
+
+Lakes Delineation -- Created in GIS by gridding water bodies from the CIA World Data Bank II. 
+
+Runoff Data -- Runoff data was taken from Perry et al. [1996] and UNESCO [1974] for the 55 rivers selected in this study. ASCII data file data (tabular) with associated geographic and political reference information.
+
+Technical reports describing data analysis and integration are online at [http://www.ngdc.noaa.gov/seg/cdroms/graham/graham/graham.htm].</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20000101</begdate>
+          <enddate>20001231</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Final</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>DRAINAGE|DIGITIZER|DIGITAL ELEVATION MODEL</themekey>
+        <themekey>DISCHARGE/FLOW|DIGITIZER|DIGITAL ELEVATION MODEL</themekey>
+        <themekey>RIVERS/STREAMS|DIGITIZER|DIGITAL ELEVATION MODEL</themekey>
+        <themekey>WATERSHEDS|DIGITIZER|DIGITAL ELEVATION MODEL</themekey>
+        <themekey>LAKES|DIGITIZER|CIA World Data Bank II</themekey>
+        <themekey>RUNOFF|STREAMFLOW GAUGE|STREAMFLOW STATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>DRAINAGE</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>DIGITAL ELEVATION MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>DIGITIZER</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>Global (gridded)</placekey>
+        <placekey>Global (point)</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Graham, Stephen</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; steveg@mail.utexas.edu</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>National Oceanic and Atmospheric Administration, National Geophysical Data Center, Boulder, Colorado, USA</cntorg>
+          <cntper>Kineman, John J.</cntper>
+        </cntperp>
+        <cntvoice>+1-303-497-6513 (FAX)</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; steveg@mail.utexas.edu</cntfax>
+        <cntemail>John.J.Kineman@ngdc.noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://www.ngdc.noaa.gov/seg/ecosys/ecosys.shtml</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Graham, S. T., J. S. Famiglietti, and D. R. Maidment. 2000. Global Watersheds: Five-Minute, 1/2 Degree, and 1 Degree Data Sets of Continental Watersheds and River Networks for Use in Regional and Global Hydrologic and Climate System Modeling Studies. Available online at [http://www.ngdc.noaa.gov/seg/cdroms/graham/graham/graham.htm] from the National Oceanic and Atmospheric Administration, National Geophysical Data Center, Boulder, Colorado, USA.
+
+Source Data Citation:
+
+Graham, S. T., J. S. Famiglietti, and D. R. Maidment. 1999. Five-Minute, 1/2 Degree, and 1 Degree Data Sets of Continental Watersheds and River Networks for Use in Regional and Global Hydrologic and Climate System Modeling Studies, Water Resources Research, 35(2):583-587. 
+
+Gorny, A. J., and R. Carter. 1987. World Data Bank II General User's Guide, Central Intelligence Agency, Washington, DC, USA. 
+
+Row, L. W., D. A. Hastings, and P. K. Dunbar. 1995. TerrainBase Worldwide Digital Terrain Data Documentation Manual, National Geophysical Data Center, Boulder, CO, USA.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20081205 153426</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntperp>
+        <cntvoice>+1-804-769-2495</cntvoice>
+        <cntemail>cncurtis@crosslink.net</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>20000101</begdate>
+    <enddate>20001231</enddate>
+    <Site_Information>
+      <Site>Global (gridded)</Site>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Southernmost_Latitude>-90</Southernmost_Latitude>
+    </Site_Information>
+    <Site_Information>
+      <Site>Global (point)</Site>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Southernmost_Latitude>-90</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>Africa</Keywords>
+    <Keywords>Antarctica</Keywords>
+    <Keywords>Asia</Keywords>
+    <Keywords>Australia</Keywords>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>Eurasia</Keywords>
+    <Keywords>Europe</Keywords>
+    <Keywords>Flow accumulations</Keywords>
+    <Keywords>Flow directions</Keywords>
+    <Keywords>Drainage basins</Keywords>
+    <Keywords>Greenland</Keywords>
+    <Keywords>Hydroclimatology Collections</Keywords>
+    <Keywords>Lakes</Keywords>
+    <Keywords>Land/sea mask</Keywords>
+    <Keywords>North America</Keywords>
+    <Keywords>Oceania</Keywords>
+    <Keywords>Rivers</Keywords>
+    <Keywords>Runoff</Keywords>
+    <Keywords>South America</Keywords>
+    <Keywords>Water bodies</Keywords>
+    <Keywords>Watersheds</Keywords>
+    <Parameter_Description>
+      <Parameter>DRAINAGE</Parameter>
+      <Sensor>DIGITIZER</Sensor>
+      <Source>DIGITAL ELEVATION MODEL</Source>
+      <Term>SURFACE WATER</Term>
+      <Topic>HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>DISCHARGE/FLOW</Parameter>
+      <Sensor>DIGITIZER</Sensor>
+      <Source>DIGITAL ELEVATION MODEL</Source>
+      <Term>SURFACE WATER</Term>
+      <Topic>HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>RIVERS/STREAMS</Parameter>
+      <Sensor>DIGITIZER</Sensor>
+      <Source>DIGITAL ELEVATION MODEL</Source>
+      <Term>SURFACE WATER</Term>
+      <Topic>HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WATERSHEDS</Parameter>
+      <Sensor>DIGITIZER</Sensor>
+      <Source>DIGITAL ELEVATION MODEL</Source>
+      <Term>SURFACE WATER</Term>
+      <Topic>HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAKES</Parameter>
+      <Sensor>DIGITIZER</Sensor>
+      <Source>CIA World Data Bank II</Source>
+      <Term>SURFACE WATER</Term>
+      <Topic>HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>RUNOFF</Parameter>
+      <Sensor>STREAMFLOW GAUGE</Sensor>
+      <Source>STREAMFLOW STATION</Source>
+      <Term>SURFACE WATER</Term>
+      <Topic>HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Project />
+    <Navpath>DIGITAL ELEVATION MODEL|DIGITIZER|DRAINAGE</Navpath>
+    <Navpath>DIGITAL ELEVATION MODEL|DIGITIZER|DISCHARGE/FLOW</Navpath>
+    <Navpath>DIGITAL ELEVATION MODEL|DIGITIZER|RIVERS/STREAMS</Navpath>
+    <Navpath>DIGITAL ELEVATION MODEL|DIGITIZER|WATERSHEDS</Navpath>
+    <Navpath>CIA World Data Bank II|DIGITIZER|LAKES</Navpath>
+    <Navpath>STREAMFLOW STATION|STREAMFLOW GAUGE|RUNOFF</Navpath>
+    <Principal_Investigator>
+      <Name>Graham, Stephen</Name>
+      <Email>steveg@mail.utexas.edu</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Famiglietti, Dr. Jay</Name>
+      <Email>jfamigli@uci.edu</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Maidment, Dr. David</Name>
+      <Email>maidment@mail.utexas.edu</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://www.ngdc.noaa.gov/seg/cdroms/graham/graham/graham.htm</URL>
+      <Label>Five-Minute, 1/2 Degree, and 1 Degree Data Sets of Continental Watersheds and River Networks</Label>
+      <Link_Note>Download nine spatial layers, each delineated at 3 resolutions, as well as tabular runoff data with associated geographic and political reference information.</Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL>http://www.ngdc.noaa.gov/seg/ecosys/ecosys.shtml</URL>
+      <Label>NOAA/NGDC Ecosystems and Global Change Web Site</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>metadata24.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>John.J.Kineman@ngdc.noaa.gov</Email>
+      <Name>Kineman, John J.</Name>
+      <Phone>+1-303-497-6513 (FAX)</Phone>
+    </Contact_Person>
+    <Temporal_Resolution>Modern average conditions from multiple sources</Temporal_Resolution>
+    <enddate_blank />
+    <File_ID>Created 20010924 180415 by 206.246.119.119</File_ID>
+    <Spatial_Reference_Method>Point</Spatial_Reference_Method>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Extent>64800</Spatial_Extent>
+    <Search_Text_Link>
+      <URL>http://www.ngdc.noaa.gov/seg/ecosys/ecosys.shtml</URL>
+      <Label>NOAA/NGDC Ecosystems and Global Change Web Site</Label>
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</metadata>

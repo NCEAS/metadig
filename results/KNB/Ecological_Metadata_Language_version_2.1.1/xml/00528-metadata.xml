@@ -1,0 +1,2109 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.300.9" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow> <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=han,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>The fractured lab notebook: undergraduate and ecological data management training in the United States</title>
+ <creator> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator> <individualName> <givenName>Carly</givenName>
+ <surName>Strasser</surName>
+ </individualName>
+ <electronicMailAddress>carly.strasser@ucop.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider><individualName> <givenName>Xueying</givenName>
+ <surName>Han</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty><individualName> <givenName>Carly</givenName>
+ <surName>Strasser</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <associatedParty><individualName> <givenName>Stephanie</givenName>
+ <surName>Hampton</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <pubDate>2013-01-22</pubDate>
+ <abstract> <para>Data presented here are those collected from a survey of Ecology professors at 48 undergraduate institutions to assess the current state of data management education. The following files have been uploaded:
+
+Scripts(2):
+1. DataCleaning_20120105.R is an R script for cleaning up data prior to analysis. This script removes spaces, substitutes text for codes, removed duplicate schools, and converts questions and answers from the survey into more simple parameter names, without any numbers, spaces, or symbols. This script is heavily annotated to assist the user of the file in understanding what is being done to the data files. The script produces the file cleandata_[date].Rdata, which is called in the file DataTrimming_20120105.R
+2. DataTrimming_20120105.R is an R script for trimming extraneous variables not used in final analyses. Some variables are combined as needed and NAs (no answers) are removed. The file is heavily annotated. It produces trimdata_[date].Rdata, which was imported into Excel for summary statistics.
+
+Data files (3)
+3. AdvancedSpreadsheet_20110526.csv is the output file from the SurveyMonkey online survey tool used for this project. It is a .csv sheet with the complete set of survey data, although some data (e.g., open-ended responses, institution names) are removed to prevent schools and/or instructors from being identifiable. This file is read into DataCleaning_20120105.R for cleaning and editing.
+4. VariableRenaming_20110711.csv is called into the DataCleaning_20120105.R script to convert the questions and answers from the survey into simple parameter names, without any numbers, spaces, or symbols.
+5. ParamTable.csv is a list of the parameter names used for analysis and the value codes. It can be used to understand outputs from the scripts above (cleandata_[date].Rdata and trimdata_[date].Rdata).</para>
+ </abstract>
+ <keywordSet> <keyword>data</keyword>
+ <keyword>data management</keyword>
+ <keyword>ecology</keyword>
+ <keyword>education</keyword>
+ <keyword>environmental sciences</keyword>
+ <keyword>undergraduate</keyword>
+ <keywordThesaurus>GCMD</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage> <temporalCoverage> <rangeOfDates> <beginDate> <calendarDate>2011-03-29</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2011-05-25</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage> <geographicDescription>Institutions across the United States</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-97.0000</westBoundingCoordinate>
+ <eastBoundingCoordinate>-97.0000</eastBoundingCoordinate>
+ <northBoundingCoordinate>38.0000</northBoundingCoordinate>
+ <southBoundingCoordinate>38.0000</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact> <individualName> <givenName>Carly</givenName>
+ <surName>Strasser</surName>
+ </individualName>
+ <electronicMailAddress>carly.strasser@ucop.edu</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section> <title>Methods</title>
+ <para>Universities and colleges most likely contribute to the teaching of future graduate students in ecology were selected by using the following 3 methods. First, the US News and World Report's "Best Graduate Schools" website was used to identify the top ten Ecology and Evolutionary Biology graduate schools in the United States in 2010. Second, the website www.PhDs.org was used to collate a list of graduate schools in ecology with high National Research Council (NRC) Quality Measures. The NRC Quality Measure was set to priority five out of a possible five with all other priorities set to zero (not considered). Third, the same method as method two was used, except that the priority was set to five for Research Quality of the institution. And lastly, we obtained a list of the NSF Graduate Research Fellowship recipients for 2006 to 2010 for the life sciences. We removed the following areas of study: biochemistry, biophysics, cell biology, computational biology, developmental biology, genetics, immunology, molecular biology, neurosciences, and nutrition. The number of awards per institution were tallied and the Carnegie Classification system was used to determine whether schools were Research Universities (RU) or Baccalaureate/Arts and Sciences (BAS) institutions. BAS institutions with more than 4 awards were used in the survey. Based on these methods, a list of 51 target institutions were generated for the survey. 
+
+Each institution's website was extensively searched to determine which course(s) were applicable for the survey. Fit was determined subjectively based on the course description, course requirements for ecology-related majors, and the academic department(s) housing the course. After the most appropriate course was identified, the department was contacted to verify that the course selected was appropriate for the survey. The person contacted was the department chair, the undergraduate course advisor, or a professor within the department.
+
+The survey consisted of 33 questions that fell into four categories: (1) basic course characteristics, such as class size, laboratory components, reading materials, and prerequisites; (2) the extent to which data management is covered and use of data in the course; (3) instructor opinion about the importance of data management education for undergraduates and perceived barriers to teaching topics related to data management; and (4) instructor characteristics, including year of PhD, percentage of time teaching versus conducting research, and data sharing practices.
+
+The survey was conducted online using Survey Monkey. Emails to instructors were sent out 29 March 2011 and the survey was closed 25 May 2011.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1358892280019"><entityName>Data Cleaning R script</entityName>
+ <entityDescription>R script for cleaning up data prior to analysis. This script removes spaces, substitutes text for codes, removed duplicate schools, and converts questions and answers from the survey into more simple parameter names, without any numbers, spaces, or symbols. This script is heavily annotated to assist the user of the file in understanding what is being done to the data files. The script produces the file cleandata_[date].Rdata, which is called in the file DataTrimming_20120105.R</entityDescription>
+ <physical><objectName>DataCleaning_20120105.R</objectName>
+ <dataFormat> <externallyDefinedFormat><formatName>R</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/han.69.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1358892280020"><attributeName>R script</attributeName>
+ <attributeDefinition>This is an R script to clean up data prior to analysis.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>R codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1358892369526"><entityName>Data Trimming R script</entityName>
+ <entityDescription>R script for trimming extraneous variables not used in final analyses. Some variables are combined as needed and NAs (no answers) are removed. The file is heavily annotated. It produces trimdata_[date].Rdata, which was imported into Excel for summary statistics.</entityDescription>
+ <physical><objectName>DataTrimming_20120105.R</objectName>
+ <dataFormat> <externallyDefinedFormat><formatName>R</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/han.70.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1358892369527"><attributeName>R script</attributeName>
+ <attributeDefinition>This is an R script to trim extraneous variables not used in the final analyses.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>R codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1359578629288"><entityName>AdvancedSpreadsheet_20110526.csv</entityName>
+ <physical id="1358892398800"><objectName>AdvancedSpreadsheet_20110526.csv</objectName>
+ <size unit="byte">99863</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,u</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/han.71.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1359578629289"><attributeName>First Name</attributeName>
+ <attributeDefinition>Take out</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>take off column</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629290"><attributeName>RespondentID</attributeName>
+ <attributeDefinition>Unique 10-digit ID given to respondents</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>10 digit ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629291"><attributeName>StartDate</attributeName>
+ <attributeDefinition>remove</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>remove</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629292"><attributeName>EndDate</attributeName>
+ <attributeDefinition>remove</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>remove</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629293"><attributeName>Recommended major</attributeName>
+ <attributeDefinition>Question: What major is recommended by your department if a student is interested in pursuing a graduate degree in Ecology? (Open-Ended Response) Responses to ppen ended questions are not provided here in this data set. Courses were, however, limited to undergraduate courses that covered basic topics in Ecology.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Open ended responses are not provided in this dataset</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629294"><attributeName>Required course</attributeName>
+ <attributeDefinition>Question: Is this course required for the major you named in your answer above? In the survey, the phrase "this course" refers to the course mentioned in the instructor's invitation email.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, the course is not required</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, the course is required</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629295"><attributeName>Student enrollment</attributeName>
+ <attributeDefinition>Question: How many students are enrolled in this course each year across all sections?</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>&lt;21</code>
+ <definition>Less than 21 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>21-50</code>
+ <definition>Between 21 and 50 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>51-100</code>
+ <definition>Between 51 and 100 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>101-300</code>
+ <definition>Between 101 and 300 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>&gt;300</code>
+ <definition>More than 300 students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629296"><attributeName>Average class size for lectures</attributeName>
+ <attributeDefinition>Question: What is the average class size for lectures?</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>&lt;21</code>
+ <definition>Less than 21 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>21-50</code>
+ <definition>Between 21 and 50 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>51-100</code>
+ <definition>Between 51 and 100 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>101-300</code>
+ <definition>Between 101 and 300 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>&gt;300</code>
+ <definition>More than 300 students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629297"><attributeName>Laboratory average class size</attributeName>
+ <attributeDefinition>Question: What is the average class size for laboratory sections?</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not applicable</code>
+ <definition>Not applicable</definition>
+ </codeDefinition>
+ <codeDefinition><code>&lt;21</code>
+ <definition>Less than 21 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>21-50</code>
+ <definition>Between 21 and 50 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>51-100</code>
+ <definition>Between 51 and 100 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>101-300</code>
+ <definition>Between 101 and 300 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>&gt;300</code>
+ <definition>More than 300 students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629298"><attributeName>Discussion section average class size</attributeName>
+ <attributeDefinition>Question: What is the average class size for discussion/recitation sections?</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not applicable</code>
+ <definition>Not applicable</definition>
+ </codeDefinition>
+ <codeDefinition><code>&lt;21</code>
+ <definition>Less than 21 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>21-50</code>
+ <definition>Between 21 and 50 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>51-100</code>
+ <definition>Between 51 and 100 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>101-300</code>
+ <definition>Between 101 and 300 students</definition>
+ </codeDefinition>
+ <codeDefinition><code>&gt;300</code>
+ <definition>More than 300 students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629299"><attributeName>Percentage of non science majors</attributeName>
+ <attributeDefinition>Question: What percentage of enrolled students are non-science majors?</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Percentage</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629300"><attributeName>Percentage of lower level science majors</attributeName>
+ <attributeDefinition>Question: What percentage of enrolled students arelower level science majors  (1st and 2nd year)?</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Percentage</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629301"><attributeName>Percentage of upper level science majors</attributeName>
+ <attributeDefinition>Question: What percentage of enrolled students are upper level science majors (3rd year and beyond)?</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Percentage</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629302"><attributeName>Percentage of graduate students</attributeName>
+ <attributeDefinition>Question: What percentage of enrolled students are graduate students?</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Percentage</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629303"><attributeName>Laboratory sessions</attributeName>
+ <attributeDefinition>Question: In the answer choices below "separate laboratory course" means the laboratory must be registered for separately apart from the main Ecology course and receives a distinct grade. Please select the situation that best describes laboratory sessions associated with this Ecology course.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>There are no laboratory sessions associated with this course</code>
+ <definition>There are no laboratory session associated with this course.</definition>
+ </codeDefinition>
+ <codeDefinition><code>There is a separate laboratory course that is optional</code>
+ <definition>There is a separate laboratory course that is optional</definition>
+ </codeDefinition>
+ <codeDefinition><code>The laboratory sessions are built into this course</code>
+ <definition>There is a separate laboratory course that is mandatory</definition>
+ </codeDefinition>
+ <codeDefinition><code>There is a separate laboratory course that is mandatory</code>
+ <definition>The laboratory sessions are built into this course</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629304"><attributeName>Laboratory assessment</attributeName>
+ <attributeDefinition>Question: Are you (the instructor) able to answer questions about the separate laboratory course's curriculum and assessment?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, I am not able to answer questions about the separate laboratory course's curriculum and assessment</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, I am able to answer questions regarding the separate laboratory course's curriculum and assessment</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629305"><attributeName>If no to previous question</attributeName>
+ <attributeDefinition>Question: If you answered "No" above please provide the name and contact email for the person(s) best able to answer questions about the separate laboratory course. - Open-Ended Response</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Email addresses provided in the surveys are not provided for this dataset</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629306"><attributeName>Network protocols</attributeName>
+ <attributeDefinition>Question: Are students that take this course expected to have prior knowledge about notebook protocols (lab or field)?
+Please note that for the remainder of the survey (e.g. remaining columns), only the mandatory components of the course were considered for the instructor's responses. If there was a separate laboratory that was optional, the instructor was told to disregard it when answering questions.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, students are not expected to have prior knowledge</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, students are expected to have prior knowledge</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629307"><attributeName>Reproducibility</attributeName>
+ <attributeDefinition>Question: Are students that take this course expected to have prior knowledge about reproducibility: making sure results are reproducible which requires data metadata and analytical information?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, students are not expected to have prior knowledge about reproducibility</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, students are expected to have prior knowledge about reproducibility</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629308"><attributeName>Data management</attributeName>
+ <attributeDefinition>Question: Are students that take this course expected to have prior knowledge about data management: includes quality control metadata (data about data) generation using consistent and stable file formats protecting and archiving data?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, students are not expected to have prior knowledge about data management</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, students are expected to have prior knowledge about data management</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629309"><attributeName>Course materials: textbooks</attributeName>
+<attributeDefinition>Question: Select the types of reading materials required for this course. Options are: textbook, laboratory manual, review articles, primary literature (journal articles), popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, the Selfish Gene by Dawkins), unpublished materials (e.g, written by you or a colleague), there is no required reading material, other (please specify).</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Textbook</code>
+<definition>Textbooks are a required reading material material for the course</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629310"><attributeName>Course materials: laboratory manuals</attributeName>
+<attributeDefinition>Question: Select the types of reading materials required for this course. Options are: textbook, laboratory manual, review articles, primary literature (journal articles), popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, the Selfish Gene by Dawkins), unpublished materials (e.g, written by you or a colleague), there is no required reading material, other (please specify).</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Laboratory manual</code>
+<definition>Laboratory manuals are required for the course</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629311"><attributeName>Course material: review articles</attributeName>
+<attributeDefinition>Question: Select the types of reading materials required for this course. Options are: textbook, laboratory manual, review articles, primary literature (journal articles), popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, the Selfish Gene by Dawkins), unpublished materials (e.g, written by you or a colleague), there is no required reading material, other (please specify).</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Review articles</code>
+<definition>Review articles are required for the course</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629312"><attributeName>Course material: primary literature</attributeName>
+<attributeDefinition>Question: Select the types of reading materials required for this course. Options are: textbook, laboratory manual, review articles, primary literature (journal articles), popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, the Selfish Gene by Dawkins), unpublished materials (e.g, written by you or a colleague), there is no required reading material, other (please specify).</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Primary literature (journal articles)</code>
+<definition>Primary literature are required for the course</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629313"><attributeName>Course material: popular science literature</attributeName>
+<attributeDefinition>Question: Select the types of reading materials required for this course. Options are: textbook, laboratory manual, review articles, primary literature (journal articles), popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, the Selfish Gene by Dawkins), unpublished materials (e.g, written by you or a colleague), there is no required reading material, other (please specify).</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, The Selfish Gene by Dawkins)</code>
+<definition>Popular science literature are required for the course</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629314"><attributeName>Course material: unpublished materials</attributeName>
+<attributeDefinition>Question: Select the types of reading materials required for this course. Options are: textbook, laboratory manual, review articles, primary literature (journal articles), popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, the Selfish Gene by Dawkins), unpublished materials (e.g, written by you or a colleague), there is no required reading material, other (please specify).</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Unpublished materials (e.g. written by you or a colleague)</code>
+<definition>Unpublished materials are required for the course</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629315"><attributeName>Course material: none</attributeName>
+ <attributeDefinition>Question: Select the types of reading materials required for this course. Options are: textbook, laboratory manual, review articles, primary literature (journal articles), popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, the Selfish Gene by Dawkins), unpublished materials (e.g, written by you or a colleague), there is no required reading material, other (please specify).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>There is no required reading material</code>
+ <definition>There is no required reading material</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629316"><attributeName>Course material: other</attributeName>
+ <attributeDefinition>Question: Select the types of reading materials required for this course. Options are: textbook, laboratory manual, review articles, primary literature (journal articles), popular science literature (e.g. The Ecological Detective by Hilborn and Mangel, the Selfish Gene by Dawkins), unpublished materials (e.g, written by you or a colleague), there is no required reading material, other (please specify).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Other (please specify)</code>
+ <definition>Other</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629317"><attributeName>Course material: other</attributeName>
+<attributeDefinition>Free responses from instructors who selected "other" under required course reading materials</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Free response for "other" course materials</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629318"><attributeName>Textbook/laboratory manual name</attributeName>
+ <attributeDefinition>If "textbook" and/or "laboratory manual" was selected in the above questions, please provide the name and author of the book(s) and/or manual(s).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Name and author of the book(s) and/or manual(s)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629319"><attributeName>Notebook requirement</attributeName>
+ <attributeDefinition>Question: Are students required to keep a notebook (lab or field)?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, students are not required to keep a notebook--lab or field</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, students are required to keep a notebook--lab or field</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629320"><attributeName>Notebook assessment: quality control</attributeName>
+<attributeDefinition>Question: Indicate which of the following are used in the assessment of the notebook (select all that apply): Quality control: making sure that data are accurate and there are no missing values or errors. Naming computer files: assigning descriptive file names that indicate spatial and/or temporal information about the data. Types of files and software to use. Metadata generation: descriptive information describing data content, context, quality, structure, etc. Workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results. Protecting data: backing up data, creating multiple copies in multiple locations. None of the above. Notebooks are not assessed.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Quality control</code>
+<definition>Making sure that data are accurate and there are no missing values or errors</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629321"><attributeName>Notebook assessment: naming computer files</attributeName>
+<attributeDefinition>Question: Indicate which of the following are used in the assessment of the notebook (select all that apply): Quality control: making sure that data are accurate and there are no missing values or errors. Naming computer files: assigning descriptive file names that indicate spatial and/or temporal information about the data. Types of files and software to use. Metadata generation: descriptive information describing data content, context, quality, structure, etc. Workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results. Protecting data: backing up data, creating multiple copies in multiple locations. None of the above. Notebooks are not assessed.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Naming computer files</code>
+<definition>Assigning descriptive file names that indicate spatial and/or temporal information about the data</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629322"><attributeName>Notebook assessment: files and software</attributeName>
+<attributeDefinition>Question: Indicate which of the following are used in the assessment of the notebook (select all that apply): Quality control: making sure that data are accurate and there are no missing values or errors. Naming computer files: assigning descriptive file names that indicate spatial and/or temporal information about the data. Types of files and software to use. Metadata generation: descriptive information describing data content, context, quality, structure, etc. Workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results. Protecting data: backing up data, creating multiple copies in multiple locations. None of the above. Notebooks are not assessed.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Types of files and software to use</code>
+<definition>Notebook assessment included specifying the types of files and software to use</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629323"><attributeName>Notebook assessment: metadata generation</attributeName>
+<attributeDefinition>Question: Indicate which of the following are used in the assessment of the notebook (select all that apply): Quality control: making sure that data are accurate and there are no missing values or errors. Naming computer files: assigning descriptive file names that indicate spatial and/or temporal information about the data. Types of files and software to use. Metadata generation: descriptive information describing data content, context, quality, structure, etc. Workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results. Protecting data: backing up data, creating multiple copies in multiple locations. None of the above. Notebooks are not assessed.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Metadata generation</code>
+<definition>Notebook assessment included metadata generation: descriptive information describing data content, context, quality, structure, etc.</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629324"><attributeName>Notebook assessment: workflows</attributeName>
+<attributeDefinition>Question: Indicate which of the following are used in the assessment of the notebook (select all that apply): Quality control: making sure that data are accurate and there are no missing values or errors. Naming computer files: assigning descriptive file names that indicate spatial and/or temporal information about the data. Types of files and software to use. Metadata generation: descriptive information describing data content, context, quality, structure, etc. Workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results. Protecting data: backing up data, creating multiple copies in multiple locations. None of the above. Notebooks are not assessed.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Workflows</code>
+<definition>Notebook assessment included workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629325"><attributeName>Notebook assessment: data protection</attributeName>
+<attributeDefinition>Question: Indicate which of the following are used in the assessment of the notebook (select all that apply): Quality control: making sure that data are accurate and there are no missing values or errors. Naming computer files: assigning descriptive file names that indicate spatial and/or temporal information about the data. Types of files and software to use. Metadata generation: descriptive information describing data content, context, quality, structure, etc. Workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results. Protecting data: backing up data, creating multiple copies in multiple locations. None of the above. Notebooks are not assessed.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Protecting data</code>
+<definition>Notebook assessment included data protection: backing up data, creating multiple copies in multiple locations</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629326"><attributeName>Notebook assessment: none of the above</attributeName>
+<attributeDefinition>Question: Indicate which of the following are used in the assessment of the notebook (select all that apply): Quality control: making sure that data are accurate and there are no missing values or errors. Naming computer files: assigning descriptive file names that indicate spatial and/or temporal information about the data. Types of files and software to use. Metadata generation: descriptive information describing data content, context, quality, structure, etc. Workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results. Protecting data: backing up data, creating multiple copies in multiple locations. None of the above. Notebooks are not assessed.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>None of the above</code>
+<definition>None of the options listed in previous "notebook assessment" columns were used</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629327"><attributeName>Notebook assessment: notebooks are not assessed</attributeName>
+<attributeDefinition>Question: Indicate which of the following are used in the assessment of the notebook (select all that apply): Quality control: making sure that data are accurate and there are no missing values or errors. Naming computer files: assigning descriptive file names that indicate spatial and/or temporal information about the data. Types of files and software to use. Metadata generation: descriptive information describing data content, context, quality, structure, etc. Workflows: detailed description, flow chart, or computer script of how raw data were transformed into final results. Protecting data: backing up data, creating multiple copies in multiple locations. None of the above. Notebooks are not assessed.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Notebooks are not assessed</code>
+<definition>Notebooks were not assessed</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629328"><attributeName>Data used in course teaching</attributeName>
+ <attributeDefinition>Question: Are any data used in the teaching of this course" Data can be measurements, observations, instrument outputs, model parameters etc. that are either generated by the student or obtained from other sources.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Yes, data were used in the teaching of the course</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>No, data were not used in the teaching of the course</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629329"><attributeName>Data source: student-generated data</attributeName>
+<attributeDefinition>Question: Indicate the sources of data sets used in the teaching of this course (select all that apply): Student-generated data, review articles, primary literature (journal articles), unpublished data (from yourself or colleagues), database or other online source, other (please specify)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Student-generated data</code>
+<definition>Data source included student-generated data</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629330"><attributeName>Data source: review articles</attributeName>
+<attributeDefinition>Question: Indicate the sources of data sets used in the teaching of this course (select all that apply): Student-generated data, review articles, primary literature (journal articles), unpublished data (from yourself or colleagues), database or other online source, other (please specify)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Review articles</code>
+<definition>Data source included data from review articles</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629331"><attributeName>Data source: primary literature</attributeName>
+<attributeDefinition>Question: Indicate the sources of data sets used in the teaching of this course (select all that apply): Student-generated data, review articles, primary literature (journal articles), unpublished data (from yourself or colleagues), database or other online source, other (please specify)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Primary literature</code>
+<definition>Data source did not include data from primary literature</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629332"><attributeName>Data source: unpublished data</attributeName>
+<attributeDefinition>Question: Indicate the sources of data sets used in the teaching of this course (select all that apply): Student-generated data, review articles, primary literature (journal articles), unpublished data (from yourself or colleagues), database or other online source, other (please specify)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Unpublished data</code>
+<definition>Data source included unpublished data from the instructor or his/her colleagues</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629333"><attributeName>Data source: database or other online source</attributeName>
+<attributeDefinition>Question: Indicate the sources of data sets used in the teaching of this course (select all that apply): Student-generated data, review articles, primary literature (journal articles), unpublished data (from yourself or colleagues), database or other online source, other (please specify)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Database or other online source</code>
+<definition>Data source included database or other online sources</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629334"><attributeName>Data source: other</attributeName>
+<attributeDefinition>Question: Indicate the sources of data sets used in the teaching of this course (select all that apply): Student-generated data, review articles, primary literature (journal articles), unpublished data (from yourself or colleagues), database or other online source, other (please specify)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Other (please specify)</code>
+<definition>Data used in the course came from sources other from what was lsited in the survey</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629335"><attributeName>Data source: other specified</attributeName>
+<attributeDefinition>Question: Indicate the sources of data sets used in the teaching of this course (select all that apply): Student-generated data, review articles, primary literature (journal articles), unpublished data (from yourself or colleagues), database or other online source, other (please specify)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Free response to previous question regarding what "other" sources of data were used in the course</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629336"><attributeName>Student generated data</attributeName>
+ <attributeDefinition>Question: If students generate data are their raw data assessed (e.g. are pre-analysis data sheets or files assessed)?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Yes, raw data generated by students were assessed</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>No, raw data generated by students were not assessed</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not applicable</code>
+ <definition>Students did not generate raw data</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629337"><attributeName>Data processing steps</attributeName>
+ <attributeDefinition>Question: In reference to any data sets used to teach this course are data processing steps provided for students or are they required to decide the process for themselves? For example are students told how to organize their spreadsheets how to clean up their data or what statistics to perform?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Provided</code>
+ <definition>Data processing steps were provided for students</definition>
+ </codeDefinition>
+ <codeDefinition><code>Combination of provided and student-generated steps</code>
+ <definition>Students were given steps and also generated steps themselves</definition>
+ </codeDefinition>
+ <codeDefinition><code>There is no data processing</code>
+ <definition>There is no data processing</definition>
+ </codeDefinition>
+ <codeDefinition><code>Student decides</code>
+ <definition>Data processing was decided by the students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629338"><attributeName>Student process assessed</attributeName>
+ <attributeDefinition>Question: If students are responsible for deciding on any of the data processing for themselves is the process they choose assessed?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not applicable</code>
+ <definition>Not applicable</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, the process the students chose was assessed</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>No, the process the students chose was not assessed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629339"><attributeName>Course curriculum: quality control</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? - Quality control: making sure that data are accurate and there are no missing values or errors.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Quality control was included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629340"><attributeName>Student assessment: quality control</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? - Quality control: making sure that data are accurate and there are no missing values or errors.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Quality control was included in the course assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629341"><attributeName>Topics not used: quality control</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? - Quality control: making sure that data are accurate and there are no missing values or errors.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Quality control was not used in the course curriculum and/or the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629342"><attributeName>Course curriculum: naming files</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Naming files: assigning descriptive file names that indicate spatial and/or temporal information about the data.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Naming files was included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629343"><attributeName>Student assessment: naming files</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Naming files: assigning descriptive file names that indicate spatial and/or temporal information about the data.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Naming files was included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629344"><attributeName>Topics not used: naming files</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Naming files: assigning descriptive file names that indicate spatial and/or temporal information about the data.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Naming files was not included in the course curriculum or the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629345"><attributeName>Course curriculum: files and softwares</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Types of files and software to use.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Types of files and software to use was included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629346"><attributeName>Student assessment: files and software</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Types of files and software to use.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Types of files and software to use was included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629347"><attributeName>Topics not used: files and software</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Types of files and software to use.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Types of files and software to use was not included in the course curriculum or the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629348"><attributeName>Course curriculum: metadata generation</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Metadata generation: descriptive information describing data content context quality structure etc.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Metadata generation was included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629349"><attributeName>Student assessment: metadata generation</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Metadata generation: descriptive information describing data content context quality structure etc.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Metadata generation was included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629350"><attributeName>Topics not used: metadata generation</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Metadata generation: descriptive information describing data content context quality structure etc.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Metadata generation was not included in the course curriculum or the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629351"><attributeName>Course curriculum: workflows</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Workflows (process metadata): detailed description flow chart or computer script of how raw data were transformed into final results.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Workflows (processing metadata) was covered in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629352"><attributeName>Student assessment: workflows</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Workflows (process metadata): detailed description flow chart or computer script of how raw data were transformed into final results.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Workflows (processing metadata) was included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629353"><attributeName>Topics not used: workflows</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Workflows (process metadata): detailed description flow chart or computer script of how raw data were transformed into final results.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Workflows (processing metadata) was not included in the course curriculum or the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629354"><attributeName>Course curriculum: data protection</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Protecting data: backing up data creating multiple copies in multiple locations.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Data protection was included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629355"><attributeName>Student assessment: data protection</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Protecting data: backing up data creating multiple copies in multiple locations.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Data protection was included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629356"><attributeName>Topics not used: data protection</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students? Protecting data: backing up data creating multiple copies in multiple locations.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Data protection was not included in the course curriculum or the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629357"><attributeName>Course curriculum: databases and data archiving</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Databases &amp; data archiving.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Databases and data archiving were included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629358"><attributeName>Student assessment: databases and data archiving</attributeName>
+<attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Databases &amp; data archiving.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Missing values indicate that databases and data archiving were not used in the assessment of students</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629359"><attributeName>Topics not used: databases and data archiving</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Databases &amp; data archiving.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Databases and data archiving were not included in the course curriculum or the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629360"><attributeName>Course curriculum: data re-use</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Data re-use: using data that was collected for one purpose for a new or different purpose.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Data re-use was included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629361"><attributeName>Student assessment: data re-use</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Data re-use: using data that was collected for one purpose for a new or different purpose.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Data re-use was included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629362"><attributeName>Topics not used: data re-use</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Data re-use: using data that was collected for one purpose for a new or different purpose.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Data re-use was not included in the course curriculum or in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629363"><attributeName>Course curriculum: meta-analysis</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Meta-analysis: statistical synthesis of results of separate studies.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Meta-analysis is included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629364"><attributeName>Student assessment: meta-analysis</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Meta-analysis: statistical synthesis of results of separate studies.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Meta-analysis is not included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629365"><attributeName>Topics not used: meta-analysis</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Meta-analysis: statistical synthesis of results of separate studies.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Meta-analysis was not included in the course curriculum or in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629366"><attributeName>Course curriculum: data sharing</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Data sharing: making data (raw or processed) available for use by others.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Data sharing was included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629367"><attributeName>Student assessment: data sharing</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Data sharing: making data (raw or processed) available for use by others.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Data sharing was included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629368"><attributeName>Topics not used: data sharing</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Data sharing: making data (raw or processed) available for use by others.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Data sharing was not included in the course curriculum or the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629369"><attributeName>Course curriculum: reproducibility</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Reproducibility: making sure results are reproducible which requires data metadata and analytical information.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Reproducibility was included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629370"><attributeName>Student assessment</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Reproducibility: making sure results are reproducible which requires data metadata and analytical information.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Reproducibility was not included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629371"><attributeName>Topics not used: reproducibility</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Reproducibility: making sure results are reproducible which requires data metadata and analytical information.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Reproducibility was not included in the course curriculum or in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629372"><attributeName>Course curriculum: notebook protocols</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Notebook protocols (lab or field).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Curriculum</code>
+ <definition>Notebook protocols were not included in the course curriculum</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629373"><attributeName>Student assessment: notebook protocols</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Notebook protocols (lab or field).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Assessment</code>
+ <definition>Notebook protocols were included in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629374"><attributeName>Topics not used: notebook protocols</attributeName>
+ <attributeDefinition>Question: Are any of the following topics included either explicitly or implicitly in the course curriculum and/or the assessment of students?  Notebook protocols (lab or field).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not used</code>
+ <definition>Notebook protocols were not included in the course curriculum or in the assessment of students</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629375"><attributeName>Other courses: notebook protocols yes</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Notebook protocols (lab or field).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Yes, there are other courses offered to students that would cover notebook protocols</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629376"><attributeName>Other courses: notebook protocols no</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Notebook protocols (lab or field).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No,  there are no courses offered to students that would cover notebook protocols</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629377"><attributeName>Other courses: notebook protocols do not know</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Notebook protocols (lab or field).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>I don't know</code>
+ <definition>Instructor does not know whether there are other courses offered to students that would cover the topic of notebook protocols</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629378"><attributeName>Other courses: reproducibility yes</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Reproducibility.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>There are other courses offered to students that would cover the topic of reproducibility.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629379"><attributeName>Other courses: reproducibility no</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Reproducibility.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>There are no other courses offered to students that would cover the topic of reproducibility.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629380"><attributeName>Other courses: reproducibility do not know</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Reproducibility.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>I don't know</code>
+ <definition>Instructor does not know whether there are other courses offered to students that would cover the topic of reproducibility.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629381"><attributeName>Other courses: data management yes</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data management.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>There are other courses that are offered to students covering the topic of data management.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629382"><attributeName>Other courses: data management no</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data management.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>There are no other courses that are offered to students covering the topic of data management.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629383"><attributeName>Other courses: data management do not know</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data management.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>I don't know</code>
+ <definition>Instructor does not know whether there are other courses offered to students that would cover the topic of data management.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629384"><attributeName>Other courses: data re-use yes</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data re-use.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>There are other courses offered to students covering the topic of data re-use</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629385"><attributeName>Other courses: data re-use no</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data re-use.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>There are no other courses offered to students covering the topic of data re-use</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629386"><attributeName>Other courses: data re-use do not know</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data re-use.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>I don't know</code>
+ <definition>Instructor does not know whether there are other courses offered to students that would cover the topic of data re-use.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629387"><attributeName>Other courses: meta-analysis yes</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Meta-analysis.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>There are other courses offered to students covering the topic of meta-analysis.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629388"><attributeName>Other courses: meta-analysis no</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Meta-analysis.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>There are no other courses offered to students covering the topic of meta-analysis.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629389"><attributeName>Other courses: meta-analysis do not know</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Meta-analysis.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>I don't know</code>
+ <definition>Instructor does not know whether there are other courses offered to students that would cover the topic of meta analysis.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629390"><attributeName>Other courses: data sharing yes</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data sharing.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>There are other courses offered to students covering the topic of data sharing.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629391"><attributeName>Other courses: data sharing no</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data sharing.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>There are no other courses offered to students covering the topic of data sharing.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629392"><attributeName>Other courses: data sharing do not know</attributeName>
+ <attributeDefinition>Question: Are there other Ecology-related courses offered to students interested in Ecology graduate studies that might cover the topics below? Data sharing.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>I don't know</code>
+ <definition>Instructor does not know whether there are other courses offered to students that would cover the topic of data sharing.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629393"><attributeName>Other courses</attributeName>
+<attributeDefinition>Question: If you checked "yes" for any of the above please list the topics and their corresponding course(s).   - Open-Ended Response</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Open ended responses are not included for this question</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629394"><attributeName>Topic importance: quality control</attributeName>
+ <attributeDefinition>Question: How important do you think quality control is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Very important</code>
+ <definition>Quality control is very important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Quality control is not important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Moderately important</code>
+ <definition>Quality control is moderately important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Quality control is very somewhat for undergraduate ecologists</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629395"><attributeName>Topic importance: files and software</attributeName>
+ <attributeDefinition>Question: How important do you think the types of files and software used is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Moderately important</code>
+ <definition>Types of files and software used are moderately important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Types of files and software used are somewhat important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>Types of files and software used are very important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Types of files and software used are not important for undergraduate ecologists</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629396"><attributeName>Topic importance: metadata generation</attributeName>
+ <attributeDefinition>Question: How important do you think metadata generation is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Moderately important</code>
+ <definition>Metadata generation is moderately important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>Metadata generation is very important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Metadata generation is somewhat important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Metadata generation is not important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>No opinion</code>
+ <definition>The instructor has no opinion on the importance of metadata generation</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629397"><attributeName>Topic importance: workflows</attributeName>
+ <attributeDefinition>Question: How important do you think workflows (processing metadata) is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Moderately important</code>
+ <definition>Workflows are moderately important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Workflows are somewhat important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>Workflows are very important for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>No opinion</code>
+ <definition>The instructor has no opinion on the importance of workflows for undergraduate ecologists</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Workflows are not important for undergraduate ecologists</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629398"><attributeName>How important do you think each of the following topics is for undergraduate Ecologists? - Protecting data: backing up data creating multiple copies in multiple locations</attributeName>
+ <attributeDefinition>Question: How important do you think data protection is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Very important</code>
+ <definition>Data protection is very important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Data protection is somewhat important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Moderately important</code>
+ <definition>Data protection is moderately important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>No opinion</code>
+ <definition>The instructor has no opinion on the importance of data protection is for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Data protection is not important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629399"><attributeName>Topic importance: databases and data archiving</attributeName>
+ <attributeDefinition>Question: How important do you think databases and data archiving are for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Moderately important</code>
+ <definition>Databases and data archiving are moderately important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Databases and data archiving are somewhat important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>Databases and data archiving are very important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Databases and data archiving are not important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629400"><attributeName>Topic importance: data re-use</attributeName>
+ <attributeDefinition>Question: How important do you think re-usage of data is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Moderately important</code>
+ <definition>Data re-use is moderately important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Data re-use is not important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Data re-use is somewhat important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>Data re-use is very important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>No opinion</code>
+ <definition>The instructor has no opinion on the importance of data re-use for undergraduate ecologists.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629401"><attributeName>Topic importance: meta-analysis</attributeName>
+ <attributeDefinition>Question: How important do you think meta-analysis is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Moderately important</code>
+ <definition>Meta-analysis is moderately important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>Meta-analysis is very important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Meta-analysis is somewhat important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Meta-analysis is not important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>No opinion</code>
+ <definition>The instructor has no opinion on the importance of meta-analysis for undergraduate ecologists.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629403"><attributeName>Topic importance: data sharing</attributeName>
+ <attributeDefinition>Question: How important do you think data sharing is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Very important</code>
+ <definition>Data sharing is very important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Data sharing is somewhat important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Moderately important</code>
+ <definition>Data sharing is moderately important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Data sharing is not important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>No opinion</code>
+ <definition>The instructor has no opinion on the importance of data sharing for undergraduate ecologists.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629404"><attributeName>Topic importance: reproducibility</attributeName>
+ <attributeDefinition>Question: How important do you think reproducibility is for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Very important</code>
+ <definition>Reproducibility is very important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Reproducibility is not important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Moderately important</code>
+ <definition>Reproducibility is moderately important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>Reproducibility is somewhat important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>No opinion</code>
+ <definition>The instructor has no opinion on the importance of reproducibility for undergraduate ecologists.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629405"><attributeName>Topic importance: notebook protocols</attributeName>
+ <attributeDefinition>Question: How important do you think notebook protocols are for undergraduate Ecologists?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Somewhat important</code>
+ <definition>Notebook protocols are somewhat important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>Notebook protocols are very important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Moderately important</code>
+ <definition>Notebook protocols are moderately important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>Notebook protocols are not important for undergraduate ecologists.</definition>
+ </codeDefinition>
+ <codeDefinition><code>No opinion</code>
+ <definition>The instructor has no opinion on the importance of notebook protocols for undergraduate ecologists.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629406"><attributeName>Barriers: quality control</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of Quality control? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers to teaching about quality control</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers to teaching about quality control</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629407"><attributeName>Barriers: naming files</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of file naming? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers in teaching students in how to name files</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers in teaching students in how to name files</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629408"><attributeName>Barriers: metadata generation</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of metadata generation? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers in teaching students about metadata generation</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers to teaching students about metadata generation</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629409"><attributeName>Barriers: workflows</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of workflows? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers in teaching students about workflows</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are  barriers in teaching students about metadata generation</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629410"><attributeName>Barriers: protecting data</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of data protection? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers to teaching about data protection</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers to teaching about data protection</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629411"><attributeName>Barriers: databases &amp; data archiving</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of databases and data archiving? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers to teaching about databases and data archiving</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers to teaching about databases and data archiving</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629412"><attributeName>Barriers:  data re-use</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of data re-use? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers in teaching about data re-use</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes,  there are barriers in teaching about data re-use</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629413"><attributeName>Barriers: meta-analysis</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of meta-analyses? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers to teaching meta-analysis</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>No, there are no barriers to teaching meta-analysis</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629414"><attributeName>Barriers: data sharing</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of data sharing? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers to teaching about data sharing</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers to teaching about data sharing</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629415"><attributeName>Barriers: reproducibility</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of reproducibility? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers teaching about reproducibility</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers teaching about reproducibility</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629416"><attributeName>Barriers: notebook protocols</attributeName>
+ <attributeDefinition>Question: Are there barriers to your teaching of notebook protocols (lab or field)? (refer to previous questions for descriptions if necessary)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, there are no barriers in teaching about notebook protocols</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, there are barriers in teaching about notebook protocols</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629417"><attributeName>Barrier description</attributeName>
+ <attributeDefinition>Question: If you answered "Yes" to any of the above please describe the barriers you face (e.g. time not enough information not appropriate at this level etc.) - Open-Ended Response</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Open ended responses</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629418"><attributeName>Instructor information: PhD year</attributeName>
+ <attributeDefinition>Question: In what year did you receive your PhD? - Open-Ended Response</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629419"><attributeName>Instructor information: time spent on teaching</attributeName>
+ <attributeDefinition>Question: In the last 12 months what percentage of your professional time was taken up by teaching (course development, assessment, class time)?</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Percentage</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629420"><attributeName>Instructor information: time spent on research</attributeName>
+ <attributeDefinition>Question: In the last 12 months what percentage of your professional time was taken up by research (grant writing, research trips, publishing)?</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Percentage</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629421"><attributeName>Instructor information: time spent on service</attributeName>
+ <attributeDefinition>Question: In the last 12 months what percentage of your professional time was taken up by service (meeting attendance, serving on panels, refereeing journal articles)</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Percentage</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629422"><attributeName>Instructor information: recent publications</attributeName>
+ <attributeDefinition>Question: Have you published in a peer-reviewed journal in the last two years?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Yes, the instructor has published in a peer-reviewed journal in the last two years</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>No, the instructor has not published in a peer-reviewed journal in the last two years</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629423"><attributeName>Instructor information: data sharing home institution</attributeName>
+<attributeDefinition>Question: Are you encouraged to share your data (make it available for use by others) by your home institution?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Home institution</code>
+<definition>Instructors were encouraged by their home institution to share data</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629424"><attributeName>Instructor information: data sharing professional affilitations</attributeName>
+<attributeDefinition>Question: Are you encouraged to share your data (make it available for use by others) by your professional affiliations (eg, societies, working groups)?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Professional affiliations</code>
+<definition>Instructors felt encouraged by their professional affiliations to share data</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629425"><attributeName>Instructor information: data sharing journals</attributeName>
+<attributeDefinition>Question: Are you encouraged to share your data (make it available for use by others) by the journals to which you submit your work?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Journals to which you submit your work</code>
+<definition>Instructors felt encouraged from the journals to which they submit their work to share data</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629426"><attributeName>Instructor information: data sharing funding sources</attributeName>
+<attributeDefinition>Question: Are you encouraged to share your data (make it available for use by others) by your funding sources?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Funding sources</code>
+<definition>Instructors felt encouraged by their funding sources to share data</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629427"><attributeName>Instructor information: data sharing not encouraged</attributeName>
+ <attributeDefinition>Question: Are you encouraged to share your data (make it available for use by others)?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>I am not encouraged to share data</code>
+ <definition>Instructor is not encouraged to share data</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629428"><attributeName>Instructor information: data sharing other</attributeName>
+<attributeDefinition>Question: Are you encouraged to share your data (make it available for use by others) by "other" entities?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Other</code>
+<definition>Instructors are encouraged by "other" entities to share data</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629429"><attributeName>Instructor information: data sharing other specified</attributeName>
+ <attributeDefinition>Question: If "other (please specify)" was selected in the previous question to whether one is encouraged to share data (make it available for use by others) by "other" entities, these are the open-ended answers provided.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Open ended response</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629430"><attributeName>Instructor information: data sharing using public databases</attributeName>
+<attributeDefinition>Question: Do you share your data using public database/repository?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Public database/repository</code>
+<definition>Instructor does share data using public databases/repositories</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629431"><attributeName>Instructor information: data sharing using home institution database</attributeName>
+<attributeDefinition>Question: Do you share your data using your home institution database/repository?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Home institution database/repository</code>
+<definition>Instructor does share data using his/her home institution database/repository</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629432"><attributeName>Instructor information: data sharing using organizational database</attributeName>
+<attributeDefinition>Question: Do you share your data using an organizational database/repository (e.g. within your field)?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Organizational database/repository (e.g. within your field)</code>
+<definition>Instructor does share data using an organizational database/repository (e.g. within his/her field)</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629433"><attributeName>Instructor information: data sharing using personal websites</attributeName>
+<attributeDefinition>Question: Do you share your data using a personal website?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Personal website</code>
+<definition>Instructor does share data using a personal website</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629434"><attributeName>Instructor information: data sharing using institutional websites</attributeName>
+<attributeDefinition>Question: Do you share your data using an institutional/organizational website?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Institutional/organizational website</code>
+<definition>Instructor does share data using an institutional/organizational website</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629435"><attributeName>Instructor information: does not share data</attributeName>
+<attributeDefinition>Question: Do you share your data?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>I do not share data</code>
+<definition>Instructor does not share data</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629436"><attributeName>Instructor information: data sharing using "other" methods</attributeName>
+ <attributeDefinition>Question: Do you share your data using "other" methods not listed previously?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Other (please specify)</code>
+ <definition>Instructor uses "other" methods of sharing data</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629437"><attributeName>Instructor information: data sharing "other" specified</attributeName>
+ <attributeDefinition>If "other (please specify)" was selected, the open-ended response is provided here.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>"Other" methods of sharing data</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629438"><attributeName>Instructor information: data re-use in research</attributeName>
+ <attributeDefinition>Question: Do you re-use data (use data that was collected for one purpose for a different purpose) in the course of your research?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>No, instructor does not re-use data in his/her own research</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>Yes, instructor does re-use data in his/her own research</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629439"><attributeName>Instructor information: research involvement of high school students</attributeName>
+<attributeDefinition>Question: Do you involve any high school students in your research?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>High school students</code>
+<definition>Instructor involves high school students in his/her research</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629440"><attributeName>Instructor information: research involvement of undergraduate students</attributeName>
+<attributeDefinition>Question: Do you involve any undergraduate students in your research?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Undergraduate students</code>
+<definition>Instructor involves undergraduate students in his/her research</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629441"><attributeName>Instructor information: research involvement of masters level graduate students</attributeName>
+<attributeDefinition>Question: Do you involve any masters level graduate students in your research?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Masters level graduate students</code>
+<definition>Instructor involves masters level graduate students in his/her research</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629442"><attributeName>Instructor information: research involvement of PhD level graduate students</attributeName>
+<attributeDefinition>Question: Do you involve any PhD level graduate students in your research?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>PhD level graduate students</code>
+<definition>Instructor involves PhD level graduate students in his/her research</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629443"><attributeName>Instructor information: research involvement of postdoctoral students</attributeName>
+<attributeDefinition>Question: Do you involve any postdoctoral students in your research?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Postdoctoral students</code>
+<definition>Instructor involves postdoctoral students in his/her research</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629444"><attributeName>Instructor information: no groups involved in research involvement</attributeName>
+<attributeDefinition>Question: Do you involve any groups in your research?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>All instructors involve at least 1 group in his/her research: there are no responses here</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629445"><attributeName>Instructor information: research involvement of "others"</attributeName>
+<attributeDefinition>Question: Do you involve any "other" groups in your research?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Other (please specify)</code>
+<definition>Instructor involves "other" groups in his/her research aside from the options provided in the survey</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1359578629446"><attributeName>Instructor information: research involvement "other" specified</attributeName>
+ <attributeDefinition>If instructor selected "other (please specifiy)" in the previous question regarding whether any groups were involved in the instructor's research, this is the open-ended response.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Open-ended responses</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629447"><attributeName>Instructor information: value of data management</attributeName>
+ <attributeDefinition>Question: As a researcher how much you value data management?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Moderately important</code>
+ <definition>As a researcher, the instructor believes that data management is moderately important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>As a researcher, the instructor believes that data management is very important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>As a researcher, the instructor believes that data management is somewhat important</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629448"><attributeName>Instructor information: value of data re-use</attributeName>
+ <attributeDefinition>Question: As a researcher how much you value data re-use?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Somewhat important</code>
+ <definition>As a researcher, the instructor believes that data re-use is somewhat important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>As a researcher, the instructor believes that data re-use is very important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>As a researcher, the instructor believes that data re-use is not important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Moderately important</code>
+ <definition>As a researcher, the instructor believes that data re-use is moderately important</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629449"><attributeName>Instructor information: value on data sharing</attributeName>
+ <attributeDefinition>Question: As a researcher how much you value data sharing?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Somewhat important</code>
+ <definition>As a researcher, the instructor believes that data sharing is somewhat important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Very important</code>
+ <definition>As a researcher, the instructor believes that data sharing is very important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Moderately important</code>
+ <definition>As a researcher, the instructor believes that data sharing is moderately important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Not important</code>
+ <definition>As a researcher, the instructor believes that data sharing is not important</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629450"><attributeName>Instructor information: value on reproducibility</attributeName>
+ <attributeDefinition>Question: As a researcher how much you value reproducibility?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Very important</code>
+ <definition>As a researcher, the instructor believes that reproducibility is very important</definition>
+ </codeDefinition>
+ <codeDefinition><code>I don't know</code>
+ <definition>As a researcher, the instructor does not know how important reproducibility is</definition>
+ </codeDefinition>
+ <codeDefinition><code>Moderately important</code>
+ <definition>As a researcher, the instructor believes that reproducibility is moderately important</definition>
+ </codeDefinition>
+ <codeDefinition><code>Somewhat important</code>
+ <definition>As a researcher, the instructor believes that reproducibility is somewhat important</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359578629451"><attributeName>Instructor information: comments/thoughts</attributeName>
+ <attributeDefinition>Question: Any additional thoughts or comments? - Open-Ended Response</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Open ended response</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>54</numberOfRecords>
+ </dataTable>
+ <dataTable id="1359579059592"><entityName>VariableRenaming_20110711.csv</entityName>
+ <physical id="1359578878984"><objectName>VariableRenaming_20110711.csv</objectName>
+ <size unit="byte">28019</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/han.72.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1359579059593"><attributeName>Question</attributeName>
+ <attributeDefinition>This dataset is called into the DataCleaning_20120105.R script to convert the questions (this column) and answers (next column) from the survey into simple parameter names, without any  numbers, spaces, or symbols.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Survey questions</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359579059594"><attributeName>Answer</attributeName>
+ <attributeDefinition>This dataset is called into the DataCleaning_20120105.R script to convert the questions (previous column) and answers (this column) from the survey into simple parameter names, without any  numbers, spaces, or symbols.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Coded answers</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>162</numberOfRecords>
+ </dataTable>
+ <dataTable id="1359579217108"><entityName>ParamTable.csv</entityName>
+ <physical id="1359579091975"><objectName>ParamTable.csv</objectName>
+ <size unit="byte">3744</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/han.73.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1359579217109"><attributeName>Param name</attributeName>
+ <attributeDefinition>This dataset provides a list of the parameter names used for analysis and the value codes. This dataset can be used to understand outputs from the scripts above (cleandata_[date].Rdata and trimdata_[date].Rdata). This columns provides the parameter names.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Parameter names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359579217110"><attributeName>Description</attributeName>
+ <attributeDefinition>Description of the parameter name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Description of the parameter name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1359579217111"><attributeName>Coding</attributeName>
+ <attributeDefinition>Value codes for the parameters</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Value codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>49</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="Percentage" multiplierToSI=" " name="Percentage" parentSI="mole" unitType="amount"><description>Percentage (out of 100)</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

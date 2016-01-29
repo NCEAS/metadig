@@ -1,0 +1,2627 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.36.16" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document">  <title>Data from one hectare monitoring site number 10, Mountain Zebra National Park</title>
+<creator id="1233211725674" scope="document"> <individualName> <surName>Novellie</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>General Manager</positionName>
+ <phone phonetype="voice">+27 (12) 426066</phone>
+ <electronicMailAddress>petern@sanparks</electronicMailAddress>
+ </creator>
+ <associatedParty scope="document"> <references>1233211725674</references>
+ <role>Scientist</role>
+ </associatedParty>
+<abstract><para>These data were collected to intensively monitor habitat use by large herbivores in relation to vegetation in 1 hectare monitoring site in the Mountain Zebra National Park. The location of the site (called plot 10) shown in figure 7 of Novellie, P. 1989. Management plan of the Mountain Zebra National Park, unpublished, SANParks. the results are reported in:
+
+1. Novellie, P. and Winkler, A. 1993. A simple index of habitat suitability for cape mountain zebras. Koedoe 36(2): 53-59.
+2. Novellie, PA. 1990. Habitat use by indigenous in relatio to sward structure and veld condition. journal of the grassland society of southern africa. 7: 16-23.
+3. Novellie, PA. 1991. Seasonal movements and habitate use by African grazing ungulates in a small conservation area. Pp. 709-713 in proceedings of the IVth international rangeland congress Vol. 2. Associetion francaise de pastoralism montopellier, france.
+
+The survey was conducted in April-May 1987. Follow-up surveys could indicate vegetation changes that have occurred since then.</para>
+</abstract>
+  <keywordSet> <keyword>vegetation monitoring, herbivory, plant species composition, habitat use.</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ <keyword>Mountain Zebra National Park, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>SANParks should be ucknoleged for the data capture and the use. digital and non-digital data and metadata belongings to the SANParks care provided on an ''as-is'' basis with no gurantee as to data quility. Nether the staff nor South African National Parks (SANParks) may held liable for any loss of any sort resulting from use of data and/metadata provided by SANParks.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Mointain Zebra</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-90.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>90.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-45.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <singleDateTime> <calendarDate>1988-03-16</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1233211725674</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <para>The method use to survey the vegetation was the descending point survey for canopy spread cover. eight plot were located ta randomly within the 1ha area monitoring site.two hundred point were examine d in each plot, the points being arranged in eight rows of 25 each, with 1m specieng between points and rows. the higher of grasses encounterd was measured from the ground to the tallest leaf. the canopy spread cover of all plant species in the plots are presented, as well as the cover of grass in three diferant height classes. the veld condition index was calculated (from Vorster.M. 1982. The development of the ecological index method from asessing veld condition in the Karoo. Proceeding of the grassland society of south Africa 17:84-8)</para>
+ <para>The extent of grazing of plant was awarded a score according to the percentage of leaves (in the case of grass) and shoot ends (in the case of woody plant and forb)  that had been severed. scoring was as follows:</para>
+ <para>0- no visible grazing;</para>
+ <para>1-1 to 5% of shoots severed;</para>
+ <para>2-6 to 25%of shoots severed</para>
+ <para>3-26 to 50% of shoots severed</para>
+ <para>4-51 to 75% of shoots severed</para>
+ <para>5-76 to 100% of shoots severed</para>
+ <para>The use of the monitoring site by large herbivores was determined by counting the number of dunh group within eight randomly located plots, each 200 square meters in area.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project scope="document"> <title>Therole of herbivory in maintaining habitat heterogeneityin the mountain zebra national park</title>
+ <personnel id="1234849944790" scope="document"> <individualName> <surName>Peter Novellie</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Manager</positionName>
+ <electronicMailAddress>Peterp.sanparks.org</electronicMailAddress>
+ <role>Science Manager</role>
+ </personnel>
+ <funding> <para>SANParks</para>
+ </funding>
+ </project>
+ <dataTable id="1233214548014" scope="document"> <entityName>VEGHEC1 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1233214546782" scope="document"> <objectName>VEGHEC1 BASIC.txt</objectName>
+ <size unit="byte">2176</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.32.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1233214548030" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of speciese, and other categories of date (see method)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cymbopogon plurinodis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Heteropogon contortus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eustachys paspaloides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostic curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aristida diffusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aristida species</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melica decumbens</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Microchloa caffra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass seedling</code>
+ <definition>speciesof of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Koeleria capensis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis capensis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melolobium candicans</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Elytropappus rhinocerotis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Protosparagus suaveolens</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chrysocoma tenuifolia</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia fascicularis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum hamulosum</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unidentified forb</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Nenax microphylla</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Gazania krebsiana</code>
+ <definition>species of grasss</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium species</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Rhus erosa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lightfootia albens</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lightfootia nodosa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Diospryros austro-africana</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia sphaerocephala</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead Dwarf Shrub</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MEAN GRASS HEIGHT</code>
+ <definition>Means height of all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER &lt;5 CM</code>
+ <definition>Cover of grass under 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER 5 - 20 CM</code>
+ <definition>Cover of grass between 5 and 20 cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER &gt;20 CM</code>
+ <definition>Cover of grass over 20cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCI</code>
+ <definition>Veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIGRASS</code>
+ <definition>Defoliation index of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIOTHER</code>
+ <definition>Defoliation index of plant other than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIALL</code>
+ <definition>Defoliation index all plant species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra pellets</code>
+ <definition>Number of pallets 200 sq meter plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain reedbuck pellets</code>
+ <definition>Number of pallets in 200 sq meter plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich dung</code>
+ <definition>Number of pallets in 200 sq meter plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Hartebeest pellets</code>
+ <definition>Numbere of pallets in 200 sq meter plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Total bovid pellets</code>
+ <definition>Number of pallets in 200 sq meter plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233214548046" scope="document"> <attributeName>Random plot 1</attributeName>
+ <attributeDefinition>Data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233214548061" scope="document"> <attributeName>Random plot 2</attributeName>
+ <attributeDefinition>Data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233214548077" scope="document"> <attributeName>Random plot 3</attributeName>
+ <attributeDefinition>Data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233214548092" scope="document"> <attributeName>Random plot 4</attributeName>
+ <attributeDefinition>Data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233214548108" scope="document"> <attributeName>Random plot 5</attributeName>
+ <attributeDefinition>Data from randomly plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233214548124" scope="document"> <attributeName>Random plot 6</attributeName>
+ <attributeDefinition>Data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>89</numberOfRecords>
+ </dataTable>
+ <dataTable id="1233648624019" scope="document"> <entityName>VEGHEC2 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1233648621556" scope="document"> <objectName>VEGHEC2 BASIC.txt</objectName>
+ <size unit="byte">1695</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.33.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1233648624035" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of species, and other categories of data (see methodes)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cymbopogon plurinodis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Sporobolus fimbriatus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostic obtusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletuss</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Microchloa caffra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eustachys paspaloides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead grass</code>
+ <definition>Unidentified dead grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia incana</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Protasparagus suaveolens</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida geniculata</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia muricata</code>
+ <definition>species of swarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Elytropappus rhinocerotis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia fascicularis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum hamulosum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead dwarf shrub</code>
+ <definition>unidentified dead shrublet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MEAN HT GRASS</code>
+ <definition>mean height of all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COVER GRASS &lt;=5 CM</code>
+ <definition>cover of grass under 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COVER GRASS 5 - 20 CM</code>
+ <definition>cover of grass between 5 and 20cm total</definition>
+ </codeDefinition>
+ <codeDefinition> <code>COVER GRASS &gt; 20 CM</code>
+ <definition>cover of grass over 20cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCI</code>
+ <definition>veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIGRASS</code>
+ <definition>defoliation index of grass defoliation index of planother than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIOTHER</code>
+ <definition>defoliation index all plan species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIALL</code>
+ <definition>defolation index all plant species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra pellets</code>
+ <definition>number of pellets in 200 sg meter plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bovids pellets</code>
+ <definition>number of pellets in200 sg meter plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich dung</code>
+ <definition>number of dung spots in 200 sg meter plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233648624051" scope="document"> <attributeName>Random plot 1</attributeName>
+ <attributeDefinition>data from randomly locational plot number 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233648624067" scope="document"> <attributeName>Random plot 2</attributeName>
+ <attributeDefinition>data from randomly located plot number 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233648624083" scope="document"> <attributeName>Random plot 3</attributeName>
+ <attributeDefinition>data from randomly located plot number2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233648624099" scope="document"> <attributeName>Random plot 4</attributeName>
+ <attributeDefinition>data from randomly located plot number2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233648624115" scope="document"> <attributeName>Random plot 5</attributeName>
+ <attributeDefinition>data from randomly plot number2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233648624131" scope="document"> <attributeName>Random plot 6</attributeName>
+ <attributeDefinition>data from randomly located plot number2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233648624147" scope="document"> <attributeName>Random plot 7</attributeName>
+ <attributeDefinition>data from randomly located plot number2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233648624162" scope="document"> <attributeName>Random plot 8</attributeName>
+ <attributeDefinition>data from randomly plot number 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>38</numberOfRecords>
+ </dataTable>
+ <dataTable id="1233658859256" scope="document"> <entityName>VEGHEC3 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1233658857930" scope="document"> <objectName>VEGHEC3 BASIC.txt</objectName>
+ <size unit="byte">1551</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.34.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1233658859272" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of species, and other categories of data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cymbopogon plurinodis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of graas</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis obtusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species ofgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Microchloa caffra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aristida congesta</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass seedling</code>
+ <definition>unidentified species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of dwarfshrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia fascicularis</code>
+ <definition>species of dwarf shruf</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of dwarf shruf</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Nenax microphylla</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chrysocoma tenuifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia incana</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Elytropappus rhinocerotis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cyperaceae</code>
+ <definition>inidentified family cyperraceae</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eriocephalus ericoides</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Protasparagus suaveolens</code>
+ <definition>species of dwarf  shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lightfootia nodosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Geophyte</code>
+ <definition>unidentified geophyte</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melolobium microphyllum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead Dwarf Shrub</code>
+ <definition>unidentufied dead shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MEAN GRASS HEIGHT</code>
+ <definition>mean height all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER &lt;=5cm</code>
+ <definition>cover of grass less than 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER 5 - 20cm</code>
+ <definition>cover of grass beyween 5and 10cm</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER&gt;20cm</code>
+ <definition>cover of grass over 20cm</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCI</code>
+ <definition>veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIGRASS</code>
+ <definition>defoliation index of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIOTHER</code>
+ <definition>defoliation index species other than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIALL</code>
+ <definition>defoliation indexall plan</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra pellets</code>
+ <definition>number of pellets in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bovids pellets</code>
+ <definition>number of pellets in 200 sqm plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich dung</code>
+ <definition>number of dung spots in 200 sq m plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233658859288" scope="document"> <attributeName>Random plot 1</attributeName>
+ <attributeDefinition>Data from randomly located plot number3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233658859303" scope="document"> <attributeName>Random plot 2</attributeName>
+ <attributeDefinition>Data from randomly located plot number3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233658859319" scope="document"> <attributeName>Random plot 3</attributeName>
+ <attributeDefinition>data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233658859334" scope="document"> <attributeName>Random plot 4</attributeName>
+ <attributeDefinition>data from rondomly located number of plot</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233658859350" scope="document"> <attributeName>Random plot 5</attributeName>
+ <attributeDefinition>data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233658859366" scope="document"> <attributeName>Random plot 6</attributeName>
+ <attributeDefinition>Data from randomly locational number of plot</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>41</numberOfRecords>
+ </dataTable>
+ <dataTable id="1233732213596" scope="document"> <entityName>VEGHEC4 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1233732212752" scope="document"> <objectName>VEGHEC4 BASIC.txt</objectName>
+ <size unit="byte">2749</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.35.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1233732213612" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of apecies, and other categories of data (see methods</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis obtusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aristida diffusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Michrochloa caffra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melica decumbens</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aristida congesta</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eustachys paspaloides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Sporobolus fimbriatus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD GRASS</code>
+ <definition>unidentified dead grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia fascicularis</code>
+ <definition>specieas of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Moraea polystachya</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>legume a</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Berkheya species</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cyperaceae</code>
+ <definition>cypaceae,species unidified</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Nenax microphylla</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida geniculata</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>sprcies dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Protasparagus suaveolens</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chrysocoma tenuifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb a</code>
+ <definition>unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Elytropappus rhinocerotis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aptosimum species</code>
+ <definition>species dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dwarf shrub  b</code>
+ <definition>species of dwaef shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD Dwarf shrub</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Gazania species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Sutera pinnatifida</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum zeyheri</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Trichodiadema pomeridianum</code>
+ <definition>species of dwarfshrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Diospyros austro-africana</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lightfootia nodosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grass height excl M. disticha</code>
+ <definition>means higer of all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grass height incl M. disticha</code>
+ <definition>excluding merxmuellera disticha</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass Cover &lt;=5cm</code>
+ <definition>cover of grass under 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass Cover 5-20cm</code>
+ <definition>cover of grass between 5 and 20 cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass Cover &gt;20cm</code>
+ <definition>cover of grass taller than 20 cm</definition>
+ </codeDefinition>
+ <codeDefinition> <code>VCI</code>
+ <definition>veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIGRASS</code>
+ <definition>defoliation index of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIOTHER</code>
+ <definition>defoliatio index of species other than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIALL</code>
+ <definition>defoliation of all plant species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra pellets</code>
+ <definition>number of pellet groups in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bovids pellets</code>
+ <definition>number of pellet group in 200 sq plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich dung</code>
+ <definition>number of dunf spots in 200 sq m plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213627" scope="document"> <attributeName>Random plot 1</attributeName>
+ <attributeDefinition>data from randomly located pot number3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213643" scope="document"> <attributeName>Random plot 2</attributeName>
+ <attributeDefinition>data from randomly located plot number3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213659" scope="document"> <attributeName>Random plot 3</attributeName>
+ <attributeDefinition>data of randomly located plot number3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213674" scope="document"> <attributeName>Random plot 4</attributeName>
+ <attributeDefinition>data from randomly located plot number 3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213690" scope="document"> <attributeName>Random plot 5</attributeName>
+ <attributeDefinition>data from randomly located plot number3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213706" scope="document"> <attributeName>Random plot 6</attributeName>
+ <attributeDefinition>data from randomly locatrd plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213721" scope="document"> <attributeName>Random plot 7</attributeName>
+ <attributeDefinition>data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213737" scope="document"> <attributeName>Random plot 8</attributeName>
+ <attributeDefinition>data from randomly located plot number3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213752" scope="document"> <attributeName>Random plot 9</attributeName>
+ <attributeDefinition>data from randomly located plot number3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233732213768" scope="document"> <attributeName>Random plot 10</attributeName>
+ <attributeDefinition>data from randomly located plot number 3</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>61</numberOfRecords>
+ </dataTable>
+ <dataTable id="1233817610235" scope="document"> <entityName>VEGHEC5 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1233817608970" scope="document"> <objectName>VEGHEC5 BASIC.txt</objectName>
+ <size unit="byte">1858</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.37.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1233817610251" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of species, and otner categories of data (see methods)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Aristida congesta</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aristida diffusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD GRASS</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis lehmanniana</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis obtusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Microchloa caffra</code>
+ <definition>spicies of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Panicum stapfianum</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Sporobolus fimbriatus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus racemosus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Sporobolus discosporus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unknown grass</code>
+ <definition>unudentified species of cyperaceae</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cyperaceae</code>
+ <definition>unidentified dead dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD DWARF SHRUB</code>
+ <definition>unidentified dead dwarf</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Hermannia linearifolia</code>
+ <definition>species of dwarf shruf</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Indigofera alternans</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lepidium species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Limeum aethiopicum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Nenax microphylla</code>
+ <definition>species of dwarf of shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Phymaspermum parvifolium</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tribulus</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ursinia nana</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mesembryanthemaceae</code>
+ <definition>unidentified mesembs</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida geniculata</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Hermannia coccocarpa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia incana</code>
+ <definition>species of dwarf shrb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DI GRASS</code>
+ <definition>defoliation index al plant</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DI OTHER</code>
+ <definition>defoliation index of plant other than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIALL</code>
+ <definition>deliation index all plant</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TOTAL COVER</code>
+ <definition>total cover of all vegetation</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover &lt;=5cm</code>
+ <definition>cover of grass over 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover 5 - 20cm</code>
+ <definition>mean heighgt of grass all species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover &gt; 20cm</code>
+ <definition>cover of grass over 20cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grass height</code>
+ <definition>mean hieght of grass all species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Veld condition index</code>
+ <definition>vorster's veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra pellets</code>
+ <definition>number of pellet groups in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bovid pellets</code>
+ <definition>number of pellet group in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich dung</code>
+ <definition>number of dung spots in 200 sq m plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233817610266" scope="document"> <attributeName>Plot 1</attributeName>
+ <attributeDefinition>Data from randomly located plot number 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233817610282" scope="document"> <attributeName>Plot 2</attributeName>
+ <attributeDefinition>Data of randomly located plot number 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233817610298" scope="document"> <attributeName>Plot 3</attributeName>
+ <attributeDefinition>Data of randomly located plot number 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233817610313" scope="document"> <attributeName>Plot 4</attributeName>
+ <attributeDefinition>Data of radomly located plot number 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233817610329" scope="document"> <attributeName>Plot 5</attributeName>
+ <attributeDefinition>Data of randomly located plot number 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233817610345" scope="document"> <attributeName>Plot 6</attributeName>
+ <attributeDefinition>Data of randomly located plot number 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233817610360" scope="document"> <attributeName>Plot 7</attributeName>
+ <attributeDefinition>Data of randomly located plot number5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233817610376" scope="document"> <attributeName>Plot 8</attributeName>
+ <attributeDefinition>Data of randomly located plot number 5</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>46</numberOfRecords>
+ </dataTable>
+ <dataTable id="1233905686683" scope="document"> <entityName>VEGHEC6 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1233905685841" scope="document"> <objectName>VEGHEC6 BASIC.txt</objectName>
+ <size unit="byte">2537</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.38.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1233905686698" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of species, and other categories of data (see methods)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Aristida diffusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cymbopogon plurinodis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD GRASS</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis obtusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eustachys paspaloides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Heteropogon contortus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melica decumbens</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Microchloa caffra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unknown grass</code>
+ <definition>Unidentified grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aptosimum procumbens</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Berkheya species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chrysocoma tenuifolia</code>
+ <definition>species of dwarf shruf</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cyperaceae</code>
+ <definition>Inidentified species of cyperaceae</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Diospyros austro-africana</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Euphorbia cf caterviflora</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD DWARF SHRUB</code>
+ <definition>Unidentified dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia fascicularis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb a</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb b</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb c (Geophyte)</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb d (Geophyte)</code>
+ <definition>undentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Gazania krebsiana</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum zeyheri</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Hermannia coccocarpa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Hermannia species</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lasiospermum bipinnatum</code>
+ <definition>species of frob</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Legume A (Argyrolobium?)</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Legume B (Indigofera?)</code>
+ <definition>Undentified of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Legume c (small)</code>
+ <definition>Unidentified of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lepidium species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lightfootia nodosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Nenax microphylla</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Protasparagus suaveolens</code>
+ <definition>species of dewarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Stachys rugosa</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida geniculata</code>
+ <definition>species of dwarf frob</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DI GRASS</code>
+ <definition>defoliation index of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DI OTHER</code>
+ <definition>defoliation index of all plant species  other than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIALL</code>
+ <definition>defolliation index of all plant species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grass height</code>
+ <definition>mean higherof all plan species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grht no M. disticha</code>
+ <definition>mean height of all grasses excluding</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TOTAL COVER</code>
+ <definition>total canopy spreed cover</definition>
+ </codeDefinition>
+ <codeDefinition> <code>grass cover &lt;= 5cm</code>
+ <definition>cover of grass under 5cm tallcover of grass between 5 and 20 cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>grass cover 5 - 20cm</code>
+ <definition>cover of grass over 20cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>grass cover &gt; 20cm</code>
+ <definition>cover of grass over 20cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Veld condition index</code>
+ <definition>Vorster's veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>mountain zebra pellets</code>
+ <definition>number of pellent groups</definition>
+ </codeDefinition>
+ <codeDefinition> <code>bovid pellets</code>
+ <definition>number ofd pallet group in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ostrich dung</code>
+ <definition>number of dung spots in 200sq m plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233905686714" scope="document"> <attributeName>Plot 1</attributeName>
+ <attributeDefinition>Data from randomly located plot number6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233905686729" scope="document"> <attributeName>Plot 2</attributeName>
+ <attributeDefinition>Data from randomly location plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233905686745" scope="document"> <attributeName>Plot 3</attributeName>
+ <attributeDefinition>Data from randomly located plot number6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233905686761" scope="document"> <attributeName>Plot 4</attributeName>
+ <attributeDefinition>Data fro randomlt plot number6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233905686776" scope="document"> <attributeName>Plot 5</attributeName>
+ <attributeDefinition>Data from randomly located plot number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233905686792" scope="document"> <attributeName>Plot 6</attributeName>
+ <attributeDefinition>Data from located plot number 6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233905686807" scope="document"> <attributeName>Plot 7</attributeName>
+ <attributeDefinition>Data from randomly located plot number6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1233905686823" scope="document"> <attributeName>Plot 8</attributeName>
+ <attributeDefinition>Data from randomly plot number6</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>61</numberOfRecords>
+ </dataTable>
+ <dataTable id="1234420505392" scope="document"> <entityName>VEGHEC7 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1234420503798" scope="document"> <objectName>VEGHEC7 BASIC.txt</objectName>
+ <size unit="byte">2091</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.39.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1234420505407" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread of covr of species, and other categories of data (see methods)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Aristida congesta</code>
+ <definition>species if grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletus</code>
+ <definition>apecies of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cymbopogon plurinodis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD GRASS</code>
+ <definition>species if grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis obtusa</code>
+ <definition>species ofgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eustachys paspaloides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Heteropogon contortus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Microchloa caffra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of  grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unknown grass</code>
+ <definition>unidentified species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chrysocoma tenuifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD DWARF SHRUB</code>
+ <definition>unidentified od dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Euphorbia cf caterviflora</code>
+ <definition>species of succulent</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Elytropappus rhinocerotis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eriocephalus ericoides</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia fascicularis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FORB A</code>
+ <definition>unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum zeyheri</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lasiospermum bipinnatum</code>
+ <definition>sprcies of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Legume A (Indigofera)</code>
+ <definition>unidentified dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lightfootia albens</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lepidium species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mesembryanthemaceae</code>
+ <definition>unidentified mesembs</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Protasparagus suaveolens</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida geniculata</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEFOLIATION INDEX GRASS</code>
+ <definition>defoliation index of all plant</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEFOLIATION INDEX OTHER</code>
+ <definition>defoliation index of all grass species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEFOLIATION INDEX ALL</code>
+ <definition>defoliation index of plants other thangrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER &lt; 5 CM</code>
+ <definition>cover of grass under 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER 5-20 CM</code>
+ <definition>cover of grass between 5 and 20cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>GRASS COVER &gt; 20 CM</code>
+ <definition>cover of grass taller than 20cm</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TOTAL COVER</code>
+ <definition>vanopy spread cover of all plants</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grass height</code>
+ <definition>mean height of all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Veld condition index</code>
+ <definition>vorster's veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra pellets</code>
+ <definition>number of pellet groups in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bovids pellets</code>
+ <definition>number of pellet groups in 200 sqm plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich dung</code>
+ <definition>number of dung sports in 200 sq m plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234420505423" scope="document"> <attributeName>Plot 1</attributeName>
+ <attributeDefinition>Data from randomly location plot number 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234420505439" scope="document"> <attributeName>Plot 2</attributeName>
+ <attributeDefinition>Data from randomlylocated plot number7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234420505454" scope="document"> <attributeName>Plot 3</attributeName>
+ <attributeDefinition>Data from randomly location plot number7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234420505470" scope="document"> <attributeName>Plot 4</attributeName>
+ <attributeDefinition>Data from randomly located plot number7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234420505485" scope="document"> <attributeName>Plot 5</attributeName>
+ <attributeDefinition>Data from randomly located plot number7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234420505501" scope="document"> <attributeName>Plot 6</attributeName>
+ <attributeDefinition>Data from randomly located plot number 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234420505517" scope="document"> <attributeName>Plot 7</attributeName>
+ <attributeDefinition>Data randomly located pot number 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234420505532" scope="document"> <attributeName>Plot 8</attributeName>
+ <attributeDefinition>Data from randomly located plot number 7</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>48</numberOfRecords>
+ </dataTable>
+ <dataTable id="1234519220092" scope="document"> <entityName>VEGHEC8 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1234519217355" scope="document"> <objectName>VEGHEC8 BASIC.txt</objectName>
+ <size unit="byte">2171</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.40.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1234519220107" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of species, and other categories of data (see methods)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Aristida diffusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cymbopogon plurinodis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEAD GRASS</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis obtusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eustachys paspaloides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melica decumbens</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Sporobolus fimbriatus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unknown grass</code>
+ <definition>undentified species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead dwarf shrub</code>
+ <definition>undentified dead dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Diospyros austro-africana</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dwarf shrub a</code>
+ <definition>undentified of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dwarf shb b (legume)</code>
+ <definition>undentified of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dwarfshb c</code>
+ <definition>undentified of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dwarf shrub d</code>
+ <definition>undentified of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb a</code>
+ <definition>undentified of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb b</code>
+ <definition>undentified of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb c</code>
+ <definition>undentified of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Gazania krebsiana</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Hermannia cf cuneifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Legume c</code>
+ <definition>undentified legume</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Legume d</code>
+ <definition>undentified legume</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lightfootia albens</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melolobium microphyllum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Opuntia ficus-indica</code>
+ <definition>alien species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Protasparagus suaveolens</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Solanum species</code>
+ <definition>species of dwarf shurb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida geniculata</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Total cover</code>
+ <definition>cover of grass under 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover &lt; 5 cm</code>
+ <definition>cover of grass under 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover 5-20 cm</code>
+ <definition>cover of grass between 5 and 20cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover &gt;20 cm</code>
+ <definition>cover of grass over 20 cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grass height</code>
+ <definition>mean height of all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Defoliation grass</code>
+ <definition>defoliation index of grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Defoliation other</code>
+ <definition>defoliation oindex plants other than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DI ALL</code>
+ <definition>defoliation index all plants</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Veld condition index</code>
+ <definition>vorster's veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra pellets</code>
+ <definition>number of pellet groups in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bovids pellets</code>
+ <definition>number of pellet groups in 200s sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich dung</code>
+ <definition>number of dung spots in 200 m sq pot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234519220123" scope="document"> <attributeName>Plot 1</attributeName>
+ <attributeDefinition>Data randomly location plot number 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234519220138" scope="document"> <attributeName>Plot 2</attributeName>
+ <attributeDefinition>Data randomly located plot number 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234519220154" scope="document"> <attributeName>Plot 3</attributeName>
+ <attributeDefinition>Data randomly located plot number 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234519220170" scope="document"> <attributeName>Plot 4</attributeName>
+ <attributeDefinition>Data randomly locatad plot number 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234519220185" scope="document"> <attributeName>Plot 5</attributeName>
+ <attributeDefinition>Data randomly located plot number 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234519220201" scope="document"> <attributeName>Plot 6</attributeName>
+ <attributeDefinition>Data randomly located plot number8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234519220217" scope="document"> <attributeName>Plot 7</attributeName>
+ <attributeDefinition>Data randomly located plot number8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234519220232" scope="document"> <attributeName>Plot 8</attributeName>
+ <attributeDefinition>Data randomly located number 8</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>52</numberOfRecords>
+ </dataTable>
+ <dataTable id="1234766665767" scope="document"> <entityName>VEGHEC9 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1234766664313" scope="document"> <objectName>VEGHEC9 BASIC.txt</objectName>
+ <size unit="byte">1689</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.41.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1234766665782" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of species, and other categories of data (see method)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Aristida diffusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cymbopogon plurinodis</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead grass</code>
+ <definition>Unidentified dead grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Elionurus muticus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eustachys paspaloides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Heteropogon contortus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melica decumbens</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Microchloa caffra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unknown grass</code>
+ <definition>Unidentified species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chrysocoma tenuifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Commelina species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cyperaceae</code>
+ <definition>Unindentified cyperaceae</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead dwarf shrub</code>
+ <definition>Unidendtified dead dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Elytropappus rhinocerotis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia fascicularis</code>
+ <definition>species ogf dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Geophyte A</code>
+ <definition>unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Geophyte B</code>
+ <definition>undentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Indigofera alternans</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Legume A</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lightfootia nodosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mesembryanthemaceae</code>
+ <definition>Unidentified mesembs</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Nenax microphylla</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Total cover</code>
+ <definition>Total canopy spread cover</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grass height</code>
+ <definition>mean height of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover &lt;5cm</code>
+ <definition>Cover of grass over 5 cm of  tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover 5-20cm</code>
+ <definition>Cover of grass between 5and 20 cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover &gt;20cm</code>
+ <definition>Cover of grass over 20cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Defoliation grass</code>
+ <definition>Defoliation  index all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Defoliation other plants</code>
+ <definition>Defoliation index plant species other than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DEFOLIATION ALL PLANTS</code>
+ <definition>Defoliation index all plants</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Veld condition index</code>
+ <definition>voster's veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>mountain zebra pellets</code>
+ <definition>Number of pellet groups in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>bovid pellets</code>
+ <definition>Number of pellet groups in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ostrich dung</code>
+ <definition>Nunber of dung spots in 200 sq m plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234766665798" scope="document"> <attributeName>Plot 1</attributeName>
+ <attributeDefinition>Data from randomly located plot number 9</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234766665813" scope="document"> <attributeName>Plot 2</attributeName>
+ <attributeDefinition>Data from randomly located plot number 9</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234766665829" scope="document"> <attributeName>Plot 3</attributeName>
+ <attributeDefinition>Data from randomly plot number 9</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234766665845" scope="document"> <attributeName>Plot 4</attributeName>
+ <attributeDefinition>Data from randomly plot number 9</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234766665860" scope="document"> <attributeName>Plot 5</attributeName>
+ <attributeDefinition>Data from randomly located plot number 9</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234766665876" scope="document"> <attributeName>Plot 6</attributeName>
+ <attributeDefinition>Data from randomly located plot number 9</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>46</numberOfRecords>
+ </dataTable>
+ <dataTable id="1234773784041" scope="document"> <entityName>VEGHEC10 BASIC.txt</entityName>
+ <entityDescription>veg</entityDescription>
+ <physical id="1234773781306" scope="document"> <objectName>VEGHEC10 BASIC.txt</objectName>
+ <size unit="byte">2616</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.42.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList> <attribute id="1234773784057" scope="document"> <attributeName>SPECIES</attributeName>
+ <attributeDefinition>Canopy spread cover of species, and other categories of data (see method)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Aristida congesta</code>
+ <definition>sdpecies of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aristida diffusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cymbopogon plurinodis</code>
+ <definition>species odf grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cynodon incompletus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead grass</code>
+ <definition>Undetified dead grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Digitaria eriantha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis curvula</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eragrostis obtusa</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Heteropogon contortus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melica decumbens</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Merxmuellera disticha</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Microchloa caffra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Oropetium?</code>
+ <definition>unidentified species ofgrass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Panicum stapfianum</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Sporobolus fimbriatus</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Themeda triandra</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Tragus koelerioides</code>
+ <definition>species of grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unknown grass</code>
+ <definition>Undentified grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Aptosimum procumbens</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chrysocoma ciliata</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Creeper species</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cyperaceae</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dead dwarf shrub</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Diospyros austro-africana</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eriocephalus ericoides</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia fascicularis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Felicia filifolia</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb a</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb b</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb c</code>
+ <definition>Undentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb d</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Forb e</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Gazania krebsiana</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Geophyte a</code>
+ <definition>Unidentified forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum dregeanum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Helichrysum sp. Yellow fl.</code>
+ <definition>Unidentified dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Indigofera alternans</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Lycium cinereum</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Melianthus comosus</code>
+ <definition>speciesof dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mesembryanthemaceae</code>
+ <definition>Unidentified mesembs</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Nenax microphylla</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Oxalis species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Pentzia globosa</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Protasparagus suaveolens</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Rhus pallens</code>
+ <definition>species of dwaf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Salvia species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Stachys rugosa</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Thesium species</code>
+ <definition>species of forb</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Unknown dwarf shrub</code>
+ <definition>Unidentified dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida geniculata</code>
+ <definition>speciese of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Walafrida saxatilis</code>
+ <definition>species of dwarf shrub</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Total cover</code>
+ <definition>Total canopy spread cover</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mean grass height</code>
+ <definition>Mean height of all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover &lt;5cm</code>
+ <definition>Cover of grass under 5cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover 5-20cm</code>
+ <definition>Cover of grass between 5 and 20 cm tall</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grass cover &gt;20cm</code>
+ <definition>Cover of grass taller than 20 cm</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Defoliation grass</code>
+ <definition>Defoliation index of all grasses</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Defoliation other plants</code>
+ <definition>Defoliation index of plats other than grass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Defoliation all plants</code>
+ <definition>Defolition index of all plant</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Veld condition index</code>
+ <definition>Vorster's veld condition index</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra pellets</code>
+ <definition>Number of pellet groups in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bovid pellets</code>
+ <definition>Number of pellet groups in 200 sq m plot</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich dung</code>
+ <definition>Number of dung spots in 200 sq m plot</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234773784073" scope="document"> <attributeName>Plot 1</attributeName>
+ <attributeDefinition>Data from randomly located plot number 10</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234773784089" scope="document"> <attributeName>Plot 2</attributeName>
+ <attributeDefinition>Data from randomly located plot number 10</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234773784105" scope="document"> <attributeName>Plot 3</attributeName>
+ <attributeDefinition>Data from randomly located plot number10</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234773784121" scope="document"> <attributeName>Plot 4</attributeName>
+ <attributeDefinition>Data from randomly located plot number 10</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234773784137" scope="document"> <attributeName>Plot 5</attributeName>
+ <attributeDefinition>Data from randomly located plot number 10</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234773784153" scope="document"> <attributeName>Plot 6</attributeName>
+ <attributeDefinition>Data from randomly plot number 10</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234773784169" scope="document"> <attributeName>Plot 7</attributeName>
+ <attributeDefinition>Data from randomly located number 10</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1234773784185" scope="document"> <attributeName>Plot 8</attributeName>
+ <attributeDefinition>Data from randomly location plot number 10</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>65</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,354 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.110161.2" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>uid=peggym,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Namaqua National Park climate data 2013</title>
+ <creator id="1098872596006" scope="document"> <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ <phone phonetype="voice">+0927137354235</phone>
+ </creator>
+ <abstract><para>Climate data for Namaqua National Park which includes Relative humidity, Windspeed, Rainfall and Temperature</para>
+ </abstract>
+ <keywordSet> <keyword>Temperature, Relative humidity, Rainfall, Windspeed</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANparks, South Africa</keyword>
+ <keyword>Namaqua National Park, South Africa</keyword>
+ </keywordSet>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>NamaquaNationalPark</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>17.321152</westBoundingCoordinate>
+ <eastBoundingCoordinate>17.820888</eastBoundingCoordinate>
+ <northBoundingCoordinate>-29.903495</northBoundingCoordinate>
+ <southBoundingCoordinate>-30.486886</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2013-01-23</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013-12-31</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1216014859338" scope="document"> <individualName> <surName>Bezuidenhout</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ </contact>
+ <dataTable id="1357733745715"><entityName>Nanaque 2013.txt</entityName>
+ <physical id="1357733210393"><objectName>Nanaque 2013.txt</objectName>
+ <size unit="byte">27614</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109769.30</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1357733745730"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745746"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745762"><attributeName>Day</attributeName>
+ <attributeDefinition>Day</attributeDefinition>
+ <measurementScale><dateTime><formatString>DD-MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745777"><attributeName>Doy</attributeName>
+ <attributeDefinition>Day of the year starting at 01 on the 1st January</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745793"><attributeName>Rn</attributeName>
+ <attributeDefinition>Radiation in mj/m2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745809"><attributeName>T</attributeName>
+ <attributeDefinition>Average daily temperatue</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745824"><attributeName>RH</attributeName>
+ <attributeDefinition>Relative humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745840"><attributeName>WS</attributeName>
+ <attributeDefinition>Average daily wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745856"><attributeName>Rain</attributeName>
+ <attributeDefinition>Amount of rainfall in 24 hour period</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745871"><attributeName>TX</attributeName>
+ <attributeDefinition>Maximum daily temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745887"><attributeName>TN</attributeName>
+ <attributeDefinition>Minimum daily temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745903"><attributeName>RHX</attributeName>
+ <attributeDefinition>Maximum daily realtive humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745918"><attributeName>RHN</attributeName>
+ <attributeDefinition>Minimum daily relative humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745934"><attributeName>Evap</attributeName>
+ <attributeDefinition>Daily evapotranspiration</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745950"><attributeName>CU</attributeName>
+ <attributeDefinition>Cold units</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1357733745965"><attributeName>HU</attributeName>
+ <attributeDefinition>Heat units</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>365</numberOfRecords>
+ </dataTable>
+ <dataTable id="1391769109149"><entityName>Namaque2014.txt</entityName>
+ <physical id="1391768598714"><objectName>Namaque2014.txt</objectName>
+ <size unit="byte">5750</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110131.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1391769109159"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-DD-MM</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109169"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109170"><attributeName>Day</attributeName>
+ <attributeDefinition>Day</attributeDefinition>
+ <measurementScale><dateTime><formatString>DD-MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109171"><attributeName>Doy</attributeName>
+ <attributeDefinition>Day</attributeDefinition>
+ <measurementScale><dateTime><formatString>DD-MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109172"><attributeName>Rn</attributeName>
+ <attributeDefinition>Radiation in mj/m2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109173"><attributeName>T</attributeName>
+ <attributeDefinition>Average daily temperatue</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109174"><attributeName>RH</attributeName>
+ <attributeDefinition>Relative humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109175"><attributeName>WS</attributeName>
+ <attributeDefinition>Average daily wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109177"><attributeName>Rain</attributeName>
+ <attributeDefinition>Amount of rainfall in 24 hour period</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109178"><attributeName>Tx</attributeName>
+ <attributeDefinition>Maximum daily temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109179"><attributeName>TN</attributeName>
+ <attributeDefinition>Minimum daily temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109180"><attributeName>THX</attributeName>
+ <attributeDefinition>Maximum daily realtive humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109181"><attributeName>RHN</attributeName>
+ <attributeDefinition>Minimum daily relative humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109182"><attributeName>Evap</attributeName>
+ <attributeDefinition>Daily evapotranspiration</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109183"><attributeName>CU</attributeName>
+ <attributeDefinition>Cold units</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391769109184"><attributeName>HU</attributeName>
+ <attributeDefinition>Heat units</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>120</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="mj/m2" multiplierToSI="*1000/m" name="mj/m2" parentSI="joule" unitType="energy"> <description>mj/m2</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

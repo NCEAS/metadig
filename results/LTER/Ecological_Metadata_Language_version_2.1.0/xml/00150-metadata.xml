@@ -1,0 +1,143 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-bes.116.570" system="BES" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0   http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+    <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="BES">
+      <allow>
+        <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+        <permission>all</permission>
+      </allow>
+      <allow>
+        <principal>public</principal>
+        <permission>read</permission>
+      </allow>
+    </access>
+    <dataset scope="document">
+      <title>Housing Notices, Baltimore City, 01/2001</title>
+      <creator id="BES-LTER-Org">
+      <organizationName>Cary Institute Of Ecosystem Studies</organizationName>
+        <address>
+          <deliveryPoint>Baltimore Ecosystem Study</deliveryPoint>
+          <deliveryPoint>1280 Sharon Turnpike</deliveryPoint>
+          <deliveryPoint>PO Box AB</deliveryPoint>
+          <city>Millbrook</city>
+          <administrativeArea>NY</administrativeArea>
+          <postalCode>12545</postalCode>
+          <country>USA</country>
+        </address>
+        <onlineUrl>http://caryinstitute.org</onlineUrl>
+      </creator>
+      <creator id="BES-LTER-Person">
+      <organizationName>Cary Institute Of Ecosystem Studies</organizationName>
+        <individualName>
+          <givenName>Jarlath</givenName>
+          <surName>O'Neil-Dunne</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>University of Vermont  Spatial Analysis Laboratory</deliveryPoint>
+          <deliveryPoint>Rubenstein School of Environment and Natural Resources</deliveryPoint>
+          <deliveryPoint>220 George D. Aiken Center</deliveryPoint>
+          <city>Burlington</city>
+          <administrativeArea>VT</administrativeArea>
+          <postalCode>05405-0088</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>Jarlath.ONeil-Dunne@uvm.edu</electronicMailAddress>
+      </creator>
+        <pubDate>2009-12-31</pubDate>
+        <abstract>
+          <para>
+          Housing Notices for Balimore City, January 2001. The dataset was geocoded against the Baltimore City Street Centerline file (Centerln.xxx) generated on 11/11/99 by the Department of PublicWorks.</para><para>
+          </para><para>
+          This is part of a collection of 221 Baltimore Ecosystem Study metadata records that point to a geodatabase.</para><para>
+          </para><para>
+          The geodatabase is available online and is considerably large.  Upon request, and under certain arrangements, it can be shipped on media, such as a usb hard drive.</para><para>
+          </para><para>
+          The geodatabase is roughly 51.4 Gb in size, consisting of 4,914 files in 160 folders.</para><para>
+          </para><para>
+          Although this metadata record and the others like it are not rich with attributes, it is nonetheless made available because the data that it represents could be indeed useful.
+          </para>
+        </abstract>
+        <keywordSet>
+        <keyword keywordType="theme">Not Available</keyword>
+        </keywordSet>
+        <keywordSet>
+        <keyword keywordType="theme">Not Available</keyword>
+        </keywordSet>
+        <intellectualRights>
+        <para>Publisher: Jarlath O'Neil-Dunne The scientists the BES-LTER Program and the Cary Institute of Ecosystem Studies must receive adequate acknowledgement for the use of data.  Please inform the BES Project Facilitator and use a statement such as the following to give credit on any document using the data: 'Data was supported by the Baltimore Ecosystem Study'</para>
+        </intellectualRights>
+        <distribution>
+          <online>
+            <url function="information">http://beslter.org</url>
+          </online>
+        </distribution>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>Bounding coordinates describing the area covered by the entire BES study</geographicDescription>
+            <boundingCoordinates>
+            <westBoundingCoordinate>-77.314183</westBoundingCoordinate>
+            <eastBoundingCoordinate>-76.012008</eastBoundingCoordinate>
+            <northBoundingCoordinate>39.724847</northBoundingCoordinate>
+            <southBoundingCoordinate>38.708367</southBoundingCoordinate>
+            </boundingCoordinates>
+          </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>2004-01-01</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate>2011-11-17</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+        </coverage>
+        <contact><positionName>Baltimore Ecosystem Study Information Manager</positionName>
+        <address>
+          <deliveryPoint>Cary Institute Of Ecosystem Studies</deliveryPoint>
+          <deliveryPoint>2801 Sharon Turnpike</deliveryPoint>
+          <city>Millbrook</city>
+          <administrativeArea>New York</administrativeArea>
+          <postalCode>12545</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>walshj@caryinstitute.org</electronicMailAddress>
+        </contact>
+        <otherEntity id="BES Datatype OtherEntity" system="BES system name for other entity">
+          <entityName>Housing Notices, Baltimore City, 01/2001</entityName>
+          <entityDescription>This GIS dataset only available by contacting BES Directly. Title: Housing Notices, Baltimore City, 01/2001</entityDescription>
+          <physical>
+            <objectName>Disamenity.mdb</objectName>
+            <size unit="kilobyte">53999756</size>
+            <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>.dbf</formatName>
+            </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+            <online>
+              <onlineDescription>This GIS dataset only available by contacting BES Directly. Title: Housing Notices, Baltimore City, 01/2001</onlineDescription>
+              <url function="download">http://beslter.org/geodatabase_SAL/Disamenity/Disamenity.mdb</url>
+            </online>
+            </distribution>
+          </physical>
+          <entityType>ESRI GIS</entityType>
+          </otherEntity>
+    </dataset>
+    <additionalMetadata>
+      <metadata>
+        <unitList>
+          <unit abbreviation="mg/l" id="milligramsPerLiter" multiplerToSI=".001" name="MilligramsPerLiter" parentSI="grams per cubic centimeter" unitType="massDensity">
+            <description>per meter, describes optical properties</description>
+          </unit>
+          <unit abbreviation="ug/l" id="microgramsPerLiter" multiplerToSI=".0001" name="MilligramsPerLiter" parentSI="grams per cubic centimeter" unitType="massDensity">
+            <description>per meter, describes optical properties</description>
+          </unit>
+          <unit abbreviation="ft" id="foot" multiplerToSI="2.54" name="ft" parentSI="meter" unitType="length">
+            <description>how long is something, describes physical properties</description>
+          </unit>
+          <unit abbreviation="mph" id="milesperhour" multiplerToSI=".44704" name="milesperhour" parentSI="meterspersecond" unitType="speed">
+            <description>how fast is something going, describes physical properties</description>
+          </unit>
+        </unitList>
+      </metadata>
+    </additionalMetadata>
+</ns0:eml>

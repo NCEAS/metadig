@@ -1,0 +1,175 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35a.34.9" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset> <title>Average monthly temperatures at select NOAA NBDC tide stations throughout Alaska: 1922-2010</title>
+ <creator id="1361993195707"> <organizationName>National Buoy Data Center</organizationName>
+ <address><deliveryPoint>Bldg. 3205</deliveryPoint>
+ <city>Stennis Space Center</city>
+ <administrativeArea>MS</administrativeArea>
+ <postalCode>39529</postalCode>
+ </address>
+ <phone phonetype="voice">228-688-2805</phone>
+ </creator>
+ <associatedParty id="1366400206281"><individualName><givenName>Gavin</givenName>
+ <surName>McDonald</surName>
+ </individualName>
+ <organizationName>The National Center for Ecological Analysis and Synthesis (NCEAS)</organizationName>
+ <positionName>Graduate Student Researcher</positionName>
+ <address><deliveryPoint>735 State Street</deliveryPoint>
+ <deliveryPoint>Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(805) 892-2500</phone>
+ <electronicMailAddress>sclark@nceas.ucsb.edu</electronicMailAddress>
+ <onlineUrl>http://www.nceas.ucsb.edu/</onlineUrl>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <abstract><para>This data package contains average monthly temperatures at select NOAA NBDC (National Data Buoy Center) tide stations throughout Alaska. These data were compiled by Scott Pegau. Temperature data, along with other weather data, can be found in finer temporal resolution on the NDBC website at http://www.ndbc.noaa.gov.</para>
+ </abstract>
+ <keywordSet><keyword>Temperature</keyword>
+ <keyword>Buoy Data</keyword>
+ <keyword>NBDC</keyword>
+ </keywordSet>
+ <keywordSet><keyword>Alaska</keyword>
+ <keyword>Environmental Drivers</keyword>
+ <keyword>Ocean and Atmosphere</keyword>
+ <keyword>Satellites and Sensors</keyword>
+ <keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights><para>These monthly average temperature data were calculated by Scott Pegau based on data publicly available on NDBC's online servers (http://www.ndbc.noaa.gov/). Anyone using these monthly average temperatue data should also refer to the NBCDC website to ensure accuaracy of the data. Use of these data must follow NOAA's requirements for use of data, as given below.
+
+The information on government servers are in the public domain, unless specifically annotated otherwise, and may be used freely by the public so long as you do not 1) claim it is your own (e.g. by claiming copyright for NWS information -- see below), 2) use it in a manner that implies an endorsement or affiliation with NOAA/NWS, or 3) modify it in content and then present it as official government material. You also cannot present information of your own in a way that makes it appear to be official government information. Use of the NWS name ("National Weather Service") and/or visual identifier are protected under trademark law. Neither the name nor visual identifier can be used in a manner that implies an endorsement or affiliation with NOAA/NWS. Use of the NWS name and/or visual identifier to identify unaltered NWS content or links to NWS web sites are allowable uses. All other uses require express written permission.
+
+Before using information obtained from this server special attention should be given to the date &amp; time of the data and products being displayed.
+
+The user assumes the entire risk related to its use of this data. NWS is providing this data "as is," and NWS disclaims any and all warranties, whether express or implied, including (without limitation) any implied warranties of merchantability or fitness for a particular purpose. In no event will NWS be liable to you or to any third party for any direct, indirect, incidental, consequential, special or exemplary damages or lost profit resulting from any use or misuse of this data.
+
+As required by 17 U.S.C. 403, third parties producing copyrighted works consisting predominantly of the material appearing in NWS Web pages must provide notice with such work(s) identifying the NWS material incorporated and stating that such material is not subject to copyright protection.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Select coverage of Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-179.283</westBoundingCoordinate>
+ <eastBoundingCoordinate>-131.625</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.238</northBoundingCoordinate>
+ <southBoundingCoordinate>51.417</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1922-01-01</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2010-12-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1361993323434"><individualName><givenName>W. Scott</givenName>
+ <surName>Pegau</surName>
+ </individualName>
+ <organizationName>Oil Spill Recovery Institute</organizationName>
+ <positionName>OSRI Research Program Manager</positionName>
+ <address><deliveryPoint>Box 705</deliveryPoint>
+ <city>Cordova</city>
+ <administrativeArea>Alaska</administrativeArea>
+ <postalCode>99574</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-424-5800 x222</phone>
+ <electronicMailAddress>wspegau@pwssc.org</electronicMailAddress>
+ <onlineUrl>http://www.pws-osri.org/</onlineUrl>
+ </contact>
+ <methods><methodStep><description><section><title>Average Temperature</title>
+ <para>Average monthly temperatures at select weather tide stations throughout Alaska were calculated based on publicly available data on the NDBC website (http://www.ndbc.noaa.gov/).</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1361994011769"><entityName>Station Code Book</entityName>
+ <entityDescription>This station code book gives latitudes and longitudes of all stations included in this data package.</entityDescription>
+ <physical><objectName>stationCodeBook.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35a.32.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1361994011770"><attributeName>station</attributeName>
+ <attributeLabel>Station</attributeLabel>
+ <attributeDefinition>Station</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361994011771"><attributeName>lat</attributeName>
+ <attributeLabel>Latitude</attributeLabel>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361994011772"><attributeName>long</attributeName>
+ <attributeLabel>Longitude</attributeLabel>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1361994253373"><entityName>Station Data</entityName>
+ <entityDescription>Average monthly temperatures for all selected stations, given in degrees C</entityDescription>
+ <physical><objectName>SP.stationData.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35a.33.5</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1361994253374"><attributeName>date</attributeName>
+ <attributeLabel>Date</attributeLabel>
+ <attributeDefinition>Date of average temperature, calculated for each month, and assigned to the first of the month</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361994253375"><attributeName>station</attributeName>
+ <attributeLabel>Station</attributeLabel>
+ <attributeDefinition>Station</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361994253376"><attributeName>tempC</attributeName>
+ <attributeLabel>Temperature</attributeLabel>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

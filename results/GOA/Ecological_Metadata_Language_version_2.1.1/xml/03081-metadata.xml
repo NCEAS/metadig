@@ -1,0 +1,642 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35b.44.13" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow><principal>uid=tdneher,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset scope="document">  <title>Long-term Monitoring of Water Quality in Cook Inlet/Kachemak Bay to understand recovery and restoration of injured near-shore species (2001-2013)</title>
+<creator id="1373569098909"><individualName><givenName>Angela</givenName>
+ <surName>Doroff</surName>
+ </individualName>
+ <organizationName>Kachemak Bay Research Reserve, Alaska Department of Fish &amp; Game</organizationName>
+ <positionName>Research Coordinator</positionName>
+ <address><deliveryPoint>Kachemak Bay Research Reserve</deliveryPoint>
+ <deliveryPoint>95 Sterling Highway, Suite 2</deliveryPoint>
+ <city>Homer</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99603</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-226-4654</phone>
+ <electronicMailAddress>angela.doroff@alaska.gov</electronicMailAddress>
+ </creator>
+ <creator id="1380827529772"><individualName><givenName>Oriana</givenName>
+ <surName>Badajos</surName>
+ </individualName>
+ <organizationName>Kachemak Bay Research Reserve, Alaska Department of Fish &amp; Game</organizationName>
+ <positionName>Fisheries Biologist</positionName>
+ <address><deliveryPoint>Kachemak Bay Research Reserve</deliveryPoint>
+ <deliveryPoint>95 Sterling Highway, Suite 2</deliveryPoint>
+ <city>Homer</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99603</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-226-4662</phone>
+ <electronicMailAddress>Oriana.Badajos@alaska.gov</electronicMailAddress>
+ </creator>
+ <associatedParty id="1373570603006" scope="document"> <individualName> <salutation>Dr.</salutation>
+ <givenName>Scott</givenName>
+ <surName>Pegau</surName>
+ </individualName>
+ <organizationName>Oil Spill Recovery Institute, Prince William Sound Science Center</organizationName>
+ <positionName>Research Program Manager</positionName>
+ <address scope="document"> <deliveryPoint>Box 705</deliveryPoint>
+ <city>Cordova</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99574</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-424-5800 x222</phone>
+ <electronicMailAddress>wspegau@pwssc.org</electronicMailAddress>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1373571022919" scope="document"> <individualName> <givenName>John</givenName>
+ <surName>Plaskett</surName>
+ </individualName>
+ <organizationName>Cook Inlet Keeper</organizationName>
+ <positionName>Laboratory Manager</positionName>
+ <address scope="document"> <deliveryPoint>3734 Ben Walters Lane, Suite 201</deliveryPoint>
+ <city>Homer</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99603</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-235-4068 x29</phone>
+ <electronicMailAddress>john@inletkeeper.org</electronicMailAddress>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1373572091232" scope="document"> <individualName> <givenName>Jessica</givenName>
+ <surName>Couture</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Research Assistant</positionName>
+ <address scope="document"> <deliveryPoint>735 State St, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <electronicMailAddress>couture@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty scope="document"> <references>1373569098909</references>
+ <role>Principal Investigator</role>
+ </associatedParty>
+ <associatedParty id="1373571741818" scope="document"> <individualName> <givenName>Joel</givenName>
+ <surName>Markis</surName>
+ </individualName>
+ <organizationName>Kachemak Bay Research Reserve, Alaska Department of Fish &amp; Game</organizationName>
+ <positionName>Fishery Biologist II</positionName>
+ <address scope="document"> <deliveryPoint>Kachemak Bay Research Reserve</deliveryPoint>
+ <deliveryPoint>95 Sterling Highway, Suite 2</deliveryPoint>
+ <city>Homer</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99603</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-226-4648</phone>
+ <electronicMailAddress>joel.markis@alaska.gov</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </associatedParty>
+ <associatedParty scope="document"> <references>1373569384207</references>
+ <role>Content Provider</role>
+ </associatedParty>
+<abstract><para>The circulation in Kachemak Bay is driven primarily by the 8-meter tidal flux. Regional circulation is characterized by generally cyclonic ocean currents in the Gulf of Alaska flowing onto the shelf off of Cook Inlet.  Nutrient rich bottom water is upwelled and mixed with surface water.  These enriched waters may enter into Kachemak Bay, the inflow tending to stay along the southern shore flowing past the Seldovia instruments, while water flowing out of the bay stays along the Inner Bay and north shore, flowing past the Homer instruments.  These trapped coastal flows separate the bay into two distinct ecosystems, and the instruments are positioned to reflect this distinction.  Within each system there is vertical stratification of the water.  The vertical placement of the sondes is designed to help elucidate the differences in circulation of the surface and deep waters. 
+	
+As the inflowing water proceeds up the bay, fresh water runoff from the surrounding ice fields and watersheds dilute the salinity and increase the sediment load in the path of the Homer instruments.  The in-flowing water, in the path of the Seldovia instruments, initially supports a marine system, while the northern out-flowing water of the Homer instruments is more estuarine.  The Kachemak Bay water quality instruments capture this difference with deployments along the north and south shores.  These data will be used to supplement studies on primary productivity, larval distribution, settlement, recruitment, growth rates, community dynamics, and biodiversity in the bay.
+
+Data can also be accessed through the National Estuarine Research Reserve System Centralized Data Management site: http://cdmo.baruch.sc.edu/get/export.cfm</para>
+</abstract>
+  <keywordSet><keyword>Kachemak Bay</keyword>
+ <keyword>Cook Inlet</keyword>
+ <keyword>National Estuarine Research Reserve System</keyword>
+ <keyword>NERR</keyword>
+ <keyword>KBRR</keyword>
+ <keyword>water quality</keyword>
+ <keyword>temperature</keyword>
+ <keyword>conductivity</keyword>
+ <keyword>salinity</keyword>
+ <keyword>dissolved oxygen</keyword>
+ <keyword>vented level</keyword>
+ <keyword>pH</keyword>
+ <keyword>tubidity</keyword>
+ <keyword>chlorophyll fluorescence</keyword>
+ <keyword>environmental drivers</keyword>
+ </keywordSet>
+ <keywordSet><keyword>EVOSTC</keyword>
+ <keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+ <keyword>EVOS Gulf Watch Projects</keyword>
+ <keyword>Oil Spill</keyword>
+ <keyword>Alaska</keyword>
+ <keyword>Exxon Valdez</keyword>
+ <keyword>Environmental Drivers</keyword>
+ <keyword>Ocean and Atmosphere</keyword>
+ <keyword>Shoreline Habitat and Sensitivity</keyword>
+ <keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+ </keywordSet>
+<intellectualRights><para>These data were collected by the Alaska Department of Fish and Game (ADFG), theKachemak Bay National Estuarine Research Reserve and the National Estuarine Research Reserve System. ADFG retains intellectual property rights to data collected by or for ADFG. Any dissemination of the data must credit ADFG as the source, with a disclaimer that exonerates the department for errors or deficiencies in reproduction, subsequent analysis, or interpretation.
+
+Later material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding. Please let the Owner know when these data are used.
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+</intellectualRights>
+  <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Kachemak Bay, Cook Inlet</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-151.89612</westBoundingCoordinate>
+ <eastBoundingCoordinate>-151.1094</eastBoundingCoordinate>
+ <northBoundingCoordinate>59.70567</northBoundingCoordinate>
+ <southBoundingCoordinate>59.37053</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2001-07-12</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2013-06-21</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1373569098909</references>
+ </contact>
+ <contact id="1373569384207" scope="document"> <individualName> <givenName>Oriana</givenName>
+ <surName>Badajos</surName>
+ </individualName>
+ <organizationName>Kachemak Bay Research Reserve, Alaska Department of Fish &amp; Game</organizationName>
+ <positionName>Fisheries Biologist</positionName>
+ <address scope="document"> <deliveryPoint>Kachemak Bay Research Reserve</deliveryPoint>
+ <deliveryPoint>95 Sterling Highway, Suite 2</deliveryPoint>
+ <city>Homer</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99603</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-226-4662</phone>
+ <electronicMailAddress>Oriana.Badajos@alaska.gov</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Instrument installation and transmission</title>
+ <para>A Sutron Sat-Link2 transmitter was installed at the Homer Dolphin Deep (NESDIS ID # 3B00077A WQ) station on 12/13/05 and at the Seldovia Deep (NESDIS ID # 3B040240 WQ) site on 07/31/2007, and these transmitters send data to the NOAA GOES satellite.  The transmissions are scheduled hourly and contain four (4) data sets reflecting fifteen minute data sampling intervals.  Upon receipt by the CDMO, the data undergoes the same automated primary QAQC process detailed in Section 2 above.  The "real-time" telemetry data become part of the provisional dataset until undergoing secondary and tertiary QAQC and assimilation in the CDMO authoritative online database.  Provisional and authoritative data are available at http://cdmo.baruch.sc.edu.</para>
+ <para>Both telemetered instruments are normally housed in ABS pipe mounted vertically on the ferry docks of Homer and Seldovia.  The pipes are positioned to ensure that the sensors are approximately 1 meter above the bottom.  However, because of ongoing issues with the Seldovia deployment apparatus, the Deep site was relocated to one meter above the bottom on the Surface site deployment cable for the entire year.</para>
+ </section>
+ </description>
+ <instrumentation>Sutron Sat-Link2 transmitter: NESDIS ID # 3B00077A WQ</instrumentation>
+ <instrumentation>Sutron Sat-Link2 transmitter: NESDIS ID # 3B040240 WQ</instrumentation>
+ </methodStep>
+ <methodStep><description><section><title>Calibrations</title>
+ <para>Calibration and deployment were performed monthly using methods outlined in the YSI</para>
+ <para>Operating and Service Manual.  After cleaning the data loggers, the dissolved oxygen (DO) membrane is replaced and allowed to season in water-saturated air for at least 12 hours before the DO sensor is calibrated.  The pH, conductivity, depth, and turbidity sensors are calibrated using the following standards purchased from YSI (except depth): pH 7 and 10, conductivity standards of 50 mS/cm, respectively, and depth of 0.  Turbidity standard of 123 NTU is purchased from YSI.</para>
+ <para>The Chlorophyll probe is calibrated at zero in DI water. QA/QC of this parameter is conducted by comparing sonde data to our monthly grab samples that are analyzed on a Turner 10-AU Spectrophotometer (see Nutrient data/metadata for 2011). Sonde data are accepted or rejected based on this comparison.  The estimates of chlorophyll concentration produced by the YSI chlorophyll probe are meant to complement the more accurate results obtained by the monthly grab samples.</para>
+ <para>The NERR System-Wide Monitoring Program utilizes YSI data sondes that can be equipped with either depth or water level sensors.  Both sensors measure water depth, but by convention, level sensors refer to atmospherically vented measurements and depth refers to non-vented measurements.  Readings for both vented and non-vented sensors are automatically compensated for water density change due to variations in temperature and salinity; but for all non-vented depth measurements, changes in atmospheric pressure between calibrations appear as changes in water depth.  The error is equal to approximately 1.03 cm for every 1 millibar change in atmospheric pressure, and is eliminated for level sensors because they are vented to the atmosphere throughout the deployment time interval.  ALL DATA HERE ARE NON-VENTED VALUES since no vented level data was recorded.</para>
+ </section>
+ </description>
+ <instrumentation>YSI</instrumentation>
+ <instrumentation>Turner 10-AU Spectrophotometer</instrumentation>
+ </methodStep>
+ <methodStep><description><section><title>Sites</title>
+ <para>Kachemak Bay is located approximately 200 kilometers south of Anchorage, on the western shore of the Kenai Peninsula.  Kachemak Bay, at 59.6 degN and 151.5 degW, is a temperate regional fjord with hydrographic conditions unique among the NERR system estuaries.  The tidal range of 8 meters is among the largest in the world, and salinity ranges from near zero at stream mouths to 33.0 PSU at the entrance to the inner Bay.  The bay is 35 kilometers wide at its mouth and approximately 57 kilometers long.   The head of Kachemak Bay is located to the northeast at the Fox River Flats, and the mouth lies to the southwest, along a line between Anchor Point and Point Pogibshi. The 6 kilometer long Homer Spit that extends into the Bay from the northern shoreline splits Kachemak Bay into inner and outer bays. The Kachemak Bay NERR comprises the entire inner Bay and the outer Bay.  Water flows between the inner and outer Bays through a narrow opening formed between the Spit and the southern shoreline. The Bay has an average depth of 45 meters, and a maximum of 200 meters.  Fresh water introduced primarily by the Fox, Bradley, and Martin Rivers and Sheep Creek at the head of the Bay, flows along the northwest shore of the inner Bay.</para>
+ <para>The Homer YSI data logger site is located on the north side of Kachemak Bay at 59.6028 degN and 151.4081 degW.  The "deep" sonde is deployed at a depth 1 meter from the bottom, in water fluctuating between 8.0 and 17.0 meters.  The "surface" data sonde is deployed at a nominal depth of 1 meter.  The bottom habitat is predominantly sand.  Pollutants in the area are from the excessive boat traffic at the entrance of the Homer harbor, and a nearby fish waste outfall line.  Throughout the year, salinity has ranged from 20.5 to 31.7 ppt, as the instrument's location in the stratified water column is dependent on tide height, with a tidal range of 8.1 meters.  It is predominately an estuarine environment during summer months when glacial runoff is highest, and during the winter months it reverts to a more marine-like system with glacial runoff at a minimum.</para>
+ <para>The Seldovia YSI data logger site is located on the south side of Kachemak Bay at 59.4413 degN, 151.7186 degW, approximately 24 kilometers west of the Homer site.  As with the Homer site, the data loggers are situated on the ferry terminal dock, with one instrument 1 meter below the surface, and one 1 meter above the bottom, in water fluctuating between 5.0 and 13.3 meters.  The access to Seldovia is limited to boat or air, as the site is located off the highway system.  The bottom habitat is predominantly rocky substrate.  Pollutants in the area are minimal.  Throughout the year, salinity has ranged from 25.0 to 32.9 ppt at this site with a tidal range of 8.0 meters.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project><title>Long Term Monitoring: Long-term monitoring of oceanographic conditions in Cook Inlet/Kachemak Bay to understand recovery and restoration of injured near-shore species</title>
+ <personnel><references>1373569098909</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council Project Number 13120114-G; University of New Hampshire Science Collaborative Grant; National Estuarine Research Researve System</para>
+ </funding>
+ </project>
+ <dataTable id="1373671444378" scope="document"> <entityName>kbrrWaterQualityData</entityName>
+ <entityDescription>Kachemak Bay water quality data, with qualifiers</entityDescription>
+ <physical id="1373660859789" scope="document"> <objectName>kbrrWaterQualData.csv</objectName>
+ <size unit="byte">246390853</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/df35b.50.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1373671444379" scope="document"> <attributeName>location</attributeName>
+ <attributeLabel>Location</attributeLabel>
+ <attributeDefinition>General location of sampling</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>Kachemak Bay</code>
+ <definition>Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444380" scope="document"> <attributeName>site</attributeName>
+ <attributeLabel>Site</attributeLabel>
+ <attributeDefinition>Specific site where samples were collected.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>bearCove</code>
+ <definition>Bear Cove, inner Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>homerDolphin</code>
+ <definition>Homer Dolphin, north Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>homerDolphinDeep</code>
+ <definition>Homer Dolphin - deep, north Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>homer</code>
+ <definition>Homer, north Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>homerDolphinSurfacehomerDolphinSurface</code>
+ <definition>Homer Dolphin - surface, north Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>portGraham</code>
+ <definition>Port Graham, south Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>seldoviaDeep</code>
+ <definition>Seldovia - deep, south Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ <codeDefinition> <code>seldovia</code>
+ <definition>Seldovia, south Kachemak Bay, Alaska</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444381" scope="document"> <attributeName>lat</attributeName>
+ <attributeLabel>Latitude</attributeLabel>
+ <attributeDefinition>Latitude in decimal degrees.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444382" scope="document"> <attributeName>lon</attributeName>
+ <attributeLabel>Longitude</attributeLabel>
+ <attributeDefinition>Longitude in decimal degrees.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444383" scope="document"> <attributeName>dateTime</attributeName>
+ <attributeLabel>Date &amp; Time (AST)</attributeLabel>
+ <attributeDefinition>Date and time in Alska Standard TIme (AST).</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444384" scope="document"> <attributeName>hist</attributeName>
+ <attributeLabel>Authentication check</attributeLabel>
+ <attributeDefinition>Authenticated data have been through final tertiary review at the CDMO and are posted as the final authoritative data. Authenticated data are indicated with a value of 1 in the historical column. A value of 0 in the historical column indicates that the data have not been through final QAQC by the CDMO, and could be either provisional or provisional plus data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>The data have not been through final QAQC by the CDMO</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>The data have been through final tertiary review at the CDMO and are posted as the final authoritative data</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444385" scope="document"> <attributeName>provPlus</attributeName>
+ <attributeLabel>Provisiona Plus Data</attributeLabel>
+ <attributeDefinition>Provisional plus data have been reviewed by the Reserve staff (secondary QAQC) using Excel macros to further QAQC the data. Provisional plus data are indicated with a value of 1 in the provisional plus column.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>0</code>
+ <definition>The data have not been reviewed by reserve staff</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>The data have been reviewed by the Reserve staff (secondary QAQC) using Excel macros to further QAQC the data</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444386" scope="document"> <attributeName>fRecord</attributeName>
+ <attributeLabel>Record Flag</attributeLabel>
+ <attributeDefinition>Only one general or sensor error and one comment code can be applied to a particular data point, but some comment codes can be applied to the entire record in the this column.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>NA</code>
+ <definition>No comments</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>No comments</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1373671444387" scope="document"> <attributeName>temp</attributeName>
+ <attributeLabel>Temperature</attributeLabel>
+ <attributeDefinition>Temperature in deg Celsius.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444388" scope="document"><attributeName>fTemp</attributeName>
+ <attributeLabel>Qualifier flag: temp</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on code definitions below.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No flag</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1373671444389" scope="document"> <attributeName>spCond</attributeName>
+ <attributeLabel>Conductivity</attributeLabel>
+ <attributeDefinition>Conductivity measured in milli-Siemens per cm (mS/cm), measured with a 4-electrode ce with autoranging.</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>milliSiemensPerCentimeter (mS/cm)</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444390" scope="document"> <attributeName>fSpCond</attributeName>
+ <attributeLabel>Qualifier Flag: spCond</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444391" scope="document"> <attributeName>sal</attributeName>
+ <attributeLabel>Salinity</attributeLabel>
+ <attributeDefinition>Salinity measured in ppt, calculated from conductivity and temperature.</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>gramPerKilogram</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444392" scope="document"> <attributeName>fSal</attributeName>
+ <attributeLabel>Qulifier Flag: sal</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444393" scope="document"> <attributeName>doPct</attributeName>
+ <attributeLabel>Dissolved Oxygen (% sat)</attributeLabel>
+ <attributeDefinition>Dissolved oxygen recorded in percent air saturation. Sensor Type: Rapid Pulse &#195;&#131;&#194;&#131;&#195;&#130;&#194;&#162;&#195;&#131;&#194;&#130;&#195;&#130;&#194;&#128;&#195;&#131;&#194;&#130;&#195;&#130;&#194;&#147; Clark type, polarographic.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444394" scope="document"> <attributeName>fDOpct</attributeName>
+ <attributeLabel>Qualifier Flag: DO%</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444395" scope="document"> <attributeName>DOmgl</attributeName>
+ <attributeLabel>Dissolved Oxygen (mg/L)</attributeLabel>
+ <attributeDefinition>Dissolved oxygen in milligrams per liter.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444396" scope="document"> <attributeName>fDOmgl</attributeName>
+ <attributeLabel>Qualifier Flag: DOmg/L</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444397" scope="document"> <attributeName>depth</attributeName>
+ <attributeLabel>Depth (m)</attributeLabel>
+ <attributeDefinition>Depth of sampling in meters</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444398" scope="document"> <attributeName>fDepth</attributeName>
+ <attributeLabel>Qualifier Flag: depth</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444399" scope="document"> <attributeName>cDepth</attributeName>
+ <attributeLabel>Corrected Depth</attributeLabel>
+ <attributeDefinition>Data undergo automated primary QAQC; automated depth/level corrections for changes in barometric pressure, corrections are recorded in this column (cDepth)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444400" scope="document"> <attributeName>fcDepth</attributeName>
+ <attributeLabel>Qualifier Flag: cDepth</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444401" scope="document"> <attributeName>pH</attributeName>
+ <attributeLabel>pH</attributeLabel>
+ <attributeDefinition>pH measures acidity of the water sample.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444402" scope="document"> <attributeName>fpH</attributeName>
+ <attributeLabel>Qualifier Flag: pH</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444403" scope="document"> <attributeName>turb</attributeName>
+ <attributeLabel>Turbidity (NTU)</attributeLabel>
+ <attributeDefinition>Turbidity measured in nephtlometric turbidity units (NTU). Sensor Type: Optical, 90 &#195;&#131;&#194;&#131;&#195;&#130;&#194;&#130;&#195;&#131;&#194;&#130;&#195;&#130;&#194;&#176; scatter, with mechanical cleaning, Model #: 6136,
+Range: 0 to 1000 NTU, Accuracy: +/- 5 % reading or 2 NTU (whichever is greater), Resolution: 0.1 NTU</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444404" scope="document"> <attributeName>fTurb</attributeName>
+ <attributeLabel>Qualifier Flag: turb</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444405" scope="document"> <attributeName>chlFluor</attributeName>
+ <attributeLabel>Chlorophyll Fluorescence</attributeLabel>
+ <attributeDefinition>Chlorophyll fluorescence in micrograms per liter (ug/L).</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373671444406" scope="document"> <attributeName>fChlFluor</attributeName>
+ <attributeLabel>Qualifier Flag: chlFluor</attributeLabel>
+ <attributeDefinition>The flag column contains a quality control (QC) flags. Values other than 0 should be investigated based on definitions below.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <entityCodeList> <entityReference>1373672204235</entityReference>
+ <valueAttributeReference>1373672204237</valueAttributeReference>
+ <definitionAttributeReference>1373672204238</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1323283</numberOfRecords>
+ </dataTable>
+ <dataTable id="1373672204235" scope="document"> <entityName>kerrsQaqcCodes.csv</entityName>
+ <entityDescription>National Estuarine Research Reserve Sysytem data Quality Assurance and Quality Control (QAQC) codes</entityDescription>
+ <physical id="1373671714911" scope="document"> <objectName>kerrsQaqcCodes.csv</objectName>
+ <size unit="byte">2927</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/df35b.51.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1373672204236" scope="document"> <attributeName>errorType</attributeName>
+ <attributeLabel>Error Type</attributeLabel>
+ <attributeDefinition>Defines the category of error flagged.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>flag</code>
+ <definition>Number codes provide documentation of the data and are applied to individual data points</definition>
+ </codeDefinition>
+ <codeDefinition> <code>general</code>
+ <definition>Document general problems with the deployment or YSI data sonde</definition>
+ </codeDefinition>
+ <codeDefinition> <code>correctedData</code>
+ <definition>Describe corrections to data</definition>
+ </codeDefinition>
+ <codeDefinition> <code>sensor</code>
+ <definition>Sensor specific errors</definition>
+ </codeDefinition>
+ <codeDefinition> <code>comment</code>
+ <definition>Used to further document conditions or a problem with the data</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373672204237" scope="document"> <attributeName>code</attributeName>
+ <attributeLabel>Code</attributeLabel>
+ <attributeDefinition>Alpha or numeric code used in data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Codes used in data</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1373672204238" scope="document"> <attributeName>definition</attributeName>
+ <attributeLabel>Code definitions</attributeLabel>
+ <attributeDefinition>Definitions/explanations to errors or corrections flagged in data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>error definition</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>62</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="milliSiemensPerCentimeter (mS/cm)" multiplierToSI="0.1" name="milliSiemensPerCentimeter (mS/cm)" parentSI="siemen" unitType="conductance"> <description>Here the unit has been converted from SI unit, siemens per meter (0.1 S/m = 1 mS/cm)</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="gramPerKilogram" multiplierToSI="0.001" name="gramPerKilogram" parentSI="gramsPerGram" unitType="massPerMass"> <description>gramPerKilogram</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

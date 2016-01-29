@@ -1,0 +1,912 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="ecotrends.10175.2" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/eml/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=ECT,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>knz_FIPS-20127_popdens_noperkm2_yearly</shortName>
+    <title>Konza Prairie site, station Morris County, KS (FIPS 20127), study of human population density in units of numberPerKilometerSquared on a yearly timescale</title>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Ted</givenName>
+        <surName>Gragson</surName>
+      </individualName>
+      <positionName>Associate Professor</positionName>
+      <address>
+        <deliveryPoint>University of Georgia, Dept. of Anthropology, 250 Baldwin Hall</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>GA</administrativeArea>
+        <postalCode>30602-1619</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(706)542-1460</phone>
+      <electronicMailAddress>tgragson@uga.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Ms.</salutation>
+        <givenName>Nichole</givenName>
+        <surName>Rosamilia</surName>
+      </individualName>
+      <organizationName>Department of Anthropology, University of Georgia</organizationName>
+      <address>
+        <deliveryPoint>Baldwin Hall, Rm 151</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>GA</administrativeArea>
+        <postalCode>30605</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>nrosa@uga.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <organizationName>Inter-University Consortium for Political and Social Research</organizationName>
+      <address>
+        <country>US</country>
+      </address>
+      <onlineUrl>http://www.icpsr.umich.edu/index.html</onlineUrl>
+    </creator>
+    <creator>
+      <organizationName>U.S. Bureau of the Census</organizationName>
+      <address>
+        <city>Washington</city>
+        <administrativeArea>DC</administrativeArea>
+        <country>US</country>
+      </address>
+      <onlineUrl>http://www.census.gov/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <surName>Boone</surName>
+      </individualName>
+      <organizationName>School of Human Evolution &amp; Social Change and the Global Institute for Sustainability</organizationName>
+      <positionName>Associate Professor</positionName>
+      <address>
+        <deliveryPoint>Arizona State University, Anthropology Bldg. Rm. 233, Box 872402</deliveryPoint>
+        <city>Tempe</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-2402</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="NULL">(480) 727-6017</phone>
+      <electronicMailAddress>Christopher.G.Boone@asu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Michael R.</givenName>
+        <surName>Haines</surName>
+      </individualName>
+      <organizationName>Inter-University Consortium for Political and Social Research</organizationName>
+      <address>
+        <country>US</country>
+      </address>
+    </creator>
+    <creator>
+      <organizationName>EcoTrends Project</organizationName>
+      <positionName>EcoTrends Project Coordinator</positionName>
+      <address>
+        <deliveryPoint>USDA-ARS Jornada Experimental Range</deliveryPoint>
+        <deliveryPoint>P.O. Box 30003, MSC 3JER</deliveryPoint>
+        <deliveryPoint>New Mexico State University</deliveryPoint>
+        <city>Las Cruces</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>88003</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>ecotrend@nmsu.edu</electronicMailAddress>
+      <onlineUrl>http://www.ecotrends.info</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>EcoTrends Project</organizationName>
+      <positionName>EcoTrends Project Coordinator</positionName>
+      <address>
+        <deliveryPoint>USDA-ARS Jornada Experimental Range</deliveryPoint>
+        <deliveryPoint>P.O. Box 30003, MSC 3JER</deliveryPoint>
+        <deliveryPoint>New Mexico State University</deliveryPoint>
+        <city>Las Cruces</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>88003</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>ecotrend@nmsu.edu</electronicMailAddress>
+      <onlineUrl>http://www.ecotrends.info</onlineUrl>
+    </metadataProvider>
+    <metadataProvider>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>Long Term Ecological Research - Network Office</deliveryPoint>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </metadataProvider>
+    <pubDate>2013</pubDate>
+    <abstract>
+      <para>
+The EcoTrends project was established in 2004 by Dr. Debra Peters 
+(Jornada Basin LTER, USDA-ARS Jornada Experimental Range) and 
+Dr. Ariel Lugo (Luquillo  LTER, USDA-FS Luquillo Experimental Forest) 
+to support the collection and analysis of long-term ecological datasets. 
+The project is a large synthesis effort focused on improving the accessibility 
+and use of long-term data.  At present, there are ~50 state and federally funded 
+research sites that are participating and contributing to the EcoTrends project, 
+including all 26 Long-Term Ecological Research (LTER) sites and sites funded by 
+the USDA Agriculture Research Service (ARS), USDA Forest Service, 
+US Department of Energy, US Geological Survey (USGS) and numerous universities. 
+      </para>
+      <para>
+Data from the EcoTrends project are available through an exploratory web portal 
+(http://www.ecotrends.info). This web portal enables the continuation of data
+compilation and accessibility by users through an interactive web application.
+Ongoing data compilation is updated through both manual and automatic
+processing as part of the LTER Provenance Aware Synthesis Tracking
+Architecture (PASTA). The web portal is a collaboration between the Jornada LTER 
+and the LTER Network Office. 
+      </para>
+      <para>
+The following dataset from Konza Prairie (KNZ)
+contains human population density measurements in numberPerKilometerSquared units
+and were aggregated to a yearly timescale.
+      </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">EcoTrends</keyword>
+      <keyword keywordType="theme">long term</keyword>
+      <keyword keywordType="theme">ecological</keyword>
+      <keyword keywordType="theme">ecology</keyword>
+      <keyword keywordType="theme">trends</keyword>
+      <keyword keywordType="theme">synthesis</keyword>
+      <keyword keywordType="place">Konza Prairie</keyword>
+      <keyword keywordType="place">Morris County, KS (FIPS 20127)</keyword>
+      <keyword keywordType="theme">human population density</keyword>
+      <keyword keywordType="theme">Human population and economy</keyword>
+      <keyword keywordType="theme">Population Density</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>EcoTrends Data Access Policy, Data Access Requirements, and General Data Use Agreement</title>
+        <para>
+          <emphasis>April 10, 2007</emphasis>
+        </para>
+        <section>
+          <title>EcoTrends Data Access Policy</title>
+          <para>
+The EcoTrends data policy follows the LTER data policy by including three specific 
+sections designed to express shared network policies regarding the release of 
+EcoTrends data products, user registration for accessing data, and the licensing 
+agreements specifying the conditions for data use.
+    </para>
+        </section>
+        <section>
+          <title>EcoTrends Data Release Policy</title>
+          <para>
+Data and information made available to the EcoTrends project are accessible online 
+with as few restrictions as possible, on a nondiscriminatory basis. EcoTrends 
+participating scientists should make every effort to release data with attention 
+to accurate and complete metadata. 
+    </para>
+        </section>
+        <section>
+          <title>Data</title>
+          <para>
+All data made available to the public via the EcoTrends website are to be released 
+to the general public according to the terms of the general data use agreement below.
+    </para>
+          <para>
+While the spirit of this document is to promote maximum availability for ecological data, 
+there are criteria by which priority for data release may be determined. Aggregated 
+or otherwise processed data with complete metadata have highest priority. Other types 
+of data including student thesis data or legacy data that already suffer from inadequate 
+documentation or format obsolescence may be ranked a lower priority by a site with 
+justifications provided in their data management policy. Finally, some data may be 
+determined of lowest priority for archiving on the grounds that they are interim data 
+that led to final products that carry the scientific value. These might include data 
+files created during stages within an analytic workflow, raw or replicate data values 
+that were subsequently aggregated or processed for release, or individual outputs from 
+stochastic models. EcoTrends does not store or distribute datasets with distribution or 
+use restrictions imposed by the data owner(s). 
+    </para>
+        </section>
+        <section>
+          <title>Metadata</title>
+          <para>
+            <orderedlist>
+              <listitem>
+                <para>
+          1. Metadata documenting archived/online data sets of all types listed above 
+             will be made available when, or before, the dataset itself is released 
+             according to the terms above.
+          </para>
+              </listitem>
+              <listitem>
+                <para>
+          2. All metadata will be publicly available.
+          </para>
+              </listitem>
+              <listitem>
+                <para>
+          3. All metadata will follow Long-Term Ecological Research (LTER) Network 
+             recommended standards and will minimally contain adequate information on 
+             proper citation, access, contact information, and discovery. 
+             Complete information including methods, structure, semantics, and quality 
+             control/assurance is expected for most datasets and is strongly encouraged.
+          </para>
+              </listitem>
+            </orderedlist>
+          </para>
+        </section>
+        <section>
+          <title>EcoTrends Data Access Requirements</title>
+          <para>
+The access to all EcoTrends data is subject to requirements set forth by this 
+policy document to enable data providers to track usage, evaluate its impact in 
+the community, and confirm users' acceptance of the terms of acceptable use. 
+These requirements are standardized to provide contractual exchange of data 
+between Site Data Providers, Network Data Providers, and Data Users that can be 
+encoded into electronic form and exchanged between computers. This will allow 
+direct access to data via a common portal once these requirements have been 
+fulfilled. The following information may be required directly or by proxy 
+prior to the transference of any data object:
+      <itemizedlist>
+              <listitem>
+                <para>Registration</para>
+              </listitem>
+              <listitem>
+                <orderedlist>
+                  <listitem>
+                    <para>1. Name</para>
+                  </listitem>
+                  <listitem>
+                    <para>2. Affiliation</para>
+                  </listitem>
+                  <listitem>
+                    <para>3. Email Address</para>
+                  </listitem>
+                  <listitem>
+                    <para>4. Full Contact Information</para>
+                  </listitem>
+                </orderedlist>
+              </listitem>
+              <listitem>
+                <para>Acceptance of the General Public Use Agreement</para>
+              </listitem>
+              <listitem>
+                <para>
+          A Statement of Intended Use that is compliant with the above 
+          agreements. Such statements may be made submitted explicitly or made 
+          implicitly via the data access portal interface.
+          </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+        <section>
+          <title>Data Use Agreements</title>
+          <para>
+Datasets released by EcoTrends will be accompanied by the General Data Use 
+Agreement (see below). This document specifies general roles and the obligations 
+and rights enjoyed by each regarding the use of most dataset released for 
+general public use. This document may be updated as the LTER data policy is 
+updated in the future to ensure compliance with the LTER policy.
+    </para>
+        </section>
+        <section>
+          <title>General Data Use Agreement</title>
+          <section>
+            <title>Definitions</title>
+            <para>
+              <itemizedlist>
+                <listitem>
+                  <para>
+                    <emphasis>Dataset</emphasis> - Digital data and its metadata derived 
+              from any research activity such as field observations, collections, 
+              laboratory analysis, experiments, or the post-processing of existing 
+              data and identified by a unique identifier issued by a recognized 
+              cataloging authority such as a site, university, agency, or other 
+              organization.
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <emphasis>Data User</emphasis> - individual to whom access has 
+              been granted to this Dataset, including his or her immediate 
+              collaboration sphere, defined here as the institutions, partners, 
+              students and staff with whom the Data User collaborates, and with 
+              whom access must be granted, in order to fulfill the Data User's 
+              intended use of the Dataset
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <emphasis>Dataset Creator</emphasis> - individual or institution that 
+              produced the Dataset
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <emphasis>Dataset Owner</emphasis> - individual or institution 
+              that holds intellectual property rights to the dataset. Note that 
+              this may or may not be defined as a legal copyright. If no other 
+              party is designated in the metadata as Dataset Owner, it may be 
+              presumed that these rights are held by the Dataset Creator.
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <emphasis>Dataset Distributor</emphasis> - individual or 
+              institution providing access to the Datasets.
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <emphasis>Dataset Contact</emphasis> - party designated in the 
+              accompanying metadata of the Dataset as the primary contact for 
+              the Dataset.
+            </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </section>
+          <section>
+            <title>Conditions of Use</title>
+            <para>
+The re-use of scientific data has the potential to greatly increase communication, 
+collaboration and synthesis within and among disciplines, and thus is fostered, 
+supported and encouraged. Permission to use this dataset is granted to the 
+Data User free of charge subject to the following terms:
+      </para>
+            <para>
+              <orderedlist>
+                <listitem>
+                  <para>
+              1) <emphasis>Acceptable use</emphasis>. Use of the dataset will be 
+              restricted to academic, research, educational, government, 
+              recreational, or other not-for-profit professional purposes. The 
+              Data User is permitted to produce and distribute derived works 
+              from this dataset provided that they are released under the same 
+              license terms as those accompanying this Dataset. Any other uses 
+              for the Dataset or its derived products will require explicit 
+              permission from the dataset owner.
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+              2 ) <emphasis>Redistribution</emphasis>. The data are provided for 
+              use by the Data User. The metadata and this license must accompany 
+              all copies made and be available to all users of this Dataset. The 
+              Data User will not redistribute the original Dataset beyond this 
+              collaboration sphere.
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+              3 ) <emphasis>Citation</emphasis>. It is considered a matter of 
+              professional ethics to acknowledge the work of other scientists. 
+              Thus, the Data User will properly cite the Dataset in any 
+              publications or in the metadata of any derived data products that 
+              were produced using the Dataset. Citation should take the following 
+              general form: <emphasis>Creator, Year of Data Publication, Title 
+              of Dataset, Publisher, Dataset identifier.</emphasis>
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+              4 ) <emphasis>Acknowledgement</emphasis>. The Data User should 
+              acknowledge any institutional support or specific funding awards 
+              referenced in the metadata accompanying this dataset in any 
+              publications where the Dataset contributed significantly to its 
+              content. Acknowledgements should identify the supporting party, 
+              the party that received the support, and any identifying information 
+              such as grant numbers.
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+              5 ) <emphasis>Notification</emphasis>. The Data User will notify 
+              the Dataset Contact when any derivative work or publication based 
+              on or derived from the Dataset is distributed. The Data User will 
+              provide the data contact with two reprints of any publications 
+              resulting from use of the Dataset and will provide copies, or 
+              on-line access to, any derived digital products. Notification will 
+              include an explanation of how the Dataset was used to produce the 
+              derived work.
+            </para>
+                </listitem>
+                <listitem>
+                  <para>
+              6 ) <emphasis>Collaboration</emphasis>. The Dataset has been 
+              released in the spirit of open scientific collaboration. Data Users 
+              are thus strongly encouraged to consider consultation, collaboration 
+              and/or co-authorship with the Dataset Creator.
+            </para>
+                </listitem>
+              </orderedlist>
+            </para>
+            <para>
+      By accepting this Dataset, the Data User agrees to abide by the terms of 
+      this agreement. The Data Owner shall have the right to terminate this 
+      agreement immediately by written notice upon the Data User's breach of, 
+      or non-compliance with, any of its terms. The Data User may be held 
+      responsible for any misuse that is caused or encouraged by the Data User's 
+      failure to abide by the terms of this agreement.
+      </para>
+          </section>
+        </section>
+        <section>
+          <title>Disclaimer</title>
+          <para>
+    While substantial efforts are made to ensure the accuracy of data and 
+    documentation contained in the datasets discovered on the EcoTrends website, 
+    complete accuracy of data and metadata cannot be guaranteed. All data and 
+    metadata are made available as is. The Data User holds all parties 
+    involved in the production or distribution of the Dataset harmless for 
+    damages resulting from its use or interpretation.
+    </para>
+        </section>
+        <section>
+          <para>
+            <literalLayout>
+      Forward comments to:
+      EcoTrends Project Coordinator
+      Jornada Basin LTER
+      New Mexico State University
+      Box 30003, MSC 3JER
+      Las Cruces, NM 88003
+      chrlaney@nmsu.edu
+      </literalLayout>
+          </para>
+        </section>
+      </section>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Konza Prairie</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5750000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5750000</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0930000</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0930000</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1880</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2000</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>EcoTrends Project</organizationName>
+      <positionName>EcoTrends Project Coordinator</positionName>
+      <address>
+        <deliveryPoint>USDA-ARS Jornada Experimental Range</deliveryPoint>
+        <deliveryPoint>P.O. Box 30003, MSC 3JER</deliveryPoint>
+        <deliveryPoint>New Mexico State University</deliveryPoint>
+        <city>Las Cruces</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>88003</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>ecotrend@nmsu.edu</electronicMailAddress>
+      <onlineUrl>http://www.ecotrends.info</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://lno.lternet.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+        The source data used to generate this dataset were provided by Konza Prairie, 
+	and transformed into a derived product by EcoTrends. Please read and agree 
+	to the data policy of Konza Prairie and the EcoTrends Data Policy before using 
+	these data in any analyses and/or publications. Metadata describing these 
+	derived data were provided by the LTER Network Office and EcoTrends.
+          </para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>
+	These data are produced as part of the EcoTrends project. This phase of the
+	EcoTrends project produces derived data through a manual process of inputing
+	raw (site) data through an R (the R statistical programming language)
+	script, which converts input data from the raw schema to the global schema.
+          </para>
+          <para>
+	This process produces a file that uses a canonical naming convention that
+	contains keyword nomenclature used to generate attribute level metadata.
+	The proposed and agreed upon file naming convention used for derived data
+	products encodes the following information into the name: (1) site(s) code,
+	(2) station(s) code, (3) variable, (4) unit, and (5) timescale. In addition,
+	the symbols NA and UNK may be used to signify a field that has nothing
+	applicable or a field where the content is unknown, respectively. Each field
+	is joined in the file name by the underscore _ character. The site,
+	station, and variable fields may contain multiple codes that are joined with
+	the hyphen or dash - character. All derived data product file names end
+	with the .trends.csv extension. The file name is case sensitive so as to
+	avoid confusion between similar codes (e.g., c for Celsius and C for
+	carbon). This convention results in a file name that looks like:
+          </para>
+          <para>
+	SITE_STATION_VARIABLE_UNIT_TIMESCALE.trends.csv
+          </para>
+          <para>
+	An example of a real file name is and_OR10_smax-10cm_c_monthly.trends.csv,
+	which decodes to maximum soil temperature recorded in degrees Celsius
+	subsurface at 10cm located at the Andrews LTER, using soil sensor station
+	OR10, and with data aggregated to a monthly average.
+          </para>
+          <para>
+	Data are converted from the raw (site) schema to a global schema that
+	includes: (1) Date stamp for either the year (YYYY), and if the month exists
+	(MM); (2) Observation value, (3) Number of raw observations used in
+	aggregate, (4) Standard Deviation of Aggregate population, (5) Standard
+	Error of Aggregate population, (6) Proportion Missing of Aggregate
+	population, (7) Proportion Questionable of Aggregate population, (8)
+	Proportion Estimated of Aggregate population, (9) Proportion Trace
+	Measurement of Aggregate population (precipation data only), (10) Proportion
+	Ivalid of Aggregate population, and (11) Comments for the Aggregate
+	population.
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>ecotrends_10175_1</entityName>
+      <entityDescription>Konza Prairie site, station Morris County, KS (FIPS 20127), study of human population density in units of numberPerKilometerSquared on a yearly timescale</entityDescription>
+      <physical>
+        <objectName>knz_FIPS-20127_popdens_noperkm2_yearly.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/ecotrends/10175/2/d5d0c62a98be270b1460c693a71d42b7</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=ECT,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>write</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ID_OBS</attributeName>
+          <attributeDefinition>ID number for the observation</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>integer as text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>year range of data collection</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>OBSERVATION</attributeName>
+          <attributeDefinition>human population density</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerKilometerSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>OBSERVATION_EST</attributeName>
+          <attributeDefinition>an estimation of the observation based on a sampling average of similar data for computing missing values</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerKilometerSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>S_DEV</attributeName>
+          <attributeDefinition>sample standard deviation</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerKilometerSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>S_ERR</attributeName>
+          <attributeDefinition>sample standard error</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerKilometerSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_EXPECTED</attributeName>
+          <attributeDefinition>number of observations expected to make a summary statistic (e.g., number of days in a month)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_OBSERVED</attributeName>
+          <attributeDefinition>number of observations actually observed in a sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_MISSING</attributeName>
+          <attributeDefinition>the number of values in a sampling period (year or month), given the intended sampling frequency (e.g., every 15 minutes, every day, etc.), that were not available for calculating statistics. This includes the number of values that were flagged as missing (reported missing values), and the number of values that were expected to be in the dataset given the overall sampling frequency but were not present in the dataset (unreported missing values)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_QUESTIONABLE</attributeName>
+          <attributeDefinition>the number of values in a sampling period (year or month) that were flagged as questionable</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_ESTIMATED</attributeName>
+          <attributeDefinition>the number of values in a sampling period (year or month) that were flagged as estimated</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_TRACE</attributeName>
+          <attributeDefinition>the number of values in a sampling period (year or month) that were flagged as trace values (this is only used for precipitation data)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>N_INVALID</attributeName>
+          <attributeDefinition>according to some testing criteria outlined in the summarization script (e.g., temp &gt; 75 degrees C)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>value is not applicable or does not exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>12</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <site>KNZ</site>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <stations>
+        <station>FIPS-20127</station>
+      </stations>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <stationNames>
+        <stationName>Morris County, KS (FIPS 20127)</stationName>
+      </stationNames>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <variableName>human population density</variableName>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <unitName>numberPerKilometerSquared</unitName>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <timescale>yearly</timescale>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <topic>Human population and economy</topic>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <subtopic>Population Density</subtopic>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <sourceMetadataURLs>
+        <sourceMetadataURL>http://jornada-www.nmsu.edu/ims/trends/cvs/Trends/metadata/lter_socioecon_total_population.doc</sourceMetadataURL>
+      </sourceMetadataURLs>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

@@ -1,0 +1,262 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.90.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=howardh,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Canopy spread cover of plants in Bontebok National Park (1984-1985)</title>
+ <creator id="1246960684444" scope="document"> <individualName> <surName>Peter Novellie</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Manager</positionName>
+ <phone phonetype="voice">012 426 5285</phone>
+ <electronicMailAddress>petern@sanparks.org</electronicMailAddress>
+ </creator>
+ <associatedParty scope="document"> <references>1246960684444</references>
+ <role>manager</role>
+ </associatedParty>
+ <abstract> <para>The aim of the study was to examine relationships between fire, grazing and grass cover in the Bontebok National Park, in October 1984 decending point surveys were conducted by Peter Novellie in eight plots, four of which were lacated in areas that had been burned in March 1984 (plot numbers 4,5,7 and 10) and four on areas burnt in March 1984 (plot number 4,5,7 and 10). the plots were marked with metal stakes, and their approximate location was indicated on a map of the park. The surveys in the plots in the plots were repeated in November 1985. this dataset gives the percentage canopy spread cover of grasses, and of the following categories of plants other than grasses: Cyperaceae, Restionaceae and all other plants.
+
+Futher details on the methodology, and the result of the 1984 surveys, are published in:
+
+Novellie, P. 1987. Interrelationships between fire, grazing and grass cover at the Bontebok National Park. Koedoe 30: 1-7.
+
+In 2003 Tineke Kraaiji searched for the plot markers and took GPS readings for the four plots for which the markers could be found  ( table below ). she repeated the surveys in these marked plots un November 2005 as well as at the approximate lacations ( as judged from the map) for the remaining four plots for which the markers could not be found.
+
+COORDINATES: PLOTS
+Plots		Longitude		Latitude
+Plot2		S 34 03'03.3''	E 20 27'11.6''
+Plot4		S 34 04'15.8''	E 20 26'20.2
+Plot5		S 34 03'30.9''	E 20 27'25.8
+plot6		S 34 03'16.4''	E 20 27'08.1</para>
+ </abstract>
+ <keywordSet> <keyword>Grazing impact, herbivory, grass species, fire,renosterveld.</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>SANParks should be acknowledge for the data capture and use Digital and non digital data and metadata belonging to the SANParks .should be provided on an ''as-is'' basis with no guarantee as to data quility. Netheir the staff nor South African national Parks (SANParks) may held liable for any loss of any sort resulting from use of data and/metadata provided by Scientific Services.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Western Bontebok national Park</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-90.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>90.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-45.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1984-07-07</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1985-07-07</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1246960684444</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <para>''see the abstract''</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1246964211078" scope="document"> <entityName>BNP GRASS COVER.txt</entityName>
+ <entityDescription>Grass Cover</entityDescription>
+ <physical id="1246964208203" scope="document"> <objectName>BNP GRASS COVER.txt</objectName>
+ <size unit="byte">2392</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.91.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1246964211093" scope="document"> <attributeName>Species/Plant Form</attributeName>
+ <attributeDefinition>The name of the grass species, or the category of plants other than grasses (Cyperaceae,Restionanceae and all ''all others'' meaning all plants other than Graminae, Cyperaceae or Restionaceae)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211109" scope="document"> <attributeName>P4Y84</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plan from category in plot 4 surveyed in 1984.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211125" scope="document"> <attributeName>P5Y84</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 5 surveyed in 1984</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211140" scope="document"> <attributeName>P7Y84</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 7 surveyed in 1984.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211156" scope="document"> <attributeName>P10Y84</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot10 surveyed in 1984</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211171" scope="document"> <attributeName>P4Y85</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 4 surveyed in 1985.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211187" scope="document"> <attributeName>P5Y85</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 5 surveyed in 1985.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211203" scope="document"> <attributeName>P7Y85</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 7 surveyed in 1985.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211218" scope="document"> <attributeName>P10Y85</attributeName>
+ <attributeDefinition>The percentage of cannopy spread cover of each grass species/plant from category in plot 10 surveyed in 1985.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211234" scope="document"> <attributeName>P2Y84</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 2 surveyed in 1984.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211250" scope="document"> <attributeName>P6Y84</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant for catergory in plot 6 surveyed in 1984.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211265" scope="document"> <attributeName>P8Y84</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each of grass species/plant from category in plot 8 surveyed in 1984</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211281" scope="document"> <attributeName>P9Y84</attributeName>
+ <attributeDefinition>The percentage of canopy of spread of each grass species/plant from cayegory in plot 9 surveyed in 1984.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211296" scope="document"> <attributeName>P2Y85</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 2 surveyed in 1985.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211312" scope="document"> <attributeName>P6Y85</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 6 surveyed in 1985.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211328" scope="document"> <attributeName>P8Y85</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 8 surveyed in 1985.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1246964211343" scope="document"> <attributeName>P9Y85</attributeName>
+ <attributeDefinition>The percentage of canopy spread cover of each grass species/plant from category in plot 9 surveyed in 1985.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>27</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

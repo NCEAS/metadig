@@ -1,0 +1,265 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1684.7" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Supersites_Rainfall (tipping buckets)</title>
+ <creator id="1366792561981"> <organizationName>Centre for Water Resources Research,University of Kwazulu Natal</organizationName>
+ <positionName>WRC project K5/2051</positionName>
+ </creator>
+ <creator id="1366792642536"><organizationName>SANParks</organizationName>
+ <positionName>Scientific Services</positionName>
+ </creator>
+ <abstract><para>Davis Instruments rain gauge (0.2mm per tip) . The guages are intstalled as follows for the Southern Baslat Supersite( SBAS_Rain)at Makhohlolo, Northern Basalt Superiste (NBAS_Rain) installed at Capricorn Exclosure,  Northern Granite Supersite (NGR_Rain1) rain gauge installed at Malopeni  Fluz Tower this gauge was destroyed by elephants and NGR_Rain2 replaced it in January 2013, Soutern Granite rain gauge SGR_Rain is aTexas TE525MM rain gauge (0.1mm per tip) installed at</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Kruger National Park, South Africa, Supersites, rainfall, tipping buckets</keyword>
+ </keywordSet>
+<intellectualRights><para>These datasets are provided in a raw and unverified form so no responsibility is taken for error that may occur.</para>
+</intellectualRights>
+  <coverage><geographicCoverage><geographicDescription>Makhohlola Exclosure</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>31.913671</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.914687</eastBoundingCoordinate>
+ <northBoundingCoordinate>-25.264584</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.266414</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Capricon Roan Enclosure</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>31.437601</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.453984</eastBoundingCoordinate>
+ <northBoundingCoordinate>-23.476071</northBoundingCoordinate>
+ <southBoundingCoordinate>-23.492362</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>2011</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1366792689315"><individualName><givenName>ES</givenName>
+ <surName>Riddell</surName>
+ </individualName>
+ <organizationName>UKZN</organizationName>
+ <electronicMailAddress>edriddell@gmail.com</electronicMailAddress>
+ </contact>
+ <contact id="1366792724944"><individualName><givenName>IPJ</givenName>
+ <surName>Smit</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <electronicMailAddress>Izak.Smit@sanparks.org</electronicMailAddress>
+ </contact>
+ <dataTable id="1366793300787"><entityName>NBAS_RainApril2013.txt</entityName>
+ <physical id="1366793233943"><objectName>NBAS_RainApril2013.txt</objectName>
+ <size unit="byte">114129</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1685.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366793300803"><attributeName>Date Time</attributeName>
+ <attributeDefinition>Date and Time of event</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366793300818"><attributeName>Event</attributeName>
+ <attributeDefinition>Event number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366793300834"><attributeName>Event Value</attributeName>
+ <attributeDefinition>Value of event</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>3584</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366793396188"><entityName>NGR_RainApril2013.txt</entityName>
+ <physical id="1366793352550"><objectName>NGR_RainApril2013.txt</objectName>
+ <size unit="byte">100927</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1686.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366793396203"><attributeName>Date Time</attributeName>
+ <attributeDefinition>Date and Time of event</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366793396219"><attributeName>Event</attributeName>
+ <attributeDefinition>event number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366793396235"><attributeName>Event Value</attributeName>
+ <attributeDefinition>Value of event</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>3268</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366793471183"><entityName>SBAS_RainApril2013.txt</entityName>
+ <physical id="1366793415997"><objectName>SBAS_RainApril2013.txt</objectName>
+ <size unit="byte">192252</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1687.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366793471199"><attributeName>Date Time</attributeName>
+ <attributeDefinition>Date and tine of event</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366793471215"><attributeName>Event</attributeName>
+ <attributeDefinition>Event number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366793471230"><attributeName>Event Value</attributeName>
+ <attributeDefinition>Value of event</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>6100</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366793543949"><entityName>SGR_Rain.txt</entityName>
+ <physical id="1366793486922"><objectName>SGR_Rain.txt</objectName>
+ <size unit="byte">385037</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1688.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366793543964"><attributeName>Date Time</attributeName>
+ <attributeDefinition>Date and time of event</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366793543980"><attributeName>Event</attributeName>
+ <attributeDefinition>number of event</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366793543995"><attributeName>Event Value</attributeName>
+ <attributeDefinition>Value of event</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>12354</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

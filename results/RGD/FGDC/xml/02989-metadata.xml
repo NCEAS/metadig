@@ -1,0 +1,965 @@
+<metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>European Commission, Joint Research Centre</origin>
+        <title>European Soil Database (ESDB) v 2.0</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/european_soil_DB.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/european_soil_DB.xml</alt_onlink>
+        <onlink>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDBv2/fr_intro.htm</onlink>
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>&#206;&#164;he European Soil Database contains 4 components: (1) the Soil Geographical Database of Eurasia at scale 1:1,000,000 (SGDBE); (2) the Pedotransfer Rules Database (PTRDB); (3) the Soil Profile Analytical Database of Europa (SPADBE); and (4) the Database of Hydraulic Properties of European Soils (HYPRES). It also includes a collection of maps, which allows the user to view the soil attribute data, an application, which allows the user to query the Soil Database (SGDBE and PTRDB attribute data) from a map or from a table, and easy access to the soil data through a shapefile and related tables.</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20031231</begdate>
+          <enddate />
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Final</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-22</westbc>
+        <eastbc>68</eastbc>
+        <northbc>85</northbc>
+        <southbc>33</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>CALCIUM|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>CARBON|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>CATION EXCHANGE CAPACITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>DENITRIFICATION RATE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>ELECTRICAL CONDUCTIVITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>HYDRAULIC CONDUCTIVITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>MAGNESIUM|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>MICRONUTRIENTS/TRACE ELEMENTS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>NITROGEN|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>ORGANIC MATTER|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>PERMAFROST|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>PHOSPHORUS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>POTASSIUM|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>RECLAMATION/REVEGETATION/RESTORATION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL ABSORPTION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL BULK DENSITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL CHEMISTRY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL CLASSIFICATION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL COLOR|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL COMPACTION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL CONSISTENCE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL DEPTH|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL FERTILITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL GAS/AIR|ANALYSIS|</themekey>
+        <themekey>SOIL HEAT BUDGET|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL HORIZONS/PROFILE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL IMPEDANCE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL MECHANICS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL MOISTURE/WATER CONTENT|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL PH|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL PLASTICITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL POROSITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL PRODUCTIVITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL RESPIRATION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL STRUCTURE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL TEMPERATURE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL TEXTURE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL SALINITY/SOIL SODICITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL WATER HOLDING CAPACITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SULFUR|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>THERMAL CONDUCTIVITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>CALCIUM|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>CARBON|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>CATION EXCHANGE CAPACITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>DENITRIFICATION RATE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>ELECTRICAL CONDUCTIVITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>HYDRAULIC CONDUCTIVITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>MAGNESIUM|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>MICRONUTRIENTS/TRACE ELEMENTS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>NITROGEN|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>ORGANIC MATTER|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>PERMAFROST|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>PHOSPHORUS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>POTASSIUM|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>RECLAMATION/REVEGETATION/RESTORATION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL ABSORPTION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL BULK DENSITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL CHEMISTRY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL CLASSIFICATION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL COLOR|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL COMPACTION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL CONSISTENCE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL DEPTH|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL FERTILITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL GAS/AIR|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL HEAT BUDGET|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL HORIZONS/PROFILE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL IMPEDANCE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL MECHANICS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL MOISTURE/WATER CONTENT|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL PH|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL PLASTICITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL POROSITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL PRODUCTIVITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL RESPIRATION|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL SALINITY/SOIL SODICITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL STRUCTURE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL TEMPERATURE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL TEXTURE|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SOIL WATER HOLDING CAPACITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SULFUR|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>THERMAL CONDUCTIVITY|ANALYSIS|FIELD INVESTIGATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>CALCIUM</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>FIELD INVESTIGATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>ANALYSIS</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>Europe</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>European Commission, Joint Research Centre</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; marc.van-liedekerke@jrc.ec.europa.eu</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>European Commission, Joint Research Centre, Institute for Environment and Sustainability, Land Resource Management Unit, Ispra, Italy</cntorg>
+          <cntper>Van Liedekerke, Marc</cntper>
+        </cntperp>
+        <cntvoice>+39-0332-785179</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; marc.van-liedekerke@jrc.ec.europa.eu</cntfax>
+        <cntemail>marc.van-liedekerke@jrc.ec.europa.eu</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://eusoils.jrc.ec.europa.eu/</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>European Soil Database (ESDB) v 2.0. 2006. Available online at [http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDB/index.htm] from the European Commission, Joint Research Centre, Institute for Environment and Sustainability, Land Resource Management Unit, Ispra, Italy.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20121011 101524</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>20031231</begdate>
+    <enddate>2014924</enddate>
+    <Site_Information>
+      <Site>Europe</Site>
+      <Westernmost_Longitude>-22</Westernmost_Longitude>
+      <Easternmost_Longitude>68</Easternmost_Longitude>
+      <Northernmost_Latitude>85</Northernmost_Latitude>
+      <Southernmost_Latitude>33</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>Agricultural lands</Keywords>
+    <Keywords>Europe</Keywords>
+    <Keywords>European Soil Database</Keywords>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>Raster Data</Keywords>
+    <Keywords>Soil Collections</Keywords>
+    <Keywords>Soil Database</Keywords>
+    <Keywords>Soil Characteristics</Keywords>
+    <Keywords>Soil Types</Keywords>
+    <Keywords>Soil Cover</Keywords>
+    <Keywords>Soils</Keywords>
+    <Keywords>Vector Data</Keywords>
+    <Parameter_Description>
+      <Parameter>CALCIUM</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CARBON</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CATION EXCHANGE CAPACITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>DENITRIFICATION RATE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ELECTRICAL CONDUCTIVITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>HYDRAULIC CONDUCTIVITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>MAGNESIUM</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>MICRONUTRIENTS/TRACE ELEMENTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>NITROGEN</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ORGANIC MATTER</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PERMAFROST</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PHOSPHORUS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>POTASSIUM</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>RECLAMATION/REVEGETATION/RESTORATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL ABSORPTION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL BULK DENSITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL CHEMISTRY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL CLASSIFICATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL COLOR</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL COMPACTION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL CONSISTENCE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL DEPTH</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL FERTILITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL GAS/AIR</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>&amp;nbsp;&amp;nbsp;</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL HEAT BUDGET</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL HORIZONS/PROFILE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL IMPEDANCE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL MECHANICS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL MOISTURE/WATER CONTENT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL PH</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL PLASTICITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL POROSITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL PRODUCTIVITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL RESPIRATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL STRUCTURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL TEXTURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL SALINITY/SOIL SODICITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL WATER HOLDING CAPACITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SULFUR</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>THERMAL CONDUCTIVITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>AGRICULTURE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CALCIUM</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CARBON</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CATION EXCHANGE CAPACITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>DENITRIFICATION RATE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ELECTRICAL CONDUCTIVITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>HYDRAULIC CONDUCTIVITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>MAGNESIUM</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>MICRONUTRIENTS/TRACE ELEMENTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>NITROGEN</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ORGANIC MATTER</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PERMAFROST</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PHOSPHORUS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>POTASSIUM</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>RECLAMATION/REVEGETATION/RESTORATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL ABSORPTION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL BULK DENSITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL CHEMISTRY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL CLASSIFICATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL COLOR</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL COMPACTION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL CONSISTENCE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL DEPTH</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL FERTILITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL GAS/AIR</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL HEAT BUDGET</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL HORIZONS/PROFILE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL IMPEDANCE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL MECHANICS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL MOISTURE/WATER CONTENT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL PH</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL PLASTICITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL POROSITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL PRODUCTIVITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL RESPIRATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL SALINITY/SOIL SODICITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL STRUCTURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL TEXTURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL WATER HOLDING CAPACITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SULFUR</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>THERMAL CONDUCTIVITY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Project />
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|CALCIUM</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|CARBON</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|CATION EXCHANGE CAPACITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|DENITRIFICATION RATE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|ELECTRICAL CONDUCTIVITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|HYDRAULIC CONDUCTIVITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|MAGNESIUM</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|MICRONUTRIENTS/TRACE ELEMENTS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|NITROGEN</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|ORGANIC MATTER</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|PERMAFROST</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|PHOSPHORUS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|POTASSIUM</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|RECLAMATION/REVEGETATION/RESTORATION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL ABSORPTION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL BULK DENSITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL CHEMISTRY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL CLASSIFICATION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL COLOR</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL COMPACTION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL CONSISTENCE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL DEPTH</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL FERTILITY</Navpath>
+    <Navpath>|ANALYSIS|SOIL GAS/AIR</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL HEAT BUDGET</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL HORIZONS/PROFILE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL IMPEDANCE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL MECHANICS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL MOISTURE/WATER CONTENT</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL PH</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL PLASTICITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL POROSITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL PRODUCTIVITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL RESPIRATION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL STRUCTURE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL TEMPERATURE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL TEXTURE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL SALINITY/SOIL SODICITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL WATER HOLDING CAPACITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SULFUR</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|THERMAL CONDUCTIVITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|CALCIUM</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|CARBON</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|CATION EXCHANGE CAPACITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|DENITRIFICATION RATE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|ELECTRICAL CONDUCTIVITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|HYDRAULIC CONDUCTIVITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|MAGNESIUM</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|MICRONUTRIENTS/TRACE ELEMENTS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|NITROGEN</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|ORGANIC MATTER</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|PERMAFROST</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|PHOSPHORUS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|POTASSIUM</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|RECLAMATION/REVEGETATION/RESTORATION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL ABSORPTION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL BULK DENSITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL CHEMISTRY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL CLASSIFICATION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL COLOR</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL COMPACTION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL CONSISTENCE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL DEPTH</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL FERTILITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL GAS/AIR</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL HEAT BUDGET</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL HORIZONS/PROFILE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL IMPEDANCE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL MECHANICS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL MOISTURE/WATER CONTENT</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL PH</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL PLASTICITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL POROSITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL PRODUCTIVITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL RESPIRATION</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL SALINITY/SOIL SODICITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL STRUCTURE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL TEMPERATURE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL TEXTURE</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SOIL WATER HOLDING CAPACITY</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SULFUR</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|THERMAL CONDUCTIVITY</Navpath>
+    <Principal_Investigator>
+      <Name>European Commission, Joint Research Centre</Name>
+      <Email>marc.van-liedekerke@jrc.ec.europa.eu</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDBv2/index.htm</URL>
+      <Label>European Soil Database (distribution version v2.0) CD-ROM</Label>
+      <Link_Note>Access this database on CD-ROM from this web page.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDB_Data_Distribution/ESDB_data.html</URL>
+      <Label>European Soil Database (ESDB) v 2.0 Vector Raw Data</Label>
+      <Link_Note>In order to obtain access to these databases, fill in the online form at [http://eusoils.jrc.ec.europa.eu/library/Data/_Datarequest/esdb.html] after which you will receive further instructions how to download the data.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDB_data_1k_raster_intro/ESDB_1k_raster_data_intro.html</URL>
+      <Label>European Soil Database (ESDB) v 2.0 1km x 1km Raster Library</Label>
+      <Link_Note>In order to obtain access to these databases, fill in the online form at [http://eusoils.jrc.ec.europa.eu/library/Data/_Datarequest/esdb.html] after which you will receive further instructions how to download the data.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/raster_archive/ESDBv2_ETRS_LAEA_raster_archive.html</URL>
+      <Label>European Soil Database (ESDB) v 2.0 10km x 10km Raster Library</Label>
+      <Link_Note>Download of dominant value rasters for the EU25 library (14 MB, zipped) and Eurasia library (35 MB, zipped). For the convenience of the user, the reference grid used in the rasters is also available as a polygon or line shapefile, downloadable from this web page.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDBv3/GoogleEarth/index.cfm</URL>
+      <Label>European Soil Database Google Earth Files</Label>
+      <Link_Note>From this page you can download Google Earth Files (with .kmz extension) that correspond to 73 attribute maps derived from the European Soil Database v2 (ESDB v2) for EU27 countries. The .kmz files are zipped .kml files and are automatically unzipped when opened by the Google Earth application, which can be freely downloaded. The .kmz files are typically 20 MB in size, so it may take some time to download the file and open it with Google Earth.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/library/data/sinfo/</URL>
+      <Label>Data for the Soil Information System for the MARS Crop Yield Forecasting System (SINFO)</Label>
+      <Link_Note>Soil data for Europe are used in the Crop Growth Monitoring System (CGMS) which is a part of the Mars Crop Yield Forecasting System (MCYFS). The full and raw results of the project (data and documentation) are available to anyone after filling the online form at [http://eusoils.jrc.ec.europa.eu/library/Data/_Datarequest/SINFO.html]. Instructions for download will then follow.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDBv3/legend/LegendData.cfm</URL>
+      <Label>European Soil Database Legend Files</Label>
+      <Link_Note>Legends of the European Soil Database (ESDB) can be downloaded here.</Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDBv2/fr_intro.htm</URL>
+      <Label>Introduction to the European Soil Database (distribution version v 2.0)</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>basic02.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>marc.van-liedekerke@jrc.ec.europa.eu</Email>
+      <Name>Van Liedekerke, Marc</Name>
+      <Phone>+39-0332-785179</Phone>
+    </Contact_Person>
+    <Contact_Person>
+      <Email>panos.panagos@jrc.ec.europa.eu</Email>
+      <Name>Panagos, Panos</Name>
+      <Phone>+39-0332-785574</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>Created 20121011 082623 by 128.219.250.102</File_ID>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Reference_Method>Vector</Spatial_Reference_Method>
+    <Spatial_Extent>4680</Spatial_Extent>
+    <Search_Text_Link>
+      <URL>http://eusoils.jrc.ec.europa.eu/ESDB_Archive/ESDBv2/fr_intro.htm</URL>
+      <Label>Introduction to the European Soil Database (distribution version v 2.0)</Label>
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</metadata>

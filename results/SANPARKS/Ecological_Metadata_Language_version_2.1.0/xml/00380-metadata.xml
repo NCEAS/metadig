@@ -1,0 +1,190 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.86.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document">  <title>Point surveys of selected plant species outside the Bontanical Reserve, of Addo Elephant National Park (1987-1997)</title>
+<creator id="1241429996076" scope="document"> <individualName> <surName>Novellie</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>General Manager</positionName>
+ <phone phonetype="voice">012 426 5066</phone>
+ <electronicMailAddress>peggy@sanparks.org</electronicMailAddress>
+ </creator>
+ <associatedParty scope="document"> <references>1241429996076</references>
+ <role>General Manager</role>
+ </associatedParty>
+<abstract><para>Nearest plant point surveys were conducted in six matched paires of plots, one member of each pair being inside, and the other outside the botanical Reserve. Plots inside the botanical Reserve were protected against grazing by fences, the plots outside were exposed to grazing. In each plot 100 points were examined and the plant rooted nearest to each point was recorded.The surveys were conducted in the years 1987,1990,1995, and 1997. This data gives the results  only for the most common plant species. Further details on the methodology are given in:
+
+1, Novellie,P. 1988. The impact of large herbivores on the grassveld in the Addo Elephant National Park. South African Journal of  	Wildlife Research 18(1): 6-10.
+
+2. Novellie,P. Hall-Martin, A.J and Joubert,D.1991. The problem of maintaining large herbivores in small conservation areas: deterioration of the grassveld in the Addo Elephant National Park. Koedoe 3(1):41-50.</para>
+</abstract>
+  <keywordSet> <keyword>Grazing impact, herbivory, grass species, herbivory.</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ <keyword>Addo Elephant National Park, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>SANParks should be acknowladge fo the data capture and use. Digital and non-digital data and metadata belonging to SANParks provide on an ''as-is'' basis with no guarantee as to data quality. Neither the staff nor South African National Parks (SANParks) may held liable fpr any loss of any sort resulting from use of data and/metadata provided by Scientific Services.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>AddoElephantNationalPark</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>24.961638</westBoundingCoordinate>
+ <eastBoundingCoordinate>26.663796</eastBoundingCoordinate>
+ <northBoundingCoordinate>-33.071541</northBoundingCoordinate>
+ <southBoundingCoordinate>-33.772324</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1987-12-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1997-12-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1241429996076</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <para>''See abstract''</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1241433509462" scope="document"> <entityName>BOTRESDATA AENP.txt</entityName>
+ <entityDescription>BOTRESDATA AENP</entityDescription>
+ <physical id="1241433502440" scope="document"> <objectName>BOTRESDATA AENP.txt</objectName>
+ <size unit="byte">1369</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.87.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=petern,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1241433509477" scope="document"> <attributeName>PLOT</attributeName>
+ <attributeDefinition>The number of the plot in which the point survey was conducted.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509493" scope="document"> <attributeName>BLOCK</attributeName>
+ <attributeDefinition>The number of each pair of plot, for example block 1 included two plots opposite each other, plot 1 situated inside the Botanical Reserve, and plot 2 situated outside.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509509" scope="document"> <attributeName>SITE</attributeName>
+ <attributeDefinition>The site of the plot , number 1 being inside the Botanical Reserve, number 2 being outside.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509524" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>The year of the survey (1987,1990,1997)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509540" scope="document"> <attributeName>T.t.</attributeName>
+ <attributeDefinition>The number of points at which the grass species Themeda triandra was the nearest plant.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509555" scope="document"> <attributeName>D.e.</attributeName>
+ <attributeDefinition>The number of points at which the grass species Digitaria eriantha was the nearest plant.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509571" scope="document"> <attributeName>P.s.</attributeName>
+ <attributeDefinition>The number of point at which the grass species P anicum stapfianum was the nearest plant.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509587" scope="document"> <attributeName>C.p.</attributeName>
+ <attributeDefinition>The number of point in which the grass species Cymbopon plurinodis was the nearest plant.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509602" scope="document"> <attributeName>E.o.</attributeName>
+ <attributeDefinition>The number of point at which grass species Eragrostis obtusa was the nearest plant.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509618" scope="document"> <attributeName>F.f.</attributeName>
+ <attributeDefinition>The number of point at which the dwarf shrub species Felicia fascicularis was the nearest plant.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1241433509634" scope="document"> <attributeName>H.r.</attributeName>
+ <attributeDefinition>The number of points at which dwarf shrub species Helichrysum rosum was the nearest plant.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>51</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

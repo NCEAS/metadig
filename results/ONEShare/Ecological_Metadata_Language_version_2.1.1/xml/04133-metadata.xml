@@ -1,0 +1,227 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="UC3/CDL" system="DataUp" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <dataset>
+    <title>Environmental variables gaps</title>
+    <creator>
+      <individualName>
+        <givenName>Cristabel</givenName>
+        <surName>Duran</surName>
+      </individualName>
+      <organizationName>FVA-Freiburg</organizationName>
+      <address>
+        <deliveryPoint>Runzmattenweg 2</deliveryPoint>
+        <city>Pto. Ordaz</city>
+        <administrativeArea>No state for creator provided</administrativeArea>
+        <postalCode>No postal code for creator provided</postalCode>
+        <country>No country for creator provided</country>
+      </address>
+      <phone>+0 (000) 000-0000</phone>
+      <electronicMailAddress>cristabelduran@yahoo.com</electronicMailAddress>
+    </creator>
+    <pubDate>2013-09-07</pubDate>
+    <abstract>This data is about the environmental variables corresponding to the plots made for the gap study in the tropical mountain forest of Sierra de Lema, in the Venezuelan Guayana.</abstract>
+    <keywordSet>
+      <keyword>gaps</keyword>
+      <keyword>Sierra de Lema</keyword>
+      <keyword>microhabitat</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>No statement of intellectual rights provided</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>No url for data provided</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>No description of geographic coverage provided</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>0</westBoundingCoordinate>
+          <eastBoundingCoordinate>0</eastBoundingCoordinate>
+          <northBoundingCoordinate>0</northBoundingCoordinate>
+          <southBoundingCoordinate>0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage id="tempcov">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>0001-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>0001-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>No given name for contact provided</givenName>
+        <surName>No surname for contact provided</surName>
+      </individualName>
+      <organizationName>No organization name for contact provided</organizationName>
+      <address>
+        <deliveryPoint>No street address for contact provided</deliveryPoint>
+        <city>No city for contact provided</city>
+        <administrativeArea>No state for contact provided</administrativeArea>
+        <postalCode>No postal code for contact provided</postalCode>
+        <country>No country for contact provided</country>
+      </address>
+      <phone>+0 (000) 000-0000</phone>
+      <electronicMailAddress>noemail@noemail.com</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>No publisher name provided</organizationName>
+    </publisher>
+    <project>
+      <title>No project title provided</title>
+      <personnel>
+        <individualName>
+          <surName>No project personnel surname provided</surName>
+        </individualName>
+        <organizationName>No project organization name provided</organizationName>
+        <role>No project personnel role provided</role>
+      </personnel>
+      <abstract>
+        <para>No project abstract provided</para>
+      </abstract>
+      <funding>
+        <para>No project funding described</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>env short - env short</entityName>
+      <entityDescription>Plot number</entityDescription>
+      <attributeList>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeDefinition>Plot number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Gap ID</attributeName>
+          <attributeDefinition>Gap identification</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Gap identification</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>location of the plot</attributeName>
+          <attributeDefinition>Gap location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Gap location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>clus</attributeName>
+          <attributeDefinition>Cluster number where the plot is</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cluster number where the plot is</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>canopy size</attributeName>
+          <attributeDefinition>canopy size (openning)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>light conditions</attributeName>
+          <attributeDefinition>light conditions and position of plot in gaps</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>light conditions and position of plot in gaps</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>microhabitat</attributeName>
+          <attributeDefinition>type of big grouped microhabitat</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>type of big grouped microhabitat</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>gap in forest?</attributeName>
+          <attributeDefinition>plot in forest or gap</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>plot in forest or gap</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>gap</attributeName>
+          <attributeDefinition>plot in gap</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>plot in gap</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <describes>tempcov</describes>
+    <metadata>
+      <description>No description of temporal coverage provided</description>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <formattedCitation>Duran, Cristabel(2013): Environmental variables gaps. . Duran, Cristabel.</formattedCitation>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

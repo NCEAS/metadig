@@ -1,0 +1,647 @@
+<ns0:metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Gornitz, Vivien M.</origin>
+        <origin>Beaty, Tammy W.</origin>
+        <origin>Daniels, Richard C.</origin>
+        <title>Coastal Hazards Databases for the U.S. East, Gulf, and West Coasts</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/hydroclimatology/us_coastal_hazards.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/hydroclimatology/us_coastal_hazards.xml</alt_onlink>
+        <onlink>http://cdiac.ornl.gov/ftp/ndp043a/ndp043a.txt</onlink>
+        <onlink>http://cdiac.ornl.gov/ftp/ndp043b/ndp043b.txt</onlink>
+        <onlink>http://cdiac.ornl.gov/epubs/ndp/ndp043c/43c.htm</onlink>
+        <onlink>http://cdiac.ornl.gov/ftp/ndp043c/ndp043c.pdf</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This metadata report describes three numeric data packages (NDPs) containing U.S. coastal hazards data that were prepared by the Carbon Dioxide Information Analysis Center (CDIAC). They are: NDP-043A for the U.S. East Coast; NDP-043B for the U.S. Gulf Coast; and NDP-043C for the U.S. West Coast. These digital databases may be used to predict the response of U.S. coastlines and coastal zones to local or global sea-level rise. The databases integrate point, line, and polygon data for the coastal areas into 0.25 x 0.25 degree latitude/longitude grid cells and into 1:2,000,000 digitized line segments that can be used by raster or vector geographic information systems (GIS) as well as by non-GIS databases. Each coastal grid cell and line segment contains data variables from the following seven data sets: elevation, geology, geomorphology, sea-level trends, shoreline displacement (erosion/accretion), tidal ranges, and wave heights. One variable from each data set was classified according to its susceptibility to sea-level rise and/or erosion to form 7 relative risk variables. These risk variables range in value from 1 to 5 and may be used to calculate a Coastal Vulnerability Index (CVI). Algorithms used to calculate several CVIs are described in the documentation accompanying these databases.
+
+The NDPs are available through the Internet using the File Transfer Protocol (FTP) from CDIAC's anonymous FTP area or through the World Wide Web (WWW) at http://cdiac.esd.ornl.gov/. These files are also available as machine-readable files available on 8-mm tapes, quarter inch tape cartridges, IBM-formatted high-density floppy diskettes, and CD-ROM. 
+
+The NDP documentation files provide sample listings of the data and detailed descriptions of the file formats; offer FORTRAN and SAS retrieval program listings; describe the methods used in calculating each variable; discuss the sources, restrictions, and limitations of the data; provide ARC/INFO export coverages and flat ASCII data files containing these data; and list pertinent literature.</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19920101</begdate>
+          <enddate>19971231</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Final</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-130</westbc>
+        <eastbc>-65</eastbc>
+        <northbc>50</northbc>
+        <southbc>25</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>COASTAL HABITAT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>MARINE HABITAT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>EROSION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEDIMENTATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CONTOURS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LANDFORMS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>TERRAIN ELEVATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>BEACHES|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>COASTAL ELEVATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CORAL REEFS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>EROSION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>ESTUARIES|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>FJORDS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>INLETS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>INTERTIDAL ZONE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LOCAL SUBSIDENCE TRENDS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEA LEVEL RISE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEA SURFACE HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEDIMENT TRANSPORT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEDIMENTATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SHORELINE DISPLACEMENT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SHORELINES|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>STORM SURGE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>TIDAL HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEDIMENTATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>TERRIGENOUS SEDIMENTS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SIGNIFICANT WAVE HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>STORM SURGE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>WAVE HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEA SURFACE HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>STORM SURGE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>TIDAL COMPONENTS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>TIDAL CURRENTS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>TIDAL HEIGHT|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>TIDAL RANGE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>COASTAL LANDFORMS/PROCESSES|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>BEDROCK LITHOLOGY|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>IGNEOUS ROCKS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>METAMORPHIC ROCKS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SEDIMENTARY ROCKS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LAVA|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>VOLCANIC ASH/DUST|ANALYSIS|COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>COASTAL HABITAT</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>ANALYSIS</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>U.S. East Coast</placekey>
+        <placekey>U.S. Gulf Coast</placekey>
+        <placekey>U.S. West Coast</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Gornitz, Vivien M.</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; Vivien.M.Gornitz@nasa.gov</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Carbon Dioxide Information Analysis Center, U.S. Department of Energy, Oak Ridge National Laboratory, Oak Ridge, Tennessee, USA</cntorg>
+          <cntper>Boden, Thomas A.</cntper>
+        </cntperp>
+        <cntvoice>+1-865-241-4842 (Phone)  +1-865-574-2232 (Fax)</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; Vivien.M.Gornitz@nasa.gov</cntfax>
+        <cntemail>bodenta@ornl.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://cdiac.ornl.gov/</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Gorntiz, V. M. and T. W. White. 1992. A Coastal Hazards Data Base for the U.S. East Coast. ORNL/CDIAC-81, NDP-043A. Oak Ridge National Laboratory, Oak Ridge, Tennessee USA.
+
+Gornitz, V. M. and T. W. White. 1993. A Coastal Hazards Data Base for the U.S. Gulf Coast. ORNL/CDIAC-81, NDP-043B. Oak Ridge National Laboratory, Oak Ridge, Tennessee USA.
+
+Gornitz, V. M., T. W. Beaty, and R. C. Daniels. 1997. A Coastal Hazards Data Base for the U.S. West Coast. ORNL/CDIAC-81, NDP-043C. Oak Ridge National Laboratory, Oak Ridge, Tennessee USA.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20070830 162445</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntperp>
+        <cntvoice>+1-804-769-2495</cntvoice>
+        <cntemail>cncurtis@crosslink.net</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19920101</begdate>
+    <enddate>19971231</enddate>
+    <Site_Information>
+      <Site>U.S. East Coast</Site>
+      <Westernmost_Longitude>-80</Westernmost_Longitude>
+      <Easternmost_Longitude>-65</Easternmost_Longitude>
+      <Northernmost_Latitude>45</Northernmost_Latitude>
+      <Southernmost_Latitude>25</Southernmost_Latitude>
+    </Site_Information>
+    <Site_Information>
+      <Site>U.S. Gulf Coast</Site>
+      <Westernmost_Longitude>-100</Westernmost_Longitude>
+      <Easternmost_Longitude>-80</Easternmost_Longitude>
+      <Northernmost_Latitude>33</Northernmost_Latitude>
+      <Southernmost_Latitude>25</Southernmost_Latitude>
+    </Site_Information>
+    <Site_Information>
+      <Site>U.S. West Coast</Site>
+      <Westernmost_Longitude>-130</Westernmost_Longitude>
+      <Easternmost_Longitude>-116</Easternmost_Longitude>
+      <Northernmost_Latitude>50</Northernmost_Latitude>
+      <Southernmost_Latitude>30</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>Accretion</Keywords>
+    <Keywords>Coastal hazards</Keywords>
+    <Keywords>Coastal landforms</Keywords>
+    <Keywords>Coastal vulnerability</Keywords>
+    <Keywords>Coastal zones</Keywords>
+    <Keywords>Coastlines</Keywords>
+    <Keywords>Conterminous United States</Keywords>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>Elevation</Keywords>
+    <Keywords>Erosion</Keywords>
+    <Keywords>Geology</Keywords>
+    <Keywords>Geomorphology</Keywords>
+    <Keywords>Hydroclimatology Collections</Keywords>
+    <Keywords>North America</Keywords>
+    <Keywords>Risk assessment</Keywords>
+    <Keywords>Sea-level trends</Keywords>
+    <Keywords>Sea-level rise</Keywords>
+    <Keywords>Shorelines</Keywords>
+    <Keywords>Subsidence</Keywords>
+    <Keywords>Tidal range</Keywords>
+    <Keywords>United States</Keywords>
+    <Keywords>U.S. East Coast</Keywords>
+    <Keywords>U.S. Gulf Coast</Keywords>
+    <Keywords>U.S. West Coast</Keywords>
+    <Keywords>Wave height</Keywords>
+    <Parameter_Description>
+      <Parameter>COASTAL HABITAT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>AQUATIC ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>MARINE HABITAT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>AQUATIC ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>EROSION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>EROSION/SEDIMENTATION</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEDIMENTATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>EROSION/SEDIMENTATION</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CONTOURS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TOPOGRAPHY</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LANDFORMS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TOPOGRAPHY</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>TERRAIN ELEVATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TOPOGRAPHY</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>BEACHES</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>COASTAL ELEVATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CORAL REEFS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>EROSION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ESTUARIES</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>FJORDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>INLETS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>INTERTIDAL ZONE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LOCAL SUBSIDENCE TRENDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEA LEVEL RISE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEA SURFACE HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEDIMENT TRANSPORT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEDIMENTATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SHORELINE DISPLACEMENT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SHORELINES</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>STORM SURGE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>TIDAL HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>COASTAL PROCESSES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEDIMENTATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>MARINE SEDIMENTS</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>TERRIGENOUS SEDIMENTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>MARINE SEDIMENTS</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SIGNIFICANT WAVE HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>OCEAN WAVES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>STORM SURGE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>OCEAN WAVES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WAVE HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>OCEAN WAVES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEA SURFACE HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SEA SURFACE TOPOGRAPHY</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>STORM SURGE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TIDES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>TIDAL COMPONENTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TIDES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>TIDAL CURRENTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TIDES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>TIDAL HEIGHT</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TIDES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>TIDAL RANGE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TIDES</Term>
+      <Topic>OCEANS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>COASTAL LANDFORMS/PROCESSES</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>GEOMORPHOLOGY</Term>
+      <Topic>SOLID EARTH</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>BEDROCK LITHOLOGY</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ROCKS/MINERALS</Term>
+      <Topic>SOLID EARTH</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>IGNEOUS ROCKS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ROCKS/MINERALS</Term>
+      <Topic>SOLID EARTH</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>METAMORPHIC ROCKS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ROCKS/MINERALS</Term>
+      <Topic>SOLID EARTH</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SEDIMENTARY ROCKS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ROCKS/MINERALS</Term>
+      <Topic>SOLID EARTH</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAVA</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>VOLCANOES</Term>
+      <Topic>SOLID EARTH</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>VOLCANIC ASH/DUST</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>VOLCANOES</Term>
+      <Topic>SOLID EARTH</Topic>
+    </Parameter_Description>
+    <Project />
+    <Navpath>COMPUTER MODEL|ANALYSIS|COASTAL HABITAT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|MARINE HABITAT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|EROSION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEDIMENTATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CONTOURS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LANDFORMS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|TERRAIN ELEVATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|BEACHES</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|COASTAL ELEVATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CORAL REEFS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|EROSION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|ESTUARIES</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|FJORDS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|INLETS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|INTERTIDAL ZONE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LOCAL SUBSIDENCE TRENDS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEA LEVEL RISE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEA SURFACE HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEDIMENT TRANSPORT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEDIMENTATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SHORELINE DISPLACEMENT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SHORELINES</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|STORM SURGE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|TIDAL HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEDIMENTATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|TERRIGENOUS SEDIMENTS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SIGNIFICANT WAVE HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|STORM SURGE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|WAVE HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEA SURFACE HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|STORM SURGE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|TIDAL COMPONENTS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|TIDAL CURRENTS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|TIDAL HEIGHT</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|TIDAL RANGE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|COASTAL LANDFORMS/PROCESSES</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|BEDROCK LITHOLOGY</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|IGNEOUS ROCKS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|METAMORPHIC ROCKS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SEDIMENTARY ROCKS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LAVA</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|VOLCANIC ASH/DUST</Navpath>
+    <Principal_Investigator>
+      <Name>Gornitz, Vivien M.</Name>
+      <Email>Vivien.M.Gornitz@nasa.gov</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Beaty, Tammy W.</Name>
+      <Email>beatytw@ornl.gov</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Daniels, Richard C.</Name>
+      <Email>Not Available</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043a/</URL>
+      <Label>A Coastal Hazards Data Base for the U.S. East Coast (NDP-043A)</Label>
+      <Link_Note />
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043b/</URL>
+      <Label>A Coastal Hazards Data Base for the U.S. Gulf Coast (NDP-043B)</Label>
+      <Link_Note />
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043c/</URL>
+      <Label>A Coastal Hazards Data Base for the U.S. West Coast (NDP-043C)</Label>
+      <Link_Note />
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043a/ndp043a.txt</URL>
+      <Label>Documentation for NDP-043A (U.S. East Coast)</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043b/ndp043b.txt</URL>
+      <Label>Documentation for NDP-043B (U.S. Gulf Coast)</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://cdiac.ornl.gov/epubs/ndp/ndp043c/43c.htm</URL>
+      <Label>Documentation for NDP-043C (U.S. West Coast)</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043c/ndp043c.pdf</URL>
+      <Label>Download PDF of NDP-043C (U.S. West Coast)</Label>
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>basic02.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>bodenta@ornl.gov</Email>
+      <Name>Boden, Thomas A.</Name>
+      <Phone>+1-865-241-4842 (Phone)  +1-865-574-2232 (Fax)</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>Created 20070830 142342 by 69.19.86.152</File_ID>
+    <Spatial_Reference_Method>Other</Spatial_Reference_Method>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Extent>1625</Spatial_Extent>
+    <Search_Text_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043a/ndp043a.txt</URL>
+      <Label>Documentation for NDP-043A (U.S. East Coast)</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043b/ndp043b.txt</URL>
+      <Label>Documentation for NDP-043B (U.S. Gulf Coast)</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://cdiac.ornl.gov/epubs/ndp/ndp043c/43c.htm</URL>
+      <Label>Documentation for NDP-043C (U.S. West Coast)</Label>
+    </Search_Text_Link>
+    <Other_Link>
+      <URL>http://cdiac.ornl.gov/ftp/ndp043c/ndp043c.pdf</URL>
+      <Label>Download PDF of NDP-043C (U.S. West Coast)</Label>
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</ns0:metadata>

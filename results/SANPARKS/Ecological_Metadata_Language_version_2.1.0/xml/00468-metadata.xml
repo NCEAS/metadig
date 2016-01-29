@@ -1,0 +1,278 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.109828.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Ai-Ais/Richtersveld Transfrontier National Park AWS weather data 2012-March 2013</title>
+ <creator id="1370512003731"><organizationName>SAWB</organizationName>
+ </creator>
+ <abstract><para>Comp#	Station Name	Latitude	Longitude	Altitude
+30096	RICHTERSVELD:Sendelingsdrift	-28.12982	16.89239	40
+
+
+
+Variables measured 
+Daily Maximum Temperature
+Daily Minimum Temperature
+Total Rainfall [Calculated From Hourly Data]
+Total Radiation [Calculated From Hourly Data]
+Average Wind Speed [Calculated From Hourly Data]
+Daily Maximum Relative Humidity
+Daily Minimum Relative Humidity
+Total Relative Evapotranspiration [Calculated From Hourly Data]
+Total Heat Units [Calculated From Hourly Data]
+Total Cold Units [Calculated From Hourly Data]
+Daily Positive Chilling Units [Calculated From Hourly Data]
+Vapour Pressure [Calculated From Hourly Data / 06:00 - 18:00]
+Saturated Vapour Pressure [Calculated From Hourly Data]
+Vapour Pressure Deficit [Calculated From Hourly Data / 06:00 - 18:00]
+Average Temperature [[Tx + Tn] / 2]
+Average Relative Humidity [[RHx + RHn] / 2]
+Daily Maximum Temperature
+Daily Minimum Temperature
+Average Daily Maximum Relative Humidity
+Average Daily Minimum Relative Humidity
+Total Daily Rainfall
+Daily Average Temperature [[Tx + Tn] / 2]</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Ais-Ais/Richtersveld Transfrontier National Park, South Africa</keyword>
+ <keyword>weather, climate</keyword>
+ <keyword>Daily Maximum Temperature, Daily Minimum Temperature, Total Rainfall [Calculated From Hourly Data], Total Radiation [Calculated From Hourly Data], Average Wind Speed [Calculated From Hourly Data], Daily Maximum Relative Humidity, Daily Minimum Relative Humidity ,Total Relative Evapotranspiration [Calculated From Hourly Data], Total Heat Units [Calculated From Hourly Data], Total Cold Units [Calculated From Hourly Data], Daily Positive Chilling Units [Calculated From Hourly Data], Vapour Pressure [Calculated From Hourly Data / 06:00 - 18:00], Saturated Vapour Pressure [Calculated From Hourly Data], Vapour Pressure Deficit [Calculated From Hourly Data / 06:00 - 18:00], Average Temperature [[Tx + Tn] / 2] ,Average Relative Humidity [[RHx + RHn] / 2], Daily Maximum Temperature, Daily Minimum Temperature, Average Daily Maximum Relative Humidity, Average Daily Minimum Relative Humidity, Total Daily Rainfall , Average Temperature [[Tx + Tn] / 2]</keyword>
+ </keywordSet>
+ <intellectualRights> <para>DAta may only be used for research purposes</para>
+ </intellectualRights>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2012-01-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2013-05-31</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>RichtersveldNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>16.881961</westBoundingCoordinate>
+ <eastBoundingCoordinate>17.412486</eastBoundingCoordinate>
+ <northBoundingCoordinate>-28.034941</northBoundingCoordinate>
+ <southBoundingCoordinate>-29.262835</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1370512010361" scope="document"> <organizationName>SANParks</organizationName>
+ </contact>
+ <dataTable id="1370594939865"><entityName>RichtersveldDailyCDataJan2012-May2013.txt</entityName>
+ <physical id="1370593379123"><objectName>RichtersveldDailyCDataJan2012-May2013.txt</objectName>
+ <size unit="byte">58901</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.109829.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1370594939880"><attributeName>Compno</attributeName>
+ <attributeDefinition>Station Number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594939896"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594939911"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594939927"><attributeName>Day</attributeName>
+ <attributeDefinition>DAy</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594939943"><attributeName>Tx</attributeName>
+ <attributeDefinition>Daily Maximum Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594939958"><attributeName>Tn</attributeName>
+ <attributeDefinition>Daily Minimum Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594939974"><attributeName>Rain</attributeName>
+ <attributeDefinition>Total Rainfall [Calculated From Hourly Data]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594939989"><attributeName>Rs</attributeName>
+ <attributeDefinition>Total Radiation [Calculated From Hourly Data]	MJ/m2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940005"><attributeName>U2</attributeName>
+ <attributeDefinition>Average Wind Speed [Calculated From Hourly Data]	ms</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940021"><attributeName>RHx</attributeName>
+ <attributeDefinition>Daily Maximum Relative Humidity
+%</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940036"><attributeName>RHn</attributeName>
+ <attributeDefinition>Daily Minimum Relative Humidity</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940052"><attributeName>ET0</attributeName>
+ <attributeDefinition>Total Relative Evapotranspiration [Calculated From Hourly Data]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940067"><attributeName>HU</attributeName>
+ <attributeDefinition>Total Heat Units [Calculated From Hourly Data]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940083"><attributeName>CU</attributeName>
+ <attributeDefinition>Total Cold Units [Calculated From Hourly Data]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940099"><attributeName>DPCU</attributeName>
+ <attributeDefinition>Daily Positive Chilling Units [Calculated From Hourly Data]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940114"><attributeName>VP</attributeName>
+ <attributeDefinition>Vapour Pressure [Calculated From Hourly Data / 06:00 - 18:00]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940130"><attributeName>SVP</attributeName>
+ <attributeDefinition>Saturated Vapour Pressure [Calculated From Hourly Data]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940145"><attributeName>VPD</attributeName>
+ <attributeDefinition>Vapour Pressure Deficit [Calculated From Hourly Data / 06:00 - 18:00]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940161"><attributeName>UMax</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940177"><attributeName>UHr</attributeName>
+ <attributeDefinition>Time of maximum wind speed</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940192"><attributeName>AveT</attributeName>
+ <attributeDefinition>Average Temperature [[Tx + Tn] / 2]</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940208"><attributeName>AveRH</attributeName>
+ <attributeDefinition>Average Relative Humidity [[RHx + RHn] / 2]
+%</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1370594940223"><attributeName>Batt</attributeName>
+ <attributeDefinition>Battery voltage</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>554</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

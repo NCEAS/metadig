@@ -1,0 +1,1044 @@
+<metadata><Source>http://www1.usgs.gov/metadata/mdata/vip/metaindufield.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey, Upper Midwest Environmental Sciences Center, 2630 Fanta Reed Road, La Crosse, Wisconsin 54603</origin>
+        <pubdate>Unknown</pubdate>
+        <title>Indiana Dunes National Lakeshore Vegetation Mapping Project - Field Plot and Accuracy Assessment Points</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>USGS-NPS Vegetation Mapping Program</sername>
+          <issue>Indiana Dunes National Lakeshore Vegetation Mapping Project</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Denver, Colorado</pubplace>
+          <publish>U.S. Geological Survey, Center for Biological Informatics</publish>
+        </pubinfo>
+        <onlink>http://www1.usgs.gov/vip/indu/indugeodata.zip</onlink>
+        <onlink>doi:10.5066/F7G73BN5</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The vegetation point data for Indiana Dunes National Lakeshore (INDU) was developed to support two projects associated with the 2004 vegetation map, the collection of detailed vegetation plot data, and the vegetation map's accuracy assessment project. The vegetation plot project was conducted to develop the map classification scheme.   A total of 190 vegetation plot sites were sampled at INDU.  A detailed vegetation analysis of these data along with information collected from previous classification projects were used to develop the map classification scheme, in accordance with the National Vegetation Classification System. The accuracy assessment project was conducted to locate and document potential thematic errors (i.e., the assignment of an incorrect map class), specifically user's accuracy (suitability for a particular application) and producer's accuracy (conformance to production standards).  The AA was performed only on map classes representing NVCS natural/semi-natural vegetation types.  The INDU vegetation map was determined to have an overall AA of 78.2% (Kappa index of 76.9%).  A total of 477 sites were observed for the accuracy assessment project. More detailed results are presented in the INDU project report via a contingency table (http://www.usgs.gov/core_science_systems/csas/vip/parks/indu.html). The GIS data set contains point data features, projected to Universal Transverse Mercator zone 16 mapping coordinates, North American Datum 1983.</abstract>
+      <purpose>The USGS-NPS Vegetation Mapping Program (VMP) is a cooperative effort by the U.S. Geological Survey (USGS) and the National Park Service (NPS) to classify, describe, and map existing vegetation of national park units for the Natural Resource Inventory and Monitoring Program. The goals of this project are to (1) adequately describe and map plant communities of Indiana Dunes National Lakeshore and (2) provide the NPS Inventory and Monitoring Program, resource managers, and biological researchers with useful baseline vegetation information.</purpose>
+      <supplinf>The initial product delivery for the Indiana Dunes National Lakeshore Vegetation Mapping Project was in October 2008.  An update to select products was completed in September 2009. Since the initial delivery of products, the program name has undergone a name change.  For purposes of this metadata, most references to the "USGS-NPS Vegetation Mapping Program" are now the "NPS Vegetation Inventory Program."  Occasionally, references to point of contacts are now the "USGS Vegetation Characterization Program."</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20041021</begdate>
+          <enddate>20041024</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Indiana Dunes National Lakeshore and environs</descgeog>
+      <bounding>
+        <westbc>-87.462139</westbc>
+        <eastbc>-86.840334</eastbc>
+        <northbc>41.710291</northbc>
+        <southbc>41.516036</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>vegetation plot</themekey>
+        <themekey>accuracy assessment</themekey>
+        <themekey>USGS-NPS Vegetation Mapping Program</themekey>
+        <themekey>Indiana Dunes National Lakeshore</themekey>
+        <themekey>National Vegetation Classification System</themekey>
+        <themekey>NVCS</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Indiana Dunes National Lakeshore</placekey>
+        <placekey>United States of America</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>La Porte County</placekey>
+      </place>
+    </keywords>
+    <accconst>A computer software program capable of reading and displaying data stored as an ESRI format file geodatabase is required.</accconst>
+    <useconst>1) Those using the spatial database should understand the data and determine for themselves the fitness of the data prior to use. 2) For publication and dissemination, citations or credit should be given to the U.S. Geological Survey Center for Biological Informatics, the National Park Service Biological Resources Management Division, the U.S. Geological Survey Upper Midwest Environmental Sciences Center, the National Park Service Indiana Dunes National Lakeshore, and NatureServe. 3) Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U.S. Department of the Interior, U.S. Geological Survey.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS BRD Center for Biological Informatics</cntorg>
+          <cntper>USGS-NPS Vegetation Mapping Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Several accuracy checks were made against the automated data and the original reports or data sheets, during and after data entry.</attraccr>
+    </attracc>
+    <logic>Each vegetation plot or accuracy assessment site was estimated using a global positioning system (GPS) receiver.  The mapping coordinates were recorded on data sheets, which were later entered into a digital database.  The database was converted into a geographic information system (GIS) data set, containing point features.</logic>
+    <complete>Data forms were filled out for each vegetation plot and accuracy assessment site.  Each set of data sheets had a data record recorded for that site in the GIS data set.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The locations of the vegetation plots and accuracy assessment sites were recorded using global positioning system (GPS) receivers.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Park Service</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Digital Aerial photography</title>
+            <geoform>photo</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>12000</srcscale>
+        <typesrc>digital raster</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20041001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Aerial photography</srccitea>
+        <srccontr>The field crew used aerial photography for location and other information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Parks Service</origin>
+            <pubdate>Unknown</pubdate>
+            <title>National Park Service Maps</title>
+            <geoform>paper map</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NPS Maps</srccitea>
+        <srccontr>Existing park maps were obtained from the parks and used by the field crews as needed.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Upper Midwest Environmental Sciences Center</origin>
+            <pubdate>Unpublished Material</pubdate>
+            <title>Color Infrared Aerial Photo Mosaic</title>
+            <geoform>raster digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>12000</srcscale>
+        <typesrc>digital photo mosaic</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20041001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CIR Aerial Photo Mosaic</srccitea>
+        <srccontr>Mosaic used by field crews as backdrop for AA points</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Vegetation Plots:  Field sampling methodology was adapted from the USGS-NPS Vegetation Mapping Program standards (NatureServe 2004).   The field team worked from June-September, 2005 and sampled 190 plots.</procdesc>
+        <srcused>Aerial Photography</srcused>
+        <srcused>National Park Service Maps</srcused>
+        <procdate>20050601</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Vegetation Plots:  All field data were entered into an PLOTS2, an MS Access database designed for this vegetation mapping program (NatureServe 2005b).  These plots were analyzed using ordination (non-metric multidimensional scaling or NMS) and clustering techniques (Flexible Beta) with PC-Ord 5.0 (McCune and Mefford 1999).  Data were then converted to a point shapefile in ArcGIS 9.2.</procdesc>
+        <procdate>20051201</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Accuracy Assessment:  Field crews were provided with listings of GPS coordinates of their accuracy assessment (AA) sites along with field maps. The crews navigated to their sampling sites, then established AA observation plots within the minimum mapping unit (MMU) area. A number of physical characteristics were recorded for each site (e.g., location, slope, aspect, elevation) along with land cover information (e.g., dominant and subdominant vegetation, percent cover). Detailed descriptions on how these plots were established and sampled is available in the Indiana Dunes National Lakeshore mapping project report, available online.</procdesc>
+        <srcused>CIR Mosaic</srcused>
+        <procdate>20080101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Accuracy Assessment:  All field data were entered into an PLOTS2, an MS Access database designed for this vegetation mapping program (NatureServe 2005b).</procdesc>
+        <procdate>20080401</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Accuracy Assessment:  The field data were then automated, and brought into the software programs ArcView GIS version 3.3 and ArcGIS version 9.2. Information collected in the field was compared to those developed by the photo interpreters (digital data and photo overlays). Results were used to determine; spatial GPS coordinate errors, map automation errors, Unclassified vegetation type on field data sheet errors, incomplete crosswalk between map classes and vegetation type errors, questionable field calls, and inclusion errors (areas missed as they were below the minimum mapping unit). Results of this analysis are available in the Indiana Dunes National Lakeshore mapping project report, available online.</procdesc>
+        <procdate>20080501</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Vegetation Points:  The Vegetation Plot and Accuracy Assessment Point shapefiles were then imported and joined as a feature class in a geodatabase.</procdesc>
+        <procdate>20080801</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Update: An update was performed to the feature class and relational tables within the geodatabase. This update accommodated a decision from the project's wrap-up meeting to add an additional woodland type to the project. Select points determined to be this woodland type were reassigned, and the feature class and relational tables were updated with additional attribute information.</procdesc>
+        <procdate>20090930</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>674</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>fcl_INDU_veg_points</enttypl>
+        <enttypd>The fcl_INDU_veg_points attribute table contains the attribute information directly associated with the vegetation point data set.  If this data set were to be exported out of the file geodatabase and saved as a shapefile, the information contained within fcl_INDU_veg_points are the attributes which would carry through to the new shapefile.  The other attribute/lookup tables (tbl_vegpts_clsf, tbl_vegpts_location, ...) contain additional information that can be associated with the dataset's attributes, through a series of geodatabase relationship classes (rc_clsf_VegPtsInfo, rc_location_VegPtsInfo, ...).</enttypd>
+        <enttypds>USGS-NPS Vegetation Mapping Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature numbers</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Internal feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_Point_ID</attrlabl>
+        <attrdef>Identification values assigned to each site where vegetation point data were collected.  The "INDU." values are used to identify the data were collected at the Indiana Dunes National Lakeshore.  The "AA" codes are used to identify sites where accuracy assessment information was collected.  The "VP" sites identify the locations of vegetation plots whose data were used to develop the map classification scheme.  The 3-digit numbers are used to distinguish individual plots.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_Pts_Type</attrlabl>
+        <attrdef>Written descriptions identifying each point as an Accuracy Assessment site or a Vegetation Plot.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X_Easting</attrlabl>
+        <attrdef>The X mapping coordinate (e.g., easting, longitude stored in UTM zone 16 coordinates) associated with each vegetation point.</attrdef>
+        <attrdefs>Global positioning system (GPS) units used by the field crews.</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y_Northing</attrlabl>
+        <attrdef>The Y mapping coordinate (e.g., northing, latitude stored in UTM zone 16 coordinates) associated with each vegetation point.</attrdef>
+        <attrdefs>Global positioning system (GPS) units used by the field crews.</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>tbl_vegpts_clsf</enttypl>
+        <enttypd>This lookup table contains listings of the primary, secondary, and tertiary vegetation class(es) (when present) found at each sampling site.  The data are stored as descriptive text and as character codes.  Also included is the date of survey as well as the name of person(s) who conducted the survey.  When the vegetation point data are brought into an ArcGIS map, these data will be automatically linked to the vegetation points through a relationship class.  The information is directly accessible through the Identify function, and can be queried back to the point data through the table window's Options --&gt; Relate Tables functions.  If you wish to symbolize the vegetation points using these data or add them to the dataset so you can export the information along with the vegetation polygons, a Join of the attribute table and the lookup table is required.  This can be done several ways, through the layer's properties window, the layer's "Joins and Relates" menu option (right-hand click on layer's name), or through the Joins function located under Data Management in the Toolbox.</enttypd>
+        <enttypds>USGS-NPS Vegetation Mapping Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature numbers</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_Point_ID</attrlabl>
+        <attrdef>Identification values assigned to each site where vegetation point data were collected.  The ID values are used to link information contained in the lookup table to the point data, which in turn georeferences this table.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Primary_Clsf_Name</attrlabl>
+        <attrdef>Contains the vegetation class descriptions for the primary vegetation class at each sampling site.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Primary_Clsf_Code</attrlabl>
+        <attrdef>Character codes associated with the primary vegetation class found at each site.  When the primary vegetation type is the same as one of the classes found in the National Vegetation Classification Scheme (NVCS), then the appropriate NVCS code is used.  Otherwise, the appropriate NVCS Community Element Global Code (CEGL) or ###### (A.##) code is used.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Secondary_Clsf_Name</attrlabl>
+        <attrdef>Contains the vegetation class descriptions for the secondary vegetation class (when present) at each sampling site.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Secondary_Clsf_Code</attrlabl>
+        <attrdef>Character codes associated with the secondary vegetation class (when present) at each site.  When the primary vegetation type is the same as one of the classes found in the National Vegetation Classification Scheme (NVCS), then the appropriate NVCS code is used.  Otherwise, the appropriate NVCS Community Element Global Code (CEGL) or ###### (A.##) code is used.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Other_Clsf_50m</attrlabl>
+        <attrdef>Other vegetation classes (when present) noticed within a 50-meter radius of the center of the sampling site.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Clsf_Comments</attrlabl>
+        <attrdef>Comments (when available) recorded by the individual(s) who conducted the vegetation surveys.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Survey_Date</attrlabl>
+        <attrdef>The date each site was surveyed, written in mm/dd/yyyy format, without proceeding zero placeholders.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Surveyors</attrlabl>
+        <attrdef>The name of the individual(s) who surveyed each site.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>tbl_vegpts_location</enttypl>
+        <enttypd>This lookup table contains additional information on the sites which were sampled, including descriptive text describing the location of each site and GPS accuracy readings.  When the vegetation point data are brought into an ArcGIS map, these data will be automatically linked to the vegetation points through a relationship class.  The information is directly accessible through the Identify function, and can be queried back to the point data through the table window's Options --&gt; Relate Tables functions.  If you wish to symbolize the vegetation points using these data or add them to the dataset so you can export the information along with the vegetation polygons, a Join of the attribute table and the lookup table is required.  This can be done several ways, through the layer's properties window, the layer's "Joins and Relates" menu option (right-hand click on layer's name), or through the Joins function located under Data Management in the Toolbox.</enttypd>
+        <enttypds>USGS-NPS Vegetation Mapping Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature numbers</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_Point_ID</attrlabl>
+        <attrdef>Identification values assigned to each site where vegetation point data were collected.  The ID values are used to link information contained in the lookup table to the point data, which in turn georeferences this table.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Park_Code</attrlabl>
+        <attrdef>The 4-character identifier codes associated with the National Park Service unit in which the survey was conducted.  For this project, all vegetation points were collected with the Indiana Dunes National Lakeshore, INDU.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sublocation</attrlabl>
+        <attrdef>Name of the park unit or area (e.g., name of a beach or marsh) where the vegetation site was located.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_Easting</attrlabl>
+        <attrdef>The X mapping coordinate (e.g., easting, longitude stored in UTM zone 16 coordinates) associated with each vegetation point.</attrdef>
+        <attrdefs>GPS receiver</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_Northing</attrlabl>
+        <attrdef>The Y mapping coordinate (e.g., northing, latitude stored in UTM zone 16 coordinates) associated with each vegetation point.</attrdef>
+        <attrdefs>GPS receiver</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_Zone</attrlabl>
+        <attrdef>The UTM projection zone associated with the X and Y coordinates.  For the Indiana Dunes National Lakeshore vegetation classification project, all coordinates are stored in UTM zone 16 coordinates.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_Datum</attrlabl>
+        <attrdef>The mapping datum (i.e., earth model) associated with the coordinate readings. For the Indiana Dunes National Lakeshore vegetation classification project, all coordinates were calculated using a North American Datum 1983 mapping datum.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GPS_Accuracy</attrlabl>
+        <attrdef>The relative accuracy reading associated with each GPS reading, stored in meters.  These numbers represent the amount of variability the GPS receiver was recording between individual position calculations, at the time the user's position was recorded.</attrdef>
+        <attrdefs>GPS receiver</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Plot_Directions</attrlabl>
+        <attrdef>Character descriptions of where each vegetation sample was collected (e.g., 200 meters southwest of junction of ### and ### roads).</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>tbl_vegpts_photo</enttypl>
+        <enttypd>This lookup table contains photo information</enttypd>
+        <enttypds>USGS-NPS Vegetation Mapping Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature numbers</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_Point_ID</attrlabl>
+        <attrdef>Identification values assigned to each site where vegetation point data were collected.  The ID values are used to link information contained in the lookup table to the point data, which in turn georeferences this table.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Image_ID</attrlabl>
+        <attrdef>The ID number of the aerial photograph most directly centered over the vegetation sampling site.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Photo_Path</attrlabl>
+        <attrdef>Local Path to the image on disk or computer</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>tbl_vegpts_spp</enttypl>
+        <enttypd>This lookup table contains the scientific and common names of each species of plant noticed at each sampling site.  The relationship between this table and the vegetation point data set is a many-to-one relationship, as each species appears as a single record in the lookup table.  Up to 60 plant species appear in this table, linked to an individual sampling site.  The geodatabase relationship class rc_#####_#### can be used to link this table to the vegetation map's attribute table (flc_INDU_veg_points).</enttypd>
+        <enttypds>USGS-NPS Vegetation Mapping Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature numbers</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_Point_ID</attrlabl>
+        <attrdef>Identification values assigned to each site where vegetation point data were collected.  The ID values are used to link information contained in the lookup table to the point data, which in turn georeferences this table.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Species_Counter</attrlabl>
+        <attrdef>This lookup table contains the scientific and common names of each plant species identified at the sampling sites.  The relationship between this table and the vegetation point data is a many-to-one relationship, as each species appears as a single record in the lookup table.  Up to 60 different plant species are associated with a single sampling site.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Plant_Symbol</attrlabl>
+        <attrdef>The 4- to 6-character alpha numeric codes used to identify each plant species.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Scientific_Name</attrlabl>
+        <attrdef>The scientific name associated with each plant species and/or genus.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Common_Name</attrlabl>
+        <attrdef>The common name of each plant species, as recognized by #####.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Family</attrlabl>
+        <attrdef>The scientific name of each taxonomic family the plant is associated with.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stratum_Sort</attrlabl>
+        <attrdef>A numeric representation of the stratum in which the taxon was recorded.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stratum</attrlabl>
+        <attrdef>The stratum in which the taxon was recorded.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Real_Cover</attrlabl>
+        <attrdef>Percent cover for the species within the stratum.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>tbl_vegpts_strata</enttypl>
+        <enttypd>This lookup table contains height and density information on the vegetation site sampled.</enttypd>
+        <enttypds>USGS-NPS Vegetation Mapping Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature numbers</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_Point_ID</attrlabl>
+        <attrdef>Identification values assigned to each site where vegetation point data were collected.  The ID values are used to link information contained in the lookup table to the point data, which in turn georeferences this table.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T1_Hgt</attrlabl>
+        <attrdef>Emergent Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T1_Cover</attrlabl>
+        <attrdef>Emergent Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T2_Hgt</attrlabl>
+        <attrdef>Canopy Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T2_Cover</attrlabl>
+        <attrdef>Canopy Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T3_Hgt</attrlabl>
+        <attrdef>Sub-Canopy Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T3_Cover</attrlabl>
+        <attrdef>Sub-Canopy Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S1_Hgt</attrlabl>
+        <attrdef>Tall Shrub Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S1_Cover</attrlabl>
+        <attrdef>Tall Shrub Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S2_Hgt</attrlabl>
+        <attrdef>Short Shrub Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S2_Cover</attrlabl>
+        <attrdef>Short Shrub Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S3_Hgt</attrlabl>
+        <attrdef>Dwarf Shrub Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S3_Cover</attrlabl>
+        <attrdef>Dwarf Shrub Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_Hgt</attrlabl>
+        <attrdef>Herbaceous Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_Cover</attrlabl>
+        <attrdef>Herbaceous Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>N_Hgt</attrlabl>
+        <attrdef>Non-vascular Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>N_Cover</attrlabl>
+        <attrdef>Non-vascular Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>V_Hgt</attrlabl>
+        <attrdef>Vine/liana Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>V_Cover</attrlabl>
+        <attrdef>Vine/liana Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>E_Hgt</attrlabl>
+        <attrdef>Epiphyte Height</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>E_Cover</attrlabl>
+        <attrdef>Epiphyte Cover</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>tbl_vegpts_vp_info</enttypl>
+        <enttypd>This lookup table contains descriptive information on the vegetation site sampled.  Included within are information on the size and shape of the site sampled, slope, elevation, landform, hydro regime, ... , as well as landscape comments, disturbance information, and whether or not there was noticeable use of the area by animals.  The geodatabase relationship class rc_#####_#### can be used to link this table to the vegetation map's attribute table (flc_INDU_veg_points).</enttypd>
+        <enttypds>USGS-NPS Vegetation Mapping Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature numbers</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Veg_Point_ID</attrlabl>
+        <attrdef>Identification values assigned to each site where vegetation point data were collected.  The ID values are used to link information contained in the lookup table to the point data, which in turn georeferences this table.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Plot_Width</attrlabl>
+        <attrdef>The width of the vegetation plot, in meters.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Plot_Length</attrlabl>
+        <attrdef>The length of the vegetation plot, in meters.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Plot_Shape</attrlabl>
+        <attrdef>The shape of the vegetation plot.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ground_Photo</attrlabl>
+        <attrdef>Note on whether or not a photograph was collected of the sampling site.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Representativeness</attrlabl>
+        <attrdef>A note on whether or not the vegetation plot is representative of at least one hectare of the surrounding area.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Slope</attrlabl>
+        <attrdef>Note on whether or not the vegetation plot was located on flat ground, a gentle slope, moderate slope, or a somewhat steep slope.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Aspect</attrlabl>
+        <attrdef>Note on the compass direction of the slope face.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Topo_Position</attrlabl>
+        <attrdef>The topographic position of the sampling site in relation to other topographic features.  If the sampling site was located on a slope, it was noted if the vegetation plot was high, low, at midpoint, or located on the summit of the slope.  Other entries include channel beds or the bottom of a basin.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Landform</attrlabl>
+        <attrdef>The landform entries are used to denote origin and shape of a region.  Entries include dune structures, basin floors, bottomlands, floodplains, hills, kettles, lakes, lowlands, ...</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cowardin_System</attrlabl>
+        <attrdef>The Cowardin wetland classification ratings for the vegetation plot (when applicable).  Entries include Lacustrine, Palustrine, Riverine, and Upland.</attrdef>
+        <attrdefs>U.S. Fish and Wildlife Service</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hydro_Regime</attrlabl>
+        <attrdef>The hydrologic regime field is used to describe inundation frequency of the vegetation plot (when applicable).  Entries include Intermittently Flooded, Permanently Flooded, Saturated, Seasonally flooded, and Semipermanently flooded.</attrdef>
+        <attrdefs>U.S. Fish and Wildlife Service</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Environmental_Comments</attrlabl>
+        <attrdef>This comment field is mostly used to enter comments related to the hydrologic conditions of the vegetation plots, though some references to plant communities and regional topology are also included.</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Landscape_Comments</attrlabl>
+        <attrdef>Comments made by field crews regarding landscape</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Soil_Texture</attrlabl>
+        <attrdef>The soil texture entries describe the overall content of the soils.  Entries include clay, loam, loamy sand, silt, in single and combined entries.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Soil_Drainage</attrlabl>
+        <attrdef>Comments on the rate of soil drainage.  Entries include; poorly drained, well drained, rapidly drained, ...</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Leaf_Phenology</attrlabl>
+        <attrdef>The leaf phenology describes the annual cycle for the dominant vegetation in the plot.  Entries include; cold-deciduous, drought-deciduous, evergreen, and perennial herb.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Leaf_Type</attrlabl>
+        <attrdef>The generic structure of the dominant vegetation in the plot.  Entries include; broad-leaved, broad-leaved herbaceous, graminoid, mixed herbaceous, and needle-leaved.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Physio_Class</attrlabl>
+        <attrdef>The physiological structure of the dominant vegetation in the plot.  Entries include; dwarf shrubland, forest, herbaceous vegetation, shrubland, sparse vegetation, and woodland.</attrdef>
+        <attrdefs>NatureServe</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Animal_Use_Evidence</attrlabl>
+        <attrdef>Comments on whether or not any evidence of animal use was noticed within the vegetation plot.  Entries include; animal tracks, scats, trails, browsing damage, ...</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Disturbance_Comments</attrlabl>
+        <attrdef>Information related to observations of human disturbances.  Entries include; trash, old fire pits/burns, unofficial hiking trails, vehicles driven through the site, ...</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Other_Comments</attrlabl>
+        <attrdef>Any additional comments.  Entries include; DBH tree measurements, presence or lack of flowers, water depths, ...</attrdef>
+        <attrdefs>USGS-NPS Vegetation Mapping Program</attrdefs>
+        <attrdomv>
+          <udom>Values used to describe layer</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The U.S. Geological Survey and the National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics (if available) are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  Any related graphics (if available) are intended to aid the data user in acquiring relevant data; it is not approriate to use the related graphics as data.
+
+The U.S. Geological Survey and the National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>HTML</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.usgs.gov/core_science_systems/csas/vip/parks/indu.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Internet Access</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20090930</metd>
+    <metrd>20100531</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metextns>
+      <onlink>http://www.usgs.gov/core_science_systems/csas/metadata/index.html</onlink>
+    </metextns>
+  </metainfo>
+</metadata>

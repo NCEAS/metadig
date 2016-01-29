@@ -1,0 +1,663 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.417.5" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+<dataset> <title>Fatty acid signatures for harbor seals and their prey in and around Prince William Sound, Alaska</title>
+ <creator id="1360886555567"><individualName><givenName>Kathryn</givenName>
+ <surName>Frost</surName>
+ </individualName>
+ <organizationName>University of Alaska, Fairbanks</organizationName>
+ <positionName>Affiliate Faculty</positionName>
+ <electronicMailAddress>kjfrost@hawaii.rr.com</electronicMailAddress>
+ </creator>
+ <creator id="1376078171106"><individualName><givenName>Sara</givenName>
+ <surName>Iverson</surName>
+ </individualName>
+ </creator>
+ <creator id="1376078186039"><individualName><givenName>Lloyd</givenName>
+ <surName>Lowry</surName>
+ </individualName>
+ </creator>
+ <creator id="1376078201338"><individualName><givenName>Mike</givenName>
+ <surName>Simpkins</surName>
+ </individualName>
+ </creator>
+ <creator id="1376078212072"><individualName><givenName>Jay</givenName>
+ <surName>Ver Hoef</surName>
+ </individualName>
+ </creator>
+ <associatedParty id="1376006658523"><individualName><givenName>Don</givenName>
+ <surName>Calkins</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1365723503202"><individualName><givenName>Sarah</givenName>
+ <surName>Clark</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Projects Data Coordinator</positionName>
+ <address><deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ </address>
+ <phone phonetype="voice">(805) 892-2500</phone>
+ <electronicMailAddress>sclark@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006686795"><individualName><givenName>Brian</givenName>
+ <surName>Fadely</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006711894"><individualName><givenName>Francis</givenName>
+ <surName>Fay</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006727023"><individualName><givenName>L.</givenName>
+ <surName>Harwood</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006748994"><individualName><givenName>Jon</givenName>
+ <surName>Lewis</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006623160"><individualName><givenName>Vladimir</givenName>
+ <surName>Burkanov</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006674880"><individualName><givenName>Bob</givenName>
+ <surName>Elsner</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006739113"><individualName><givenName>Sue</givenName>
+ <surName>Hills</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077704539"><individualName><givenName>Jim</givenName>
+ <surName>Faro</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006646721"><individualName><givenName>John</givenName>
+ <surName>Burns</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077800638"><individualName><givenName>Ken</givenName>
+ <surName>Pitcher</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006769973"><individualName><givenName>Richard</givenName>
+ <surName>Merrick</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077817250"><individualName><givenName>Dan</givenName>
+ <surName>Reed</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077873251"><individualName><givenName>Robert</givenName>
+ <surName>Suydam</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077759469"><individualName><givenName>Bob</givenName>
+ <surName>Nelson</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006839208"><individualName><givenName>P.</givenName>
+ <surName>Duignan</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1376077642353"><individualName><givenName>Steve</givenName>
+ <surName>Amstrup</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006781613"><individualName><givenName>John</givenName>
+ <surName>Sease</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006865779"><individualName><givenName>C.</givenName>
+ <surName>House</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1376006852345"><individualName><givenName>J.</givenName>
+ <surName>House</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1376006796047"><individualName><givenName>Terry</givenName>
+ <surName>Spraker</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077916810"><individualName><givenName>Pam</givenName>
+ <surName>Tuome</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077893183"><individualName><givenName>Ken</givenName>
+ <surName>Taylor</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077846675"><individualName><givenName>Al</givenName>
+ <surName>Smith</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <abstract><para>Study History: Restoration Project 01064 began in 1993 as a continuation of the initial post-spill study effort conducted as Marine Mammal Study Number 5 (Assessment of Injury to Harbor Seals in Prince William Sound, Alaska, and Adjacent Areas) in 1989 through 1991 and reclassified as Restoration Study Number 73 (Harbor Seal Restoration Study) in 1992. A final report was issued in 1994 for the combined Marine Mammal Study Number 5 and Restoration Study Number 73, entitled Assessment of Injury to Harbor Seals in Prince William Sound, Alaska, and Adjacent Areas Following the Exxon Valdez Oil Spill. Subsequently, annual reports were submitted entitled Habitat Use, Behavior, and Monitoring of Harbor Seals in Prince William Sound: 1994 Annual Report, 1995 Annual Report, 1996 Annual Report , 1997 Annual Report, 1998 Annual Report, and 1999 Annual Report . Fatty acid studies funded under Restoration Project 94320-F (Trophic Interactions of Harbor Seals in Prince William Sound) were included in the 1994 annual report for 94064. Fatty acid studies were continued and reported as part of this study for the duration of the project.
+
+Publications:
+Iverson, S. J., K. J. Frost, and L. F. Lowry. 1997. Fatty acid signatures reveal fine scale structure of foraging distribution of harbor seals and their prey in Prince William Sound, Alaska. Marine Ecology Progress Series 151: 255-71. 
+
+Iverson, S. J., K. J. Frost, and S. L. C. Lang. 2002. Fat content and fatty acid composition of forage fish and invertebrates in Prince William Sound, Alaska: factors contributing to among and within species variability. Marine Ecology Progress Series 241: 161-81.
+
+Iverson, S. J., C. Field, W. D. Bowen, and W. Blanchard. 2004. Quantitative fatty acid signature analysis: a new method of estimating predator diets. Ecological Monographs 74, no. 2: 211-35.
+
+Iverson, S. J., S. L. C. Lang, and M. H. Cooper. 2001. Comparison of the Bligh and Dyer and Folch methods for total lipid determination in a broad range of marine tissue. Lipids 36, no. 11.</para>
+ </abstract>
+ <keywordSet><keyword>harbor seal</keyword>
+ <keyword>prince william sound</keyword>
+ <keyword>pinnipeds</keyword>
+ <keyword>fatty acid</keyword>
+ <keyword>prey</keyword>
+ <keyword>food web</keyword>
+ <keyword>predator diet</keyword>
+ <keyword>feeding ecology</keyword>
+ </keywordSet>
+ <keywordSet><keyword>EVOSTC</keyword>
+ <keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+ <keyword>Oil Spill</keyword>
+ <keyword>Exxon Valdez</keyword>
+ <keyword>Alaska</keyword>
+ <keyword>Pelagic</keyword>
+ <keyword>Fish</keyword>
+ <keyword>Mammals</keyword>
+ <keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+ 
+Standard scientific norms for attribution and credit to the Exxon Valdez Oil Spill Trustee Council and any additional funding agencies should be followed when using these data. 
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <coverage> <temporalCoverage><rangeOfDates><beginDate><calendarDate>1976</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>1978</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>1985</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1989</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>1990</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1993</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2000</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Phoca</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>vitulina richardsi</taxonRankValue>
+ <commonName>Harbor Seal</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <geographicCoverage><geographicDescription>Prince William Sound, Alaska, USA</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-149.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>-145.625</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.5</northBoundingCoordinate>
+ <southBoundingCoordinate>59.375</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Southeast Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-144.625</westBoundingCoordinate>
+ <eastBoundingCoordinate>-135.125</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.375</northBoundingCoordinate>
+ <southBoundingCoordinate>55.75</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Kodiak Island, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-155.5</westBoundingCoordinate>
+ <eastBoundingCoordinate>-152.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>58.625</northBoundingCoordinate>
+ <southBoundingCoordinate>56.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Bering Sea</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-175.375</westBoundingCoordinate>
+ <eastBoundingCoordinate>-159.875</eastBoundingCoordinate>
+ <northBoundingCoordinate>58.125</northBoundingCoordinate>
+ <southBoundingCoordinate>52.25</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Kenai, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-152.125</westBoundingCoordinate>
+ <eastBoundingCoordinate>-150.125</eastBoundingCoordinate>
+ <northBoundingCoordinate>59.875</northBoundingCoordinate>
+ <southBoundingCoordinate>58.875</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Kayak Island, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-144.368</westBoundingCoordinate>
+ <eastBoundingCoordinate>-144.22</eastBoundingCoordinate>
+ <northBoundingCoordinate>59.934</northBoundingCoordinate>
+ <southBoundingCoordinate>59.934</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Gulf of Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-158.125</westBoundingCoordinate>
+ <eastBoundingCoordinate>-133.125</eastBoundingCoordinate>
+ <northBoundingCoordinate>59.875</northBoundingCoordinate>
+ <southBoundingCoordinate>45.75</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Barren Islands, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-152.5</westBoundingCoordinate>
+ <eastBoundingCoordinate>-150.875</eastBoundingCoordinate>
+ <northBoundingCoordinate>59.125</northBoundingCoordinate>
+ <southBoundingCoordinate>58.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Alaska Peninsula</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-170.625</westBoundingCoordinate>
+ <eastBoundingCoordinate>-154.875</eastBoundingCoordinate>
+ <northBoundingCoordinate>58.25</northBoundingCoordinate>
+ <southBoundingCoordinate>53.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Aleutian Islands, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-173.7005</westBoundingCoordinate>
+ <eastBoundingCoordinate>-173.6</eastBoundingCoordinate>
+ <northBoundingCoordinate>52.125</northBoundingCoordinate>
+ <southBoundingCoordinate>52.0969</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1365723593932"><individualName><givenName>Gail</givenName>
+ <surName>Blundell</surName>
+ </individualName>
+ <organizationName>Alaska Department of Fish and Game, Harbor Seal Research Program</organizationName>
+ <positionName>Program Leader</positionName>
+ <electronicMailAddress>gail.blundell@alaska.gov</electronicMailAddress>
+ </contact>
+ <contact id="1365723611372"><individualName><givenName>Christine</givenName>
+ <surName>Schmale</surName>
+ </individualName>
+ <organizationName>Alaska Department of Fish and Game</organizationName>
+ <electronicMailAddress>christine.schmale@alaska.gov</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>See publications</title>
+ <para>Iverson, S. J., K. J. Frost, and L. F. Lowry. 1997. Fatty acid signatures reveal fine scale structure of foraging distribution of harbor seals and their prey in Prince William Sound, Alaska. Marine Ecology Progress Series 151: 255-71.</para>
+ <para>Iverson, S. J., K. J. Frost, and S. L. C. Lang. 2002. Fat content and fatty acid composition of forage fish and invertebrates in Prince William Sound, Alaska: factors contributing to among and within species variability. Marine Ecology Progress Series 241: 161-81.</para>
+ <para>Iverson, S. J., C. Field, W. D. Bowen, and W. Blanchard. 2004. Quantitative fatty acid signature analysis: a new method of estimating predator diets. Ecological Monographs 74, no. 2: 211-35.</para>
+ <para>Iverson, S. J., S. L. C. Lang, and M. H. Cooper. 2001. Comparison of the Bligh and Dyer and Folch methods for total lipid determination in a broad range of marine tissue. Lipids 36, no. 11.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project><title>Monitoring, Habitat Use, and Trophic Interactions of Harbor Seals in PWS, Alaska</title>
+ <personnel><references>1360886555567</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council projects 01064, 99064, 98064, 97064, 96064, 95064, 94064, 93064, R073, MM05; this study was supported in part by Federal Aid in Wildlife Restoration Project 18.7, Job W-24-3, and an annual grant to ADF&amp;G for harbor seal investigations in Alaska allocated by the US Congress and administered through the National Marine Fisheries Service (NMFS); Serologic work was supported by a grant from the European Union (HCM project number ERBCHBGCT920106) and from the Seal Rehabilitation and Research Center at Pieterburen, The Netherlands</para>
+ </funding>
+ </project>
+ <dataTable id="1383340799776"><entityName>sealFattyAcidSig.csv</entityName>
+ <entityDescription>Fatty acid signature data from harbor seal samples</entityDescription>
+ <physical id="1383336315403"><objectName>sealFattyAcidSig.csv</objectName>
+ <size unit="byte">9415630</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.426.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383340799777"><attributeName>RecordNo</attributeName>
+ <attributeDefinition>Sequential record number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799778"><attributeName>SealID</attributeName>
+ <attributeDefinition>ID of harbor seal sampled</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unique ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799779"><attributeName>Year</attributeName>
+ <attributeDefinition>Year of sample collection</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799780"><attributeName>CollLocation</attributeName>
+ <attributeDefinition>Location of sample collection</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Place name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799781"><attributeName>Area</attributeName>
+ <attributeDefinition>Area of sample collection (e.g. Prince William Sound, Southeast Alaska, Kodiak)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Place name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799782"><attributeName>SubArea</attributeName>
+ <attributeDefinition>breakdown of the area into regions (e.g. North, South, Central, Northwest)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Cardinal direction</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799783"><attributeName>SubArea2</attributeName>
+ <attributeDefinition>specific area of sample collection&#8230;.sometimes this is the same as the collection location.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799784"><attributeName>Month</attributeName>
+ <attributeDefinition>Month of sample collection</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799785"><attributeName>Season</attributeName>
+ <attributeDefinition>Season of sample collection</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Spr</code>
+ <definition>spring</definition>
+ </codeDefinition>
+ <codeDefinition><code>Fall</code>
+ <definition>fall</definition>
+ </codeDefinition>
+ <codeDefinition><code>Win</code>
+ <definition>winter</definition>
+ </codeDefinition>
+ <codeDefinition><code>Sum</code>
+ <definition>summer</definition>
+ </codeDefinition>
+ <codeDefinition><code>na</code>
+ <definition>no information</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799786"><attributeName>AgeGiven</attributeName>
+ <attributeDefinition>Age of harbor seal sampled</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Age description or number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799787"><attributeName>AgeClassEst</attributeName>
+ <attributeDefinition>age of harbor seal sampled</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Age class description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799788"><attributeName>Sex</attributeName>
+ <attributeDefinition>Gender of the harbor seal</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>M</code>
+ <definition>male</definition>
+ </codeDefinition>
+ <codeDefinition><code>F</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition><code>na</code>
+ <definition>no information</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799789"><attributeName>StdLength</attributeName>
+ <attributeDefinition>standard length of harbor seal sampled. In cm.  Standard length is measured in straight line from the tip of the nose to the end of the tail.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799790"><attributeName>Weight</attributeName>
+ <attributeDefinition>Weight of harbor seal sampled.  In kg.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799791"><attributeName>Notes</attributeName>
+ <attributeDefinition>Notes from capture event</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799792"><attributeName>fattyAcid</attributeName>
+ <attributeDefinition>Fatty acid signature. A fatty acid is a carboxylic acid with a long aliphatic (carbon chain) tail which is either saturated (no double bonds between carbon pairs) or unsaturated (at least one double bond between carbon pairs). In the naming of fatty acids, lipid numbers take the form C:D, where C is the number of carbon atoms in the fatty acid chain and D is the number of double bonds in the fatty acid (if more than one, the double bonds are assumed to be interrupted by CH2 units, i.e., at intervals of 3 carbon atoms along the chain). This notation can be ambiguous, as some different fatty acids can have the same numbers. n&#8722;x nomenclature both provides names for individual compounds and classifies them by their likely biosynthetic properties in animals. A double bond is located on the xth carbon&#8211;carbon bond, counting from the terminal methyl carbon (designated as n toward the carbonyl carbon. For example: linolenic acid is written as 18:2 n-6, this means that there are 18 carbons in the fatty acid chain and there are 2 double bonds, with the first double bond occurring 6 carbons from the methyl end (between carbons 6 and 7) and the second would be at the 9th carbon (between carbons 9 and 10).&#160; Here is a drawing of the chemical structure for linolenic acid (18:2 n-6) CH3-CH2-CH2-CH2-CH2-CH=CH-CH2-CH=CH-CH2-CH2-CH2-CH2-CH2-CH2-CH2-COOH. i and ai stands for iso and anteiso, which are branched chain fatty acids, me stands for fatty acids that contain a methyl group, d stands for deoxy, and represents fatty acids with less oxygen atoms than normal.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Fatty acid signature</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383340799793"><attributeName>amount</attributeName>
+ <attributeDefinition>The amount represents each fatty acid's (FA's) relative abundance among all the FA's quantified for that sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>75306</numberOfRecords>
+ </dataTable>
+ <dataTable id="1383341549972"><entityName>preyFattyAcidSig.csv</entityName>
+ <entityDescription>Fatty acid signature data from harbor seal prey samples</entityDescription>
+ <physical id="1383340893297"><objectName>preyFattyAcidSig.csv</objectName>
+ <size unit="byte">13410392</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.427.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1383341549973"><attributeName>RecordNo</attributeName>
+ <attributeDefinition>Sequential record number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549974"><attributeName>LabCode</attributeName>
+ <attributeDefinition>No information</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>No information</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549975"><attributeName>CommonName</attributeName>
+ <attributeDefinition>Common name of prey sampled</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species common names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549976"><attributeName>SpeciesName</attributeName>
+ <attributeDefinition>Genus/species of prey sampled</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Genus and species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549977"><attributeName>CollLocation</attributeName>
+ <attributeDefinition>Location of sample collection</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549978"><attributeName>Area</attributeName>
+ <attributeDefinition>Area of sample collection (e.g. Prince William Sound, Southeast Alaska, Kodiak)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549979"><attributeName>SubArea</attributeName>
+ <attributeDefinition>breakdown of the area into regions (e.g. North, South, Central, Northwest)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>cardinal direction</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549980"><attributeName>CollMonth</attributeName>
+ <attributeDefinition>Month of sample collection</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549981"><attributeName>CollYear</attributeName>
+ <attributeDefinition>Year of sample collection</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549982"><attributeName>Length_cm</attributeName>
+ <attributeDefinition>Length of prey sampled, in centimeters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549983"><attributeName>Mass_g</attributeName>
+ <attributeDefinition>Mass of prey sampled in grams</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549984"><attributeName>Lipid</attributeName>
+ <attributeDefinition>lipid content; percentage of wet weight.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549985"><attributeName>Comments1</attributeName>
+ <attributeDefinition>comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549986"><attributeName>Comments2</attributeName>
+ <attributeDefinition>comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549987"><attributeName>fattyAcid</attributeName>
+ <attributeDefinition>Fatty acid signature. A fatty acid is a carboxylic acid with a long aliphatic (carbon chain) tail which is either saturated (no double bonds between carbon pairs) or unsaturated (at least one double bond between carbon pairs). In the naming of fatty acids, lipid numbers take the form C:D, where C is the number of carbon atoms in the fatty acid chain and D is the number of double bonds in the fatty acid (if more than one, the double bonds are assumed to be interrupted by CH2 units, i.e., at intervals of 3 carbon atoms along the chain). This notation can be ambiguous, as some different fatty acids can have the same numbers. n&#8722;x nomenclature both provides names for individual compounds and classifies them by their likely biosynthetic properties in animals. A double bond is located on the xth carbon&#8211;carbon bond, counting from the terminal methyl carbon (designated as n toward the carbonyl carbon. For example: linolenic acid is written as 18:2 n-6, this means that there are 18 carbons in the fatty acid chain and there are 2 double bonds, with the first double bond occurring 6 carbons from the methyl end (between carbons 6 and 7) and the second would be at the 9th carbon (between carbons 9 and 10).&#160; Here is a drawing of the chemical structure for linolenic acid (18:2 n-6) CH3-CH2-CH2-CH2-CH2-CH=CH-CH2-CH=CH-CH2-CH2-CH2-CH2-CH2-CH2-CH2-COOH. i and ai stands for iso and anteiso, which are branched chain fatty acids, me stands for fatty acids that contain a methyl group, d stands for deoxy, and represents fatty acids with less oxygen atoms than normal.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Fatty acid signature</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1383341549988"><attributeName>amount</attributeName>
+ <attributeDefinition>The amount represents each fatty acid's (FA's) relative abundance among all the FA's quantified for that sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>95700</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

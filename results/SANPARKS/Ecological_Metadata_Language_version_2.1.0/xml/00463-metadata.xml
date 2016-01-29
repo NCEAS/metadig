@@ -1,0 +1,613 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1126.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>The role of host genetics in susceptibility to anthrax among Burchell&#8217;s zebra (Equus burchelli) of southern Africa.</title>
+ <creator id="1321348199689"> <organizationName>SANParks</organizationName>
+ </creator>
+ <abstract><para>The data collected for this study were used to investigate the evolution of immune genes across equid species and among zebra populations in southern Africa, specifically to understand how pathogens mediate and drive host genetic patterns. Fecal samples were collected from plains zebra (Equus quagga) in Kruger National Park, RSA for genetic analyses and contrasted to genetic data collected from zebra of Etosha National Park, Namibia. Samples were collected from July 2007 to March 2008 from zebra in two general regions in Kruger: around Lower Sabie and Satara. GPS locations were recorded from most individuals sampled, but when not available, a description of the area is given. Associated data collected included age class, gender, and group size.  DNA was extracted from the outer mucosal cells of the fecal material and individuals were genotyped at 15 microsatellite loci (Aht21, Asb23, Cor014, Hmb1, Hms7, Htg7, Htg9, Htg14, Htg15, Lex33, Lex20, Lex52, Ucdeq505, Um011, Vhl47), and sequenced at 2 Major Histocompatibility Complex (MHC) genes (ELA-DRA and DQA, exon 2), and 1 nuclear intron (&#946;- Fibrinogen, intron 7). An individual&#8217;s microsatellite genotype is given as fragment lengths, and sequence data as haplotypes. Microsatellite genotypes derived from fecal material were confirmed by a comparative genotyping approach that required at least two replicates for each heterozygous locus and two replicates for each homozygous locus to be performed. Sequences were also confirmed through re-sequencing and cloning techniques. Haplotype sequences are provided in an additional file.</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Kruger National Park South Africa</keyword>
+ <keyword>plains zebra, genetic data, MHC, Major Histocompatibility Complex genes, microsatellites</keyword>
+ </keywordSet>
+ <intellectualRights><para>Data may be accessed freely by the public, but please contact the author for the rights to use the data in any scientific reports or publications (see contact information below).
+
+Principal Investigator:
+
+Dr. Pauline L. Kamath
+US Geological Survey
+Northern Rocky Mountain Science Center (NOROCK)
+2327 University Way, Suite 2
+Bozeman, MT 59715
+USA
+Email: paulinekamath@gmail.com</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>KNP_Boundary</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>30.888418</westBoundingCoordinate>
+ <eastBoundingCoordinate>32.033169</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.32785</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.528913</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2007-07-15</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2011-11-15</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Equus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Burchelli</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1321348207253"><individualName><salutation>PI</salutation>
+ <givenName>Pauline</givenName>
+ <surName>Karnath</surName>
+ </individualName>
+ <electronicMailAddress>paulinekamath@gmail.com</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Methods</title>
+ <para>.  DNA was extracted from the outer mucosal cells of the fecal material and individuals were genotyped at 15 microsatellite loci (Aht21, Asb23, Cor014, Hmb1, Hms7, Htg7, Htg9, Htg14, Htg15, Lex33, Lex20, Lex52, Ucdeq505, Um011, Vhl47), and sequenced at 2 Major Histocompatibility Complex (MHC) genes (ELA-DRA and DQA, exon 2), and 1 nuclear intron (&#946;- Fibrinogen, intron 7). An individual&#8217;s microsatellite genotype is given as fragment lengths, and sequence data as haplotypes. Microsatellite genotypes derived from fecal material were confirmed by a comparative genotyping approach that required at least two replicates for each heterozygous locus and two replicates for each homozygous locus to be performed. Sequences were also confirmed through re-sequencing and cloning techniques. Haplotype sequences are provided in an additional file.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1321350582280"><entityName>KamathPL_ZebraSampling&amp;amp;GenotypeData.txt</entityName>
+ <physical id="1321349273802"><objectName>KamathPL_ZebraSampling&amp;GenotypeData.txt</objectName>
+ <size unit="byte">26468</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1128.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1321350582296"><attributeName>Sample No.</attributeName>
+ <attributeDefinition>Individual indentifier</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582311"><attributeName>Date Collected</attributeName>
+ <attributeDefinition>Date when sample was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd-mmm-yy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582327"><attributeName>Pop.</attributeName>
+ <attributeDefinition>National Park where sample was collected</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>ENP</code>
+ <definition>Etosha National Park</definition>
+ </codeDefinition>
+ <codeDefinition><code>KNP</code>
+ <definition>Kruger National Park</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582342"><attributeName>GPS  (S&#186;)</attributeName>
+ <attributeDefinition>Latitudinal coordinate decomal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582358"><attributeName>GPS (E&#186;)</attributeName>
+ <attributeDefinition>Longitudinal coordinate decimal degree</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582374"><attributeName>Area</attributeName>
+ <attributeDefinition>General location where sample was collected</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582389"><attributeName>Sex</attributeName>
+ <attributeDefinition>Gender determined from observation</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>M</code>
+ <definition>Male</definition>
+ </codeDefinition>
+ <codeDefinition><code>F</code>
+ <definition>Female</definition>
+ </codeDefinition>
+ <codeDefinition><code>U</code>
+ <definition>Unknown</definition>
+ </codeDefinition>
+ <codeDefinition><code>?</code>
+ <definition>Unknown</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582405"><attributeName>Age Class</attributeName>
+ <attributeDefinition>General estimated age</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>SAd</code>
+ <definition>Subb adult &lt; 2 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (~5 yrs)</code>
+ <definition>Adult 5 yeats</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad</code>
+ <definition>Adult</definition>
+ </codeDefinition>
+ <codeDefinition><code>J</code>
+ <definition>Juvenile &lt;1 year</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (5 yrs)</code>
+ <definition>Adult 5 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (3.5yrs)</code>
+ <definition>Adult 3.5 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (2.5yrs)</code>
+ <definition>Adult 2.5 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (6-7yrs)</code>
+ <definition>Adult 6-7 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad  (2.5yrs)</code>
+ <definition>Adult 2.5 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (6yrs)</code>
+ <definition>adult 6 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (11yrs)</code>
+ <definition>Adult 11 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (3yrs)</code>
+ <definition>Adult 3 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>?</code>
+ <definition>Unknon</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ad (8-9yrs)</code>
+ <definition>Adult 8-9 years</definition>
+ </codeDefinition>
+ <codeDefinition><code>yAd</code>
+ <definition>?</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582421"><attributeName>Group Size</attributeName>
+ <attributeDefinition>Number of individuals in group that individua was associated</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582436"><attributeName>Sample Type</attributeName>
+ <attributeDefinition>Sample material collected from animal</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Types of samples</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582452"><attributeName>Aht21</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582467"><attributeName>Aht21 2nd allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582483"><attributeName>Asb23</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582499"><attributeName>ASB23 2nd allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582514"><attributeName>Coro14</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582530"><attributeName>Coro 4 2nd allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582546"><attributeName>Hmb1</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582561"><attributeName>Hmb1 2nd allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582577"><attributeName>Hms7</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582593"><attributeName>Hms7 2nd alleles</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582608"><attributeName>Htg7</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582624"><attributeName>Htg7 second allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582639"><attributeName>Htg9</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582655"><attributeName>Htg9 second allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582671"><attributeName>Htg14</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582686"><attributeName>Htg14 second allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582702"><attributeName>Htg15</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582718"><attributeName>Htg15 second allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582733"><attributeName>Lex20</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582749"><attributeName>Lex20 2nd allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582764"><attributeName>Lex33</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582780"><attributeName>Lex33 2nd allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582796"><attributeName>Lex52</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582811"><attributeName>Lex52</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582827"><attributeName>Ucdeq505</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582843"><attributeName>Ucdeq505 second allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582858"><attributeName>Um011</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582874"><attributeName>Um011 second allele</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582889"><attributeName>Vhl47</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582905"><attributeName>Vhl47</attributeName>
+ <attributeDefinition>microsatellite locus: fragment length of the two alleles amplified at the locus</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582921"><attributeName>"B-Fibrinogen, Intron 7"</attributeName>
+ <attributeDefinition>The two alleles found at the &#946;-Fibrinogen gene locus, determined by sequencing</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sequences representing each allele code can be found in additional haplotype file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582936"><attributeName>&#946;-Fibrinogen, Intron 7second allele</attributeName>
+ <attributeDefinition>The two alleles found at the &#946;-Fibrinogen gene locus, determined by sequencing</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sequences representing each allele code can be found in additional haplotype file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582952"><attributeName>"ELA-DRA, exon 2"</attributeName>
+ <attributeDefinition>The two alleles found at the DRA locus, determined by sequencing</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sequences representing each allele code can be found in additional haplotype file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582968"><attributeName>ELA-DRA, exon 2  second allele</attributeName>
+ <attributeDefinition>The two alleles found at the DRA locus, determined by sequencing</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sequences representing each allele code can be found in additional haplotype file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582983"><attributeName>"ELA-DQA, exon 2"</attributeName>
+ <attributeDefinition>Alleles found at the DQA locus, determined by sequencing. Gene found to have multiple copies, and cloning identified from 1-4 alleles/ individual</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sequences representing each allele code can be found in additional haplotype file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350582999"><attributeName>ELA-DQA, exon 2 second allele</attributeName>
+ <attributeDefinition>Alleles found at the DQA locus, determined by sequencing. Gene found to have multiple copies, and cloning identified from 1-4 alleles/ individual</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sequences representing each allele code can be found in additional haplotype file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350583014"><attributeName>ELA-DQA, exon 2  second allesel</attributeName>
+ <attributeDefinition>Sequences representing each allele code can be found in additional haplotype file</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sequences representing each allele code can be found in additional haplotype file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>124</numberOfRecords>
+ </dataTable>
+ <dataTable id="1321350840472"><entityName>KamathPL_HaplotypeData.txt</entityName>
+ <physical id="1321350714134"><objectName>KamathPL_HaplotypeData.txt</objectName>
+ <size unit="byte">15059</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1129.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1321350840488"><attributeName>Gene</attributeName>
+ <attributeDefinition>Gene locus name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>B-Fibr</code>
+ <definition>Beta-Fibrinogen, Intron 7</definition>
+ </codeDefinition>
+ <codeDefinition><code>ELA-DRA</code>
+ <definition>Equine Lymphocyte Antigen, DR-alpha subunit, exon 2</definition>
+ </codeDefinition>
+ <codeDefinition><code>ELA-DQA</code>
+ <definition>Equine Lymphocyte Antigen, DQ-alpha subunit, exon 2</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350840503"><attributeName>Allele Name</attributeName>
+ <attributeDefinition>Name of unique allele at the gene locus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Allele name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350840519"><attributeName>GenBank Accession #</attributeName>
+ <attributeDefinition>Identifying number for accessing record on the NCBI online genomic database (http://www.ncbi.nlm.nih.gov/genbank/)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>To be submitted: are in the process of bein submitted and have not been assigned GenBank accession numbers yet</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1321350840534"><attributeName>DNA Sequence</attributeName>
+ <attributeDefinition>unique nucleotide (A,C,T,G) sequence of the allele</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>A: Adenosine, C: Cytosine, G: guanine, T:Thymine</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>43</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>Kamath&amp;Getz_2011_BMCEvolutionayBiology.pdf</entityName>
+ <physical><objectName>Kamath&amp;Getz_2011_BMCEvolutionayBiology.pdf</objectName>
+ <size unit="byte">2409516</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1321350886169"><online><url function="download">ecogrid://knb/judithk.1130.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,514 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.109987.2" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset scope="document">  <title>Long term Weather  data for Richtersveld National Park  1994-2009</title>
+<creator id="1383118954010" scope="document"> <organizationName>SAWS</organizationName>
+ </creator>
+ <associatedParty scope="document"> <references>1383118961030</references>
+ <role>Collaborator</role>
+ </associatedParty>
+ <associatedParty id="1383119026191" scope="document"> <individualName> <givenName>Peggy</givenName>
+ <surName>Madonsela</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <role>Data Curator</role>
+ </associatedParty>
+<abstract><para>Weather data for 3 stations around the Richtersveld. Basic data quality checks were done and are reported on in the methods</para>
+</abstract>
+<keywordSet><keyword>SANParks, South Africa, Ai-|Ais/Richtersveld Transfrontier National Park, South Africa</keyword>
+<keyword>Weather, climate, humidity,pressure,rainfall,temperature,wind</keyword>
+</keywordSet>
+   <intellectualRights> <para>This data belongs to the SAWS and may therefore only be used for reserach purposes. If you would like to use this for any other reason please contact the SAWS directly</para>
+ </intellectualRights>
+ <coverage scope="document">   <temporalCoverage><rangeOfDates><beginDate><calendarDate>1994</calendarDate>
+</beginDate>
+<endDate><calendarDate>2009</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage><geographicDescription>RichtersveldNationalPark</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>16.881961</westBoundingCoordinate>
+<eastBoundingCoordinate>17.412486</eastBoundingCoordinate>
+<northBoundingCoordinate>-28.034941</northBoundingCoordinate>
+<southBoundingCoordinate>-29.262835</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+ <contact id="1383118961030" scope="document"> <individualName> <salutation>Dr</salutation>
+ <givenName>Nicola</givenName>
+ <surName>Van Wilgen</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ </contact>
+<methods><methodStep><description><section><title>Basic data quality checks for RICHTERSVELD KOEROEGAB</title>
+<para>0309041 5	RICHTERSVELD KOEROEGAB	Lat:	-28.19	Long:	17.05	Height: 498  m	RAINFALL	CurOrder:</para>
+<para>Notes and general comments</para>
+<para>There were no obvious gaps in the data and 0 occurences of failed readings</para>
+<para>Reading of 84mm recorded on 17 February 2000 is likely erroneous - no rain recorded at Vioolsdrift</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Basic data quality checks for Vioolsdrift</title>
+<para>0276072 8	VIOOLSDRIFT	Lat:	-28.71	Long:	17.58	Height: 245  m	RAINFALL	CurOrder:</para>
+<para>Notes and general comments</para>
+<para>80mm of rain recorded on 18 December 1953 appears unlikely as does 75mm recorded on 24 March 1981</para>
+<para>There are no obvious gaps and only two occurences of failed data readings</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Basic data quality checks for Vioolsdrif that was closed</title>
+<para>0276162 9	VIOOLSDRIF	Lat:	-28.7	Long:	17.6	Height: 167  m	CLOSED	CurOrder:</para>
+<para>Notes</para>
+<para>Two years of humidity data deleted prior to 1993 because there were too many gaps in this section of the data</para>
+<para>Two years of temperature data were also deleted due to two significant gaps in the first two years which would have made extrapolation of missing data very difficult.</para>
+<para>The same deletion was made in the wind data because of the same missing data problem.</para>
+<para>1996/04/30 missing from the temperature data</para>
+<para>1997/01/12 - 15, 1997/02/09 - 11, Jan 1998, 1998/08/01 - 7, 1998/08/17- 20 missing from temperature series</para>
+<para> </para>
+<para>General comments</para>
+<para>Temperature: There is a clear annual pattern in temperature, but the data series is very short (1993 - 2002). Two years of temperature data were deleted due to two significant gaps in the first two years.</para>
+<para>Rainfall: There is relatively low rainfall during the period measured (in agreement with the Vioolsdrift data). There are no obvious gaps, but the data series is very short.</para>
+<para>Humidity: Two years of humidity data deleted prior to 1993 because there were too many gaps in this section of the data, following this the data show an annual cycle with only one noticible gap.</para>
+<para>Wind: The same deletion (as in the humidity and temperature data) was made in the wind data because of the same missing data problem. The remaining data show a clear trend in wind speed and direction.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+ <dataTable id="1384405866560"><entityName>Richtersveld - Richtersveld KoerogabRainfall2009.txt</entityName>
+<physical id="1384405807170"><objectName>Richtersveld - Richtersveld KoerogabRainfall2009.txt</objectName>
+<size unit="byte">290412</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109988.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384405866570"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0309041 5</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384405866580"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>RICHTERSVELD KOEROEGAB</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384405866590"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384405866600"><attributeName>Rainfall amount</attributeName>
+<attributeDefinition>Rainfall amount</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384405866610"><attributeName>Rainfall type</attributeName>
+<attributeDefinition>Rainfall type</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>5479</numberOfRecords>
+</dataTable>
+<dataTable id="1384406095342"><entityName>Richtersveld - VioolsdriftRainfall2009.txt</entityName>
+<physical id="1384406032951"><objectName>Richtersveld - VioolsdriftRainfall2009.txt</objectName>
+<size unit="byte">882029</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109989.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384406095352"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0276072 8</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384406095362"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>VIOOLSDRIFT</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384406095372"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384406095382"><attributeName>Rainfall</attributeName>
+<attributeDefinition>Rainfall</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384406095392"><attributeName>Rainfall types</attributeName>
+<attributeDefinition>Rainfall types</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall types</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>21002</numberOfRecords>
+</dataTable>
+<dataTable id="1384406540089"><entityName>Richtersveld - VioolsdrifHumidity2009.txt</entityName>
+<physical id="1384406458511"><objectName>Richtersveld - VioolsdrifHumidity2009.txt</objectName>
+<size unit="byte">283249</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109990.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384406540099"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0276162 9</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384406540109"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>VIOOLSDRIF</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384406540119"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384406540129"><attributeName>Hour</attributeName>
+<attributeDefinition>Hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384406540139"><attributeName>Humidity in %</attributeName>
+<attributeDefinition>Humidity in %</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>7536</numberOfRecords>
+</dataTable>
+<dataTable id="1384406695267"><entityName>Richtersveld - VioolsdrifRainfall12009.txt</entityName>
+<physical id="1384406629137"><objectName>Richtersveld - VioolsdrifRainfall12009.txt</objectName>
+<size unit="byte">140053</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109991.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384406695277"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0276162 9</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384406695287"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>VIOOLSDRIF</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384406695297"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384406695307"><attributeName>Rainfall</attributeName>
+<attributeDefinition>Rainfall</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384406695317"><attributeName>Rainfall type</attributeName>
+<attributeDefinition>Rainfall type</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall type</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>3409</numberOfRecords>
+</dataTable>
+<dataTable id="1384406865125"><entityName>Richtersveld - VioolsdrifTemperature2009.txt</entityName>
+<physical id="1384406796598"><objectName>Richtersveld - VioolsdrifTemperature2009.txt</objectName>
+<size unit="byte">140524</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109992.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384406865135"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384406865145"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>VIOOLSDRIF</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384406865155"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384406865165"><attributeName>Maximum temperature</attributeName>
+<attributeDefinition>Maximum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384406865175"><attributeName>Minimum temperature</attributeName>
+<attributeDefinition>Minimum temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>3409</numberOfRecords>
+</dataTable>
+<dataTable id="1384407028767"><entityName>Richtersveld - VioolsdrifWind2009.txt</entityName>
+<physical id="1384406943561"><objectName>Richtersveld - VioolsdrifWind2009.txt</objectName>
+<size unit="byte">475036</size>
+<dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109993.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384407028777"><attributeName>Station number</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0276162 9</code>
+<definition>Station number</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384407028787"><attributeName>Station name</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>VIOOLSDRIF</code>
+<definition>Station name</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384407028797"><attributeName>Date</attributeName>
+<attributeDefinition>Date</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384407028807"><attributeName>hour</attributeName>
+<attributeDefinition>Hour</attributeDefinition>
+<measurementScale><dateTime><formatString>hh</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384407028817"><attributeName>Wind speed</attributeName>
+<attributeDefinition>Wind speed</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384407028827"><attributeName>Wind direction in degrees</attributeName>
+<attributeDefinition>Wind direction in degrees</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>10227</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="Hecta Pascal" multiplierToSI="100" name="Hecta Pascal" parentSI="pascal" unitType="pressure"> <description>Hecta Pascal</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

@@ -1,0 +1,314 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>WANIA, R.</origin>
+        <origin>ROSS, I.</origin>
+        <origin>PRENTICE, I.C.</origin>
+        <title>Lund-Potsdam-Jena Wetland Hydrology and Methane DGV Model (LPJ-WHyMe v1.3.1)</title>
+        <onlink>http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1150</onlink>
+        <onlink>http://daac.ornl.gov/mercury_harvest/1150.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/mercury_harvest/1150.xml</alt_onlink>
+        <onlink>http://daac.ornl.gov//MODELS/guides/LPJ-WHyMe_v1-3-1.html</onlink>
+        <geoform>metadata</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This model product provides the Fortran 77 source code for the Lund-Potsdam-Jena (LPJ) Wetland Hydrology and Methane Dynamic Global Vegetation Model (LPJ-WHyMe v1.3.1), auxiliary C++ routines, ASCII and NetCDF input data, and NetCDF example output data. LPJ-WHyMe v1.3.1 simulates peatland hydrology, permafrost dynamics, peatland vegetation, and methane emissions.
+
+The model processes can be simulated on an area-averaged 0.5 or 1.0 degree grid cell basis at global, regional, or site scales and on a daily, monthly, or annual time step as appropriate. Input driver data are monthly mean air temperature, total precipitation, percentage of full sunshine, annual atmospheric CO2 concentration, and soil texture class. The simulation for each grid cell begins from "bare ground", requiring a "spin up" (under non-transient climate) of ca. 1,000 years to develop equilibrium vegetation, carbon, and soil structure. Model simulations compare favorably, with some exceptions, to field observations collected from peatland sites (e.g., Degero, Sweden; Lakkasuo, Finland; BOREAS Northern Study Area, Canada; and others) and non-peatland sites (e.g., Point Barrow, Alaska, and Spasskaya, Siberia).
+ 
+LPJ-WHyMe is a further development of LPJ-WHy, which dealt with the introduction of permafrost and peatlands into LPJ. Implementing peatlands in LPJ required the addition of two new plant functional types (PFTs) (flood tolerant C3 graminoids and Sphagnum mosses) to the already existing ten PFTs, the introduction of inundation stress for non-peatland PFTs, a slow-down in decomposition under inundation, and the addition of a root exudates pool. LPJ-WHyMe v1.3.1 adds a methane model subroutine.
+ 
+This model product has one compressed data file (*.zip) and seven companion files.</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19720101</begdate>
+          <enddate>20101015</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-60</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>ANGIOSPERMS (FLOWERING PLANTS)|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>CARBON|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>ECOSYSTEM FUNCTIONS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LAND COVER|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>MOSSES/HORNWORTS/LIVERWORTS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PEATLANDS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PERMAFROST|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PERMAFROST|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PERMAFROST|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>PERMAFROST|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SOIL TEMPERATURE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>WATER TABLE|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>WETLANDS|ANALYSIS|COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>ANGIOSPERMS (FLOWERING PLANTS)</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>ANALYSIS</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey />
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>WANIA, R.</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt;</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</cntorg>
+          <cntper>ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt;</cntfax>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://daac.ornl.gov/</computer>
+            <accinstr>PUBLIC</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Wania, R., I. Ross, and I.C. Prentice. 2013. Lund-Potsdam-Jena Wetland Hydrology and Methane DGV Model (LPJ-WHyMe v1.3.1). Model product. Available on-line (http://daac.ornl.gov) from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A.  http://dx.doi.org/10.3334/ORNLDAAC/1150</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20130409</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19720101</begdate>
+    <enddate>20101015</enddate>
+    <Site_Information>
+      <Site />
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Southernmost_Latitude>-60</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>WETLANDS</Keywords>
+    <Keywords>PEATLANDS</Keywords>
+    <Keywords>PERMAFROST</Keywords>
+    <Keywords>VEGETATION</Keywords>
+    <Keywords>ROOT EXUDATES</Keywords>
+    <Keywords>DECOMPOSITION</Keywords>
+    <Keywords>SPHAGNUM MOSSES</Keywords>
+    <Keywords>PLANT PHYSIOLOGY</Keywords>
+    <Keywords>CARBON ALLOCATION</Keywords>
+    <Keywords>METHANE EMISSIONS</Keywords>
+    <Keywords>INUNDATION STRESS</Keywords>
+    <Keywords>FREEZE-THAW CYCLE</Keywords>
+    <Keywords>HYDROLOGIC FLUXES</Keywords>
+    <Keywords>ECOSYSTEM DYNAMICS</Keywords>
+    <Keywords>LITTER ACCUMULATION</Keywords>
+    <Keywords>PLANT FUNCTIONAL TYPES</Keywords>
+    <Keywords>NET PRIMARY PRODUCTION</Keywords>
+    <Keywords>HETEROTRPHIC RESPIRATION</Keywords>
+    <Keywords>NET ECOSYSTEM PRODUCTION</Keywords>
+    <Keywords>FLOOD-TOLERANT C3 GRAMINOIDS</Keywords>
+    <Keywords>DYNAMIC GLOBAL VEGETATION MODEL</Keywords>
+    <Keywords>LUND-POTSDAM-JENA DYNAMIC GLOBAL VEGETATION MODEL</Keywords>
+    <Parameter_Description>
+      <Parameter>ANGIOSPERMS (FLOWERING PLANTS)</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>PLANTS</Term>
+      <Topic>BIOLOGICAL CLASSIFICATION</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CARBON</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ECOSYSTEM FUNCTIONS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ECOLOGICAL DYNAMICS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND COVER</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>MOSSES/HORNWORTS/LIVERWORTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>PLANTS</Term>
+      <Topic>BIOLOGICAL CLASSIFICATION</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PEATLANDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PERMAFROST</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PERMAFROST</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>FROZEN GROUND</Term>
+      <Topic>CRYOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PERMAFROST</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PERMAFROST</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>FROZEN GROUND</Term>
+      <Topic>CRYOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SOIL TEMPERATURE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>SOILS</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WATER TABLE</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>GROUND WATER</Term>
+      <Topic>TERRESTRIAL HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WETLANDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Project>MODEL ARCHIVE</Project>
+    <Navpath>COMPUTER MODEL|ANALYSIS|ANGIOSPERMS (FLOWERING PLANTS)</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CARBON</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|ECOSYSTEM FUNCTIONS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LAND COVER</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|MOSSES/HORNWORTS/LIVERWORTS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PEATLANDS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PERMAFROST</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PERMAFROST</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PERMAFROST</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|PERMAFROST</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|SOIL TEMPERATURE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|WATER TABLE</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|WETLANDS</Navpath>
+    <Principal_Investigator>
+      <Name>WANIA, R.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>ROSS, I.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>PRENTICE, I.C.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1150</URL>
+      <Label>Lund-Potsdam-Jena Wetland Hydrology and Methane DGV Model (LPJ-WHyMe v1.3.1)</Label>
+      <Link_Note />
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL>http://daac.ornl.gov//MODELS/guides/LPJ-WHyMe_v1-3-1.html</URL>
+      <Label>Lund-Potsdam-Jena Wetland Hydrology and Methane DGV Model (LPJ-WHyMe v1.3.1)</Label>
+      <Text />
+    </Documentation_Link>
+    <OME_Software_Version>/home/web/mercury/write_mercury_xml.pl</OME_Software_Version>
+    <OME_DTD_Version>mercury21.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>ornldaac@ornl.gov</Email>
+      <Name>ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665</Name>
+      <Phone>+1(865)241-3952</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>1150</File_ID>
+    <MD_Entry_id>LPJ-WHYME_v1-3-1</MD_Entry_id>
+    <Spatial_Extent>54000</Spatial_Extent>
+    <Search_Text_Link>
+      <URL>http://daac.ornl.gov//MODELS/guides/LPJ-WHyMe_v1-3-1.html</URL>
+      <Label>Lund-Potsdam-Jena Wetland Hydrology and Methane DGV Model (LPJ-WHyMe v1.3.1)</Label>
+    </Search_Text_Link>
+    <Granule_Details />
+    <OGC_URL />
+    <THREDDS_URL />
+  </mercury>
+</metadata>

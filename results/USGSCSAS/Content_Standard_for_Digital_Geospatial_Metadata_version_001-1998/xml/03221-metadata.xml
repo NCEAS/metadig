@@ -1,0 +1,310 @@
+<metadata><Source>http://www1.usgs.gov/metadata/mdata/vip/metapore_gogaspatial.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>National Park Service</origin>
+        <origin>California State Department of Fish and Game</origin>
+        <origin>Aerial Information Systems</origin>
+        <pubdate>2009</pubdate>
+        <title>Point Reyes National Seashore and Golden Gate National Recreation Area Vegetation Mapping Project - Spatial Vegetation Data</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www1.usgs.gov/vip/pore_goga/pore_gogageodata.zip</onlink>
+        <onlink>doi:10.5066/F7JD4TR1</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>High resolution vegetation polygons mapped by the National Park Service. The vegetation units of this map were determined through stereoscopic interpretation of aerial photographs supported by field sampling and ecological analysis. The vegetation boundaries were identified on the photographs by means of the photographic signatures and collateral information on slope, hydrology, geography, and vegetation in accordance with the Standardized National Vegetation Classification System (October 1995). The mapped vegetation primarily reflects conditions that existed during 1994 and 1995. Several sets of aerial photography were utilized for this project: 1) NOAA 1:24,000 March 1994 Natural Color Prints (Leaf Off) covering Point Reyes NS, the northern portion and southern coastal portions of Golden Gate NRA, and the western two thirds of Mt. Tamalpais State Park; 2) Pacific Aerial Survey 1:24,000 August 1995 Natural Color Prints (Leaf On) covering the southern portions of Golden Gate NRA and the San Francisco Watershed district; 3) Pacific Aerial Survey 1:24,000 November 1995 Natural Color Prints (Leaf Change) covering Samuel P. Taylor State Park and portions of the GGNRA; 4) 1:36,000 August 1991 Natural Color Prints (Leaf On) covering the eastern portion of Mt. Tamalpais State Park; 5) 1:12,000 August 1990 Natural Color Prints (Leaf On) covering Samuel P. Taylor State Park. (Supplemental data set - not interpreted off of); 6) 1:12,000 June 1993 Natural Color Prints (Leaf On) covering coastal portions of Mt. Tamalpais State Park (Supplemental data set - not interpreted off of); 7) Hammon-Jensen-Wallen 1:12,000 August 1996 CIR Prints and Diapositives (Leaf On) covering the Vision Fire Burn Area; 8) 1:12,000 April 1984 CIR Prints were provided to fill in small gaps in the Drakes Bay area; 9) Radman Aerial Surveys 1:12,000 April 1993 Natural Color Prints covering Angel Island; 10) Only the Black and White DOQQ (San Francisco NE) was available for Alcatraz Island. Additionally, suplemental DAIS imagery for October 2001 was acquired after the project was started, which was then used to re-interpret some of the original work. There is an inherent margin of error in the use of aerial photography for vegetation delineation and classification.</abstract>
+      <purpose>Vegetation maps of National Parks and National Monuments were developed to support natural resources management, planning, research and interpretation.</purpose>
+      <supplinf>Data were imported to a file geodatabase by the Colorado Natural Heritage Program/Colorado State University. Parks had the flexibility to map vegetation down to the map class or to the association. Refer to pore-gogarpt.pdf for more detailed information.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1984-1995</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Point Reyes National Seashore - Golden Gate National Recreation Area and environs</descgeog>
+      <bounding>
+        <westbc>-123.036816</westbc>
+        <eastbc>-122.265843</eastbc>
+        <northbc>38.249920</northbc>
+        <southbc>37.429549</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Vegetation</themekey>
+      </theme>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Standardized National Vegetation Classification System</taxonkey>
+        <taxonkey>vegetation classification</taxonkey>
+        <taxonkey>alliance</taxonkey>
+        <taxonkey>community association</taxonkey>
+      </keywtax>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Plantae</taxonrv>
+      </taxoncl>
+    </taxonomy>
+    <accconst>It is strongly recommended that these data are directly acquired from U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.</accconst>
+    <useconst>The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related tables are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.
+
+The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  Although these data have been processed successfully on a computer system, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</useconst>
+    <native>Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Code verification involved running each coverage attribute file through a series of ARC/INFO commands that checked for invalid codes. These commands produced listings and frequencies that aided in identifying abnormal codes. The errors were checked against the vegetation delineation and attribute overlays. Corrections were made to the listings and input into the database. ESRI produced a plot of the converted spatial data and sequence numbers (label I.Ds) for quality control review. These plots were checked for cartographic quality of the arcs defining the polygon features and the accuracy of the label I.D. assignments. Other edits were also noted on the plots, such as overshoots and undershoots, missing lines, premature convergence of polygon boundary lines that intersected arcs at acute angles, and incorrect sequence number assignments. Code verification plots of the community association/alliance codes, height codes, density codes, land use codes, and burn modifier codes were created and checked for coding attribute errors that may have occurred during the polygon attribute encoding step. These plots were checked against the original aerial photograph delineations and attributing. Code changes were noted on the plots. Processors conducted interactive ARCEDIT sessions to make the necessary corrections to the coverages. Accuracy Assessment field data was captured by park staff to analyze the accuracy of the vegetation community polygons. Accuracy Assessmnt confusion matrices were developed to analyze the data within several levels of the vegetation classification hierarchy including:1) Assocaition = 42.5%; Alliance = 62.3%; Superalliance 71.4%; Mesocluster = 76.1%, Supercluster = 82.4%; Lifeform = 83.8%. A hierarchical vegetation classification system, outside of the National Vegetation Classification System, was developed for this project to improve usability of the data. Alliances were merged hierarchically into Superalliances, Mesoclusters, and Superclusters based on ecological similarities that were discerned during the ordination (TwinSpan) analysis that originally was used to describe plant associations. Each successive level in this hierarchy had fewer, broader, vegetative communities. Therefore, the thematic accuracy (user and producer) improves at each successive level. This is the fuzzy logic approach that was used to improve the usability of these data. The superalliance level was selected as the primary classification to be used because important ecological differences between plant communities are preserved while the accuracy of the product is improved to 71.4%. However, all of the levels in the hierarchy are available for the end-user. Please refer to the final report associated with this project to view the confusion matrices associated with the other levels in the classification hierarchy. The accuracy of each plant community mapping unit at every level in the classification heirarchy is available in the attribute table. See the Entity and Attribute section of this metadata record.</attraccr>
+    </attracc>
+    <logic>All polygon features are checked for topology using the ARC/INFO software. Each polygon begins and ends at the same point with the node feature. All nodes are checked for error so that there are no dangling features. There are no duplicate lines or polygons. All nodes will snap together and close polygons based on a specific tolerance. If the node is not within the tolerance, it is adjusted manually. The test for logical consistency are performed in ARC/INFO.</logic>
+    <complete>63 polygons are missing vegetation association attributes.
+
+All data that can be photointerpreted is also digitized. This includes association / community and superalliance classes, surface water, and unvegetated/landuse.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>The plant community spatial database covers Point Reyes National Seashore, Golden Gate National Recreation Area, Samuel P. Taylor State Park, Tomales Bay State Park, Mt. Tamalpais State Park, and the San Francisco INTRODUCTION &amp; AERIAL PHOTOGRAPHY: Municipal Water District; a total area of 62,753 hectares (155,000 acres). The 80 (1:24,000) true color aerial photographs interpreted for the northern portion of this project were acquired in March 1994. The photos used to map the southern portion of the study area were acquired in August of 1995. The spatial database reflects conditions that existed at the time the photos were collected.</procdesc>
+        <procdate>1996-2003</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>FIELD RECONNAISSANCE &amp; PHOTO INTERPRETATION: Preliminary photo interpretation and ground truth (training) data was collected during the 1997 and 1998 field seasons. Photo interpreters and field crews worked iteratively to collect releve data and develop photo signatures keys for the entire suite of plant communities (associations). A plant community classification and field key was formalized following an ordination analysis of the field data. A map classification was established based on the plant communities described in the key. In most cases plant communities were mapped at the association level however several ?mapping units? were established for combinations of associations and alliances that were difficult to distingue in the aerial photos. Ecologists intermittently assisted to assure correct field calls and to verify additional vegetation types as they were encountered. Ground features were interpreted and delineated onto the photo overlays using a stereoscope over a light table. Each photograph was viewed with its matching stereo pairs so images could be seen in 3-dimensions. To minimize edge distortion, interpretation was focused towards the center of each photograph. Texture, height, pattern, life form, and position in the landscape were all used in the decision process of delineating polygons and assigning map unit codes. Several ancillary sets aerial photographs were used to assist in the interpretation process. By the end of the 1998 field season, mapping protocols were sufficiently stabilized to permit the aerial photo interpretation team to complete the initial delineation.</procdesc>
+        <procdate>1996-1998</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>AUTOMATION &amp; SPATIAL COVERAGE: Converting the vegetation delineations to a digital format involved four main procedures: 1) Geo-referencing (rectifying) photo overlay line-work to the DOQQ?s, 2) Creating manuscript (digital quality) overlays and related attribute files, 3) Input of spatial data into digital format (scanning), and 4) Linking the spatial data with the fields from the attribute files. A hardcopy of the USGS digital orthophoto quarter quads (DOQQ?s) series for all or portions of fourteen USGS 1:24,000 topographic quads was used as a base to begin the data conversion process. Creation of the DOQQ hardcopy base required having the image plotted onto clear mylar at the mapping input scale, approximately 1:24,000. To facilitate the geo-referencing of the polygons, it was determined that the average (nominal) scale of the aerial photography was also approximately 1:24,000. Forty-three plots were generated at the normal scale on mylar overlays to cover the study area. The first step in geo-referencing the vegetation polygons delineated on the photo overlays involves manually fitting the line-work to hard copies of the DOQQ?s. This was a highly labor intensive procedure that adjusts for distortion in the aerial photography caused by topography and distance from the photo?s nadir. Manual rectification was conducted by attaching a new mylar overlay to the hard copy DOQQ. The photo signature delineations were transferred to the overlays through local registration of the photos with the attached photo signature delineation overlay. A small area of the photo was registered to the base at a time. By matching photo image to orthophoto image, the delineations were transferred to the base overlay. Because the parallax of the photo differs from that of the orthophoto base, care was required in transfer. Inconsistent stretching or shortening of the images was common from the photo to the base. When one area was completed, the photo was shifted to register to another small area. The process continued until the manual rectification and transfer of polygons was complete. Three code attributes were placed on the overlays: 1) Values containing alliance (series) / association codes, 2) Height, and 3) Density attributes. These codes were transferred from the corresponding photo overlays. A quality control step was performed in order to assure accuracy of the rectification and delineation and transfer of the codes. A senior interpreter reviewed the overlays for accuracy and completeness of transfer and made the appropriate changes where needed. This procedure was performed for approximately half of the more complicated portions of the study. The remaining modules had line-work directly transferred from the photo overlays to the DOQQ?s in an ArcView environment. This heads up digitizing procedure eliminated several interim steps including attribute assignments, manuscript map preparation, sequence number assignments, polygon encoding and scanning. Approximately twenty manuscript maps (roughly half the study area) were created to input the spatial component of the vegetation mapping units. The manuscripts were produced by pin-registering a clean sheet of mylar to the base. The vegetation delineations from the manually rectified overlays were transferred to the new overlays using black P2 Pentel lead suitable for scanning. The manuscript maps were carefully edited to ensure completeness and correctness. The final manuscript maps underwent a quality assurance review. The manuscript maps were compared to geo-referenced (rectified) overlays to ensure that all line-work was transferred correctly. Sequential identification number overlays were produced for the manuscript maps. A clean sheet of mylar was pin-registered to each manuscript, and each polygon was labeled with a unique sequence number. These sequence numbers were used to relate the spatial files to the tabular attribute files. To expedite the encoding of the vegetation attributes for each polygon, a Quattro Pro spreadsheet file was created for each sheet. A separate field was created for the polygon sequence number, PI code, height code, density code, and Vision fire burn attributes. The manuscript maps, sequence number overlays, and attribute overlays were pin - registered together on a light table. The coder, following the numbers on the sequence number overlays, entered the vegetation attributes for each polygon. During this task, the coder verified the accuracy of the sequence number labels. The manuscript maps were scanned and converted into ARC/INFO coverages at ESRI. Prior to any production scanning, test scans of small areas of the data map were conducted to determine the optimum raster to vector conversion settings. The critical settings that determine the output resolution and completeness are the TOLERANCE and THRESHOLD. The TOLERANCE, which governs the output resolution and is comparable to fuzzy tolerance, would be set to .01 inches (10 feet at 1:12,000 scale). The THRESHOLD is a reflectance measure. It is dependent on the physical characteristics of the data maps and their contents and is determined through testing. Once the THRESHOLD was derived, production scanning of manuscript maps began. In an earlier step, the vegetation polygons were assigned a unique identifier. The numbers were sequenced 1 through "n" (4 - digit item width) and were drawn on the sequence number overlays. The manuscript maps and the sequence number overlays were registered together on the digitizing board. The polygon identifiers were sequentially input as label points. To ensure that all labels points were entered, the processor marked off each label as it was digitized. Topology is the mathematical procedure for explicitly defining spatial relationships. In the case of maps, topology defines connections between features and identifies adjacent polygons. Once the manuscript map's polygon boundaries and label points had been input into the computer, the ARC / INFO software CLEAN command was used to create the "coverage topology." The CLEAN fuzzy tolerance was set to .002 inches to preserve the required data resolution. When other coordinate edits were made to a coverage after the CLEAN command was run, topology was recreated utilizing the BUILD command. Missing labels were identified by using the LABELERRORS command in ARC. Using ARCEDIT, any label errors identified were corrected by entering the missing label number and placing it within the correct polygon. Once all the errors were corrected, the coverages were joined with the tabular attribute data. The Quattro Pro code file was converted into an INFO file. Once converted it was related to the feature attribute table by the sequence number found in both files. An INFO item, named "SEQNO" was added to the feature attribute table. The sequence number for each polygon was calculated to equal its coverage I.D. number. The ARC/INFO command JOINITEM was used to join the code file to the feature attribute table. The spreadsheet file was joined with its corresponding coverage. Each variable interpreted from the aerial photography was provided with a unique field (item). Code verification involved running each coverage attribute file through a series of ARC / INFO commands that checked for invalid codes. These commands produced listings that aided in identifying abnormal codes. The errors were checked against the vegetation delineation and attribute overlays. Corrections were made to the listings and input into the database. ESRI produced a plot of the converted spatial data and sequence numbers (label I.D.s) for each manuscript. The plot was checked by AIS for cartographic quality of the arcs defining the polygon features and the accuracy of the label I.D. assignments. The plots was overlaid to the manuscript maps to verify that the scanned data was not distorted beyond .02 map inches. Other problems were noted on the plots, including line overshoots and undershoots, missing lines, premature convergence of polygon boundary lines that intersected arcs at acute angles, and incorrect sequence number assignments. ESRI also produced code verification plots of the PI codes, height codes, and density codes. The plots were checked by AIS for coding errors that may have occurred during the polygon attribute encoding step. The plots were overlaid on the corresponding manual rectification code attribute overlay. Code changes were noted on the plot. Once the rectifying of the polygon data was completed and the attribute items populated, a final on screen review of line - work and community designations was performed in an ArcView session. Any final corrections to the community association assignments were then made to the database. Revised coverages were mapjoined to create a single coverage.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Process Timeline: March 12, 1994 Aerial photography for the northern portions of the study flown August 8, 1995 Aerial photography for the southern portions of the study flown December 5, 1995 Initial costs and contract drawn up between PRNS and ESRI September 1996 Preliminary efforts by Todd Keeler - Wolf and Laura Nelson in developing a list of possible vegetation communities March of 1996 Post fire aerial photography flown October 24, 1996 Preliminary Vegetation Scoping Meeting (ESRI - NatureServe ? PRNS, GGNRA) January 20, 1997 AIS receives photography and meta - data from NPS March 1997 Field reconnaissance effort with AIS and Todd Keeler-Wolf March 31, 1997 Preliminary mapping classification for the study area developed April - June 1997 Preliminary line work and initial polygon labels interpreted and sent to Todd Keeler - Wolf in 3 shipments. October 1998 Plot sampling effort complete for study a total of 366 plots Copies of field overlays delivered to AIS for review against initial PI calls Updates and corrections made to the photo overlays February 1999 The PRNS Classification Supported by Plots completed Three - day field verification effort completed March 1999 Updates and corrections made to the photo overlays based on the three - day field verification trip June 9, 1999 Geo - referencing (rectification) of the first twelve modules in the grassland areas around Drakes Bay delivered to NPS June 1999 Accuracy Assessment (AA) efforts begin October 1999 Second set of modules delivered to NPS, AA points selected by the NPS. November 1999 Third set of modules delivered to NPS (All regions except the San Francisco Presidio and Angel Island) January 2000 Delivery of modules to NPS both with and without quad boundaries Completion of fire attribute assignment to shrub and tree polygons in the Vision Fire area July 2002 Accuracy assessment results reviewed by NPS, AIS, and Heritage Ecologist during a meeting in Redlands at AIS. Final set of accuracy plots to be used in accuracy assessment agreed on by all parties. Several plant communities, with poor thematic accuracy, were re-interpreted (heads-up) using DAIS imagery (1m2 4 band aerial imagery). August 2003 Final GIS database delivered to NPS. Draft reports accepted by NPS and contract with ESRI completed. October 2003 Final accuracy assessment completed and confusion matrices produced.</procdesc>
+        <procdate>1996-2003</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>11167</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>10</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-123.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PORE_GOGA_VegPolys</enttypl>
+        <enttypd>Feature class attribute table</enttypd>
+        <enttypds>NPS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Poly_ID</attrlabl>
+        <attrdef>Unique identifier for each polygon</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Unique plot code.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NVC_Elcode</attrlabl>
+        <attrdef>National Vegetation Classification Code</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>CEGL code.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Association</attrlabl>
+        <attrdef>NVC Vegetation Association name</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Association scientific name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MapClass_CD</attrlabl>
+        <attrdef>Code used to represent the Map Class</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Map class code.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MapClass</attrlabl>
+        <attrdef>Full Map Class name</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Map class association common name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X_Centroid</attrlabl>
+        <attrdef>X Coordinate (UTM Easting) of the centroid of the polygon</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Easting coordinate.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y_Centroid</attrlabl>
+        <attrdef>Y Coordinate (UTM Northing) of the centroid of the polygon</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Northing coordinate.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>rc_VegPolys_tVegMapInfo</enttypl>
+        <enttypd>Defines relationship between Veg polygons and basic vegetation attributes</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The U.S. Geological Survey and the National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics (if available) are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  Any related graphics (if available) are intended to aid the data user in acquiring relevant data; it is not approriate to use the related graphics as data.
+
+The U.S. Geological Survey and the National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>HTML</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.usgs.gov/core_science_systems/csas/vip/parks/pore_goga.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Internet Access</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20091208</metd>
+    <metrd>20100719</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metextns>
+      <onlink>http://www.usgs.gov/core_science_systems/csas/metadata/index.html</onlink>
+    </metextns>
+  </metainfo>
+</metadata>

@@ -1,0 +1,380 @@
+<ns0:metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Bonan, Dr. Gordon B.</origin>
+        <origin>Levis, Dr. Samuel</origin>
+        <origin>Oleson, Dr. Keith W.</origin>
+        <origin>Thornton, Dr. Peter E.</origin>
+        <origin>Vertenstein, Mariana</origin>
+        <title>NCAR Community Land Model (CLM 2.0)</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/metadata/models/clm.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/metadata/models/clm.xml</alt_onlink>
+        <onlink>http://www.ccsm.ucar.edu/csm/models/ccsm2.0/clm2/index.html</onlink>
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Community Land Model is the land model for the Community Climate System Model (CCSM) and the Community Atmosphere Model (CAM). The current version of the Community Land Model is CLM 2.0. CLM 2.0 evolved from the NCAR LSM (LSM 1.0), BATS, and IAP94 land surface models as part of the development of the next versions of these climate models. CLM 2.0 is a collaborative project between scientists in the Terrestrial Sciences Section of the Climate and Global Dynamics Division (CGD) at the National Center for Atmospheric Research (NCAR) and the CCSM Land Model Working Group. Other principal working groups that also contribute to the CLM are Biogeochemistry, Paleoclimate, and Climate Change and Assessment. 
+
+The model formalizes and quantifies concepts of ecological climatology. Ecological climatology is an interdisciplinary framework to understand how natural and human changes in vegetation affect climate. It examines the physical, chemical, and biological processes by which terrestrial ecosystems affect and are affected by climate across a variety of spatial and temporal scales. The central theme is that terrestrial ecosystems, through their cycling of energy, water, chemical elements, and trace gases, are important determinants of climate. 
+
+The model has several components: 
+
+Biogeophysics -- This is the instantaneous exchanges of energy, water, and momentum with the atmosphere. It concerns aspects of micrometeorology, canopy physiology, soil physics, radiative transfer, and hydrology. Surface fluxes of energy, moisture, and momentum influence simulated surface climate. 
+
+Hydrologic cycle -- The hydrologic cycle over land includes interception of water by plant foliage and wood, throughfall and stemflow, infiltration, runoff, soil water, and snow. These are directly linked to the biogeophysics and also affect temperature, precipitation, and runoff. Total runoff (surface and sub-surface drainage) are routed downstream to oceans using a river routing model. Major global river systems are clearly evident in the model ouput. 
+
+Biogeochemistry -- This is the instantaneous exchanges of chemical constituents with the atmosphere. Current projects include: carbon, biogenic volatile organic compounds, dust, dry deposition. 
+
+Dynamic vegetation -- This includes the carbon cycle but also changes in community composition and vegetation structure in response to disturbance (e.g., fire, land use) and climate change. There are two time-scales for this dynamics: Succession considers changes in community composition and vegetation structure over periods up to several hundred years, typically following disturbance such as fire or land use. Over longer periods of times (e.g., centuries, millenia), the biogeography of vegetation changes in response to climate change. There are two main projects related to dynamic vegetation. Peter Thornton is leading an effort to add the carbon and nitrogen cycles to the Community Land Model. This uses carbon and nitrogen parameterizations of the BIOME-BGC model. Vegetation structure (e.g., leaf area index, carbon pools) changes over time, but community composition is prescribed. Gordon Bonan and Sam Levis are leading an effort to allow for dynamic community composition. The current implementation of dynamic vegetation uses many of ideas formulated in the Lund-Potsdam-Jena dynamic global vegetation model.
+
+The land surface is represented by 5 primary sub-grid land cover types (glacier, lake, wetland, urban, vegetated) in each grid cell. The vegetated portion of a grid cell is further divided into patches of plant functional types, each with its own leaf and stem area index and canopy height. Each subgrid land cover type and PFT patch is a separate column for energy and water calculations.
+
+CLM 2.0 currently includes biogeophysics and river routing. The biogeochemistry and dynamic vegetation modules are not yet released.</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20020517</begdate>
+          <enddate />
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Final</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>ENERGY FLUX||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>WATER FLUX||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>MOMENTUM FLUX||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>RIVER ROUTING||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>CARBON||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>BIOGENIC VOLATILE ORGANIC COMPOUNDS||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>DUST||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>DRY DEPOSITION||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>CARBON||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>NITROGEN||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>SUCCESSION||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+        <themekey>BIOGEOGRAPHY||NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>ENERGY FLUX</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>NCAR COMMUNITY LAND MODEL (CLM 2.0)</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey />
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>Global (gridded)</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Bonan, Dr. Gordon B.</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; bonan@ucar.edu</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Terrestrial Sciences Section, Climate and Global Dynamics Division, National Center for Atmospheric Research (NCAR), Boulder, Colorado, USA</cntorg>
+          <cntper>Bonan, Dr. Gordon B.</cntper>
+        </cntperp>
+        <cntvoice>+1-303-497-1613</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; bonan@ucar.edu</cntfax>
+        <cntemail>bonan@ucar.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://www.cgd.ucar.edu/tss/</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Bonan, G.B., S. Lewis, K.W. Oleson, P.E. Thornton , and M. Vertenstein. 2002. Community Land Model 2.0 (CLM 2.0). Available for downloading at [http://www.cgd.ucar.edu/tss/clm/distribution/index.html] from the Terrestrial Sciences Section, Climate and Global Dynamics Division, National Center for Atmospheric Research, Boulder, Colorado, USA.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20061201 162059</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntperp>
+        <cntvoice>+1-804-769-2495</cntvoice>
+        <cntemail>cncurtis@crosslink.net</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>20020517</begdate>
+    <enddate>2014924</enddate>
+    <Site_Information>
+      <Site>Global (gridded)</Site>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Southernmost_Latitude>-90</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>Africa</Keywords>
+    <Keywords>Asia</Keywords>
+    <Keywords>Atmospheric chemistry</Keywords>
+    <Keywords>Australia</Keywords>
+    <Keywords>Biogenic volatile organic compounds</Keywords>
+    <Keywords>Biogeochemistry</Keywords>
+    <Keywords>Biogeography</Keywords>
+    <Keywords>Biogeophysics</Keywords>
+    <Keywords>BIOME-BGC Model</Keywords>
+    <Keywords>BVOC</Keywords>
+    <Keywords>Canopy height</Keywords>
+    <Keywords>Canopy physiology</Keywords>
+    <Keywords>Carbon</Keywords>
+    <Keywords>Carbon cycle</Keywords>
+    <Keywords>Carbon pools</Keywords>
+    <Keywords>Climate change</Keywords>
+    <Keywords>Community composition</Keywords>
+    <Keywords>Community Land Model</Keywords>
+    <Keywords>Disturbance</Keywords>
+    <Keywords>Dry deposition</Keywords>
+    <Keywords>Dust</Keywords>
+    <Keywords>Dynamic vegetation</Keywords>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>Europe</Keywords>
+    <Keywords>Fire</Keywords>
+    <Keywords>Hydrologic cycle</Keywords>
+    <Keywords>Hydrology</Keywords>
+    <Keywords>Infiltration</Keywords>
+    <Keywords>Land-atmosphere interactions</Keywords>
+    <Keywords>Land surface</Keywords>
+    <Keywords>Land use</Keywords>
+    <Keywords>Leaf area index</Keywords>
+    <Keywords>LPJ-DGVM</Keywords>
+    <Keywords>Lund-Potsdam-Jena Dynamic Global Vegetation Model</Keywords>
+    <Keywords>Micrometeorology</Keywords>
+    <Keywords>Model Collections</Keywords>
+    <Keywords>Nitrogen cycle</Keywords>
+    <Keywords>North America</Keywords>
+    <Keywords>Oceania</Keywords>
+    <Keywords>Plant functional types</Keywords>
+    <Keywords>Radiative transfer</Keywords>
+    <Keywords>River routing model</Keywords>
+    <Keywords>River systems</Keywords>
+    <Keywords>Runoff</Keywords>
+    <Keywords>Soil physics</Keywords>
+    <Keywords>Soil water</Keywords>
+    <Keywords>South America</Keywords>
+    <Keywords>Snow</Keywords>
+    <Keywords>Stem area index</Keywords>
+    <Keywords>Succession</Keywords>
+    <Keywords>Surface climate</Keywords>
+    <Keywords>Surface energy flux</Keywords>
+    <Keywords>Surface fluxes</Keywords>
+    <Keywords>Surface mositure flux</Keywords>
+    <Keywords>Surface momentum flux</Keywords>
+    <Keywords>Vegetation</Keywords>
+    <Keywords>Vegetation structure</Keywords>
+    <Parameter_Description>
+      <Parameter>ENERGY FLUX</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>BIOPHYSICS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WATER FLUX</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>BIOPHYSICS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>MOMENTUM FLUX</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>BIOPHYSICS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>RIVER ROUTING</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>HYDROLOGIC CYCLE</Term>
+      <Topic>HYDROSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CARBON</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>BIOGEOCHEMISTRY</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>BIOGENIC VOLATILE ORGANIC COMPOUNDS</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>BIOGEOCHEMISTRY</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>DUST</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>BIOGEOCHEMISTRY</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>DRY DEPOSITION</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>BIOGEOCHEMISTRY</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CARBON</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>VEGETATION</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>NITROGEN</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>VEGETATION</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SUCCESSION</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>VEGETATION</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>BIOGEOGRAPHY</Parameter>
+      <Sensor>&amp;nbsp;&amp;nbsp;</Sensor>
+      <Source>NCAR COMMUNITY LAND MODEL (CLM 2.0)</Source>
+      <Term>VEGETATION</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Project />
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||ENERGY FLUX</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||WATER FLUX</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||MOMENTUM FLUX</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||RIVER ROUTING</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||CARBON</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||BIOGENIC VOLATILE ORGANIC COMPOUNDS</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||DUST</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||DRY DEPOSITION</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||CARBON</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||NITROGEN</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||SUCCESSION</Navpath>
+    <Navpath>NCAR COMMUNITY LAND MODEL (CLM 2.0)||BIOGEOGRAPHY</Navpath>
+    <Principal_Investigator>
+      <Name>Bonan, Dr. Gordon B.</Name>
+      <Email>bonan@ucar.edu</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Levis, Dr. Samuel</Name>
+      <Email>slevis@ucar.edu</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Oleson, Dr. Keith W.</Name>
+      <Email>oleson@ucar.edu</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Thornton, Dr. Peter E.</Name>
+      <Email>thornton@cgd.ucar.edu</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Vertenstein, Mariana</Name>
+      <Email>mvertens@ucar.edu</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://www.cgd.ucar.edu/tss/clm/distribution/index.html</URL>
+      <Label>Community Land Model 2.0 (CLM 2.0) Public Release Home Page</Label>
+      <Link_Note>This web page contains links to documentation, source code, and input data for the stand-alone version release of CLM 2.0. Links to the CAM (Community Atmosphere Model) stand-alone version release and coupled CCSM 2.0 (Community Climate System Model) release can be found at the bottom of the page.</Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL>http://www.ccsm.ucar.edu/csm/models/ccsm2.0/clm2/index.html</URL>
+      <Label>CLM 2.0 Documentation</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>metadata24.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>bonan@ucar.edu</Email>
+      <Name>Bonan, Dr. Gordon B.</Name>
+      <Phone>+1-303-497-1613</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>Created 20020903 173738 by 206.246.119.78</File_ID>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Extent>64800</Spatial_Extent>
+    <Search_Text_Link>
+      <URL>http://www.ccsm.ucar.edu/csm/models/ccsm2.0/clm2/index.html</URL>
+      <Label>CLM 2.0 Documentation</Label>
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</ns0:metadata>

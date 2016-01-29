@@ -1,0 +1,373 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="IC.7.7" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset>  <title>Vegetation Line Point Intercept Data, Owens Valley, CA USA 1984-2013</title>
+<creator id="1395252146786"><individualName><givenName>Zach</givenName>
+<surName>Nelson</surName>
+</individualName>
+<organizationName>Inyo County Water Department</organizationName>
+<positionName>Vegetation Scientist</positionName>
+<address><deliveryPoint>135 S. Jackson St.</deliveryPoint>
+<city>Independence</city>
+<administrativeArea>CA</administrativeArea>
+<postalCode>93526</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">760-878-0008</phone>
+<phone phonetype="fax">7608782552</phone>
+<electronicMailAddress>znelson@inyocounty.us</electronicMailAddress>
+<onlineUrl>http://www.inyowater.org/</onlineUrl>
+</creator>
+<abstract><para>Each year, the Inyo County Water Department monitors vegetation conditions on the floor of the Owens Valley.  The primary goal of this monitoring, according to the technical appendix to the Long-Term Water Agreement (Green Book) are to detect any significant decreases and changes in Owens Valley vegetation from conditions documented in 1984 to 1987.  Vegetation live cover and species composition documented during the 1984-87 mapping effort were adopted as the baseline for comparison with each annual reinventory according to the Agreement.  The reference measurements collected within individual areas mapped with similar vegetation (parcels) are referred to as baseline. The Green Book details certain decreases and changes in vegetation community types that must be avoided under the Agreement.  Baseline vegetation communities in which evapotranspiration exceeds precipitation were classified as groundwater-dependent communities and are referred to as Types B, C, and D.  These phreatophytic communities are dependent on shallow groundwater to maintain plant populations, as precipitation alone is inadequate to meet the water demand of these species.  For these parcels, according to the Green Book, the goal is to manage groundwater pumping and surface water management practices so as to avoid causing significant decreases in live vegetation cover and to prevent a significant amount of vegetation from changing to a vegetation type that precedes it alphabetically (for example, Type C grass dominated meadow changing to type B shrub-dominated meadow). The goal is to manage the effect of pumping on the depth to groundwater to maintain baseline plant communities. A large proportion of groundwater-dependent parcels were mapped during baseline as Type C alkali meadows (61%), and the Agreement seeks to prevent these meadows from changing to shrub-dominated communities (Type B), a state change that is associated with increased depth to groundwater.  Alkali meadows are of special concern because small increases in depth to groundwater can decouple the groundwater from the root zone of grass species..  Alkali meadow comprises 0.1% of the vegetation community types in California and 80% of alkali meadow communities in California are located within Owens Valley.  Local management of water resources will be influential in determining the likelihood these ecosystems persist in California.</para>
+</abstract>
+<keywordSet><keyword>phreatophyte</keyword>
+<keyword>ecohydrology</keyword>
+<keyword>vegetation change</keyword>
+<keyword>1984-2013</keyword>
+<keyword>water resources</keyword>
+<keyword>line-point-intercept technique</keyword>
+<keyword>alkali meadow</keyword>
+<keyword>groundwater pumping</keyword>
+</keywordSet>
+<keywordSet><keyword>Owens Valley</keyword>
+</keywordSet>
+   <intellectualRights><para>These data are within the public domain.
+
+The County makes no representation that these data are reliable or appropriate for whatever use you or others might put them to.  The County assumes no liability or responsibility for the accuracy, completeness, or usefulness of these data.  We provide these data &#8220;as is&#8221; and the burden of assessing the fitness of the data for any specific purpose lies with the user.</para>
+</intellectualRights>
+  <coverage> <temporalCoverage><rangeOfDates><beginDate><calendarDate>1985</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>Owens Valley, CA</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-118.25</westBoundingCoordinate>
+<eastBoundingCoordinate>-118.25</eastBoundingCoordinate>
+<northBoundingCoordinate>37.125</northBoundingCoordinate>
+<southBoundingCoordinate>37.125</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+ <contact><references>1395252146786</references>
+ </contact>
+<methods><methodStep><description><section><title>Line point intercept transects</title>
+<para>Random location, random bearing, tape suspended taught, first contact recorded to species every 0.5 m for a total of 100 possible hits.</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Vegetation parcels that have been reinventoried since 1991 cover the entire spatial extent defined. The years 1988, 1989 and 1990 were not monitored using line point data. The reinventory of baseline started in 1991.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Each year random locations are generated in ArcGIS to conduct line point intercept transects. Hits are recorded as the first hit from every 0.5 m increment along a 50 m transect. Therefore 100 hits are possible and the number of hits translates to percent vegetation cover, which can further be subsetted by percent species or functional groups (i.e. shrub or grass).</para>
+</samplingDescription>
+</sampling>
+</methods>
+  <dataTable id="1395265773281"><entityName>Transects.csv</entityName>
+ <entityDescription>Line point transect data 1985-2013</entityDescription>
+ <physical id="1395262596874"><objectName>Transects.csv</objectName>
+ <size unit="byte">1992109</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/IC.3.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1395265773282"><attributeName>Parcel</attributeName>
+ <attributeDefinition>Parcel refers to the 'vegetation parcel' used for baseline (1985-1987) vegetation mapping. Parcels were delineated by aerial photographs and interpretation or looked to be homogenous vegetation mapping units.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BGP=Big Pine, thus BGP013 is the 13th named parcel in the Big Pine wellfield</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773283"><attributeName>Year</attributeName>
+ <attributeDefinition>The year of the reinventory</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773284"><attributeName>Transect</attributeName>
+ <attributeDefinition>The id of the transect. Transects conducted for each parcel-year varied as a function of area of the parcel. In 2013, between 14 and 36 transects were conducted in each of 111 parcels.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Just an id for the transects.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773285"><attributeName>Cover</attributeName>
+ <attributeDefinition>Perennial cover, # hits out of 100 possible. Here annuals have been excluded because the interest was in depth to water and vegetation cover. Annuals are predomiantly precipitation dependent.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773286"><attributeName>Shrub</attributeName>
+ <attributeDefinition># shrub hits out of 100 possible</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773287"><attributeName>Herb</attributeName>
+ <attributeDefinition># herbaceous hits out of 100 possible</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773288"><attributeName>Grass</attributeName>
+ <attributeDefinition>Grass hits out of 100 possible</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773289"><attributeName>Herb_Shrub</attributeName>
+ <attributeDefinition>sub-shrub and other hits out of 100 possible that didn't fit into shrub or grass. Note a very small proportion of total hits falls into this category.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773290"><attributeName>pShrub</attributeName>
+ <attributeDefinition>proportion of shrub= shrub hits /total hits</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773291"><attributeName>pGrass</attributeName>
+ <attributeDefinition>proportion of grass= grass hits /total hits</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395265773292"><attributeName>pHerb</attributeName>
+ <attributeDefinition>proportion of herb= herb hits /total hits</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>34441</numberOfRecords>
+ </dataTable>
+ <dataTable id="1395423530079"><entityName>Attributes.csv</entityName>
+ <entityDescription>attributes for 169 reinventoried vegetation parcels on the floor of Owens Valley</entityDescription>
+ <physical id="1395422212449"><objectName>Attributes.csv</objectName>
+ <size unit="byte">10511</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/IC.14.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1395423530080"><attributeName>Parcel</attributeName>
+ <attributeDefinition>The identifier code for the vegetation parcel</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>First three characters refer to the wellfield (i.e. BGP = Big Pine); the last three numbers refer to the parcel number within each wellfield.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395423530081"><attributeName>CommType</attributeName>
+ <attributeDefinition>Holland classification community type number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>numbers are the numeric id for the comminity type in attribute "Holland"</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395423530082"><attributeName>Holland</attributeName>
+ <attributeDefinition>Community type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>community type description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395423530083"><attributeName>Type</attributeName>
+ <attributeDefinition>Parcels were classified as either control or wellfield based on criteria derived from groundwater drawdown during the period of maximum pumping rate that occurred between 1987 and 1993. Two water table estimation methods were used to provide numerical criteria for these parcel classifications: (1) ordinary kriging, a geostatistical approach that relies on the spatial correlation structure of the test well data for weighting in order to interpolate groundwater depth for an entire parcel, and (2) groundwater-flow modeling estimates of groundwater drawdown contours shown on the baseline maps (Danskin 1998, Agreement Exhibit A: Management Maps, Harrington and Howard 2000, Harrington 2003). Parcels were designated as either wellfield or control depending on whether drawdown estimates from both kriged test well data and groundwater modeling were above or below critical values. Parcels were assigned wellfield status if (1) kriged DTW estimates exceeded 1-m water-table drawdown and (2) they were located at sites corresponding to modeled drawdown contours greater than 10 ft. Parcels were assigned control status if (1) kriged DTW estimates were less than 1-m and (2) they were located at sites corresponding to modeled drawdown contours less than 10 ft. If the kriged DTW estimates were not reliable owing to inadequate test well coverage near vegetation parcels (Harrington 2003), then the groundwater-flow model estimate of the 10-ft drawdown contour was used as the sole criteria to designate parcels as either wellfield or control. An exception to the above criteria was applied to parcels associated with drawdown contours greater than 10-ft yet located near a surface water source (specifically, a canal, sewer pond, creek, river, or a ground water seepage source) that would mitigate potential drawdown&#226;&#128;&#148;these parcels were classified as control. Some parcels assigned the wellfield designation currently have higher water tables than during 1987 to 1993, but they retain the wellfield designation because the potential for pumping-induced groundwater drawdown is present owing to their proximity to pumping wells.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>C</code>
+ <definition>Control Parcel</definition>
+ </codeDefinition>
+ <codeDefinition><code>W</code>
+ <definition>Wellfield Parcel</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395423530084"><attributeName>Acres</attributeName>
+ <attributeDefinition>Area in acres of the parcel</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>acre</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395423530085"><attributeName>Sampled</attributeName>
+ <attributeDefinition>Was the parcel sampled during baseline (1984-1987)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Y</code>
+ <definition>Yes the parcel was sampled with the line point transect method to determine parcel average vegetation cover.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395423530086"><attributeName>Baseline</attributeName>
+ <attributeDefinition>The year in which the baseline sample was taken for the parcel. Baseline inventory occured from September 1984 to November 1987.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395423530087"><attributeName>DTW Reliability</attributeName>
+ <attributeDefinition>Whether or not the kriging of test wells as adequate to represent the parcel average depth to groundwater</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Not Reliable</code>
+ <definition>The depth to water estimates are not reliable</definition>
+ </codeDefinition>
+ <codeDefinition><code>NoData</code>
+ <definition>The test well coverage was inadequate to provide a kriged depth to water estimate for the parcel</definition>
+ </codeDefinition>
+ <codeDefinition><code>Relative Recovery Reliable</code>
+ <definition>The relative change in depth to water is reliable but the absolute depth to water is not reliable</definition>
+ </codeDefinition>
+ <codeDefinition><code>Reliable</code>
+ <definition>Depth to water estimates are reliable for all years</definition>
+ </codeDefinition>
+ <codeDefinition><code>Current DTW Reliable</code>
+ <definition>The current depth to water estimates are reliable</definition>
+ </codeDefinition>
+ <codeDefinition><code>Baseline Not Reliable</code>
+ <definition>Baseline not reliable but follow years are</definition>
+ </codeDefinition>
+ <codeDefinition><code>Current DTW Not Reliable</code>
+ <definition>Current depth to water is not reliable</definition>
+ </codeDefinition>
+ <codeDefinition><code>Baseline Reliable</code>
+ <definition>Baseline depth to water estimate is reliable</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>169</numberOfRecords>
+ </dataTable>
+ <dataTable id="1395424380372"><entityName>Covariates.csv</entityName>
+ <entityDescription>precipitation, depth to water, satellite derived fractional vegetation cover for vegetation parcels</entityDescription>
+ <physical id="1395423868520"><objectName>Covariates.csv</objectName>
+ <size unit="byte">173737</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/IC.15.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1395424380373"><attributeName>Parcel</attributeName>
+ <attributeDefinition>id for the vegetation parcel</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>parcel id</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395424380374"><attributeName>Year</attributeName>
+ <attributeDefinition>Year associated with the covariate values for each parcel</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395424380375"><attributeName>WintPrecip</attributeName>
+ <attributeDefinition>Winter precipitation in inches (October 1 to April 1)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>inch</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395424380376"><attributeName>WYPrecip</attributeName>
+ <attributeDefinition>Water Year precipitation (starting  October 1 and ending September 30)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>inch</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395424380377"><attributeName>SMA</attributeName>
+ <attributeDefinition>Fractional vegetation cover derived from LANDSAT TM imagery using spectral mixture analysis (see Elmore et al. 2000).
+
+Elmore, A. J., J. F. Mustard, S. J. Manning, and D. B. Lobell. 2001. Quantifying
+vegetation change in semiarid environments: p recision and accuracy of Spectral
+Mixture Analysis and the Normalized Difference Vegetation Index. Remote
+Sensing of the Environment 73: 87-102.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1395424380378"><attributeName>DTW</attributeName>
+ <attributeDefinition>depth to ground water estimated from ordinary kriging of test wells. The interpolated gridded surfaces were averaged to the parcel boundaries to derive this parcel DTW.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>4538</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

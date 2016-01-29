@@ -1,0 +1,118 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:ns2="http://www.xml-cml.org/schema/stmml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="kubi.lifemapper.sdm.layers.628" system="kubi.lifemapper" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1                               https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd">
+   <dataset>
+      <title>BIO9, Mean Temperature of Driest Quarter, 2010-2039, IPCC AR4 Scenario B1, NIES</title>
+      <creator>
+         <organizationName>Lifemapper</organizationName>
+      </creator>
+      <keywordSet>
+         <keyword>Predicted</keyword>
+         <keyword>mean</keyword>
+         <keyword>quarter</keyword>
+         <keyword>temperature</keyword>
+         <keyword>driest</keyword>
+      </keywordSet>
+      <coverage>
+         <geographicCoverage>
+            <geographicDescription>Bounding box (EPSG:4326) - (-180.0, -60.0, 180.0, 90.0)</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-180.0</westBoundingCoordinate>
+               <eastBoundingCoordinate>180.0</eastBoundingCoordinate>
+               <northBoundingCoordinate>90.0</northBoundingCoordinate>
+               <southBoundingCoordinate>-60.0</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2010</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2039</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <contact>
+         <organizationName>University of Kansas Biodiversity Institute</organizationName>
+         <address>
+            <deliveryPoint>1345 Jayhawk Boulevard, Room 606</deliveryPoint>
+            <city>Lawrence</city>
+            <administrativeArea>Kansas</administrativeArea>
+            <postalCode>66045</postalCode>
+            <country>United States</country>
+         </address>
+         <electronicMailAddress>lifemapper@ku.edu</electronicMailAddress>
+         <onlineUrl>http://lifemapper.org</onlineUrl>
+      </contact>
+      <spatialRaster>
+         <entityName>http://lifemapper.org/services/sdm/layers/628</entityName>
+         <physical>
+            <objectName>bio_9.tif</objectName>
+            <dataFormat>
+               <externallyDefinedFormat>
+                  <formatName>GeoTIFF</formatName>
+               </externallyDefinedFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url function="download">
+                     https://bidataone.nhm.ku.edu/mn/v1/object/kubi.lifemapper.sdm.layers.628.tif
+                  </url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute>
+               <attributeName>Value</attributeName>
+               <attributeDefinition>BIO9, Mean Temperature of Driest Quarter, 2010-2039, IPCC AR4 Scenario B1, NIES</attributeDefinition>
+               <storageType>Real</storageType>
+               <measurementScale>
+                  <interval>
+                     <unit>
+                        <customUnit>degreesCelsiusTimes10</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                        <bounds>
+                           <minimum exclusive="false">-502.0</minimum>
+                           <maximum exclusive="false">388.0</maximum>
+                        </bounds>
+                     </numericDomain>
+                  </interval>
+               </measurementScale>
+            </attribute>
+         </attributeList>
+         <spatialReference>
+            <horizCoordSysDef name="WGS 84">
+               <geogCoordSys>
+                  <datum name="WGS_1984" />
+                  <spheroid denomFlatRatio="298.257223563" name="WGS 84" semiAxisMajor="6378137.0" />
+                  <primeMeridian longitude="0.0" name="Greenwich" />
+                  <unit name="degree" />
+               </geogCoordSys>
+            </horizCoordSysDef>
+         </spatialReference>
+         <horizontalAccuracy>
+            <accuracyReport>Unknown</accuracyReport>
+         </horizontalAccuracy>
+         <verticalAccuracy>
+            <accuracyReport>Unknown</accuracyReport>
+         </verticalAccuracy>
+         <cellSizeXDirection>0.00833333333333</cellSizeXDirection>
+         <cellSizeYDirection>0.00833333333333</cellSizeYDirection>
+         <numberOfBands>1</numberOfBands>
+         <rasterOrigin>Upper Left</rasterOrigin>
+         <rows>18000</rows>
+         <columns>43200</columns>
+         <verticals>1</verticals>
+         <cellGeometry>pixel</cellGeometry>
+      </spatialRaster>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <unitList>
+            <ns2:unit id="degreesCelsiusTimes10" multiplierToSI="10" parentSI="celsius"><ns2:description>10 times degrees celsius</ns2:description></ns2:unit>
+         </unitList>
+      </metadata>
+   </additionalMetadata>
+</ns0:eml>

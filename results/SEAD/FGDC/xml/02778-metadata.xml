@@ -1,0 +1,230 @@
+<metadata>
+	<idinfo>
+		
+		
+		<citation>
+			<citeinfo>
+				<origin>National Geospatial-Intelligence Agency (NGA)</origin>
+				<origin>National Aeronautics and Space Administration (NASA)</origin>
+				
+				<pubdate>2007</pubdate> 
+				<title>Shuttle Radar Topography Mission (SRTM)</title>
+				
+				<pubinfo>
+					<pubplace>MN USA</pubplace>
+					<publish>National Center for Earth-surface Dynamics Data Repository</publish>
+				</pubinfo>
+				
+				
+				<onlink>https://repository.nced.umn.edu/browser.php?dataset_id=13</onlink>
+				
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This is the SRTM dataset. The Shuttle Radar Topography Mission (SRTM) obtained elevation 
+			data on a near-global scale to generate the most complete high-resolution digital topographic 
+			database of Earth. SRTM consisted of a specially modified radar system that flew onboard the 
+			Space Shuttle Endeavour during an 11-day mission in February of 2000. 
+
+			SRTM is an international project spearheaded by the National Geospatial-Intelligence Agency (NGA) 
+			and the National Aeronautics and Space Administration (NASA). 
+			
+			Obtained on 5/30/2007 from: 
+
+			30m US: ftp://e0srp01u.ecs.nasa.gov/srtm/version1/United_States_1arcsec/1arcsec/
+			90m World: ftp://e0srp01u.ecs.nasa.gov/srtm/version2
+			</abstract>
+			<purpose>scientific research tool</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20000211</begdate>
+					<enddate>20000222</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>collection dates</current>
+		</timeperd>
+		<status>
+			
+			<progress>Complete</progress>
+			
+			<update>None planned</update>
+		</status>
+		<spdom>
+			
+			<bounding>
+				<westbc>-180.0</westbc>
+				<eastbc>180.0</eastbc>
+				<northbc>90.0</northbc>
+				<southbc>-90.0</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				
+				
+				<themekt>NASA Global Change Master Directory (GCMD) Science Keywords</themekt>
+				<themekey>EARTH SCIENCE &gt; LAND SURFACE &gt; TOPOGRAPHY</themekey>
+
+			</theme>
+			
+			<theme>
+				<themekt>NASA Global Change Master Directory (GCMD) Instrument Keywords</themekt>
+				<themekey>Earth Remote Sensing Instruments &gt; Active Remote Sensing &gt; Imaging Radars &gt; SRTM &gt; Shuttle Radar Topography Mission</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>imageryBaseMapsEarthCover</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Space Shuttle Endeavour</themekey>
+			</theme>
+			<place>
+				
+				<placekt>NASA Global Change Master Directory (GCMD) Location Keywords</placekt>
+				<placekey>GEOGRAPHIC REGION &gt; GLOBAL</placekey> 
+			</place>
+			<place>
+				
+				<placekt>NASA Global Change Master Directory (GCMD) Location Keywords</placekt>
+				<placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA</placekey> 
+			</place>
+			
+		</keywords>
+		
+		<accconst>You are free to download and use data from the NCED Data Repository providing you register, and include the citation below for all datasets. Where an additional citation accompanies a specific data set, please include it as well.
+Citation:
+    National Center for Earth-surface Dynamics
+    Data Repository
+    http://www.nced.umn.edu/Data_Repository.html
+    [add date you accessed the data]
+		</accconst>
+		<useconst>See access constraints information</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Charles Nguyen</cntper>
+					
+					<cntorg>St. Anthony Falls Laboratory, University of Michigan</cntorg>
+				</cntperp>
+				<cntpos>IT Supervisor</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>2 Third Avenue SE</address>
+					<address>St. Anthony Falls Laboratory</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55414</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>1 612 624-4673</cntvoice>
+				<cntemail>ctn@umn.edu</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>National Center for Earth-surface Dynamics</cntorg>
+					<cntper>NCED Data Repository</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>National Center for Earth-surface Dynamics</address>
+					<address>2 Third Avenue SE</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55414</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>612-624-4363</cntvoice>
+				<cntemail>ncedit@umn.edu</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>nced-13</resdesc>
+		
+		<distliab>SEAD Virtual Archive is not liable for any damages caused by any errors or omissions in the data.</distliab>
+
+		<stdorder>
+			<digform>
+			
+				<digtinfo>
+					
+					<formname>HGT</formname>
+					<formcont>Each data file covers a one-degree-of-latitude by one-degree-of-longitude block of Earth's surface. The first seven characters indicate 
+					the southwest corner of the block, with N, S, E, and W referring to north, south, east, and west. Thus, the "N34W119.hgt" file covers latitudes 34 
+					to 35 North and longitudes 118-119 West (this file includes downtown Los Angeles, California). The filename extension ".hgt" simply stands for the 
+					word "height", meaning elevation. It is NOT a format type. These files are in "raw" format (no headers and not compressed), 16-bit signed integers,
+					elevation measured in meters above sea level, in a "geographic" (latitude and longitude array) projection, with data voids indicated by -32768. 
+					International 3-arc-second files have 1201 columns and 1201 rows of data, with a total filesize of 2,884,802 bytes ( = 1201 x 1201 x 2). United 
+					States 1-arc-second files have 3601 columns and 3601 rows of data, with a total filesize of 25,934,402 bytes ( = 3601 x 3601 x 2). For more 
+					information read the text file "SRTM_Topo.txt" at http://edcftp.cr.usgs.gov/pub/data/srtm/Readme.html</formcont>
+					
+					<filedec>ZIP compresson applied</filedec>
+					
+					<transize>29747.2</transize>
+				</digtinfo>
+				
+		<digtopt>
+			
+				<onlinopt>
+					<computer>
+						
+						<networka>
+							<networkr>http://seamless.usgs.gov</networkr>
+						
+							<networkr>http://earthexplorer.usgs.gov</networkr>
+						
+							<networkr>http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/Elevation_Products</networkr>
+						</networka>
+					</computer>
+
+				
+					<accinstr>
+
+The SRTM finished products are available in ArcGrid, GRIDFLOAT, BIL, and Tiff format. Data are available through the USGS Seamless Data Distribution System 
+		(SDDS; http://seamless.usgs.gov) and EarthExplorer (http://earthexplorer.usgs.gov). The SRTM 1-arc-second coverage includes the conterminous United States, southern Alaska, 
+		Hawaii, and island territories. The global SRTM 3-arcsecond data are also available through the SDDS. These data are available at no cost via download. Information on how to search and download these data can be found at the 
+		USGS EROS elevation page: http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/Elevation_Products.
+On NCED website, user must register for a free account to download files.
+</accinstr>
+					<oncomp>Standard Internet browser, PC &amp; Mac systems, ArcGIS</oncomp>
+				</onlinopt>
+			</digtopt>
+			</digform>
+			<fees>None</fees>
+		</stdorder>	
+	</distinfo>
+
+	<metainfo>
+		<metd>20130318</metd>
+		<metrd>20130401</metrd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Stacy R. Konkiel</cntper>
+					<cntorg>Indiana University, Bloomington Libraries</cntorg>
+				</cntperp>
+				<cntpos>Science Data Management Librarian</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>Herman B Wells Library, E159</address>
+					<address>1320 East 10th Street</address>
+					<address>Indiana University</address>
+					<city>Bloomington</city>
+					<state>IN</state>
+					<postal>47405</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>1 812 856-5295 </cntvoice>
+				<cntfax>1 812 855-7933 </cntfax>
+				<cntemail>iuswdata@indiana.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+</metadata>

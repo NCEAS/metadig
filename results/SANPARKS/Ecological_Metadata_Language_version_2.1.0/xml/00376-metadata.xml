@@ -1,0 +1,1737 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.126.18" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Kgalagadi Transfrontier Park Aerial Census Data.1998-2012</title>
+ <creator id="1250676749704" scope="document"> <individualName> <surName>SANParks</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Regional Ecologists</positionName>
+ <address scope="document"> <deliveryPoint>Private Bag x402,Skukuza, 1350 South Africa</deliveryPoint>
+ </address>
+ </creator>
+ <keywordSet><keyword>SANParks,South Africa</keyword>
+ <keyword>Kgalagadi Transfrontier Park, South Africa</keyword>
+ <keyword>Census data</keyword>
+ </keywordSet>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Kgalagadi Trasfrontier Park</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-90.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>90.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-45.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1998</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2004-02-13</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1250676749704</references>
+ </contact>
+ <dataTable id="1250677743845" scope="document"> <entityName>KGTPcensus data.txt</entityName>
+ <physical id="1250677741064" scope="document"> <objectName>KGTPcensus data.txt</objectName>
+ <size unit="byte">1766305</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.122.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1250677743861" scope="document"> <attributeName>ID</attributeName>
+ <attributeDefinition>The ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677743876" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677743892" scope="document"> <attributeName>Stratum</attributeName>
+ <attributeDefinition>The Stratum</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677743907" scope="document"> <attributeName>Transect</attributeName>
+ <attributeDefinition>Transect</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677743923" scope="document"> <attributeName>Long</attributeName>
+ <attributeDefinition>Long</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677743939" scope="document"> <attributeName>Lat</attributeName>
+ <attributeDefinition>Lat</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677743954" scope="document"><attributeName>Species</attributeName>
+ <attributeDefinition>The name of species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1250677966517</entityReference>
+ <valueAttributeReference>1250677966548</valueAttributeReference>
+ <definitionAttributeReference>1250677966532</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677743970" scope="document"> <attributeName>Total</attributeName>
+ <attributeDefinition>The Total</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677743986" scope="document"> <attributeName>Ad</attributeName>
+ <attributeDefinition>Ad</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677744001" scope="document"> <attributeName>Calves</attributeName>
+ <attributeDefinition>The Calve</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677744017" scope="document"> <attributeName>Strip</attributeName>
+ <attributeDefinition>Strip</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677744032" scope="document"> <attributeName>Observer</attributeName>
+ <attributeDefinition>Observer</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677744048" scope="document"> <attributeName>Notes</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hh:mm</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677744064" scope="document"> <attributeName>DD Long</attributeName>
+ <attributeDefinition>DD Long</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677744079" scope="document"> <attributeName>DD Lat</attributeName>
+ <attributeDefinition>DD Lat</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>23593</numberOfRecords>
+ </dataTable>
+ <dataTable id="1250677966517" scope="document"> <entityName>KGTPCensuscodes.txt</entityName>
+ <physical id="1250677965314" scope="document"> <objectName>KGTPCensuscodes.txt</objectName>
+ <size unit="byte">761</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.123.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1250677966532" scope="document"> <attributeName>Species</attributeName>
+ <attributeDefinition>The name of species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>gemsbok</code>
+ <definition>speies</definition>
+ </codeDefinition>
+ <codeDefinition> <code>blue wildebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>red hartebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ostrich</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>springbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>eland</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>steenbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>duiker</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>kudu</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>blackbacked jackal</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>bat-eared fox</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>cape fox</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>side-striped jackal</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>aardwolf</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>lion</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>leopard</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>cheetah</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>spotted hyena</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>brown hyena</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>wild dog</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>honey badger</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>baboon</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>aardvark</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ludwig's bustard</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>giraffe</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>secretary bird</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>kori bustard</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>pale chanting goshawk</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>white-quilled korhaan</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>white-backed vulture</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>lappetfaced vulture</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>vulture unidentified</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>cape vulture</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>black-breasted snake eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>martial eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>booted eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>bateleur</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>tawny eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>warthog</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>african wild cat</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>guinea fowl</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>tsamma melons</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>gemsbok cucumber</code>
+ <definition>species</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250677966548" scope="document"> <attributeName>code</attributeName>
+ <attributeDefinition>The code</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>45</numberOfRecords>
+ </dataTable>
+ <dataTable id="1250678204736" scope="document"> <entityName>KGTPRivercounts.txt</entityName>
+ <physical id="1250678203142" scope="document"> <objectName>KGTPRivercounts.txt</objectName>
+ <size unit="byte">32152</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.124.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1250678204751" scope="document"> <attributeName>Stratum</attributeName>
+ <attributeDefinition>Stratum</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250678204767" scope="document"> <attributeName>Transect</attributeName>
+ <attributeDefinition>Transect</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250678204782" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250678204798" scope="document"> <attributeName>Species</attributeName>
+ <attributeDefinition>The species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>blue wildebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>gemsbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>kori bustard</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ostrich</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>springbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>tawny eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>red hartebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>bateleur</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>black-breasted snake eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>giraffe</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>secretary bird</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ludwig's bustard</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>martial eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>pale chanting goshawk</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>blackbacked jackal</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>honey badger</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>lappetfaced vulture</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>white-backed vulture</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>brown hyena</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>cheetah</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>lion</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>steenbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>cape vulture</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>vulture unidentified</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>bat-eared fox</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>duiker</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>spotted hyena</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>warthog</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>booted eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>eland</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>kudu</code>
+ <definition>species</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250678204814" scope="document"> <attributeName>SumOfTotal</attributeName>
+ <attributeDefinition>The sum of total</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>631</numberOfRecords>
+ </dataTable>
+ <dataTable id="1250678477470" scope="document"> <entityName>KGTPTransectTotals.txt</entityName>
+ <physical id="1250678475595" scope="document"> <objectName>KGTPTransectTotals.txt</objectName>
+ <size unit="byte">143375</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.125.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1250678477486" scope="document"> <attributeName>Stratum</attributeName>
+ <attributeDefinition>Stratum</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250678477501" scope="document"> <attributeName>Transect</attributeName>
+ <attributeDefinition>Transect</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250678477517" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250678477532" scope="document"> <attributeName>Species</attributeName>
+ <attributeDefinition>The name of species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>bat-eared fox</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>blackbacked jackal</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>black-breasted snake eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>blue wildebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>duiker</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>gemsbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>kori bustard</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>martial eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ostrich</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>pale chanting goshawk</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>red hartebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>secretary bird</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>springbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>steenbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>tsamma melons</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>white-backed vulture</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>spotted hyena</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>lappetfaced vulture</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>honey badger</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>cheetah</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>bateleur</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>ludwig's bustard</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>kudu</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>white-quilled korhaan</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>warthog</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>aardwolf</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>tawny eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>brown hyena</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>eland</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>lion</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>giraffe</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>booted eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>african wild cat</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>leopard</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>cape fox</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>gemsbok cucumber</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>guinea fowl</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>baboon</code>
+ <definition>species</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250678477548" scope="document"> <attributeName>SumOfTotal</attributeName>
+ <attributeDefinition>The sum of total</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>3394</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385023539501"><entityName>kalagadiCensusApr2008.txt</entityName>
+ <physical id="1385023383831"><objectName>kalagadiCensusApr2008.txt</objectName>
+ <size unit="byte">90782</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110069.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1385023539511"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539521"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539531"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539541"><attributeName>SPECIES LIST #1</attributeName>
+ <attributeDefinition>Species surveyed</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species surveyed</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539551"><attributeName>OTHER</attributeName>
+ <attributeDefinition>OTHER</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>OTHER</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539561"><attributeName>Total</attributeName>
+ <attributeDefinition>Toatal</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539571"><attributeName>BULLS</attributeName>
+ <attributeDefinition>nr of bulls counted</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539581"><attributeName>CALVES</attributeName>
+ <attributeDefinition>Nr of calves counted</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539591"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Lattitudinal positio of the sighting</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539601"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitudonal position of the sighting</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023539611"><attributeName>Stratum</attributeName>
+ <attributeDefinition>Stratum</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Stratum</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1278</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385023827868"><entityName>kalagadiCensusSep2008.txt</entityName>
+ <physical id="1385023709283"><objectName>kalagadiCensusSep2008.txt</objectName>
+ <size unit="byte">66613</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110070.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1385023827878"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827888"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827898"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827908"><attributeName>Species</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827918"><attributeName>TOTAL</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827928"><attributeName>BULLS</attributeName>
+ <attributeDefinition>Total number of bulls counted</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827938"><attributeName>CALVES</attributeName>
+ <attributeDefinition>Total number of calves counted</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827948"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitudinal position of the sighting</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827958"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitudinal position of the sighting</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827968"><attributeName>Transect</attributeName>
+ <attributeDefinition>Transect</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Transect</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385023827978"><attributeName>Stratum</attributeName>
+ <attributeDefinition>Stratum</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Stratum</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>981</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385038497575"><entityName>KalagadiCensusApr2009.txt</entityName>
+ <physical id="1385038421439"><objectName>KalagadiCensusApr2009.txt</objectName>
+ <size unit="byte">62567</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110077.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1385038497585"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497595"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497605"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497615"><attributeName>SPECIES LIST #1</attributeName>
+ <attributeDefinition>SPECIES LIST #1</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497625"><attributeName>TOTAL</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497635"><attributeName>CALVES</attributeName>
+ <attributeDefinition>CALVES</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497645"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497655"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497665"><attributeName>Transect</attributeName>
+ <attributeDefinition>Transect</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Transect</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038497675"><attributeName>Stratum</attributeName>
+ <attributeDefinition>Stratum</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Stratum</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>913</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385038604144"><entityName>KalagadiCensusSep2009.txt</entityName>
+ <physical id="1385038529648"><objectName>KalagadiCensusSep2009.txt</objectName>
+ <size unit="byte">67227</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110078.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1385038604154"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604164"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604174"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604184"><attributeName>SPECIES LIST #1</attributeName>
+ <attributeDefinition>SPECIES LIST #1</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604194"><attributeName>TOTAL</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604204"><attributeName>CALVES</attributeName>
+ <attributeDefinition>CALVES</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604214"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604224"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604234"><attributeName>Transect</attributeName>
+ <attributeDefinition>Transect</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Transect</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038604244"><attributeName>Stratum</attributeName>
+ <attributeDefinition>Stratum</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Stratum</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>987</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385038740383"><entityName>Kalahari2010Censusdata.txt</entityName>
+ <physical id="1385038634566"><objectName>Kalahari2010Censusdata.txt</objectName>
+ <size unit="byte">78676</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110079.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1385038740393"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740403"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740413"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740423"><attributeName>Species list</attributeName>
+ <attributeDefinition>Species list</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species list</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740433"><attributeName>SPECIES LIST #2</attributeName>
+ <attributeDefinition>SPECIES LIST #2</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #2</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740443"><attributeName>OTHER</attributeName>
+ <attributeDefinition>OTHER</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>OTHER</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740453"><attributeName>TOTAL</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740463"><attributeName>BULLS</attributeName>
+ <attributeDefinition>BULLS</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740473"><attributeName>CALVES</attributeName>
+ <attributeDefinition>CALVES</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740483"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038740493"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1123</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385038966326"><entityName>KalagadiCensusApr2011.txt</entityName>
+ <physical id="1385038857480"><objectName>KalagadiCensusApr2011.txt</objectName>
+ <size unit="byte">79653</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110080.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1385038966336"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966346"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966356"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966366"><attributeName>SPECIES LIST #1</attributeName>
+ <attributeDefinition>SPECIES LIST #1</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966376"><attributeName>OTHER</attributeName>
+ <attributeDefinition>OTHER</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>OTHER</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966386"><attributeName>Total</attributeName>
+ <attributeDefinition>Total</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966396"><attributeName>Bulls</attributeName>
+ <attributeDefinition>Bulls</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966406"><attributeName>CALVES</attributeName>
+ <attributeDefinition>CALVES</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966416"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966426"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385038966436"><attributeName>Transect</attributeName>
+ <attributeDefinition>Transect</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Transect</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1096</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385039077471"><entityName>KalagadiCensusSep2011.txt</entityName>
+ <physical id="1385038981337"><objectName>KalagadiCensusSep2011.txt</objectName>
+ <size unit="byte">65937</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110081.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1385039077481"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077491"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077501"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077511"><attributeName>SPECIES LIST #1</attributeName>
+ <attributeDefinition>SPECIES LIST #1</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077521"><attributeName>STRIP</attributeName>
+ <attributeDefinition>STRIP</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>STRIP</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077531"><attributeName>STRATA</attributeName>
+ <attributeDefinition>STRATA</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>STRATA</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077541"><attributeName>TOTAL</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077551"><attributeName>CALVES</attributeName>
+ <attributeDefinition>CALVES</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077561"><attributeName>Bird</attributeName>
+ <attributeDefinition>Bird</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077571"><attributeName>Bird + Nest</attributeName>
+ <attributeDefinition>BirdBird + Nest</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077581"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039077591"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>870</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385039352009"><entityName>Kalahari census_Apr2012.txt</entityName>
+ <physical id="1385039142651"><objectName>Kalahari census_Apr2012.txt</objectName>
+ <size unit="byte">78258</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110082.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1385039352019"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352029"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352039"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352049"><attributeName>SPECIES LIST #1</attributeName>
+ <attributeDefinition>SPECIES LIST #1</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352059"><attributeName>SPECIES LIST #2</attributeName>
+ <attributeDefinition>SPECIES LIST #2</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #2</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352069"><attributeName>OTHER</attributeName>
+ <attributeDefinition>OTHER</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>OTHER</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352079"><attributeName>TOTAL</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352089"><attributeName>BULLS</attributeName>
+ <attributeDefinition>BULLS</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352099"><attributeName>CALVES</attributeName>
+ <attributeDefinition>CALVES</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352109"><attributeName>Bird</attributeName>
+ <attributeDefinition>Bird</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352119"><attributeName>Bird + Nest</attributeName>
+ <attributeDefinition>Bird + Nest</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352129"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352139"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352149"><attributeName>Strata</attributeName>
+ <attributeDefinition>Strata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Strata</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039352159"><attributeName>transcet</attributeName>
+ <attributeDefinition>transcet</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>transcet</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>993</numberOfRecords>
+ </dataTable>
+ <dataTable id="1385039485703"><entityName>Kalahari census_Sept2012.txt</entityName>
+ <physical id="1385039377189"><objectName>Kalahari census_Sept2012.txt</objectName>
+ <size unit="byte">81356</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110083.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1385039485713"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485723"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485733"><attributeName>BLOCK</attributeName>
+ <attributeDefinition>BLOCK</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>BLOCK</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485743"><attributeName>SPECIES LIST #1</attributeName>
+ <attributeDefinition>SPECIES LIST #1</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485753"><attributeName>SPECIES LIST #2</attributeName>
+ <attributeDefinition>SPECIES LIST #2</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>SPECIES LIST #2</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485763"><attributeName>OTHER</attributeName>
+ <attributeDefinition>OTHER</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>OTHER</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485773"><attributeName>TOTAL</attributeName>
+ <attributeDefinition>TOTAL</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485783"><attributeName>BULLS</attributeName>
+ <attributeDefinition>BULLS</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485793"><attributeName>CALVES</attributeName>
+ <attributeDefinition>CALVES</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485803"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485813"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485823"><attributeName>Transcet</attributeName>
+ <attributeDefinition>Transcet</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Transcet</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1385039485833"><attributeName>Strata</attributeName>
+ <attributeDefinition>Strata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Strata</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1113</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

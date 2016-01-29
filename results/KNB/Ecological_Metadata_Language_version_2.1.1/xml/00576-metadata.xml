@@ -1,0 +1,131 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.696.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+
+
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=clarke.cooper,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier system="HRF">Holtseed</alternateIdentifier>
+<title>Seeds test</title>
+<creator>
+<organizationName>HRF</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Clarke </givenName>
+<surName>Cooper</surName>
+</individualName>
+</creator>
+<metadataProvider><individualName>
+<givenName>Clarke</givenName>
+<surName>Cooper</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Clarke </givenName>
+<surName>Cooper</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2015-05-20</pubDate>
+<abstract>
+<para>Found a peanut just now.</para>
+</abstract>
+<keywordSet>
+<keyword>acorn</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>seed</keyword>
+<keywordThesaurus>GCMD</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>There's always some additional information</para>
+</additionalInfo>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<singleDateTime>
+<calendarDate>1983</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Arrowsic, Maine, USA</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-69.7861</westBoundingCoordinate>
+<eastBoundingCoordinate>-69.7861</eastBoundingCoordinate>
+<northBoundingCoordinate>43.8719</northBoundingCoordinate>
+<southBoundingCoordinate>43.8719</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Clarke </givenName>
+<surName>Cooper</surName>
+</individualName>
+</contact>
+<methods><methodStep><description><section>
+<title>Litter traps</title>
+<para>There's little round traps for the seeds to fall in.</para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>Seeds of trees in these woods since 1983.</para>
+</description></studyExtent>
+<samplingDescription>
+<para>A trap every ten meters along several lines</para>
+</samplingDescription>
+</sampling>
+</methods>
+<otherEntity id="f5c9a3978c3038d7922ed0a22955317981c20075001" scope="document">
+            <entityName>Seeds_Meta.doc</entityName>
+            <physical scope="document">
+                <objectName>Seeds_Meta.doc</objectName>
+                <size>34304</size>
+                <authentication method="SHA1">f5c9a3978c3038d7922ed0a22955317981c20075</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>application/msword</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="f5c9a3978c3038d7922ed0a22955317981c20075002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.695.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>uid=clarke.cooper,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+ 
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</ns0:eml>

@@ -1,0 +1,228 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.109840.5" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Transect-survey of the impacts of elephant on canopy trees</title>
+ <creator id="1370857002295"> <organizationName>South African National Parks</organizationName>
+ </creator>
+ <creator id="1370857017724"><organizationName>Centre for African Conservation Ecology, Nelson Mandela Metropolitan University</organizationName>
+ </creator>
+ <abstract><para>During January 2011, a transect-survey of the impacts of elephant on canopy trees - Pappea capensis, Schotia afra and Boscia oleoides - was conducted in the Kuzuko-section of the Addo Elephant National Park. The survey was conducted along 17 belt-transects (1000x10m). Each tree encountered was characterised using the following variables: (1) driver of the impact [E-Elephant, O-Other, U-Unknown, N-No impact], and (2) intensity of the impact [1-Broken branches, 2-Pushed-over/trunk borken, but alive, 3-Dead].</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Addo Elephant National Park, South Africa</keyword>
+ <keyword>Elephant impact, canopy trees</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data is restricted. If you would like to use it please contact the data set contact person</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>AENPKuzokoContractualP</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>25.320656</westBoundingCoordinate>
+ <eastBoundingCoordinate>25.518102</eastBoundingCoordinate>
+ <northBoundingCoordinate>-33.128976</northBoundingCoordinate>
+ <southBoundingCoordinate>-33.254939</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>2011-01-10</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Loxodaonta</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Africana</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1370857029580"><individualName><givenName>Marietjie</givenName>
+ <surName>Landman</surName>
+ </individualName>
+ <electronicMailAddress>marietjie.landman@nmmu.ac.za</electronicMailAddress>
+ </contact>
+  <dataTable id="1371022126592"><entityName>LandmanELeTreesPlotlocations.txt</entityName>
+<physical id="1371022062538"><objectName>LandmanELeTreesPlotlocations.txt</objectName>
+<size unit="byte">951</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.109842.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1371022126608"><attributeName>Plot</attributeName>
+<attributeDefinition>Plot</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022126623"><attributeName>Start (E)</attributeName>
+<attributeDefinition>Eastern start of the plot</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022126639"><attributeName>Start (S)</attributeName>
+<attributeDefinition>Southern start of the plot</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022126654"><attributeName>End (E)</attributeName>
+<attributeDefinition>Eastern end of the plot</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022126670"><attributeName>End (S)</attributeName>
+<attributeDefinition>Southern end of the plot</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>51</numberOfRecords>
+</dataTable>
+<dataTable id="1371022724935"><entityName>LandmanElephant-CanopyTreesv1.txt</entityName>
+<physical id="1371022488764"><objectName>LandmanElephant-CanopyTreesv1.txt</objectName>
+<size unit="byte">10201</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.109844.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1371022724950"><attributeName>Plot</attributeName>
+<attributeDefinition>plot number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022724966"><attributeName>Species</attributeName>
+<attributeDefinition>Species</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1371022724982"><attributeName>N</attributeName>
+<attributeDefinition>No impact</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022724997"><attributeName>E</attributeName>
+<attributeDefinition>Elephant impact</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022725013"><attributeName>O</attributeName>
+<attributeDefinition>Other impact</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022725028"><attributeName>U</attributeName>
+<attributeDefinition>Unknown impact</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1371022725044"><attributeName>Intensity of impact 1</attributeName>
+<attributeDefinition>Intensity of impact 1</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+<definition>Broken branches</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1371022725060"><attributeName>Intensity of impact 2</attributeName>
+<attributeDefinition>Intensity of impact 2</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+<definition>Pushed over/trunk broekn but alive</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1371022725075"><attributeName>Intensity of impact 3</attributeName>
+<attributeDefinition>Intensity of impact 3</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+<definition>Dead</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1371022725091"><attributeName>Na</attributeName>
+<attributeDefinition>Na</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>* Incomplete</code>
+<definition>-9</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>338</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><enityWizard><tracingChange>true</tracingChange>
+ <index>0</index>
+ </enityWizard>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

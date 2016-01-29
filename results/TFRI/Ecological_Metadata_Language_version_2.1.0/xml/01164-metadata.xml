@@ -1,0 +1,482 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="shiang.26.10" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Physiological factors for watersheds of TFRI</title>
+ <creator id="1290419281703"><individualName><salutation>&#30740;&#31350;&#21729;</salutation>
+ <givenName>&#38520;&#35937;&#35947;</givenName>
+ <surName>&#38520;</surName>
+ </individualName>
+ <organizationName>&#26519;&#35430;&#25152;&#38598;&#27700;&#21312;&#32147;&#29151;&#32068;</organizationName>
+ <positionName>&#30740;&#31350;&#21729;</positionName>
+ <address><deliveryPoint>&#21488;&#21271;&#24066;&#21335;&#28023;&#36335;53&#34399;</deliveryPoint>
+ <city>Taipei</city>
+ <administrativeArea>Taiwan</administrativeArea>
+ <postalCode>10066</postalCode>
+ <country>R.O.C.</country>
+ </address>
+ <phone phonetype="voice">02-23039978-1409</phone>
+ <phone phonetype="fax">02-23752164</phone>
+ <electronicMailAddress>shiang@tfri.gov.tw</electronicMailAddress>
+ </creator>
+ <creator id="1290419462506"><individualName><salutation>&#21103;&#30740;&#31350;&#21729;</salutation>
+ <givenName>&#35613;&#28450;&#27453;</givenName>
+ <surName>&#35613;</surName>
+ </individualName>
+ <organizationName>&#26519;&#27663;&#25152;&#32147;&#29151;&#32068;</organizationName>
+ <positionName>&#21103;&#30740;&#31350;&#21729;</positionName>
+ <address><deliveryPoint>&#21488;&#21271;&#24066;&#21335;&#28023;&#36335;53&#34399;</deliveryPoint>
+ <city>Taipei</city>
+ <administrativeArea>Taiwan</administrativeArea>
+ <postalCode>10066</postalCode>
+ <country>R.O.C.</country>
+ </address>
+ <phone phonetype="voice">02-23039978-1202</phone>
+ <electronicMailAddress>mickey@tfri.gov.tw</electronicMailAddress>
+ </creator>
+ <creator id="1290419630117"><individualName><salutation>&#21161;&#29702;&#30740;&#31350;&#21729;</salutation>
+ <givenName>&#40643;&#33391;&#37995;</givenName>
+ <surName>&#40643;</surName>
+ </individualName>
+ <organizationName>&#26519;&#35430;&#25152;&#38598;&#27700;&#21312;&#32147;&#29151;&#32068;</organizationName>
+ <positionName>&#21161;&#29702;&#30740;&#31350;&#21729;</positionName>
+ <address><deliveryPoint>&#21488;&#21271;&#24066;&#21335;&#28023;&#36335;53&#34399;</deliveryPoint>
+ <city>Taipei</city>
+ <administrativeArea>Taiwan</administrativeArea>
+ <postalCode>10066</postalCode>
+ <country>R.O.C.</country>
+ </address>
+ <phone phonetype="voice">02-23039978-1625</phone>
+ <phone phonetype="fax">02-23752164</phone>
+ <electronicMailAddress>ihshag@tfri.gov.tw</electronicMailAddress>
+ </creator>
+ <abstract><para>Physiographic factors are the most important characteristics in establishing the hydrologic conditions of a watershed. They are crucial for experimental watersheds for model calibration and determining the effects of forest management practices on water yields. Originally those factors of Taiwan&#8217;s experimental watersheds were analyzed using topographic maps. The accuracy of values for factors obtained from maps and ground surveys has long been criticized due to the scale and man-made errors. With the development of geographical information system and digital photogrammetric techniques, it is increasingly common to determine basin characteristics from digital elevation models (DEMs). In this context, the physical characteristics of Taiwan Forestry Research Institute experimental watersheds including those at Fushan, Piluchi, Lienhuachih and Shanping were examined using by the WinGrid, computer software which combines techniques of GIS, remote sensing, the related theories, and models of soil and water conservation for topographic analysis of watersheds. The results indicated that there were significant differences of physiographic factors measured using topographic maps and DEM data for area and area-related factors such as the circumference of watershed, form factor, compactness, and average slope. Hopefully the adjusted measurements will be helpful in improving watershed and hydrologic studies in Taiwan.</para>
+ </abstract>
+ <keywordSet><keyword>physiological factors</keyword>
+ </keywordSet>
+ <keywordSet><keyword>experimental watershed</keyword>
+ </keywordSet>
+ <keywordSet><keyword>DEM data</keyword>
+ </keywordSet>
+ <intellectualRights><para>Open to anybody.</para>
+ </intellectualRights>
+ <coverage> <geographicCoverage><geographicDescription>&#21488;&#28771;&#20840;&#23798;</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>119.875</westBoundingCoordinate>
+ <eastBoundingCoordinate>122.125</eastBoundingCoordinate>
+ <northBoundingCoordinate>25.5</northBoundingCoordinate>
+ <southBoundingCoordinate>21.625</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>2009</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1290419281703</references>
+ </contact>
+ <methods><methodStep><description><section><title>Prepare DEM data</title>
+ <para>Prepare DEM data of the experimental watersheds of TFRI. Except for the Piluchi watershed which is composed of 40 &#215; 40-m raster data, the other watersheds are composed of 5 &#215; 5-m raster data that are believed to provide required accuracy for watershed analyse.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Get longitude and altitude of watersheds</title>
+ <para>Obtain longitude and latitude of the location of weir in each experimental watershed by GPS (global positioning system).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Compute vectors of flow paths, basins, and ridges lines.</title>
+ <para>Compute vectors of flow paths, basins, and ridges lines for each analyzed watershed.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>control drainage network</title>
+ <para>Control drainage network density and basin size use flow accumulation thresholds for outlets, upstream limits, and branch points.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Fill spurious</title>
+ <para>Automatically fill spurious small depressions in the DEM and set thresholds to leave large, deeper depressions unfilled.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Compute area and flowpath</title>
+ <para>Compute the upstream catchment area and downstream flowpath at the location of weir.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Determine slope</title>
+ <para>Determine the slope of each grid by calculating the angle between the grid plane and its normal axis (line).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Determine physiological factors</title>
+ <para>Determine physiographic factors of a watershed such as the area, circumference, main stream length, mean watershed width, form factor, compactness, average slope, average elevation, and aspect through arithmetic operations or taking the mode from the corresponding values of stream lines or basin polygons.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1290429035798"> <entityName>Physiological factors</entityName>
+ <entityDescription>Physiological fators of experimental watersheds of TFRI estimated from DEM data</entityDescription>
+ <physical> <objectName>~deleteme62273.tmp</objectName>
+ <dataFormat> <textFormat> <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/shiang.27.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1290429035813"> <attributeName>Item</attributeName>
+ <attributeDefinition>name of watershed</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>Name of watershed</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035829"><attributeName>Area</attributeName>
+ <attributeDefinition>Area of watersheds in ha</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035844"><attributeName>circumference</attributeName>
+ <attributeDefinition>Circumference of watershed in meter</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035860"><attributeName>stream length</attributeName>
+ <attributeDefinition>Main stream length in meter</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035876"><attributeName>mean width</attributeName>
+ <attributeDefinition>mean width of watershed in meter</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035891"> <attributeName>form factor</attributeName>
+ <attributeDefinition>Fiorm factor of watershed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035907"> <attributeName>compactness</attributeName>
+ <attributeDefinition>compactness of watershed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035923"> <attributeName>average slope</attributeName>
+ <attributeDefinition>Average slope of watershed in %</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035938"> <attributeName>avg. elevation</attributeName>
+ <attributeDefinition>the mean elevation of watershed in meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035954"> <attributeName>max. elevation</attributeName>
+ <attributeDefinition>the maximum elevation of watershed in meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1290429035970"> <attributeName>min elevation</attributeName>
+ <attributeDefinition>the minimum elevation of watershed in meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1291618340118"> <entityName>Book2.csv</entityName>
+ <entityDescription>Relationship between elevation and area above the spcificed elevation</entityDescription>
+ <physical id="1291618337958"> <objectName>Book2.csv</objectName>
+ <size unit="byte">1166</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/shiang.28.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1291618340134"><attributeName>FS1E</attributeName>
+ <attributeDefinition>elevation of Fushan No. 1 watershed</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340149"><attributeName>FS1A</attributeName>
+ <attributeDefinition>Area above the related elevation for Fushan No. 1 watershed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340165"><attributeName>FS2E</attributeName>
+ <attributeDefinition>Elevation for the Fushan No. 2 watershed</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340181"><attributeName>FS2A</attributeName>
+ <attributeDefinition>Area above the specified elevation for watershed Fushan No. 2</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340196"><attributeName>PL11E</attributeName>
+ <attributeDefinition>Elevation for the watershed Pilichi No. 11</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340212"> <attributeName>PL11A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Piluchi No. 11</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340228"> <attributeName>PL12E</attributeName>
+ <attributeDefinition>Elevation for the watershed Piluchi No. 12</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340243"> <attributeName>PL12A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Piluchi No. 12</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340259"> <attributeName>LHC2E</attributeName>
+ <attributeDefinition>Elevation for the watershed Lienhuachih No. 2</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340275"> <attributeName>LHC2A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Lienhuachih No. 2</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340290"> <attributeName>LHC3E</attributeName>
+ <attributeDefinition>Elevation for watershed Lienhuachih No. 3</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340306"> <attributeName>Lhc3A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Lienhuachih No. 3</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340321"> <attributeName>LHC4E</attributeName>
+ <attributeDefinition>Elevation for watershed Lienhuachih No. 4</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340337"> <attributeName>LHC4A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Lienhuachih No. 4</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340353"> <attributeName>LHC5E</attributeName>
+ <attributeDefinition>Elevation for watershed Lienhuachih No. 5</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340368"> <attributeName>LHC5A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Lienhuachih No. 5</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340384"> <attributeName>SP1E</attributeName>
+ <attributeDefinition>elevation for the watershed Shanping No. 1</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340400"> <attributeName>SP1A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Shanping No. 1</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340415"> <attributeName>SP2E</attributeName>
+ <attributeDefinition>Elevation for watershed Shanping No. 2</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340431"> <attributeName>SP2A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Shanping No. 2</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340447"> <attributeName>SP4E</attributeName>
+ <attributeDefinition>Elevation for watershed Shanping No. 4</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291618340462"> <attributeName>SP4A</attributeName>
+ <attributeDefinition>Area above the related elevation for watershed Shanping No. 4</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>11</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>
