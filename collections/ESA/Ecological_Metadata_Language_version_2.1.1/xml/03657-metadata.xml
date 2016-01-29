@@ -1,0 +1,126 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.100.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+
+
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Population matrix models for Frasera speciosa from 1974 to 2008</title>
+<creator>
+<organizationName>University of Maryland, College Park</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>David</givenName>
+<surName>Inouye</surName>
+</individualName>
+<organizationName>University of Maryland, College Park</organizationName>
+<address>
+<deliveryPoint>4206 Biology-Psychology Building</deliveryPoint>
+<city>College Park</city>
+<administrativeArea>Maryland</administrativeArea>
+<postalCode>20742</postalCode>
+<country>USA</country>
+</address>
+<phone>301-405-6946</phone>
+<electronicMailAddress>inouye@umd.edu</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Judy</givenName>
+<surName>Che-Castaldo</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>David</givenName>
+<surName>Inouye</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Judy</givenName>
+<surName>Che-Castaldo</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2011-11-07</pubDate>
+<abstract>
+<para>This dataset contains the matrix population models for a population of Frasera speciosa in the Elk Mountains of southwestern Colorado, for the years 1974-2007.  Each matrix contains the probability of transitioning from a stage (the column headings) to another stage (the rows) from the starting year (given as the heading of the matrix) to the following year for individuals in the Frasera speciosa population. There are two dormant seed categories, a recruit or seedling category, and twelve leaf-number stages: 2 (1-2 leaves), 4 (3-4 leaves), 6 (5-6 leaves), 9 (7-10 leaves), 12 (11-14 leaves), 16 (15-17 leaves), 20 (18-22 leaves), 25 (23-27 leaves), 30 (28-32 leaves), 36 (33-38 leaves), 42 (39-45 leaves), or 49 (46-64 leaves).</para>
+</abstract>
+<keywordSet>
+<keyword>Population Dynamics</keyword>
+<keywordThesaurus>GCMD</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>This dataset was described and analyzed in the following manuscript:
+Che-Castaldo, J. and D. W. Inouye. 2011. The effects of dataset length and mast seeding on the demography of Frasera speciosa, a long-lived monocarpic plant. Ecosphere, accepted.
+
+Other related references:
+Inouye, D. W., and O. R. Taylor, Jr. 1980. Variation in generation time in Frasera speciosa (Gentianaceae), a long-lived perennial monocarp. Oecologia 47:171-174.
+
+Taylor, J., OR, and D. W. Inouye. 1985. Synchrony and periodicity of flowering in Frasera speciosa (Gentianaceae). Ecology 66:521-527.</para>
+</additionalInfo>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>1974</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2008</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>The study plot (now 18 x 29m) is in the Elk Mountains of southwestern Colorado, in a south-facing alpine bowl in at an elevation of 3,740m near Cumberland Pass (Gunnison County), Colorado.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-106.4789</westBoundingCoordinate>
+<eastBoundingCoordinate>-106.4789</eastBoundingCoordinate>
+<northBoundingCoordinate>38.6992</northBoundingCoordinate>
+<southBoundingCoordinate>38.6992</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Frasera speciosa</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Judy</givenName>
+<surName>Che-Castaldo</surName>
+</individualName>
+<electronicMailAddress>jchecastaldo@gmail.com</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<para>see related references</para>
+</section></description></methodStep>
+</methods>
+</dataset></ns0:eml>

@@ -1,0 +1,239 @@
+<ns0:metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Peel, M.C.</origin>
+        <origin>Finlayson, B.L.</origin>
+        <origin>McMahon, T.A.</origin>
+        <title>World Map of the Koppen-Geiger Climate Classification</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/climate/koppen-geiger_climate_map.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/climate/koppen-geiger_climate_map.xml</alt_onlink>
+        <onlink />
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A new global map of climate classifications using the Koppen-Geiger system has been produced based on a large global data set of long-term monthly precipitation and temperature station time series. 
+
+To construct the new map, long-term station records of monthly precipitation and monthly temperature were obtained from the Global Historical Climatology Network (GHCN) version 2.0 data set (Peterson and Vose, 1997). Stations from this data set with at least 30 observations for each month were used in the analysis (12,396 precipitation and 4,844 temperature stations). The data are most representative from 1909 to 1991 for precipitation and 1923 to 1993 for temperature. Climatic variables were interpolated between stations in ESRI ArcMap version 9.1 using a two-dimensional (latitude and longitude) thin-plate spline with tension onto a 0.1 x 0.1 degree grid for each continent. The Koppen-Geiger criteria were then applied to the splined variables.
+
+The Koppen-Geiger system includes 30 possible climate types. They are divided
+into 3 tropical (Af, Am and Aw), 4 arid (BWh, BWk, BSh and BSk), 9 temperate (Csa,
+Csb, Csc, Cfa, Cfb, Cfc, Cwa, Cwb and Cwc), 12 cold (Dsa, Dsb, Dsc, Dsd, Dfa, Dfb,
+Dfc, Dfd, Dwa, Dwb, Dwc and Dwd) and 2 polar (ET and EF) (The source document and metadata record define the subdivisions). All precipitation variables are in units of millimetres (mm) and all temperature variables are in units of degrees Celsius (C).
+
+Koppen-Geiger climate type maps were constructed for each continent and the
+percentage of land area covered by the major climate types was calculated. Since the
+area of a 0.1 x 0.1 degree pixel changes with latitude, a map of 0.1 x 0.1 degree pixel
+area was constructed and then projected onto a Cylindrical Equal Area projection of
+the world to determine the area (in km2) of each 0.1 x 0.1 degree pixel. These pixel
+areas were then summed for each climate type to provide an estimate of the land area covered by each climate type. The continental maps are presented and discussed in Peel et al. (2007). The global map is available for download in ESRI Arc Grid.
+
+Oak Ridge National Laboratory (ORNL) also provides the updated World Map of the Koppen-Geiger Climate Classification, but in GeoTiff format. ORNL Convert data from ESRI Grid format to GeoTIFF format. The processed GeoTIFF data were fed into ORNL DAAC Web Map Service v1.1.1  (WMS), Web Coverage Service v1.0.0 (WCS), and Spatial Data Access Tool (SDAT) to provide data visualization and distribution capabilities.
+References:
+
+Koppen, W. 1936. Das geographisca System der Klimate, in: Handbuch der Klimatologie, edited by: K&amp;#194;&amp;#168;oppen, W. and Geiger, G., 1. C. Gebr, Borntraeger, 1&amp;#226;&#239;&#191;&#189;&amp;#147;44.
+
+Peel, M. C., B. L. Finlayson, and T. A. McMahon. 2007. Updated World Map of the Koppen-Geiger Climate Classification. Hydrol. Earth Syst. Sci., 11, 1633-1644. doi:10.5194/hess-11-1633-2007.
+
+Peterson, T.C., and R.S. Vose. 1997. An overview of the Global Historical Climatology Network temperature database, Bull. Am. Meteorol. Soc., 78(12), 2837&amp;#226;&#239;&#191;&#189;&amp;#147;2849.</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>18000101</begdate>
+          <enddate>20031231</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Final</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>AIR TEMPERATURE|THERMOMETER|METEOROLOGICAL STATION</themekey>
+        <themekey>PRECIPITATION AMOUNT|RAIN GAUGE|METEOROLOGICAL STATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>AIR TEMPERATURE</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>METEOROLOGICAL STATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>THERMOMETER</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>Global (gridded)</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Peel, M.C.</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; mpeel@unimelb.edu.au</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Hydrology and Earth System Sciences (HESS), Copernicus Publications, Gottingen, Germany</cntorg>
+          <cntper>Peel, M.C.</cntper>
+        </cntperp>
+        <cntvoice>+(61 3) 8344 5627</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; mpeel@unimelb.edu.au</cntfax>
+        <cntemail>mpeel@unimelb.edu.au</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://www.hydrology-and-earth-system-sciences.net/home.html</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Peel, M. C., B. L. Finlayson, and T. A. McMahon. 2007. Updated World Map of the Koppen-Geiger Climate Classification. Available online at [http://www.hydrol-earth-syst-sci.net/11/1633/2007/hess-11-1633-2007.html] from Hydrology and Earth System Sciences (HESS), Copernicus Publications, Gottingen, Germany.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20110824 142753</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>18000101</begdate>
+    <enddate>20031231</enddate>
+    <Site_Information>
+      <Site>Global (gridded)</Site>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Southernmost_Latitude>-90</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>Air temperature</Keywords>
+    <Keywords>Climate classification</Keywords>
+    <Keywords>Climate Collections</Keywords>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>Global Historical Climatology Network (GHCN)</Keywords>
+    <Keywords>Koppen-Geiger system</Keywords>
+    <Keywords>Precipitation</Keywords>
+    <Parameter_Description>
+      <Parameter>AIR TEMPERATURE</Parameter>
+      <Sensor>THERMOMETER</Sensor>
+      <Source>METEOROLOGICAL STATION</Source>
+      <Term>ATMOSPHERIC TEMPERATURE</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>PRECIPITATION AMOUNT</Parameter>
+      <Sensor>RAIN GAUGE</Sensor>
+      <Source>METEOROLOGICAL STATION</Source>
+      <Term>PRECIPITATION</Term>
+      <Topic>ATMOSPHERE</Topic>
+    </Parameter_Description>
+    <Project />
+    <Navpath>METEOROLOGICAL STATION|THERMOMETER|AIR TEMPERATURE</Navpath>
+    <Navpath>METEOROLOGICAL STATION|RAIN GAUGE|PRECIPITATION AMOUNT</Navpath>
+    <Principal_Investigator>
+      <Name>Peel, M.C.</Name>
+      <Email>mpeel@unimelb.edu.au</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>Finlayson, B.L.</Name>
+      <Email>brianlf@unimelb.edu.au</Email>
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>McMahon, T.A.</Name>
+      <Email>thomasam@unimelb.edu.au</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://www.hydrol-earth-syst-sci.net/11/1633/2007/hess-11-1633-2007-supplement.zip</URL>
+      <Label>Updated World Map of the Koppen-Geiger Climate Classification</Label>
+      <Link_Note>The world Koppen-Geiger climate type map is available for download in ESRI Arc Grid (raster) and JPG formats. Also available are a README file and 
+an excel spreadsheet containing the precipitation and temperature variables for
+all stations used in the construction of the map.</Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status>Final</Data_Set_Status>
+      <Data_Set_Restrictions>Public</Data_Set_Restrictions>
+      <Data_Set_Location>The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</Data_Set_Location>
+      <Data_Contact_Person>
+        <Email>ornldaac@ornl.gov</Email>
+        <Name>ORNL DAAC User Services Office Oak Ridge National Laboratory Oak Ridge, Tennessee 37831 USA FAX: +1(865)574-4665</Name>
+        <Phone>+1(865)241-3952</Phone>
+        <Data_Center_URL>http://daac.ornl.gov/</Data_Center_URL>
+      </Data_Contact_Person>
+      <Data_Center_URL>http://daac.ornl.gov/</Data_Center_URL>
+      <Data_Set_Citation>Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC). 2010. World Map of the Koppen-Geiger Climate Classification. Available online at [http://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=10012] from the Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC), Oak Ridge, Tennessee 37831 U.S.A.</Data_Set_Citation>
+      <Data_Set_Link>
+        <URL>http://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=10012</URL>
+        <Label>World Map of the Koppen-Geiger Climate Classification</Label>
+        <Link_Note>This data set contains 1 data file. Use the link above to view and download data in user selected format, spatial extent/resolution, and projection through the Spatial Data Access Tool (SDAT) which is based on the Open Geospatial Consortium (OGC) Web Map Service (WMS) and Web Coverage Service (WCS).</Link_Note>
+        <Data_Center_URL>http://daac.ornl.gov/</Data_Center_URL>
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>basic02.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>mpeel@unimelb.edu.au</Email>
+      <Name>Peel, M.C.</Name>
+      <Phone>+(61 3) 8344 5627</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>Created 20101006 102835 by 69.19.14.37</File_ID>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Extent>64800</Spatial_Extent>
+    <Search_Text_Link>
+      <URL />
+      <Label />
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</ns0:metadata>

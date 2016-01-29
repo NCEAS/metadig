@@ -1,0 +1,318 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.1205.7" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>uid=botha,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset> <title>Golden Gate HIghland National Park monthly temperature and rainfall</title>
+ <creator id="1333529627684"> <individualName><surName>SANParks</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>SANParks</positionName>
+ </creator>
+ <keywordSet><keyword>SANParks, South Africa, Golden Gate Highlands National Park, South Africa</keyword>
+ <keyword>temperature, rainfall</keyword>
+ </keywordSet>
+ <coverage><geographicCoverage><geographicDescription>GoldenGateHighlandsNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>28.524255</westBoundingCoordinate>
+ <eastBoundingCoordinate>28.80661</eastBoundingCoordinate>
+ <northBoundingCoordinate>-28.403919</northBoundingCoordinate>
+ <southBoundingCoordinate>-28.608216</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1333529644119"><individualName><surName>Hugo</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>SANParks</positionName>
+ </contact>
+ <dataTable id="1333534064277"><entityName>Golden gate clearens maximum temp.txt</entityName>
+ <physical id="1333533918659"><objectName>Golden gate clearens maximum temp.txt</objectName>
+ <size unit="byte">766</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.1218.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1333534064278"><attributeName>Year</attributeName>
+ <attributeDefinition>YEAR</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY.MM.DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064279"><attributeName>Jan</attributeName>
+ <attributeDefinition>JANUARY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064280"><attributeName>Feb</attributeName>
+ <attributeDefinition>FEBRUARY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064281"><attributeName>Mar</attributeName>
+ <attributeDefinition>MARCH</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064282"><attributeName>Apl</attributeName>
+ <attributeDefinition>APRIL</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064283"><attributeName>May</attributeName>
+ <attributeDefinition>MAY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064284"><attributeName>Jun</attributeName>
+ <attributeDefinition>JUNE</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064285"><attributeName>Jul</attributeName>
+ <attributeDefinition>JULY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064286"><attributeName>Aug</attributeName>
+ <attributeDefinition>AUGUST</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064287"><attributeName>Sep</attributeName>
+ <attributeDefinition>SEPTEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064288"><attributeName>Oct</attributeName>
+ <attributeDefinition>OCTOBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064289"><attributeName>Nov</attributeName>
+ <attributeDefinition>NOVEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534064290"><attributeName>Dec</attributeName>
+ <attributeDefinition>DECEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>11</numberOfRecords>
+ </dataTable>
+ <dataTable id="1333534215087"><entityName>Golden gate clearens minimum temp.txt</entityName>
+ <physical id="1333534099098"><objectName>Golden gate clearens minimum temp.txt</objectName>
+ <size unit="byte">721</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.1219.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1333534215088"><attributeName>Year</attributeName>
+ <attributeDefinition>YEAR</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215089"><attributeName>Jan</attributeName>
+ <attributeDefinition>JANUARY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215090"><attributeName>Feb</attributeName>
+ <attributeDefinition>FEBRUARY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215091"><attributeName>Mar</attributeName>
+ <attributeDefinition>MARCH</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215092"><attributeName>Apl</attributeName>
+ <attributeDefinition>APRIL</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215093"><attributeName>May</attributeName>
+ <attributeDefinition>MAY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215094"><attributeName>Jun</attributeName>
+ <attributeDefinition>JUNE</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215095"><attributeName>Jul</attributeName>
+ <attributeDefinition>JULY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215096"><attributeName>Aug</attributeName>
+ <attributeDefinition>AUGUST</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215097"><attributeName>Sep</attributeName>
+ <attributeDefinition>SEPTEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215098"><attributeName>Oct</attributeName>
+ <attributeDefinition>OCTOBR</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215099"><attributeName>Nov</attributeName>
+ <attributeDefinition>NOVEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534215100"><attributeName>Dec</attributeName>
+ <attributeDefinition>DECEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>11</numberOfRecords>
+ </dataTable>
+ <dataTable id="1333534373583"><entityName>Golden gate clearens rainfall.txt</entityName>
+ <physical id="1333534251218"><objectName>Golden gate clearens rainfall.txt</objectName>
+ <size unit="byte">689</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.1220.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1333534373584"><attributeName>Year</attributeName>
+ <attributeDefinition>YEAR</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373585"><attributeName>Jan</attributeName>
+ <attributeDefinition>JANUARY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373586"><attributeName>Feb</attributeName>
+ <attributeDefinition>FEBRUARY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373587"><attributeName>Mar</attributeName>
+ <attributeDefinition>MARCH</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373588"><attributeName>Apl</attributeName>
+ <attributeDefinition>APRIL</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373589"><attributeName>May</attributeName>
+ <attributeDefinition>MAY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373590"><attributeName>Jun</attributeName>
+ <attributeDefinition>JUNE</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373591"><attributeName>Jul</attributeName>
+ <attributeDefinition>JULY</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373592"><attributeName>Aug</attributeName>
+ <attributeDefinition>AUGUST</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373593"><attributeName>Sep</attributeName>
+ <attributeDefinition>SEPTEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373594"><attributeName>Oct</attributeName>
+ <attributeDefinition>OCTOBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373595"><attributeName>Nov</attributeName>
+ <attributeDefinition>NOVEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1333534373596"><attributeName>Dec</attributeName>
+ <attributeDefinition>DECEMBER</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM.DD.YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>11</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

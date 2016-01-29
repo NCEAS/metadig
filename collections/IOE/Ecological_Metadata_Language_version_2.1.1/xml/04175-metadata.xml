@@ -1,0 +1,539 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="MontanaIOE.200.6" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=viglesias,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>cn=cwhitlock,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+<dataset> <title>Chronological refinement of an ice core record at Upper Fremont Glacier in south central North America</title>
+ <creator id="1404104862967"> <individualName><givenName>P.F.</givenName>
+ <surName>Schuster</surName>
+ </individualName>
+ </creator>
+ <creator id="1404104892896"><individualName><givenName>D.E.</givenName>
+ <surName>White</surName>
+ </individualName>
+ </creator>
+ <creator id="1404104901363"><individualName><givenName>D.L.</givenName>
+ <surName>Naftz</surName>
+ </individualName>
+ </creator>
+ <creator id="1404104915026"><individualName><givenName>L.</givenName>
+ <surName>DeWayne Cecil</surName>
+ </individualName>
+ </creator>
+ <abstract><para>The potential to use ice cores from alpine glaciers in the midlatitudes to reconstruct paleoclimatic records has not been widely recognized. Although excellent paleoclimatic records exist for the polar regions, paleoclimatic ice core records are not common from midlatitude locations. An ice core removed from the Upper Fremont Glacier in Wyoming provides evidence for abrupt climate change during the mid-1800s. Volcanic events (Krakatau and Tambora) identified from electrical conductivity measurements (ECM) and isotopic and chemical data from the Upper Fremont Glacier were reexamined to confirm and refine previous chronological estimates of the ice core. At a depth of 152 m the refined age-depth profile shows good agreement (1736&#177;10 A.D.) with the 14C age date (1729&#177;95 A.D.). The &#948;18O profile of the Upper Fremont Glacier (UFG) ice core indicates a change in climate known as the Little Ice Age (LIA). However, the sampling interval for &#948;18O is sufficiently large (20 cm) such that it is difficult to pinpoint the LIA termination on the basis of &#948;18O data alone. Other research has shown that changes in the &#948;18O variance are generally coincident with changes in ECM variance. The ECM data set contains over 125,000 data points at a resolution of 1 data point per millimeter of ice core. A 999-point running average of the ECM data set and results from &#402; tests indicates that the variance of the ECM data decreases significantly at about 108 m. At this depth, the age-depth profile predicts an age of 1845 A.D. Results indicate the termination of the LIA was abrupt with a major climatic shift to warmer temperatures around 1845 A.D. and continuing to present day. Prediction limits (error bars) calculated for the profile ages are &#177;10 years (90% confidence level). Thus a conservative estimate for the time taken to complete the LIA climatic shift to present-day climate is about 10 years, suggesting the LIA termination in alpine regions of central North America may have occurred on a relatively short (decadal) timescale.</para>
+ </abstract>
+ <keywordSet><keyword>paleoecology</keyword>
+ <keyword>wyoming</keyword>
+ <keyword>ice cores</keyword>
+ </keywordSet>
+ <intellectualRights><para>The broad spectrum of possible applications of paleoenvironmental data suggests an array of potential users of the database, ranging from the original collectors of the data, their collaborators, interested scientists, reviewers, meta-analysts, resource managers and educators. We would like published data in the database to be available without restrictions and free of cost. For end users to get the most value from the records, it is important that data be archived in a format that can be interpreted by non-specialists both now and in the future. Our central goal has been to ensure that users can easily access the raw data and correctly interpret the records.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Freemont Glacier</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-109.62</westBoundingCoordinate>
+ <eastBoundingCoordinate>-109.62</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.12</northBoundingCoordinate>
+ <southBoundingCoordinate>43.12</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1404104961155"><individualName><givenName>Cathy</givenName>
+ <surName>Whitlock</surName>
+ </individualName>
+ <organizationName>Montana State University</organizationName>
+ <positionName>Director, Montana Institute on Ecosystems</positionName>
+ <phone phonetype="voice">(406) 994-6910</phone>
+ <electronicMailAddress>whitlock@montana.edu</electronicMailAddress>
+ </contact>
+ <dataTable id="1404105600588"><entityName>master_dataset.csv</entityName>
+ <physical id="1404105105791"><objectName>master_dataset.csv</objectName>
+ <size unit="byte">2108</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.199.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404105600589"><attributeName>Title</attributeName>
+ <attributeDefinition>Research Project</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Title</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600590"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600591"><attributeName>Site</attributeName>
+ <attributeDefinition>Research Location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Geographic Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600592"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection location ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600593"><attributeName>Core</attributeName>
+ <attributeDefinition>Core number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Core 2</code>
+ <definition>second core</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600594"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600595"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600596"><attributeName>Elevation (m)</attributeName>
+ <attributeDefinition>Elevation above mean sea level</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600597"><attributeName>Data type</attributeName>
+ <attributeDefinition>Data type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>18O</code>
+ <definition>Oxygen 18</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600598"><attributeName>Proxy of</attributeName>
+ <attributeDefinition>Data represents historical climatic or biological conditions</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Temperature</code>
+ <definition>temperature</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600599"><attributeName>Site info</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600600"><attributeName>Vegetation type</attributeName>
+ <attributeDefinition>Dominant landcover at sample location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Tundra</code>
+ <definition>tundra</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600601"><attributeName>Contact</attributeName>
+ <attributeDefinition>Contact information for data or metadata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Name: Last, First</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600602"><attributeName>Comments</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600603"><attributeName>Chronology</attributeName>
+ <attributeDefinition>Chronology</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Confirmed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600604"><attributeName>Database</attributeName>
+ <attributeDefinition>Permenant data archive</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NOAA:Ice cores</code>
+ <definition>NOAA Ice Core database</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600605"><attributeName>Parameters measured</attributeName>
+ <attributeDefinition>Data analysis conducted</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>18O concentration</code>
+ <definition>Oxygen 18 concentration</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600606"><attributeName>Age range (Radiocarbon/AD)</attributeName>
+ <attributeDefinition>Age range (Radiocarbon/AD)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600607"><attributeName>Age range (cal yr BP)</attributeName>
+ <attributeDefinition>Age range (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600608"><attributeName>Starting point (cal yr BP)</attributeName>
+ <attributeDefinition>Starting point (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600609"><attributeName>Record length (cal yr BP)</attributeName>
+ <attributeDefinition>Record length (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600610"><attributeName>Median resolution (cal yr BP)</attributeName>
+ <attributeDefinition>Median resolution (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600611"><attributeName>Reported age (by authors)</attributeName>
+ <attributeDefinition>Reported age (by authors)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>AD</code>
+ <definition>AD</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600612"><attributeName>Age control</attributeName>
+ <attributeDefinition>Age control</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600613"><attributeName>Chron1 (Radiocarbon)</attributeName>
+ <attributeDefinition>Chron1 (Radiocarbon)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600614"><attributeName>Chron2 (cal yr BP or AD)</attributeName>
+ <attributeDefinition>Chron2 (cal yr BP or AD)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600615"><attributeName>Radiocarbon years between dates</attributeName>
+ <attributeDefinition>Radiocarbon years between dates</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600616"><attributeName>Online resource</attributeName>
+ <attributeDefinition>Online resource</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404105600617"><attributeName>Publications</attributeName>
+ <attributeDefinition>Citation</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>Fremont Glacier_Core 1_WY_Ions_Depth.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 1_WY_Ions_Depth.pdf</objectName>
+ <size unit="byte">300194</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105701991"><online><url function="download">ecogrid://knb/MontanaIOE.201.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_18O_Chron.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_18O_Chron.pdf</objectName>
+ <size unit="byte">106947</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105715138"><online><url function="download">ecogrid://knb/MontanaIOE.202.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_18O_Depth.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_18O_Depth.pdf</objectName>
+ <size unit="byte">89307</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105727395"><online><url function="download">ecogrid://knb/MontanaIOE.203.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_Chron.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_Chron.pdf</objectName>
+ <size unit="byte">81034</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105740138"><online><url function="download">ecogrid://knb/MontanaIOE.204.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_ECM_Chron.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_ECM_Chron.pdf</objectName>
+ <size unit="byte">1449381</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105751774"><online><url function="download">ecogrid://knb/MontanaIOE.205.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_ECM_Depth.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_ECM_Depth.pdf</objectName>
+ <size unit="byte">1431148</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105778270"><online><url function="download">ecogrid://knb/MontanaIOE.206.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_H3_Chron.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_H3_Chron.pdf</objectName>
+ <size unit="byte">91667</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105789816"><online><url function="download">ecogrid://knb/MontanaIOE.207.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_Hg_Chron.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_Hg_Chron.pdf</objectName>
+ <size unit="byte">114145</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105841493"><online><url function="download">ecogrid://knb/MontanaIOE.209.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_Hg_Depth.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_Hg_Depth.pdf</objectName>
+ <size unit="byte">100666</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105867386"><online><url function="download">ecogrid://knb/MontanaIOE.210.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 3_WY_18O and H3_Depth.pdf</entityName>
+ <physical><objectName>Fremont Glacier_Core 3_WY_18O and H3_Depth.pdf</objectName>
+ <size unit="byte">147906</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105881389"><online><url function="download">ecogrid://knb/MontanaIOE.211.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 1_WY_Ions.csv</entityName>
+ <physical><objectName>Fremont Glacier_Core 1_WY_Ions.csv</objectName>
+ <size unit="byte">4631</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105965418"><online><url function="download">ecogrid://knb/MontanaIOE.212.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_18O.csv</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_18O.csv</objectName>
+ <size unit="byte">22668</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105977395"><online><url function="download">ecogrid://knb/MontanaIOE.213.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_Chron.csv</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_Chron.csv</objectName>
+ <size unit="byte">868</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404105990128"><online><url function="download">ecogrid://knb/MontanaIOE.214.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_ECM.csv</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_ECM.csv</objectName>
+ <size unit="byte">4127377</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404106010400"><online><url function="download">ecogrid://knb/MontanaIOE.215.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_H3.csv</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_H3.csv</objectName>
+ <size unit="byte">4195</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404106021705"><online><url function="download">ecogrid://knb/MontanaIOE.216.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 2_WY_Hg.csv</entityName>
+ <physical><objectName>Fremont Glacier_Core 2_WY_Hg.csv</objectName>
+ <size unit="byte">2183</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404106042761"><online><url function="download">ecogrid://knb/MontanaIOE.217.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Fremont Glacier_Core 3_WY_18O and H3.csv</entityName>
+ <physical><objectName>Fremont Glacier_Core 3_WY_18O and H3.csv</objectName>
+ <size unit="byte">11271</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404106058044"><online><url function="download">ecogrid://knb/MontanaIOE.218.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

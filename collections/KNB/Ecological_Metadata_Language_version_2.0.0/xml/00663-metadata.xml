@@ -1,0 +1,127 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.86.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.0 eml.xsd">
+
+
+<dataset scope="document">
+<alternateIdentifier system="EDC DAAC">Landsat 7, Level 1G, ETM  data</alternateIdentifier>
+<title>Landsat 7, Level 1G, ETM  data</title>
+<creator scope="document">
+<organizationName>EDC DAAC</organizationName>
+</creator>
+<creator scope="document">
+<individualName>
+<givenName>Jeff</givenName>
+<surName>Morisette</surName>
+</individualName>
+<organizationName>EDC</organizationName>
+<address scope="document">
+<city>Greenbelt</city>
+<administrativeArea>Maryland</administrativeArea>
+<country>USA</country>
+</address>
+<phone phonetype="voice">301-614-6676</phone>
+<electronicMailAddress>jeff.morisette@gsfc.nasa.gov</electronicMailAddress>
+</creator>
+<metadataProvider scope="document">
+<individualName>
+<givenName>Stan</givenName>
+<surName>Attenberger</surName>
+</individualName>
+</metadataProvider>
+<abstract>
+<para>ETM  data acquired on 16 October 1999. ECS Granule ID: E1SC:L70RWRS.002:2000316960 Ordered through ECS on 12/09/1999 Level:1G Format: GeoTiff Projection: UTM Zone: 36 Calibration: CPF Bands: all Orientation: NUP Cell size (pan/VNIR/Therm): 15/30/60 Resampling: Cubic Convolution</para>
+</abstract>
+<keywordSet>
+<keyword keywordType="theme">validation </keyword>
+<keywordThesaurus>none</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="theme">EOS Land Validation Core Site</keyword>
+<keywordThesaurus>none</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="theme">EOS Land Validation Core Sites</keyword>
+<keywordThesaurus>none</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="theme">SAFARI 2000</keyword>
+<keywordThesaurus>none</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="place">Skukuza</keyword>
+<keywordThesaurus>none</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword keywordType="place">Kruger</keyword>
+<keywordThesaurus>none</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution scope="document">
+<online>
+<url function="download">ftp://edcsgs16.cr.usgs.gov/orders/eosval/1999/skukuza/LANDSAT7/L1/</url>
+</online>
+</distribution>
+<distribution scope="document">
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage scope="document"><temporalCoverage scope="document">
+<rangeOfDates>
+<beginDate>
+<calendarDate>1999-10-16</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>1999-10-16</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage scope="document">
+<geographicDescription>Skukuza, Kruger NP, RSA, Africa</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>30.7500
+</westBoundingCoordinate>
+<eastBoundingCoordinate>33.0000
+</eastBoundingCoordinate>
+<northBoundingCoordinate>-23.6667
+</northBoundingCoordinate>
+<southBoundingCoordinate>-25.5000
+</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage><contact scope="document">
+<individualName>
+<givenName>Jeff</givenName>
+<surName>Morisette</surName>
+</individualName>
+<organizationName>EDC</organizationName>
+<address scope="document">
+<city>Greenbelt</city>
+<administrativeArea>Maryland</administrativeArea>
+<country>USA</country>
+</address>
+<phone phonetype="voice">301-614-6676</phone>
+<electronicMailAddress>jeff.morisette@gsfc.nasa.gov</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Landsat-7</title>
+<para>satellite</para>
+</section></description></methodStep>
+</methods>
+<access authSystem="knb" order="denyFirst" scope="document">
+<allow>
+<principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>uid=seattenber,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</dataset>
+</ns0:eml>

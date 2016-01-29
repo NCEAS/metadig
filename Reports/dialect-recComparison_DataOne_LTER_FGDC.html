@@ -1,0 +1,16 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="http://code.jquery.com/jquery-1.11.1.min.js"></script><link href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css" rel="stylesheet" type="text/css"><script src="http://datatables.net/download/build/nightly/jquery.dataTables.js"></script><script>
+          $(document).ready( function() {
+          $('#comparisonTable').dataTable( {
+          paging: false,
+          searching: true,
+          "dom": '"wrapper"flipt'
+          } );
+          } );
+        </script><style type="text/css">
+          div.container {
+          width: auto;
+          min-width: 980px;
+          margin: 2.5%;
+          }
+          h4 { margin:1.5%;}
+        </style></head><body><h2>Dialect/Recommendation Comparison</h2><h4>Recommendations Considered:</h4><ul><li>LTER Completeness-Discovery</li></ul><div class="container"><table id="comparisonTable" border="1" cellpadding="8" cellspacing="2" style="border-collapse: collapse;" class="resultsTable"><thead><tr class="headerRow"><th align="left" class="colTitle"><b>Recommendation Items</b></th><th class="colTitle"><b>Score</b></th><th class="colTitle"><b>Description</b></th><th class="colTitle"><b>FGDC</b></th></tr></thead><tbody><tr class="dataRow"><td class="firstDataCol" id="Maintenance">Maintenance</td><td align="center" class="firstDataCol">1</td><td class="firstDataCol">Describes changes to the data tables or metadata, including update frequency.</td><td align="center" class="dataCol">X</td></tr><tr class="dataRow"><td class="firstDataCol" id="Spatial_Extent">Spatial Extent</td><td align="center" class="firstDataCol">1</td><td class="firstDataCol">The spatial extent of the resource.</td><td align="center" class="dataCol">X</td></tr><tr class="dataRow"><td class="firstDataCol" id="Taxonomic_Extent">Taxonomic Extent</td><td align="center" class="firstDataCol">0</td><td class="firstDataCol">The extent of the taxonomies coverage.</td><td align="center" class="dataCol"></td></tr><tr class="dataRow"><td class="firstDataCol" id="Temporal_Extent">Temporal Extent</td><td align="center" class="firstDataCol">1</td><td class="firstDataCol">The temporal extent of the resource</td><td align="center" class="dataCol">X</td></tr></tbody></table><p>Translation Version: 0.1 (Feb. 9, 2015)</p></div></body></html>

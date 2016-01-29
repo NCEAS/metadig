@@ -1,0 +1,279 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="nceas.962.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=haddock,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=mbdecker,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=mgraham,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=malej,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=Kelly Robinson,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=lucas,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ <dataset> <title>Chesapeake Chrysaora Purcell 1987-2005</title>
+ <creator> <organizationName>NCEAS 12479: Condon: Global expansion of jellyfish blooms: Magnitude, causes and consequences</organizationName>
+ </creator>
+ <creator> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator> <individualName> <givenName>Jennifer</givenName>
+ <surName>Purcell</surName>
+ </individualName>
+ </creator>
+ <metadataProvider><individualName> <givenName>Jennifer</givenName>
+ <surName>Purcell</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty><individualName> <givenName>Jenny</givenName>
+ <surName>Purcell</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <associatedParty><individualName> <givenName>Mary Beth</givenName>
+ <surName>Decker</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <pubDate>2010-02-01</pubDate>
+ <abstract> <para>Chesapeake Bay Chrysaora 1987-2005 from Net tows</para>
+ </abstract>
+ <intellectualRights> <para>Obtain permission from data set owner(s)</para>
+ </intellectualRights>
+ <distribution> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage> <temporalCoverage> <rangeOfDates> <beginDate> <calendarDate>1987</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2005</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage> <taxonomicClassification> <taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Chrysaora</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <geographicCoverage><geographicDescription>Chesapeake Bay</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-76.875</westBoundingCoordinate>
+ <eastBoundingCoordinate>-75.375</eastBoundingCoordinate>
+ <northBoundingCoordinate>39.75</northBoundingCoordinate>
+ <southBoundingCoordinate>36.625</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact> <individualName> <givenName>Jennifer</givenName>
+ <surName>Purcell</surName>
+ </individualName>
+ </contact>
+ <methods><methodStep><description><section> <title>Net tow</title>
+ <para>Plankton net
+Tucker trawl</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1265048960186"><entityName>Chrysaora Chesapeake 1987-2001</entityName>
+ <entityDescription>Plankton and tucker net</entityDescription>
+ <physical id="1265048958608"><objectName>Sheet1-Table 1.csv</objectName>
+ <size unit="byte">104018</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/haddock.4.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1265048960187"><attributeName>Taxon</attributeName>
+ <attributeDefinition>General taxonomic group</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Scyphomedusa</code>
+ <definition>Scyphomedusa</definition>
+ </codeDefinition>
+ <codeDefinition><code>Ctenophora</code>
+ <definition>Ctenophora</definition>
+ </codeDefinition>
+ <codeDefinition><code>Hydromedusa</code>
+ <definition>Hydromedusa</definition>
+ </codeDefinition>
+ <codeDefinition><code>Siphonophore</code>
+ <definition>Siphonophore</definition>
+ </codeDefinition>
+ <codeDefinition><code>Salp</code>
+ <definition>Salp</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960188"><attributeName>Genus</attributeName>
+ <attributeDefinition>Genus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Genus</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960189"><attributeName>species</attributeName>
+ <attributeDefinition>species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960190"><attributeName>Date</attributeName>
+ <attributeDefinition>Date of observation</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960191"><attributeName>Station</attributeName>
+ <attributeDefinition>Station</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station ID number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960192"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960193"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960194"><attributeName>Location</attributeName>
+ <attributeDefinition>Verbal description of location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Local name of site</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960195"><attributeName>Source</attributeName>
+ <attributeDefinition>Cruise or effort</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>cruise or effort for source</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960196"><attributeName>Min depth</attributeName>
+ <attributeDefinition>Minimum depth</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960197"><attributeName>Max depth</attributeName>
+ <attributeDefinition>Maximum Depth</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960198"><attributeName>Density</attributeName>
+ <attributeDefinition>Number per meter</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>numberPerMeterCubed</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960199"><attributeName>Presence Absence</attributeName>
+ <attributeDefinition>Whether they were there (not necessarily bloom)</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Absent</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960200"><attributeName>Surface Temperature</attributeName>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>fahrenheit</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960201"><attributeName>Surface Salinity</attributeName>
+ <attributeDefinition>PSU</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960202"><attributeName>Water Depth</attributeName>
+ <attributeDefinition>Depth of the water column</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1265048960203"><attributeName>Time</attributeName>
+ <attributeDefinition>Categorical time of day</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Category or time of collection</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1072</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

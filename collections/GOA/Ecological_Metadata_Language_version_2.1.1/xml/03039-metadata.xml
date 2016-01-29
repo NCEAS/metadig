@@ -1,0 +1,248 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.210.6" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Long-term monitoring of oceanographic conditions in Prince William Sound, Alaska: 1973-2010</title>
+ <creator id="1355954991753"><individualName><givenName>Rob</givenName>
+ <surName>Campbell</surName>
+ </individualName>
+ </creator>
+ <associatedParty id="1370128652643"><individualName><givenName>Emma</givenName>
+ <surName>Freeman</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Graduate Student Researcher</positionName>
+ <address><deliveryPoint>735 State Street</deliveryPoint>
+ <deliveryPoint>Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">1.805.892.2500</phone>
+ <onlineUrl>http://www.nceas.ucsb.edu</onlineUrl>
+ <role>Processor</role>
+ </associatedParty>
+ <abstract><para>These historic data sets are from Conductivity, Temperature, and Depth (CTD) surveys conducted by various agencies from the 1970s to 2009.  Agencies that collected the data include NOAA's Office of Coast Survey (OCS), NOAA's National Oceanographic Data Center (NODC), University of Alaska Fairbanks Institute of Marine Science (UAF IMS), Global Ocean Ecosystem Dynamics (GLOBEC), and more.
+
+These data sets were assembled in order to provide historical context for the current proposed project, "Long-term monitoring of oceanographic conditions in Prince William Sound" (EVOSTC Project 12120114-E). This project is a component of the integrated Long-term Monitoring of Marine Conditions and Injured Resources and Services submitted by McCammon et. al. This project is intended to provide physical and biological measurements that may be used to assess bottom-up impacts on the marine ecosystems of Prince William Sound. Specifically, it is proposed to deploy an autonomous profiling mooring in central Prince William Sound that will provide high frequency (~daily) depth-specific measurements of physical (temperature, salinity, turbidity), biogeochemical (nitrate, phosphate and silicate) and biological (Chlorophyll-a concentration) parameters that will be telemetered out in near real-time. Several regular vessel surveys are also proposed to provide ground-truth data for the mooring, and to attempt to capture some of the spatial variability in PWS. As well as the mooring site, the surveys will visit all four of the SEA bays to maintain ongoing EVOSTC funded time series measurements at those sites and to support proposed herring research (Pegau et. al). The major entrances (Hinchinbrook Entrance and Montague Strait) will also be visited. The surveys will make the same suite of measurements as the mooring, and will also collect water and plankton samples. This project will also link significantly with the herring research efforts proposed by Pegau et al., and will analyze plankton samples collected during intensive studies of juvenile herring feeding and energetics.</para>
+ </abstract>
+<keywordSet><keyword>CTD</keyword>
+<keyword>oceanographic</keyword>
+<keyword>zooplankton</keyword>
+</keywordSet>
+<keywordSet><keyword>temperature</keyword>
+<keyword>pressure</keyword>
+<keyword>depth</keyword>
+<keyword>salinity</keyword>
+<keyword>prince william sound</keyword>
+</keywordSet>
+<keywordSet><keyword>EVOSTC</keyword>
+<keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+<keyword>EVOS Gulf Watch Projects</keyword>
+<keyword>Oil Spill</keyword>
+<keyword>Exxon Valdez</keyword>
+<keyword>Alaska</keyword>
+<keyword>Environmental Drivers</keyword>
+<keyword>Ocean and Atmosphere</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+<intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Standard scientific norms for attribution and credit to the Exxon Valdez Oil Spill Trustee Council and any additional funding agencies should be followed when using these data. Please let the Owner know when these data are used.
+
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+</intellectualRights>
+     <coverage> <temporalCoverage><rangeOfDates><beginDate><calendarDate>1973</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2010</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>Prince William Sound, Valdez-Cordova, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-149.73</westBoundingCoordinate>
+ <eastBoundingCoordinate>-140.15</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.1</northBoundingCoordinate>
+ <southBoundingCoordinate>50.95</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1353106580553"><individualName><givenName>Rob</givenName>
+ <surName>Campbell</surName>
+ </individualName>
+ <organizationName>Prince William Sound Science Center</organizationName>
+ <address><deliveryPoint>300 Breakwater Ave.</deliveryPoint>
+ <deliveryPoint>PO Box 705</deliveryPoint>
+ <city>Cordova</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99574</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907.424.5800 x241</phone>
+ <electronicMailAddress>rcampbell@pwssc.org</electronicMailAddress>
+ </contact>
+<project><title>Oceanographic Conditions in PWS</title>
+<personnel><references>1353106580553</references>
+<role>Principal Investigator</role>
+</personnel>
+<funding><para>Exxon Valdez Oil Spill trustee Council project number 12120114-E</para>
+</funding>
+</project>
+ <dataTable id="1374187933696"><entityName>campbellJoinedTables</entityName>
+ <entityDescription>Long-term series of CTD sampling for all stations and cruises</entityDescription>
+ <physical id="1374186525706"><objectName>sameColumnsFinal.txt</objectName>
+ <size unit="byte">123583</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.211.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1374187933697"><attributeName>Cruise</attributeName>
+ <attributeDefinition>Name of the cruise</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Cruise ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933698"><attributeName>Station</attributeName>
+ <attributeDefinition>Name or code of the station</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>station ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933699"><attributeName>Type</attributeName>
+ <attributeDefinition>Most likely type of data: 'b' = bottle sample of seawater, 'c' = CTD profile or  Conductivity (salinity), Temperature and Depth, 'x' = another variation of CTD device</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>text as c, x, or b</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933700"><attributeName>yyyy.mm.ddThh.mm.ss</attributeName>
+ <attributeDefinition>date and time stamp for sample</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DDTHH:MM:SS</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933701"><attributeName>Longitude.degrees.east.</attributeName>
+ <attributeDefinition>Longitude where sample was taken</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933702"><attributeName>Latitude.degrees.north.</attributeName>
+ <attributeDefinition>Latitude where sample was taken</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933703"><attributeName>Bot.Depth.m.</attributeName>
+ <attributeLabel>Bottom depth?</attributeLabel>
+ <attributeDefinition>Could be depth of a bottle deployment for seawater samples. However if attached to the CTD a unit in meters does not make sense. It would make more sense if this actually stands for 'bottom' depth.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933704"><attributeName>Depth.m.</attributeName>
+ <attributeDefinition>Assuming depth of CTD/XBT deployment, in meters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933705"><attributeName>Press..db.</attributeName>
+ <attributeDefinition>Pressure in decibels</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933706"><attributeName>Temp.C.</attributeName>
+ <attributeDefinition>Temperature in Celsius</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933707"><attributeName>Sal..PSU.</attributeName>
+ <attributeDefinition>Salinity in practical salinity units</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933708"><attributeName>O2.ml.l.</attributeName>
+ <attributeDefinition>Dissolved oxygen concentratil in ml/l</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933709"><attributeName>Fluor..mg.m3.</attributeName>
+ <attributeDefinition>Fluoride in mg per cubic meter</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerCubicMeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933710"><attributeName>Turb..ntu.</attributeName>
+ <attributeDefinition>Turbidity in Nephelometric Turbidity Units</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1374187933711"><attributeName>NO3.uM.</attributeName>
+ <attributeDefinition>Nitrate concentration in micromolar</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>micromolar</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1200</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="micromolar" multiplierToSI=".001" name="micromolar" parentSI="molesPerCubicMeter" unitType="amountOfSubstanceConcentration"><description>micromolar</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

@@ -1,0 +1,150 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.216.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <alternateIdentifier system="University of California Davis">KLEE vegetation 1995 to present</alternateIdentifier>
+ <title>KLEE: Kenya Long-term Exclosure Experiment vegetation data</title>
+ <creator scope="document"> <organizationName>University of California Davis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Truman</givenName>
+ <surName>Young</surName>
+ </individualName>
+ <organizationName>University of California Davis</organizationName>
+ <address scope="document"> <city>Davis</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>95616</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">5307549925</phone>
+ <electronicMailAddress>tpyoung@ucdavis.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Truman</givenName>
+ <surName>Young</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Truman</givenName>
+ <surName>Young</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <pubDate>2007-12-06</pubDate>
+ <abstract> <para>Vegetation data from the Kenya Long-term Exclosure Experiment 1995-present.  There are 18 4 ha plots; three replicate blocks of each of six large herbivore treatments.  Within in each plot, there is a 100m x 100m grid, with a sample point every 10m, for a total of 100 sample points per plot.  Every six month, each lots is surveyed, recording the presence/absence and aerial cover (pin frame hits) of each plant species.</para>
+ </abstract>
+ <keywordSet> <keyword>Kenya</keyword>
+ <keyword>Laikipia</keyword>
+ <keyword>Africa</keyword>
+ <keyword>Savanna</keyword>
+ <keyword>Cattle</keyword>
+ <keyword>Wildlife</keyword>
+ <keyword>exclosure</keyword>
+ <keyword>Acacia dreapnolobium</keyword>
+ <keyword>Themeda triandra</keyword>
+ <keyword>Pennisetum mezianum</keyword>
+ <keyword>Pennisetum stramineum</keyword>
+ <keyword>Lintonia nutans</keyword>
+ <keyword>Brachiaria lachnantha</keyword>
+ <keyword>Elephant</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="download">http://tpyoung.ucdavis.edu/KLEE/index.html</url>
+ </online>
+ </distribution>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <singleDateTime> <calendarDate>1995-06-01</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <taxonomicCoverage scope="document"> <taxonomicClassification> <taxonRankName>Phylum</taxonRankName>
+ <taxonRankValue>Plantae</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Mpala Research Centre, Laikipia, Kenya, Africa</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>36.8667</westBoundingCoordinate>
+ <eastBoundingCoordinate>36.9</eastBoundingCoordinate>
+ <northBoundingCoordinate>0.3</northBoundingCoordinate>
+ <southBoundingCoordinate>0.2667</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Truman</givenName>
+ <surName>Young</surName>
+ </individualName>
+ <organizationName>University of California Davis</organizationName>
+ <address scope="document"> <city>Davis</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>95616</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">5307549925</phone>
+ <electronicMailAddress>tpyoung@ucdavis.edu</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Vegetation sampling</title>
+ <para>Quadrat sampling for frequency, and pin frame sampling for aerial cover.</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>1995-present, although not all years have been entered.</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>There are 18 4 ha plots; three replicate blacks of each of six large herbivore treatments.  Within in each plot, there is a 100m x 100m grid, with a sample point every 10m, for a total of 100 sample points per plot.  Every six month, each lots is surveyed, recording the presence/absence and aerial cover (pin frame hits) of each plant species.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=lobelia,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataTable id="1197010211012" scope="document"><entityName>MRCrain.txt</entityName>
+<entityDescription>Monthly rainfall at Mpala Research Centre</entityDescription>
+<physical id="1197010204608" scope="document"><objectName>MRCrain.txt</objectName>
+<size unit="byte">1482</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution scope="document"><online><url function="download">ecogrid://knb/KLEE.3.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1197010211013" scope="document"><attributeName>Year</attributeName>
+<attributeDefinition>Calender year</attributeDefinition>
+<measurementScale><datetime><formatString>YYYY</formatString>
+<dateTimePrecision>1 year</dateTimePrecision>
+</datetime>
+</measurementScale>
+</attribute>
+<attribute id="1197010211014" scope="document"><attributeName>Month</attributeName>
+<attributeDefinition>Calender month</attributeDefinition>
+<measurementScale><datetime><formatString>MM</formatString>
+</datetime>
+</measurementScale>
+</attribute>
+<attribute id="1197010211015" scope="document"><attributeName>Rain (mm)</attributeName>
+<attributeDefinition>Rainfall in mm</attributeDefinition>
+<measurementScale><ratio><unit><customUnit>mm</customUnit>
+</unit>
+<precision>0.0001</precision>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>112</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><unitList><unitType id="mm" name="mm"><dimension name="Length" />
+</unitType>
+<unit id="mm" multiplerToSI=".001" name="mm" parentSI="meter" unitType="mm"><description>millimeters of rain</description>
+</unit>
+</unitList>
+</additionalMetadata>
+</ns0:eml>

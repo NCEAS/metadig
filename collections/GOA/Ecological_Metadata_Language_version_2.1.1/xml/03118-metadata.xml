@@ -1,0 +1,650 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.457.8" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset> <title>Geographical Information System database of the availability of historical data in the nearshore zone of the Gulf of Alaska</title>
+ <creator id="1386803777127"><individualName><givenName>Jim</givenName>
+ <surName>Bodkin</surName>
+ </individualName>
+ <organizationName>USGS</organizationName>
+ </creator>
+ <creator id="1386803829699"><individualName><givenName>Tom</givenName>
+ <surName>Dean</surName>
+ </individualName>
+ <organizationName>Coastal Resources Associates, Inc</organizationName>
+ <positionName>President</positionName>
+ <address><deliveryPoint>1948 Kellogg Avenue</deliveryPoint>
+ <city>Carlsbad</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>92008</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(760) 603-0612</phone>
+ <electronicMailAddress>tomdean@coastalresources.us</electronicMailAddress>
+ </creator>
+ <creator id="1387309836682"><individualName><givenName>Kim</givenName>
+ <surName>Kloecker</surName>
+ </individualName>
+ <organizationName>USGS</organizationName>
+ <positionName>Biologist</positionName>
+ <address><deliveryPoint>4210 University Dr.</deliveryPoint>
+ <city>Anchorage</city>
+ <administrativeArea>Alaska</administrativeArea>
+ <postalCode>99508</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 786-7196</phone>
+ <electronicMailAddress>kkloecker@usgs.gov</electronicMailAddress>
+ </creator>
+ <creator id="1387309970118"><individualName><givenName>Heather</givenName>
+ <surName>Coletti</surName>
+ </individualName>
+ <organizationName>National Park Service</organizationName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-644-3687</phone>
+ <electronicMailAddress>Heather_Coletti@nps.gov</electronicMailAddress>
+ </creator>
+ <abstract><para>We have compiled a metadata base that includes &gt;13,000 entries representing one or more nearshore resources (from physical attributes such as water and air, to birds and mammals). Each entry is viewable in three formats, 1) a geospatial explicit format (ArcView 3.3), 2) a spreadsheet format (Excel 2002 and within ArcView, and 3) A Procite database of references included in 1 and 2 above. The metadata base includes more than 1,100 independent references dating from 1896 to 2003 that are sorted into one or more of 15 ArcView themes, with associated areas of inference that can be sorted and displayed through any one of up to 24 fields that include location, author, metric, year, taxa, and method. The hierarchical GIS data base contains the following layers: 1) A base map of the GOA, 2) 15 files (ArcView themes) with resource specific references (e.g. algae, invertebrates, fishes, seabirds, and sea otters), and 3) buffer files for each resource that provides spatial reference to the area of inference for each reference. Attribute data (location, taxa, metrics, methods...) for each reference are accessible through the ArcView tables and the Excel spreadsheet. All references included in the metadata base, plus references such as review articles without geo-spatial reference can also be accessed through a Procite database. The metadata set and the ArcView themes will aid the EVOS Trustee Council members with their decision-making regarding the long-term monitoring and restoration plans for nearshore environments in the Gulf of Alaska. The metadata base and the ArcView themes will allow informed decisions regarding selection of species, methods, and locations for inclusion into the nearshore component of the EVOS GEM program. This component of Project 03687 provides documentation of the process and method used to create the metadata base, and provides instruction for accessing and using the databases.
+
+Publications: Bodkin, J. L., and T. Dean. 2003. Alternative Sampling Designs for Nearshore Monitoring (Gulf Ecosystem Monitoring and Research Project G-030687), US Geological Survey, Alaska Science Center, Anchorage, Alaska.</para>
+ </abstract>
+ <keywordSet><keyword>EVOSTC</keyword>
+ <keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+ <keyword>Oil Spill</keyword>
+ <keyword>Exxon Valdez</keyword>
+ <keyword>Alaska</keyword>
+ <keyword>Benthic</keyword>
+ <keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+ </keywordSet>
+ <keywordSet><keyword>GIS</keyword>
+ <keyword>metadata</keyword>
+ <keyword>bibliography</keyword>
+ <keyword>Gulf of Alaska</keyword>
+ <keyword>nearshore</keyword>
+ <keyword>literature review</keyword>
+ <keyword>monitoring</keyword>
+ <keyword>ArcView</keyword>
+ <keyword>intertidal</keyword>
+ <keyword>sampling</keyword>
+ </keywordSet>
+ <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council. Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council. Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding. Please let the Owner know when these data are used. These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>northern Gulf of Alaska, USA</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-162.2</westBoundingCoordinate>
+ <eastBoundingCoordinate>-133.1</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.13</northBoundingCoordinate>
+ <southBoundingCoordinate>54.74</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1899</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>1903</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1907</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>1908</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>1917</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1919</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>1937</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1940</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>1952</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1954</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Alaria fistulosa</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Alaria pylaii</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Alaria taeniata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ammodytes hexapterus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Anoplarchus helanthoides</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Anoplarchus purpurescans</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Bucephala islandica</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Clinocardium californiensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Clinocardium ciliatum</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Clinocardium fucanum</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Clinocardium nuttali</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Clupea pallasi</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Dermasterias imbricata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Enhydra lutris</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Evasterias echinosoma</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Evasterias troschelii</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Fucus distichus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Fucus gardneri</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Haematopus bachmani</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hexagrammos decagrammus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hexagrammos lagocephalus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hexagrammos octogrammus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hexagrammos pallasi</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hexagrammos stelleri</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Histrionicus histrionicus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria dentigera</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria groenlandica</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria saccharina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria setchelli</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria yezoensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Littorina gronlandica</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Littorina rudis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Littorina scutulata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Littorina sitkana</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Lottia pelta</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma alaskana</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma balthica</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma brota</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma calcarea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma carlottensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma elimata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma incongrua</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma inconspicua</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma inquinata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma irus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma lama</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma loveni</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma moesta</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma nasuta</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma obliqua</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Macoma yoldiformis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mallotus vullosus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Modiolus modiolus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mya arenaria</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mya elegans</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mya truncata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mytilus trossulus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Nereocystis luetkeana</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pholis laeta</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pisaster ochraceus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Protothaca staminea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pycnopodia helianthoides</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Saxidomus giganteus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Siliqua alta</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Siliqua media</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Siliqua patula</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Spisula polynyma</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Strongylocentrotus droebachiensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Tectura persona</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Telmessus cheiragonus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Zostera marina</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1386803928366"><individualName><givenName>Heather</givenName>
+ <surName>Coletti</surName>
+ </individualName>
+ <organizationName>National Park Service</organizationName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-644-3687</phone>
+ <electronicMailAddress>Heather_Coletti@nps.gov</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Literature Review and Workshops</title>
+ <para>Development of the metadata bases was achieved through a series of activities. We began by developing a preliminary list of nearshore biological resources and physical attributes for consideration in a long-term monitoring program. This preliminary list was revised following extensive public and peer review and comment. We then began our literature search and development of Excel and Procite metadata bases. We generally limited our literature search to materials that pertain specifically to metrics that could be useful to monitoring, (e.g. measures of abundance, distribution, diversity, life history attributes (reproduction and survival), movements, and contaminants, and standard physical measurements of marine ecosystems such as temperature, salinity and substrates. Following review and revision of the metadata bases we created ArcView themes to graphically display the results of the literature compilation.</para>
+ <para>To facilitate the project we hosted a GEM Nearshore Monitoring workshop at the 2003 North Pacific Symposium in Anchorage, Alaska. Our goals were to 1) disseminate project information, and 2) make contacts with individuals, Non-government organizations, and government agencies, and 3) receive suggestions into the preliminary selection of biological resources and physical attributes for nearshore monitoring (hereafter referred to as &#8220;resources&#8221;). At this workshop we requested historical documents and on-going project reports and began the process of creating and compiling references for inclusion into the metadata bases.</para>
+ <para>Most reference materials were obtained from the Alaska Resources Library &amp; Information Services (ARLIS) in Anchorage, Alaska. The on-line library catalog, library staff, and bibliographies were heavily utilized for the literature searches. Additional information was obtained through in-person interviews, personal libraries, electronic mailings, web searches, and the GEM Nearshore Metadata entry forms.</para>
+ <para>A letter of inquiry and GEM Nearshore Metadata entry form were sent to 189 individuals or organizations representing various government agencies, NGO&#8217;s, special interest groups, research organizations, native corporations, and the University of Alaska potential interest in our project. The letter of inquiry (Attachment A1) described project goals, defined the nearshore habitat, and listed potential biological resources of interest. The metadata questionnaire (Attachment A2) provided 9 fields of inquiry as follows: 1) information about the person filling out the form, 2) citation, 3) citation description, 4) nearshore resources of interest, 5) status of the data set, 6) keywords, 7) spatial domain, 8) information about how to obtain the data, and 9) constraints. Response to the letter and form was generally limited although contributions to the metadata base were obtained through mailings. Respondents requesting additional information were promptly called or emailed a reply.</para>
+ <para>Ms. Gray Wolfe arranged to meet with selected individuals in Homer, Seward, Kodiak, and Cordova. The Valdez trip was cancelled due to lack of interest from prospective individuals. The meetings were arranged with employees from various government agencies, special interest groups, research organizations, native corporations, and the University of Alaska. Meeting in-person with interested individuals was usually more effective than the questionnaire mailings. However, travel to these Alaskan cities was time consuming and costly.</para>
+ <para>The historical literature review was limited to the following: 1) study area boundaries, 2) published technical documents, 3) unpublished reports (usually government or academic) available to the public, and 4) projects completed and documented by 2003. No study results or raw, unreported data were included. The metadata of interest included the complete citation, taxa (at least three levels where appropriate), study locations (requiring coordinates or maps from which coordinates could be derived), duration and frequency of study, and metrics and methods specific to data collection.</para>
+ <para>Excel was the software selected for the development of the metadata base for the following reasons: 1) ease of use, 2) availability on most computers, and 3) graphing capabilities (Coutsoubos 2002). Procite was elected as the bibliographic software and ArcView 3.3 as the software to graphically present the Excel metadata set.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project><title>Monitoring in the Nearshore: A Process for Making Reasoned Decisions</title>
+ <personnel><references>1386803777127</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council project numbers 030687, 040687</para>
+ </funding>
+ </project>
+ <dataTable id="1386885343460"><entityName>bibliographyTable.txt</entityName>
+ <entityDescription>Tab-delimited text file with bibliographic information</entityDescription>
+ <physical id="1386883646854"><objectName>bibliographyTable.txt</objectName>
+ <size unit="byte">5594337</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.459.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1386885343461"><attributeName>procite</attributeName>
+ <attributeDefinition>The citations are linked to a ProCite database. The ProCite database record number corresponds to the Excel Procite Number.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343462"><attributeName>resource</attributeName>
+ <attributeDefinition>A generic, biological resource describing the species studied</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Natural resource description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343463"><attributeName>reference</attributeName>
+ <attributeDefinition>Referenced citations included unpublished and published materials, magazine articles, dissertations, journal articles, books, maps, environmental impact statements, websites, and CD-ROMs.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Reference</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343464"><attributeName>reviewLevel</attributeName>
+ <attributeDefinition>The citations level of critical review was denoted as reviewed or unknown.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Description of the review level</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343465"><attributeName>region</attributeName>
+ <attributeDefinition>A general location was assigned to each study which included the following: Gulf of Alaska (GOA), western Gulf of Alaska (WGOA), eastern Gulf of Alaska (EGOA), Cook Inlet (CIK), Kodiak Island (KOD), Alaska Peninsula (AKP), Prince William Sound (PWS), eastern Prince William Sound (EPWS), western Prince William Sound (WPWS), and Cooper River Delta (CRD). The Gulf of Alaska study area encompasses the region between Chignik, Alaska, and Yakutat, Alaska.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>CIK</code>
+ <definition>Cook Inlet</definition>
+ </codeDefinition>
+ <codeDefinition><code>AKP</code>
+ <definition>Alaska Peninsula</definition>
+ </codeDefinition>
+ <codeDefinition><code>GOA</code>
+ <definition>Gulf of Alaska</definition>
+ </codeDefinition>
+ <codeDefinition><code>KOD</code>
+ <definition>Kodiak Island</definition>
+ </codeDefinition>
+ <codeDefinition><code>PWS</code>
+ <definition>Prince William Sound</definition>
+ </codeDefinition>
+ <codeDefinition><code>CRD</code>
+ <definition>Copper River Delta</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343466"><attributeName>area</attributeName>
+ <attributeDefinition>If reported, specific location was listed (e.g. Green Is., Nelson Bay, Pt. Valdez).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Place name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343467"><attributeName>sitesArea</attributeName>
+ <attributeDefinition>The number of study sites per project. A &#8220;.&#8221; was entered for any cell with an unknown or not applicable status.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>.</code>
+ <codeExplanation>unknown or not applicable</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1386885343468"><attributeName>inferenceScale</attributeName>
+ <attributeDefinition>Projects concentrated on the regional (e.g. GOA), area (e.g. Montague Island), or site level (e.g. Island Flats).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Area</code>
+ <definition>Area</definition>
+ </codeDefinition>
+ <codeDefinition><code>Region</code>
+ <definition>Region</definition>
+ </codeDefinition>
+ <codeDefinition><code>Site</code>
+ <definition>Site</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343469"><attributeName>actual</attributeName>
+ <attributeDefinition>An &#8220;n&#8221; for no (generic) or &#8220;y&#8221; for yes (actual) states if the lat/long was an exact or estimated location.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>n</code>
+ <definition>generic location</definition>
+ </codeDefinition>
+ <codeDefinition><code>y</code>
+ <definition>actual location</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>.</code>
+ <codeExplanation>missing or unknown value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1386885343470"><attributeName>lat</attributeName>
+ <attributeDefinition>The latitudes and longitudes were recorded to the 5th decimal. A GPS unit or GIS mapping tool were used to determine the lat/longs for each study. If a study covered a large area, one generic, centralized location was recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343471"><attributeName>long</attributeName>
+ <attributeDefinition>The latitudes and longitudes were recorded to the 5th decimal. A GPS unit or GIS mapping tool were used to determine the lat/longs for each study. If a study covered a large area, one generic, centralized location was recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343472"><attributeName>radius</attributeName>
+ <attributeDefinition>Values in the radius field represent areas of inference, or the geographic scale at which the sampling described in each reference represents. For example a survey of sea otters in all of Prince William Sound would be represented by a single latitude /longitude in the center of the Sound, but with a radius of 100 km to indicate the geographic extent of the survey. These radii are referred to as buffer.shp themes for each resource theme in the ArcView product. It is probably not useful to display buffers.shp themes until themes that represent subsets of the full resource are created, as they may obscure points. Radii values range from 5 to 1000 km.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilometer</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343473"><attributeName>classificationLevel</attributeName>
+ <attributeDefinition>The lowest taxonomic level was identified to phylum, class, or species.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Classification level</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343474"><attributeName>class1</attributeName>
+ <attributeDefinition>Identification to the genus taxonomic level.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343475"><attributeName>class2</attributeName>
+ <attributeDefinition>Identification to the species taxonomic level.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343476"><attributeName>depth</attributeName>
+ <attributeDefinition>Only intertidal (inter) or subtidal (ssub) depths were recorded. Ssub was used only when specifically mentioned or illustrated within an article.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>inter</code>
+ <definition>intertidal</definition>
+ </codeDefinition>
+ <codeDefinition><code>ssub</code>
+ <definition>subtidal</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343477"><attributeName>metric</attributeName>
+ <attributeDefinition>The metrics describe &#8220;what&#8221; data a project collected</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Metric description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343478"><attributeName>startYear</attributeName>
+ <attributeDefinition>First year of the study</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343479"><attributeName>endYear</attributeName>
+ <attributeDefinition>Last year of the study</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343480"><attributeName>numberYears</attributeName>
+ <attributeDefinition>Number of years of the study</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343481"><attributeName>season</attributeName>
+ <attributeDefinition>A year was separated into the following seasons: Winter (November &#8211; March), Spring (April &#8211; mid-May), Summer (mid-May &#8211; August), and Fall (September &#8211; October).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Season description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343482"><attributeName>sampleYears</attributeName>
+ <attributeDefinition>The specific years the project was conducted. An &#8220;all&#8221; was entered for any long-term, continuous study. An unknown (U) was entered when a project neglected to cite the specific study years.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Year range</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343483"><attributeName>method</attributeName>
+ <attributeDefinition>The methods describe &#8220;how&#8221; the data was collected</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Methods</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343484"><attributeName>notes</attributeName>
+ <attributeDefinition>Additional comments section.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1386885343485"><attributeName>buff_id</attributeName>
+ <attributeDefinition>Unsure</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>11556</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>040687_Data_Metadata.zip</entityName>
+ <entityDescription>GIS, procite, and read me files for 2004 project year.</entityDescription>
+ <physical><objectName>040687_Data_Metadata.zip</objectName>
+ <size unit="byte">67024300</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1386892284391"><online><url function="download">ecogrid://knb/df35d.460.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>030687_Data_Metadata.zip</entityName>
+ <entityDescription>GIS, procite and read me files for 2003 project year.</entityDescription>
+ <physical><objectName>030687_Data_Metadata.zip</objectName>
+ <size unit="byte">67025442</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1386892307316"><online><url function="download">ecogrid://knb/df35d.461.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

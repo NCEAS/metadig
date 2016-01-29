@@ -1,0 +1,271 @@
+<metadata><Source>http://www1.usgs.gov/metadata/mdata/vip/metapaalbdy.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>National Park Service</origin>
+        <pubdate>2009</pubdate>
+        <title>Palo Alto Battlefield National Historical Park Vegetation Mapping Project - Park Boundary</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www1.usgs.gov/vip/paal/paalgeodata.zip</onlink>
+        <onlink>doi:10.5066/F75B00D0</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>National Park or National Monument boundary used to delineate project area. This is a vector polygon shapefile of 1992 Boundary Data for Palo Alto Battlefield National Historical Park. This data represents the boundary established by Congress authorizing the purchase of the land.</abstract>
+      <purpose>To assist with the development of vegetation maps for the National Park Service.</purpose>
+      <supplinf>Boundary data were downloaded by the Colorado Natural Heritage Program/Colorado State University on 12/04/2009 from https://irma.nps.gov/App/Reference/Search and imported to the file geodatabase.
+
+On May 8, 1846 troops of the United States and Mexico clashed on the prairie of Palo Alto in the first battle of a two-year war. Signed into law in June 1992, Palo Alto Battlefield National Historical Park preserves the 3,400-acre scene of this clash between nations and informs visitors about its national and international importance. As the only unit of the National Park Service with a primary focus on the U.S.-Mexican War, Palo Alto Battlefield also interprets the entire conflict, including the details of its origins and the broad range of consequences. In an effort to turn a scene of conflict into a place of bi-national exchange and understanding, all research and interpretation conducted by the park reflects perspectives of both the United States and Mexico.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2002</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Palo Alto Battlefield National Historical Park</descgeog>
+      <bounding>
+        <westbc>-97.481401</westbc>
+        <eastbc>-97.444605</eastbc>
+        <northbc>26.044201</northbc>
+        <southbc>26.004932</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>National Park Boundary</themekey>
+        <themekey>National Monument Boundary</themekey>
+      </theme>
+    </keywords>
+    <accconst>It is strongly recommended that these data are directly acquired from U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.</accconst>
+    <useconst>The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related tables are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.
+
+The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  Although these data have been processed successfully on a computer system, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</useconst>
+    <native>Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
+  </idinfo>
+  <dataqual>
+    <logic>The shapefile was cleaned as a coverage with ArcInfo software before export to shapefile format. There are no duplicate features or dangling arcs/nodes present.</logic>
+    <complete>Data is considered complete and represents the 1992 boundary established by Congress.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Unknown. Intermountain Region GIS staff and PAAL staff have overlaid datasets with the boundary file. It appears that the boundary file's accuracy is acceptable as it relates to other datasets. No other tests were run.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>A coverage was created, in ArcInfo, from the AutoCAD generated file BOUDARY.DXF using DXFARC. The coverage was built, attributed and cleaned for topology.</procdesc>
+        <procdate>1993</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The coverage was then converted into a polygon shapefile.</procdesc>
+        <procdate>2002</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Shapefile was reprojected from UTM, Zone 14, NAD27 to UTM, Zone 14, NAD83 using the NADCON transformation method and then imported to a file geodatabase.</procdesc>
+        <procdate>2009</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>14</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-99.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PAAL_Park_Boundary</enttypl>
+        <enttypd>Feature class attribute table</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Park_Code</attrlabl>
+        <attrdef>NPS Park Code</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Park acronym name (PAAL).</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Park_Name</attrlabl>
+        <attrdef>NPS Park Name</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Park name (Palo Alto Battlefield National Historical Park)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>2-letter abbreviation of state in which park occurs (or mostly occurs if park spans more than one state)</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>State acronym name (TX).</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>Area (unknown units)</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hectares</attrlabl>
+        <attrdef>Perimeter (unknown units)</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The U.S. Geological Survey and the National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics (if available) are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  Any related graphics (if available) are intended to aid the data user in acquiring relevant data; it is not approriate to use the related graphics as data.
+
+The U.S. Geological Survey and the National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>HTML</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.usgs.gov/core_science_systems/csas/vip/parks/paal.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Internet Access</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20091208</metd>
+    <metrd>20100710</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metextns>
+      <onlink>http://www.usgs.gov/core_science_systems/csas/metadata/index.html</onlink>
+    </metextns>
+  </metainfo>
+</metadata>

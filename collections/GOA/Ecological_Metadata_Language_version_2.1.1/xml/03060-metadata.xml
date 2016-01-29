@@ -1,0 +1,646 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.268.10" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset>  <title>Disease assays conducted on harbor seal blood serum in Prince William Sound, Alaska: 1975 - 2001</title>
+<creator id="1360886555567"><individualName><givenName>Kathryn</givenName>
+ <surName>Frost</surName>
+ </individualName>
+ <organizationName>University of Alaska, Fairbanks</organizationName>
+ <positionName>Affiliate Faculty</positionName>
+ <electronicMailAddress>kjfrost@hawaii.rr.com</electronicMailAddress>
+ </creator>
+ <creator id="1376078171106"><individualName><givenName>Sara</givenName>
+ <surName>Iverson</surName>
+ </individualName>
+ </creator>
+ <creator id="1376078186039"><individualName><givenName>Lloyd</givenName>
+ <surName>Lowry</surName>
+ </individualName>
+ </creator>
+ <creator id="1376078201338"><individualName><givenName>Mike</givenName>
+ <surName>Simpkins</surName>
+ </individualName>
+ </creator>
+ <creator id="1376078212072"><individualName><givenName>Jay</givenName>
+ <surName>Ver Hoef</surName>
+ </individualName>
+ </creator>
+ <associatedParty id="1376006623160"><individualName><givenName>Vladimir</givenName>
+ <surName>Burkanov</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006739113"><individualName><givenName>Sue</givenName>
+ <surName>Hills</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077704539"><individualName><givenName>Jim</givenName>
+ <surName>Faro</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006686795"><individualName><givenName>Brian</givenName>
+ <surName>Fadely</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006711894"><individualName><givenName>Francis</givenName>
+ <surName>Fay</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006727023"><individualName><givenName>L.</givenName>
+ <surName>Harwood</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006748994"><individualName><givenName>Jon</givenName>
+ <surName>Lewis</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006658523"><individualName><givenName>Don</givenName>
+ <surName>Calkins</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1365723503202"><individualName><givenName>Sarah</givenName>
+ <surName>Clark</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Projects Data Coordinator</positionName>
+ <address><deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ </address>
+ <phone phonetype="voice">(805) 892-2500</phone>
+ <electronicMailAddress>sclark@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006674880"><individualName><givenName>Bob</givenName>
+ <surName>Elsner</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077642353"><individualName><givenName>Steve</givenName>
+ <surName>Amstrup</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006839208"><individualName><givenName>P.</givenName>
+ <surName>Duignan</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1376006865779"><individualName><givenName>C.</givenName>
+ <surName>House</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1376006781613"><individualName><givenName>John</givenName>
+ <surName>Sease</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006796047"><individualName><givenName>Terry</givenName>
+ <surName>Spraker</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006852345"><individualName><givenName>J.</givenName>
+ <surName>House</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1376077893183"><individualName><givenName>Ken</givenName>
+ <surName>Taylor</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077916810"><individualName><givenName>Pam</givenName>
+ <surName>Tuome</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077846675"><individualName><givenName>Al</givenName>
+ <surName>Smith</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077873251"><individualName><givenName>Robert</givenName>
+ <surName>Suydam</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077759469"><individualName><givenName>Bob</givenName>
+ <surName>Nelson</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077817250"><individualName><givenName>Dan</givenName>
+ <surName>Reed</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006769973"><individualName><givenName>Richard</givenName>
+ <surName>Merrick</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376077800638"><individualName><givenName>Ken</givenName>
+ <surName>Pitcher</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1376006646721"><individualName><givenName>John</givenName>
+ <surName>Burns</surName>
+ </individualName>
+ <role>Content Provider</role>
+ </associatedParty>
+<abstract><para>Study History: Restoration Project 01064 began in 1993 as a continuation of the initial post-spill study effort conducted as Marine Mammal Study Number 5 (Assessment of Injury to Harbor Seals in Prince William Sound, Alaska, and Adjacent Areas) in 1989 through 1991 and reclassified as Restoration Study Number 73 (Harbor Seal Restoration Study) in 1992. A final report was issued in 1994 for the combined Marine Mammal Study Number 5 and Restoration Study Number 73, entitled Assessment of Injury to Harbor Seals in Prince William Sound, Alaska, and Adjacent Areas Following the Exxon Valdez Oil Spill. Subsequently, annual reports were submitted entitled Habitat Use, Behavior, and Monitoring of Harbor Seals in Prince William Sound: 1994 Annual Report, 1995 Annual Report, 1996 Annual Report , 1997 Annual Report, 1998 Annual Report, and 1999 Annual Report . Fatty acid studies funded under Restoration Project 94320-F (Trophic Interactions of Harbor Seals in Prince William Sound) were included in the 1994 annual report for 94064. Fatty acid studies were continued and reported as part of this study for the duration of the project.
+
+Abstract: Harbor seals (Phoca vitulina richardsi) were captured in the coastal regions of Southeast Alaska, Gulf of Alaska, Prince William Sound (PWS), and Kodiak Island during 1976-1999. Blood was collected from 286 seals. Sera were tested for evidence of exposure to Brucella spp., phocid herpesvirus-1 (PhoHV-1), phocid herpesvirus-2 (PhHV-2), and phocine distemper virus (PDV). Antibody prevalence rates were 46% (46/100) for Brucella spp., 93% (225/243) for PhoHV-1, 0% (0/286) for PhHV-2, and 1% (2/160) for PDV. Antibody prevalence for Brucella spp. was directly related to host age. Antibody prevalence for PhoHV-1 was higher in PWS as compared to the other three regions. No evidence of mortality attributable to these four agents was observed during the course of this study. Based on the results of this survey, none of these agents is considered a significant mortality factor in harbor seals from the four regions of coastal Alaska included in the study.
+
+Publications:
+Frost, K.J., L.F. Lowry, J.M. Ver Hoef , S.J. Iverson, and M.A. Simpkins. 2005. Monitoring, habitat use, and trophic interactions of harbor seals in Prince William Sound, Alaska. Exxon Valdez Oil Spill Restoration Project Final Report (Restoration Project 01064), Alaska Department of Fish and Game, Habitat and Restoration Division, Anchorage, Alaska.
+
+Zarnke, R. L., T. C. Harder, H. W. Vos, J. M. Ver Hoef, and A. D. Osterhaus. 1997. Serologic survey for phocid herpesvirus-1 and -2 in marine mammals from Alaska and Russia. Journal of Wildlife Diseases 33: 459-65.
+
+Zarnke, R. L., J. T. Saliki, A. P. Macmillan, S. D. Brew, C. E. Dawson, J. M. Ver Hoef, and R. J. Small. 2005. Serologic survey for Brucella spp. bacteria, phocid herpesvirus-1, phocid herpesvirus-2, and phocine distemper virus in harbor seals (Phoca vitulina richardsi) from Alaska, 1976-1999. Journal of Wildlife Disease</para>
+</abstract>
+<keywordSet><keyword>harbor seal</keyword>
+<keyword>prince william sound</keyword>
+<keyword>Brucella</keyword>
+<keyword>phocid herpesvirus</keyword>
+<keyword>phocine distemper virus</keyword>
+<keyword>phoca vitulina richardsi</keyword>
+<keyword>pinnipeds</keyword>
+<keyword>serology</keyword>
+</keywordSet>
+<keywordSet><keyword>EVOSTC</keyword>
+<keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+<keyword>Oil Spill</keyword>
+<keyword>Exxon Valdez</keyword>
+<keyword>Alaska</keyword>
+<keyword>Pelagic</keyword>
+<keyword>Mammals</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+<intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+ 
+Standard scientific norms for attribution and credit to the Exxon Valdez Oil Spill Trustee Council and any additional funding agencies should be followed when using these data. 
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+</intellectualRights>
+    <coverage> <temporalCoverage><rangeOfDates><beginDate><calendarDate>1975</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2001</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Phoca</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>vitulina richardsi</taxonRankValue>
+ <commonName>Harbor Seal</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <geographicCoverage><geographicDescription>Prince William Sound, Alaska, USA</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-149.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>-145.625</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.5</northBoundingCoordinate>
+ <southBoundingCoordinate>59.375</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Southeast Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-144.625</westBoundingCoordinate>
+ <eastBoundingCoordinate>-135.125</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.375</northBoundingCoordinate>
+ <southBoundingCoordinate>55.75</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Kodiak Island, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-155.5</westBoundingCoordinate>
+ <eastBoundingCoordinate>-152.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>58.625</northBoundingCoordinate>
+ <southBoundingCoordinate>56.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Bering Sea</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-175.375</westBoundingCoordinate>
+ <eastBoundingCoordinate>-159.875</eastBoundingCoordinate>
+ <northBoundingCoordinate>58.125</northBoundingCoordinate>
+ <southBoundingCoordinate>52.25</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1365723593932"><individualName><givenName>Gail</givenName>
+ <surName>Blundell</surName>
+ </individualName>
+ <organizationName>Alaska Department of Fish and Game, Harbor Seal Research Program</organizationName>
+ <positionName>Program Leader</positionName>
+ <electronicMailAddress>gail.blundell@alaska.gov</electronicMailAddress>
+ </contact>
+ <contact id="1365723611372"><individualName><givenName>Christine</givenName>
+ <surName>Schmale</surName>
+ </individualName>
+ <organizationName>Alaska Department of Fish and Game</organizationName>
+ <electronicMailAddress>christine.schmale@alaska.gov</electronicMailAddress>
+ </contact>
+<methods><methodStep><description><section><title>Sampling</title>
+<para>Seals were captured by various investigators during 1976-1999 in conjunction with studies of harbor seal population biology and ecology. Study areas included portions of Southeast Alaska, the Gulf of Alaska, PWS, and Kodiak Island. Standard descriptive data (sex, location, and date of capture) were recorded for each animal. Animals were assigned to one of four age categories: pup, yearling, subadult, and adult. Age determination was based on body length and weight (Lowry et al., 2001). For the purpose of data analysis, samples were grouped by year of collection, which does not necessarily reflect year of exposure.</para>
+<para>Blood was drawn from the extradural vein and allowed to clot. Serum was transferred to sterile vials. Sera were initially stored at -12 C for up to several months and then transferred to -40 to -46 C for several months to several years before testing.</para>
+<para>Sera were tested for evidence of exposure to Brucella spp. by means of both competitive (MacMillan et al., 1990) and indirect enzyme-linked immunosorbent assay (ELISA) (Alton et al., 1988). The competitive ELISA (cELISA) described by MacMillan et al. (1990) was used at a single dilution. Briefly, microtiter plates coated with lipopolysaccharide (LPS) extracted from B. melitensis (strain 16M) were prepared and 20 ul of the test serum was added, followed immediately by 100 ul of a dilution of an anti-Brucella LPS monoclonal-peroxidase conjugate. After incubation at room temperature, while shaking at 160 rpm, the plates were washed and the chromogen, o-phenylenediamine dihydrochloride, and the substrate, 3% hydrogren peroxide, were added. The color development was measured at 405 nm using a microtiter plate spectrophotometer. The optical density (OD) of the test samples was expressed as a percentage of the mean OD of the wells to which a negative control serum had been added. The negative control serum was obtained from a sheep that was clear of any clinical signs of disease and that was negative to all the standard serologic tests for brucellosis. Samples with an OD of less than 30% were classified as positive, and samples with an OD of more than 30% were classified as negative.</para>
+<para>The indirect ELISA (iELISA) was based on that described by Alton et al. (1988) but differed in a number of respects. The iELISA requires anti-immunoglobulin conjugate with specificity for the immunoglobulin isotypes of the species under test. Such reagents were not available, but protein A has been shown to bind to the IgG of a range of marine mammals (Eliasson et al., 1988; Sikkema, 1989). The antigen was as described for the cELISA. The conjugate was a protein A-peroxidase conjugate. In this case the OD of the test samples was expressed as a percentage of the mean OD of the wells to which a positive control serum had been added. The positive control serum was obtained from a pig infected with Brucella suis. This sample was chosen as the control because it is detected using protein A. Samples with an OD of more than 30% were classified as positive, and samples with an OD of less than 30% were classified as negative.</para>
+<para>Sera meeting the cELISA and iELISA criteria will be referred to as positive. In the absence of sera either from animals known to be free of Brucella spp. infection, or from animals from which Brucella spp. had been isolated, it is impossible to set the diagnostic thresholds for the tests with certainty. Therefore, thresholds were selected on the basis of experience gained in testing a wide range of terrestrial mammals for brucellosis from Great Britain.</para>
+<para>Antibodies to PhoHV-1, PhHV-2, and PDV were detected using the serum neutralization test (SNT). The test was performed using the PDV1-2-6A strain of PDV, the A92-10/4 isolate of PhoHV-1, and the A92-10/5 isolate of PhHV-2. The viruses were grown in either Vero cells (PDV and PhHV-2) or Crandell feline kidney (CRFK) cells (PhoHV-1). The SNT was performed following a modification of a microtiter method (Rossiter et al., 1985) as previously described for morbilliviruses (Saliki et al., 1993). Briefly, for PDV, serial twofold dilutions of heat-inactivated sera were made in duplicate columns of 96-well plates using the alpha modification of Eagle's minimum essential medium, starting at a 1:4 dilution. For PhoHV-1 and PhHV-2, a single 1:4 dilution was made in duplicate wells. An equal volume (25 ul) of each virus, containing about 100 median tissue culture infective doses (TCID50) of the appropriate virus, was added to corresponding appropriate plates. This yielded a starting dilution of 1:8 for PDV and a single dilution of 1:8 for PhoHV-1 and PhHV-2. The virus-serum mixtures were incubated at 37 C for 1 hr in 5% CO2, and a Vero or CRFK cell suspension (150 ul containing 104 cells/well) was added to PDV/PhHV-2 and PhoHV-1 plates, respectively. The plates were incubated at 37 C in 5% CO2 for 4 days. The test was read by examining cell monolayers under an inverted microscope for virus-specific cytopathic effects (CPE). Antibody titers for PDV were expressed as the reciprocal of the highest dilution of serum that completely neutralized CPE in duplicate wells. Results for PhoHV-1 and PhHV-2 were scored as positive (absence of CPE in both wells) or negative (presence of CPE in one or both wells) at 1:8 dilution.</para>
+<para>A generalized linear model (McCullagh and Nelder, 1989) with repeated measures was used to determine whether there was significant dependence of antibody prevalence on host characteristics: age, sex, year, or geographic region. The model used a logit link with a binomial distribution. Serologic test result is a binary response variable. Year was treated as a continuous variable. Age was treated as a categoric variable with four classes: pup, yearling, subadult, and adult. Geographic area was treated as a categoric variable with four classes: Kodiak, central Gulf of Alaska, PWS, and southeast Alaska. Sex was also treated as a categoric variable. All main and interaction effects of these variables were examined. During the modeling process, all higher-order terms were removed from the model if they did not substantially (P &gt; 0.05) increase the fit of the model based on the deviance function compared to a chi-squared distribution (McCullagh and Nelder, 1989). The GENMOD procedure of the SAS statistical software package, version 8.02 (SAS Institute, Cary, North Carolina, USA), was used to fit the model with maximum likelihood parameter estimates.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+ <project><title>Monitoring, Habitat Use, and Trophic Interactions of Harbor Seals in PWS, Alaska</title>
+<personnel><references>1360886555567</references>
+<role>Principal Investigator</role>
+</personnel>
+<funding><para>Exxon Valdez Oil Spill Trustee Council project numbers 01064, 99064, 98064, 97064, 96064, 95064, 94064, 93064, R073, MM05; this study was supported in part by Federal Aid in Wildlife Restoration Project 18.7, Job W-24-3, and an annual grant to ADF&amp;G for harbor seal investigations in Alaska allocated by the US Congress and administered through the National Marine Fisheries Service (NMFS); Serologic work was supported by a grant from the European Union (HCM project number ERBCHBGCT920106) and from the Seal Rehabilitation and Research Center at Pieterburen, The Netherlands</para>
+</funding>
+</project>
+  <dataTable id="1376067948062"><entityName>samples.csv</entityName>
+ <entityDescription>Information on sera samples</entityDescription>
+ <physical id="1376067396453"><objectName>samples.csv</objectName>
+ <size unit="byte">133704</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.269.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1376067948064"><attributeName>YEAR</attributeName>
+ <attributeDefinition>year of collection</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948065"><attributeName>NO_INFO</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>?</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948066"><attributeName>ORIG_NUM</attributeName>
+ <attributeDefinition>Original specimen number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948067"><attributeName>SPEC_NUM</attributeName>
+ <attributeDefinition>Specimen number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948068"><attributeName>Animal_ID</attributeName>
+ <attributeDefinition>Animal ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Animal ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948069"><attributeName>DATE</attributeName>
+ <attributeDefinition>Date of collection</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM/DD/YY</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948070"><attributeName>COLLECTOR</attributeName>
+ <attributeDefinition>Sample collector ID (organization-surname)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Collector ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948071"><attributeName>GMU</attributeName>
+ <attributeDefinition>Game management unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unit ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948072"><attributeName>LCODE</attributeName>
+ <attributeDefinition>Location code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>100</code>
+ <definition>Bering Sea</definition>
+ </codeDefinition>
+ <codeDefinition><code>400</code>
+ <definition>Kodiak</definition>
+ </codeDefinition>
+ <codeDefinition><code>500</code>
+ <definition>Prince William Sound</definition>
+ </codeDefinition>
+ <codeDefinition><code>600</code>
+ <definition>Southeast</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948073"><attributeName>NOTES</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948074"><attributeName>SEX</attributeName>
+ <attributeDefinition>Sex of animal</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>male</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition><code>3</code>
+ <definition>unknown</definition>
+ </codeDefinition>
+ <codeDefinition><code>M</code>
+ <definition>male</definition>
+ </codeDefinition>
+ <codeDefinition><code>F</code>
+ <definition>female</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948075"><attributeName>VIALS</attributeName>
+ <attributeDefinition>Number of cryovials containing serum</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948076"><attributeName>PENDING</attributeName>
+ <attributeDefinition>Sera sample sent to lab</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>no info</definition>
+ </codeDefinition>
+ <codeDefinition><code>X</code>
+ <definition>results pending</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376067948077"><attributeName>SEREX</attributeName>
+ <attributeDefinition>Sera available at ADFG</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>no info</definition>
+ </codeDefinition>
+ <codeDefinition><code>N</code>
+ <definition>serum available</definition>
+ </codeDefinition>
+ <codeDefinition><code>Y</code>
+ <definition>serum exhausted</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1136</numberOfRecords>
+ </dataTable>
+ <dataTable id="1376075454713"><entityName>results.csv</entityName>
+ <entityDescription>Disease test codes and results for serum samples</entityDescription>
+ <physical id="1376074555004"><objectName>results.csv</objectName>
+ <size unit="byte">971878</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.270.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1376075454715"><attributeName>SPEC_NUM</attributeName>
+ <attributeDefinition>Specimen number, links as foreign key to 'sampls.csv'</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075454716"><attributeName>addtlTests</attributeName>
+ <attributeDefinition>additional disease tests run? see pvother.dbf  (only 1993 seals)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Y = yes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075454717"><attributeName>diseaseCode</attributeName>
+ <attributeDefinition>Shorthand codes for diseases being tested. If it's followed by a '2' or higher, then it is a second (or higher) set of tests</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1376075500204</entityReference>
+ <valueAttributeReference>1376075500205</valueAttributeReference>
+ <definitionAttributeReference>1376075500206</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075454718"><attributeName>testCode</attributeName>
+ <attributeDefinition>Shorthand test codes for tests run on serum samples. Asterisk (*)  indicates test done at Wyoming State Veterinary Laboratory</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1376075550360</entityReference>
+ <valueAttributeReference>1376075550361</valueAttributeReference>
+ <definitionAttributeReference>1376075550362</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075454719"><attributeName>tcid50Result</attributeName>
+ <attributeDefinition>50 percent tissue culture infectivity dose (TCID50)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075454720"><attributeName>titerStrength</attributeName>
+ <attributeDefinition>A titer (or titre) is a way of expressing concentration. Titer testing employs serial dilution to obtain approximate quantitative information from an analytical procedure that inherently only evaluates as positive or negative. The titer corresponds to the highest dilution factor that still yields a positive reading. For example, positive readings in the first 8 serial twofold dilutions translate into a titer of 1:256 (i.e., 2&#8722;8). Titers are sometimes expressed by the denominator only, for example 1:256 is written 256.
+(http://en.wikipedia.org/wiki/Titer)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075454721"><attributeName>testResult</attributeName>
+ <attributeDefinition>Test result code (text), followed by the two-digit year in some cases.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1376075627267</entityReference>
+ <valueAttributeReference>1376075627268</valueAttributeReference>
+ <definitionAttributeReference>1376075627269</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>21584</numberOfRecords>
+ </dataTable>
+ <dataTable id="1376075500204"><entityName>diseaseCodes.csv</entityName>
+ <entityDescription>Codes and definitions for disease names</entityDescription>
+ <physical id="1376075476374"><objectName>diseaseCodes.csv</objectName>
+ <size unit="byte">380</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.271.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1376075500205"><attributeName>diseaseCode</attributeName>
+ <attributeDefinition>Shorthand code for the disease</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075500206"><attributeName>diseaseName</attributeName>
+ <attributeDefinition>Full disease name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Definition</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>13</numberOfRecords>
+ </dataTable>
+ <dataTable id="1376075550360"><entityName>testCodes.csv</entityName>
+ <entityDescription>Codes and definitions for test names</entityDescription>
+ <physical id="1376075527066"><objectName>testCodes.csv</objectName>
+ <size unit="byte">217</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.272.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1376075550361"><attributeName>testCode</attributeName>
+ <attributeDefinition>Shorthand code for the test name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075550362"><attributeName>testName</attributeName>
+ <attributeDefinition>Full test name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Definition</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>6</numberOfRecords>
+ </dataTable>
+ <dataTable id="1376075627267"><entityName>testResultCodes.csv</entityName>
+ <entityDescription>Codes and definitions for test results</entityDescription>
+ <physical id="1376075594235"><objectName>testResultCodes.csv</objectName>
+ <size unit="byte">131</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.273.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1376075627268"><attributeName>testResultCode</attributeName>
+ <attributeDefinition>Shorthand code for the test result</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1376075627269"><attributeName>testResultName</attributeName>
+ <attributeDefinition>Explanation of test result code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Definition</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>9</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>originals.zip</entityName>
+ <entityDescription>Original unformatted files (Excel and MS Word)</entityDescription>
+ <physical><objectName>originals.zip</objectName>
+ <size unit="byte">137713</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1376078100922"><online><url function="download">ecogrid://knb/df35d.274.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

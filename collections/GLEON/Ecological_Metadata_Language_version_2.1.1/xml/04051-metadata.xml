@@ -1,0 +1,444 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" packageId="gleon.2.4" scope="system" system="knb"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=cgries,o=LTER,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <alternateIdentifier system="NTL-DEIMS">knb-lter-ntl.298.2</alternateIdentifier>
+ <shortName>MEMOTY</shortName>
+ <title>Microbial Observatory at North Temperate Lakes LTER Time series of bacterial community dynamics in Lake Mendota 2000 - 2009</title>
+ <creator scope="document"> <individualName> <givenName>Emily</givenName>
+ <surName>Read</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>680 N. Park St.</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(608) 890-2858</phone>
+ <electronicMailAddress>kara@wisc.edu</electronicMailAddress>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Katherine</givenName>
+ <surName>McMahon</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>1415 Engineering Dr</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ </address>
+ <phone phonetype="voice">(608) 890-2836</phone>
+ <electronicMailAddress>tmcmahon@engr.wisc.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <organizationName>North Temperate Lakes LTER</organizationName>
+ <address scope="document"> <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+ </metadataProvider>
+ <pubDate>2014</pubDate>
+ <language>english</language>
+ <abstract> <para>With an unprecedented decade-long time series from a temperate eutrophic lake, we analyzed bacterial and environmental co-occurrence networks to gain insight into seasonal dynamics at the community level. We found that (1) bacterial co-occurrence networks were non-random, (2) season explained the network complexity and (3) co-occurrence network complexity was negatively correlated with the underlying community diversity across different seasons. Network complexity was not related to the variance of associated environmental factors. Temperature and productivity may drive changes in diversity across seasons in temperate aquatic systems, much as they control diversity across latitude. While the implications of bacterioplankton network structure on ecosystem function are still largely unknown, network analysis, in conjunction with traditional multivariate techniques, continues to increase our understanding of bacterioplankton temporal dynamics.</para>
+ </abstract>
+ <keywordSet> <keyword>abundance</keyword>
+ <keyword>communities</keyword>
+ <keyword>microbes</keyword>
+ <keyword>population dynamics</keyword>
+ <keyword>populations</keyword>
+ <keywordThesaurus>LTER Keywords</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <section> <title>Data Policies</title>
+ <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is
+					released to the public and may be used for academic, educational, or commercial purposes
+					subject to the following restrictions: The Data User must realize that these data sets are
+					being actively used by others for ongoing research and that coordination may be necessary
+					to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal
+					Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where
+					appropriate, the Data User may be encouraged to consider collaboration and/or
+					co-authorship with original investigators.</para>
+ <para>The Data User must realize that the data may be misinterpreted if taken out of
+					context. We request that you provide the NTL lead Principal Investigator, ATTN: Data
+					Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St.,
+					Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed
+					and comments provided on the presentation of our data.</para>
+ <para>The Data User must acknowledge use of the data by an appropriate citation (see
+					Citation) of the NTL-LTER database. A generic citation for our databases is: name of data
+					set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for
+					data set, Center for Limnology, University of Wisconsin-Madison. The data set name and
+					contact person for each data set can be found in the metadata header of the online data
+					sets.</para>
+ <para>The Data User must send two reprints of any publications resulting from use of the
+					data to the address above. We would like to include such manuscripts in our LTER
+					publications list.</para>
+ <para>The Data User must not redistribute original data and documentation without permission
+					from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para>
+ <para>While substantial efforts are made to ensure the accuracy of data and documentation,
+					complete accuracy of data sets cannot be guaranteed. All data are made available "as is".
+					The North Temperate Lakes LTER shall not be liable for damages resulting from any use or
+					misinterpretation of data sets. Data users should be aware that we periodically update
+					data sets.</para>
+ <para>Our goal is to release all long term data associated with core research areas within 2
+					years of collection. These data and accompanying metadata will be available for download
+					from the NTL-LTER web site.</para>
+ <para>By using these data, the Data User agrees to abide by the terms of this agreement.
+					Thank you for your cooperation.</para>
+ </section>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="information">http://lter.limnology.wisc.edu/node/34125</url>
+ </online>
+ </distribution>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Lake Mendota, Dane County, Wisconsin, USA</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.405</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.405</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.099</northBoundingCoordinate>
+ <southBoundingCoordinate>43.099</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <singleDateTime> <calendarDate>2014-03-11</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <maintenance> <description> <para>completed</para>
+ </description>
+ </maintenance>
+ <contact scope="document"> <individualName> <givenName>Katherine</givenName>
+ <surName>McMahon</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>1415 Engineering Dr</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ </address>
+ <phone phonetype="voice">(608) 890-2836</phone>
+ <electronicMailAddress>tmcmahon@engr.wisc.edu</electronicMailAddress>
+ </contact>
+ <contact scope="document"> <positionName>NTL LTER Information Manager</positionName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>680 North Park Street</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+ </contact>
+ <publisher scope="document"> <organizationName>North Temperate Lakes LTER</organizationName>
+ <address scope="document"> <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+ </publisher>
+ <pubPlace>North Temperate Lakes</pubPlace>
+ <methods> <methodStep> <description> <section> <para>Surface water samples were collected from Lake Mendota, WI, USA, and analyzed by automated ribosomal intergenic spacer analysis as described previously (Shade et al., 2007). From 2000 to 2009, a total of 34 spring, 53 summer and 34 autumn observations were made. Thirty-two environmental variables were collected at the same location by the North Temperate Lakes Long Term Ecological Research program (lter.limnology.wisc.edu)</para>
+ </section>
+ <section> <para>this is a compilation of data from knb-lter-ntl.292.1, Microbial Observatory at North Temperate Lakes LTER Six Bogs Microbial Communities 2009; knb-lter-ntl.295.1, Microbial Observatory at North Temperate Lakes LTER Three Bog 2005 study; 			knb-lter-ntl.293.1, Microbial Observatory at North Temperate Lakes LTER Mendota Six 							Years Bacterial Community Composition 2000 - 2005; plus other that are currently not 							available on this website. &#65533;</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project scope="document"> <title>North Temperate Lakes Microbial Observatory</title>
+ <personnel scope="document"> <individualName> <givenName>Katherine</givenName>
+ <surName>McMahon</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>1415 Engineering Dr</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ </address>
+ <phone phonetype="voice">(608) 890-2836</phone>
+ <electronicMailAddress>tmcmahon@engr.wisc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <personnel scope="document"> <individualName> <givenName>Timothy</givenName>
+ <surName>Kratz</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>10810 County Highway N</deliveryPoint>
+ <city>Boulder Junction</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>54512</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(715) 356-9494</phone>
+ <phone phonetype="fax">(715) 356-6866</phone>
+ <electronicMailAddress>tkkratz@wisc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <personnel scope="document"> <individualName> <givenName>Linda</givenName>
+ <surName>Graham</surName>
+ </individualName>
+ <organizationName>University of Wisconsin</organizationName>
+ <address scope="document"> <deliveryPoint>430 Lincoln Dr.</deliveryPoint>
+ <city>Madison</city>
+ <administrativeArea>WI</administrativeArea>
+ <postalCode>53706</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(608) 262-2640</phone>
+ <electronicMailAddress>lkgraham@wisc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <personnel scope="document"> <individualName> <givenName>Angela</givenName>
+ <surName>Kent</surName>
+ </individualName>
+ <organizationName>NTL LTER</organizationName>
+ <address scope="document"> <city>Urbana</city>
+ <administrativeArea>IL</administrativeArea>
+ <postalCode>61801</postalCode>
+ </address>
+ <phone phonetype="voice">(217) 333-4216</phone>
+ <electronicMailAddress>akent@uiuc.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <personnel scope="document"> <individualName> <givenName>Rachel</givenName>
+ <surName>Whitaker</surName>
+ </individualName>
+ <organizationName>University of Illinois at Urbana-Champaign</organizationName>
+ <address scope="document"> <deliveryPoint>C222 CLSL</deliveryPoint>
+ <city>Urbana</city>
+ <administrativeArea>IL</administrativeArea>
+ <postalCode>61801</postalCode>
+ <country>United States</country>
+ </address>
+ <phone phonetype="voice">(217) 244-8420</phone>
+ <electronicMailAddress>rwhitaker@life.illinois.edu</electronicMailAddress>
+ <role>project personnel</role>
+ </personnel>
+ <abstract> <para>Our primary goal in the Microbial Observatory is to advance the understanding of lake bacterioplankton, whose diversity and population dynamics are currently the least understood off all freshwater planktonic organisms. Through identification and characterization of predominant bacterial populations in a suite of strongly contrasting lakes, we will gain significant new insight into the ecological roles of bacteria in diverse freshwater ecosystems.</para>
+ </abstract>
+ </project>
+ <dataTable scope="document"> <entityName>karaPopulationDatalong.csv</entityName>
+ <entityDescription>Microbial abundance in Lake Mendota 2000 - 2009</entityDescription>
+ <physical scope="document"> <objectName>karaPopulationDatalong.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ <quoteCharacter>"</quoteCharacter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.3.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>record_id</attributeName>
+ <attributeLabel>record id</attributeLabel>
+ <attributeDefinition>auto incremented count of records</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>auto incremented count of records</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>otu</attributeName>
+ <attributeLabel>Operational Taxonomic Unit</attributeLabel>
+ <attributeDefinition>Operational Taxonomic Unit, named according to the length of a
+						targeted gene</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>sampledate</attributeName>
+ <attributeLabel>sample date</attributeLabel>
+ <attributeDefinition>sample date</attributeDefinition>
+ <storageType>date</storageType>
+ <measurementScale> <dateTime> <formatString>yyyy-MM-dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>rel_abundance</attributeName>
+ <attributeLabel>relative abundance</attributeLabel>
+ <attributeDefinition>relative abundance</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable scope="document"> <entityName>karaEnvDatalong.csv</entityName>
+ <entityDescription>Environmental and biogeochemistry data for Lake Mendota 2000 -
+				2009</entityDescription>
+ <physical scope="document"> <objectName>karaEnvDatalong.csv</objectName>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>\r\n</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ <quoteCharacter>"</quoteCharacter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/cgries.4.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute scope="document"> <attributeName>record_id</attributeName>
+ <attributeLabel>record id</attributeLabel>
+ <attributeDefinition>auto incremented count of records</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>auto incremented count of records</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>paramter</attributeName>
+ <attributeLabel>parameter</attributeLabel>
+ <attributeDefinition>in long table format the parameter for which a value is
+						given</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>year</code>
+ <definition>year</definition>
+ </codeDefinition>
+ <codeDefinition> <code>season</code>
+ <definition>season</definition>
+ </codeDefinition>
+ <codeDefinition> <code>serial date</code>
+ <definition>serial data</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Alk</code>
+ <definition>Alkalinity</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ca</code>
+ <definition>Calcium</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chl</code>
+ <definition>Chlorophyll-a</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cl</code>
+ <definition>Chloride</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DIC</code>
+ <definition>Dissolved inorganic carbon</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DO</code>
+ <definition>Dissolved oxygen</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DOC</code>
+ <definition>Dissolved organic carbon</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DOsat</code>
+ <definition>Dissolved oxygen saturation (temperature corrected)</definition>
+ </codeDefinition>
+ <codeDefinition> <code>DRSilica</code>
+ <definition>Dissolved reactive silica</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Fe</code>
+ <definition>Iron</definition>
+ </codeDefinition>
+ <codeDefinition> <code>K</code>
+ <definition>Potassium</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mg</code>
+ <definition>Magnesium</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mn</code>
+ <definition>Manganese</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NH4</code>
+ <definition>Ammonium</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NO3NO2</code>
+ <definition>Nitrate plus nitrite</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Na</code>
+ <definition>Sodium</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SO4</code>
+ <definition>Sulfate</definition>
+ </codeDefinition>
+ <codeDefinition> <code>SRP</code>
+ <definition>Soluble reactive phosphorus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TIC</code>
+ <definition>Total inorganic carbon</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TKN</code>
+ <definition>Total Kjeldahl nitrogen (proxy for sum of ammonium, ammonia, and
+											organic nitrogen)</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TOC</code>
+ <definition>Total organic carbon</definition>
+ </codeDefinition>
+ <codeDefinition> <code>TP</code>
+ <definition>Total phosphorus</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Temp</code>
+ <definition>Temperature</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Zoop</code>
+ <definition>Zooplankton organisms</definition>
+ </codeDefinition>
+ <codeDefinition> <code>pH</code>
+ <definition>log hydrogen concentration</definition>
+ </codeDefinition>
+ <codeDefinition> <code>secchi</code>
+ <definition>depth of water clarity (depth of 1percent light penetration per
+											1.7m)</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bacillariophyta</code>
+ <definition>Bacillariophyta phytoplankton biomass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Chlorophyta</code>
+ <definition>Chlorophyta phytoplankton biomass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cyanophyta</code>
+ <definition>Cyanophyta phytoplankton biomass</definition>
+ </codeDefinition>
+ <codeDefinition> <code>daylength</code>
+ <definition>daylength in hours</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>sampledate</attributeName>
+ <attributeLabel>sample date</attributeLabel>
+ <attributeDefinition>sample date</attributeDefinition>
+ <storageType>date</storageType>
+ <measurementScale> <dateTime> <formatString>yyyy-MM-dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute scope="document"> <attributeName>value</attributeName>
+ <attributeLabel>value of paramter</attributeLabel>
+ <attributeDefinition>in long table format the value of specified
+						parameter</attributeDefinition>
+ <storageType>string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>in long table format the value of specified parameter</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

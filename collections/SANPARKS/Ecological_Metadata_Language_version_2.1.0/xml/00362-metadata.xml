@@ -1,0 +1,642 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.113.9" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow> <principal>cn=RegionalEcologists,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Golden Gate Highland National Parks Census Data.</title>
+ <creator id="1250232193917" scope="document"> <individualName> <surName>SANParks</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Regional Ecologists</positionName>
+ <address scope="document"> <deliveryPoint>Private Bag x402, Skukuza, 1350 South Africa</deliveryPoint>
+ </address>
+ </creator>
+ <associatedParty scope="document"> <references>1250232193917</references>
+ <role>Regional Ecologists</role>
+ </associatedParty>
+ <keywordSet><keyword>SANParks, South Africa</keyword>
+ <keyword>Golden Gate Highland National Park,South Africa</keyword>
+ <keyword>Census data</keyword>
+ </keywordSet>
+ <coverage scope="document">  <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1998-08-14</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2004-02-13</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Alcephalatus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>buselaphus</taxonRankValue>
+ <commonName>Oribi</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Antidorcas</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>marsupialis</taxonRankValue>
+ <commonName>Eland</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Connochaetus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>gnou</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Damaliscus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>pygarus</taxonRankValue>
+ <commonName>Blesbuck</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Equus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>burchellii</taxonRankValue>
+ <commonName>Red hartebeest</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Ourebia</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>ourebi</taxonRankValue>
+ <commonName>Mountain rheebuck</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Pelea</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>capreolus</taxonRankValue>
+ <commonName>black wildebeest</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Redunca</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>fulvorufula</taxonRankValue>
+ <commonName>Grey rhebuck</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Struthio</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>camelis</taxonRankValue>
+ <commonName>Ostrich</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Taurotragus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>oryx</taxonRankValue>
+ <commonName>Zebra</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <geographicCoverage><geographicDescription>GoldenGateHighlandsNationalPark</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>28.524255</westBoundingCoordinate>
+<eastBoundingCoordinate>28.80661</eastBoundingCoordinate>
+<northBoundingCoordinate>-28.403919</northBoundingCoordinate>
+<southBoundingCoordinate>-28.608216</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+ <contact scope="document"> <references>1250232193917</references>
+ </contact>
+ <dataTable id="1250233797704" scope="document"> <entityName>GGHNPcensusdata.txt</entityName>
+ <physical id="1250233796032" scope="document"> <objectName>GGHNPcensusdata.txt</objectName>
+ <size unit="byte">204346</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.109.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1250233797720" scope="document"> <attributeName>ID</attributeName>
+ <attributeDefinition>The ID of the data</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797735" scope="document"> <attributeName>Area</attributeName>
+ <attributeDefinition>The are from the data took place</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>GGNP</code>
+ <definition>Golden Gate Highland national Park</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QwaQwa</code>
+ <definition>QwaQwa</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797751" scope="document"> <attributeName>Unique number</attributeName>
+ <attributeDefinition>Unqique number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797766" scope="document"> <attributeName>Decimal Deg E</attributeName>
+ <attributeDefinition>Decimals Degit</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797782" scope="document"> <attributeName>Decimal Deg S</attributeName>
+ <attributeDefinition>Decimal Degit</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797798" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797813" scope="document"> <attributeName>Block / Stratum</attributeName>
+ <attributeDefinition>The block where the data were affacted</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>2</code>
+ <definition>Blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>1</code>
+ <definition>Blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>8</code>
+ <definition>Blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>3</code>
+ <definition>Blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>4</code>
+ <definition>Blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>5</code>
+ <definition>Blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>6</code>
+ <definition>Blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>13</code>
+ <definition>Blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>9</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>7</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>11</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>12</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>15</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>14</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>10</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>16</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Qwa-Qwa</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>qwa-qwa</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>qwa-qwa1</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>qwa-qwa2</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>qwa-qwa3</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ <codeDefinition> <code>qwa-qwa4</code>
+ <definition>blocks</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797829" scope="document"> <attributeName>Transect</attributeName>
+ <attributeDefinition>Transection of the data</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797845" scope="document"><attributeName>Species</attributeName>
+ <attributeDefinition>The names of the species.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><entityCodeList><entityReference>1250234124358</entityReference>
+ <valueAttributeReference>1250234124405</valueAttributeReference>
+ <definitionAttributeReference>1250234124389</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797860" scope="document"> <attributeName>Total number</attributeName>
+ <attributeDefinition>The tatal number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797876" scope="document"> <attributeName>Juveniles / calves</attributeName>
+ <attributeDefinition>Juveniles</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797891" scope="document"> <attributeName>Distance / Strip</attributeName>
+ <attributeDefinition>The distantance</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797907" scope="document"> <attributeName>Observer - L/R</attributeName>
+ <attributeDefinition>Observer</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233797923" scope="document"> <attributeName>Comments</attributeName>
+ <attributeDefinition>The comments</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2995</numberOfRecords>
+ </dataTable>
+ <dataTable id="1250233942234" scope="document"> <entityName>GGHNPQWAQWATotals.txt</entityName>
+ <physical id="1250233940797" scope="document"> <objectName>GGHNPQWAQWATotals.txt</objectName>
+ <size unit="byte">4206</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.110.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1250233942250" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233942266" scope="document"> <attributeName>Area</attributeName>
+ <attributeDefinition>The Area</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>GGNP</code>
+ <definition>Golden Gate National Park</definition>
+ </codeDefinition>
+ <codeDefinition> <code>QwaQwa</code>
+ <definition>QwaQwa</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233942281" scope="document"> <attributeName>Common name</attributeName>
+ <attributeDefinition>The commender's names</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250233942297" scope="document"><attributeName>SumOfTotal number</attributeName>
+ <attributeDefinition>Sum of the total number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>98</numberOfRecords>
+ </dataTable>
+ <dataTable id="1250234124358" scope="document"> <entityName>GGHNPSpecieCodes.txt</entityName>
+ <physical id="1250234122921" scope="document"> <objectName>GGHNPSpecieCodes.txt</objectName>
+ <size unit="byte">298</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.111.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1250234124374" scope="document"> <attributeName>ID</attributeName>
+ <attributeDefinition>The ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250234124389" scope="document"> <attributeName>Common name</attributeName>
+ <attributeDefinition>The Common name</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250234124405" scope="document"> <attributeName>Species ID</attributeName>
+ <attributeDefinition>Pecies Names</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>18</numberOfRecords>
+ </dataTable>
+ <dataTable id="1250234305904" scope="document"> <entityName>GGHNPTotals.txt</entityName>
+ <physical id="1250234304466" scope="document"> <objectName>GGHNPTotals.txt</objectName>
+ <size unit="byte">2685</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.112.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1250234305919" scope="document"> <attributeName>Column 1</attributeName>
+ <attributeDefinition>The Year</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>1</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250234305935" scope="document"> <attributeName>Column 2</attributeName>
+ <attributeDefinition>The name of the species.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Black wildebeest</code>
+ <definition>Species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Burchell's zebra</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eland</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Oribi</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Springbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cattle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grey rhebok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain reedbuck</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Horses</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Red hartebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Blesbok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Goats</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Sheep</code>
+ <definition>species</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1250234305951" scope="document"> <attributeName>Column 3</attributeName>
+ <attributeDefinition>The decimal digit</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>71</numberOfRecords>
+ </dataTable>
+ <dataTable id="1329224132214"><entityName>Goldengate cenusu 1994-2010.txt</entityName>
+ <physical id="1329223845229"><objectName>Goldengate cenusu 1994-2010.txt</objectName>
+ <size unit="byte">60651</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.1148.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1329224132215"><attributeName>Date</attributeName>
+ <attributeDefinition>Dates</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DDD</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132216"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>Thh:MM:SS</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132217"><attributeName>SPECIES LIST</attributeName>
+ <attributeDefinition>Name of the Species</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132218"><attributeName>Other Species</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132219"><attributeName>Male</attributeName>
+ <attributeDefinition>Sexuality</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132220"><attributeName>Female</attributeName>
+ <attributeDefinition>Sexuality</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132221"><attributeName>Juvenile</attributeName>
+ <attributeDefinition>Juvenile</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132222"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132223"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132224"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132225"><attributeName>Altitude</attributeName>
+ <attributeDefinition>Altitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1329224132226"><attributeName>Accuracy</attributeName>
+ <attributeDefinition>Accuracy</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>795</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

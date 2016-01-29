@@ -1,0 +1,212 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="msb-tempbiodev.1111141.4" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Mammal Species Commonly Present at Luquillo LTER</title>
+    <creator>
+      <individualName>
+        <givenName>Jeanine</givenName>
+        <surName>McGann</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <electronicMailAddress>jeaninemcgann@unm.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2013-11-13</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This list of mammal species at Luquillo LTER, Puerto Rico, was derived from the text of "The Food Web of a Tropical Rain Forest," edited by Douglas P. Reagan and Robert B. Waide, University of Chicago Press, Chicago, (c) 1996, Chapter 12, "Mammals," by Michael R. Willig and Michael R. Gannon, pp. 399-431, as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Mammal</keyword>
+      <keyword keywordType="theme">Species</keyword>
+      <keyword keywordType="theme">Luquillo</keyword>
+      <keyword keywordType="theme">Puerto Rico</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/mammal-species-commonly-present-luquillo-lter
+</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Jeanine</givenName>
+        <surName>McGann</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <electronicMailAddress>jeaninemcgann@unm.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+The Luquillo mammal species was derived from the text of "The Food Web of a Tropical Rain Forest," edited by Douglas P. Reagan and Robert B. Waide, University of Chicago Press, Chicago, (c) 1996, Chapter 12, "Mammals," by Michael R. Willig and Michael R. Gannon, pp. 399-431. Order and family names were retrieved from National Museum of Natural History http://www.mnh.si.edu/mna/search_name.cfm. All mammal species in the family muridae were updated to family cricetidae to keep current with taxonomic classification.
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>LUQ Mammal Species List</entityName>
+      <entityDescription>A list of all mammal species at Luquillo LTER.</entityDescription>
+      <physical>
+        <objectName>LuquilloMammals2.csv</objectName>
+        <size>1037</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111141/4/3cc37476b78d80c3e0a1b6a322d2ee27</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-10-31</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-11-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>Order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The taxonomic order to which the mammal belongs.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic order to which the mammal belongs.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The taxonomic family to which the mammal belongs.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic family to which the mammal belongs.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The taxonomic genus to which the mammal belongs.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic genus to which the mammal belongs.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>The taxonomic species to which the mammal belongs.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic species to which the mammal belongs.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Common name</attributeName>
+          <attributeLabel>Common name</attributeLabel>
+          <attributeDefinition>
+The common (non-scientific) name of the mammal species.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The common (non-scientific) name of the mammal species.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</ns0:eml>

@@ -1,0 +1,138 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.67.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Questionnaire records of introduced plant-bird interactions observed by ornithologists in California, Washington, New York, and Florida</title>
+<creator>
+<organizationName>University of California, Davis, Department of Evolution and Ecology</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Clare</givenName>
+<surName>Aslan</surName>
+</individualName>
+<organizationName>University of California, Davis, Department of Evolution and Ecology</organizationName>
+<address>
+<deliveryPoint>One Shields Avenue</deliveryPoint>
+<city>Davis</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>95616</postalCode>
+<country>USA</country>
+</address>
+<phone>530-219-6244</phone>
+<electronicMailAddress>ceaslan@ucdavis.edu</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Clare</givenName>
+<surName>Aslan</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Clare</givenName>
+<surName>Aslan</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2010-05-12</pubDate>
+<abstract>
+<para>Ornithologists in four states (California, Washington, New York, and Florida) were surveyed by mail questionnaire and asked to report observations of bird use of introduced plants.  Reported observations included habitat usage (e.g., roosting, nesting, gleaning, woodpecking) and feeding interactions(i.e., potential seed dispersal).  The purpose of the study was to ascertain the degree to which introduced plants are integrated into avian habitat in widespread U.S. regions, and to evaluate potential for bird dispersal of nonnative plants.</para>
+</abstract>
+<keywordSet>
+<keyword>introduced plants</keyword>
+<keyword>birds</keyword>
+<keyword>questionnaire</keyword>
+<keyword>ornithologists</keyword>
+<keyword>mutualism</keyword>
+<keyword>seed dispersal</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<online>
+<url>http://esapubs.org/Archive/appl/A020/036/default.htm</url>
+</online>
+</distribution>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2006-07-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2006-10-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Questionnaires were sent to ornithologists in California, New York, Florida, and Washington, U.S.A.  Note:  there are no applicable geographic coordinates for this dataset, but such coordinates are required for data registry.  I therefore entered coordinates for Davis, CA, where the data are housed.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-121.7581</westBoundingCoordinate>
+<eastBoundingCoordinate>-121.7581</eastBoundingCoordinate>
+<northBoundingCoordinate>38.5367</northBoundingCoordinate>
+<southBoundingCoordinate>38.5367</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Order</taxonRankName>
+  <taxonRankValue>Aves</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Clare</givenName>
+<surName>Aslan</surName>
+</individualName>
+<organizationName>University of California, Davis, Department of Evolution and Ecology</organizationName>
+<address>
+<deliveryPoint>One Shields Avenue</deliveryPoint>
+<city>Davis</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>95616</postalCode>
+<country>USA</country>
+</address>
+<phone>530-219-6244</phone>
+<electronicMailAddress>ceaslan@ucdavis.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Questionnaire</title>
+<para>Questionnaires were distributed by mail to members of the Ornithological Societies of North America (OSNA) in July, 2006.  Respondents reported their level of expertise with bird and plant identification, observations of bird interactions with a provided list of plants, observations of plant use by a provided list of birds, and any other bird-nonnative plant interactions they could provide.</para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>All questionnaires were distributed and returned between July and October, 2006.  However, ornithologists were encouraged to report all observations, so reports may have covered a large temporal span.</para>
+</description></studyExtent>
+<samplingDescription>
+<para>For financial reasons, questionnaires were limited to four states (CA, WA, NY, FL), but all OSNA members in those four states received questionnaires.  Responses were voluntary and overall response rate was 17%.</para>
+</samplingDescription>
+</sampling>
+</methods>
+</dataset></ns0:eml>

@@ -1,0 +1,3763 @@
+{"records": [{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02766-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02767-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02768-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02769-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02770-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02771-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02772-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02773-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02774-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02775-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02776-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02777-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02778-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02779-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02780-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02781-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02782-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+},{"spirals": [
+{"title":"FGDC for Data Discovery - Mandatory","code":"FGDC_Discovery-Mandatory","description":"The FGDC Content Standard for Digital Geospatial Metadata includes fields in the Identification Information and Metadata Reference Sections that are mandatory for data discovery. In the graphical representation of the standard, these are yellow fields included in yellow sections.","maximum":"20","existTotal":"0",
+"countTotal":"0",
+
+"items" : [
+{
+"name":"Resource Title","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title","exists":"0",
+"count":"0"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Originating Organization","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin","exists":"0",
+"count":"0"
+}],
+"description":"The organization responsible for creating the resource"},
+{
+"name":"Publication Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate","exists":"0",
+"count":"0"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Abstract","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:descript/fgdc:abstract","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Purpose","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:idinfo/fgdc:descript/fgdc:purpose","exists":"0",
+"count":"0"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."},
+{
+"name":"Resource Status","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status","exists":"0",
+"count":"0"
+}],
+"description":"The status of the resource"},
+{
+"name":"Resource Update Frequency","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:status/fgdc:update","exists":"0",
+"count":"0"
+}],
+"description":"The frequency with which changes and additions are made to the data set after the initial data set is completed"},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Bounding Box","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:spdom/fgdc:bounding","exists":"0",
+"count":"0"
+}],
+"note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
+{
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:accconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+{
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:useconst","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:idinfo/fgdc:keywords/fgdc:theme/fgdc:themekey","exists":"0",
+"count":"0"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Distribution Liability","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distliab","exists":"0",
+"count":"0"
+}],
+"description":"Statement of the liability assumed by the distributor."},
+{
+"name":"Distribution Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+{
+"name":"Metadata Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Metadata Standard Citation","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdn","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Metadata Standard Version","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:metainfo/fgdc:metstdv ","exists":"0",
+"count":"0"
+}],
+"description":"The name of the standard to which the metadata conforms"},
+{
+"name":"Ordering Instructions","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:ordinst","exists":"0",
+"count":"0"
+}],
+"description":"General instructions, terms and services provided by the distributor"},
+{
+"name":"Resource Cost or Fees","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:fees","exists":"0",
+"count":"0"
+}],
+"description":"Cost associated with access to the resource"},
+{
+"name":"Turnaround","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/fgdc:metadata/fgdc:distinfo/fgdc:distrib/fgdc:storder/fgdc:turnaro","exists":"0",
+"count":"0"
+}],
+"description":"Typical turnaround time for the filling of an order."}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02783-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"FGDC","rubricVersion":"0.1","rubricMax":"20","rubricExists":"0",
+"rubricCounts":"0"
+}]}

@@ -1,0 +1,89 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="fhatanir.6.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>De Klerksdal farm rainfall</title>
+ <creator id="1354613516785"> <individualName><givenName>Gideon</givenName>
+<surName>de Klerk</surName>
+</individualName>
+<organizationName>De Klerksdal farm</organizationName>
+<positionName>Owner</positionName>
+<address><city>Bedford district, Eastern Cape</city>
+<country>South Africa</country>
+</address>
+<electronicMailAddress>gideondk@r63.co.za</electronicMailAddress>
+</creator>
+ <associatedParty id="1354613831035"><individualName><givenName>Fhatani</givenName>
+<surName>Ranwashe</surName>
+</individualName>
+<organizationName>SAEON</organizationName>
+<positionName>Data Intern</positionName>
+<address><city>Cape Town</city>
+<country>South Africa</country>
+</address>
+<electronicMailAddress>data@saeon.ac.za</electronicMailAddress>
+<role>Metadata Provider</role>
+</associatedParty>
+<abstract><para>Monthly rainfall waas collected from the De Klerksdal farm farm in the Bedford district of Eastern Cape from 1913 to 2011</para>
+</abstract>
+<keywordSet><keyword>Fynbos SAEON Node, South Africa</keyword>
+</keywordSet>
+<intellectualRights><para>data available for archiving and sharing with permissions from owner.</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>De Klerksdal farm</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>25.9047</westBoundingCoordinate>
+<eastBoundingCoordinate>25.9047</eastBoundingCoordinate>
+<northBoundingCoordinate>-32.6004</northBoundingCoordinate>
+<southBoundingCoordinate>-32.6004</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1913</calendarDate>
+</beginDate>
+<endDate><calendarDate>2011</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1354613516785</references>
+</contact>
+<dataTable id="1354615159844"><entityName>Klerksdal_Rainfall_1913-2011.csv</entityName>
+<entityDescription>De Klerksdal farm rainfall</entityDescription>
+<physical id="1354614055346"><objectName>Klerksdal_Rainfall_1913-2011.csv</objectName>
+<size unit="byte">22473</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/fhatanir.5.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1354615159845"><attributeName>"YEAR"</attributeName>
+<attributeDefinition>year the rainfall was collected</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1354615159846"><attributeName>"month"</attributeName>
+<attributeDefinition>month the rain was collected</attributeDefinition>
+<measurementScale><dateTime><formatString>mm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1354615159847"><attributeName>"rain_mm"</attributeName>
+<attributeDefinition>rain amount recorded in millimeters</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>1188</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

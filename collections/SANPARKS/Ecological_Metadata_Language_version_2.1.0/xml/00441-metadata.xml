@@ -1,0 +1,485 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.109958.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset scope="document"> <title>Long term Weather data for Marakele National Park 1937-2009</title>
+ <creator id="1383118954010" scope="document"> <organizationName>SAWS</organizationName>
+ </creator>
+ <associatedParty scope="document"> <references>1383118961030</references>
+ <role>Collaborator</role>
+ </associatedParty>
+ <associatedParty id="1383119026191" scope="document"> <individualName> <givenName>Peggy</givenName>
+ <surName>Madonsela</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <role>Data Curator</role>
+ </associatedParty>
+ <abstract><para>Weather data for 2 stations outside of Marakele National Park. Basic data qualitychecks were conducted and this is documented in the methods</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Marakele  National Park, South Africa</keyword>
+ <keyword>Weather, climate, humidity,pressure,rainfall,temperature,wind</keyword>
+ </keywordSet>
+ <intellectualRights> <para>This data belongs to the SAWS and may therefore only be used for reserach purposes. If you would like to use this for any other reason please contact the SAWS directly</para>
+ </intellectualRights>
+ <coverage scope="document"> <temporalCoverage><rangeOfDates><beginDate><calendarDate>1937</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>MarakeleNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>27.473039</westBoundingCoordinate>
+ <eastBoundingCoordinate>27.803192</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.306332</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.540098</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1383118961030" scope="document"> <individualName> <salutation>Dr</salutation>
+ <givenName>Nicola</givenName>
+ <surName>Van Wilgen</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ </contact>
+ <methods><methodStep><description><section><title>Basic data quality checks for  Hoopdal</title>
+ <para>0630886 5	HOOPDAL - POL	Lat:	-24.27	Long:	27.5	Height: 1,219  m	RAINFALL	CurOrder:</para>
+ <para>Notes and general comments</para>
+ <para>204mm of rain recorded on 2009/01/29 are likely erroneous. Only 0.2mm recorded at Thabazimbi</para>
+ <para>There is a clear summer rainfall pattern with no obvious gaps in the data. Only 39 occurences of failed data readings - "Error (No Contact)".</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Basic data quality checks for Thabazimbi</title>
+ <para>0587725CX	THABAZIMBI	Lat:	-24.58	Long:	27.42	Height: 977  m	CurOrder:	ELEC_TEMP</para>
+ <para>Notes</para>
+ <para>2002/01/01 added to the 8h and 14h humidity, pressure and wind series</para>
+ <para>2002/01/17 added to the 8h humidity, pressure and wind series</para>
+ <para>Deleted all the pressure data from the end of May to the beginning of Dec 2007 as these values were clearly outliers</para>
+ <para>Also deleted the following other discontinuous pressure data: 14-18 December 2008, most of the data from 1995 (jan -oct)</para>
+ <para>First two months of temperature data deleted as these were followed by a four month gap</para>
+ <para>First two months of humidity, pressure and wind data deleted as these were followed by a four month gap</para>
+ <para>General comments</para>
+ <para>Temperature: There are gaps in strategic points in the data. The gaps are not longer than three months at a time (approx 7 such gaps).</para>
+ <para>Rainfall: There is a strong summer rainfall pattern, but there is a lot of missing data due to failed readings (344 occurences = 6% of data). The 1998 rain season seems  to have been skipped because of failed readings.</para>
+ <para>Humidity: There are several gaps in the data (approximately 6 gaps of up to 4 months). There is an annual pattern in humidity, but it is hard to discern because of missing data.</para>
+ <para>Pressure: Dataset contained 17% missing data. The rest of the data show a fairly consistent pattern.</para>
+ <para>Wind: There do not appear to be any outliers in the data with wind speeds never reaching over 9m/s. There are similar gaps in the wind data to the other data for this station.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1384252602056"><entityName>Marakele - HoopdalRainfall2009.txt</entityName>
+ <physical id="1384252534330"><objectName>Marakele - HoopdalRainfall2009.txt</objectName>
+ <size unit="byte">1162683</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109959.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384252602066"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384252602076"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384252602086"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384252602096"><attributeName>Rainfall amount</attributeName>
+ <attributeDefinition>Rainfall amount</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384252602106"><attributeName>Rainfall type</attributeName>
+ <attributeDefinition>Rainfall type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Rainfall type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>26361</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384253342621"><entityName>Marakele - ThabazimbiHumidity2009.txt</entityName>
+ <physical id="1384253174809"><objectName>Marakele - ThabazimbiHumidity2009.txt</objectName>
+ <size unit="byte">714111</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109960.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384253342631"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253342641"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253342651"><attributeName>DAte</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253342661"><attributeName>Hour</attributeName>
+ <attributeDefinition>HOur</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253342671"><attributeName>Humidty in %</attributeName>
+ <attributeDefinition>Humidty in %</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>16424</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384253555599"><entityName>Marakele - ThabazimbiPressure2009.txt</entityName>
+ <physical id="1384253479240"><objectName>Marakele - ThabazimbiPressure2009.txt</objectName>
+ <size unit="byte">796917</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109961.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384253555609"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253555619"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253555629"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253555639"><attributeName>hour</attributeName>
+ <attributeDefinition>hour</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253555649"><attributeName>Pressure</attributeName>
+ <attributeDefinition>Pressure</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Hecta Pascal</customUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17440</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384253693357"><entityName>Marakele - ThabazimbiRainfall2009.txt</entityName>
+ <physical id="1384253638408"><objectName>Marakele - ThabazimbiRainfall2009.txt</objectName>
+ <size unit="byte">239126</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109962.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384253693367"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253693377"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253693387"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253693397"><attributeName>Rainfall</attributeName>
+ <attributeDefinition>Rainfall</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253693407"><attributeName>Type</attributeName>
+ <attributeDefinition>Type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5711</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384253829206"><entityName>Marakele - ThabazimbiTemperature2009.txt</entityName>
+ <physical id="1384253763627"><objectName>Marakele - ThabazimbiTemperature2009.txt</objectName>
+ <size unit="byte">229806</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109963.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384253829216"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253829226"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>THABAZIMBI</code>
+ <definition>name</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253829236"><attributeName>DAte</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253829246"><attributeName>Maximum temperature</attributeName>
+ <attributeDefinition>Maximum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253829256"><attributeName>Minimum temperature</attributeName>
+ <attributeDefinition>Minimum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5599</numberOfRecords>
+ </dataTable>
+ <dataTable id="1384253997664"><entityName>Marakele - ThabazimbiWind2009.txt</entityName>
+ <physical id="1384253899725"><objectName>Marakele - ThabazimbiWind2009.txt</objectName>
+ <size unit="byte">864439</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.109964.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=nicolavw,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>cn=ScientificServices,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1384253997674"><attributeName>Station number</attributeName>
+ <attributeDefinition>Station number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253997684"><attributeName>Station name</attributeName>
+ <attributeDefinition>Station name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253997694"><attributeName>DAte</attributeName>
+ <attributeDefinition>date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253997704"><attributeName>Hour</attributeName>
+ <attributeDefinition>HOur</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253997714"><attributeName>wind speed</attributeName>
+ <attributeDefinition>wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1384253997724"><attributeName>Wind direction</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17440</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="Hecta Pascal" multiplierToSI="100" name="Hecta Pascal" parentSI="pascal" unitType="pressure"> <description>Hecta Pascal</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

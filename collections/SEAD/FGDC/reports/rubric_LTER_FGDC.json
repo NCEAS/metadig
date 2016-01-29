@@ -1,0 +1,3619 @@
+{"records": [{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"7",
+"countTotal":"9",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"2"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02766-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"11",
+"rubricCounts":"16"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"18",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"2"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"6",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"6"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02767-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"18",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"7"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02768-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"25"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"15",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02769-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"22"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"16",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"5",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"5"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02770-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"23"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"9"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02771-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"27"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"20",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"9",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"9"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02772-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"27"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"21",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"2"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"8"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"2",
+"countTotal":"5",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02773-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"13",
+"rubricCounts":"27"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"15",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02774-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"22"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"25",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"6",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"6"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"8",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"6"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"2",
+"countTotal":"5",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"0",
+"count":"0"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02775-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"13",
+"rubricCounts":"31"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"17",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"6",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"6"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02776-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"24"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"15",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"5",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"5"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02777-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"22"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"10",
+"countTotal":"16",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"2"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"2"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"4"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02778-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"14",
+"rubricCounts":"23"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"7",
+"countTotal":"9",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"2"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02779-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"11",
+"rubricCounts":"16"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"7",
+"countTotal":"9",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"2"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02780-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"11",
+"rubricCounts":"16"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"7",
+"countTotal":"9",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"2"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02781-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"11",
+"rubricCounts":"16"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"7",
+"countTotal":"9",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"1"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"2"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02782-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"11",
+"rubricCounts":"16"
+},{"spirals": [
+{"title":"LTER Completeness-Identification","code":"LTER_Identification","description":"Minimum content for adequate data set discovery in a general cataloging system or repository (functionally equivalent to LTER DTOC)","maximum":"11","existTotal":"7",
+"countTotal":"13",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"-1","count":"-1","description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"3"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Metadata Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person currently responsible for the metadata."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/origin","exists":"1",
+"count":"3"
+},
+{"path":"/metadata/idinfo/datacred","exists":"0",
+"count":"0"
+},
+{"path":"/metadata/metainfo/metc/cntinfo","exists":"1",
+"count":"1"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Publisher","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubinfo/publish","exists":"0",
+"count":"0"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Publication Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/citation/citeinfo/pubdate","exists":"1",
+"count":"1"
+}],
+"description":"Date of publication of the cited resource"},
+{
+"name":"Resource Contact","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/ptcontac","exists":"0",
+"count":"0"
+}],
+"description":"The organization or person responsible for answering questions about the resource."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/descript/abstract","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Keyword","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/keywords/theme/themekey","exists":"1",
+"count":"2"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Resource Distribution","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/distinfo","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the resource is available, online, offline, inline."}]
+},
+{"title":"LTER Completeness-Discovery","code":"LTER_Discovery","description":"Discovery level metadata should provide as much information as possible to support locating datasets by time, taxa, and/or geographic location in addition to basic identification information. Discovery level EML should include the coverage elements of temporalCoverage (when), taxonomicCoverage (what), and geographicCoverage (where) for the dataset as well as the change history in the maintenance element.","maximum":"4","existTotal":"3",
+"countTotal":"6",
+
+"items" : [
+{
+"name":"Taxonomic Extent","exists":"-1","count":"-1","description":"The extent of the taxonomies coverage."},
+{
+"name":"Spatial Extent","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/spdom/bounding//*","exists":"1",
+"count":"4"
+}],
+"description":"The spatial extent of the resource."},
+{
+"name":"Temporal Extent","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/timeperd/timeinfo/rngdates","exists":"1",
+"count":"1"
+}],
+"description":"The temporal extent of the resource"},
+{
+"name":"Maintenance","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/status/update","exists":"1",
+"count":"1"
+}],
+"description":"Describes changes to the data tables or metadata, including update frequency."}]
+},
+{"title":"LTER Completeness-Evaluation","code":"LTER_Evaluation","description":"Evaluation level metadata should include detailed descriptions of the project, methods, protocols, and intellectual rights in order for a potential user to evaluate the relevance of the data package for their research study or synthesis project.","maximum":"5","existTotal":"1",
+"countTotal":"1",
+
+"items" : [
+{
+"name":"Resource Use Constraints","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/metadata/idinfo/useconst","exists":"1",
+"count":"1"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+{
+"name":"Process Step","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/lineage/dataqual/procstep","exists":"0",
+"count":"0"
+}],
+"description":"A step in the processing that produced a resource"},
+{
+"name":"Project Description","exists":"-1","count":"-1","description":"Description of the project."},
+{
+"name":"Entity Type Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/enttyp/enttypd","exists":"0",
+"count":"0"
+}],
+"description":"The description of the entity type"},
+{
+"name":"Attribute Definition","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/metadata/eainfo/detailed/attr/attrdef","exists":"0",
+"count":"0"
+}],
+"description":"The description of the attribute"}]
+}],"Record":"file:/Users/scgordon/metadig/result/SEAD/FGDC/XML/02783-metadata.xml",
+"Date":"2016-01-29-07:00",
+"rubricType":"LTER","rubricVersion":"0.1","rubricMax":"20","rubricExists":"11",
+"rubricCounts":"20"
+}]}

@@ -1,0 +1,1035 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="MontanaIOE.145.6" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=viglesias,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>cn=cwhitlock,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+<dataset> <title>Paleolimnology Dataset</title>
+ <creator id="1404093671508"> <individualName><givenName>Cathy</givenName>
+ <surName>Whitlock</surName>
+ </individualName>
+ <organizationName>Montana State University</organizationName>
+ <positionName>Director, Montana Institute on Ecosystems</positionName>
+ <phone phonetype="voice">(406) 994-6910</phone>
+ <electronicMailAddress>whitlock@montana.edu</electronicMailAddress>
+ </creator>
+ <abstract><para>Climate is rapidly changing. Increased temperatures, frequent droughts, fires and floods, and rising sea levels are likely to have deep impacts on landscapes, species distributions, economical activities and human health. In order to better understand current global changes and to project future scenarios, knowledge of past climate-ecosystem dynamics is imperative. Although the past does not provide a prescriptive guide to the future, it allows the inference of environmental variability and the underlying processes that form the basis for an evaluation of present day trends, future probabilities and likely consequences on human activities and welfare. The vital role of paleo-science in global change discussions is widely acknowledged. As a result, environmental policy and decision makers worldwide are increasingly using paleo environmental data (derived from marine and lake sediments, ice cores, tree rings, boreholes, corals, etc.) to to help guide environmental management policies.</para>
+ </abstract>
+ <keywordSet><keyword>diatoms</keyword>
+ <keyword>climate</keyword>
+ <keyword>hydrology</keyword>
+ <keyword>paleoecology</keyword>
+ <keyword>Sand Hills</keyword>
+ <keyword>vegetation</keyword>
+ </keywordSet>
+ <intellectualRights><para>The broad spectrum of possible applications of paleoenvironmental data suggests an array of potential users of the database, ranging from the original collectors of the data, their collaborators, interested scientists, reviewers, meta-analysts, resource managers and educators. We would like published data in the database to be available without restrictions and free of cost. For end users to get the most value from the records, it is important that data be archived in a format that can be interpreted by non-specialists both now and in the future. Our central goal has been to ensure that users can easily access the raw data and correctly interpret the records.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Data Set Coverage: North Central United States</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-114.36</westBoundingCoordinate>
+ <eastBoundingCoordinate>-99.03</eastBoundingCoordinate>
+ <northBoundingCoordinate>48.607</northBoundingCoordinate>
+ <southBoundingCoordinate>41.74</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact><references>1404093671508</references>
+ </contact>
+ <dataTable id="1404094529590"><entityName>master_dataset</entityName>
+ <entityDescription>Data and metadata from multiple locations</entityDescription>
+ <physical id="1404093825860"><objectName>master_dataset.csv</objectName>
+ <size unit="byte">14348</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.144.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404094529591"><attributeName>Title</attributeName>
+ <attributeDefinition>Research Project</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Title</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529592"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529593"><attributeName>Site</attributeName>
+ <attributeDefinition>Reserach project focus area</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Geographic Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529594"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection location site ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529595"><attributeName>Core</attributeName>
+ <attributeDefinition>Core number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Core 2</code>
+ <definition>Second Core</definition>
+ </codeDefinition>
+ <codeDefinition><code>Core 1</code>
+ <definition>First Core</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529596"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529597"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529598"><attributeName>Elevation (m)</attributeName>
+ <attributeDefinition>Elevation above mean sea level</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529599"><attributeName>Data type</attributeName>
+ <attributeDefinition>Data type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Data Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529600"><attributeName>Proxy of</attributeName>
+ <attributeDefinition>Data can be used as a measure of  historical bological or climatic conditions</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Hydrology</code>
+ <definition>Historical Hydrological Conditions</definition>
+ </codeDefinition>
+ <codeDefinition><code>Lake levels</code>
+ <definition>Historical Lake Stage</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529601"><attributeName>Site info</attributeName>
+ <attributeDefinition>Site Metadata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529602"><attributeName>Vegetation type</attributeName>
+ <attributeDefinition>Dominant landcover at sample location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Forest</code>
+ <definition>Forest</definition>
+ </codeDefinition>
+ <codeDefinition><code>Grassland</code>
+ <definition>Grassland</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529603"><attributeName>Contact</attributeName>
+ <attributeDefinition>Contact individual for more information about metadata or data</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Name: Last, First</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529604"><attributeName>Comments</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529605"><attributeName>Chronology</attributeName>
+ <attributeDefinition>Chronology</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Affirmative</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529606"><attributeName>Database</attributeName>
+ <attributeDefinition>Permenant data archive location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NOAA:Paleolimnology</code>
+ <definition>NOAA Paleolimnology database</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529607"><attributeName>Parameters measured</attributeName>
+ <attributeDefinition>Parameters measured</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529608"><attributeName>Age range (Radiocarbon/AD)</attributeName>
+ <attributeDefinition>Age range (Radiocarbon/AD)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529609"><attributeName>Age range (cal yr BP)</attributeName>
+ <attributeDefinition>Age range (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529610"><attributeName>Starting point (cal yr BP)</attributeName>
+ <attributeDefinition>Starting point (calendar year before present)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529611"><attributeName>Record length (cal yr BP)</attributeName>
+ <attributeDefinition>Record length (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529612"><attributeName>Median resolution (cal yr BP)</attributeName>
+ <attributeDefinition>Median resolution (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>not applicable</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1404094529613"><attributeName>Reported age (by authors)</attributeName>
+ <attributeDefinition>Reported age (by authors)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529614"><attributeName>Age control</attributeName>
+ <attributeDefinition>Age control</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094529615"><attributeName>Chron1 (Radiocarbon)</attributeName>
+ <attributeDefinition>Chron1 (Radiocarbon)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ <codeDefinition><code>Linear interpolation</code>
+ <definition>linear interpolation</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>not applicable</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1404094529616"><attributeName>Chron2 (cal yr BP or AD)</attributeName>
+ <attributeDefinition>Chron2 (cal yr BP or AD)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Linear interpolation</code>
+ <definition>linear interpolation</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ <codeDefinition><code>Smoothing spline through confidence intervals</code>
+ <definition>spline</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>not applicable</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1404094529617"><attributeName>Radiocarbon years between dates</attributeName>
+ <attributeDefinition>Radiocarbon years between dates</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>not applicable</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1404094529618"><attributeName>Publications</attributeName>
+ <attributeDefinition>Citation</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>20</numberOfRecords>
+ </dataTable>
+ <dataTable id="1404094917597"><entityName>Diatoms_types</entityName>
+ <entityDescription>Presence/absence by location</entityDescription>
+ <physical id="1404094824866"><objectName>Diatoms_types.csv</objectName>
+ <size unit="byte">285</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.146.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404094917598"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094917599"><attributeName>Site</attributeName>
+ <attributeDefinition>Research Location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Geographic Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094917600"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection site ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094917601"><attributeName>Core</attributeName>
+ <attributeDefinition>Core number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Core 2</code>
+ <definition>second core</definition>
+ </codeDefinition>
+ <codeDefinition><code>Core 1</code>
+ <definition>first core</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094917602"><attributeName>Euplankton</attributeName>
+ <attributeDefinition>Euplankton</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094917603"><attributeName>Tychoplankton</attributeName>
+ <attributeDefinition>Tychoplankton</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404094917604"><attributeName>Benthon</attributeName>
+ <attributeDefinition>Benthon</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>6</numberOfRecords>
+ </dataTable>
+ <dataTable id="1404095114653"><entityName>Diatoms_genus</entityName>
+ <entityDescription>Presence/absence by location at the genus level</entityDescription>
+ <physical id="1404094974748"><objectName>Diatoms_genus.csv</objectName>
+ <size unit="byte">404</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.147.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404095114654"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114655"><attributeName>Site</attributeName>
+ <attributeDefinition>Research location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Geographic Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114656"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection location ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114657"><attributeName>Core</attributeName>
+ <attributeDefinition>Core number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Core 2</code>
+ <definition>second core</definition>
+ </codeDefinition>
+ <codeDefinition><code>Core 1</code>
+ <definition>first core</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114658"><attributeName>Achnanthidium</attributeName>
+ <attributeDefinition>Achnanthidium</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114659"><attributeName>Achnanthes</attributeName>
+ <attributeDefinition>Achnanthes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114660"><attributeName>Amphora</attributeName>
+ <attributeDefinition>Amphora</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114661"><attributeName>Asterionella</attributeName>
+ <attributeDefinition>Asterionella</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114662"><attributeName>Cyclotella</attributeName>
+ <attributeDefinition>Cyclotella</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114663"><attributeName>Pseudostaurosira</attributeName>
+ <attributeDefinition>Pseudostaurosira</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114664"><attributeName>Fragilaria</attributeName>
+ <attributeDefinition>Fragilaria</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114665"><attributeName>Synedra</attributeName>
+ <attributeDefinition>Synedra</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404095114666"><attributeName>Stephanodiscus</attributeName>
+ <attributeDefinition>Stephanodiscus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>6</numberOfRecords>
+ </dataTable>
+ <dataTable id="1404097961078"><entityName>Diatoms_sp.csv</entityName>
+ <entityDescription>Presence/Absence of diatoms at the species level</entityDescription>
+ <physical id="1404097788167"><objectName>Diatoms_sp.csv</objectName>
+ <size unit="byte">606</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.148.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404097961079"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961080"><attributeName>Site</attributeName>
+ <attributeDefinition>Reserach Project Location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Geographic Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961081"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection location site ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961082"><attributeName>Core</attributeName>
+ <attributeDefinition>Core number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Core 2</code>
+ <definition>second core</definition>
+ </codeDefinition>
+ <codeDefinition><code>Core 1</code>
+ <definition>first core</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961083"><attributeName>Achnanthidium</attributeName>
+ <attributeDefinition>Achnanthidium</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961084"><attributeName>Achnanthes minutissima</attributeName>
+ <attributeDefinition>Achnanthes minutissima</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961085"><attributeName>Amphora pediculus</attributeName>
+ <attributeDefinition>Amphora pediculus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961086"><attributeName>Asterionella formosa</attributeName>
+ <attributeDefinition>Asterionella formosa</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961087"><attributeName>Cyclotella michiganiana</attributeName>
+ <attributeDefinition>Cyclotella michiganiana</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961088"><attributeName>Cyclotella bodanica</attributeName>
+ <attributeDefinition>Cyclotella bodanica</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961089"><attributeName>Cyclotella ocellata</attributeName>
+ <attributeDefinition>Cyclotella ocellata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961090"><attributeName>Pseudostaurosira brevistriata</attributeName>
+ <attributeDefinition>Pseudostaurosira brevistriata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961091"><attributeName>Fragilaria capucina</attributeName>
+ <attributeDefinition>Fragilaria capucina</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961092"><attributeName>Fragilaria capucina var. dis</attributeName>
+ <attributeDefinition>Fragilaria capucina var. dis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961093"><attributeName>Synedra tenera</attributeName>
+ <attributeDefinition>Synedra tenera</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961094"><attributeName>Stephanodiscus medius</attributeName>
+ <attributeDefinition>Stephanodiscus medius</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961095"><attributeName>Stephanodiscus minutulus</attributeName>
+ <attributeDefinition>Stephanodiscus minutulus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404097961096"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>6</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>Bison Lake_CO_Chron1.pdf</entityName>
+ <physical><objectName>Bison Lake_CO_Chron1.pdf</objectName>
+ <size unit="byte">106838</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098002617"><online><url function="download">ecogrid://knb/MontanaIOE.149.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Bison Lake_CO_Chron2.pdf</entityName>
+ <physical><objectName>Bison Lake_CO_Chron2.pdf</objectName>
+ <size unit="byte">151922</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098015231"><online><url function="download">ecogrid://knb/MontanaIOE.150.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Bison Lake_CO_Paleolimnology_Chron1.pdf</entityName>
+ <physical><objectName>Bison Lake_CO_Paleolimnology_Chron1.pdf</objectName>
+ <size unit="byte">86307</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098025753"><online><url function="download">ecogrid://knb/MontanaIOE.151.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Bison Lake_CO_Paleolimnology_Chron2.pdf</entityName>
+ <physical><objectName>Bison Lake_CO_Paleolimnology_Chron2.pdf</objectName>
+ <size unit="byte">82037</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098038625"><online><url function="download">ecogrid://knb/MontanaIOE.152.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Bison Lake_CO_Paleolimnology_Chron3.pdf</entityName>
+ <physical><objectName>Bison Lake_CO_Paleolimnology_Chron3.pdf</objectName>
+ <size unit="byte">93782</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098049746"><online><url function="download">ecogrid://knb/MontanaIOE.153.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Crevice Lake_WY_Paleolimnology_Chron1.pdf</entityName>
+ <physical><objectName>Crevice Lake_WY_Paleolimnology_Chron1.pdf</objectName>
+ <size unit="byte">493278</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098061075"><online><url function="download">ecogrid://knb/MontanaIOE.154.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Crevice Lake_WY_Paleolimnology_Chron2.pdf</entityName>
+ <physical><objectName>Crevice Lake_WY_Paleolimnology_Chron2.pdf</objectName>
+ <size unit="byte">493794</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098073283"><online><url function="download">ecogrid://knb/MontanaIOE.155.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Crevice Lake_WY_Paleolimnology_Chron3.pdf</entityName>
+ <physical><objectName>Crevice Lake_WY_Paleolimnology_Chron3.pdf</objectName>
+ <size unit="byte">489037</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098085331"><online><url function="download">ecogrid://knb/MontanaIOE.156.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Foy Lake_Core 1_MT_Chron2.pdf</entityName>
+ <physical><objectName>Foy Lake_Core 1_MT_Chron2.pdf</objectName>
+ <size unit="byte">231721</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098102980"><online><url function="download">ecogrid://knb/MontanaIOE.157.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Foy Lake_Core 1_MT_Chron2.pdf</entityName>
+ <physical><objectName>Foy Lake_Core 1_MT_Chron2.pdf</objectName>
+ <size unit="byte">231721</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098114936"><online><url function="download">ecogrid://knb/MontanaIOE.158.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Foy Lake_Core 1_MT_Paleolimnology_Chron2.pdf</entityName>
+ <physical><objectName>Foy Lake_Core 1_MT_Paleolimnology_Chron2.pdf</objectName>
+ <size unit="byte">243294</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098128040"><online><url function="download">ecogrid://knb/MontanaIOE.159.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Foy Lake_Core 1_MT_Paleolimnology_Chron2.pdf</entityName>
+ <physical><objectName>Foy Lake_Core 1_MT_Paleolimnology_Chron2.pdf</objectName>
+ <size unit="byte">243294</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098147858"><online><url function="download">ecogrid://knb/MontanaIOE.160.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Foy Lake_Core 2_MT_Paleolimnology.pdf</entityName>
+ <physical><objectName>Foy Lake_Core 2_MT_Paleolimnology.pdf</objectName>
+ <size unit="byte">251001</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098165819"><online><url function="download">ecogrid://knb/MontanaIOE.161.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Moon Lake_Core 1_ND_Paleolimnology_Chron1.pdf</entityName>
+ <physical><objectName>Moon Lake_Core 1_ND_Paleolimnology_Chron1.pdf</objectName>
+ <size unit="byte">94640</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098179177"><online><url function="download">ecogrid://knb/MontanaIOE.162.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Moon Lake_Core 1_ND_Paleolimnology_Chron2.pdf</entityName>
+ <physical><objectName>Moon Lake_Core 1_ND_Paleolimnology_Chron2.pdf</objectName>
+ <size unit="byte">103147</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098190647"><online><url function="download">ecogrid://knb/MontanaIOE.163.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Rice Lake_Core 2_ND_Paleolimnology_Chron3.pdf</entityName>
+ <physical><objectName>Rice Lake_Core 2_ND_Paleolimnology_Chron3.pdf</objectName>
+ <size unit="byte">84535</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098207760"><online><url function="download">ecogrid://knb/MontanaIOE.164.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Yellow Lake_Core 1_CO_Chron1.pdf</entityName>
+ <physical><objectName>Yellow Lake_Core 1_CO_Chron1.pdf</objectName>
+ <size unit="byte">89077</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098230213"><online><url function="download">ecogrid://knb/MontanaIOE.165.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Yellow Lake_Core 1_CO_Chron2.pdf</entityName>
+ <physical><objectName>Yellow Lake_Core 1_CO_Chron2.pdf</objectName>
+ <size unit="byte">159683</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098254238"><online><url function="download">ecogrid://knb/MontanaIOE.166.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Yellow Lake_Core 1_CO_Paleolimnology_Chron1.pdf</entityName>
+ <physical><objectName>Yellow Lake_Core 1_CO_Paleolimnology_Chron1.pdf</objectName>
+ <size unit="byte">105256</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098269111"><online><url function="download">ecogrid://knb/MontanaIOE.167.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Yellow Lake_Core 1_CO_Paleolimnology_Chron2.pdf</entityName>
+ <physical><objectName>Yellow Lake_Core 1_CO_Paleolimnology_Chron2.pdf</objectName>
+ <size unit="byte">107090</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098283944"><online><url function="download">ecogrid://knb/MontanaIOE.168.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Yellow Lake_Core 1_CO_Paleolimnology_Chron3.pdf</entityName>
+ <physical><objectName>Yellow Lake_Core 1_CO_Paleolimnology_Chron3.pdf</objectName>
+ <size unit="byte">107095</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098298253"><online><url function="download">ecogrid://knb/MontanaIOE.169.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Site_data.zip</entityName>
+ <entityDescription>Site data by location</entityDescription>
+ <physical><objectName>Site_data.zip</objectName>
+ <size unit="byte">112736</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404098601801"><online><url function="download">ecogrid://knb/MontanaIOE.170.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

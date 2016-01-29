@@ -1,0 +1,123 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1535.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Supersites_Long term annual rainfall from closest rainfall station</title>
+ <creator id="1350458305850"> <organizationName>SANParks</organizationName>
+</creator>
+ <abstract><para>Long-term rainfall records at Skukuza (approx. 10km from centre of southern granites supersite), Crocodile Bridge (approx. 13km from centre of southern basalts supersite), Phalaborwa (approx. 15km from centre of northern granites supersite) and Mooiplaas (approx. 5km from centre of northern basalts supersite) rainfall stations recorded since 1940/1941 (data retrieved from SANParks Scientific Services Archive).</para>
+</abstract>
+<keywordSet><keyword>SANParks, South Africa, Kruger National Park, South Africa</keyword>
+<keyword>KNP Research Supersites</keyword>
+<keyword>Long term annual rainfall</keyword>
+</keywordSet>
+<coverage><geographicCoverage><geographicDescription>Mooiplaas Rain Station</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>31.3994</westBoundingCoordinate>
+<eastBoundingCoordinate>31.430799399999998</eastBoundingCoordinate>
+<northBoundingCoordinate>-23.5116</northBoundingCoordinate>
+<southBoundingCoordinate>-23.5116</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<geographicCoverage><geographicDescription>Skukuza Rain Station</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>31.5874</westBoundingCoordinate>
+<eastBoundingCoordinate>31.618987399999995</eastBoundingCoordinate>
+<northBoundingCoordinate>-24.9916</northBoundingCoordinate>
+<southBoundingCoordinate>-24.9916</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<geographicCoverage><geographicDescription>Phalaborwa Rain Station</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>31.182</westBoundingCoordinate>
+<eastBoundingCoordinate>31.213181999999996</eastBoundingCoordinate>
+<northBoundingCoordinate>-23.9424</northBoundingCoordinate>
+<southBoundingCoordinate>-23.9424</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<geographicCoverage><geographicDescription>Crocodile Bridge Rain Station</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>31.8952</westBoundingCoordinate>
+<eastBoundingCoordinate>31.927095199999997</eastBoundingCoordinate>
+<northBoundingCoordinate>-25.3544</northBoundingCoordinate>
+<southBoundingCoordinate>-25.3544</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1940</calendarDate>
+</beginDate>
+<endDate><calendarDate>2011</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact id="1350458313026"><individualName><givenName>Izak</givenName>
+<surName>Smit</surName>
+</individualName>
+<organizationName>SANParks</organizationName>
+</contact>
+<methods><methodStep><description><section><title>Calculations</title>
+<para>Long-term rainfall records at Skukuza (approx. 10km from centre of southern granites supersite), Crocodile Bridge (approx. 13km from centre of southern basalts supersite), Phalaborwa (approx. 15km from centre of northern granites supersite) and Mooiplaas (approx. 5km from centre of northern basalts supersite) rainfall stations recorded since 1940/1941 (data retrieved from SANParks Scientific Services Archive).</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<dataTable id="1350458623435"><entityName>Supersites_longterm rainfall.txt</entityName>
+<physical id="1350458552908"><objectName>Supersites_longterm rainfall.txt</objectName>
+<size unit="byte">2277</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1534.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1350458623451"><attributeName>Rainfall year</attributeName>
+<attributeDefinition>Rainfall year</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1350458623467"><attributeName>Southern Basalts (Crocodile Bridge)</attributeName>
+<attributeDefinition>Annual rainfall for the station above</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1350458623482"><attributeName>Northern Basalts (Mooiplaas)</attributeName>
+<attributeDefinition>Annual rainfall for the station above</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1350458623498"><attributeName>Northern Granites (Phalaborwa)</attributeName>
+<attributeDefinition>Annual rainfall for the station above</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1350458623513"><attributeName>Southern Granites (Skukuza)</attributeName>
+<attributeDefinition>Annual rainfall for the station above</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>73</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

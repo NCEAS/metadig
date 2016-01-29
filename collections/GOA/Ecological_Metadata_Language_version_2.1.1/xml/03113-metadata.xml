@@ -1,0 +1,73 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.430.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>1:1,000,000-Scale State Boundaries of the United States</title>
+ <creator id="1383947910566"> <organizationName>The National Atlas of the United States of America, USGS</organizationName>
+<address><deliveryPoint>511 National Center</deliveryPoint>
+<deliveryPoint>12201 Sunrise Valley Drive</deliveryPoint>
+<city>Reston</city>
+<administrativeArea>VA</administrativeArea>
+<postalCode>20192</postalCode>
+</address>
+<phone phonetype="voice">1-888-275-8747</phone>
+<electronicMailAddress>atlasmail@usgs.gov</electronicMailAddress>
+<onlineUrl>http://nationalatlas.gov/</onlineUrl>
+</creator>
+ <associatedParty id="1383948152290"><organizationName>U.S. Census Bureau</organizationName>
+<role>Originator</role>
+</associatedParty>
+<abstract><para>Abstract: This map layer portrays the State boundaries of the United States, Puerto Rico, and the U.S. Virgin Islands.  The map layer was created by extracting county polygon features from the CENSUS 2006 TIGER/Line files produced by the U.S. Census Bureau.  These files were then merged into a single file and county boundaries within States were removed. 
+
+Purpose: These data are intended for geographic display and analysis at thenational level, and for large regional areas. The data should bedisplayed and analyzed at scales appropriate for 1:1,000,000-scale data. No responsibility is assumed by The National Atlas of the United States in the use of these data.</para>
+</abstract>
+<keywordSet><keyword>GIS</keyword>
+<keyword>boundaries</keyword>
+<keyword>map</keyword>
+<keyword>state</keyword>
+<keyword>united states</keyword>
+</keywordSet>
+<keywordSet><keyword>Alaska</keyword>
+<keyword>Imagery</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+<intellectualRights><para>No use constraints.  Acknowledgment of The National Atlas of the United States of America would be appreciated in products derived from these data.</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>United States</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-178.375</westBoundingCoordinate>
+<eastBoundingCoordinate>-47.75</eastBoundingCoordinate>
+<northBoundingCoordinate>71.5</northBoundingCoordinate>
+<southBoundingCoordinate>23.25</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2012</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+</coverage>
+<contact><references>1383947910566</references>
+</contact>
+<project><title>The National Atlas of the United States</title>
+<personnel><references>1383947910566</references>
+<role>Originator</role>
+</personnel>
+<personnel><references>1383948152290</references>
+<role>Originator</role>
+</personnel>
+<funding><para>USGS</para>
+</funding>
+</project>
+<otherEntity><entityName>GIS.zip</entityName>
+<entityDescription>Shapefile with USA state boundaries</entityDescription>
+<physical><objectName>GIS.zip</objectName>
+<size unit="byte">8600534</size>
+<dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution id="1383948863637"><online><url function="download">ecogrid://knb/df35d.431.1</url>
+</online>
+</distribution>
+</physical>
+<entityType>Other</entityType>
+</otherEntity>
+</dataset>
+ </ns0:eml>

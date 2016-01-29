@@ -1,0 +1,756 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35b.168.10" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset>  <title>Algal Size and Density Data Prince William Sound, Alaska (1990, 1991, 1993, 1998)</title>
+<creator id="1385143865422"><individualName><salutation>Dr.</salutation>
+ <givenName>Thomas</givenName>
+ <surName>Dean</surName>
+ </individualName>
+ <organizationName>Coastal Resources Associates, Inc.</organizationName>
+ <positionName>President</positionName>
+ <address><deliveryPoint>5190 El Arbol Dr.</deliveryPoint>
+ <city>Carlsbad</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>92008</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">760-207-0985</phone>
+ <electronicMailAddress>tomdean@coastalresources.us</electronicMailAddress>
+ </creator>
+ <associatedParty id="1385221908751"><individualName><givenName>Jessica</givenName>
+ <surName>Couture</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Research Assistant</positionName>
+ <address><deliveryPoint>National Center for Ecological Analysis and Synthesis, Unversity of California, Santa Barbara</deliveryPoint>
+ <deliveryPoint>735 State St.</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">805-892-2500</phone>
+ <phone phonetype="fax">805-892-2510</phone>
+ <electronicMailAddress>couture@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty id="1385221877709"><individualName><salutation>Dr.</salutation>
+ <givenName>Thomas</givenName>
+ <surName>Dean</surName>
+ </individualName>
+ <organizationName>Coastal Resources Associates, Inc.</organizationName>
+ <positionName>President</positionName>
+ <address><deliveryPoint>5190 El Arbol Dr.</deliveryPoint>
+ <city>Carlsbad</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>92008</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">760-207-0985</phone>
+ <electronicMailAddress>tomdean@coastalresources.us</electronicMailAddress>
+ <role>Author</role>
+ </associatedParty>
+ <associatedParty id="1375826455694"><individualName><salutation>Dr.</salutation>
+ <givenName>Steven</givenName>
+ <surName>Jewett</surName>
+ </individualName>
+ <organizationName>School of Fisheries and Ocean Sciences</organizationName>
+ <positionName>Research Professor</positionName>
+ <address><deliveryPoint>128 O'Neill</deliveryPoint>
+ <deliveryPoint>P.O. Box 757220</deliveryPoint>
+ <city>Fairbanks</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99775-7220</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 474-7841</phone>
+ <electronicMailAddress>scjewett@alaska.edu</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </associatedParty>
+<abstract><para>These data include size, density and biomass for algae at various oiled sites and paired control sites in Prince William Sound, Alaska. 
+
+The data here include only alga size and density data. Other data assocaited with this project can be found in additional data packages. 
+
+For the Nereocystis habitat, densities of larger canopy forming kelps (Nereocystis luetkeana and Eualaria fistulosa) are not included.  These were counted separately.  The raw data are lost, but means for Nereocystis are given in Jewett et al. 1995.
+
+These data have been published in the following: 
+***Dean, T.A., S.C. Jewett.  2001.  Habitat specific recovery of shallow subtidal communities following the Exxon Valdez oil spill.  Ecological Applications 11:1456-1471. 
+***Dean, T.A., M.S. Stekoll, R.O. Smith  1996.  Kelps and oil:  The effects of the Exxon Valdez oil spill on subtidal algae. In: Rice SD, Spies RB, Wolfe DA, Wright BA (eds) Proceedings of the Exxon Valdez oil spill symposium. Am Fish Soc Symp 18, p 412-423.
+***Jewett, S.C., T.A. Dean, R.O. Smith, L.J. Haldorson, D. Laur, M. Stekoll, L. McDonald.  1993.  The effects of the Exxon Valdez oil spill on shallow subtidal communities in Prince William Sound, Alaska: 1989-1993.  Report to the Exxon Valdez Trustee Council</para>
+</abstract>
+  <keywordSet><keyword>evostc</keyword>
+ <keyword>exxon valdez oil spill trustee council</keyword>
+ <keyword>oil spill</keyword>
+ <keyword>alaska</keyword>
+ <keywordThesaurus>EVOSTC</keywordThesaurus>
+ </keywordSet>
+ <keywordSet><keyword>barrow's goldeneye</keyword>
+ <keyword>biomarkers</keyword>
+ <keyword>body mass</keyword>
+ <keyword>Cepphus columba</keyword>
+ <keyword>clams</keyword>
+ <keyword>condition indicies</keyword>
+ <keyword>cytochrome P450</keyword>
+ <keyword>demography</keyword>
+ <keyword>diet</keyword>
+ <keyword>ecosystem</keyword>
+ <keyword>emigration</keyword>
+ <keyword>Enhydra lutris</keyword>
+ <keyword>food limitation</keyword>
+ <keyword>habitat selection</keyword>
+ <keyword>harlequin ducks</keyword>
+ <keyword>health</keyword>
+ <keyword>hematology</keyword>
+ <keyword>Histrionicus histrionicus</keyword>
+ <keyword>home range</keyword>
+ <keyword>hydrocarbons</keyword>
+ <keyword>immigration</keyword>
+ <keyword>intertidal</keyword>
+ <keyword>Lontra canadensis</keyword>
+ <keyword>masked greenlings</keyword>
+ <keyword>mortality</keyword>
+ <keyword>mussles</keyword>
+ <keyword>nearshore</keyword>
+ <keyword>pigeon guillemots</keyword>
+ <keyword>plasma biochemistry</keyword>
+ <keyword>pollution</keyword>
+ <keyword>population recovery</keyword>
+ <keyword>predator-prey interaction</keyword>
+ <keyword>prey</keyword>
+ <keyword>prey availability</keyword>
+ <keyword>prey consumption rate</keyword>
+ <keyword>prey demography</keyword>
+ <keyword>Prince William Sound</keyword>
+ <keyword>reproduction</keyword>
+ <keyword>river otters</keyword>
+ <keyword>sea otters</keyword>
+ <keyword>sea urchins</keyword>
+ <keyword>serum chemistry</keyword>
+ <keyword>sex-ratio</keyword>
+ <keyword>subtidal</keyword>
+ <keyword>surveys</keyword>
+ <keyword>survival</keyword>
+ <keyword>trophic</keyword>
+ <keywordThesaurus>project list</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding. Please let the Owner know when these data are used.
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Prince William Sound, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-152.62762</westBoundingCoordinate>
+ <eastBoundingCoordinate>-145.99754</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.12401</northBoundingCoordinate>
+ <southBoundingCoordinate>58.50127</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Agarum</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>clathratum</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Constantinia</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>sp</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Costaria</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>costata</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Laminaria</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>groenlandica</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Laminaria</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>yezoensis</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Nereocystis</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>sp</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Pleurophycus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>gardneri</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Saccharina</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>latissima</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact><references>1385143865422</references>
+ </contact>
+ <methods><methodStep><description><section><title>Study area</title>
+ <para>Prince William Sound is a large (approximately 9000 km^2) sheltered sound in south central Alaska. It is largely protected from oceanic swells in the neighboring northern Gulf of Alaska by a series of islands. These islands and numerous fjordic embayments create an extensive coastline. Our studies were conducted in the southwestern portion and encompassed about one-third of the Sound. The nearshore subtidal zone (&lt; 20 m depth) is a mixture of rock and soft substrata and most is heavily vegetated. On rock substrata in sheltered bays and less exposed coastlines, the kelps Agarum cribrosum and Laminaria saccharina are the dominant vegetation (Dean et al. 1996). Eelgrass, Zostera marina, dominates on softer substrata in bays (McRoy 1968, 1970, Dean et al. 1998). More exposed points, especially those nearer entrances to the Gulf of Alaska, are rocky reefs with a canopy of bull kelp, Nereocystis luetkeana, and the understory of Laminaria bongardiana (formerly called L. groenlandica in Dean et al. 1996). Most of the intertidal region is dominated by Fucus gardneri and a mixture of red and green algae (Gilfillan et al. 1995, Stekoll et al. 1996). Nearshore gradients range from near vertical walls to broad plains with slopes of only a few degrees. Surface water temperatures range from 4 to 15C (Norcross &amp; Frandsen 1996), and while mostly ice free, sheltered embayments are sometimes ice covered in winter. Salinities to depths of 20 m generally range from 15 to 32 ppt, but can be substantially lower in the top 1 or 2 m, especially at stream mouths after heavy snow melt (Armstrong et al. 1995, Norcross &amp; Frandsen 1996). The principal predators of nearshore fishes are diving seabirds, sea lions, harbor seals, river otters, and other fishes (Pitcher 1980, 1981, Rosenthal 1983, Bowyer et al. 1994, Oakley &amp; Kuletz 1996). Salmon, Oncorhynchus spp., and Pacific herring, Clupea pallasi, are taken commercially from the Sound, but the dominant nearshore resident species are of little commercial or sport interest.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Dive Surveys</title>
+ <para>Diver surveys were conducted in the summers of 1990, 1996, and 1997. In 1990, we sampled at 25 sites in western Prince William Sound. Each site extended offshore from a 200 m long segment of shoreline. The 1990 sampling was conducted between 23 May and 8 August. Eelgrass sites were sampled in July and August, A-L bays in May and June, A-L points in July and August, and Nereocystis beds in June and July. Three to six 30-m long transects, running parallel to shore, were sampled at each site. In eelgrass and Nereocystis habitats, three (and in one case, five) transects were placed on the middle of the depth range of vegetation at a random distance along the shore. At A-L bay and point sites, three transects were placed at each of two depth strata: 2 to 10 and 11 to 20 m below MLLW. Positions along the shore and depths were randomly selected.</para>
+ <para>Fishes were counted by species along a 2 m wide swath and within 3 m of the bottom on each transect. Pacific cod were counted in two size classes: juvenile (YOY) that were generally less than 8 cm total length (TL), and larger individuals (adults). Fishes were also counted in a 2 m wide by 3 m deep transect at the surface. However, nearly all the fish observed there were schooling fishes, with large numbers (100's to 1000's) of individuals that were impossible to count accurately. As a result, we rely only on presence/absence data for schooling fishes. On each transect, divers also noted the dominant substratum type and estimated average slope. Substratum types were visually categorized by divers as rock outcrop, boulder, cobble, gravel, sand, or mud. These are as defined by the U.S. Bureau of Soils scale (Shepard 1973). The mud category includes silt and clay. Grain size analyses indicate that sediments classified as mud were mostly silt (S.C. Jewett &amp; T.A. Dean unpublished data). Slopes were estimated to the nearest degree by divers, but later categorized as low ( &lt;15), medium (15 to 30), or high ( &gt;30). While there were likely inaccuracies in absolute estimates of slope made by divers, relative estimates in low, medium, and high categories appear reasonable. Most transects in the high category (68%) had slopes estimated at 40 or greater, and most in the low category (69%) had estimated slopes of 5 or less. Thus, for most transects, misclassification of slope categories was unlikely. The dominant vegetation type (in terms of biomass) and total biomass of vegetation were determined from four 0.25 m^2 quadrats on each transect (see Dean et al. 1996, 1998 for details). In most cases, there was a clear dominant vegetation type. On over 95% of the transects sampled, a single species contributed over 50% of the biomass, and on the majority of transects, a single species contributed over 80%.</para>
+ <para>Variation in biomass among quadrats on a transect was low (median CV for log-transferred values = 52%) compared to the variation among transects (CV = 92%) suggesting that our sampling effort gave a reasonable estimate of the relative biomass among transects. In 1996 and 1997, we sampled within each of three regions in the western sound: northern Naked Island, Herring Bay, and Dangerous Passage. These were selected as relatively sheltered locations with habitats representative of those encountered elsewhere in the western sound. A total of 15 sites were sampled in each region in each year. These were systematically placed along the shoreline with different sites sampled in each year. Thus, for both years combined, we sampled at 30 sites spaced about 500 m apart in each region.</para>
+ <para>At each site, divers sampled along two transects running perpendicular to shore and spaced at about 50 m to either side of the selected sampling point on the shore. The transects extended 50 m from shore, or in cases of steeply sloped shorelines, to a maximum depth of 20 m Fish within 3 m of the bottom were counted within a 1 m wide swath on each transect. All counts were standardized to the number 100/m^2 to account for variation in transect lengths. At each site, divers also estimated the dominant vegetation type, substratum type, slope, and relative index of exposure to waves (exposed, partially exposed, or not exposed).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Justification for taxonomic grouping</title>
+ <para>Species were grouped for the purposes of our analyses because we were unable to unequivocally identify some individuals to species, and because some individual taxa within groups were too rare to analyze individually. In most instances, analysis groups were equivalent to families, and there were one or two dominant species which comprised over 90% of the individuals in the group. Exceptions were greenlings and sculpins, which were represented by several relatively abundant species. Algal species are  grouped to species in most cases.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project><title>Effects of EVOS on Shallow Subtidal Communities in PWS</title>
+ <personnel><references>1375826455694</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council restoration project numbers ST02; ST02-A; 93047; 93047-1; 93047-2; 93047-A; 95106; 96106</para>
+ </funding>
+ </project>
+ <dataTable id="1388707439419"><entityName>algalDensityData.csv</entityName>
+ <entityDescription>Algal Density Data 1990, 1993, 1998</entityDescription>
+ <physical id="1388706083216"><objectName>algalDensityData.csv</objectName>
+ <size unit="byte">103475</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.182.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1388707439420"><attributeName>siteCode</attributeName>
+ <attributeDefinition>Site codes refer to the codes in the "site codes" table in this data package</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1388707793435</entityReference>
+ <valueAttributeReference>1388707793436</valueAttributeReference>
+ <definitionAttributeReference>1388707793437</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439421"><attributeName>date</attributeName>
+ <attributeDefinition>Date samples were collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439422"><attributeName>stationNum</attributeName>
+ <attributeLabel>Station Number</attributeLabel>
+ <attributeDefinition>Transect number at each site</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439423"><attributeName>depthStrata</attributeName>
+ <attributeLabel>Depth Strata</attributeLabel>
+ <attributeDefinition>Replicate Depth Strata: D=deep (11 to 20 m MLLW), s=shallow (2 to 11 m MLLW)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>D</code>
+ <definition>Deep (11-20m MLLW)</definition>
+ </codeDefinition>
+ <codeDefinition><code>S</code>
+ <definition>Shallow (2-11m MLLW)</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>not recorded</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439424"><attributeName>depth</attributeName>
+ <attributeLabel>Depth</attributeLabel>
+ <attributeDefinition>Measured depth at which samples were collected</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439425"><attributeName>quadNum</attributeName>
+ <attributeLabel>Quadtrat Number</attributeLabel>
+ <attributeDefinition>Replicate quadrat number for specified transect</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439426"><attributeName>quadDist</attributeName>
+ <attributeLabel>Quadrat Distance</attributeLabel>
+ <attributeDefinition>Horizontal distance quadrat was located along the transect (m)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439427"><attributeName>spCode</attributeName>
+ <attributeLabel>species code</attributeLabel>
+ <attributeDefinition>species code, defined here</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>AC</code>
+ <definition>Agarum clathratum</definition>
+ </codeDefinition>
+ <codeDefinition><code>LS</code>
+ <definition>Saccharina latissima</definition>
+ </codeDefinition>
+ <codeDefinition><code>B</code>
+ <definition>Other Brown</definition>
+ </codeDefinition>
+ <codeDefinition><code>NONE</code>
+ <definition>no algae present</definition>
+ </codeDefinition>
+ <codeDefinition><code>LB</code>
+ <definition>Laminaria bongardiana or Laminaria groenlandica</definition>
+ </codeDefinition>
+ <codeDefinition><code>LY</code>
+ <definition>Laminaria yezoensis</definition>
+ </codeDefinition>
+ <codeDefinition><code>CR</code>
+ <definition>Constantinia sp</definition>
+ </codeDefinition>
+ <codeDefinition><code>R</code>
+ <definition>Red algae</definition>
+ </codeDefinition>
+ <codeDefinition><code>CC</code>
+ <definition>Costaria costata</definition>
+ </codeDefinition>
+ <codeDefinition><code>ZM</code>
+ <definition>Zostera marina</definition>
+ </codeDefinition>
+ <codeDefinition><code>LG</code>
+ <definition>Laminaria groenlandica or Laminaria bongardiana</definition>
+ </codeDefinition>
+ <codeDefinition><code>PG</code>
+ <definition>Pleurophycus gardneri</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439428"><attributeName>prcntCovr</attributeName>
+ <attributeLabel>Percent Cover</attributeLabel>
+ <attributeDefinition>Percent cover of given species</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439429"><attributeName>countSmall</attributeName>
+ <attributeLabel>Count of small specimen</attributeLabel>
+ <attributeDefinition>Number of small individuals in the sampled area. Small describes individuals less than 10cm long</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439430"><attributeName>countLrg</attributeName>
+ <attributeLabel>Count of large specimen</attributeLabel>
+ <attributeDefinition>Number of large individuals in the sampled area. Large describes individuals greater than 10cm long</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707439431"><attributeName>countAll</attributeName>
+ <attributeLabel>Count</attributeLabel>
+ <attributeDefinition>Count of total number of individuals in given 1/4m2 area.  Only brown and red algae were counted this way in some locations and were not sorted into small and large size classes</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2352</numberOfRecords>
+ </dataTable>
+ <dataTable id="1388707793435"><entityName>siteCodes.csv</entityName>
+ <entityDescription>Site names, descriptions and locations</entityDescription>
+ <physical id="1388707493013"><objectName>siteCodes.csv</objectName>
+ <size unit="byte">2259</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.183.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1388707793436"><attributeName>siteID</attributeName>
+ <attributeLabel>Site Identifier/Code</attributeLabel>
+ <attributeDefinition>These codes are used to reference these sites in the attached data tables</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>site codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707793437"><attributeName>site</attributeName>
+ <attributeLabel>Site Name</attributeLabel>
+ <attributeDefinition>name of site</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>site name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707793438"><attributeName>treatment</attributeName>
+ <attributeLabel>Treatment</attributeLabel>
+ <attributeDefinition>defines whether the site had been oiled in the Exxon Valdez Oil Spill (EVOS)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Control</code>
+ <definition>Was not oiled in the EVOS</definition>
+ </codeDefinition>
+ <codeDefinition><code>Oiled</code>
+ <definition>Received oil in the EVOS</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707793439"><attributeName>habitat</attributeName>
+ <attributeLabel>Habitat type</attributeLabel>
+ <attributeDefinition>Habitat grouping for given site</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>habitat</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707793440"><attributeName>latitude</attributeName>
+ <attributeDefinition>Latitude of site in decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388707793441"><attributeName>longitude</attributeName>
+ <attributeDefinition>Longitude of site in decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>33</numberOfRecords>
+ </dataTable>
+ <dataTable id="1388777979882"><entityName>algaSizeData.csv</entityName>
+ <entityDescription>Algal Size Data 1990, 1993</entityDescription>
+ <physical id="1388776514712"><objectName>algaSizeData.csv</objectName>
+ <size unit="byte">108870</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.184.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1388777979883"><attributeName>siteCode</attributeName>
+ <attributeLabel>site code</attributeLabel>
+ <attributeDefinition>Site codes refer to the codes in the "site codes" table in this data package</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1388707793435</entityReference>
+ <valueAttributeReference>1388707793436</valueAttributeReference>
+ <definitionAttributeReference>1388707793437</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979884"><attributeName>date</attributeName>
+ <attributeDefinition>Date sample was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979885"><attributeName>stationNum</attributeName>
+ <attributeLabel>Station Number</attributeLabel>
+ <attributeDefinition>Transect number at each site</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979886"><attributeName>depthStrata</attributeName>
+ <attributeLabel>Depth Strata</attributeLabel>
+ <attributeDefinition>Replicate Depth Strata: D=deep (11 to 20 m MLLW), s=shallow (2 to 11 m MLLW)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>D</code>
+ <definition>deep (11 to 20 m MLLW)</definition>
+ </codeDefinition>
+ <codeDefinition><code>S</code>
+ <definition>shallow (2 to 11 m MLLW)</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>Not recorded</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979887"><attributeName>depth</attributeName>
+ <attributeLabel>Depth</attributeLabel>
+ <attributeDefinition>Measured depth at which samples were collected</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>foot</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979888"><attributeName>quadNum</attributeName>
+ <attributeLabel>Quadrat number</attributeLabel>
+ <attributeDefinition>Replicate quadrat number for specified transect</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979889"><attributeName>spCode</attributeName>
+ <attributeDefinition>species code, defined here</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>AC</code>
+ <definition>Agarum clathratum</definition>
+ </codeDefinition>
+ <codeDefinition><code>LS</code>
+ <definition>Saccharina latissima</definition>
+ </codeDefinition>
+ <codeDefinition><code>LG</code>
+ <definition>Laminaria groenlandica</definition>
+ </codeDefinition>
+ <codeDefinition><code>ZM</code>
+ <definition>Zostera marina</definition>
+ </codeDefinition>
+ <codeDefinition><code>R</code>
+ <definition>Other red</definition>
+ </codeDefinition>
+ <codeDefinition><code>B</code>
+ <definition>Other brown</definition>
+ </codeDefinition>
+ <codeDefinition><code>LY</code>
+ <definition>Laminaria yezoensis</definition>
+ </codeDefinition>
+ <codeDefinition><code>PG</code>
+ <definition>Pleurophycus gardneri</definition>
+ </codeDefinition>
+ <codeDefinition><code>NE</code>
+ <definition>Nereocystis sp</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>no algae present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979890"><attributeName>spRep</attributeName>
+ <attributeLabel>Species replicate number</attributeLabel>
+ <attributeDefinition>Replicate plant number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979891"><attributeName>wetWt</attributeName>
+ <attributeLabel>Wet Weight</attributeLabel>
+ <attributeDefinition>Blotted wet weight (g)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979892"><attributeName>reproCond</attributeName>
+ <attributeLabel>Reproductive Condition</attributeLabel>
+ <attributeDefinition>Reproductive condition, Y=yes, N=no</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Y</code>
+ <definition>Reproductive</definition>
+ </codeDefinition>
+ <codeDefinition><code>N</code>
+ <definition>Not reproductive</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>Not recorded</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979893"><attributeName>length</attributeName>
+ <attributeDefinition>Total length of speciman (cm)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388777979894"><attributeName>bladeLength</attributeName>
+ <attributeLabel>Blade Length</attributeLabel>
+ <attributeDefinition>Blade length (cm)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2430</numberOfRecords>
+ </dataTable>
+ <dataTable id="1388778433478"><entityName>algBiomass98.csv</entityName>
+ <entityDescription>Algal Biomass Data 1998</entityDescription>
+ <physical id="1388778021483"><objectName>algBiomass98.csv</objectName>
+ <size unit="byte">1255</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.185.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1388778433479"><attributeName>siteCode</attributeName>
+ <attributeLabel>Site Code</attributeLabel>
+ <attributeDefinition>Site codes refer to the codes in the "site codes" table in this data package</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1388707793435</entityReference>
+ <valueAttributeReference>1388707793436</valueAttributeReference>
+ <definitionAttributeReference>1388707793437</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388778433480"><attributeName>date</attributeName>
+ <attributeDefinition>Date sample was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388778433481"><attributeName>stationNum</attributeName>
+ <attributeLabel>Station number</attributeLabel>
+ <attributeDefinition>Transect number at each site</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388778433482"><attributeName>depthStrata</attributeName>
+ <attributeLabel>Depth Strata</attributeLabel>
+ <attributeDefinition>Replicate Depth Strata: D=deep (11 to 20 m MLLW), s=shallow (2 to 11 m MLLW)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>S</code>
+ <definition>shallow (2 to 11m MLLW)</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388778433483"><attributeName>spCode</attributeName>
+ <attributeLabel>Species code</attributeLabel>
+ <attributeDefinition>species code, defined here</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>LS</code>
+ <definition>Saccharina latissima</definition>
+ </codeDefinition>
+ <codeDefinition><code>AC</code>
+ <definition>Agarum clathratum</definition>
+ </codeDefinition>
+ <codeDefinition><code>LY</code>
+ <definition>Laminaria yezoensis</definition>
+ </codeDefinition>
+ <codeDefinition><code>CR</code>
+ <definition>Constantinia sp</definition>
+ </codeDefinition>
+ <codeDefinition><code>R</code>
+ <definition>Red algae</definition>
+ </codeDefinition>
+ <codeDefinition><code>CC</code>
+ <definition>Costaria costata</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1388778433484"><attributeName>totWetWt</attributeName>
+ <attributeLabel>Total wet weight</attributeLabel>
+ <attributeDefinition>blotted wet weight (g) per square meter</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>38</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

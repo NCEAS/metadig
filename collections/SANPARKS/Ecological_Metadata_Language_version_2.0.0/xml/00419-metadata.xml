@@ -1,0 +1,484 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.615.10" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.0 eml.xsd"> <dataset scope="document"> <title>Northern Plains Ecological Aerial Census data</title>
+ <creator id="1086295214645" scope="document"> <individualName> <surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ </creator>
+ <associatedParty scope="document"> <references>1086304783995</references>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+ <associatedParty id="1086719310382" scope="document"> <individualName> <givenName>Rina</givenName>
+ <surName>Grant</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag X402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ <phone phonetype="voice">+0927 13 7355524</phone>
+ <phone phonetype="fax">+09 27 13 7355524</phone>
+ <electronicMailAddress>rinag@sanparks.org</electronicMailAddress>
+ <role>Content Provider</role>
+ </associatedParty>
+ <keywordSet> <keyword>Northern Plains</keyword>
+ <keyword>Aerial Census</keyword>
+ <keyword>Birds</keyword>
+ <keyword>Ungulates</keyword>
+ </keywordSet>
+<keywordSet><keyword>SANParks, South Africa</keyword>
+<keyword>Kruger National Park, South Africa</keyword>
+</keywordSet>
+ <intellectualRights><para>.SANParks should be aknowledge for the data capture and use.
+Digital and non-digital data and metadata belonging to the Kruger National Park Scientific Services are provided on an &amp;quot;as-is&amp;quot; basis with no guarantee as to data quality. Neither the staff nor South African National Parks (SANParks) may be held liable for any loss of any sort resulting from use of data and/metadata provided by Scientific Services.</para>
+ </intellectualRights>
+ <coverage scope="document">  <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1993-01-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1996-01-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"><geographicDescription>Northern Plains</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>31.116397</westBoundingCoordinate>
+<eastBoundingCoordinate>31.557022</eastBoundingCoordinate>
+<northBoundingCoordinate>-22.524743</northBoundingCoordinate>
+<southBoundingCoordinate>-23.167798</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+ <contact id="1086304783995" scope="document"> <individualName> <givenName>Judith</givenName>
+ <surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>SA</country>
+ </address>
+ <phone phonetype="voice">+0927 13 7354309</phone>
+ <phone phonetype="fax">+0927 13 7354055</phone>
+ <electronicMailAddress>judithk@sanparks.org</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Ecological Aerial Census</title>
+ <para>The methods used for this census were described by Joubert (1983).  Briefly, the method was as follows.  The method was standardised to ensure repeatability.  The team consisted of the pilot, a data recorder and four observers.  Parallel strips 800m apart (with observers covering 400m on either side of the aircraft) were flown to achieve total coverage of the area.  Flying was limited to the cooler parts of the morning (08h00 - 12h00) in clear weather conditions.</para>
+ <para>Data was initially recorded directly on to a 1:100 000 map and later &amp;quot;digitised&amp;quot; onto a computer, giving both population numbers and distribution for each species.  Later surveys utilised a computer connected to a Global Positioning System for data capture (Viljoen &amp; Retief 1993).</para>
+ <para>These counts were initially conducted from a six-seater high winged Cessna 206, but in 1980 a remarkable incident occurred when this aircraft suffered engine failure and the pilot, Dr Salomon Joubert, managed to land it safely without loss of life or further damage to the aircraft.  Faith was lost in single engined aircraft after this and it was replaced by the twin engined Partenavia.</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>The study extent was the entire northern plains</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>Lines were flown in an East West direction to ensure 100% of the area was covered.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataTable id="1149491462436" scope="document"><entityName>Eas_Codes.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1149491462340" scope="document"><objectName>Eas_Codes.txt</objectName>
+ <size unit="byte">2813</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.612.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1149491462452" scope="document"><attributeName>SPECIES_CO</attributeName>
+ <attributeDefinition>Specie code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149491462468" scope="document"><attributeName>NAME</attributeName>
+ <attributeDefinition>Name of the species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149491462484" scope="document"><attributeName>TYPE</attributeName>
+ <attributeDefinition>Type</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149491462500" scope="document"><attributeName>COMMENT</attributeName>
+ <attributeDefinition>Comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>106</numberOfRecords>
+ </dataTable>
+ <dataTable id="1149492269144" scope="document"><entityName>Eas_nplains_birds.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1149492268235" scope="document"><objectName>Eas_nplains_birds.txt</objectName>
+ <size unit="byte">12626</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.617.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1149492269159" scope="document"><attributeName>SP</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><entityCodeList><entityReference>1149491462436</entityReference>
+ <valueAttributeReference>1149491462452</valueAttributeReference>
+ <definitionAttributeReference>1149491462468</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492269175" scope="document"><attributeName>NO</attributeName>
+ <attributeDefinition>Number counted</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492269191" scope="document"><attributeName>LON</attributeName>
+ <attributeDefinition>Longittude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492269206" scope="document"><attributeName>LAT</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492269222" scope="document"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>450</numberOfRecords>
+ </dataTable>
+ <dataTable id="1149492735484" scope="document"><entityName>Eas_nplains_carnivores.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1149492734889" scope="document"><objectName>Eas_nplains_carnivores.txt</objectName>
+ <size unit="byte">2822</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.618.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1149492735500" scope="document"><attributeName>SP</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><entityCodeList><entityReference>1149491462436</entityReference>
+ <valueAttributeReference>1149491462452</valueAttributeReference>
+ <definitionAttributeReference>1149491462468</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492735516" scope="document"><attributeName>NO</attributeName>
+ <attributeDefinition>Number counted</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492735531" scope="document"><attributeName>LON</attributeName>
+ <attributeDefinition>Longittude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492735547" scope="document"><attributeName>LAT</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492735563" scope="document"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492735578" scope="document"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>May</code>
+ <definition>May</definition>
+ </codeDefinition>
+ <codeDefinition><code>Sep</code>
+ <definition>September</definition>
+ </codeDefinition>
+ <codeDefinition><code>DEC</code>
+ <definition>December</definition>
+ </codeDefinition>
+ <codeDefinition><code>MAY</code>
+ <definition>May</definition>
+ </codeDefinition>
+ <codeDefinition><code>MAR</code>
+ <definition>March</definition>
+ </codeDefinition>
+ <codeDefinition><code>Oct</code>
+ <definition>Octiber</definition>
+ </codeDefinition>
+ <codeDefinition><code>SEP</code>
+ <definition>September</definition>
+ </codeDefinition>
+ <codeDefinition><code>FEB</code>
+ <definition>February</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>91</numberOfRecords>
+ </dataTable>
+ <dataTable id="1149492841801" scope="document"><entityName>Eas_Nplains_pimates.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1149492841128" scope="document"><objectName>Eas_Nplains_pimates.txt</objectName>
+ <size unit="byte">347</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.619.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1149492841816" scope="document"><attributeName>SP</attributeName>
+ <attributeDefinition>Specie</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>ba</code>
+ <definition>baboon</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492841832" scope="document"><attributeName>NO</attributeName>
+ <attributeDefinition>Number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492841848" scope="document"><attributeName>LON</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492841863" scope="document"><attributeName>LAT</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492841879" scope="document"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492841895" scope="document"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>MAY</code>
+ <definition>May</definition>
+ </codeDefinition>
+ <codeDefinition><code>SEP</code>
+ <definition>September</definition>
+ </codeDefinition>
+ <codeDefinition><code>DEC</code>
+ <definition>December</definition>
+ </codeDefinition>
+ <codeDefinition><code>MAR</code>
+ <definition>March</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>12</numberOfRecords>
+ </dataTable>
+ <dataTable id="1149492975239" scope="document"><entityName>Eas_nplains_ungulates.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1149492974660" scope="document"><objectName>Eas_nplains_ungulates.txt</objectName>
+ <size unit="byte">252202</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.620.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1149492975255" scope="document"><attributeName>SP</attributeName>
+ <attributeDefinition>Specie</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><entityCodeList><entityReference>1149491462436</entityReference>
+ <valueAttributeReference>1149491462452</valueAttributeReference>
+ <definitionAttributeReference>1149491462468</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492975271" scope="document"><attributeName>NO</attributeName>
+ <attributeDefinition>Number counted</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492975286" scope="document"><attributeName>LON</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492975302" scope="document"><attributeName>LAT</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492975318" scope="document"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1149492975333" scope="document"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>MAY</code>
+ <definition>May</definition>
+ </codeDefinition>
+ <codeDefinition><code>SEP</code>
+ <definition>September</definition>
+ </codeDefinition>
+ <codeDefinition><code>DEC</code>
+ <definition>December</definition>
+ </codeDefinition>
+ <codeDefinition><code>MAR</code>
+ <definition>March</definition>
+ </codeDefinition>
+ <codeDefinition><code>OCT</code>
+ <definition>October</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>8055</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

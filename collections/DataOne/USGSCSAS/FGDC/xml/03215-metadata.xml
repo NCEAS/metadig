@@ -1,0 +1,474 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey, Gap Analysis Program</origin>
+        <pubdate>20130401</pubdate>
+        <title>U.S. Geological Survey Gap Analysis Program Species Distribution Models</title>
+        <geoform>maps and data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Gap Analysis Program Species Distribution Models</sername>
+          <issue>Unknown</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Idaho</pubplace>
+          <publish>U.S. Geological Survey Gap Analysis Program</publish>
+        </pubinfo>
+        <onlink>http://gapanalysis.usgs.gov/species/data/download/</onlink>
+        <onlink>ftp://ftp.gap.uidaho.edu/outgoing/ModelingStatus/GAPModelingStatus.csv</onlink>
+        <onlink>http://dx.doi.org/10.5066/F7V122T2</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>GAP distribution models represent the areas where species are predicted to occur based on habitat associations. GAP distribution models are the spatial arrangement of environments suitable for occupation by a species. In other words, a species distribution is created using a deductive model to predict areas suitable for occupation within a species range.
+	  
+
+To represent these suitable environments, GAP compiled existing GAP data, where available, and compiled additional data where needed. Existing data sources were the Southwest Regional Gap Analysis Project (SWReGAP) and the Southeast Gap Analysis Project (SEGAP) as well as a data compiled by Sanborn Solutions and Mason, Bruce and Girard. Habitat associations were based on land cover data of ecological systems and--when applicable for the given taxon--on ancillary variables such as elevation, hydrologic characteristics, human avoidance characteristics, forest edge, ecotone widths, etc.
+	  
+
+Distribution models were generated using a python script that selects model variables based on literature cited information stored in a wildlife habitat relationship database (WHRdb); literature used includes primary and gray publications. Distribution models are 30 meter raster data and delimited by GAP species ranges. Distribution model data were attributed with information regarding seasonal use based on GAP regional projects (NWGAP, SWReGAP, SEGAP, AKGAP, HIGAP, PRGAP, and USVIGAP), NatureServe data, and IUCN data.
+	  
+
+A full report documenting the parameters used in each species model can be found via: http://gis1.usgs.gov/csas/gap/viewer/species/Map.aspx
+	
+
+Web map services for species distribution models can be accessed from: 
+http://gis1.usgs.gov/arcgis/rest/services/NAT_Species_Birds
+http://gis1.usgs.gov/arcgis/rest/services/NAT_Species_Mammals
+http://gis1.usgs.gov/arcgis/rest/services/NAT_Species_Amphibians
+http://gis1.usgs.gov/arcgis/rest/services/NAT_Species_Reptiles
+	
+
+A table listing all of GAP's available web map services can be found here: http://gapanalysis.usgs.gov/species/data/web-map-services/
+	  
+
+GAP used the best information available to create these species distribution models; however GAP seeks to improve and update these data as new information becomes available.	  
+
+
+Recommended citation: U.S. Geological Survey Gap Analysis Program (USGS-GAP). [Year]. National Species Distribution Models. Available: http://gapanalysis.usgs.gov. Accessed [date].
+
+
+Online references:
+
+U.S. Geological Survey Gap Analysis Program: http://gapanalysis.usgs.gov
+
+Northwest Gap Analysis Project: http://gap.uidaho.edu
+
+Southwest Regional Gap Analysis Project: http://swregap.nmsu.edu/HabitatModels/default.htm
+
+Southeast Gap Analysis Project: http://www.basic.ncsu.edu/segap
+
+Alaska Gap Analysis Project: http://aknhp.uaa.alaska.edu/zoology/akgap
+
+Hawaii Gap Analysis Project: ftp://ftp.gap.uidaho.edu/products/Hawaii.zip
+
+Puerto Rico Gap Analysis Project: http://prgap.org
+
+U.S. Virgin Islands Gap Analysis Project: http://prgap.org</abstract>
+      <purpose>The mission of the U.S. Geological Survey Gap Analysis Program (GAP; http://gapanalysis.usgs.gov) is to provide state, regional and national biodiversity assessments of the conservation status of native vertebrate species and natural land cover types and to facilitate the application of this information to land management activities. Species distribution models are used to conduct a biodiversity assessment for species across the U.S. The goal of GAP is to keep common species common by identifying species and plant communities not adequately represented in existing conservation lands. Common species are those not currently threatened with extinction. By providing these data, land managers and policy makers can make better-informed decisions when identifying priority areas for conservation.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2013</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>as needed</update>
+    </status>
+    <spdom>
+      <descgeog>North America</descgeog>
+      <bounding>
+        <westbc>175</westbc>
+        <eastbc>-64</eastbc>
+        <northbc>72</northbc>
+        <southbc>16</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>GAP</themekey>
+        <themekey>Gap Analysis</themekey>
+        <themekey>Species Distribution</themekey>
+        <themekey>Conservation</themekey>
+        <themekey>Biodiversity</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>NGDA Portfolio Themes</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>These data are in the public domain.</accconst>
+    <useconst>It is strongly recommended that these data are directly acquired from the U.S. Geological Survey Gap Analysis Program server, and not indirectly through other sources, which may have modified the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.
+	
+
+All information is created with a specific end use or uses in mind. This is especially true for GIS data, which is expensive to produce and must be directed to meet the immediate program needs. However, these data were created with the expectation that they would be used for other applications; therefore, we list below both appropriate and inappropriate uses. This list is in no way exhaustive but should serve as a guide to assess whether a proposed use can or cannot be supported by these data. For many uses, it is unlikely that GAP's species range data will provide the only data needed, and for uses with a regulatory outcome, field surveys should verify the result. In the end, it will be the responsibility of each data user to determine if these data can answer the question being asked, and if they are the best tool to answer that question. While it is impossible to predict all the uses of these data we have listed several possible appropriate and inappropriate uses from GAP's perspective.
+	
+
+All data are provided as is without warranty as to its currency, completeness, or accuracy of any specific data.
+	
+
+NatureServe hereby disclaims all warranties and conditions with regard to any documents provided with these data, including but not limited to all implied warranties and conditions of merchantability, fitness for a particular purpose, and non-infringement. NatureServe makes no representations about the suitability of this data. In no event shall USGS-GAP or NatureServe be liable for any special, indirect, incidental, consequential damages, or for damages of any kind arising out of or in connection with the use or performance of information contained in these data, under any theory of liability used.
+	
+
+The data provided are for planning, assessment, and informational purposes. The information provided is not a survey quality dataset.
+	
+
+This disclaimer applies both to individual use of the data and aggregate use with other data.
+	
+
+Appropriate uses of the data: primarily as a coarse map for a large area such as a county or to provide context for finer-level maps.
+	
+
+A general list of possible applications include:
+-National, regional or statewide biodiversity planning
+-National, Regional or state habitat conservation planning
+-County comprehensive planning
+-Large-area resource management planning
+-Coarse-filter evaluation of potential impacts or benefits of major projects or plan initiatives on biodiversity, such as utility or transportation corridors, wilderness proposals, habitat connectivity proposals, climate change adaption proposals, regional open space and recreation proposals, etc.
+-Determining relative amounts of management responsibility for specific biological resources among land stewards to facilitate cooperative management and planning.
+-Basic research on regional distributions of plants and animals and to help target both specific species and geographic areas for needed research.
+-Environmental impact assessment for large projects or military activities.
+-Estimation of potential economic impacts from loss of biological resource-based activities.
+-Education at all levels and for both students and citizens.
+
+Inappropriate Uses:
+
+It is far easier to identify appropriate uses than inappropriate ones, however, there is a "fuzzy line" that is eventually crossed when the differences in resolution of the data, size of geographic area being analyzed, and precision of the answer required for the question are no longer compatible. Examples include:
+-Using the data to map small areas (less than thousands of hectares), typically requiring mapping resolution at 1:24,000 scale and using aerial photographs or ground surveys.
+-Combining these data with other data finer than 1:100,000 scale to produce new hybrid maps or answer queries. 
+-Generating specific areal measurements from the data finer than the nearest thousand hectares
+-Establishing exact boundaries for regulation or acquisition.
+-Establishing definite occurrence or non-occurrence of any feature for an exact geographic area
+-Determining abundance, health, or condition of any feature.
+-Establishing a measure of accuracy of any other data by comparison with GAP data.
+-Altering the data in any way and redistributing them as a GAP data product.
+-Using the data without acquiring and reviewing the metadata and this report.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jocelyn Aycrigg</cntper>
+          <cntorg>University of Idaho, Gap Analysis Program</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>530 S. Asbury St., Suite 2</address>
+          <city>Moscow</city>
+          <state>ID</state>
+          <postal>83843</postal>
+        </cntaddr>
+        <cntvoice>208-885-3901</cntvoice>
+        <cntemail>aycrigg@uidaho.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Geological Survey Gap Analysis Program (GAP; http://gapanalysis.usgs.gov)</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical consistency reports were conducted.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for addtional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey Gap Analysis Program</origin>
+            <pubdate>Unknown</pubdate>
+            <title>U.S. Geological Survey Gap Analysis Program Species Ranges</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Idaho</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://gapanalysis.usgs.gov/species/data/download</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Maps/Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>Unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Unknown</srccurr>
+        </srctime>
+        <srccitea>USGS GAP</srccitea>
+        <srccontr>Species Data, etc.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Gesch, D., Oimoen, M., Greenlee, S., Nelson, C., Steuck, M., and Tyler, D.</origin>
+            <pubdate>2002</pubdate>
+            <title>National Elevation Dataset</title>
+            <geoform>raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://ned.usgs.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Maps/Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>Unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Unknown</srccurr>
+        </srctime>
+        <srccitea>NED</srccitea>
+        <srccontr>Elevation Values</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey Gap Analysis Program</origin>
+            <pubdate>2010</pubdate>
+            <title>National GAP Landcover Dataset</title>
+            <geoform>raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Geological Survey Gap Analysis Program</publish>
+            </pubinfo>
+            <onlink>http://gapanalysis.usgs.gov/gaplandcover/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Maps/Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>Unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Unknown</srccurr>
+        </srctime>
+        <srccitea>USGS GAP (Raster)</srccitea>
+        <srccontr>In addition to being used directly in the models, the GAP landcover is also used to derive datasts representing human avoidance characteristics, forest edge, and ecotone widths</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey and U.S. Environmental Protection Agency</origin>
+            <pubdate>2000</pubdate>
+            <title>National Hydrography Dataset</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://nhd.usgs.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Maps/Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>Unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Unknown</srccurr>
+        </srctime>
+        <srccitea>NHD Data-set</srccitea>
+        <srccontr>Hydrological data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Creation of data set.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers_Conical_Equal_Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>37.5</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>.61</absres>
+            <ordres>.61</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Species' Unique GAP Code</enttypl>
+        <enttypd>Species distribution. We defined a species distribution as the spatial arrangement of environments suitable for occupation by a species. In other words, a species distribution is created using a deductive model to predict areas suitable for occupation within a species range.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>Integer that represents seasonality of distribution.Sequential unique whole numbers that are automatically generated.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Known or probable occurrence, summer</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Known or probable occurrence, winter</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Known or probable occurrence, year-round (both winter and summer)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jeff Lonneker - University of Idaho, Gap Analysis Program</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>530 S. Asbury St., Suite 2</address>
+          <city>Moscow</city>
+          <state>United States</state>
+          <postal>ID</postal>
+          <country>83843</country>
+        </cntaddr>
+        <cntvoice>208-885-3534</cntvoice>
+        <cntemail>jlonneker@uidaho.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>No official distribution liability. Distributor assumes no liability for misuse of data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Species Range and Distribution Model Map web services - Birds</formname>
+          <formcont>Web Services for species ranges and distribution models for all GAP Birds. Bird data provided by NatureServe in collaboration with Robert Ridgely, James Zook, The Nature Conservancy's Migratory Bird Program, Conservation International's Center for Applied Biodiversity Science (CABS), World Wildlife Fund US, and Environment Canada's WILDSPACE.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis1.usgs.gov/arcgis/rest/services/NAT_Species_Birds</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Species Range and Distribution Model Map web services - Mammals</formname>
+          <formcont>Web Services for species ranges and distribution models for all GAP Mammals. Mammal data provided by NatureServe in collaboration with Bruce Patterson, Wes Sechrest, Marcelo Tognelli, Gerardo Ceballos, The Nature Conservancy's Migratory Bird Program, Conservation International's CABS, World Wildlife Fund US, and Environment Canada's WILDSPACE.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis1.usgs.gov/arcgis/rest/services/NAT_Species_Mammals</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Species Range and Distribution Model Map web services - Amphibians</formname>
+          <formcont>Web Services for species ranges and distribution models for all GAP Amphibians. Amphibian data developed as part of the Global Amphibian Assessment and provided by IUCN-World Conservation Union, Conservation International and NatureServe.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis1.usgs.gov/arcgis/rest/services/NAT_Species_Amphibians</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Species Range and Distribution Model Map web services - Reptiles</formname>
+          <formcont>Web Services for species ranges and distribution models for all GAP Reptiles. Reptile data were provided by the International Union for Conservation of Nature and Natural Resources (IUCN).</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis1.usgs.gov/arcgis/rest/services/NAT_Species_Reptiles</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <custom>Data may be downloaded from: http://gapanalysis.usgs.gov/species/data/download/</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20131129</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jeff Lonneker</cntper>
+          <cntorg>University of Idaho, Gap Analysis Program</cntorg>
+        </cntperp>
+        <cntpos>GIS Analyst / Wildlife Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>530 S. Asbury St., Suite 2</address>
+          <city>Moscow</city>
+          <state>ID</state>
+          <postal>83843</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>208-885-3534</cntvoice>
+        <cntemail>jlonneker@uidaho.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FDGC Content Standard for Digital Geospatial Metadata and
+			Biological Data Profile</metstdn>
+    <metstdv>FDGC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

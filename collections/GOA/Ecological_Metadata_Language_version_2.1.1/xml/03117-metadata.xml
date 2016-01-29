@@ -1,0 +1,238 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.119.8" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset>  <title>ShoreZone mapping for Prince William Sound, Alaska</title>
+<creator id="1362685922389"><individualName><givenName>Mandy</givenName>
+ <surName>Lindeberg</surName>
+ </individualName>
+ <organizationName>Auke Bay Laboratories, NOAA</organizationName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907)-789-6616</phone>
+ <electronicMailAddress>Mandy.Lindeberg@noaa.gov</electronicMailAddress>
+ </creator>
+ <associatedParty id="1365723092608"><individualName><givenName>Sarah</givenName>
+ <surName>Clark</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Projects Data Coordinator</positionName>
+ <address><deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ </address>
+ <electronicMailAddress>sclark@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+<abstract><para>[Missing ground-truthing and nearshore fish sampling data]
+
+ShoreZone is a coastal habitat mapping and classification system in which georeferenced aerial imagery is collected specifically for the interpretation and integration of geological and biological features of the intertidal zone and nearshore environment. Oblique low-altitude aerial video and digital still imagery of the coastal zone is collected during summer low tides (zero tide level or lower), usually from a helicopter flying at &lt;100 m altitude. The flight trackline is recorded at 1-second intervals using electronic navigation software and is continuously monitored in-flight to ensure all shorelines have been imaged. Video and still imagery collected are georeferenced and time-synchronized. Video imagery is accompanied by continuous, simultaneous commentary by a geologist and a biologist aboard the aircraft. The imagery and commentary are later used in the definition of discrete along-shore coastal habitat units and the "mapping" of observed physical, geomorphic, sedimentary, and biological features in those units. 
+
+This data package is an excerpt of the Exxon Valdez oil spill extent. Full Gulf of Alaska data is available online at: http://mapping.fakr.noaa.gov/szflex/ and http://alaskafisheries.noaa.gov/shorezone.
+
+Publications:
+Lindeberg, M. 2007. ShoreZone Mapping for Prince William Sound. Exxon Valdez Oil Spill Trustee Council Annual Report (070805). National Oceanic and Atmospheric Administration, National Marine Fisheries Office, Alaska Regional Office.</para>
+</abstract>
+<keywordSet><keyword>GIS</keyword>
+<keyword>Prince William Sound</keyword>
+<keyword>intertidal</keyword>
+<keyword>nearshore</keyword>
+<keyword>shapefile</keyword>
+<keyword>map</keyword>
+</keywordSet>
+<keywordSet><keyword>EVOSTC</keyword>
+<keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+<keyword>Alaska</keyword>
+<keyword>Benthic</keyword>
+<keyword>Shoreline Habitat and Sensitivity</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+<intellectualRights><para>This material is based upon work funded in part by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding.
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+</intellectualRights>
+    <coverage><geographicCoverage><geographicDescription>Gulf of Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-155.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>-143.75</eastBoundingCoordinate>
+ <northBoundingCoordinate>62.125</northBoundingCoordinate>
+ <southBoundingCoordinate>55.875</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>alaria</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>barnacle</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>bleached red alage</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>blue mussel</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>bull kelp</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>dune grass</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>eelgrass</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>giant kelp</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>green algae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>marsh grass</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>red algae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>rockweed</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>seagrass</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>soft brown kelp</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>common name</taxonRankName>
+ <taxonRankValue>surfgrass</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+        <temporalCoverage><singleDateTime><calendarDate>2007</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2004</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2001</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2002</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2003</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2009</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2005</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+</coverage>
+ <contact><references>1362685922389</references>
+ </contact>
+ <methods><methodStep><description><section><title>Flight Summary</title>
+ <para>(see attached report)</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+<project><title>ShoreZone Mapping</title>
+ <personnel id="1365718432632"><individualName><givenName>Mandy</givenName>
+ <surName>Lindeberg</surName>
+ </individualName>
+ <organizationName>Auke Bay Laboratories, NOAA</organizationName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907)-789-6616</phone>
+ <electronicMailAddress>Mandy.Lindeberg@noaa.gov</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council  project 070805; Alaska Department of Environmental Conservation; Alaska Department of Fish and Game; Alaska Department of Natural Resources; Alaska Ocean Observing System; Archipelago Marine Research Ltd.; Arctic Landscape Conservation Cooperative; Bureau of Ocean Energy Management, Regulation and Enforcement; Coastal and Ocean Resources Inc.; Coastwise Services; Cook Inlet Regional Citizens Advisory Council; Jim Noel Data Consulting; Kachemak Bay National Research Reserve; Kenai Peninsula Borough Assembly; National Park Service; NOAA Fisheries, National Marine Fisheries Service, Alaska Region; NOAA Fisheries, Alaska Fisheries Science Center, Auke Bay Laboratories; North Pacific Research Board; Prince William Sound Regional Citizens Advisory Council; Prince William Sound Science Center; Royal Caribbean Cruise Lines, Ocean Fund; Southeast Alaska Petroleum Resource Organization; The Gordon and Betty Moore Foundation; The Nature Conservancy; The Skaggs Foundation; University of Alaska Fairbanks; US Coast Guard Response Division, District 17; U.S. Forest Service; U.S. Fish and Wildlife Service; Western Alaska Landscape Conservation Cooperative</para>
+ </funding>
+ </project>
+  <otherEntity><entityName>2007-070805-Annual.pdf</entityName>
+ <entityDescription>EVOSTC Annual Project Report</entityDescription>
+ <physical><objectName>2007-070805-Annual.pdf</objectName>
+ <size unit="byte">13146293</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1362686513494"><online><url function="download">ecogrid://knb/df35d.115.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>PWS_shorezone.zip</entityName>
+ <entityDescription>PWS shapefiles</entityDescription>
+ <physical><objectName>PWS_shorezone.zip</objectName>
+ <size unit="byte">22730548</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1362686534465"><online><url function="download">ecogrid://knb/df35d.116.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Kodiak_shorezone.zip</entityName>
+ <entityDescription>Kodiak Island shapefiles</entityDescription>
+ <physical><objectName>Kodiak_shorezone.zip</objectName>
+ <size unit="byte">17688179</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1362686555858"><online><url function="download">ecogrid://knb/df35d.117.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>metadata.zip</entityName>
+ <entityDescription>ShoreZone online metadata file</entityDescription>
+ <physical><objectName>metadata.zip</objectName>
+ <size unit="byte">23881</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1362686572478"><online><url function="download">ecogrid://knb/df35d.118.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>goa_protocol.pdf</entityName>
+ <entityDescription>Mapping protocol for the Gulf of Alaska</entityDescription>
+ <physical><objectName>goa_protocol.pdf</objectName>
+ <size unit="byte">10297144</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1362692255396"><online><url function="download">ecogrid://knb/df35d.120.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>flightLogs.zip</entityName>
+ <entityDescription>Flight logs for Prince William Sound, Cook Inlet, Kodiak Island, Katmai and Kenai Peninsula</entityDescription>
+ <physical><objectName>flightLogs.zip</objectName>
+ <size unit="byte">45112332</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1362692426817"><online><url function="download">ecogrid://knb/df35d.122.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

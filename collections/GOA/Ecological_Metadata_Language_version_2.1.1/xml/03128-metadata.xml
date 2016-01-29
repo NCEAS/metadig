@@ -1,0 +1,873 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.145.10" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset> <title>Lipid database for Pacific herring, invertebrates and humpback whales in the Gulf of Alaska: 2007 - 2011</title>
+ <creator id="1368221355978"><individualName><givenName>John</givenName>
+ <surName>Moran</surName>
+ </individualName>
+ <organizationName>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science Center (AFSC) Auke Bay Laboratories (ABL)</organizationName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 789-6014</phone>
+ <electronicMailAddress>John.Moran@noaa.gov</electronicMailAddress>
+ </creator>
+ <creator id="1368221346278"><individualName><givenName>Ron</givenName>
+ <surName>Heintz</surName>
+ </individualName>
+ <organizationName>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science Center (AFSC) Auke Bay Laboratories (ABL)</organizationName>
+ <positionName>Program Manager</positionName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 789-6058</phone>
+ <electronicMailAddress>Ron.Heintz@noaa.gov</electronicMailAddress>
+ </creator>
+ <creator id="1372266158920"><individualName><givenName>Robert</givenName>
+ <surName>Bradshaw</surName>
+ </individualName>
+ <organizationName>NOAA Auke Bay Laboratories</organizationName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 789-6091</phone>
+ <electronicMailAddress>Robert.Bradshaw@noaa.gov</electronicMailAddress>
+ </creator>
+ <creator id="1368221297868"><individualName><givenName>Jeep</givenName>
+ <surName>Rice</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ <positionName>retired</positionName>
+ </creator>
+ <associatedParty id="1368221520248"><individualName><givenName>Sarah</givenName>
+ <surName>Clark</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Projects Data Coordinator</positionName>
+ <address><deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ </address>
+ <phone phonetype="voice">(805) 892-2500</phone>
+ <electronicMailAddress>sclark@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty id="1372266458684"><individualName><givenName>Emily</givenName>
+ <surName>Fergusson</surName>
+ </individualName>
+ <organizationName>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science  Center (AFSC) Auke Bay Laboratories (ABL)</organizationName>
+ <positionName>Metadata coordinator</positionName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <abstract><para>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science Center (AFSC) Auke Bay Laboratories (ABL) Nutritional Ecology Laboratory maintain a database containing all of the biochemical data collected. The database includes seasonal information regarding size, age, location, date, developmental stage, and maturity status of all the specimens we have examined. Samples range from phytoplankton to whales and seals. Depending on the objectives of specific studies, these data can be matched to measures of energy content, proximate, lipid class, and fatty acid composition. This data package is a subset of the database focusing on lipid analyses under the umbrella project 'Significance of Whale Predation on Natural Mortality Rate of Pacific Herring in PWS, Alaska'.</para>
+ </abstract>
+<keywordSet><keyword>Pacific herring</keyword>
+<keyword>predation</keyword>
+<keyword>Prince William Sound</keyword>
+<keyword>Humpback whale</keyword>
+</keywordSet>
+<keywordSet><keyword>EVOSTC</keyword>
+<keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+<keyword>EVOS Gulf Watch Projects</keyword>
+<keyword>Oil Spill</keyword>
+<keyword>Exxon Valdez</keyword>
+<keyword>Alaska</keyword>
+<keyword>Pelagic</keyword>
+<keyword>Fish</keyword>
+<keyword>Invertebrates and Algae</keyword>
+<keyword>Mammals</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+   <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council.  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding. Please let the Owner know when these data are used.
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <coverage> <geographicCoverage><geographicDescription>Gulf of Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-148.1764</westBoundingCoordinate>
+ <eastBoundingCoordinate>-132.821</eastBoundingCoordinate>
+ <northBoundingCoordinate>60.9174</northBoundingCoordinate>
+ <southBoundingCoordinate>57.01428</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2007-05-12</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2011-06-28</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Euphausiidae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>spp</taxonRankValue>
+ <commonName>krill</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Mysidae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>spp</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Clupea</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>pallasi</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Megaptera</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>novaeangliae</taxonRankValue>
+ <commonName>Humpback whale</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Theragra</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>chalcogramma</taxonRankValue>
+ <commonName>pollock</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Thysanoessa</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>spp</taxonRankValue>
+ <commonName>krill</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Suborder</taxonRankName>
+ <taxonRankValue>Hyperiidea</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>spp</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1372266386756"><individualName><givenName>John</givenName>
+ <surName>Moran</surName>
+ </individualName>
+ <organizationName>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science Center (AFSC) Auke Bay Laboratories (ABL)</organizationName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 789-6014</phone>
+ <electronicMailAddress>John.Moran@noaa.gov</electronicMailAddress>
+ </contact>
+ <contact id="1372266400036"><individualName><givenName>Ron</givenName>
+ <surName>Heintz</surName>
+ </individualName>
+ <organizationName>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science Center (AFSC) Auke Bay Laboratories (ABL)</organizationName>
+ <positionName>Program Manager</positionName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 789-6058</phone>
+ <electronicMailAddress>Ron.Heintz@noaa.gov</electronicMailAddress>
+ </contact>
+ <project><title>Significance of Whale Predation On Natural Mortality Rate of Pacific Herring in Prince William Sound</title>
+ <personnel id="1368221636469"><individualName><givenName>Jan</givenName>
+ <surName>Straley</surName>
+ </individualName>
+ <organizationName>University of Alaska Southeast</organizationName>
+ <positionName>Associate Professor</positionName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">747-7779</phone>
+ <electronicMailAddress>jan.straley@uas.alaska.edu</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1368221649655"><individualName><givenName>Jeep</givenName>
+ <surName>Rice</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ <positionName>retired</positionName>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1368221688831"><individualName><givenName>Kate</givenName>
+ <surName>McLaughlin</surName>
+ </individualName>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1372266758728"><individualName><givenName>John</givenName>
+ <surName>Moran</surName>
+ </individualName>
+ <organizationName>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science Center (AFSC) Auke Bay Laboratories (ABL)</organizationName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 789-6014</phone>
+ <electronicMailAddress>John.Moran@noaa.gov</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1372266779985"><individualName><givenName>Ron</givenName>
+ <surName>Heintz</surName>
+ </individualName>
+ <organizationName>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science Center (AFSC) Auke Bay Laboratories (ABL)</organizationName>
+ <positionName>Program Manager</positionName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 789-6058</phone>
+ <electronicMailAddress>Ron.Heintz@noaa.gov</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1372266799588"><individualName><givenName>Terrance</givenName>
+ <surName>Quinn</surName>
+ </individualName>
+ <organizationName>University of Alaska Fairbanks, School of Fisheries &amp; Ocean Sciences</organizationName>
+ <positionName>Full Professor</positionName>
+ <address><administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <electronicMailAddress>terry.quinn@alaska.edu</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council project numbers 10100804, 090804, 080804, 070804, 070806, 080806, 090806</para>
+ </funding>
+ </project>
+ <dataTable id="1372203479357"><entityName>johnMoran_whalePrey_FinalI.txt</entityName>
+ <entityDescription>Lipid analysis data for herring, humpbacks and euphausids</entityDescription>
+ <physical id="1372196265296"><objectName>johnMoran_whalePrey_FinalI.txt</objectName>
+ <size unit="byte">319653</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.146.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1372203479358"><attributeName>custody_Project</attributeName>
+ <attributeDefinition>Project name for source data</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Project Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479359"><attributeName>WholeSin</attributeName>
+ <attributeDefinition>original sin number assigned for whole animal</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479360"><attributeName>SINS_SIN</attributeName>
+ <attributeDefinition>Sample identification number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479361"><attributeName>Tissue</attributeName>
+ <attributeDefinition>Description of tissue type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Tissue type description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479362"><attributeName>custody_Bag.ID</attributeName>
+ <attributeDefinition>Samples are stored in boxes in the freezer. Each box contains bags of individual samples. This is the label on the bag.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479363"><attributeName>Date.Coll</attributeName>
+ <attributeDefinition>Date sample was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479364"><attributeName>Location</attributeName>
+ <attributeDefinition>General sample location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Place name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479365"><attributeName>Sublocation</attributeName>
+ <attributeDefinition>Specific location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Place name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479366"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude (N) Decimal degrees for GIS mapping</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479367"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude (W) Decimal degrees for GIS mapping</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479368"><attributeName>Haul_Set</attributeName>
+ <attributeDefinition>Assumed: Haul number, Event number or tow number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479369"><attributeName>Box.ID</attributeName>
+ <attributeDefinition>Samples are stored in boxes in the freezer. This is the box number.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479370"><attributeName>Num.of.Fish</attributeName>
+ <attributeDefinition>Number of fish in bag i.e. actual count or many or few....</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Description of amount</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479371"><attributeName>Species</attributeName>
+ <attributeDefinition>Sample species name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479373"><attributeName>Station</attributeName>
+ <attributeDefinition>Station number or Leg number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>station ID?</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479374"><attributeName>Gear</attributeName>
+ <attributeDefinition>Description of sampling gear used</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Gear description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479375"><attributeName>NetNumMeshSize</attributeName>
+ <attributeDefinition>Net Number/Mesh Size</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>?</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479377"><attributeName>CollectorName</attributeName>
+ <attributeDefinition>Name of person(s) who(m) collected sample enter as Last name, First initial ex.(Greenwell,D)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Person's name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479378"><attributeName>Vessel</attributeName>
+ <attributeDefinition>Vessel name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479379"><attributeName>Region</attributeName>
+ <attributeDefinition>General survey location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>SEAK</code>
+ <definition>Southeast Alaska?</definition>
+ </codeDefinition>
+ <codeDefinition><code>Gulf of Alaska</code>
+ <definition>Gulf of Alaska</definition>
+ </codeDefinition>
+ <codeDefinition><code>PWS</code>
+ <definition>Prince William Sound, Alaska</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479380"><attributeName>Date.received</attributeName>
+ <attributeDefinition>the date the samples are received and stored at ABL</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM/DD/YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479381"><attributeName>data.file.name</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>filename</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479382"><attributeName>Lab.Location</attributeName>
+ <attributeDefinition>Location of samples. i.e. walkin, -80</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479383"><attributeName>SinRange</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>?</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479385"><attributeName>InvestNo</attributeName>
+ <attributeDefinition>Investigator's ID# (For HerringHeart Project 1-1=slide#-fish#)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479389"><attributeName>Length</attributeName>
+ <attributeDefinition>Length of sample - measured in mm or m, depending on LnDsc.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479390"><attributeName>LnDsc</attributeName>
+ <attributeDefinition>Description of what length is being measured in 'length' column, with appropriate unit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ <codeDefinition><code>8</code>
+ <definition>Tip of Snout to Fork of Tail, unit is mm</definition>
+ </codeDefinition>
+ <codeDefinition><code>17</code>
+ <definition>Mantle Length, unit is mm</definition>
+ </codeDefinition>
+ <codeDefinition><code>27</code>
+ <definition>tip of rostrum to posterior edge of carapace  , unit is mm</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479391"><attributeName>Weight</attributeName>
+ <attributeDefinition>Weight of sample (g) see "WtDsc" column for description of parts or composite measured either dry or wet.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479392"><attributeName>WtDsc</attributeName>
+ <attributeDefinition>Description of what components of the sample were weighed</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>26</code>
+ <definition>Soma (total weight less Gonad)</definition>
+ </codeDefinition>
+ <codeDefinition><code>11</code>
+ <definition>Total Organ Weight</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Total Body Weight</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ <codeDefinition><code>22</code>
+ <definition>Composite Average of Total Body Weight</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479393"><attributeName>Age</attributeName>
+ <attributeDefinition>Animal age in total number of years.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479394"><attributeName>AgeCode</attributeName>
+ <attributeDefinition>Code indicating unit of age measurement. Lookup: Age : Ttable lists code descriptions.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>?</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479395"><attributeName>Sex</attributeName>
+ <attributeDefinition>Gender of sample</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>F</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition><code>M</code>
+ <definition>Male</definition>
+ </codeDefinition>
+ <codeDefinition><code>U</code>
+ <definition>unknown</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ <codeDefinition><code>f</code>
+ <definition>female</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479396"><attributeName>BioData_Comments</attributeName>
+ <attributeDefinition>comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479397"><attributeName>Comments2</attributeName>
+ <attributeDefinition>comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479398"><attributeName>SubTissueCollected</attributeName>
+ <attributeDefinition>Further level of classification for tissue type enter yes or no if yes record data in tissue table</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>yes</code>
+ <definition>record data in tissue table</definition>
+ </codeDefinition>
+ <codeDefinition><code>no</code>
+ <definition>don't record data in tissue table</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479399"><attributeName>LifeStage</attributeName>
+ <attributeDefinition>Lookup table lists choices as adult, juvenile, YOY, smolt, par, fry, larva, and egg.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ <codeDefinition><code>adult</code>
+ <definition>adult</definition>
+ </codeDefinition>
+ <codeDefinition><code>juvenile</code>
+ <definition>juvenile</definition>
+ </codeDefinition>
+ <codeDefinition><code>U</code>
+ <definition>unknown?</definition>
+ </codeDefinition>
+ <codeDefinition><code>yoy</code>
+ <definition>young of year</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479400"><attributeName>Maturity</attributeName>
+ <attributeDefinition>Maturation stage. Lookup table lists choices as mature, immature, and post-spawn.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>5</code>
+ <definition>?</definition>
+ </codeDefinition>
+ <codeDefinition><code>4</code>
+ <definition>?</definition>
+ </codeDefinition>
+ <codeDefinition><code>6</code>
+ <definition>?</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>?</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>?</definition>
+ </codeDefinition>
+ <codeDefinition><code>3</code>
+ <definition>?</definition>
+ </codeDefinition>
+ <codeDefinition><code>immature</code>
+ <definition>immature</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479401"><attributeName>StomCont</attributeName>
+ <attributeDefinition>Stomach contents</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479402"><attributeName>StomFull.g</attributeName>
+ <attributeDefinition>Stomach fullness in grams, weight of contents removed from stomach</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479404"><attributeName>ProxComp_String</attributeName>
+ <attributeDefinition>Includes date (mm/dd/yr) and initials of person doing the grinding OR -600 indicates a composite string OR if the sample is so small the initials of the person doing the analysis OR "FPL" if data generated by Food Products Lab.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479405"><attributeName>DObatchNum</attributeName>
+ <attributeDefinition>Drying Oven Batch # (DOMMDDYY)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479406"><attributeName>ExtrSampMassLipid</attributeName>
+ <attributeDefinition>Extracted Sample Mass (g) w/ 3 decimal places</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479407"><attributeName>PercentLipid</attributeName>
+ <attributeDefinition>%result w/ 2 decimal places</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479408"><attributeName>Lipid.Metod</attributeName>
+ <attributeDefinition>ASE = Accelerated Solvent Extraction (gravimetric method)
+SPV = sulfur phosphate ventaling method
+Microextraction = solid phase microextraction method
+Hand=shaken, tissuemizer, motor &amp; pestle</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>ASE</code>
+ <definition>Accelerated Solvent Extraction (gravimetric method)</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479409"><attributeName>ProxComp_Comments</attributeName>
+ <attributeDefinition>comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479410"><attributeName>PercentMoisture</attributeName>
+ <attributeDefinition>%result w/ 2 decimal places</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479411"><attributeName>AshRun</attributeName>
+ <attributeDefinition>indicates when Ash analysis was done (i.e., "String" for %Ash). Includes year (xxxx) and number (xx). OR
+"FPL" if data generated by Food Products Lab.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479412"><attributeName>PercentAsh</attributeName>
+ <attributeDefinition>%Ash of wet weight w/ 2 decimal Places</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>-500</code>
+ <codeExplanation>not enough sample available for analysis</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372203479413"><attributeName>ProteinRun</attributeName>
+ <attributeDefinition>indicates when Protein analysis was done (i.e., "String" for %Protein). Includes year (xxxx) and number (xx). 
+ "FPL" if data generated by Food Products Lab.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479414"><attributeName>PercentProtein</attributeName>
+ <attributeDefinition>%Protein of wet weight w/2 decimal places</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479415"><attributeName>NitrogenMethod</attributeName>
+ <attributeDefinition>coded description of protein estimation.
+SUB = subtraction
+KEL = kjeldahl method
+NIT = nitrogen analyzer</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NIT</code>
+ <definition>nitrogen analyzer</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479416"><attributeName>Bomb_String</attributeName>
+ <attributeDefinition>indicates when Lipid analysis was done. Includes date (mm/dd/yr) and initials of person doing analysis. OR
+"FPL" if data generated by Food Products Lab.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479418"><attributeName>SampMass</attributeName>
+ <attributeDefinition>The amount of dry sample Mass (g) used for Bomb</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479419"><attributeName>Energy</attributeName>
+ <attributeDefinition>energy density measured by CALORIMETRY; measured in kJ/g dry tissue mass</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>numberPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479420"><attributeName>Bomb_Comments</attributeName>
+ <attributeDefinition>comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479422"><attributeName>Resistance</attributeName>
+ <attributeDefinition>Bioelectrical impedance analysis: resistance in ohms to a 800 uA AC current at 50 kHz</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>ohm</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479423"><attributeName>Reactents</attributeName>
+ <attributeDefinition>reactance in ohms to a 800 uA AC current at 50 kHz</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>ohm</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479424"><attributeName>Needle.Length</attributeName>
+ <attributeDefinition>Bioelectrical impedance analysis: distance between the two  inside wire probes in milimeters</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479425"><attributeName>User</attributeName>
+ <attributeDefinition>Name of the person inserting the electrodes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Person's name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372203479426"><attributeName>comment</attributeName>
+ <attributeDefinition>comments on BIA</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>830</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

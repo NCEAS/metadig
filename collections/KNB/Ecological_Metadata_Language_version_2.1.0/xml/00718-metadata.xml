@@ -1,0 +1,1332 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="nceas.911.11" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=mbauer,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>POD! Fish- DFG Summer Townet Survey Juvenile fish sampling 1959-2006</title>
+ <creator scope="document"> <organizationName>NCEAS 12192: Fleishman: Ecosystem analysis of pelagic organism declines in the Upper San Francisco Estuary</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>DFG</givenName>
+ <surName>DFG</surName>
+ </individualName>
+ <organizationName>California Department of Fish and Game (DFG)</organizationName>
+ <address scope="document"> <administrativeArea>Select state or territory here.</administrativeArea>
+ </address>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Marissa</givenName>
+ <surName>Bauer</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>DFG</givenName>
+ <surName>DFG</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <pubDate>2008-04-01</pubDate>
+ <abstract> <para>Since 1959, this survey has developed indices for the abundance of young striped bass when the average size is 38 mm by sampling 31 stations from San Pablo Bay through the Delta. The original purpose was to predict recruitment to the adult stock but the index has proven valuable in gauging the environmental health of the estuary. Young striped bass abundance is primarily a function of Delta outflow, Delta water exports and egg production. Abundance indices for other species have also revealed important trends. For example, the index for delta smelt was useful in determining its status as a threatened species. This survey is mandated by the 1995 USFWS Biological Opinion (BO) for delta smelt on the operation of the SWP and CVP.</para>
+ </abstract>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="download">http://www.delta.dfg.ca.gov/data/townet/</url>
+ </online>
+ </distribution>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1959</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2006</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>San Francisco Bay-Delta</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>122.3833</westBoundingCoordinate>
+ <eastBoundingCoordinate>122.3833</eastBoundingCoordinate>
+ <northBoundingCoordinate>38.0833</northBoundingCoordinate>
+ <southBoundingCoordinate>38.0833</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>DFG</givenName>
+ <surName>DFG</surName>
+ </individualName>
+ <organizationName>California Department of Fish and Game (DFG)</organizationName>
+ <address scope="document"> <administrativeArea>Select state or territory here.</administrativeArea>
+ </address>
+ </contact>
+ <dataTable id="1253140444994" scope="document"> <entityName>DFG Summer Townet Survey 1959-2006 Catch Matrices by Tow.csv</entityName>
+ <physical id="1253140444181" scope="document"> <objectName>DFG Summer Townet Survey 1959-2006 Catch Matrices by Tow.csv</objectName>
+ <size unit="byte">3075336</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.74.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253140445009" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445025" scope="document"> <attributeName>Survey</attributeName>
+ <attributeDefinition>Gives the survey number for that year (1-6).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Gives the survey number for that year (1-6).</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445040" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>Date (month, day, year format) that the data was collected in the field.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm-dd-yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445056" scope="document"> <attributeName>Station</attributeName>
+ <attributeDefinition>Represents the physical location of the individual sampling site, specific to Townet Survey.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1253140525244</entityReference>
+ <valueAttributeReference>1253140525259</valueAttributeReference>
+ <definitionAttributeReference>1253140525275</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445072" scope="document"> <attributeName>Active</attributeName>
+ <attributeDefinition>Active station</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>TRUE</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ <codeDefinition> <code>FALSE</code>
+ <definition>no</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445087" scope="document"> <attributeName>Tow Number</attributeName>
+ <attributeDefinition>Townet survey tows a minimum of two tows, but will tow three times if fish are captured on either of the first two tows.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Townet survey tows a minimum of two tows, but will tow three times if fish are captured on either of the first two tows.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445103" scope="document"> <attributeName>Time</attributeName>
+ <attributeDefinition>Difference in minutes between the start time (when net is set) and the end time (when the net frame reaches the boat).</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445119" scope="document"><attributeName>Secchi</attributeName>
+ <attributeDefinition>Secchi disk diameter In centimeters.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445134" scope="document"> <attributeName>Top EC</attributeName>
+ <attributeDefinition>Measured using YSI equipment and corrected to 25 degrees Celsius.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>siemen</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445150" scope="document"> <attributeName>Bottom EC</attributeName>
+ <attributeDefinition>Measured (using YSI equipment) at the lowest depth at the site and corrected to 25 degrees Celsius.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>siemen</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445165" scope="document"> <attributeName>Tide Code</attributeName>
+ <attributeDefinition>Index from 1-4, 1=high slack, 2=ebb, 3=low slack, 4=flood.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Index from 1-4, 1=high slack, 2=ebb, 3=low slack, 4=flood.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445181" scope="document"> <attributeName>Depth</attributeName>
+ <attributeDefinition>In feet</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>Foot_US</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445197" scope="document"> <attributeName>Temperature</attributeName>
+ <attributeDefinition>Temperature in degrees Celsius at the top of the water column.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445212" scope="document"> <attributeName>Tow Volume</attributeName>
+ <attributeDefinition>A constant (~735 cubic meters or the average filtrate of the townet) used to calculate the CPUE for the TNS, since flowmeters were not used (per tow) until 2003.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>cubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445228" scope="document"> <attributeName>American shad</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445244" scope="document"> <attributeName>Atherinopsidae (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445259" scope="document"> <attributeName>arrow goby</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445275" scope="document"> <attributeName>bay goby</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445290" scope="document"> <attributeName>bay pipefish</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445306" scope="document"> <attributeName>bigscale logperch</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445322" scope="document"> <attributeName>black crappie</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445337" scope="document"> <attributeName>bluegill</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445353" scope="document"> <attributeName>brown bullhead</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445369" scope="document"> <attributeName>common carp</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445384" scope="document"> <attributeName>catfish (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445400" scope="document"> <attributeName>sunfish (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445415" scope="document"> <attributeName>chameleon goby</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445431" scope="document"> <attributeName>channel catfish</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445447" scope="document"> <attributeName>cheekspot goby</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445462" scope="document"> <attributeName>Chinook salmon</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445478" scope="document"> <attributeName>minnow (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445494" scope="document"> <attributeName>delta smelt</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445509" scope="document"> <attributeName>goby (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445525" scope="document"> <attributeName>golden shiner</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445540" scope="document"> <attributeName>goldfish</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445556" scope="document"> <attributeName>green sturgeon</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445572" scope="document"> <attributeName>green sunfish</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445587" scope="document"> <attributeName>hardhead</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445603" scope="document"> <attributeName>herring (shads) (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445619" scope="document"> <attributeName>hitch</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445634" scope="document"> <attributeName>Mississippi silverside</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445650" scope="document"> <attributeName>jacksmelt</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445665" scope="document"> <attributeName>lamprey (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445681" scope="document"> <attributeName>largemouth bass</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445697" scope="document"> <attributeName>longfin smelt</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445712" scope="document"> <attributeName>longjaw mudsucker</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445728" scope="document"> <attributeName>western mosquitofish</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445744" scope="document"> <attributeName>northern anchovy</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445759" scope="document"> <attributeName>Pacific herring</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445775" scope="document"> <attributeName>Pacific lamprey</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445790" scope="document"> <attributeName>plainfin midshipman</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445806" scope="document"> <attributeName>prickly sculpin</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445822" scope="document"> <attributeName>rainwater killifish</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445837" scope="document"> <attributeName>river lamprey</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445853" scope="document"> <attributeName>Sacramento perch</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445869" scope="document"> <attributeName>Sacramento pikeminnow</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445884" scope="document"> <attributeName>Sacramento sucker</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445900" scope="document"> <attributeName>sculpin (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445915" scope="document"> <attributeName>shimofuri goby</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445931" scope="document"> <attributeName>shiner perch</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445947" scope="document"> <attributeName>shokihaze goby</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445962" scope="document"> <attributeName>silverside (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445978" scope="document"> <attributeName>smallmouth bass</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140445994" scope="document"> <attributeName>smelt (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446009" scope="document"> <attributeName>splittail</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446025" scope="document"> <attributeName>Pacific staghorn sculpin</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446040" scope="document"> <attributeName>starry flounder</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446056" scope="document"> <attributeName>steelhead</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446072" scope="document"> <attributeName>striped bass age0</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446087" scope="document"> <attributeName>striped bass age1 (TNS)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446103" scope="document"> <attributeName>striped bass age2plus (TNS)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446119" scope="document"> <attributeName>sturgeon (Unid)</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446134" scope="document"> <attributeName>threadfin shad</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446150" scope="document"> <attributeName>threespine stickleback</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446165" scope="document"> <attributeName>tidewater Goby</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446181" scope="document"> <attributeName>topsmelt</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446197" scope="document"> <attributeName>Tridentiger spp_</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446212" scope="document"> <attributeName>tule perch</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446228" scope="document"> <attributeName>fish unknown</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446244" scope="document"> <attributeName>wakasagi</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446259" scope="document"> <attributeName>white catfish</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446275" scope="document"> <attributeName>white crappie</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446290" scope="document"> <attributeName>white croaker</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446306" scope="document"> <attributeName>white sturgeon</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140446322" scope="document"> <attributeName>yellowfin goby</attributeName>
+ <attributeDefinition>CPUE Townet Calculation:	Is equal to the catch per tow divided by the constant (735 cubic meters) and then multiplied by 10000, a scaling factor.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>CPUE</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>15515</numberOfRecords>
+ </dataTable>
+ <dataTable id="1253140525244" scope="document"> <entityName>DFG Summer Townet Survey Station Coordinates Table.csv</entityName>
+ <physical id="1253140524665" scope="document"> <objectName>DFG Summer Townet Survey Station Coordinates Table.csv</objectName>
+ <size unit="byte">1384</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.75.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253140525259" scope="document"> <attributeName>Station</attributeName>
+ <attributeDefinition>Station</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Station</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140525275" scope="document"> <attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Latitude</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253140525290" scope="document"> <attributeName>Longitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Latitude</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>34</numberOfRecords>
+ </dataTable>
+ <dataTable id="LTM Fish Names 10Jan08" scope="document"> <entityName>LTM Fish Names 10Jan08</entityName>
+ <physical scope="document"> <objectName>TNS 1959-2006 LF Data for NCEAS_All Stations V2.mdb</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>Microsoft Access</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <offline> <mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="LTM Fish Names 10Jan08.CommonName" scope="document"> <attributeName>CommonName</attributeName>
+ <attributeDefinition>Species common name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.Family" scope="document"> <attributeName>Family</attributeName>
+ <attributeDefinition>Species taxonomic Family name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.FieldName" scope="document"> <attributeName>FieldName</attributeName>
+ <attributeDefinition>Species abbraviated Field Name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.Native" scope="document"> <attributeName>Native</attributeName>
+ <attributeDefinition>Single-Letter identifier specifies species origin: 'I' for Imported species, 'N' for Native species</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.OrganismCode" scope="document"> <attributeName>OrganismCode</attributeName>
+ <attributeDefinition>Numeric organism  cocde</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Decimal</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.OrganismCodeTNS" scope="document"> <attributeName>OrganismCodeTNS</attributeName>
+ <attributeDefinition>TNS-specific numeric organism code</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Decimal</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.ScientificName" scope="document"> <attributeName>ScientificName</attributeName>
+ <attributeDefinition>Species formal taxonomic name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <constraint scope="document"> <primaryKey> <constraintName>Primary Key</constraintName>
+ <key> <attributeReference>LTM Fish Names 10Jan08.CommonName</attributeReference>
+ </key>
+ </primaryKey>
+ </constraint>
+ </dataTable>
+ <dataTable id="TNS 1959-2006 Length-Freq Data_All Stations V2" scope="document"> <entityName>TNS 1959-2006 Length-Freq Data_All Stations V2</entityName>
+ <physical scope="document"> <objectName>TNS 1959-2006 LF Data for NCEAS_All Stations V2.mdb</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>Microsoft Access</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <offline> <mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.AdjustedFreq" scope="document"><attributeName>AdjustedFreq</attributeName>
+ <attributeDefinition>Adjusted Frequency</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.CommonName" scope="document"><attributeName>CommonName</attributeName>
+ <attributeDefinition>Common Name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.Length" scope="document"> <attributeName>Length</attributeName>
+ <attributeDefinition>mm fork length</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.LengthFrequency" scope="document"><attributeName>LengthFrequency</attributeName>
+ <attributeDefinition>Length Frequency</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.OrganismCodeTNS" scope="document"><attributeName>OrganismCodeTNS</attributeName>
+ <attributeDefinition>Organism Code (TNS)</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.Station" scope="document"><attributeName>Station</attributeName>
+ <attributeDefinition>Station</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.SumOfCatchPerTow" scope="document"><attributeName>SumOfCatchPerTow</attributeName>
+ <attributeDefinition>Sum Of Catch Per Tow</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.SumOfLengthFrequency" scope="document"><attributeName>SumOfLengthFrequency</attributeName>
+ <attributeDefinition>Sum Of Length Frequency</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Decimal</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.Survey" scope="document"><attributeName>Survey</attributeName>
+ <attributeDefinition>Survey</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.TowNumber" scope="document"><attributeName>TowNumber</attributeName>
+ <attributeDefinition>Tow Number</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS 1959-2006 Length-Freq Data_All Stations V2.Year" scope="document"><attributeName>Year</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="TNS Station Lats and Longs_All Stations" scope="document"> <entityName>TNS Station Lats and Longs_All Stations</entityName>
+ <physical scope="document"> <objectName>TNS 1959-2006 LF Data for NCEAS_All Stations V2.mdb</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>Microsoft Access</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <offline> <mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="TNS Station Lats and Longs_All Stations.PrjStation" scope="document"><attributeName>PrjStation</attributeName>
+ <attributeDefinition>project station</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.Active" scope="document"><attributeName>Active</attributeName>
+ <attributeDefinition>Active flag</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.ChanShoal" scope="document"> <attributeName>ChanShoal</attributeName>
+ <attributeDefinition>Channel = 1, Shoal = 2</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Decimal</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.Comments" scope="document"><attributeName>Comments</attributeName>
+ <attributeDefinition>Comments</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.Core" scope="document"> <attributeName>Core</attributeName>
+ <attributeDefinition>Stations used in calculation of indices (Core = 1)</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Decimal</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.DWRStationNo" scope="document"><attributeName>DWRStationNo</attributeName>
+ <attributeDefinition>DWR Station Number</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.LatD" scope="document"> <attributeName>LatD</attributeName>
+ <attributeDefinition>Degrees lattitude</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.LatM" scope="document"> <attributeName>LatM</attributeName>
+ <attributeDefinition>Minutes lattitude</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.LatS" scope="document"> <attributeName>LatS</attributeName>
+ <attributeDefinition>Seconds lattitude</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.Location" scope="document"><attributeName>Location</attributeName>
+ <attributeDefinition>Location name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.LonD" scope="document"> <attributeName>LonD</attributeName>
+ <attributeDefinition>Degrees longitude</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.LonM" scope="document"> <attributeName>LonM</attributeName>
+ <attributeDefinition>Minutes longitude</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.LonS" scope="document"> <attributeName>LonS</attributeName>
+ <attributeDefinition>Seconds longitude</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.MeanDepth" scope="document"> <attributeName>MeanDepth</attributeName>
+ <attributeDefinition>Feet</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Decimal</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.Prj" scope="document"><attributeName>Prj</attributeName>
+ <attributeDefinition>Project</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.ProjectName" scope="document"><attributeName>ProjectName</attributeName>
+ <attributeDefinition>Project Name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.RKI" scope="document"> <attributeName>RKI</attributeName>
+ <attributeDefinition>River Kilometer Index; kilometers in the Sacramento River from the Golden Gate Bridge</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.Series" scope="document"><attributeName>Series</attributeName>
+ <attributeDefinition>Series</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.Station" scope="document"><attributeName>Station</attributeName>
+ <attributeDefinition>Station Name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.YearEnd" scope="document"><attributeName>YearEnd</attributeName>
+ <attributeDefinition>Year End</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Decimal</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="TNS Station Lats and Longs_All Stations.YearStart" scope="document"><attributeName>YearStart</attributeName>
+ <attributeDefinition>Year Start</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Decimal</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <constraint scope="document"> <primaryKey> <constraintName>Primary Key</constraintName>
+ <key> <attributeReference>TNS Station Lats and Longs_All Stations.PrjStation</attributeReference>
+ </key>
+ </primaryKey>
+ </constraint>
+ </dataTable>
+ <dataTable id="1261174029465"><entityName>TNS 1959-2006 LF Data for NCEAS_All Stations V2.mdb</entityName>
+ <entityDescription>Microsoft Access MDB file contains tables incliuded in this data package</entityDescription>
+ <physical><objectName>TNS 1959-2006 LF Data for NCEAS_All Stations V2.mdb</objectName>
+ <dataFormat> <externallyDefinedFormat><formatName>Microsoft Access MDB</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mbauer.1003.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1261174029481"><attributeName>Placeholder for TNS 1959-2006 LF Data....mdb file</attributeName>
+<attributeDefinition>See three tabs: TNS Station Lats and Longs..., LTM Fish Names, TNS 1959-2006 Length-Freq data</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Dummy</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="CPUE" name="CPUE" parentSI="mole" unitType="amount"> <description>CPUE</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

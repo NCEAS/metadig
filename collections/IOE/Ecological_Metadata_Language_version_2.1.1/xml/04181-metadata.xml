@@ -1,0 +1,285 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="MontanaIOE.135.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=viglesias,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>cn=cwhitlock,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+<dataset> <title>Tree Ring Paleodata</title>
+ <creator id="1404081097926"> <individualName><givenName>Cathy</givenName>
+ <surName>Whitlock</surName>
+ </individualName>
+ <organizationName>Montana State University</organizationName>
+ <positionName>Director, Montana Institute on Ecosystems</positionName>
+ <phone phonetype="voice">(406) 994-6910</phone>
+ <electronicMailAddress>whitlock@montana.edu</electronicMailAddress>
+ </creator>
+ <abstract><para>Climate is rapidly changing. Increased temperatures, frequent droughts, fires and floods, and rising sea levels are likely to have deep impacts on landscapes, species distributions, economical activities and human health. In order to better understand current global changes and to project future scenarios, knowledge of past climate-ecosystem dynamics is imperative. Although the past does not provide a prescriptive guide to the future, it allows the inference of environmental variability and the underlying processes that form the basis for an evaluation of present day trends, future probabilities and likely consequences on human activities and welfare. The vital role of paleo-science in global change discussions is widely acknowledged. As a result, environmental policy and decision makers worldwide are increasingly using paleo environmental data (derived from marine and lake sediments, ice cores, tree rings, boreholes, corals, etc.) to to help guide environmental management policies.</para>
+ </abstract>
+ <keywordSet><keyword>tree rings</keyword>
+ <keyword>dendochronology</keyword>
+ <keyword>paleoecology</keyword>
+ </keywordSet>
+ <intellectualRights><para>The broad spectrum of possible applications of paleoenvironmental data suggests an array of potential users of the database, ranging from the original collectors of the data, their collaborators, interested scientists, reviewers, meta-analysts, resource managers and educators. We would like published data in the database to be available without restrictions and free of cost. For end users to get the most value from the records, it is important that data be archived in a format that can be interpreted by non-specialists both now and in the future. Our central goal has been to ensure that users can easily access the raw data and correctly interpret the records.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Data Set Coverage: Central United States</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-108.97</westBoundingCoordinate>
+ <eastBoundingCoordinate>-90.73</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.4</northBoundingCoordinate>
+ <southBoundingCoordinate>37.07</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>560</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2004</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1404081097926</references>
+ </contact>
+ <dataTable id="1404082746037"><entityName>master_dataset.csv</entityName>
+ <physical id="1404081485810"><objectName>master_dataset.csv</objectName>
+ <size unit="byte">155624</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.134.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404082746038"><attributeName>Title</attributeName>
+ <attributeDefinition>Title of Umbrella Study</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Name of scientific study</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746039"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746040"><attributeName>Site</attributeName>
+ <attributeDefinition>Research Project Location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Names of project area</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746041"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection location site name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Names of data collection locations</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746043"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746044"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746045"><attributeName>Elevation (m)</attributeName>
+ <attributeDefinition>Elevation above mean sea level</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746046"><attributeName>Data type</attributeName>
+ <attributeDefinition>Type of data collected</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Data collection methodology</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746047"><attributeName>Proxy of</attributeName>
+ <attributeDefinition>Data is a proxy for some historical climatic or biological conditions</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Proxy type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746048"><attributeName>Site info</attributeName>
+ <attributeDefinition>Additional site metadata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Additional or miscellaneous metadata</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746049"><attributeName>Vegetation type</attributeName>
+ <attributeDefinition>Dominant vegetation type at sampled location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Forest</code>
+ <definition>Forest</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746050"><attributeName>Contact</attributeName>
+ <attributeDefinition>Contact individual for further information about data points</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Contact Information: Last, First</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746051"><attributeName>Comments</attributeName>
+ <attributeDefinition>General notes about data</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unorganized notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746052"><attributeName>Chronology</attributeName>
+ <attributeDefinition>Chronology confirmed</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Confirmed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746053"><attributeName>Database</attributeName>
+ <attributeDefinition>Permenant data archive location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>ITRDB</code>
+ <definition>International Tree Ring Data Bank</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746054"><attributeName>Parameters measured</attributeName>
+ <attributeDefinition>Data type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Ring width</code>
+ <definition>tree ring width</definition>
+ </codeDefinition>
+ <codeDefinition><code>Earlywood density and width; latewood density and width; minimum density; ring width</code>
+ <definition>tree ring width</definition>
+ </codeDefinition>
+ <codeDefinition><code>Fire scars</code>
+ <definition>fire scars</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746055"><attributeName>Age range (Radiocarbon/AD)</attributeName>
+ <attributeDefinition>Age as assessed by measurement</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY - YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746056"><attributeName>Age range (cal yr BP)</attributeName>
+ <attributeDefinition>Age range measured as calendar years before present</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746057"><attributeName>Starting point (cal yr BP)</attributeName>
+ <attributeDefinition>Starting point calculated as years before present</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746058"><attributeName>Record length (cal yr BP)</attributeName>
+ <attributeDefinition>Total lenght of record</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746059"><attributeName>Median resolution (cal yr BP)</attributeName>
+ <attributeDefinition>Median data resolution</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746060"><attributeName>Reported age (by authors)</attributeName>
+ <attributeDefinition>Reported age</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unknown</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746061"><attributeName>Age control</attributeName>
+ <attributeDefinition>Age control</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Ring counts; series correlation</code>
+ <definition>Ring counts; series correlation</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746065"><attributeName>Online resource</attributeName>
+ <attributeDefinition>URL for linking to metadata or source data</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>URL</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404082746066"><attributeName>Publications</attributeName>
+ <attributeDefinition>Citation</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>284</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

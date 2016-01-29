@@ -1,0 +1,201 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.47.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Large herbivore species in three heavily used habitat patches in the Mountain Zebra Park: 1983 to 1989</title>
+ <creator id="1235374846474" scope="document"> <individualName> <surName>Peter Novellie</surName>
+ </individualName>
+ <organizationName>SANPaks</organizationName>
+ <positionName>General Manager</positionName>
+ <phone phonetype="voice">012 426066</phone>
+ <electronicMailAddress>petern@sanparks.org</electronicMailAddress>
+ </creator>
+ <associatedParty scope="document"> <references>1235374846474</references>
+ <role>Scientiest</role>
+ </associatedParty>
+ <abstract> <para>These data were collected as part of a monitaring programme on habitat use by large herbivores. the numbers and distribution of large herbivores were counted from the roads b the same observer (Peter Novellie). the same road was followed for all counts. the counts were conducted roughly once per mounth from the first on 15 December 2983 and the last on 4 September 1989, there being 98 counts in total. This dataset include the most common ungulate species: Cape mountain zebra, springbok, black wildebeest, blesbok,and red hartebeest. from this study it emetged that there were three areas (termed hotspots), each about 50ha in size, which consistently carried very high herbivore numbers. this dataset recodeds the number of herbivores counted in each of the three areas. follow up surveys could reveal whether these areas are still particulary favoured by large herbivores.</para>
+ </abstract>
+ <keywordSet> <keyword>Habitat use, ungulates, mountain zebra, blesbok, black wildebeest, rad hartebeest, springbok, census, protected area management.</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANPArks, South Africa</keyword>
+ <keyword>Mountain Zebra National Park, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>SANParks should be ucknoledged for the data capture and use. Digital and non digital data and metaldata belonging to the SANParks privded on an "as-is" basis with no gurantee as to data quality. Nether the staff nor south africa national parks ( SANParks) may be held liable for any loss of any sort resulting from use of data and/metadata provided by scientific services</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>MOUNTAIN ZEBRA NATIONAL PARK</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-90.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>90.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-45.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1983-12-15</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1989-09-04</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1235374846474</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <para>'See abstract'</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1235376804940" scope="document"> <entityName>HOTSPOT ALL DATA.txt</entityName>
+ <entityDescription>hotspot</entityDescription>
+ <physical id="1235376803127" scope="document"> <objectName>HOTSPOT ALL DATA.txt</objectName>
+ <size unit="byte">12110</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.48.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1235376804956" scope="document"> <attributeName>HOTSPOT</attributeName>
+ <attributeDefinition>Three hotspots called A,B and C.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>A</code>
+ <definition>Hotspots</definition>
+ </codeDefinition>
+ <codeDefinition> <code>B</code>
+ <definition>Hotspots</definition>
+ </codeDefinition>
+ <codeDefinition> <code>C</code>
+ <definition>hotspots</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376804971" scope="document"> <attributeName>Count number</attributeName>
+ <attributeDefinition>Numbers of the counts from 1 to 98</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376804987" scope="document"> <attributeName>SEASON</attributeName>
+ <attributeDefinition>this season given as either summer (October to March) and winter ( April to September)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>S</code>
+ <definition>Summer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>W</code>
+ <definition>Winter</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805003" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>te date of the count</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>dd.mm.yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805018" scope="document"> <attributeName>MZ</attributeName>
+ <attributeDefinition>the total number of zebra counted</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805034" scope="document"> <attributeName>SP</attributeName>
+ <attributeDefinition>the total of springbok counted.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805049" scope="document"> <attributeName>BW</attributeName>
+ <attributeDefinition>the number of black wildebeest counted</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805065" scope="document"> <attributeName>BB</attributeName>
+ <attributeDefinition>number of blesbok counted</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805081" scope="document"> <attributeName>HB</attributeName>
+ <attributeDefinition>the number of hartebeest counted</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805096" scope="document"> <attributeName>LG</attributeName>
+ <attributeDefinition>Long grass grazers, the number of red hartebeest plus blesbok.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805112" scope="document"> <attributeName>SG</attributeName>
+ <attributeDefinition>Number of sbringbok, plus wildebeest plus blesbok</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805128" scope="document"> <attributeName>TOTAL</attributeName>
+ <attributeDefinition>Total number of large herbivores counted</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1235376805143" scope="document"> <attributeName>LG/TOTAL</attributeName>
+ <attributeDefinition>The ratio of long grass grazers to total of all species.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>296</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,534 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1589.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Life history strategies concerning water stress and photosynthetic capacity of four savanna tree species</title>
+ <creator id="1362126864593"> <organizationName>SANParks</organizationName>
+</creator>
+ <abstract><para>Variable characteristics in the timing and extent of leaf-fall and green-up can be seen in savanna trees. This study investigated implications of these life history strategies for tree health (water stress and photosynthetic potential) in four savanna species: Afzelia quanzensis, Euclea divinorum, Colophospermum mopane and Terminalia sericea.  The study took place in northern Kruger National Park, where C. mopane and T. sericea trees are abundant deciduous trees with similar strategies of the extent of leaf drop but with variation in the timing of leaf drop.  C. mopane and T. sericea showed the highest measures of &#8220;water stress&#8221; and &#8220;photosynthetic potential&#8221; in comparison with A. quanzensis and E. divinorum.  However, C. mopane trees were found to be able to maintain a greater leaf canopy at the same water potential range as T. sericea trees.  This may play a role in the dominance of C. mopane in certain areas, but further investigation into the role of local soil and rainfall conditions would be necessary to supplement this finding.</para>
+</abstract>
+<keywordSet><keyword>Colophospermum mopane, competitive advantage, deciduous, life history strategy, Terminalia sericea, OTS</keyword>
+<keyword>SANParks, South Africa, Kruger National Park, South Africa</keyword>
+</keywordSet>
+<coverage><geographicCoverage><geographicDescription>Pafuri Gate Rain Station</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>31.1063</westBoundingCoordinate>
+<eastBoundingCoordinate>31.1374063</eastBoundingCoordinate>
+<northBoundingCoordinate>-22.4088</northBoundingCoordinate>
+<southBoundingCoordinate>-22.4088</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2010</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+</coverage>
+<contact id="1362127106206"><individualName><givenName>Gina</givenName>
+<surName>Arena</surName>
+</individualName>
+</contact>
+<contact id="1362127147016"><individualName><givenName>Courtney</givenName>
+<surName>Montgomery</surName>
+</individualName>
+</contact>
+<contact id="1362127160104"><individualName><givenName>Lynne</givenName>
+<surName>Owen-Smith</surName>
+</individualName>
+</contact>
+<methods><methodStep><description><section><title>Methods</title>
+<para>Study Sites</para>
+<para>Sampling took place in mid-September: the late dry to early wet season in South Africa.  Two study sites (A and B) were identified in Punda Maria in northern Kruger National Park, South Africa. This part of the Kruger National Park is characteristically dominated by C. mopane shrubveld, which typically occurs on basalt soils and is the largest and most homogeneous landscape in the park.  Sites A and B were located along a gradient, with Site A at the bottom of a slope and B at the top of the slope.  Site A was characteristically dominated by Colophospermum mopane and Euclea divinorum, while Site B consisted of a mixture of tree species, with the most abundant species being Afzelia quanzensis and Terminalia sericea.</para>
+<para>Study species</para>
+<para>Tree species were selected based on their major leaf phenological types. E. divinorum is an evergreen species and A. quanzensis, T. sericea, and C. mopane are deciduous.  A. quanzensis characteristically flushes green towards the end of the dry season before the start of the rains, and T. sericea characteristically contains little to no leaves for a large part of the lowveld winter (Sappi Tree Spotting 2007).  C. mopane shows variation in its timing of leaf drop, but tends to hold on to its leaves for as long as possible during the dry season (Dekker and Smit 1996).</para>
+<para>Data Acquisition:</para>
+<para>Tree Demographics</para>
+<para>Tree height and stem diameter was recorded in individuals of each of the four tree species. The percentage leaf canopy on each tree was estimated based on the leaf abundance on the tree branches, and GPS locations were recorded for each tree.</para>
+<para>Fluorometry: Photosynthetic Capacity of leaves</para>
+<para>A fluorometer was used to estimate the photosynthetic capacity of each tree.</para>
+<para>Root estimates</para>
+<para>Five soil samples were collected below each tree canopy using a soil auger at a depth of 10cm, as well as a single soil sample at a depth of 50cm.  This was done to separate shallower horizontal roots from deeper vertical roots within the substrate.  Soil was classified into broad types using the hand test (Brown 2002). A proportion of each soil sample was sifted to find any roots, and these were classified as coarse live roots, coarse dead roots, fine live roots, or fine dead roots.  Coarse roots were determined to be thicker than the fine roots, and live roots were determined if the root could be bent without breaking and was moist in the centre.</para>
+<para>Water Potential</para>
+<para>A Scholander pressure device was used to determine water potential of the trees.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<dataTable id="1362127662472"><entityName>Mopanie_GPS.txt</entityName>
+<physical id="1362127634984"><objectName>Mopanie_GPS.txt</objectName>
+<size unit="byte">1357</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1588.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1362127662487"><attributeName>waypoint #</attributeName>
+<attributeDefinition>waypoint #</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362127662503"><attributeName>gps location</attributeName>
+<attributeDefinition>gps location</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362127662518"><attributeName>elevation</attributeName>
+<attributeDefinition>elevation</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>46</numberOfRecords>
+</dataTable>
+<dataTable id="1362128873363"><entityName>Mopanie_TRees.txt</entityName>
+<physical id="1362128643824"><objectName>Mopanie_TRees.txt</objectName>
+<size unit="byte">2222</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1590.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1362128873379"><attributeName>Site</attributeName>
+<attributeDefinition>Site</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Site</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362128873394"><attributeName>Number</attributeName>
+<attributeDefinition>Number of tree with the abbreaviation used</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>codes with number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362128873410"><attributeName>Species</attributeName>
+<attributeDefinition>Tree species</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Tree species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362128873425"><attributeName>GPS</attributeName>
+<attributeDefinition>Gps point link to the GPS table</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362128873441"><attributeName>Height (m)</attributeName>
+<attributeDefinition>Height of the tree</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362128873457"><attributeName>Diameter (cm)</attributeName>
+<attributeDefinition>Diameter of stem</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362128873472"><attributeName>total leaves (%)</attributeName>
+<attributeDefinition>percentage of total leaf canopy in the tree</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362128873488"><attributeName>Old leaves (%)</attributeName>
+<attributeDefinition>percentage of old leaves in the tree canopy</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362128873503"><attributeName>New leaves (%)</attributeName>
+<attributeDefinition>percentage of new leaves in the tree canopy</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>mole</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362128873519"><attributeName>Bare (%)</attributeName>
+<attributeDefinition>percentage of bare branches in the tree,</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362128873535"><attributeName># stems</attributeName>
+<attributeDefinition>number of stems of the tree as determined from the tree's base.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362128873550"><attributeName>-9</attributeName>
+<attributeDefinition>-9</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>-9</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362128873566"><attributeName>-9</attributeName>
+<attributeDefinition>-9</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>-9</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362128873581"><attributeName>-9</attributeName>
+<attributeDefinition>-9</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>-9</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>36</numberOfRecords>
+</dataTable>
+<dataTable id="1362130296616"><entityName>Waterpotential.txt</entityName>
+<physical id="1362129128923"><objectName>Waterpotential.txt</objectName>
+<size unit="byte">8161</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1591.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1362130296632"><attributeName>SIte</attributeName>
+<attributeDefinition>Site</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>SITE A</code>
+<definition>a</definition>
+</codeDefinition>
+<codeDefinition><code>SITE B</code>
+<definition>b</definition>
+</codeDefinition>
+<codeDefinition><code>SITE C</code>
+<definition>c</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130296647"><attributeName>soil sample #</attributeName>
+<attributeDefinition>soil sample #</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130296663"><attributeName>tree #</attributeName>
+<attributeDefinition>tree # lins to the tree table</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>tree #</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130296678"><attributeName>leaf potential (bars)</attributeName>
+<attributeDefinition>tree&#8217;s water potential measured in Bars</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>bar</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130296694"><attributeName>core depth (cm)</attributeName>
+<attributeDefinition>depth of the soil core sample in centimeters</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130296710"><attributeName>wet weight (g)</attributeName>
+<attributeDefinition>weight in grams of the soil sample on the day it was removed from the ground,</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130296725"><attributeName>dry weight (g)</attributeName>
+<attributeDefinition>dry weight in grams of the soil sample after having dried out over night</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130296741"><attributeName>dry weight w/out bag (g)</attributeName>
+<attributeDefinition>dry weight in grams of the soil sample without the weight of the bag</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130296756"><attributeName>coarse roots live</attributeName>
+<attributeDefinition>presence of live coarse roots in the soil sample (0=not present; 1=present; same scale for the next three columns),</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>o</code>
+<definition>absent</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>present</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130296772"><attributeName>coarse roots dead</attributeName>
+<attributeDefinition>presence of dead coarse roots in the soil sample,</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>o</code>
+<definition>absent</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>present</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130296788"><attributeName>fine roots live</attributeName>
+<attributeDefinition>presence of live fine roots in the soil sample</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+<definition>absent</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>present</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130296803"><attributeName>fine roots dead</attributeName>
+<attributeDefinition>presence of dead fine roots in the soil sample,</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+<definition>absent</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>present</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130296819"><attributeName>% grass cover</attributeName>
+<attributeDefinition>percentage of grass cover in area of soil samples</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>167</numberOfRecords>
+</dataTable>
+<dataTable id="1362130979772"><entityName>Conductivity.txt</entityName>
+<physical id="1362130834411"><objectName>Conductivity.txt</objectName>
+<size unit="byte">2232</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1592.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1362130979788"><attributeName>Site</attributeName>
+<attributeDefinition>Site</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Sites</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130979804"><attributeName>Tree</attributeName>
+<attributeDefinition>TRee code</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>TRee code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130979819"><attributeName>Sample #</attributeName>
+<attributeDefinition>Sample #</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130979835"><attributeName>T/B</attributeName>
+<attributeDefinition>depth the sample was taken from&#8212;whether the soil sample was from the top (T) or bottom (B). The top is a sample taken at 10 cm and the bottom is a sample taken at 50 cm.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>B</code>
+<definition>Bottom</definition>
+</codeDefinition>
+<codeDefinition><code>T</code>
+<definition>Top</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362130979850"><attributeName>Conductivity (ms/cm)</attributeName>
+<attributeDefinition>conductivity of the soil in ms/cm</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130979866"><attributeName>re test</attributeName>
+<attributeDefinition>resus test</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362130979882"><attributeName>Soil type</attributeName>
+<attributeDefinition>Texture</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Sol types</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>74</numberOfRecords>
+</dataTable>
+<dataTable id="1362131451782"><entityName>Flourometer.txt</entityName>
+<physical id="1362131306749"><objectName>Flourometer.txt</objectName>
+<size unit="byte">1866</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1593.2</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1362131451798"><attributeName>Tree #</attributeName>
+<attributeDefinition>Tree #</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Tree #</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1362131451814"><attributeName>Sample #</attributeName>
+<attributeDefinition>Sample #</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362131451829"><attributeName>F0</attributeName>
+<attributeDefinition>F0 value, Fm value, and Fv/Fm value, as recorded from the Fluorometer device.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362131451845"><attributeName>Fm</attributeName>
+<attributeDefinition>F0 value, Fm value, and Fv/Fm value, as recorded from the Fluorometer device.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1362131451860"><attributeName>Fv/Fm</attributeName>
+<attributeDefinition>F0 value, Fm value, and Fv/Fm value, as recorded from the Fluorometer device.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>93</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

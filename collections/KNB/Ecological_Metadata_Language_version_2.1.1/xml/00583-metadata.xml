@@ -1,0 +1,208 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.345.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+
+
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=dominique.carval,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Effect of environmental conditions on banana weevil dispersal - part 2</title>
+<creator>
+<organizationName>CIRAD</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Dominique</givenName>
+<surName>Carval</surName>
+</individualName>
+<organizationName>CIRAD</organizationName>
+<address>
+<deliveryPoint>Campus Agro-environnemental Cara&#239;bes Quartier Petit Morne &#150; BP214</deliveryPoint>
+<city>Le Lamentin</city>
+<administrativeArea>La Martinique</administrativeArea>
+<postalCode>97285</postalCode>
+<country>FRANCE</country>
+</address>
+<phone>+596 596 423 028</phone>
+<electronicMailAddress>dominique.carval@cirad.fr</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Carval</givenName>
+<surName>Dominique</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Dominique</givenName>
+<surName>Carval</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2013-06-04</pubDate>
+<abstract>
+<para>The data are issued from an empirical laboratory research on the banana weevil movements. 
+The data set 'records.txt' contains detection records of individuals moving between 2 patches. It permits to determine the population dynamics of weevils.
+The data set 'alldata5.txt ' contains the individual responses to environmental conditions (sex ratio, population density) when the 'records.txt' data set is analysed for a time interval of 5 minutes.
+The data set 'alldata10.txt' contains the individual responses to environmental conditions (sex ratio, population density) when the 'records.txt' data set is analysed for a time interval of 10 minutes.
+The data set 'alldata15.txt ' contains the individual responses to environmental conditions (sex ratio, population density) when the 'records.txt' data set is analysed for a time interval of 15 minutes.
+The data set 'alldata20.txt ' contains the individual responses to environmental conditions (sex ratio, population density) when the 'records.txt' data set is analysed for a time interval of 20 minutes.
+The data set 'alldata25.txt ' contains the individual responses to environmental conditions (sex ratio, population density) when the 'records.txt' data set is analysed for a time interval of 25 minutes.
+The data set 'alldata30.txt ' contains the individual responses to environmental conditions (sex ratio, population density) when the 'records.txt' data set is analysed for a time interval of 30 minutes.
+The data set 'alldata60.txt ' contains the individual responses to environmental conditions (sex ratio, population density) when the 'records.txt' data set is analysed for a time interval of 60 minutes.
+The data set 'id.txt ' contains the individual characteristics (sex, identification number).
+The data set 'Starting_Dates.txt ' contains the experimental conditions of repetitions. (see also http://knb.ecoinformatics.org/knb/metacat?action=read&amp;qformat=knb&amp;docid=knb.341.1)
+</para>
+</abstract>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2011-08-22</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2011-12-19</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Dominique</givenName>
+<surName>Carval</surName>
+</individualName>
+<organizationName>CIRAD</organizationName>
+<address>
+<deliveryPoint>Campus Agro-environnemental Cara&#239;bes Quartier Petit Morne &#150; BP214</deliveryPoint>
+<city>Le Lamentin</city>
+<administrativeArea>La Martinique</administrativeArea>
+<postalCode>97285</postalCode>
+<country>FRANCE</country>
+</address>
+<phone>+596 596 423 028</phone>
+<electronicMailAddress>dominique.carval@cirad.fr</electronicMailAddress>
+</contact>
+<otherEntity id="327d09a7a4e6f4db464a47fa10ee65237a0dbb45001" scope="document">
+            <entityName>alldata60.txt</entityName>
+            <physical scope="document">
+                <objectName>alldata60.txt</objectName>
+                <size>1134787</size>
+                <authentication method="SHA1">327d09a7a4e6f4db464a47fa10ee65237a0dbb45</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/plain</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="327d09a7a4e6f4db464a47fa10ee65237a0dbb45002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.344.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>uid=dominique.carval,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+ 
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="1d34150e75f16adc754f48d5458ab0651615a263001" scope="document">
+            <entityName>alldata30.txt</entityName>
+            <physical scope="document">
+                <objectName>alldata30.txt</objectName>
+                <size>2119580</size>
+                <authentication method="SHA1">1d34150e75f16adc754f48d5458ab0651615a263</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/plain</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="1d34150e75f16adc754f48d5458ab0651615a263002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.343.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>uid=dominique.carval,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+ 
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="96058358e0498f44cc74ab35361186607114c77a001" scope="document">
+            <entityName>alldata25.txt</entityName>
+            <physical scope="document">
+                <objectName>alldata25.txt</objectName>
+                <size>2428928</size>
+                <authentication method="SHA1">96058358e0498f44cc74ab35361186607114c77a</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/plain</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="96058358e0498f44cc74ab35361186607114c77a002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.342.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>uid=dominique.carval,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+ 
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</ns0:eml>

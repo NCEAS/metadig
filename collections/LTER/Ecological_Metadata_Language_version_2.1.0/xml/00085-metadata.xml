@@ -1,0 +1,355 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-cap.26.11" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://data.gios.asu.edu/eml2_1_0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+<allow>
+            <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+            <principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+    <dataset id="26_1" system="gios_dataset">
+        <alternateIdentifier system="gios_dataset">26</alternateIdentifier>
+        <title>Native American reservation boundaries for the communities in the state of Arizona.</title>
+        <creator>
+            <organizationName>Arizona Land Resource Information System (ALRIS)</organizationName>
+            <address>
+                <deliveryPoint>Arizona Land Resource Information System (ALRIS), Arizona State Cartographer's Office, 1616 West Adams</deliveryPoint>
+                <city>Phoenix</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85007</postalCode>
+            </address>
+            <electronicMailAddress>gismeta@lnd.state.az.us</electronicMailAddress>
+        </creator>
+        <pubDate>1994</pubDate>
+        <language>english</language>
+        <abstract>
+            <para>This is a statewide coverage of native American reservation lands within Arizona as of 2000.</para>
+        </abstract><keywordSet><keyword keywordType="theme">economic and census data mining</keyword><keywordThesaurus>IPA and Core Area CAP Data Portal Controler</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="place">sonoran desert</keyword><keyword keywordType="place">phoenix</keyword><keyword keywordType="theme">urban</keyword><keyword keywordType="theme">metropolitan area</keyword><keyword keywordType="theme">gis</keyword><keyword keywordType="theme">gp2100</keyword><keyword keywordType="theme">administrative boundaries</keyword><keyword keywordType="theme">land ownership</keyword><keyword keywordType="theme">indian land</keyword><keyword keywordType="theme">american indian</keyword><keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">geographic information systems</keyword><keyword keywordType="theme">rivers</keyword><keyword keywordType="theme">surface elevation table</keyword><keyword keywordType="theme">air</keyword><keywordThesaurus>LTER Controlled Vocabulary Keyword Set</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">caplter</keyword><keyword keywordType="theme">central arizona phoenix longterm ecological research</keyword><keyword keywordType="place">arizona</keyword><keyword keywordType="theme">caplter created</keyword><keyword keywordType="place">az</keyword><keyword keywordType="theme">cap</keyword><keyword keywordType="theme">arid land</keyword><keywordThesaurus>CAPLTER Keyword Set List</keywordThesaurus></keywordSet>
+        
+        <intellectualRights>
+            <section>
+                <para>Copyright Board of Regents, Arizona State University. This dataset is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:</para>
+                <para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available "as is".</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.</para>
+                        </listitem>
+                        <listitem>
+                            <para>It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users submit to the Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.</para>
+                        </listitem>
+                        <listitem>
+                            <para>CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+            </section>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=26</url>
+            </online>
+        </distribution>
+        
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Arizona Reservation Boundaries</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-115.020834</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-108.993065</eastBoundingCoordinate>
+                    <northBoundingCoordinate>37.01519</northBoundingCoordinate>
+                    <southBoundingCoordinate>31.453854</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <singleDateTime>
+                    <calendarDate>2001-01-01</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <purpose>
+            <para>The data are created to serve as base information for use in GIS systems for a variety of planning and analysis purposes.</para>
+        </purpose>
+        <contact>
+            <positionName>Information Manager</positionName>
+            <organizationName>Arizona State University</organizationName>
+            <address>
+                <deliveryPoint>Global Institute of Sustainability</deliveryPoint>
+                <deliveryPoint>POB 875402</deliveryPoint>
+                <city>TEMPE</city>
+                <administrativeArea>AZ</administrativeArea>
+                <postalCode>85287-5402</postalCode>
+            </address>
+            <phone phonetype="voice">(480) 965 2975</phone>
+            <phone phonetype="fax">(480) 965-8087</phone>
+            <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+        </contact>
+        <spatialVector id="Native_Reservations">
+            <entityName>Native_Reservations</entityName>
+            <physical>
+                <objectName>Native_Reservations</objectName>
+                <authentication method="SHA1">1af54d5a155737876a0b2c61e84b86764c48e93a</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>Shapefile</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                      <url>https://gis.gios.asu.edu/geoserver/cap/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=cap:26_Native_Reservations&amp;outputFormat=SHAPE-ZIP</url>
+                    </online>
+                </distribution>
+                
+            </physical>
+            <attributeList id="Native_Reservations.attributeList">
+                <attribute id="Native_Reservations.FID">
+                    <attributeName>FID</attributeName>
+                    <attributeDefinition>Internal feature number.</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">OID</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Native_Reservations.Shape">
+                    <attributeName>Shape</attributeName>
+                    <attributeDefinition>Feature geometry.</attributeDefinition>
+                    <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">Geometry</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Coordinates defining the features.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Native_Reservations.AREA">
+                    <attributeName>AREA</attributeName>
+                    <attributeDefinition>AREA</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>squareMeter</standardUnit>
+                            </unit>
+                            <precision>0.001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="true">13781.922</minimum>
+                                    <maximum exclusive="true">41210302464.000</maximum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Native_Reservations.PERIMETER">
+                    <attributeName>PERIMETER</attributeName>
+                    <attributeDefinition>PERIMETER</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>squareMeter</standardUnit>
+                            </unit>
+                            <precision>0.001</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="true">563.187</minimum>
+                                    <maximum exclusive="true">1839720.125</maximum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Native_Reservations.AMERIND_">
+                    <attributeName>AMERIND_</attributeName>
+                    <attributeDefinition>This is a unique internally assigned identification number each polygon.</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Autogenerated set of Whole numbers.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Native_Reservations.AMERIND_ID">
+                    <attributeName>AMERIND_ID</attributeName>
+                    <attributeDefinition>User assigned identification number for each polygon</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Autogenerated set of Whole numbers.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Native_Reservations.AIR">
+                    <attributeName>AIR</attributeName>
+                    <attributeDefinition>American Indian Reservations (AIRs) Code identified by the Bureau of Indian Affairs for Federal reservations or the individual states for State reservations.</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Numbers generated to uniquely identify each reservation.</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Native_Reservations.NAME">
+                    <attributeName>NAME</attributeName>
+                    <attributeDefinition>American Indian Reservation Name</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>character field</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="Native_Reservations.AIRCODE">
+                    <attributeName>AIRCODE</attributeName>
+                    <attributeDefinition>American Indian Reservations (AIRs) Code identified by the Bureau of Indian Affairs for Federal reservations or the individual states for State reservations.</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>0465</code>
+                                        <definition>Camp Verde Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>0695</code>
+                                        <definition>Cocopah Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>0735</code>
+                                        <definition>Colorado River Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1140</code>
+                                        <definition>Fort Apache Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1220</code>
+                                        <definition>Fort McDowell Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1235</code>
+                                        <definition>Fort Mohave Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1280</code>
+                                        <definition>Fort Yuma (Quechan) Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1300</code>
+                                        <definition>Gila Bend Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1310</code>
+                                        <definition>Gila River Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1440</code>
+                                        <definition>Havasupai Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1505</code>
+                                        <definition>Hopi Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1545</code>
+                                        <definition>Hualapai Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>1720</code>
+                                        <definition>Kaibab Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>2130</code>
+                                        <definition>Maricopa (Ak-Chin) Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>2430</code>
+                                        <definition>Navajo Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>2665</code>
+                                        <definition>Papago Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>2680</code>
+                                        <definition>Pascua Yaqui Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>2735</code>
+                                        <definition>Payson (Yavapai-Apache) Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>3340</code>
+                                        <definition>Salt River Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>3355</code>
+                                        <definition>San Carlos Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>3605</code>
+                                        <definition>San Xavier Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>4710</code>
+                                        <definition>Yavapai Reservation</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>4785</code>
+                                        <definition>Zuni Pueblo</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <geometry>Polygon</geometry>
+            <geometricObjectCount>109</geometricObjectCount>
+            <spatialReference>
+                <horizCoordSysName>WGS_1984_UTM_Zone_12N</horizCoordSysName>
+            </spatialReference>
+        </spatialVector>
+    </dataset>
+</ns0:eml>

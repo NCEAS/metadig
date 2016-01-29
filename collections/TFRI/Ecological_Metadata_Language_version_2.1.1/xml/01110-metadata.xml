@@ -1,0 +1,488 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="iesn.22.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=lrrhchen,o=TFRI,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset scope="document">  <title>&#34030;&#33775;&#27744;&#30740;&#31350;&#20013;&#24515;&#34277;&#29992;&#26893;&#29289;&#22290;&#27683;&#35937;&#36039;&#26009;</title>
+<creator id="1412847072311" scope="document"> <organizationName>&#26519;&#26989;&#35430;&#39511;&#25152;</organizationName>
+ <address scope="document"> <deliveryPoint>&#21335;&#28023;&#36335;53&#34399;</deliveryPoint>
+ <city>&#33274;&#21271;&#24066;</city>
+ <postalCode>10066</postalCode>
+ <country>&#20013;&#33775;&#27665;&#22283;</country>
+ </address>
+ <phone phonetype="voice">+886223039978</phone>
+ <onlineUrl>http://www.tfri.gov.tw</onlineUrl>
+ </creator>
+ <associatedParty id="1412847197874"><individualName><givenName>&#29031;&#32724;</givenName>
+ <surName>&#40643;</surName>
+ </individualName>
+ <organizationName>&#26519;&#26989;&#35430;&#39511;&#25152;</organizationName>
+ <positionName>&#25216;&#24037;</positionName>
+ <address><deliveryPoint>&#39770;&#27744;&#37129;&#20116;&#22478;&#26449;&#33775;&#40845;&#24055;43&#34399;</deliveryPoint>
+ <city>&#21335;&#25237;&#32291;</city>
+ <postalCode>55543</postalCode>
+ <country>&#20013;&#33775;&#27665;&#22283;</country>
+ </address>
+ <phone phonetype="voice">+886-49-2895535</phone>
+ <phone phonetype="fax">+886-49-2898627</phone>
+ <electronicMailAddress>taxus@tfri.gov.tw</electronicMailAddress>
+ <role>Content Provider</role>
+ </associatedParty>
+<abstract><para>&#26412;&#36039;&#26009;&#38598;&#25152;&#25551;&#36848;&#30340;&#26159;&#26234;&#24935;&#29983;&#24907;&#35336;&#30059;&#65293;&#29983;&#24907;&#21450;&#29983;&#29289;&#22810;&#27171;&#24615;&#36039;&#35338;&#22522;&#30990;&#24314;&#35373;&#33287;&#25033;&#29992;&#35336;&#30059;&#31532;&#20108;&#24180;&#24230;&#25104;&#26524;&#12290;
+&#36879;&#36942;&#35336;&#30059;&#21512;&#20316;&#65292;&#20171;&#25509;&#26412;&#25152;&#31185;&#25216;&#35336;&#30059;&#26044;&#34030;&#33775;&#27744;&#30740;&#31350;&#20013;&#24515;&#34277;&#22290;&#25152;&#35373;&#32622;&#20043;&#27683;&#35937;&#35264;&#28204;&#31995;&#32113;&#65292;&#36914;&#34892;&#36039;&#26009;&#30340;&#25910;&#38598;&#33287;&#20489;&#20786;&#65292;&#32780;&#25152;&#26377;&#30340;&#27683;&#35937;&#36039;&#26009;&#65292;&#22343;&#21487;&#26044;&#29983;&#24907;&#24863;&#28204;&#36039;&#26009;&#23637;&#31034;&#24179;&#21488; (http://iesn.tfri.gov.tw) &#19978;&#26597;&#38321;&#65292;&#20006;&#20197;&#38283;&#25918;&#36039;&#26009;&#24418;&#24335;&#25552;&#20379;&#29983;&#24907;&#24863;&#28204;&#38283;&#25918;&#36039;&#26009;&#24179;&#21488; (http://iesn.tfri.gov.tw/forestDW/OpenData) &#20316;&#28858;&#36039;&#26009;&#20358;&#28304;&#20043;&#19968;&#12290;</para>
+</abstract>
+<keywordSet><keyword>&#29983;&#24907;&#24863;&#28204;</keyword>
+<keyword>&#26234;&#24935;&#29983;&#24907;</keyword>
+<keyword>&#34030;&#33775;&#27744;</keyword>
+<keyword>&#34277;&#22290;</keyword>
+<keyword>&#27683;&#35937;&#36039;&#26009;</keyword>
+<keyword>DataTurbine</keyword>
+<keyword>RBNB</keyword>
+</keywordSet>
+   <intellectualRights> <para>&#26412;&#36039;&#26009;&#38598;&#25152;&#26377;&#36039;&#26009;&#20839;&#23481;&#27512;&#23660;&#26044;&#26519;&#26989;&#35430;&#39511;&#25152;&#25152;&#26377;&#65292;&#20219;&#20309;&#24341;&#29992;&#33287;&#21033;&#29992;&#35531;&#35387;&#26126;&#20986;&#34389;&#12290;</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>&#26519;&#26989;&#35430;&#39511;&#25152;&#34030;&#33775;&#27744;&#20013;&#24515;&#34277;&#29992;&#26893;&#29289;&#22290;</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>120.891646</westBoundingCoordinate>
+ <eastBoundingCoordinate>120.891646</eastBoundingCoordinate>
+ <northBoundingCoordinate>23.923133</northBoundingCoordinate>
+ <southBoundingCoordinate>23.923133</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+  </coverage>
+ <contact id="1422427971424"><individualName><givenName>&#32654;&#22914;</givenName>
+ <surName>&#37165;</surName>
+ </individualName>
+ <organizationName>&#26519;&#26989;&#35430;&#39511;&#25152;</organizationName>
+ <positionName>&#21161;&#29702;&#30740;&#31350;&#21729;</positionName>
+ <address><deliveryPoint>&#21335;&#28023;&#36335;53&#34399;</deliveryPoint>
+ <city>&#33274;&#21271;&#24066;</city>
+ <postalCode>10066</postalCode>
+ <country>&#20013;&#33775;&#27665;&#22283;</country>
+ </address>
+ <phone phonetype="voice">+886-2-23039978-3887</phone>
+ <electronicMailAddress>beer@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <contact id="1412847101376"><individualName><givenName>&#24314;&#25991;</givenName>
+ <surName>&#38515;</surName>
+ </individualName>
+ <organizationName>&#26519;&#26989;&#35430;&#39511;&#25152;</organizationName>
+ <positionName>&#32856;&#29992;&#21161;&#29702;&#30740;&#31350;&#21729;</positionName>
+ <address><deliveryPoint>&#21335;&#28023;&#36335;53&#34399;</deliveryPoint>
+ <city>&#33274;&#21271;&#24066;</city>
+ <postalCode>10066</postalCode>
+ <country>&#20013;&#33775;&#27665;&#22283;</country>
+ </address>
+ <phone phonetype="voice">+886223039978-2700</phone>
+ <electronicMailAddress>lrrhchen@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <dataTable id="1412847986595" scope="document"> <entityName>&#34030;&#33775;&#27744;&#30740;&#31350;&#20013;&#24515;&#34277;&#29992;&#26893;&#29289;&#22290;&#27683;&#35937;&#36039;&#26009;OpenData&#36039;&#26009;&#19979;&#36617;&#30446;&#37636;</entityName>
+ <physical scope="document"> <objectName>&#34030;&#33775;&#27744;&#30740;&#31350;&#20013;&#24515;&#34277;&#29992;&#26893;&#29289;&#22290;&#27683;&#35937;&#36039;&#26009;OpenData&#36039;&#26009;&#19979;&#36617;&#30446;&#37636;</objectName>
+ <dataFormat> <textFormat> <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>http://iesn.tfri.gov.tw/forestDW/OpenData/opd_rbnb_0201</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1412847986596" scope="document"> <attributeName>sn</attributeName>
+ <attributeDefinition>&#27969;&#27700;&#32232;&#34399;</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412847986597" scope="document"> <attributeName>info1</attributeName>
+ <attributeDefinition>&#27683;&#35937;&#36039;&#26009;&#25910;&#38598;&#26085;&#26399; (&#33258;2014-11-03&#38283;&#22987;)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY-MM-DD</formatString>
+ <dateTimeDomain> <bounds> <minimum exclusive="false">2014-11-03</minimum>
+ </bounds>
+ </dateTimeDomain>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412847986598" scope="document"> <attributeName>info3</attributeName>
+ <attributeDefinition>&#36039;&#26009;&#31558;&#25976;</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412847986599" scope="document"> <attributeName>info2</attributeName>
+ <attributeDefinition>&#27683;&#35937;&#36039;&#26009;&#27284;&#21517;</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>[YYYYMMDD]_lhc_weather3.csv</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1412948914856" scope="document"> <entityName>&#34030;&#33775;&#27744;&#30740;&#31350;&#20013;&#24515;&#34277;&#29992;&#26893;&#29289;&#22290;&#27683;&#35937;&#36039;&#26009;</entityName>
+ <physical scope="document"> <objectName>[YYYYMMDD]_lhc_weather3.csv</objectName>
+ <dataFormat> <textFormat> <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>http://iesn.tfri.gov.tw/opd/api/downloadapi.jsp?fName=/obs/02/0201/[YYYYMM]/[YYYYMMDD]_lhc_weather3.csv</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1412948914857" scope="document"> <attributeName>TIMESTAMP</attributeName>
+ <attributeLabel>Tiem stamp</attributeLabel>
+ <attributeDefinition>&#36039;&#26009;&#35352;&#37636;&#26178;&#38291; (&#27599;&#20116;&#20998;&#37912;&#35352;&#37636;&#19968;&#31558;)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY/M/D hh:mm</formatString>
+ <dateTimePrecision>5 min</dateTimePrecision>
+ <dateTimeDomain> <bounds> <minimum exclusive="true">2013/11/3 23:00</minimum>
+ </bounds>
+ </dateTimeDomain>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412948914858" scope="document"><attributeName>WS_ms</attributeName>
+ <attributeLabel>Wind speed</attributeLabel>
+ <attributeDefinition>&#30636;&#38291;&#39080;&#36895;</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415263251" scope="document"><attributeName>WindDir</attributeName>
+ <attributeLabel>Wind direction</attributeLabel>
+ <attributeDefinition>&#30636;&#38291;&#39080;&#21521;</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">-180.000</minimum>
+ <maximum exclusive="false">180.00</maximum>
+ </bounds>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415286511" scope="document"><attributeName>WS_ms_Avg</attributeName>
+ <attributeLabel>Wind speed average</attributeLabel>
+ <attributeDefinition>&#24179;&#22343;&#39080;&#36895;</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415371921" scope="document"><attributeName>PAR_Tot_Tot</attributeName>
+ <attributeDefinition>&#26085;&#29031;&#35336;&#20809;&#24375;&#24230;</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>millimolePerSquareMeter</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415384603" scope="document"><attributeName>PAR_Den_Avg</attributeName>
+ <attributeDefinition>&#26085;&#29031;&#35336;&#20809;&#23494;&#24230;</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>millimolePerSecondPerSquareMeter</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415397661" scope="document"><attributeName>HFT3_AVG</attributeName>
+ <attributeDefinition>&#29105;&#36890;&#37327;
+&#24179;&#22343;&#29105;&#36890;&#37327;</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415411963" scope="document"><attributeName>Net07_AVG</attributeName>
+ <attributeDefinition>&#28136;&#36667;&#23556;&#24179;&#22343;&#20540;</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>wattsPerSquareMeter</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415430648" scope="document"><attributeName>PTemp_C_Avg</attributeName>
+ <attributeLabel>Panel temperature</attributeLabel>
+ <attributeDefinition>Data logger &#38754;&#26495;&#28331;&#24230;</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412948914860" scope="document"><attributeName>AirTC</attributeName>
+ <attributeLabel>Air Temperature</attributeLabel>
+ <attributeDefinition>&#24179;&#22343;&#27683;&#28331; (&#27599;5&#20998;&#37912;)
+&#38626;&#22320;&#38754;&#39640;&#24230;1.5&#20844;&#23610;&#34389;&#20043;&#27683;&#28331;&#12290;</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412948914868" scope="document"><attributeName>RH</attributeName>
+ <attributeLabel>Relative Humidity</attributeLabel>
+ <attributeDefinition>&#30456;&#23565;&#28629;&#24230;
+&#38626;&#22320;&#38754;1.5&#20844;&#23610;&#20043;&#28204;&#20540;&#12290;</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">100</maximum>
+ </bounds>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415482810" scope="document"><attributeName>Temp_C_Avg(1)</attributeName>
+ <attributeLabel>0 cm soil temperature average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;0cm&#28145;&#34389;&#22303;&#22756;&#28331;&#24230;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415497341" scope="document"><attributeName>Temp_C_Avg(2)</attributeName>
+ <attributeLabel>10 cm soil temperature average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;10cm&#28145;&#34389;&#22303;&#22756;&#28331;&#24230;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415512341" scope="document"><attributeName>Temp_C_Avg(3)</attributeName>
+ <attributeLabel>20 cm soil temperature average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;20cm&#28145;&#34389;&#22303;&#22756;&#28331;&#24230;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415617732" scope="document"><attributeName>Temp_C_Avg(4)</attributeName>
+ <attributeLabel>30 cm soil temperature average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;30cm&#28145;&#34389;&#22303;&#22756;&#28331;&#24230;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415635569" scope="document"><attributeName>Temp_C_Avg(5)</attributeName>
+ <attributeLabel>50 cm soil temperature average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;50cm&#28145;&#34389;&#22303;&#22756;&#28331;&#24230;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415650906" scope="document"><attributeName>Temp_C_Avg(6)</attributeName>
+ <attributeLabel>100 cm soil temperature average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;100cm&#28145;&#34389;&#22303;&#22756;&#28331;&#24230;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415683861" scope="document"><attributeName>SW_10_Avg</attributeName>
+ <attributeLabel>10 cm soil moisture average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;10cm&#28145;&#34389;&#27700;&#20998;&#28204;&#20540;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415705331" scope="document"><attributeName>SW_20_Avg</attributeName>
+ <attributeLabel>20 cm soil moisture average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;20cm&#28145;&#34389;&#27700;&#20998;&#28204;&#20540;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415722598" scope="document"><attributeName>SW_30_Avg</attributeName>
+ <attributeLabel>30 cm soil moisture average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;30cm&#28145;&#34389;&#27700;&#20998;&#28204;&#20540;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415744306" scope="document"><attributeName>SW_50_Avg</attributeName>
+ <attributeLabel>50 cm soil moisture average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;50cm&#28145;&#34389;&#27700;&#20998;&#28204;&#20540;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415759411" scope="document"><attributeName>SW_100_Avg</attributeName>
+ <attributeLabel>100 cm soil moisture average</attributeLabel>
+ <attributeDefinition>&#22303;&#22756;100cm&#28145;&#34389;&#27700;&#20998;&#28204;&#20540;(5&#20998;&#37912;&#24179;&#22343;&#20540;)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415779970" scope="document"><attributeName>Rain_mm_Tot</attributeName>
+ <attributeDefinition>&#32047;&#31309;&#38632;&#37327;</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="hectoPascal" multiplierToSI="100" name="hectoPascal" parentSI="pascal" unitType="pressure"> <description>100 pascal, hPa</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="hitsPerCentimeterSquared" multiplierToSI="0.0001" name="hitsPerCentimeterSquared" parentSI="numberPerMeterSquared" unitType="arealDensity"> <description>&#27599;&#24179;&#26041;&#20844;&#20998;&#30340;&#32047;&#31309;&#20912;&#38649;&#25758;&#25802;&#25976;</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="hitsPerCentimeterSquaredPerHour" multiplierToSI="0.0001" name="hitsPerCentimeterSquaredPerHour" parentSI="numberPerMeterSquared" unitType="arealDensityRate"> <description>hitsPerCentimeterSquaredPerHour</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="millimeterPerHour" multiplierToSI="3.6" name="millimeterPerHour" parentSI="metersPerSecond" unitType="lengthRate"> <description>millimeterPerHour</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unitType id="amountofSubstanceDensity" name="amountofSubstanceDensity"><dimension name="Length" power="-2" />
+ <dimension name="Amount" />
+ </unitType>
+ <unit id="millimolePerSquareMeter" multiplierToSI="1" name="millimolePerSquareMeter" parentSI="molesPerCubicMeter" unitType="amountofSubstanceDensity"><description>millimolePerSquareMeter</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unitType id="amountofSubstanceDensityFlux" name="amountofSubstanceDensityFlux"><dimension name="Amount" />
+ <dimension name="Time" power="-1" />
+ <dimension name="Length" power="-2" />
+ </unitType>
+ <unit id="millimolePerSecondPerSquareMeter" multiplierToSI="0.001" name="millimolePerSecondPerSquareMeter" parentSI="molesPerCubicMeter" unitType="amountofSubstanceDensityFlux"><description>millimolePerSecondPerSquareMeter</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unitType id="powerdensity" name="powerdensity"><dimension name="Amount" />
+ <dimension name="Length" power="-2" />
+ </unitType>
+ <unit id="wattsPerSquareMeter" multiplierToSI=" " name="wattsPerSquareMeter" parentSI="watt" unitType="powerdensity"><description>wattsPerSquareMeter</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

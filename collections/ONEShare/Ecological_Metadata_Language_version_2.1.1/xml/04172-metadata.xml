@@ -1,0 +1,197 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="UC3/CDL" system="DataUp" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <dataset>
+    <title>City of Fort Collins Natural Areas Program Amphibian Monitoring Data</title>
+    <creator>
+      <individualName>
+        <givenName>Greg</givenName>
+        <surName>Newman</surName>
+      </individualName>
+      <organizationName>CitSci.org</organizationName>
+      <address>
+        <deliveryPoint>Natural Resource Ecology Laboratory, Colorado State University</deliveryPoint>
+        <city>Fort Collins</city>
+        <administrativeArea>Colorado</administrativeArea>
+        <postalCode>80523-1499</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>970-491-0410</phone>
+      <electronicMailAddress>webmaster@citsci.org</electronicMailAddress>
+    </creator>
+    <pubDate>2013-05-01</pubDate>
+    <abstract>This dataset represents the city of fort collins natural areas amphibian monitoring project data. These data are all data collected by city volunteers organizaed by Erica Saunders throughout the entire project duration. Project data in this dataset were entered into the CitSci.org platform and download from that source.</abstract>
+    <keywordSet>
+      <keyword>CitSci.org</keyword>
+      <keyword>amphibian monitoring</keyword>
+      <keyword>fort collins natural areas program</keyword>
+      <keyword>plains spadefoot</keyword>
+      <keyword>woodhouse toad</keyword>
+      <keyword>bullfrog</keyword>
+    </keywordSet>
+    <intellectualRights>creative commons license</intellectualRights>
+    <distribution>
+      <online>
+        <url>http://www.citsci.org/cwis438/Browse/Project/Project_Info.php?ProjectID=246&amp;amp;WebSiteID=7</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>city of fort collins natural areas land</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>0</westBoundingCoordinate>
+          <eastBoundingCoordinate>0</eastBoundingCoordinate>
+          <northBoundingCoordinate>0</northBoundingCoordinate>
+          <southBoundingCoordinate>0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage id="tempcov">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-10-08</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-07-29</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Erica</givenName>
+        <surName>Saunders</surName>
+      </individualName>
+      <organizationName>City of Fort Collins Natural Areas Program</organizationName>
+      <address>
+        <deliveryPoint>No street address for contact provided</deliveryPoint>
+        <city>Fort Collins</city>
+        <administrativeArea>Colorado</administrativeArea>
+        <postalCode>80523</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>+0 (000) 000-0000</phone>
+      <electronicMailAddress>esaunders@fcgov.com</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>CitSci.org</organizationName>
+    </publisher>
+    <project>
+      <title>Amphibian Monitoring Project</title>
+      <personnel>
+        <individualName>
+          <surName>Saunders</surName>
+        </individualName>
+        <organizationName>No project organization name provided</organizationName>
+        <role>Volunteer coordinator</role>
+      </personnel>
+      <abstract>Volunteer based program to monitor native and non-native amphibian species based on standardized national audio surveys. The purpose is to document native and non-native amphibian species presence.</abstract>
+      <funding>
+        <para>No project funding described</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>CFNAP_Data_2009-2010_v1 - CFNAP_Data_2009-2010_v1</entityName>
+      <entityDescription>Project</entityDescription>
+      <attributeList>
+        <attribute>
+          <attributeName>Project</attributeName>
+          <attributeDefinition>Project Name on CitSci.org</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Project Name on CitSci.org</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude in decimel degrees</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude in decimel degrees</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date the observation was made</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>The user has designated this column as some form of date and/or time. No standard is specified due to DataUp coding constraints.</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Scientific Name</attributeName>
+          <attributeDefinition>Scientific name of amphibian observed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Scientific name of amphibian observed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Presence</attributeName>
+          <attributeDefinition>Presence/absence of amphibian observed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence/absence of amphibian observed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Call Index</attributeName>
+          <attributeDefinition>Call index based on Nelson and Graves standrad protocol</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Call index based on Nelson and Graves standrad protocol</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <describes>tempcov</describes>
+    <metadata>
+      <description>No description of temporal coverage provided</description>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <formattedCitation>Newman, Greg(2013): City of Fort Collins Natural Areas Program Amphibian Monitoring Data. . Newman, Greg. ark:/90135/q1930r39</formattedCitation>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

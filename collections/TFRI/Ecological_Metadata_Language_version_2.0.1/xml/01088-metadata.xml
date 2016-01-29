@@ -1,0 +1,67 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="hsiao.5.1" scope="system" system="NGIS" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"><dataset scope="document"><shortName>ctdf6190.asc</shortName><title>IPCC Climate Change Data: 1961-1990, Temperature Difference</title><creator id="1086641977080" scope="document"><organizationName>Intergovernmental Panel on Climate Change (IPCC)</organizationName><onlineUrl>http://www.ipcc.ch/index.html</onlineUrl></creator><associatedParty id="1086642101767" scope="document"><organizationName>SEEK</organizationName><onlineUrl>http://seek.ecoinformatics.org/</onlineUrl><role>Content Provider</role></associatedParty><abstract><para>From the IPCC website: The CRU Global Climate Dataset available through the IPCC DDC
+        consists of a multi-variate 0.01&#186; latitude by 0.01&#186; longitude resolution
+        mean monthly climatology for global land areas, excluding Antarctica, strictly constrained
+        to the period 1961-1990. The mean 1961-1990 climatology comprises a suite of eleven surface
+        variables: precipitation (PRE) and wet-day frequency (WET); mean, maximum and minimum
+        temperature (TMP, TMX, TMN); diurnal temperature range (DTR); vapour pressure (VAP;) global
+        radiation (RAD;) cloud cover (CLD); frost frequency (FRS); and wind speed (WND). The mean
+        climate surfaces have been constructed from a new dataset of station 1961-1990
+        climatological normals, numbering between 19,800 (precipitation) and 3615 (windspeed). The
+        station data were interpolated as a function of latitude, longitude and elevation using
+        thin-plate splines. The accuracy of the interpolations are assessed using cross-validation
+        and by comparison with other climatologies. this data-set has been decsribed in: New,M.,
+        Hulme,M. and Jones,P.D. (1999) Representing twentieth century space-time climate
+        variability. Part 1: development of a 1961-90 mean monthly terrestrial climatology J.Climate
+        12, 829-856.</para></abstract><keywordSet><keyword>climate</keyword><keyword>weather</keyword><keyword>temperature</keyword></keywordSet><intellectualRights><para>1. The IPCC Data Distribution Centre permits the research results from seven climate
+        modelling centres (Hadley Centre for Climate Prediction and Research, Deutsches
+        Klimarechenzentrum, Canadian Centre for Climate Modelling and Analysis, Geophysical Fluids
+        Dynamics Laboratory, the Commonwealth and Scientific Industrial Research Organisation, the
+        National centre for Atmospheric Research and the Centre for Climate System Research) to be
+        used freely for the purposes of bona fide research. (Bona fide research is deemed to be
+        research which generates results that are freely and universally accessible to any
+        interested party, i.e., if people use DDC data they must agree to publish results openly or
+        respond willingly to requests from others for copies of the results.) 2. The climate
+        modelling centres' research results should not be used for commercial exploitation,
+        business use, resale or transfer to any third party. 3. No warranty is given as to the
+        suitability of the climate modelling centres' research results for particular
+        purposes. 4. No liability is accepted by the IPCC Data Distribution Centre and/or the
+        climate modelling centres for any errors or omissions in the climate modelling
+        centres' research results, associated information and/or documentation. 5. Please
+        acknowledge the use of the corresponding climate modelling centres' research
+        results in any publication. 6. The intellectual property rights on the climate modelling
+        centres' research results remains the property of each of the climate modelling
+        centres. 7. By registering with the DDC you agree to abide by this Data Statement.</para></intellectualRights><coverage scope="document"><geographicCoverage scope="document"><geographicDescription>Taiwan</geographicDescription><boundingCoordinates><westBoundingCoordinate>120.0309121</westBoundingCoordinate><eastBoundingCoordinate>122.0609121</eastBoundingCoordinate><northBoundingCoordinate>25.5542559</northBoundingCoordinate><southBoundingCoordinate>21.8442559</southBoundingCoordinate></boundingCoordinates></geographicCoverage><temporalCoverage scope="document"><rangeOfDates><beginDate><calendarDate>1961-01-01</calendarDate></beginDate><endDate><calendarDate>1990-01-01</calendarDate></endDate></rangeOfDates></temporalCoverage></coverage><contact id="1086642088611" scope="document"><organizationName>IPCC</organizationName></contact><methods><methodStep><description><para>Format (ASCII) The first and second lines of the file contain information on the
+            grid size, for example: grd_sz xmin ymin xmax ymax n_cols n_rows n_months missing 0.01
+            120.0309121 21.8442559 122.0609121 25.5542559 371 203 12 -9999 This is followed by 12
+            monthly grids that are n_cols by n_rows in size. Each record contains n_cols (=371)
+            columns longitude values, format 720i5, starting at xmin (= 120.0309121 deg) and ending
+            at xmax (=122.0609121 deg) The first record starts at January, ymax (=25.5542559 deg)
+            and the last record is the row for December, ymin (=21.8442559 deg). Co-ordinates
+            represent the centre of each grid cell. Missing values (Antarctica, oceans and major
+            inland water bodies) are assigned integer values of -9999. Units: degrees K</para></description></methodStep><qualityControl><description><para>Problems have come to light through user feedback and routine quality control in the
+            Climatic Research Unit (during work towards the construction of an updated version of
+            the 1961-1990 climatology). These problems range from systematic errors (for example,
+            due to incorrect units being assumed for a whole country) to single-station errors.
+            Errors at single stations have varying importance depending on the density of the
+            surrounding network. Where the network is sparse, the station error will influence a
+            larger area because of its greater spatial influence during the interpolation.
+            Systematic errors arise because of varying reporting methods and units adopted by
+            different national meteorological agencies (and other data contributors). The methods
+            used to standardise data to a common format are discussed by New et al. (1999). Some
+            problems are due to shortcomings in the standardisation methods used. In addition,
+            misunderstandings (or a lack of information) about the units in which data were supplied
+            means that the incorrect (or no) standardisation was used. The majority of
+            problems/errors identified to date are due to confusion of units and shortcomings in the
+            standardisation towards the use of common units. The climate variable with the largest
+            potential for confusion is wind speed. Not only do reporting units vary between metres
+            per second, miles per hour and knots; anemometer heights can vary greatly from the
+            desired 10m (e.g. between 2m and 20m). The following (variable) gridded files are known
+            to have either systematic or significant single station errors which potential users
+            need to be aware of. The errors are present in the mean-monthly 1961-90 terrestrial
+            climatology files and are thus propagated into the gridded 1901-1995 monthly
+            time-series. The affected part of the globe is defined where possible. * Greenland: all
+            variables The interior of Greenland is poorly covered by meteorological observation.
+            This coupled with the presence of the high elevation ice cap makes interpolation of
+            climate normals very difficult due to the potential for unusual lapse rates. It is
+            likely that significant bias may be present with all variables for the interior of the
+            landmass (e.g. diurnal temperature range and precipitation too high).</para></description></qualityControl></methods><access authSystem="knb" order="denyFirst" scope="document"><allow><principal>public</principal><permission>read</permission></allow></access><spatialRaster scope="document"><entityName>ctdf6190.asc</entityName><physical scope="document"><objectName>ctdf6190.asc</objectName><dataFormat><textFormat><numHeaderLines>6</numHeaderLines><numPhysicalLinesPerRecord>371</numPhysicalLinesPerRecord><attributeOrientation>column</attributeOrientation><simpleDelimited><fieldDelimiter>space</fieldDelimiter></simpleDelimited></textFormat></dataFormat><distribution scope="document"><online><url function="download">http://srb2.tfri.gov.tw/srb/read2.php?file=ctdf6190</url></online></distribution></physical><attributeList><attribute scope="document"><attributeName>TDF</attributeName><attributeLabel>Temperature Difference</attributeLabel><attributeDefinition>Temperature Difference (degrees K)</attributeDefinition><measurementScale><ratio><unit><standardUnit>number</standardUnit></unit><precision>0.0001</precision><numericDomain><numberType>real</numberType><bounds><minimum exclusive="false">-9999</minimum><maximum exclusive="false">100</maximum></bounds></numericDomain></ratio></measurementScale><missingValueCode><code>-9999</code><codeExplanation>numberic value</codeExplanation></missingValueCode></attribute></attributeList><spatialReference scope="document"><horizCoordSysName>GCS_WGS_1984</horizCoordSysName></spatialReference><horizontalAccuracy><accuracyReport>Unknown</accuracyReport></horizontalAccuracy><verticalAccuracy><accuracyReport>Unknown</accuracyReport></verticalAccuracy><cellSizeXDirection>0.01</cellSizeXDirection><cellSizeYDirection>0.01</cellSizeYDirection><numberOfBands>1</numberOfBands><rasterOrigin>Upper Left</rasterOrigin><rows>371</rows><columns>203</columns><verticals>12</verticals><cellGeometry>pixel</cellGeometry></spatialRaster></dataset></ns0:eml>

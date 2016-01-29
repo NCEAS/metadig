@@ -1,0 +1,397 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1665.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset> <title>Survey of plant community structure in two large-herbivore exclosures</title>
+ <creator id="1366005757072"> <organizationName>Centre for African Conservation Ecology, Nelson Mandela Metropolitan University</organizationName>
+</creator>
+ <creator id="1366005772204"><organizationName>SANParks</organizationName>
+</creator>
+<abstract><para>A survey of plant community structure was conducted in two large-herbivore exclosures (200x200m) located in the Darlington-section of the Addo Elephant National Park. The exclosures were established in Sundays Noorsveld and Sunday Spekboomveld habitats, respectively, and each were divided into two sections, i.e. excluding all medium- and large-sized herbivores (full exclosure) and excluding only large-sized herbivores (partial exclosure). The current baseline-survey was conducted during 2009, and comprised the following: (1) recording the cover of all plant forms along four 50m line-transects located at each exclosure treatment, and (2) recording the structural characteristics of key plant species, including Euclea undulata, Schotia afra, Boscia oleoides, Pappea capensis and Euphorbia caerulescens. Individual plants were permanently marked and the following variables recorded: maximum canopy height, canopy dimensions, and degree of branching. These quadrats are surveyed at regular intervals.</para>
+</abstract>
+<keywordSet><keyword>SANParks, South Africa, Addo Elephant National Park, South Africa</keyword>
+<keyword>Exclosure surveys,</keyword>
+</keywordSet>
+<intellectualRights><para>Restricted please contact M Landman about use of this data</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>AddoElephantNationalPark</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>24.961638</westBoundingCoordinate>
+<eastBoundingCoordinate>26.663796</eastBoundingCoordinate>
+<northBoundingCoordinate>-33.071541</northBoundingCoordinate>
+<southBoundingCoordinate>-33.772324</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2009</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+</coverage>
+<contact id="1366005787524"><individualName><givenName>Marietjie</givenName>
+<surName>Landman</surName>
+</individualName>
+<electronicMailAddress>marietjie.landman@nmmu.ac.za</electronicMailAddress>
+</contact>
+<dataTable id="1366007210319"><entityName>Exclosurelocations.txt</entityName>
+<physical id="1366007099915"><objectName>Exclosurelocations.txt</objectName>
+<size unit="byte">760</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1661.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366007210334"><attributeName>Location</attributeName>
+<attributeDefinition>Loction of the ecclosure</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Sundays Noorsveld</code>
+<definition>Noorsveld vegetation community</definition>
+</codeDefinition>
+<codeDefinition><code>Sundays Spekboomveld</code>
+<definition>Spekboomveld</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366007210350"><attributeName>Treatment</attributeName>
+<attributeDefinition>Treatment</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Full</code>
+<definition>Full exclosure</definition>
+</codeDefinition>
+<codeDefinition><code>Partial</code>
+<definition>Partial exclosure</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366007210366"><attributeName>E</attributeName>
+<attributeDefinition>Eastern location of exclosure</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366007210381"><attributeName>S</attributeName>
+<attributeDefinition>Southern loction of exclosure</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>16</numberOfRecords>
+</dataTable>
+<dataTable id="1366007377523"><entityName>TransectLocations.txt</entityName>
+<physical id="1366007308569"><objectName>TransectLocations.txt</objectName>
+<size unit="byte">1157</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1662.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366007377538"><attributeName>Transect Loc.</attributeName>
+<attributeDefinition>TRansect location</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Sundays Noorsveld</code>
+<definition>Noorsveld</definition>
+</codeDefinition>
+<codeDefinition><code>Sundays Spekboomveld</code>
+<definition>Spekboomveld</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366007377554"><attributeName>Treatment</attributeName>
+<attributeDefinition>Treatment</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Full</code>
+<definition>full</definition>
+</codeDefinition>
+<codeDefinition><code>Partial</code>
+<definition>partial</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366007377570"><attributeName>Number</attributeName>
+<attributeDefinition>Number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366007377585"><attributeName>Start (E)</attributeName>
+<attributeDefinition>Start (E)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366007377601"><attributeName>Start (S)</attributeName>
+<attributeDefinition>Start (S)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366007377616"><attributeName>End (E)</attributeName>
+<attributeDefinition>End (E)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366007377632"><attributeName>End (S)</attributeName>
+<attributeDefinition>End (S)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>16</numberOfRecords>
+</dataTable>
+<dataTable id="1366007563044"><entityName>Plantcover.txt</entityName>
+<physical id="1366007434589"><objectName>Plantcover.txt</objectName>
+<size unit="byte">3496</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1663.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366007563059"><attributeName>Exclosure</attributeName>
+<attributeDefinition>Exclosure</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Sundays Noorsveld</code>
+<definition>Noorsveld</definition>
+</codeDefinition>
+<codeDefinition><code>Sundays Spekboomveld</code>
+<definition>Spekboomveld</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366007563075"><attributeName>Treatment</attributeName>
+<attributeDefinition>Treatment</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Full</code>
+<definition>Full</definition>
+</codeDefinition>
+<codeDefinition><code>Partial</code>
+<definition>Partial</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366007563091"><attributeName>Plant form</attributeName>
+<attributeDefinition>Plant form</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Plant forms</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366007563106"><attributeName>Transect</attributeName>
+<attributeDefinition>Transect number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366007563122"><attributeName>Cover (m)</attributeName>
+<attributeDefinition>Cover (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>73</numberOfRecords>
+</dataTable>
+<dataTable id="1366008280349"><entityName>Individualstructure.txt</entityName>
+<physical id="1366007748268"><objectName>Individualstructure.txt</objectName>
+<size unit="byte">18108</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1664.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366008280365"><attributeName>Exclosure</attributeName>
+<attributeDefinition>Exclosure</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Sundays Noorsveld</code>
+<definition>Noorsveld</definition>
+</codeDefinition>
+<codeDefinition><code>Sundays Spekboomveld</code>
+<definition>Spekboomveld</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366008280380"><attributeName>Treatment</attributeName>
+<attributeDefinition>Treatment</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Full</code>
+<definition>Full</definition>
+</codeDefinition>
+<codeDefinition><code>Partial</code>
+<definition>Partial</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366008280396"><attributeName>Plant species</attributeName>
+<attributeDefinition>Plant species</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Plant species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366008280412"><attributeName>LocE</attributeName>
+<attributeDefinition>Eastern location of the measured plant</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366008280427"><attributeName>LocS</attributeName>
+<attributeDefinition>Southern GPS position of the measured plant</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366008280443"><attributeName>Indiv.</attributeName>
+<attributeDefinition>Individaul number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366008280458"><attributeName>Height (cm)</attributeName>
+<attributeDefinition>Height in cm</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366008280474"><attributeName>D1 (cm)</attributeName>
+<attributeDefinition>First diameter of the measured plant</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366008280490"><attributeName>D2 (cm)</attributeName>
+<attributeDefinition>Secnd diameter of the measured plant</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366008280505"><attributeName>BasalBranches</attributeName>
+<attributeDefinition>No of Basal branches</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366008280521"><attributeName>PrimaryBranches</attributeName>
+<attributeDefinition>No of primary branches</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366008280536"><attributeName>-9</attributeName>
+<attributeDefinition>-9</attributeDefinition>
+<measurementScale><dateTime><formatString>-9</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>214</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

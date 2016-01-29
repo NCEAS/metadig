@@ -1,0 +1,223 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="lusteve.93.7" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Soil infiltration and runoff path on afforestation of plain areas at Pingtung of southern Taiwan</title>
+ <creator id="1375339185193"> <individualName><givenName>Hui-sheng</givenName>
+ <surName>Lu</surName>
+ </individualName>
+ <organizationName>Division of Watershed Management, Taiwan Forestry Research Institute</organizationName>
+ <positionName>Senior Scientist and Head</positionName>
+ <address><deliveryPoint>53, Nanhai Road</deliveryPoint>
+ <city>Taipei</city>
+ <administrativeArea>Taiwan</administrativeArea>
+ <postalCode>100</postalCode>
+ <country>R.O.C.</country>
+ </address>
+ <phone phonetype="voice">886-2-23039978ext.1624</phone>
+ <electronicMailAddress>lusteve@tfri.gov.tw</electronicMailAddress>
+ </creator>
+ <abstract><para>Soil infiltration was one of important factors in affecting soil and water losses. If soil infiltration on hillslope was large, the rainfall excess would be small. Then surface runoff and soil loss of slopeland would be also small. This study used pond-type infiltrometer to perform measuring infiltration rates on forest plantation and neighboring orchard and grass lands at Shihlin and Linhou farming land of Chaochou area, Pingtung County of southern Taiwan. The final infiltration rates of topsoil at different land uses were as follows: forest plantation (103.7 mm/h), grass land (56.1 mm/h), and orchard (42.0 mm/h). The final infiltration rates of subsoil at different land uses were as follows:forest plantation (9.9 mm/h), grass land (13.3 mm/h), and orchard (6.9 mm/h). Final soil infiltration rates were decreasing from topsoil to subsoil. The final infiltration rate of topsoil at forest plantation was smaller than rainfall intensity (103.8 mm/h) of 50 recurrence years at Pingtung, so no Horton's overland flow happened to forest plantation every 50 recurrence years. However, the final infiltration rate of subsoil at forest plantation was smaller than rainfall intensity (53.2 mm/h) of 1 recurrence year at Pingtung, so saturation overland flow happened to forest plantation every recurrence year. The final infiltration rate of topsoil at grass land was smaller than rainfall intesity (62.2 mm/h) of 2 recurrence years at Pingtung, so Horton's overland flow happened to grass land every 2 recurrence years. The final infiltration rate of topsoil at orchard land was smaller rainfall intensity of 1 recurrence year at Pingtung, so Horton's overland flow happened to orchard land every recurrence year. The final infiltration rates of subsoil at orchard and grass lands were smaller than rainfall intensity of 1 recurrence year at Pingtung, so saturation overland flow happened to orchard and grass lands every year.</para>
+ </abstract>
+ <keywordSet><keyword>soil infiltration</keyword>
+ </keywordSet>
+ <keywordSet><keyword>rainfall intensity</keyword>
+ </keywordSet>
+ <keywordSet><keyword>afforestation of plain areas</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data is only for academic uses</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Chaochou area of Pingtung County of southern Taiwan</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>120.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>120.75</eastBoundingCoordinate>
+ <northBoundingCoordinate>22.5</northBoundingCoordinate>
+ <southBoundingCoordinate>22.375</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>2010</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1375339548937"><individualName><givenName>Hui-sheng</givenName>
+ <surName>Lu</surName>
+ </individualName>
+ <organizationName>Division of Watershed Management, Taiwan Forestry Research Institute</organizationName>
+ <positionName>Senior Scientist and Head</positionName>
+ <address><deliveryPoint>53, Naihai Road</deliveryPoint>
+ <city>Taipei</city>
+ <administrativeArea>Taiwan</administrativeArea>
+ <postalCode>100</postalCode>
+ <country>R.O.C</country>
+ </address>
+ <phone phonetype="voice">886-2-23039978ext.1624</phone>
+ <electronicMailAddress>lusteve@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Infiltration measurement</title>
+ <para>Infiltration measurement used pond-type infiltrometer to perform measuring infiltration rates on forest plantation and neighboring orchard and grass lands.</para>
+ </section>
+ </description>
+ <instrumentation>Infiltrometer is 14.75 cm in diameter, 60 cm in height for store water, as well as  inner ring 15 cm and outer ring 30 cm in diameter to confine ground boundary.</instrumentation>
+ </methodStep>
+ </methods>
+ <dataTable id="1375349368827"><entityName>Data of infiltration at Shihlin and Linhou farming land of Chaochou area, Pingtung county of southern Taiwan.csv</entityName>
+ <entityDescription>Data of infiltration at Shinlin and Linhou farming land of Chaochou area, Pingtung county of southern Taiwan</entityDescription>
+ <physical id="1375342178106"><objectName>Data of infiltration at Shihlin and Linhou farming land of Chaochou area, Pingtung county of southern Taiwan.csv</objectName>
+ <size unit="byte">508</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/lusteve.94.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1375349368843"><attributeName>time (hr)</attributeName>
+ <attributeLabel>T(hr)</attributeLabel>
+ <attributeDefinition>time (hr) of infiltration test</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>hour</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">2</maximum>
+ </bounds>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368859"><attributeName>infiltration rate of topsoil for S.m. plantation (mm/hr)</attributeName>
+ <attributeLabel>f(TS)</attributeLabel>
+ <attributeDefinition>infiltaration rate of topsoil for Swietenia macrophylla plantation  (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368874"><attributeName>infiltration rate of subsoil for S.m. plantation (mm/hr)</attributeName>
+ <attributeLabel>f(SS)</attributeLabel>
+ <attributeDefinition>infiltration rate of subsoil for Swietenia macrophylla plantation (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368890"><attributeName>infiltration rate of topsoil for Z.f. plantation (mm/hr)</attributeName>
+ <attributeLabel>f(TZ)</attributeLabel>
+ <attributeDefinition>infiltration rate of topsoil for Zelkova formosana plantation (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368905"><attributeName>infiltration rate of subsoil for Z.f. plantation (mm/hr)</attributeName>
+ <attributeLabel>f(SZ)</attributeLabel>
+ <attributeDefinition>infiltration rate of subsoil for Zelkava formosana plantation (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368921"><attributeName>infiltration rate of topsoil for F.f. plantation (mm/hr)</attributeName>
+ <attributeLabel>f(TF)</attributeLabel>
+ <attributeDefinition>infiltration rate of topsoil for Fraxinus formosana plantation</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368937"><attributeName>infiltration rate of subsoil for F.f. plantation (mm/hr)</attributeName>
+ <attributeLabel>f(SF)</attributeLabel>
+ <attributeDefinition>infiltration rate of subsoil for Fraxinus formosana plantation (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368952"><attributeName>infiltration rate of topsoil for orchard (mm/hr)</attributeName>
+ <attributeLabel>f(TO)</attributeLabel>
+ <attributeDefinition>infiltration rate of topsoil for banana orchard (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368968"><attributeName>infiltration rate of subsoil for orchard (mm/hr)</attributeName>
+ <attributeLabel>f(SO)</attributeLabel>
+ <attributeDefinition>infiltration rate of subsoil for banana orchard (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><standardUnit>kilometersPerHour</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368983"><attributeName>infiltration rate of topsoil for grass land (mm/hr)</attributeName>
+ <attributeLabel>f(TG)</attributeLabel>
+ <attributeDefinition>infiltration rate of topsoil for grass land (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375349368999"><attributeName>infiltration rate of subsoil for grass land (mm/hr)</attributeName>
+ <attributeLabel>f(SG)</attributeLabel>
+ <attributeDefinition>infiltration rate of subsoil for grass land (mm/hr)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale><interval><unit><customUnit>MillimetersPerHour</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>11</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unitType id="infiltrationrate" name="infiltrationrate"><dimension name="Length" />
+ <dimension name="Time" power="-1" />
+ </unitType>
+ <unit id="MillimetersPerHour" multiplierToSI="0.00000028" name="MillimetersPerHour" parentSI="metersPerSecond" unitType="infiltrationrate"><description>speed unit</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

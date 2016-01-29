@@ -1,0 +1,835 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="rperez.3.1" scope="system" system="Linaria" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="Linaria" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset id="1" scope="document" system="Linaria"> <title>Producto de 1 d&#237;a</title>
+ <creator id="cre_5" scope="document"> <individualName> <givenName>Ram&#243;n</givenName>
+ <surName>P&#233;rez</surName>
+ </individualName>
+ <address scope="document"> <city>Granada</city>
+ <postalCode>180233</postalCode>
+ <country>ES</country>
+ </address>
+ <electronicMailAddress>ramon.pperez@gmail.com</electronicMailAddress>
+ </creator>
+ <metadataProvider id="res_5" scope="document"> <individualName> <givenName>Ram&#243;n</givenName>
+ <surName>P&#233;rez</surName>
+ </individualName>
+ <address scope="document"> <city>Granada</city>
+ <postalCode>180233</postalCode>
+ <country>ES</country>
+ </address>
+ <electronicMailAddress>ramon.pperez@gmail.com</electronicMailAddress>
+ </metadataProvider>
+ <metadataProvider id="publicador" scope="document"> <organizationName>Laboratorio de Ecologia Terrestre de la Universidad de Granada</organizationName>
+ <onlineUrl>http://apps.iecolab.es/linaria</onlineUrl>
+ </metadataProvider>
+ <pubDate>2010-02-26</pubDate>
+ <language>es</language>
+ <abstract> <para>Imagen diaria de la cubierta de la nieve mediante las im&#225;genes MODIS</para>
+ </abstract>
+ <keywordSet> <keyword>Nasa</keyword>
+ <keyword>modis</keyword>
+ </keywordSet>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2000-01-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2010-02-26</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>cre_5</references>
+ </contact>
+ <contact scope="document"> <references>res_5</references>
+ </contact>
+ <contact scope="document"> <references>publicador</references>
+ </contact>
+ <publisher scope="document"> <references>publicador</references>
+ </publisher>
+ <project scope="document"> <title>Observatorio del cambio global de Sierra Nevada</title>
+ <personnel scope="document"> <references>publicador</references>
+ <role>distributor</role>
+ </personnel>
+ <abstract> <para>La finalidad de este proyecto es sentar las bases para el establecimiento de un observatorio permanente para evaluar los efectos del cambio global en Sierra Nevada. Nuestras premisas de partida son que, para lograr manejar los recursos de manera adaptativa, es fundamental contar con informaci&#243;n actualizada, sistem&#225;tica y de calidad sobre los distintos aspectos que configuran los sistemas naturales. Tambi&#233;n es importante que tanto la informaci&#243;n en bruto como el conocimiento que resulta de su an&#225;lisis y procesamiento, llegue a los distintos actores sociales mediante un s&#243;lido proceso de difusi&#243;n de resultados.</para>
+ </abstract>
+ <relatedProject scope="document"> <title>Observatorio Cambio Global</title>
+ <personnel scope="document"> <references>publicador</references>
+ <role>processor</role>
+ </personnel>
+ <abstract>Seguimiento del cambio global en Sierra Nevada.</abstract>
+ <funding>Consejer&#237;a de Medio Ambiente.</funding>
+ <studyAreaDescription> <descriptor citableClassificationSystem="false" name="Sierra Nevada"> <descriptorValue>Sierra Nevada</descriptorValue>
+ </descriptor>
+ </studyAreaDescription>
+ </relatedProject>
+ <relatedProject scope="document"> <title>Banco de im&#225;genes de la NASA</title>
+ <personnel scope="document"> <references>publicador</references>
+ <role>processor</role>
+ </personnel>
+ <abstract>Portal que permite la descarga de im&#225;genes de la nasa</abstract>
+ <funding>NASA</funding>
+ <studyAreaDescription> <descriptor citableClassificationSystem="false" name="Global"> <descriptorValue>Global</descriptorValue>
+ </descriptor>
+ </studyAreaDescription>
+ </relatedProject>
+ </project>
+ <dataTable id="dat_84" scope="document"> <entityName>ambitotematicos</entityName>
+ <physical scope="document"> <objectName>ambitotematicos.csv</objectName>
+ <characterEncoding>UTF-8</characterEncoding>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <numFooterLines>0</numFooterLines>
+ <recordDelimiter>\n</recordDelimiter>
+ <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>;</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">http://apps.iecolab.es/linaria/metadatos/metadatosmodelosdatos/eml_csv/ambitotematicos</url>
+ </online>
+ <access authSystem="Linaria" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="dat_84_atr_1023" scope="document"> <attributeName>id</attributeName>
+ <attributeLabel>Id</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1024" scope="document"> <attributeName>nombre</attributeName>
+ <attributeLabel>Nombre</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1025" scope="document"> <attributeName>orden</attributeName>
+ <attributeLabel>Orden</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1026" scope="document"> <attributeName>controller</attributeName>
+ <attributeLabel>Controller</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1027" scope="document"> <attributeName>action</attributeName>
+ <attributeLabel>Action</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1028" scope="document"> <attributeName>url</attributeName>
+ <attributeLabel>Url</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1029" scope="document"> <attributeName>parameters</attributeName>
+ <attributeLabel>Parameters</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1030" scope="document"> <attributeName>ambitotematico_id</attributeName>
+ <attributeLabel>Ambitotematico</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1031" scope="document"> <attributeName>created_at</attributeName>
+ <attributeLabel>Created at</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1032" scope="document"> <attributeName>updated_at</attributeName>
+ <attributeLabel>Updated at</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1033" scope="document"> <attributeName>datawarehouse</attributeName>
+ <attributeLabel>Datawarehouse</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">boolean</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1034" scope="document"> <attributeName>wiki</attributeName>
+ <attributeLabel>Wiki</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_84_atr_1035" scope="document"> <attributeName>metadatosrecurso_id</attributeName>
+ <attributeLabel>Metadatosrecurso</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <constraint scope="document"> <primaryKey> <constraintName>constraint_84_primarykey</constraintName>
+ <key> <attributeReference>dat_84_atr_1023</attributeReference>
+ </key>
+ </primaryKey>
+ </constraint>
+ <constraint scope="document"> <foreignKey> <constraintName>rel_84_con_131</constraintName>
+ <key> <attributeReference>dat_84_atr_1035</attributeReference>
+ </key>
+ <entityReference>dat_131</entityReference>
+ <cardinality> <parentOccurences>0</parentOccurences>
+ <childOccurences>many</childOccurences>
+ </cardinality>
+ </foreignKey>
+ </constraint>
+ <constraint scope="document"> <foreignKey> <constraintName>rel_84_con_84</constraintName>
+ <key> <attributeReference>dat_84_atr_1030</attributeReference>
+ </key>
+ <entityReference>dat_84</entityReference>
+ <cardinality> <parentOccurences>0</parentOccurences>
+ <childOccurences>many</childOccurences>
+ </cardinality>
+ </foreignKey>
+ </constraint>
+ </dataTable>
+ <dataTable id="dat_95" scope="document"> <entityName>entidads</entityName>
+ <physical scope="document"> <objectName>entidads.csv</objectName>
+ <characterEncoding>UTF-8</characterEncoding>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <numFooterLines>0</numFooterLines>
+ <recordDelimiter>\n</recordDelimiter>
+ <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>;</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">http://apps.iecolab.es/linaria/metadatos/metadatosmodelosdatos/eml_csv/entidads</url>
+ </online>
+ <access authSystem="Linaria" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="dat_95_atr_1090" scope="document"> <attributeName>id</attributeName>
+ <attributeLabel>Id</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_95_atr_1091" scope="document"> <attributeName>nombre</attributeName>
+ <attributeLabel>Nombre</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_95_atr_1092" scope="document"> <attributeName>tipoentidad_id</attributeName>
+ <attributeLabel>Tipoentidad</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_95_atr_1093" scope="document"> <attributeName>entidad_id</attributeName>
+ <attributeLabel>Entidad</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_95_atr_1094" scope="document"> <attributeName>created_at</attributeName>
+ <attributeLabel>Created at</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_95_atr_1095" scope="document"> <attributeName>updated_at</attributeName>
+ <attributeLabel>Updated at</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_95_atr_1096" scope="document"> <attributeName>poligono</attributeName>
+ <attributeLabel>Poligono</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">geometry</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <constraint scope="document"> <primaryKey> <constraintName>constraint_95_primarykey</constraintName>
+ <key> <attributeReference>dat_95_atr_1090</attributeReference>
+ </key>
+ </primaryKey>
+ </constraint>
+ <constraint scope="document"> <foreignKey> <constraintName>rel_95_con_95</constraintName>
+ <key> <attributeReference>dat_95_atr_1093</attributeReference>
+ </key>
+ <entityReference>dat_95</entityReference>
+ <cardinality> <parentOccurences>0</parentOccurences>
+ <childOccurences>many</childOccurences>
+ </cardinality>
+ </foreignKey>
+ </constraint>
+ </dataTable>
+ <dataTable id="dat_131" scope="document"> <entityName>metadatosrecursos</entityName>
+ <physical scope="document"> <objectName>metadatosrecursos.csv</objectName>
+ <characterEncoding>UTF-8</characterEncoding>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <numFooterLines>0</numFooterLines>
+ <recordDelimiter>\n</recordDelimiter>
+ <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>;</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">http://apps.iecolab.es/linaria/metadatos/metadatosmodelosdatos/eml_csv/metadatosrecursos</url>
+ </online>
+ <access authSystem="Linaria" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="dat_131_atr_1332" scope="document"> <attributeName>id</attributeName>
+ <attributeLabel>Id</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1333" scope="document"> <attributeName>titulo</attributeName>
+ <attributeLabel>Titulo</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1334" scope="document"> <attributeName>resumen</attributeName>
+ <attributeLabel>Resumen</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1335" scope="document"> <attributeName>palabras_clave</attributeName>
+ <attributeLabel>Palabras clave</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1336" scope="document"> <attributeName>fecha_publicacion</attributeName>
+ <attributeLabel>Fecha publicacion</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1337" scope="document"> <attributeName>metadatoscontacto_creador_id</attributeName>
+ <attributeLabel>Metadatoscontacto creador</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1338" scope="document"> <attributeName>metadatoscontacto_responsable_id</attributeName>
+ <attributeLabel>Metadatoscontacto responsable</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1339" scope="document"> <attributeName>metadatosidioma_id</attributeName>
+ <attributeLabel>Metadatosidioma</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1340" scope="document"> <attributeName>metadatoscodcaracter_id</attributeName>
+ <attributeLabel>Metadatoscodcaracter</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1341" scope="document"> <attributeName>metadatosniveljerarquico_id</attributeName>
+ <attributeLabel>Metadatosniveljerarquico</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1342" scope="document"> <attributeName>metadatostematica_id</attributeName>
+ <attributeLabel>Metadatostematica</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1343" scope="document"> <attributeName>metadatosformatorecurso_id</attributeName>
+ <attributeLabel>Metadatosformatorecurso</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1344" scope="document"> <attributeName>metadatosformatodistribucion_id</attributeName>
+ <attributeLabel>Metadatosformatodistribucion</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1345" scope="document"> <attributeName>proposito</attributeName>
+ <attributeLabel>Proposito</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1346" scope="document"> <attributeName>uso_especifico</attributeName>
+ <attributeLabel>Uso especifico</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1347" scope="document"> <attributeName>metadatosestado_id</attributeName>
+ <attributeLabel>Metadatosestado</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1348" scope="document"> <attributeName>protocoloscampo_id</attributeName>
+ <attributeLabel>Protocoloscampo</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1349" scope="document"> <attributeName>cobertura_geografica</attributeName>
+ <attributeLabel>Cobertura geografica</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1350" scope="document"> <attributeName>coordenada_oeste</attributeName>
+ <attributeLabel>Coordenada oeste</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1351" scope="document"> <attributeName>coordenada_este</attributeName>
+ <attributeLabel>Coordenada este</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1352" scope="document"> <attributeName>coordenada_norte</attributeName>
+ <attributeLabel>Coordenada norte</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1353" scope="document"> <attributeName>coordenada_sur</attributeName>
+ <attributeLabel>Coordenada sur</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1354" scope="document"> <attributeName>altura_minima</attributeName>
+ <attributeLabel>Altura minima</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1355" scope="document"> <attributeName>altura_maxima</attributeName>
+ <attributeLabel>Altura maxima</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">decimal</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1356" scope="document"> <attributeName>metadatosunidade_id</attributeName>
+ <attributeLabel>Metadatosunidade</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1357" scope="document"> <attributeName>metadatostiporepespacial_id</attributeName>
+ <attributeLabel>Metadatostiporepespacial</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1358" scope="document"> <attributeName>metadatosepsg_id</attributeName>
+ <attributeLabel>Metadatosepsg</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1359" scope="document"> <attributeName>escala</attributeName>
+ <attributeLabel>Escala</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1360" scope="document"> <attributeName>raster</attributeName>
+ <attributeLabel>Raster</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1361" scope="document"> <attributeName>metadatoscobtemporal_id</attributeName>
+ <attributeLabel>Metadatoscobtemporal</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1362" scope="document"> <attributeName>fecha_concreta_recurso</attributeName>
+ <attributeLabel>Fecha concreta recurso</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1363" scope="document"> <attributeName>fecha_intervalo_inicio</attributeName>
+ <attributeLabel>Fecha intervalo inicio</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1364" scope="document"> <attributeName>fecha_intervalo_fin</attributeName>
+ <attributeLabel>Fecha intervalo fin</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1365" scope="document"> <attributeName>created_at</attributeName>
+ <attributeLabel>Created at</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1366" scope="document"> <attributeName>updated_at</attributeName>
+ <attributeLabel>Updated at</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_131_atr_1367" scope="document"> <attributeName>metadatosrecurso_id</attributeName>
+ <attributeLabel>Metadatosrecurso</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <constraint scope="document"> <primaryKey> <constraintName>constraint_131_primarykey</constraintName>
+ <key> <attributeReference>dat_131_atr_1332</attributeReference>
+ </key>
+ </primaryKey>
+ </constraint>
+ <constraint scope="document"> <foreignKey> <constraintName>rel_131_con_131</constraintName>
+ <key> <attributeReference>dat_131_atr_1367</attributeReference>
+ </key>
+ <entityReference>dat_131</entityReference>
+ <cardinality> <parentOccurences>0</parentOccurences>
+ <childOccurences>many</childOccurences>
+ </cardinality>
+ </foreignKey>
+ </constraint>
+ </dataTable>
+ <dataTable id="dat_157" scope="document"> <entityName>ambitotematicos_entidads</entityName>
+ <entityDescription>Ambitotematicos entidads</entityDescription>
+ <physical scope="document"> <objectName>ambitotematicos_entidads.csv</objectName>
+ <characterEncoding>UTF-8</characterEncoding>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <numFooterLines>0</numFooterLines>
+ <recordDelimiter>\n</recordDelimiter>
+ <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>;</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">http://apps.iecolab.es/linaria/metadatos/metadatosmodelosdatos/eml_csv/ambitotematicos_entidads</url>
+ </online>
+ <access authSystem="Linaria" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="dat_157_atr_1524" scope="document"> <attributeName>entidad_id</attributeName>
+ <attributeLabel>Entidad</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">int4</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_157_atr_1525" scope="document"> <attributeName>ambitotematico_id</attributeName>
+ <attributeLabel>Ambitotematico</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">int4</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_157_atr_1526" scope="document"> <attributeName>created_at</attributeName>
+ <attributeLabel>Created at</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="dat_157_atr_1527" scope="document"> <attributeName>updated_at</attributeName>
+ <attributeLabel>Updated at</attributeLabel>
+ <attributeDefinition>Sin descripcion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">timestamp</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>*</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <constraint scope="document"> <foreignKey> <constraintName>rel_157_con_84</constraintName>
+ <key> <attributeReference>dat_157_atr_1525</attributeReference>
+ </key>
+ <entityReference>dat_84</entityReference>
+ <cardinality> <parentOccurences>0</parentOccurences>
+ <childOccurences>many</childOccurences>
+ </cardinality>
+ </foreignKey>
+ </constraint>
+ <constraint scope="document"> <foreignKey> <constraintName>rel_157_con_95</constraintName>
+ <key> <attributeReference>dat_157_atr_1524</attributeReference>
+ </key>
+ <entityReference>dat_95</entityReference>
+ <cardinality> <parentOccurences>0</parentOccurences>
+ <childOccurences>many</childOccurences>
+ </cardinality>
+ </foreignKey>
+ </constraint>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

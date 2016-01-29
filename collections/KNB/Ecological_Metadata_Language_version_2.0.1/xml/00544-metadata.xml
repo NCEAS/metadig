@@ -1,0 +1,156 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="reeves.18.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>New Image Database</title>
+ <creator id="1156441659703" scope="document"> <individualName><salutation>Rick R</salutation>
+<givenName>Rick</givenName>
+<surName>Reeves</surName>
+</individualName>
+<organizationName>NCEAS</organizationName>
+</creator>
+ <associatedParty id="1156441700562" scope="document"><individualName><salutation>Rick R</salutation>
+<givenName>Rick</givenName>
+<surName>Reeves</surName>
+</individualName>
+<organizationName>NCEAS</organizationName>
+<role>Steward</role>
+</associatedParty>
+<abstract><para>Testing the use of Morpho to store image data</para>
+</abstract>
+<keywordSet><keyword>Remote Sensing</keyword>
+<keyword>Digital Imagery</keyword>
+</keywordSet>
+<intellectualRights><para>Steward has read/write
+All others have read only</para>
+</intellectualRights>
+<coverage scope="document"><geographicCoverage scope="document"><geographicDescription>Pt Barrow, AK</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-168.0</westBoundingCoordinate>
+<eastBoundingCoordinate>-155.125</eastBoundingCoordinate>
+<northBoundingCoordinate>75.375</northBoundingCoordinate>
+<southBoundingCoordinate>63.125</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage scope="document"><rangeOfDates><beginDate><calendarDate>2003-01-01</calendarDate>
+</beginDate>
+<endDate><calendarDate>2006-07-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact scope="document"><references>1156441659703</references>
+</contact>
+<methods><methodStep><description><section><title>Collect Images</title>
+<para>Select and acquire images</para>
+</section>
+</description>
+<instrumentation>Various remote sensing satellites</instrumentation>
+</methodStep>
+</methods>
+<access authSystem="knb" order="denyFirst" scope="document"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataTable id="1156442664343" scope="document"><entityName>ImageDBSheet</entityName>
+<entityDescription>Excel Spreadsheet containing digital image attributes</entityDescription>
+<physical scope="document"><objectName>ImageDBSheet.xls</objectName>
+<dataFormat> <externallyDefinedFormat><formatName>application/vnd.ms-excel</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution scope="document"><online><url function="download">ecogrid://knb/reeves.17.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1156442664359" scope="document"><attributeName>Image Location</attributeName>
+<attributeLabel>Image Location</attributeLabel>
+<attributeDefinition>Geographic location acquired by image</attributeDefinition>
+<storageType typeSystem="C">string</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Descriptive label</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1156442664375" scope="document"><attributeName>Nrows</attributeName>
+<attributeLabel>Number Rows</attributeLabel>
+<attributeDefinition>Number of image rows / scan lines</attributeDefinition>
+<storageType typeSystem="C">integer</storageType>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>0</precision>
+<numericDomain><numberType>natural</numberType>
+<bounds><minimum exclusive="true">1</minimum>
+<maximum exclusive="true">4000</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1156442664390" scope="document"><attributeName>Ncols</attributeName>
+<attributeLabel>Number image columns</attributeLabel>
+<attributeDefinition>Numbe of image columns/samples</attributeDefinition>
+<storageType typeSystem="c">integer</storageType>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>0</precision>
+<numericDomain><numberType>natural</numberType>
+<bounds><minimum exclusive="true">1</minimum>
+<maximum exclusive="true">4000</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1156442664406" scope="document"><attributeName>LambdaMin</attributeName>
+<attributeLabel>Min Spectral Band</attributeLabel>
+<attributeDefinition>Lower bound on sensor spectral bandpass</attributeDefinition>
+<storageType typeSystem="C">float</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>.001</precision>
+<numericDomain><numberType>natural</numberType>
+<bounds><minimum exclusive="true">1.0</minimum>
+<maximum exclusive="true">20.0</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1156442664421" scope="document"><attributeName>LambdaMax</attributeName>
+<attributeLabel>Upper wavelength</attributeLabel>
+<attributeDefinition>Upper bound on sensor spectral bandpass</attributeDefinition>
+<storageType typeSystem="c">float</storageType>
+<measurementScale><interval><unit><standardUnit>mole</standardUnit>
+</unit>
+<precision>.001</precision>
+<numericDomain><numberType>natural</numberType>
+<bounds><minimum exclusive="true">0.1</minimum>
+<maximum exclusive="true">20.0</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1156442664437" scope="document"><attributeName>SpatialResSqMeters</attributeName>
+<attributeLabel>Image Pixel Spatial Resolution</attributeLabel>
+<attributeDefinition>Image Pixel Resolution in Meters ** 2</attributeDefinition>
+<storageType typeSystem="C">float</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>.001</precision>
+<numericDomain><numberType>natural</numberType>
+<bounds><minimum exclusive="true">1</minimum>
+<maximum exclusive="true">2000</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1156442664453" scope="document"><attributeName>ImageAcqDate</attributeName>
+<attributeLabel>Image Acquisition Date</attributeLabel>
+<attributeDefinition>Calendar data of image acquisition</attributeDefinition>
+<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">Calendar date</storageType>
+<measurementScale><datetime><formatString>MM-DD-YYYY</formatString>
+</datetime>
+</measurementScale>
+</attribute>
+</attributeList>
+</dataTable>
+</dataset>
+ </ns0:eml>

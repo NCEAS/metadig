@@ -1,0 +1,110 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.48.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Fish diversity within branching-coral heads</title>
+<creator>
+<organizationName>Ben Gurion University</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Jonathan</givenName>
+<surName>Belmaker</surName>
+</individualName>
+<address>
+<country>Israel</country>
+</address>
+<electronicMailAddress>belmakej@bgu.ac.il</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Jonathan</givenName>
+<surName>Belmaker</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Jonathan</givenName>
+<surName>Belmaker</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2010-05-11</pubDate>
+<abstract>
+<para>We focused on fish diversity within branching-coral heads along a regional diversity gradient in the indo-pacific.  An identical hierarchical sampling design was employed in three regions that consisted of: 1) 6 sites in each region; 2) 5 transects in each site; 3) 25 coral heads in each transect.   Corals were generally identified to species level.   We recorded all fishes that were found directly within, above or below each coral.  Fishes that showed clear affiliation with the coral and swam around it were also recorded.</para>
+</abstract>
+<keywordSet>
+<keyword>Coral reef fishes</keyword>
+<keyword>Coral</keyword>
+<keyword>Indo-pacific</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>More details can be found in the manuscript:
+Regional variation in the hierarchical partitioning of alpha and beta diversity in coral-dwelling fishes (Ecology, 2008).</para>
+</additionalInfo>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2005</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2007</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Surveys were conducted in three geographically distinct provinces: 1. The Gulf of Aqaba, which is a distinct sub-region within the Red Sea; 2. Islands off the coasts of Tanzania, in the Western Indian Ocean; and 3. Islands on the Great Barrier Reef (GBR).</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>34.9331</westBoundingCoordinate>
+<eastBoundingCoordinate>34.9331</eastBoundingCoordinate>
+<northBoundingCoordinate>29.5000</northBoundingCoordinate>
+<southBoundingCoordinate>29.5000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Jonathan</givenName>
+<surName>Belmaker</surName>
+</individualName>
+<address>
+<country>Israel</country>
+</address>
+<electronicMailAddress>belmakej@bgu.ac.il</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Visual surveys</title>
+<para>An identical hierarchical sampling design was employed in all regions.  This consisted of six sampling sites, separated from each other by at least 15 km.  All sites were located in relatively calm waters exposed to little wave action and showed clear zonation with a distinct reef flat and slope.  Differences among sites in terms of reef structure and other possible gradients were minimized as much as possible.  At each site, 10 transects were established, 5 on the reef flat and 5 transects on the adjacent reef slope.  Reef flats were approximately 2-10 m inshore of breaking waves, whereas reef slopes were seaward at depths of 3-8 m.  Transects were placed haphazardly to encompass the spatial heterogeneity in reef types present in a site and were separated from each other by a minimum of 300 m (usually ~500 m).  Transect sampling was conducted by swimming along a straight line parallel to the depth contour and sampling coral heads that fell within 0.5 m of the sampler from either side. Sampling was performed by a single surveyor (J.B.) to reduce observer bias.</para>
+<para>We surveyed the first 25 coral heads in each transect.  As coral density may vary, the actual distance surveyed differed among transects.  Only colonies from the genera Stylophora, Pocillopora, Seriatopora and Acropora were included.  By focusing on these relatively common genera, we ensured that the dataset was not dominated by a large number of rare species, which would have substantially compromised statistical power in the "constrained" null models described below.  In addition, branching species belonging to these genera tended to form discrete coral heads, in contrast to other branching forms (e.g., Montipora digitata) that often form extensive, possibly monoclonal stands.  Coral colonies sampled were wider than 20 cm (as to avoid very small colonies containing few fish) and narrower than 100 cm (to avoid large coral stands that cannot be sampled accurately).  Coral diameter was calculated as the geometric mean of the length, width and height.  Sampled corals were separated by at least 50 cm from other corals so that fish movement among coral during sampling was minimized.  Corals were generally identified to species level.  However, since some closely related species are notoriously difficult to differentiate underwater, some species were combined and analyzed together as a single ecomorph (e.g., Acropora gemmifera and A. humilis).  We recorded all fishes that were found directly within, above or below each coral.  Fishes that showed clear affiliation with the coral and swam around it were also recorded.</para>
+</section></description></methodStep>
+</methods>
+</dataset></ns0:eml>

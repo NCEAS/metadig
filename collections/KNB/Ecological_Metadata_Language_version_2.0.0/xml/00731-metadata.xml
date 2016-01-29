@@ -1,0 +1,170 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.157.4" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.0 eml.xsd"> <dataset scope="document"> <title>Summer Birds Of Flathead Lake Biological Station</title>
+ <creator scope="document"> <organizationName>Flathead Lake Biological Station</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Charles</givenName>
+ <surName>Blem</surName>
+ </individualName>
+ <organizationName>Flathead Lake Biological Station</organizationName>
+ <address scope="document"> <deliveryPoint>311 Bio Station Lane</deliveryPoint>
+ <city>Polson</city>
+ <administrativeArea>Montana</administrativeArea>
+ <postalCode>59860-9659</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">406-982-3301</phone>
+ <phone phonetype="Fax">406-982-3201</phone>
+ <electronicMailAddress>flbs@flbs.umt.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Jeremy</givenName>
+ <surName>Nigon</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Leann</givenName>
+ <surName>Blem</surName>
+ </individualName>
+ <role>Principal Investigator</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Jack</givenName>
+ <surName>Stanford</surName>
+ </individualName>
+ <role>Principal Investigator</role>
+ </associatedParty>
+ <abstract> <para>The following birds include all species recorded on and around the Flathead Lake Biological Station over the past decade. (~1990-2004)</para>
+ </abstract>
+ <keywordSet> <keyword>summer birds</keyword>
+ <keywordThesaurus>none</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Flathead Lake Biological Station</keyword>
+ <keywordThesaurus>none</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>Northwest Montana</keyword>
+ <keywordThesaurus>none</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>training</keyword>
+ <keywordThesaurus>none</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>obtain permission from originator(s)</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <singleDateTime> <calendarDate>1990-01-01</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Flathead Lake Biological Station - East shore of Flathead Lake in Northwest Montana, USA.</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-114.0317</westBoundingCoordinate>
+ <eastBoundingCoordinate>-114.0317</eastBoundingCoordinate>
+ <northBoundingCoordinate>47.8764</northBoundingCoordinate>
+ <southBoundingCoordinate>47.8764</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Charles</givenName>
+ <surName>Blem</surName>
+ </individualName>
+ <organizationName>Flathead Lake Biological Station</organizationName>
+ <address scope="document"> <deliveryPoint>311 Bio Station Lane</deliveryPoint>
+ <city>Polson</city>
+ <administrativeArea>Montana</administrativeArea>
+ <postalCode>59860-9659</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">406-982-3301</phone>
+ <phone phonetype="Fax">406-982-3201</phone>
+ <electronicMailAddress>flbs@flbs.umt.edu</electronicMailAddress>
+ </contact>
+ <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=jeremy.nigon,o=OBFS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataTable id="1098138535453" scope="document"><entityName>flbsbirds.csv</entityName>
+<entityDescription> </entityDescription>
+<physical id="1098138533609" scope="document"><objectName>flbsbirds.csv</objectName>
+<size unit="byte">4018</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution scope="document"><online><url function="download">ecogrid://knb/jeremy.nigon.7.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1098138535468" scope="document"><attributeName>Common Name</attributeName>
+<attributeDefinition>Birds of the Flathead Lake Biological Station - 
+Common Name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>free-form</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1098138535484" scope="document"><attributeName>Species Name</attributeName>
+<attributeDefinition>Birds of the Flathead Lake Biological Station - 
+Species Name (when known)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>free-form</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1098138535500" scope="document"><attributeName>Freq</attributeName>
+<attributeDefinition>Frequency of species around FLBS grounds</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>T</code>
+<definition>Transient</definition>
+</codeDefinition>
+<codeDefinition><code>A</code>
+<definition>Abundant:  seen every day</definition>
+</codeDefinition>
+<codeDefinition><code>B</code>
+<definition>Breeding Species (number of nests)</definition>
+</codeDefinition>
+<codeDefinition><code>R</code>
+<definition>Rare: seen 1-2 times each summer or less</definition>
+</codeDefinition>
+<codeDefinition><code>C</code>
+<definition>Common</definition>
+</codeDefinition>
+<codeDefinition><code>?</code>
+<definition>Number of nests unknown, but more than 3</definition>
+</codeDefinition>
+<codeDefinition><code>??</code>
+<definition>Number of nests unknown, but more than 10</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1098138535515" scope="document"><attributeName># of Nests</attributeName>
+<attributeDefinition>Actual number of nests, if observed</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>value</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1098138535531" scope="document"><attributeName>Blank row</attributeName>
+<attributeDefinition>blank</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>blank</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>93</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><describes>1098138533609</describes>
+<consecutiveDelimiters>true</consecutiveDelimiters>
+</additionalMetadata>
+</ns0:eml>

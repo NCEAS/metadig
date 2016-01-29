@@ -1,0 +1,27 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="asdf.4.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.0 eml.xsd">
+<dataset scope="document">
+<title>Minimal Package with Data</title>
+<creator scope="document"> <individualName><surName>Higgins</surName></individualName></creator>
+<abstract><para>This is an abstract of the package</para></abstract>
+<contact scope="document"><individualName><surName>Higgins</surName></individualName></contact>
+<access authSystem="knb" order="denyFirst" scope="document"><allow><principal>public</principal><permission>read</permission></allow></access>
+<dataTable id="1117749528859" scope="document">
+<entityName>TestTable</entityName>
+<physical scope="document"><objectName>~deleteme28552.tmp</objectName>
+<dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited> </textFormat> </dataFormat>
+<distribution scope="document"><online><url function="download">ecogrid://knb/doc.1140735051061.1</url></online></distribution>
+</physical>
+<attributeList><attribute id="1117749528890" scope="document"><attributeName>Atribute</attributeName>
+<attributeDefinition>Attibute definition</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>number</standardUnit>
+</unit>
+<precision>1</precision>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+</dataTable> </dataset></ns0:eml>

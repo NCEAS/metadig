@@ -1,0 +1,548 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35b.28.9" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset> <title>Long-Term Observation Program (LTOP) Seward Line CTD data, Gulf of Alaska (1997-2010)</title>
+ <creator id="1372865751958"> <individualName><salutation>Dr</salutation>
+ <givenName>Thomas J. (Tom)</givenName>
+ <surName>Weingartner</surName>
+ </individualName>
+ <organizationName>University of Alaska Fairbanks</organizationName>
+ <positionName>Professor of Physical Oceanography</positionName>
+ <address><deliveryPoint>Institute of Marine Science, 115 O'Neill</deliveryPoint>
+ <deliveryPoint>P.O. Box 757220</deliveryPoint>
+ <city>Fairbanks</city>
+ <administrativeArea>Alaska</administrativeArea>
+ <postalCode>99775-7220</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 474-7993</phone>
+ <electronicMailAddress>tjweingartener@alaska.edu</electronicMailAddress>
+ <onlineUrl>http://www.sfos.uaf.edu/sewardline/Current_investigators.html</onlineUrl>
+ </creator>
+ <creator id="1372865875045"><individualName><salutation>Dr</salutation>
+ <givenName>Russell</givenName>
+ <surName>Hopcroft</surName>
+ </individualName>
+ <organizationName>University of Alaska, Fairbanks, School of Fisheries &amp; Ocean Sciences</organizationName>
+ <positionName>Full Professor</positionName>
+ <address><deliveryPoint>120 O'Neill</deliveryPoint>
+ <deliveryPoint>PO Box 757220</deliveryPoint>
+ <city>Fairbanks</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99775-7220</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 474-7842</phone>
+ <phone phonetype="fax">(907) 474-7204</phone>
+ <electronicMailAddress>rrhopcroft@alaska.edu</electronicMailAddress>
+ <onlineUrl>http://www.sfos.uaf.edu/sewardline/Current_investigators.html</onlineUrl>
+ </creator>
+ <associatedParty><references>1372865875045</references>
+ <role>Principal Investigator - LTOP</role>
+ </associatedParty>
+ <associatedParty><references>1372865751958</references>
+ <role>Principal Investigator - CTD data</role>
+ </associatedParty>
+ <associatedParty id="1372866238243"><individualName><givenName>Jessica</givenName>
+ <surName>Couture</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Research Assistant</positionName>
+ <address><deliveryPoint>735 State St. Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>CA</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <electronicMailAddress>couture@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <abstract><para>This project is a component of the integrated Long-term Monitoring of Marine Conditions and Injured Resources and Services submitted by McCammon et. al. The ocean undergoes year-to-year variability in the physical environment, superimposed on longerterm cycles, and potential long-term trends. These variations influence ocean chemistry, and propagate through the lower trophic levels, ultimately influencing fish, seabirds and marine mammals. Over the past 50 years the Northern Pacific appears to have undergone at least one clear regime shift, while the last 12 years have seen multi-years shifts of major atmospheric indices, leaving uncertainty about what regime the coastal Gulf of Alaska is currently in. Regime shifts are often expressed as fundamental shifts in ecosystem structure and function, such as the 1976 regime shift that resulted in a change from a shrimp dominated fisheries to one dominated by pollock, salmon and halibut. Long-term observations are also critical to describe the current state, and natural variability inherent in an ecosystem at risk of significant anthropogenic impact. Given the potential for such profound impacts, this dataset continues a multidisciplinary observation program which began in 1997 along the Seward Line and in PWS and will continue to assess the current state of the Northern Gulf of Alaska, during 2012-2017. Such observations form critical indices of ecosystems status that help us understand some key aspects of the stability or change in upper ecosystems components for both the short and longerterm. By analogy, the weather has been for more than a hundred years, yet regular observations are still needed to know what is happening and what can be expected in the near future. 
+
+This data was collected by Dr. Tom Weingartner of the Institute of Marine Science, University of Alaska Fairbanks for the Gulf of Alaska LTOP (Long Term Observation Project) funded by various funders. The area of coverage is the Gulf of Alaska during 1997-2010.</para>
+ </abstract>
+ <keywordSet><keyword>Gulf of Alaska</keyword>
+ <keyword>Seward Line</keyword>
+ <keyword>Conductivity</keyword>
+ <keyword>Temperature</keyword>
+ <keyword>Density</keyword>
+ <keyword>CTD</keyword>
+ <keyword>oceanography</keyword>
+ <keyword>environmental drivers</keyword>
+ </keywordSet>
+ <keywordSet><keyword>EVOSTC</keyword>
+ <keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+ <keyword>EVOS Gulf Watch Projects</keyword>
+ <keyword>Oil Spill</keyword>
+ <keyword>Exxon Valdez</keyword>
+ <keyword>Exxon Valdez</keyword>
+ <keyword>Environmental Drivers</keyword>
+ <keyword>Ocean and Atmosphere</keyword>
+ <keyword>Shoreline Habitat and Sensitivity</keyword>
+ <keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights><para>This material is based upon work funded multiple entities, in particular, the US National Science Foundation, the National Oceanic and Atmospheric Administration, the North Pacific Research Board, and the Alaska Ocean Observing System. Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the funding agencies. Standard scientific norms for attribution credit, and potential co-authorship, should be followed when using these data including to the Owners, and sources of funding. Please let the Owner know when these data are used.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Seward Line, Gulf of Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-150.9358</westBoundingCoordinate>
+ <eastBoundingCoordinate>-143.6689</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.2601</northBoundingCoordinate>
+ <southBoundingCoordinate>57.7995</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1997-10-10</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2010-09-09</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1372865875045</references>
+ </contact>
+ <methods><methodStep><description><section><title>CTD sampling</title>
+ <para>Data was collected on board the R/V Alpha Helix or the Tiglax by a Seabird 19+V2, 25, 911 or 911+ CTD sampling at 24 frames per second with 2 conductivity and 2 temperature sensors. Sensors are factory calibrated once per year. Accuracy of the temperature probes is better than 0.005 degrees C based on manufacturer specifications. Accuracy of the salinity values is better than 0.02 based on expected maximum drift of conductivity cell between annual factory calibrations. Ancillary data are reported as voltages (full range 0-5 volts) and/or as converted to engineering units described at the top of the data file and have not been subjected to any quality control measures.</para>
+ <para>CTD Pressure, Temperature and Salinity data is processed according to Seabird Inc recommended procedures. Following the automated processing, each cast is plotted and visually inspected for spikes and other signs of problems, such as spurious density inversions. Erroneous or otherwise suspect data is linearly interpolated over and flagged in the Data Quality (dataFlag)column.</para>
+ <para>Note for data collected aboard the R/V Thompson: This cruise was the second leg of cruise TN179 and thus was also referred to as TN179B. The CTD data collected was assigned station numbers by the ship's data acqisition computer that did not conform to our standard numbering standards. The CTD data consecutive station numbers were therefore translated according to the following table and should be used to match with other references to this CTD data: R/V UAF THOMPSON CONSECUTIVE STATION STATION NUMBER NUMBER ======== =========== 06101 1 06201 2 06202 3 06301 4 06401 5 06501 6 06601 7 06701 8 06801 9 06802 10 06901 11 07001 12 07101 13 07201 14 07301 15 07401 16 07501 17 07601 18 07701 19 07801 20 07802 21 07901 22 08001 23 08101 24 08201 25 08301 26 08302 27 08401 28 08402 29 08501 30 08601 31 08602 32 08701 33</para>
+ </section>
+ </description>
+ <instrumentation>Seabird 19+V2</instrumentation>
+ <instrumentation>Seabird 25</instrumentation>
+ <instrumentation>Seabird 911/911+</instrumentation>
+ </methodStep>
+ </methods>
+ <project><title>Long-Term Observation Program</title>
+ <personnel><references>1372865875045</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council Project Number 13120114-J; US GLOBEC program; National Scince Foundation (NSF), National Oceanic and Atmospheric Administration (NOAA); North Pacific Research Board (NPRB); Alaska Ocean Observing System (AOOS)</para>
+ </funding>
+ </project>
+ <dataTable id="1372879993345"><entityName>ltopCtdData.csv</entityName>
+ <entityDescription>Physical data from LTOP CTD sampling cruises, indexed by cruiseID and station number</entityDescription>
+ <physical id="1372874990066"><objectName>ltopCtdData.csv</objectName>
+ <size unit="byte">89574746</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35b.31.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1372879993346"><attributeName>cruiseID</attributeName>
+ <attributeLabel>Cruise Identifier</attributeLabel>
+ <attributeDefinition>Cruise ID designated by ship. Cruise ID and consecutive station number are used to reference cast details on attached table (ltopCtdSamples.csv)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>cruise ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372879993347"><attributeName>consecStationNum</attributeName>
+ <attributeLabel>Consecutive Station Number</attributeLabel>
+ <attributeDefinition>Unique number within cruise associated with CTD cast. Cruise ID and consecutive station number are used to reference cast details on attached table (ltopCtdSamples.csv)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372879993348"><attributeName>pressure</attributeName>
+ <attributeLabel>Presure</attributeLabel>
+ <attributeDefinition>Water column pressure measured by the CTD, (decibar).</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>decibar</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372879993349"><attributeName>dataFlag</attributeName>
+ <attributeLabel>Data Qulifier</attributeLabel>
+ <attributeDefinition>Indicates if data has been manipulated by data processing after the manufacturer-prescribed algorithms are implemented. Following the automated processing, each cast is plotted and visually inspected for spikes and other signs of problems, such as spurious density inversions. Erroneous or otherwise suspect data is linearly interpolated over and flagged in the Data Quality column. The Data Quality column is assigned the following values and refer to the T &amp;amp; S data only.</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Good Data</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Extrapolated</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Interpolated</definition>
+ </codeDefinition>
+ <codeDefinition><code>3</code>
+ <definition>Poor Data Quality for Other Reason</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372879993350"><attributeName>temp</attributeName>
+ <attributeLabel>Temperature</attributeLabel>
+ <attributeDefinition>Water column temperature, (degrees Celsius).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372879993351"><attributeName>salinity</attributeName>
+ <attributeLabel>Salinity</attributeLabel>
+ <attributeDefinition>Water column salinity, reported in PSU (Practical Salinity Units).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372879993352"><attributeName>sigmaT</attributeName>
+ <attributeLabel>Density of Seawater</attributeLabel>
+ <attributeDefinition>Water column density (kg/m3)</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>kilogramPerMeterCubed</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372879993353"><attributeName>deltaD</attributeName>
+ <attributeLabel>Dynamic Height</attributeLabel>
+ <attributeDefinition>Water column dynamic height referenced to the surface (m).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372879993354"><attributeName>transmiss</attributeName>
+ <attributeLabel>Light Transmission</attributeLabel>
+ <attributeDefinition>Light transmission (volts)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>volt</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372879993355"><attributeName>fluor</attributeName>
+ <attributeLabel>Fluorescence</attributeLabel>
+ <attributeDefinition>Water column fluorescence (ug/L)</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>microgramsPerLiter</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372879993356"><attributeName>par</attributeName>
+ <attributeLabel>Photosynthetically Available Radiation</attributeLabel>
+ <attributeDefinition>Water column Photosynthetically avilable radiation (uE/m2/s)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372879993357"><attributeName>altimeter</attributeName>
+ <attributeLabel>Height above the bottom</attributeLabel>
+ <attributeDefinition>Height above the bottom sample was taken (meters).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372879993358"><attributeName>fluorV</attributeName>
+ <attributeLabel>Fluorescence</attributeLabel>
+ <attributeDefinition>Water column fluorescence measured by the CTD, reported in volts</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>volt</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372879993359"><attributeName>parV</attributeName>
+ <attributeLabel>Photosynthetically Available Radiation</attributeLabel>
+ <attributeDefinition>Water column photosynthetically available radiation, reported in Volts.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>volt</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372879993360"><attributeName>altimeterV</attributeName>
+ <attributeLabel>Height above the bottom</attributeLabel>
+ <attributeDefinition>Height above the bottom sample was taken, reported in volts.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>volt</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372879993361"><attributeName>doc</attributeName>
+ <attributeLabel>Dissolved Oxygen Content</attributeLabel>
+ <attributeDefinition>Water column dissolved oxygen content reported in volts</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>volt</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372879993362"><attributeName>ac3Fluor</attributeName>
+ <attributeLabel>Fluorescence</attributeLabel>
+ <attributeDefinition>Water column fluorescence measured by the CTD.</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>microgramsPerLiter</customUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1104731</numberOfRecords>
+ </dataTable>
+ <dataTable id="1372883184988"><entityName>ltopCtdSamples.csv</entityName>
+ <entityDescription>Information on each cast, referenced to physical data by cruise ID and consecutive station number.</entityDescription>
+ <physical id="1372880132664"><objectName>ltopCtdSamples.csv</objectName>
+ <size unit="byte">336202</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+  <distribution><online><url>ecogrid://knb/df35b.32.2</url>
+</online>
+</distribution>
+</physical>
+ <attributeList><attribute id="1372883184989"><attributeName>ship</attributeName>
+ <attributeLabel>Research Vessel</attributeLabel>
+ <attributeDefinition>Research vessel used for given sampling cruise.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Alpha_Helix</code>
+ <definition>R/V Alpha Helix, University of Alaska, Fairbanks</definition>
+ </codeDefinition>
+ <codeDefinition><code>Wecoma</code>
+ <definition>R/V Wecoma, National Scince Foundation</definition>
+ </codeDefinition>
+ <codeDefinition><code>TN</code>
+ <definition>R/V Thomas G. Thompson, Office of Naval Research and University of Washington</definition>
+ </codeDefinition>
+ <codeDefinition><code>TX</code>
+ <definition>R/V Tiglax, Alaska Maritime Wildlife Refuge</definition>
+ </codeDefinition>
+ <codeDefinition><code>TX</code>
+ <definition>R/V Tiglax, Alaska Maritime Wildlife Refuge</definition>
+ </codeDefinition>
+ <codeDefinition><code>Norseman II</code>
+ <definition>Norseman II, Norseman Maritime Charters</definition>
+ </codeDefinition>
+ <codeDefinition><code>R/V Tiglax</code>
+ <definition>R/V Tiglax, Alaska Maritime Wildlife Refuge</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372883184990"><attributeName>cruiseID</attributeName>
+ <attributeLabel>Cruise Identifier</attributeLabel>
+ <attributeDefinition>Based on research vessel (vesselID,season, year). Cruise ID and consecutive station number are used to reference cast details on attached physical data table (ltopCtdData.csv).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>cruise ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372883184991"><attributeName>dateTime</attributeName>
+ <attributeLabel>Date &amp; Time</attributeLabel>
+ <attributeDefinition>Date and time in GMT.</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372883184992"><attributeName>station</attributeName>
+ <attributeLabel>Station Name</attributeLabel>
+ <attributeDefinition>Official station name.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Station name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372883184993"><attributeName>consecStationNum</attributeName>
+ <attributeLabel>Consecutive Station Number</attributeLabel>
+ <attributeDefinition>Cruise ID and consecutive station number are used to reference cast details on attached physical data table (ltopCtdData.csv).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372883184994"><attributeName>lat</attributeName>
+ <attributeLabel>Latitude</attributeLabel>
+ <attributeDefinition>Latitude in decimal degrees</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372883184995"><attributeName>lon</attributeName>
+ <attributeLabel>Longitude</attributeLabel>
+ <attributeDefinition>Longitude in decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1372883184996"><attributeName>sonicDepth</attributeName>
+ <attributeLabel>Depth</attributeLabel>
+ <attributeDefinition>Depth of the ocean at site where cast was taken.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372883184997"><attributeName>minPressure</attributeName>
+ <attributeLabel>Minimum Pressure</attributeLabel>
+ <attributeDefinition>Minimum pressure.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millibar</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372883184998"><attributeName>maxPressure</attributeName>
+ <attributeLabel>Maximum Pressure</attributeLabel>
+ <attributeDefinition>Maximum pressure recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millibar</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372883184999"><attributeName>instrumentation</attributeName>
+ <attributeLabel>CTD profiler</attributeLabel>
+ <attributeDefinition>Seabird CTD Profilers information can be found at http://seabird.com/products/profilers.htm</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>SBE911+</code>
+ <definition>Seabird 911plus, consisting of the 9plus underwater CTD and 11plus V2 Deck Unit</definition>
+ </codeDefinition>
+ <codeDefinition><code>SBE25</code>
+ <definition>Seabird 25 CTD sampling at 8 frames per second with 1 conductivity sensor and 1 temperature sensor</definition>
+ </codeDefinition>
+ <codeDefinition><code>SBE911</code>
+ <definition>Seabird 911plus, consisting of the 9plus underwater CTD and 11plus V2 Deck Unit</definition>
+ </codeDefinition>
+ <codeDefinition><code>SBE19+V2</code>
+ <definition>Seabird 19plus V2 SeaCAT Profiler CTD</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1372883185000"><attributeName>funder</attributeName>
+ <attributeLabel>Funder</attributeLabel>
+ <attributeDefinition>Funding was primarily source from given agency for the given samlpling period.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>GLOBEC</code>
+ <definition>GLOBEC Global Ocean Ecosystem Dynamics</definition>
+ </codeDefinition>
+ <codeDefinition><code>NPRB</code>
+ <definition>North Pacific Research Board</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>4270</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unit id="decibar" multiplierToSI=" " name="decibar" parentSI="pascal" unitType="pressure"><description>1decibar = 10 bars. One decibar increase in pressure roughly corresponds to one meter of increase in depth of sea.</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="kilogramsPerMeterCubed" multiplierToSI=" " name="kilogramsPerMeterCubed" parentSI="numberPerMeterCubed" unitType="volumetricDensity"><description>kilogramsPerMeterCubed</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="kilogramPerMeterCubed" multiplierToSI=" " name="kilogramPerMeterCubed" parentSI="numberPerMeterCubed" unitType="volumetricDensity"><description>kg/m3</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata><metadata><unitList><unit id="microgramsPerLiter" multiplierToSI=" " name="microgramsPerLiter" parentSI="molesPerCubicMeter" unitType="amountOfSubstanceConcentration"><description>microgramsPerLiter</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

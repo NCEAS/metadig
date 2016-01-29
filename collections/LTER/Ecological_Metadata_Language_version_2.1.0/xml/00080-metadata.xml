@@ -1,0 +1,1123 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-and.4548.7" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#10;     http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>CF006</alternateIdentifier>
+    <title>Storm nutrient dynamics at Andrews Experimental Forest stream gages, 2001 to 2003</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Julia</givenName>
+        <givenName>A.</givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5506</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1224</phone>
+      <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+      <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kate</givenName>
+        <surName>Lajtha</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Botany and Plant Pathology;2059 Cordley Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-5674</phone>
+      <electronicMailAddress>lajthak@science.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.bcc.orst.edu/bpp/faculty/lajtha/index.html</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jeffrey</givenName>
+        <givenName>J.</givenName>
+        <surName>McDonnell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Forest Engineering;267 Peavy Hall;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-737-8720</phone>
+      <electronicMailAddress>Jeffrey.McDonnell@oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.cof.orst.edu/cof/fe/watershd</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kevin</givenName>
+        <givenName>J.</givenName>
+        <surName>McGuire</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Research Assistant Professor; Associate Director; VA Water Resources Research Ctr.; Virginia Tech, Blacksburg, VA</deliveryPoint>
+      </address>
+      <phone />
+      <electronicMailAddress>kevin.mcguire@vt.edu</electronicMailAddress>
+      <onlineUrl>http://hydro.vwrrc.vt.edu/Lab/McGuire_Watershed_Hydrology_Lab.html</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2013-08-16</pubDate>
+    <abstract>
+      <para>This study examines headwater stream nutrients at stream gaging sites during selected storms in the Andrews Experimental Forest. 
+High frequency storm sampling was conducted to examine flow path dynamics, basin characteristics, seasonal trends, and differing responses and mobility among analytes on streamwater nutrient concentrations and fluxes.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Carbon</keyword>
+      <keyword keywordType="theme">Nitrogen</keyword>
+      <keyword keywordType="theme">Phosphorus</keyword>
+      <keyword keywordType="theme">Storms</keyword>
+      <keyword keywordType="theme">Water chemistry</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=CF006&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Low elevation stream gages in Andrews Experimental Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.26105600</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.24487600</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.21750000</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20119000</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>432</altitudeMinimum>
+            <altitudeMaximum>548</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001-05-14</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2003-11-22</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>Evaluating spatial and temporal variability of stream nutrient concentrations at headwater gaged basins during storms in Andrews Experimental Forest</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Initial entry of upper level metadata into SQL via Administrative Interface.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2007-10-03</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Uploaded metadata and data to SQL.  Used move_xls program; ran QC.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2007-12-20</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Non-critical update to test new EML generating program and  Data Access Server link to data</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2011-07-28</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Non-critical update to test new EML generating program and prepare EML for congruency checker test</changeScope>
+        <oldValue>Version5</oldValue>
+        <changeDate>2011-09-14</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata is revised to accommodate EML best practices and change in delimiter from (\n to \r\n)</changeScope>
+        <oldValue>Version6</oldValue>
+        <changeDate>2013-07-09</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Reharvest to fix EML issues for PASTA.</changeScope>
+        <oldValue>Version7</oldValue>
+        <changeDate>2013-08-16</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Experimental Design - CF006</description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description> &lt;para&gt;Sampling frequency: during storms; collected at 2-4hr intervals&lt;/para&gt;</description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Automated storm water collections made at stream gaging sites.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25683100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.23581300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20851700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19901700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1027</altitudeMinimum>
+                <altitudeMaximum>1027</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed 10</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25996600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25443900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22015200</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21678600</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>679</altitudeMinimum>
+                <altitudeMaximum>679</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24397600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.22974100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21338500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20617800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1079</altitudeMinimum>
+                <altitudeMaximum>1079</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  9</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25781500</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25151500</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20393300</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20111000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>731</altitudeMinimum>
+                <altitudeMaximum>731</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25802700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25802700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20733900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20733900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>439</altitudeMinimum>
+                <altitudeMaximum>439</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  2 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24487600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24487600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21201500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21201500</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>545</altitudeMinimum>
+                <altitudeMaximum>545</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  9 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25880100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25880100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20119000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20119000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>426</altitudeMinimum>
+                <altitudeMaximum>426</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed 10 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26105600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.26105600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21705700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21705700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>461</altitudeMinimum>
+                <altitudeMaximum>461</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 10 hillslope throughflow weir (McGuire study)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25888900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25888900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21750000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21750000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>482</altitudeMinimum>
+                <altitudeMaximum>482</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+      <methodStep>
+        <description>
+          <para>Field Methods - CF006</para>
+          <para>Sigma samplers were installed in gage houses. Tygon tubing was run from samplers to stream. Samplers were manually turned on at beginning of storm and programmed to collect stream water samples every 2-4 hours.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Laboratory Methods - CP006</para>
+          <para>Samples were refrigerated after being collected from gage house. They were filtered in the laboratory within 24 hrs using ashed GFF filters. Samples were then frozen.
+For chemical analysis, see Cooperative Chemical Analytical Lab web page
+http://ccal.oregonstate.edu/</para>
+        </description>
+      </methodStep>
+      <qualityControl>
+        <description>
+          <section>
+            <para>See CCAL web for QAQC http://ccal.oregonstate.edu/</para>
+          </section>
+        </description>
+      </qualityControl>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address />
+        <phone />
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>HJ Andrews Experimental Forest;PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="CF00601">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>CF00601</entityName>
+      <entityDescription>Storm sampling nutrient and flow data from the H.J.A. 2001-2003.: Storm sampling nutrient and flow data from the H.J.A. 2001-2003. Includes: PO4, TotalP, TotalN, NO3NO2, NH3N, DON, DOC and discharge.</entityDescription>
+      <physical>
+        <objectName>CF00601_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4548/7/75e5611bb7097238c4973cbbe9722213</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2001-05-14</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2003-11-22</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="CF00601.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CF006</code>
+                    <definition>FSDB Database Code CF006</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Watershed sampled</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSWS01</code>
+                    <definition>Andrews Watershed  1 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS02</code>
+                    <definition>Andrews Watershed  2 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS09</code>
+                    <definition>Andrews Watershed  9 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS10</code>
+                    <definition>Andrews Watershed 10 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS10S1</code>
+                    <definition>Watershed 10 hillslope throughflow weir (McGuire study)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.DATE_TIME">
+          <attributeName>DATE_TIME</attributeName>
+          <attributeDefinition>Date and time of sample</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">5/14/2001 1:30:00 PM</minimum>
+                  <maximum exclusive="false">11/22/2003 4:15:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.PO4P">
+          <attributeName>PO4P</attributeName>
+          <attributeDefinition>Ortho phosphorus concentration, soluble reactive phosphorus, phosphate (PO4-P); method: ascorbic acid finish</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.479</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.PO4PCODE">
+          <attributeName>PO4PCODE</attributeName>
+          <attributeDefinition>Phosphate (PO4-P) concentration value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code> &#160; </code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No analysis conducted</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.TDP">
+          <attributeName>TDP</attributeName>
+          <attributeDefinition>Total dissolved phosphorus concentration; method: persulfate/H2SO4 digestion, ascorbic acid finish</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.51</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.TDPCODE">
+          <attributeName>TDPCODE</attributeName>
+          <attributeDefinition>Total dissolved phosphorus concentration value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code> &#160; </code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No analysis conducted</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.TDN">
+          <attributeName>TDN</attributeName>
+          <attributeDefinition>Total dissolved nitrogen concentraton (filtered sample); method: persulfate digestion and analysis by automated colorimetric analysis; instrument: Technicon Auto-Analyzer II</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.25</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.TDNCODE">
+          <attributeName>TDNCODE</attributeName>
+          <attributeDefinition>Total dissolved nitrogen concentration value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code> &#160; </code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No analysis conducted</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>*</code>
+                    <definition>Value is below detection limit for analysis</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.NO3N">
+          <attributeName>NO3N</attributeName>
+          <attributeDefinition>Nitrate-nitrogen (NO3-N), nitrate + nitrite as nitrogen concentration; method: automated cadmium reduction</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.307</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.NO3NCODE">
+          <attributeName>NO3NCODE</attributeName>
+          <attributeDefinition>Nitrate-nitrogen (NO3-N) concentration value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code> &#160; </code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No analysis conducted</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>*</code>
+                    <definition>Value is below detection limit for analysis</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.NH3N">
+          <attributeName>NH3N</attributeName>
+          <attributeDefinition>Ammonia-nitrogen (NH3-N) concentration, ammonia as nitrogen; method: automated phenate</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.059</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.NH3NCODE">
+          <attributeName>NH3NCODE</attributeName>
+          <attributeDefinition>Ammonia-nitrogen (NH3-N) concentration value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code> &#160; </code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No analysis conducted</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>*</code>
+                    <definition>Value is below detection limit for analysis</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.DON">
+          <attributeName>DON</attributeName>
+          <attributeDefinition>Dissolved organic nitrogen - not measured analytically; mathematically determined by subtracting NH3-N and NO3-N from Total dissolved nitrogen</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.14</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.DONCODE">
+          <attributeName>DONCODE</attributeName>
+          <attributeDefinition>Dissolved organic nitrogen concentration value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code> &#160; </code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No analysis conducted</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.DOC">
+          <attributeName>DOC</attributeName>
+          <attributeDefinition>Dissolved organic carbon concentration; method: combustion</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.DOCCODE">
+          <attributeName>DOCCODE</attributeName>
+          <attributeDefinition>Dissolved organic carbon concentration value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code> &#160; </code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No analysis conducted</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.DISCHARGE_CFS">
+          <attributeName>DISCHARGE_CFS</attributeName>
+          <attributeDefinition>Discharge measured in cfs</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.001</minimum>
+                  <maximum exclusive="false">3.991</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00601.DISCHARGE_LPS">
+          <attributeName>DISCHARGE_LPS</attributeName>
+          <attributeDefinition>CFS discharge converted to l/s</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">113.0132</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="CF00601.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>CF00601.DATE_TIME</attributeReference>
+            <attributeReference>CF00601.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="CF00601.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>CF00601.DATE_TIME</attributeReference>
+            <attributeReference>CF00601.DBCODE</attributeReference>
+            <attributeReference>CF00601.DISCHARGE_CFS</attributeReference>
+            <attributeReference>CF00601.DISCHARGE_LPS</attributeReference>
+            <attributeReference>CF00601.ENTITY</attributeReference>
+            <attributeReference>CF00601.SITECODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>525</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit id="cubic feet per second" multiplierToSI="28.31685" name="cubic feet per second" parentSI="literPerSecond" unitType="volumetricRate">
+          <ns2:description>cubic feet per second</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="liters per second" multiplierToSI="1" name="liters per second" parentSI="literPerSecond" unitType="volumetricRate">
+          <ns2:description>liters per second</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="number" multiplierToSI="1" name="number" parentSI="dimensionless" unitType="dimensionless">
+          <ns2:description>dimensionless number, i.e., ratio, count</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="milligrams per liter" multiplierToSI="0.001" name="milligrams per liter" parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <ns2:description>milligrams per liter</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

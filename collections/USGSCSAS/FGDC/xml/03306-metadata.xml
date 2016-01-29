@@ -1,0 +1,612 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Core Science Analytics and Synthesis Program of the U.S. Geological Survey (USGS)</origin>
+        <pubdate>2012</pubdate>
+        <title>Biodiversity Information Serving Our Nation (BISON)</title>
+        <geoform>Maps and Data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://bison.usgs.ornl.gov</onlink>
+        <onlink>http://dx.doi.org/10.5066/F7ZS2THN</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The USGS Biodiversity Information Serving Our Nation (BISON) project is an online mapping information system consisting of a large collection of species occurrence datasets (e.g., plants and animals) found in the United States, with relevant geospatial layers. Species occurrences are records of organisms at a particular time and location that are often collected as part of biological field studies and taxonomic collections. These data serve as a foundation for biodiversity and conservation research. 
+
+BISON supports several data interchange formats to enable developers to write custom applications (http://bison.usgs.ornl.gov/services.html). The BISON search API supports JavaScript Object Notation (JSON). The SOLR search API supports JSONP. The Web Mapping Services support Portable Network Graphics (PNG). Example Web services applications have been written using OpenLayers, and HTML 5 and we are working on mobile applications.</abstract>
+      <purpose>Each dataset within BISON was collected or otherwise generated for its own purpose(s). For example: research and monitoring studies, citizen science programs, natural history museum collections, and peer-reviewed literature. BISON?s initial overall purpose is to compile species occurrence records that are generally inaccessible to the wide research community while leveraging species occurrence records already available in existing biodiversity information systems, and delivering a combined spectrum of new and existing occurrence records via a Web-based GIS interface</purpose>
+      <supplinf>The originators of the contributed individual datasets are too numerous to include in this metadata record. A list of those contributors can be found at http://bison.usgs.ornl.gov/#providerTab. The contacts for the aggregated BISON dataset are:
+
+
+Gerald "Stinger" Guala, product owner / 
+
+US Geological Survey / 
+
+Core Science Analytics and Synthesis Program / 
+
+12201 Sunrise Valley Drive, Mailstop 302 / 
+
+Reston VA  20192 / 
+
+gguala@usgs.gov  / 
+
++1.703.648.4311 /  / 
+
+
+
+Mike Frame, technical lead / 
+
+U.S. Geological Survey / 
+
+Core Science Analytics and Synthesis Program / 
+
+P. O. Box 6015, Oak Ridge, Tennessee  37831 / 
+
+mike_frame@usgs.gov / 
+
++1.865.576.3605 /</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1600</begdate>
+          <enddate>Present</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <descgeog>Datasets include species occurrence records from all US states and territories. The provided bounding box is not precise.</descgeog>
+      <bounding>
+        <westbc>-180.0</westbc>
+        <eastbc>-63</eastbc>
+        <northbc>74.00000</northbc>
+        <southbc>17.00000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Biocomplexity Thesaurus</themekt>
+        <themekey>Biodiversity</themekey>
+        <themekey>species</themekey>
+        <themekey>observation methods</themekey>
+        <themekey>biomonitoring</themekey>
+        <themekey>specimens</themekey>
+        <themekey>biological collections</themekey>
+        <themekey>museum collections</themekey>
+        <themekey>introduced species</themekey>
+        <themekey>invasive species</themekey>
+        <themekey>native species</themekey>
+        <themekey>endemic species</themekey>
+        <themekey>indigenous species</themekey>
+        <themekey>threatened species</themekey>
+        <themekey>endangered species</themekey>
+      </theme>
+      <place>
+        <placekt>FIPS</placekt>
+        <placekey>Alabama</placekey>
+        <placekey>Alaska</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>California</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>Connecticut</placekey>
+        <placekey>Delaware</placekey>
+        <placekey>District of Columbia</placekey>
+        <placekey>Florida</placekey>
+        <placekey>Georgia</placekey>
+        <placekey>Hawaii</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Iowa</placekey>
+        <placekey>Kansas</placekey>
+        <placekey>Kentucky</placekey>
+        <placekey>Louisiana</placekey>
+        <placekey>Maine</placekey>
+        <placekey>Maryland</placekey>
+        <placekey>Massachusetts</placekey>
+        <placekey>Michigan</placekey>
+        <placekey>Minnesota</placekey>
+        <placekey>Mississippi</placekey>
+        <placekey>Missouri</placekey>
+        <placekey>Montana</placekey>
+        <placekey>Nebraska</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>New Hampshire</placekey>
+        <placekey>New Jersey</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>New York</placekey>
+        <placekey>North Carolina</placekey>
+        <placekey>North Dakota</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>Oklahoma</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Rhode Island</placekey>
+        <placekey>South Carolina</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>Tennessee</placekey>
+        <placekey>Texas</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Vermont</placekey>
+        <placekey>Virginia</placekey>
+        <placekey>Washington</placekey>
+        <placekey>West Virginia</placekey>
+        <placekey>Wisconsin</placekey>
+        <placekey>Wyoming</placekey>
+        <placekey>American Samoa</placekey>
+        <placekey>Guam</placekey>
+        <placekey>Northern Mariana Islands</placekey>
+        <placekey>U.S. Virgin Islands</placekey>
+        <placekey>Puerto Rico</placekey>
+      </place>
+    </keywords>
+    <accconst>There are no access restrictions, but a data use agreement is required for downloading data.</accconst>
+    <useconst>Data Use Requirements:   
+
+Any use of BISON web services automatically commits the user to acceptance of the Data Use Agreement. Adapted from the Data Use Agreement of the Global Biodiversity Information Facility (GBIF). ///Background///  Biodiversity Information Serving our Nation (BISON) is committed to providing free and open access to species occurrence data. Most data currently made available through BISON are provided through the Global Biodiversity Information Facility (GBIF). GBIF Participants who have signed the GBIF MoU have expressed their willingness to make biodiversity data available through their nodes to foster scientific research development internationally and to support the public use of these data (see http://data.gbif.org/tutorial/datasharingagreement). GBIF data sharing should take place within a framework of due attribution. Therefore, using data available through BISON requires agreeing with the following:
+
+1. Data Use Agreements -
+
+The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. Users shall respect restrictions of access to sensitive data. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data publishers whose biodiversity data they have used. Data publishers may require additional attribution of specific collections within their institution. Users must comply with additional terms and conditions of use set by the data publisher. Where these exist they will be available through the metadata associated with the data (see http://data.gbif.org/datasets/).
+
+2. Citing Data - 
+
+Use the following format to cite data retrieved from BISON:    
+
+Biodiversity occurrence data published by: (Accessed through Biodiversity Information Serving our Nation (BISON), bison.usgs.ornl.gov, YYYY-MM-DD)     For example:
+
+Biodiversity occurrence data published by: Field Museum of Natural History, Museum of Vertebrate Zoology, University of Washington Burke Museum, and University of Turku (Accessed through Biodiversity Information Serving our Nation (BISON), bison.usgs.ornl.gov, 2013-04-22).</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Annie Simpson</cntper>
+          <cntorg>US Geological Survey Core Science Analytics and Synthesis Program</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>12201 Sunrise Valley Drive, Mailstop 302</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>+1.703.648.2481</cntvoice>
+        <cntemail>asimpson@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://bison.usgs.ornl.gov/images/banner/acerSpicatum-t.jpg</browsen>
+      <browsed>Example image of occurrences of Mountain Maple in the northeast in BISON</browsed>
+      <browset>JPG</browset>
+    </browse>
+    <datacred>Major amounts of content are provided by the Global Biodiversity Information Facility, www.gbif.org 
+The current list of BISON data providers can be found here:
+http://bison.usgs.ornl.gov/#providerTab</datacred>
+    <native>Data are stored in and served from a variety of data processing and analysis software. Software names and versions as of 2013-02-28: Red Hat Enterprise Linux Workstation release 6.3 (Santiago); MySQL Ver 14.14 Distrib 5.1.61, for redhat-linux-gnu (x86_64) using readline 5.1; POSTGRESQL version 9.0.7 b; POSTGIS version 1.5.2; GEOS version 3.2.2-CAPI-1.6.2, Rel. 4.7.1, 23 September 2009; LIBXML version 2.6.32; Solr version 3.6; JAVA version 1.6.0_37-b06; Java HotSpot VM (build 20.12-b01, mixed mode); Integrated Publishing Toolkit Version 2.0.3-r3672, URL: http://bison.ornl.gov/ipt/</native>
+    <tool>
+      <tooldesc>N/A for most contributed individual datasets. For aggregated BISON datasets, tools used include: Google Refine, MS Office, R and R Studio, ITIS taxonomic workbench, ArcGIS 9+.</tooldesc>
+      <toolacc>
+        <toolinst>http://code.google.com/p/google-refine/wiki/GettingStarted, 
+http://office.microsoft.com/en-us/, 
+http://www.r-project.org, 
+http://www.itis.gov, 
+http://www.esri.com/software/arcgis</toolinst>
+      </toolacc>
+    </tool>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Each dataset has its own accuracy attributions. Locations for threatened or endangered species are inexact.</attraccr>
+    </attracc>
+    <logic>Each dataset has its own parameters of exclusion and completeness. Outliers and marine occurrences outside of the US 200 nautical mile boundary are not displayed.</logic>
+    <complete>Not all years/sites are yet represented.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The accuracy of horizontal and vertical locations depends on the contributed individual dataset and may or may not be specified for any given record.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <method>
+        <methtype>Field</methtype>
+        <methdesc>The protocols/methods standard varies with each dataset.</methdesc>
+      </method>
+      <procstep>
+        <procdesc>This is unknown for contributed individual datasets, unless provided in the metadata of each dataset. For the aggregated BISON database, the dataset is a combination of species occurrence records for the United States and territories extracted from the GBIF database via queries, and of occurrence records from new datasets provided to BISON by individual data providers.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>BISON database</enttypl>
+        <enttypd>BISON data</enttypd>
+        <enttypds>Author</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Resource</attrlabl>
+        <attrdef>An identifier for the collection or dataset from which the record was derived.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>preferably a unique identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Basis of Record</attrlabl>
+        <attrdef>The specific nature of the data record</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>unknown</edomv>
+            <edomvd>nature of data record unknown</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>living</edomv>
+            <edomvd>data record from living source, such as a zoo or botanical garden</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>specimen</edomv>
+            <edomvd>data record from specimen collection</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>germplasm</edomv>
+            <edomvd>data record from germplasm collection</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>observation</edomv>
+            <edomvd>data record from observation source</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>literature</edomv>
+            <edomvd>data record from published literature</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fossil</edomv>
+            <edomvd>data record from fossil collection or observation</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Identifier for the occurrence, created during each data load, unique to the load.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>not persistent over time</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Scientific Name</attrlabl>
+        <attrdef>scientific name of species</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>most often a concatenation of genus + specificEpithet or a trinomial</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Common name</attrlabl>
+        <attrdef>commonly-used vernacular name of species</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>not always available and often ambiguous</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>Full name of US state or territory</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>as determined by the United States Board on Geographic Names http://geonames.usgs.gov</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>Full county, parish, or organized borough name based on FIPS code if only latitude and longitude are provided, otherwise county name is as provided in dataset</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>as determined by the United States Board on Geographic Names http://geonames.usgs.gov</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Country_code</attrlabl>
+        <attrdef>Country abbreviation</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>The geographic location of the specific occurrence, expressed through a constrained vocabulary of countries using 2-letter ISO country code. Value is generally "US" but as of 2013-07-15 other possible values include "AS", "GU", "MP", "PR", and "UM".</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Provider</attrlabl>
+        <attrdef>Source of the dataset, (not necessarily the data holder or data owner)</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>Dataset provider</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Provider URL</attrlabl>
+        <attrdef>The URL link to the provider of the resource.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>useful only if resolvable and persistent</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Resource URL</attrlabl>
+        <attrdef>The URL link to the owner of the resource.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>useful only if resolvable and persistent</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Occurence URL</attrlabl>
+        <attrdef>The URL link to the occurence record (where available). An identifier for a related resource (the object, rather than the subject of the relationship).</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>useful only if resolvable and persistent</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>5-digit numeric text string geographic code for the state-county combination indicating the location of the occurrence, computed from the provided latitude and longitude of the record.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>FIPS US State Codes / US County Codes</codesetn>
+            <codesets>http://www.itl.nist.gov/fipspubs/fip5-2.htm</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Collector</attrlabl>
+        <attrdef>A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (Record Number), should be listed first.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>required if Resource is not provided.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>The geographic latitude (in decimal degrees) of the geographic center of a Location.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>geographic latitude in demical degrees</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>The geographic longitude (in decimal degrees) of the geographic center of a Location.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>geographic longitude in decimal degrees</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Data Generalizations</attrlabl>
+        <attrdef>An indication of the kind of approximation for the location of the occurrence. Describes the action taken to make the shared data less specific or complete than in its original form.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>unknown centroid</edomv>
+            <edomvd>nature of the centroid of the record is generic or undefined</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>county centroid</edomv>
+            <edomvd>occurrence location is a calculated centroid of a county, parish, or organized borough</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>protected area centroid</edomv>
+            <edomvd>occurrence location is a calculated centroid of a protected area</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10-minute centroid</edomv>
+            <edomvd>occurrence location is a calculated centroid of an area defined by a 10-minute bounding box</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0.1 degree centroid</edomv>
+            <edomvd>occurrence location is a calculated centroid of an area defined by a tenth of a degree bounding box</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HUC12 centroid</edomv>
+            <edomvd>occurrence location is a calculated centroid of an area defined by a 12-digit Hydrological Unit Code (HUC)</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HUC10 centroid</edomv>
+            <edomvd>occurrence location is a calculated centroid of an area defined by a 10-digit Hydrological Unit Code (HUC)</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HUC8 centroid</edomv>
+            <edomvd>occurrence location is a calculated centroid of an area defined by an 8-digit Hydrological Unit Code (HUC)</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HUC6 centroid</edomv>
+            <edomvd>occurrence location is a calculated centroid of an area defined by a 6-digit Hydrological Unit Code (HUC)</edomvd>
+            <edomvds>Author</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>The four-digit year in which the event occurred, according to the Common Era Calendar.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>year in YYYY format</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Occurrence Date</attrlabl>
+        <attrdef>When the event was recorded, in the format YYYY-MM-DD, to the most precise level provided.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>YYYY-MM-DD or YYYY-MM or YYYY</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Record Number</attrlabl>
+        <attrdef>An identifier given to the occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>also called "Collector Number"; usually unique within a resource</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Verbatum Scientific Name</attrlabl>
+        <attrdef>The taxon name as provided in the resource.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>may include name authorship, taxon rank indicator, abbreviations, misspellings or other artefacts</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Catalog Number</attrlabl>
+        <attrdef>Unique key for every record in a resource, as provided in the dataset.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>also known as 'core ID'</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Associated Media</attrlabl>
+        <attrdef>URL identifier of media associated with the occurrence.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>compatible formats of the URL's source are any readable by a browser, such as jpg, png, gif, tif, mp3, wav, etc. If provided, Associated Media is linked to a thumbnail image URL (Thumb URL).</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Thumb URL</attrlabl>
+        <attrdef>URL identifier of a small thumbnail file version or other graphic representation of the Associated Media source file of the occurrence.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>compatible formats of the URL's source are any graphic displayable by a browser, such as jpg, png, or gif. If provided, is linked to a larger Associated Media URL.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Associated Reference</attrlabl>
+        <attrdef>A button-accessible hyperlinked resource or reference associated with the occurrence, such as a sound or video file, pdf publication, or an html landing page with additional associated URLs.</attrdef>
+        <attrdefs>Author</attrdefs>
+        <attrdomv>
+          <udom>compatible formats of the resource are any displayable by a browser, such as htm, pdf, jpg, png, mp3, wav, etc.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>US Geological Survey Core Science Analytics and Synthesis Program</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>12201 Sunrise Valley Drive, Mailstop 302</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>+1.703.648.4311</cntvoice>
+        <cntemail>BISON@USGS.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>The aggregated BISON dataset is publicly and freely available at http://bison.usgs.ornl.gov</resdesc>
+    <distliab>Please refer and conform to Access and Use Constraints</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>BISON Web Services</formname>
+          <formvern>1.0</formvern>
+          <formcont>BISON supports several data interchange formats to enable developers to write custom applications. The BISON search API supports JavaScript Object Notation (JSON). The SOLR search API supports JSONP. The Web Mapping Services support Portable Network Graphics (PNG). Example Web services applications have been written using OpenLayers, and HTML 5 and we are working on mobile applications. Some query types include:
+- number of occurrences in each county and state in the United States.
+- rendering of BISON data in a mapping application such as OpenLayers (heatmaps and points).
+- retrieving raw spatial data and applying optimized mathematics (without Solr geospatial operators).
+- single taxa name searches by scientific or common name, optionally constrained by a gegraphic polygon, state, county, fips, basis of record, year, or provider.     // In addition to these interchange formats, BISON also provides access to complete raw data files for the resources it provides directly (not through GBIF) in .csv format and metadata for each resource in Ecological Metadata Language (EML.xml). This information is downloadable from BISON's Integrated Publishing Toolkit (IPT), here: http://bison.ornl.gov/ipt/. The raw dataset .csv files that are downloadable from the IPT often contain much richer information (many more fields) than can be included within the BISON application.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://bison.usgs.ornl.gov/services.html</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <custom>The ordering process is via digital download. After agreeing to our terms of use, data is either immediately made available or (if the download is large) emailed upon request. Available formats are CSV, TXT, UTF8, Google Earth KML, and zipped Shapefile bundle.</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20130917</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Annie Simpson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>12201 Sunrise Valley Drive, Mailstop 302</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>703-648-4281</cntvoice>
+        <cntemail>asimpson@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,393 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>RICCIUTO, D.M.</origin>
+        <origin>SCHAEFER, K.</origin>
+        <origin>THORNTON, P.E.</origin>
+        <origin>COOK, R.B.</origin>
+        <origin>ANDERSON, R.</origin>
+        <origin>ARAIN, M.A.</origin>
+        <origin>BAKER, I.T.</origin>
+        <origin>CHEN, J.M.</origin>
+        <origin>DIETZE, M.</origin>
+        <origin>GRANT, R.</origin>
+        <origin>IZAURRALDE, C.</origin>
+        <origin>JAIN, A.K.</origin>
+        <origin>KING, A.W.</origin>
+        <origin>KUCHARIK, C.J.</origin>
+        <origin>LIU, SHUGUANG</origin>
+        <origin>LOKUPITIYA, E.</origin>
+        <origin>LUO, Y.</origin>
+        <origin>PENG, C.</origin>
+        <origin>POULTER, B.</origin>
+        <origin>PRICE, D.</origin>
+        <origin>RILEY, W.</origin>
+        <origin>SAHOO, A.</origin>
+        <origin>TIAN, H.</origin>
+        <origin>TONITTO, C.</origin>
+        <origin>VERBEECK, H.</origin>
+        <title>NACP Site: Terrestrial Biosphere Model Output Data in Original Format</title>
+        <onlink>http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1192</onlink>
+        <onlink>http://daac.ornl.gov/mercury_harvest/1192.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/mercury_harvest/1192.xml</alt_onlink>
+        <onlink>http://daac.ornl.gov//NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html</onlink>
+        <geoform>metadata</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains the original model output data submissions from the 24 terrestrial biosphere models (TBM) that participated in the North American Carbon Program (NACP) Site-Level Synthesis. The model teams generated estimates for, but not limited to,  a minimum of six variables, including gross primary productivity (GPP), net ecosystem exchange (NEE), leaf area index (LAI), ecosystem respiration (Re), latent heat flux (LE), and sensible heat flux (H) for each of 47 selected eddy covariance flux tower sites across North America. Participating modeling teams followed the NACP Site Synthesis Protocol (site_synthesis_protocol_v7.pdf), which covers procedures, plans, and infrastructure for the site-level analyses. File format and units conversions of several data submissions were made by the MAST-DC to produce NetCDF files of consistent content and structure for all 24 TBM outputs. The model outputs are structured as described in Appendix A: Model Output Variables, of the Site Synthesis Protocol. 
+
+In addition, MAST-DC processed these original model submissions to derive uniquely processed and formatted data files for model inter-comparison and evaluation (NACP Site: Terrestrial Biosphere Model and Aggregated Flux Data in Standard Format). This related data set provides GPP, NEE, LAI, Re, LE, and sensible heat (H) model output variables at the native half-hourly time step, and in daily, monthly, and annual aggregations. The related data set also contains gap-filled observations and total uncertainty estimates at the same time steps.
+There are 24 compressed (*.zip) files with this data set -- one file for each model. When expanded, the .zip files contain model output data files for flux tower sites in NetCDF and some in text formats.</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19900101</begdate>
+          <enddate>20071231</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-170</westbc>
+        <eastbc>-50</eastbc>
+        <northbc>84</northbc>
+        <southbc>10</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>AGRICULTURAL LANDS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>ALPINE/TUNDRA|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>CARBON|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>ECOSYSTEM FUNCTIONS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>FORESTS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>GRASSLANDS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>LEAF CHARACTERISTICS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>SAVANNAS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>SHRUBLAND/SCRUB|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>WETLANDS|ANALYSIS|FIELD INVESTIGATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>AGRICULTURAL LANDS</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>FIELD INVESTIGATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>ANALYSIS</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey />
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>RICCIUTO, D.M.</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt;</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</cntorg>
+          <cntper>ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt;</cntfax>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://daac.ornl.gov/</computer>
+            <accinstr>PUBLIC</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Ricciuto, D.M., K. Schaefer, P.E. Thornton, R.B. Cook, R. Anderson, M.A. Arain, I. Baker, J.M. Chen, M. Dietze, R. Grant, C. Izaurralde, A.K. Jain, A.W. King, C. Kucharik, S. Liu, E. Lokupitiya, Y. Luo, C. Peng, B. Poulter, D. Price, W. Riley, A. Sahoo, H. Tian, C. Tonitto, and H. Verbeeck. 2013. NACP Site: Terrestrial Biosphere Model Output Data in Original Format. Data set. Available on-line [http://daac.ornl.gov] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, USA.  http://dx.doi.org/10.3334/ORNLDAAC/1192</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20131001</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19900101</begdate>
+    <enddate>20071231</enddate>
+    <Site_Information>
+      <Site />
+      <Westernmost_Longitude>-170</Westernmost_Longitude>
+      <Easternmost_Longitude>-50</Easternmost_Longitude>
+      <Northernmost_Latitude>84</Northernmost_Latitude>
+      <Southernmost_Latitude>10</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>TUNDRA</Keywords>
+    <Keywords>WETLANDS</Keywords>
+    <Keywords>GRASSLAND</Keywords>
+    <Keywords>CROPLANDS</Keywords>
+    <Keywords>SHRUBLANDS</Keywords>
+    <Keywords>FLUX TOWER</Keywords>
+    <Keywords>MIXED FORESTS</Keywords>
+    <Keywords>WOODY SAVANNAS</Keywords>
+    <Keywords>LEAF AREA INDEX</Keywords>
+    <Keywords>LATENT HEAT FLUX</Keywords>
+    <Keywords>SENSIBLE HEAT FLUX</Keywords>
+    <Keywords>ECOSYSTEM RESPIRATION</Keywords>
+    <Keywords>TERRESTRIAL ECOSYSTEMS</Keywords>
+    <Keywords>NET ECOSYSTEM EXCHANGE</Keywords>
+    <Keywords>GROSS PRIMARY PRODUCTIVITY</Keywords>
+    <Keywords>DECIDUOUS BROADLEAF FORESTS</Keywords>
+    <Keywords>EVERGREEN NEEDLELEAF FORESTS</Keywords>
+    <Keywords>TERRESTRIAL BIOSPHERE MODELS</Keywords>
+    <Keywords>NORTH AMERICAN CARBON PROGRAM</Keywords>
+    <Keywords>EDDY COVARIANCE FLUX TOWER SITES</Keywords>
+    <Parameter_Description>
+      <Parameter>AGRICULTURAL LANDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ALPINE/TUNDRA</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CARBON</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>VEGETATION</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>ECOSYSTEM FUNCTIONS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ECOLOGICAL DYNAMICS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>FORESTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>GRASSLANDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LEAF CHARACTERISTICS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>VEGETATION</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SAVANNAS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>SHRUBLAND/SCRUB</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>WETLANDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Project>NORTH AMERICAN CARBON PROGRAM</Project>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|AGRICULTURAL LANDS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|ALPINE/TUNDRA</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CARBON</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|ECOSYSTEM FUNCTIONS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|FORESTS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|GRASSLANDS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LEAF CHARACTERISTICS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SAVANNAS</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|SHRUBLAND/SCRUB</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|WETLANDS</Navpath>
+    <Principal_Investigator>
+      <Name>RICCIUTO, D.M.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>SCHAEFER, K.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>THORNTON, P.E.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>COOK, R.B.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>ANDERSON, R.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>ARAIN, M.A.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>BAKER, I.T.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>CHEN, J.M.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>DIETZE, M.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>GRANT, R.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>IZAURRALDE, C.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>JAIN, A.K.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>KING, A.W.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>KUCHARIK, C.J.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>LIU, SHUGUANG</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>LOKUPITIYA, E.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>LUO, Y.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>PENG, C.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>POULTER, B.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>PRICE, D.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>RILEY, W.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>SAHOO, A.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>TIAN, H.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>TONITTO, C.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Principal_Investigator>
+      <Name>VERBEECK, H.</Name>
+      <Email />
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1192</URL>
+      <Label>NACP Site: Terrestrial Biosphere Model Output Data in Original Format</Label>
+      <Link_Note />
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL>http://daac.ornl.gov//NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html</URL>
+      <Label>NACP Site: Terrestrial Biosphere Model Output Data in Original Format</Label>
+      <Text />
+    </Documentation_Link>
+    <OME_Software_Version>/home/web/mercury/write_mercury_xml.pl</OME_Software_Version>
+    <OME_DTD_Version>mercury21.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>ornldaac@ornl.gov</Email>
+      <Name>ORNL DAAC User Services Office
+        Oak Ridge National Laboratory
+        Oak Ridge, Tennessee 37831 USA     
+        FAX: +1(865)574-4665</Name>
+      <Phone>+1(865)241-3952</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>1192</File_ID>
+    <MD_Entry_id>NACP_SITE_MODEL_DATA_ORIG_FMT</MD_Entry_id>
+    <Spatial_Extent>8880</Spatial_Extent>
+    <Search_Text_Link>
+      <URL>http://daac.ornl.gov//NACP/guides/NACP_Site_Model_Data_Orig_Fmt_v2.html</URL>
+      <Label>NACP Site: Terrestrial Biosphere Model Output Data in Original Format</Label>
+    </Search_Text_Link>
+    <Granule_Details />
+    <OGC_URL />
+    <THREDDS_URL />
+  </mercury>
+</metadata>

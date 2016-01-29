@@ -1,0 +1,1166 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="klr.31.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=Kelly Robinson,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=mgraham,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=condon,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=lhu,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=schild,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=aaronelmore,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=malej,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow> <principal>uid=haddock,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow> <principal>uid=Pitt,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow> <principal>uid=Cathy Lucas,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>NOAA NMFS Gulf of Mexico SEAMAP Scyphomedusae Data: 1985-2009</title>
+<creator id="1305927045277"><individualName><surName>Southeast Area Monitoring and Assessment Program</surName>
+</individualName>
+<organizationName>NOAA National Marine Fisheries Service</organizationName>
+<positionName>Groundfish Survey Program</positionName>
+</creator>
+<creator id="1273453019765"><individualName><givenName>Kelly</givenName>
+<surName>Robinson</surName>
+</individualName>
+<organizationName>Dauphin Island Sea Laboratory</organizationName>
+<positionName>PhD Candidate</positionName>
+<address><deliveryPoint>101 Bienville Blvd</deliveryPoint>
+<city>Dauphin Island</city>
+<administrativeArea>Alabama</administrativeArea>
+<postalCode>36528</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">+1 251-861-2141 x2289</phone>
+<electronicMailAddress>krobinson@disl.org</electronicMailAddress>
+</creator>
+<creator id="1305926974731"><individualName><givenName>William 'Monty'</givenName>
+<surName>Graham</surName>
+</individualName>
+<organizationName>Dauphin Island Sea Lab</organizationName>
+<positionName>Senior Marine Scientist</positionName>
+<address><deliveryPoint>101 Bienville Blvd.</deliveryPoint>
+<city>Dauphin Island</city>
+<administrativeArea>Alabama</administrativeArea>
+<postalCode>36528</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">+1-251-861-2141 x2272</phone>
+<electronicMailAddress>mgraham@disl.org</electronicMailAddress>
+</creator>
+<associatedParty id="1319564931045"><individualName><salutation>Dr.</salutation>
+<givenName>Carlos</givenName>
+<surName>Duarte</surName>
+</individualName>
+<organizationName>Instituto Mediterr&#225;neo de Estudios Avanzados</organizationName>
+<positionName>Profesor de investigaci&#243;n</positionName>
+<address><deliveryPoint>C/ Miquel Marqu&#232;s, 21</deliveryPoint>
+<deliveryPoint>07190 Esporles</deliveryPoint>
+<city>Islas Baleares</city>
+<country>Spain</country>
+</address>
+<phone phonetype="voice">+34 971611725</phone>
+<electronicMailAddress>carlosduarte@imedea.uib-csic</electronicMailAddress>
+<role>Global Jellyfish Group</role>
+</associatedParty>
+<associatedParty id="1319564881490"><individualName><salutation>Dr.</salutation>
+<givenName>Robert</givenName>
+<surName>Condon</surName>
+</individualName>
+<organizationName>Dauphin Island Sea Lab</organizationName>
+<positionName>Research Faculty</positionName>
+<address><deliveryPoint>101 Bienville Blvd.</deliveryPoint>
+<city>Dauphin Island</city>
+<administrativeArea>Alabama</administrativeArea>
+<postalCode>36528</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">251-861-2141 x7546</phone>
+<electronicMailAddress>rcondon@disl.org</electronicMailAddress>
+<role>Global Jellyfish Group</role>
+</associatedParty>
+<associatedParty id="1319564902006"><individualName><salutation>Dr.</salutation>
+<givenName>William 'Monty'</givenName>
+<surName>Graham</surName>
+</individualName>
+<organizationName>Dauphin Island Sea Lab</organizationName>
+<positionName>Senior Marine Scientist II</positionName>
+<address><deliveryPoint>101 Bienville Blvd.</deliveryPoint>
+<city>Dauphin Island</city>
+<administrativeArea>AL</administrativeArea>
+<postalCode>36528</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">(251) 861-2141 ext. 2272</phone>
+<electronicMailAddress>mgraham@disl.org</electronicMailAddress>
+<role>Global Jellfyfish Group</role>
+</associatedParty>
+<associatedParty id="1319564916093"><individualName><givenName>Kelly</givenName>
+<surName>Robinson</surName>
+</individualName>
+<organizationName>Dauphin Island Sea Lab</organizationName>
+<positionName>PhD Candidate</positionName>
+<address><deliveryPoint>101 Bienville Blvd.</deliveryPoint>
+<city>Dauphin Island</city>
+<administrativeArea>AL</administrativeArea>
+<postalCode>36528</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">(251) 861-2289</phone>
+<electronicMailAddress>krobinson@disl.org</electronicMailAddress>
+<role>Global Jellyfish Group</role>
+</associatedParty>
+     <keywordSet><keyword>Jellyfish</keyword>
+ <keyword>Gulf of Mexico</keyword>
+ <keyword>scyphomedusa</keyword>
+ <keyword>Aurelia</keyword>
+ <keyword>Chrysaora</keyword>
+ <keyword>fisheries survey</keyword>
+ </keywordSet>
+ <intellectualRights> <para>Usage restricted to Global Jellies Working Group members.</para>
+ </intellectualRights>
+ <coverage scope="document"> <taxonomicCoverage><taxonomicClassification><taxonRankName>Phylum</taxonRankName>
+ <taxonRankValue>Cnidaria</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Class</taxonRankName>
+ <taxonRankValue>Scyphozoa</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Order</taxonRankName>
+ <taxonRankValue>Semaeostomeae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Pelagiidae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Chrysaora</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Phylum</taxonRankName>
+ <taxonRankValue>Cnidaria</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Class</taxonRankName>
+ <taxonRankValue>Scyphozoa</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Order</taxonRankName>
+ <taxonRankValue>Semaeostomeae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Ulmaridae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Aurelia</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+<contact><references>1273453019765</references>
+</contact>
+<contact id="1272946189984"><individualName><salutation>Dr.</salutation>
+<givenName>William 'Monty'</givenName>
+<surName>Graham</surName>
+</individualName>
+<organizationName>Dauphin Island Sea Lab</organizationName>
+<positionName>Senior Marine Scientist</positionName>
+<address><deliveryPoint>101 Bienville Blvd.</deliveryPoint>
+<city>Dauphin Island</city>
+<administrativeArea>Alabama</administrativeArea>
+<postalCode>36528</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">251-861-2141 ext. 2272</phone>
+<electronicMailAddress>mgraham@disl.org</electronicMailAddress>
+</contact>
+   <methods><methodStep><description><section><title>Collection Methods</title>
+ <para>Scyphomedusae were collected using bottom trawls conducted at each SEAMAP groundfish/shrimp station. Medusae were assumed to be collected on the 'up' and 'down' cast of each trawl. The number of medusae were then counted in each trawl.  For further information, please see 'Graham, W.M. 2001. Numerical increases and distributional shifts in Chrysaora quinquecirrha (Desor) and Aurelia aurita (Linne) (Cnidaria: Scyphozoa) and in the northern Gulf of Mexico. Hydrobiologia. v451(1-3): 97-111.'</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1273221075343" scope="document"> <entityName>JEDI Template.txt</entityName>
+ <physical id="1273219353171" scope="document"> <objectName>JEDI Template.txt</objectName>
+ <size unit="byte">650</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <offline> <mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1286390080250"><attributeName>is_public</attributeName>
+ <attributeDefinition>'is_public' is denotes if the record is from a project where the owner has given permission for the data to be made freely available to the public for download and use with the proviso appropriate acknowledgement of date use is made by the user</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>TRUE</code>
+ <definition>'TRUE' denotes the data record is freely available to the pubic for use with appropriate acknowledgement</definition>
+ </codeDefinition>
+ <codeDefinition><code>FALSE</code>
+ <definition>'FALSE' denotes the data record is private. Please contact the data set owner for use.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075359" scope="document"><attributeName>project_title</attributeName>
+ <attributeDefinition>Project title</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Project title</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1277309844062"><attributeName>owner</attributeName>
+ <attributeDefinition>Owner of data</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Owner of dataset</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075375" scope="document"><attributeName>contact_person</attributeName>
+ <attributeDefinition>Contact person for usage rights or information about data record.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>contact person</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075390" scope="document"> <attributeName>location_name</attributeName>
+ <attributeDefinition>General region where jellyfish was observed or collected.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>location name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075406" scope="document"> <attributeName>date</attributeName>
+ <attributeDefinition>Date jellyfish was observed or collected.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>DD-MM-YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1285261419000"><attributeName>year</attributeName>
+ <attributeDefinition>year of observation or sample</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ <dateTimePrecision>1 year</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1291150928210"><attributeName>month</attributeName>
+ <attributeDefinition>Month of the year sample or specimen was collected.</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM</formatString>
+ <dateTimePrecision>1 month</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075421" scope="document"> <attributeName>local_time</attributeName>
+ <attributeDefinition>Local time jellyfish was observed or collected.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075437" scope="document"> <attributeName>latitude</attributeName>
+ <attributeDefinition>Latitude in decimal degrees where jellyfish was observed or collected.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075453" scope="document"> <attributeName>longitude</attributeName>
+ <attributeDefinition>Longitude in decimal degrees where jellyfish was observed or collected.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075468" scope="document"> <attributeName>taxon</attributeName>
+ <attributeDefinition>General indicator of taxonomic classification.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>general indicator of taxonomic classification</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075484" scope="document"> <attributeName>phylum</attributeName>
+ <attributeDefinition>Phylum</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Phylum</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075500" scope="document"> <attributeName>class</attributeName>
+ <attributeDefinition>Class</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>class</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075515" scope="document"> <attributeName>order</attributeName>
+ <attributeDefinition>order</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Order</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075531" scope="document"> <attributeName>family</attributeName>
+ <attributeDefinition>Family</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Family</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075546" scope="document"> <attributeName>genus</attributeName>
+ <attributeDefinition>Genus</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Genus</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075562" scope="document"> <attributeName>species</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075578" scope="document"> <attributeName>data_type</attributeName>
+ <attributeDefinition>Type of data (e.g. quantitative, categorical, presence_absence, presence only)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>data type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075593" scope="document"> <attributeName>collection_method</attributeName>
+ <attributeDefinition>Gear or methodology used to observe or collect jellyfish</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>collection method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075609" scope="document"> <attributeName>net_opening</attributeName>
+ <attributeDefinition>Diameter of net mouth opening</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075625" scope="document"> <attributeName>net_mesh</attributeName>
+ <attributeDefinition>Width of net mesh opening.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075640" scope="document"> <attributeName>depth</attributeName>
+ <attributeDefinition>Absolute water depth where jellyfish was observed or collected</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075656" scope="document"> <attributeName>upper_z</attributeName>
+ <attributeDefinition>Minimum depth in meters where jellyfish were observed or collected.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075671" scope="document"> <attributeName>lower_z</attributeName>
+ <attributeDefinition>Maximum depth where jellyfish were observed or collected.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075687" scope="document"> <attributeName>actual_count</attributeName>
+ <attributeDefinition>Actual count of individual jellyfish</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075703" scope="document"> <attributeName>numeric_density</attributeName>
+ <attributeDefinition>Number of jellyfish per cubic meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>numberPerMeterCubed</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075718" scope="document"> <attributeName>depth_integrated_density</attributeName>
+ <attributeDefinition>Depth-interated number of jellyfish per square meter.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>numberPerMeterSquared</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075734" scope="document"> <attributeName>biovolume</attributeName>
+ <attributeDefinition>Displacement volument of jellyfish wet biomass per cubic meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>MillilitersPerCubicMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075750" scope="document"> <attributeName>depth_integrated_biovolume</attributeName>
+ <attributeDefinition>Depth-integrated milliliters of jellyfish wet biomass per square meter.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>millilitersPerMeterSquare</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075765" scope="document"> <attributeName>wet_weight</attributeName>
+ <attributeDefinition>Mass of wet jellyfish biomass per cubic meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>gramsPerMeterCubed</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075781" scope="document"> <attributeName>dry_weight</attributeName>
+ <attributeDefinition>Dry jellyfish biomass per cubic meter.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>gramsPerMeterCube</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075796" scope="document"> <attributeName>carbon</attributeName>
+ <attributeDefinition>Carbon-specific jellyfish biomass per cubic meter.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerCubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075812" scope="document"> <attributeName>depth_integrated_carbon</attributeName>
+ <attributeDefinition>Depth integrated carbon-specific jellyfish biomass per square meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerSquareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075828" scope="document"> <attributeName>nitrogen</attributeName>
+ <attributeDefinition>Nitrogen-specific jellyfish biomass per cubic meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerCubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075843" scope="document"> <attributeName>depth_integrated_nitrogen</attributeName>
+ <attributeDefinition>Depth-integrated nitrogen-specific biomass per square meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerSquareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075859" scope="document"> <attributeName>protein</attributeName>
+ <attributeDefinition>Protein-specific jellyfish biomass per cubic meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerCubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075875" scope="document"> <attributeName>depth_integrated_protein</attributeName>
+ <attributeDefinition>Depth-integrated protein-specific jellyfish biomass per square meter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerSquareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075890" scope="document"> <attributeName>categorical_abundance</attributeName>
+ <attributeDefinition>Relative number of jellyfish observed or collected.</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>categorical abundance</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075906" scope="document"> <attributeName>presence_absence</attributeName>
+ <attributeDefinition>recorded observation of jellyfish presence or absence</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>presence_absence of jellyfish</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075921" scope="document"> <attributeName>study_type</attributeName>
+ <attributeDefinition>Type of study data recorded was generated with (e.g. museum collection).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>study type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075937" scope="document"> <attributeName>accompanying_ancillary_data</attributeName>
+ <attributeDefinition>Indicator if ancillary data is associated with the data record.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>indicator of ancillary data</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273221075953" scope="document"> <attributeName>catch_per_effort</attributeName>
+ <attributeDefinition>Catch per unit effort</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273339946171" scope="document"> <attributeName>SST</attributeName>
+ <attributeLabel>sea surface temperature</attributeLabel>
+ <attributeDefinition>water temperature of the surface layer (0-1m) of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273340057234" scope="document"> <attributeName>temp_collect_depth</attributeName>
+ <attributeDefinition>water temperature at the depth jellyfish were observed or collected.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273340296281" scope="document"> <attributeName>temp_max_depth</attributeName>
+ <attributeDefinition>temperature at maximum depth of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273340235187" scope="document"> <attributeName>SSS</attributeName>
+ <attributeLabel>sea surface salinity</attributeLabel>
+ <attributeDefinition>salinity in practical salinity units (psu) at the surface layer (0-1m depth) of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273341425796" scope="document"> <attributeName>salinity_collect_depth</attributeName>
+ <attributeDefinition>salinity in practical salinity units (psu) at the depth jellyfish was observed or collected</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273341548328" scope="document"> <attributeName>salinity_max_depth</attributeName>
+ <attributeDefinition>salinity in practical salinity units (psu) at the maximum depth of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273341692765" scope="document"> <attributeName>diss_oxy_surf</attributeName>
+ <attributeLabel>sea surface dissolved oxygen concentration</attributeLabel>
+ <attributeDefinition>dissolved oxygen concentration of the surface layer (0-1m) of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>gramsPerMilliliter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273341787875" scope="document"> <attributeName>diss_oxy_collect_depth</attributeName>
+ <attributeLabel>dissolved oxygen concentration at collection depth</attributeLabel>
+ <attributeDefinition>dissolved oxygen concentration at the depth jellyfish were observed or collected</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>gramsPerMilliliter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273342006921" scope="document"><attributeName>diss_oxy_max_depth</attributeName>
+ <attributeLabel>DO concentration_maximum depth</attributeLabel>
+ <attributeDefinition>dissolved oxygen concentration at the maximum depth of the water column</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerMilliliter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273342472703" scope="document"><attributeName>chl_surf</attributeName>
+ <attributeLabel>surface chl concentrations</attributeLabel>
+ <attributeDefinition>chlorophyll concentrations in the surface layer of the water column (0-1m)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273342676000" scope="document"> <attributeName>chl_max_depth</attributeName>
+ <attributeLabel>chl concentration at max depth</attributeLabel>
+ <attributeDefinition>chlorophyll concentration at the maximum depth of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273342587375" scope="document"> <attributeName>chl_collect_depth</attributeName>
+ <attributeLabel>chlorophyll concentration at collection depth</attributeLabel>
+ <attributeDefinition>chlorophyll concentration at the depth jellyfish were observed or collected</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273342911468" scope="document"> <attributeName>fluor_surf</attributeName>
+ <attributeLabel>surface fluoresence</attributeLabel>
+ <attributeDefinition>fluorescence in the surface layer (0-1m) of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerCubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273342968828" scope="document"> <attributeName>fluor_collect_depth</attributeName>
+ <attributeDefinition>fluoresence at the depth jellyfish were observed or collected</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerCubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273343033171" scope="document"> <attributeName>fluor_max_depth</attributeName>
+ <attributeLabel>fluoresence maximum depth</attributeLabel>
+ <attributeDefinition>fluoresence at the the maximum depth of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerCubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273344730765" scope="document"> <attributeName>transmiss_surf</attributeName>
+ <attributeLabel>surface transmissivity</attributeLabel>
+ <attributeDefinition>transimissivity of the surface layer of the water column (0-1m)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersSquaredPerSecond</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273344805937" scope="document"> <attributeName>transmiss_collect_depth</attributeName>
+ <attributeDefinition>transmissivity of the water at the depth the jellyfish were observed or collected</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersSquaredPerSecond</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273344932500" scope="document"> <attributeName>transmiss_max_depth</attributeName>
+ <attributeLabel>transmissivity at maximum depth</attributeLabel>
+ <attributeDefinition>transmissivity at maximum depth of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersSquaredPerSecond</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273345096234" scope="document"> <attributeName>pH_surf</attributeName>
+ <attributeLabel>surface pH</attributeLabel>
+ <attributeDefinition>pH of the surface layer (0-1m) of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273345176890" scope="document"> <attributeName>pH_collect_depth</attributeName>
+ <attributeLabel>pH collection depth</attributeLabel>
+ <attributeDefinition>pH of the water at the depth jellyfish were observed or collected</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1273345231296" scope="document"> <attributeName>pH_max_depth</attributeName>
+ <attributeLabel>pH maximum depth</attributeLabel>
+ <attributeDefinition>pH at the maximum depth of the water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>10</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="MillilitersPerCubicMeter" name="MillilitersPerCubicMeter" parentSI="numberPerMeterCubed" unitType="volumetricDensity"> <description>unit of biovolume</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="millilitersPerMeterSquare" name="millilitersPerMeterSquare" parentSI="numberPerMeterSquared" unitType="arealDensity"> <description>Unit of biovolume</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="gramsPerMeterCubed" name="gramsPerMeterCubed" parentSI="kilogramsPerCubicMeter" unitType="massDensity"> <description>gramsPerMeterCubed</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="gramsPerMeterCube" name="gramsPerMeterCube" parentSI="kilogramsPerCubicMeter" unitType="massDensity"> <description>gramsPerMeterCube</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <describes>1273219353171</describes>
+ <metadata> <consecutiveDelimiters>true</consecutiveDelimiters>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

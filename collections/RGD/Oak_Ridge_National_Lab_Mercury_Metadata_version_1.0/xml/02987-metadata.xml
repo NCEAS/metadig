@@ -1,0 +1,359 @@
+<ns0:metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USDA Forest Service, Forest Inventory and Analysis Program</origin>
+        <title>Forest Biomass Geospatial Data Sets for the Contiguous United States and Alaska</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/vegetation/fia_forest_biomass_maps.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/vegetation/fia_forest_biomass_maps.xml</alt_onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass.htm</onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass_error.htm</onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass_relative_error.htm</onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_nonforest_confidence.htm</onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_nonforest_probability.htm</onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_type.htm</onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_type_confidence.htm</onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_group.htm</onlink>
+        <onlink>http://webmap.ornl.gov/biomass/metadata/us_forest_group_confidence.htm</onlink>
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This geospatial data set was produced by the USDA Forest Service, Forest Inventory and Analysis (FIA), Remote Sensing Band (RSB) to show the extent and distribution of forest biomass the contiguous United States and Alaska in greater detail than is possible with the FIA plot data alone. The maps were created by modeling forest biomass collected on FIA sample plots as functions of more than sixty geospatially continuous predictor layers. Among the predictor layers used were digital elevation models (DEM) and DEM derivatives; Moderate Resolution Spectroradiometer (MODIS) multi-date composites, vegetation indices and vegetation continuous fields; class summaries from the 1992 National Land Cover Data set (NLCD); various ecologic zones; and summarized PRISM climate data. Modeling was performed using a data mining package, Cubist/See5, which was loosely coupled with Leica Geosystems Imagine image processing software. One significant advantage of Cubist/See5 is that it is a non-parametric modeler that assumes nothing about the structure of the input data sets. RSB scientists produced the models and biomass geospatial data sets for their FIA unit&amp;#226;&#239;&#191;&#189;&amp;#153;s region of responsibility. In addition, each unit produced a forest/non-forest mask.
+
+The original data sets (Contiguous U.S. and Alaska data) were reformated from ERDAS Imagine format to GeoTIFF format, reprojected from Albers Conical Equal Area projection to WGS_1984 projection, and then mosaicked together as a single data file by ORNL DAAC.
+
+References:
+
+Blackard, J.A.; Finco, M.V.; Helmer, E.H.; Holden, G.R.; Hoppus, M.L.; Jacobs, D.M.; Lister, A.J.; Moisen, G.G.; Nelson, M.D.; Riemann, R.; Ruefenacht, B.; Salajanu, D.; Weyermann, D.L.; Winterberger, K.C.; Brandeis, T.J.; Czaplewski, R.L.; McRoberts, R.E.; Pattterson, P.L.; Tymcio, R.P. 2008. Mapping U.S. forest biomass using nationwide forest inventory data and moderate resolution information. Remote Sensing of the Environment. 112: 1658-1677.</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19900101</begdate>
+          <enddate>20031231</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Final</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-179.2</westbc>
+        <eastbc>-65.43</eastbc>
+        <northbc>71.82</northbc>
+        <southbc>24.46</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>FORESTS|ANALYSIS|FIELD INVESTIGATION</themekey>
+        <themekey>BIOMASS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LAND COVER|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|TERRA</themekey>
+        <themekey>CARBON|ANALYSIS|COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>FORESTS</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>FIELD INVESTIGATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>ANALYSIS</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>USDA Forest Service, Forest Inventory and Analysis Program</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; gmoisen@fs.fed.us</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</cntorg>
+          <cntper>ORNL DAAC User Services Office Oak Ridge National Laboratory Oak Ridge, Tennessee 37831 USA FAX: +1(865)574-4665</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; gmoisen@fs.fed.us</cntfax>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://daac.ornl.gov/</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Forest Biomass Related Data Across the Lower 48 States and Alaska. 2008. Nine (9) data granules available on-line [http://webmap.ornl.gov/biomass/biomass.html] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20101005 180915</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19900101</begdate>
+    <enddate>20031231</enddate>
+    <Site_Information>
+      <Site>United States</Site>
+      <Westernmost_Longitude>-179.2</Westernmost_Longitude>
+      <Easternmost_Longitude>-65.43</Easternmost_Longitude>
+      <Northernmost_Latitude>71.82</Northernmost_Latitude>
+      <Southernmost_Latitude>24.46</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>Alaska</Keywords>
+    <Keywords>Biomass</Keywords>
+    <Keywords>Carbon cycling</Keywords>
+    <Keywords>Carbon pools</Keywords>
+    <Keywords>Contiguous United States</Keywords>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>FIA</Keywords>
+    <Keywords>Forest biomass</Keywords>
+    <Keywords>Forest groups</Keywords>
+    <Keywords>Forest Inventory and Analysis</Keywords>
+    <Keywords>Forest types</Keywords>
+    <Keywords>Forests</Keywords>
+    <Keywords>Lower 48 States</Keywords>
+    <Keywords>MODIS</Keywords>
+    <Keywords>Puerto Rico</Keywords>
+    <Keywords>United States</Keywords>
+    <Keywords>Vegetation Collections</Keywords>
+    <Parameter_Description>
+      <Parameter>FORESTS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>BIOMASS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>VEGETATION</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND COVER</Parameter>
+      <Sensor>MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)</Sensor>
+      <Source>TERRA</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>CARBON</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>VEGETATION</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Project>Forest Inventory and Analysis (FIA)</Project>
+    <Project>FIA Remote Sensing Band (RSB)</Project>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|FORESTS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|BIOMASS</Navpath>
+    <Navpath>TERRA|MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER)|LAND COVER</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|CARBON</Navpath>
+    <Principal_Investigator>
+      <Name>USDA Forest Service, Forest Inventory and Analysis Program</Name>
+      <Email>gmoisen@fs.fed.us</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_biomass.zip</URL>
+      <Label>Forest Biomass [126MB]</Label>
+      <Link_Note>This data set portrays broad distribution patterns of biomass in the contiguous U.S. and Alaska and provides input to national scale modeling projects.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_biomass_error.zip</URL>
+      <Label>Forest Biomass Error [99MB]</Label>
+      <Link_Note>This data set consists of the average residual errors for the rulesets developed to predict biomass. The purpose of this data set is to provide data quality information to the biomass map.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_biomass_relative_error.zip</URL>
+      <Label>Forest Biomass Relative Error [99MB]</Label>
+      <Link_Note>This data set consists of the relative errors, which are the ratios of the average errors to the average errors that would result by predicting the value as the mean of the training set. The purpose of this data set is to provide data quality information to the biomass map.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_nonforest_confidence.zip</URL>
+      <Label>Forest/Nonforest Confidence [163MB]</Label>
+      <Link_Note>This data set portrays the forest/non-forest confidence values obtained from See5 (&lt;http://www.rulequest.com&gt;). Values range from 0 to 1. A value of 0 signifies no confidence and a value of 1 signifies the See5 model is confident of the classification. The models were developed using USDA Forest Service Forest Inventory and Analysis Program data, MODIS composite images from the 2002 growing season, and nearly 100 other geospatial data layers, including elevation, slope, aspect, and ecoregions.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_nonforest_probability.zip</URL>
+      <Label>Forest/Nonforest Probability [140MB]</Label>
+      <Link_Note>A forest probability map was created by remapping the forest/non-forest confidence values to a range of 0 to 0.5 for nonforest pixels and 0.5 to 1 for forest pixels, creating a new range from 0 to 1. Here, values near 0 indicate a more confident prediction for nonforest areas, values near 1 indicate a more confident prediction for forest areas, and values around .5 are the most uncertain. The purpose of this data set is to provide data quality information to the forest/non-forest map.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_type.zip</URL>
+      <Label>Forest Type [16MB]</Label>
+      <Link_Note>This data set portrays 141 forest types across the contiguous United States. These data were derived from MODIS composite images from the 2002 and 2003 growing seasons in combination with nearly 100 other geospatial data layers, including elevation, slope, aspect, ecoregions, and PRISM climate data.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_type_confidence.zip</URL>
+      <Label>Forest Type Confidence [114MB]</Label>
+      <Link_Note>The purpose of this data set is to provide confidence information to the forest type product. It was created using See5 software package which produces a confidence value. According to www.rulequest.com, this confidence value is the confidence with which the prediction is made.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_group.zip</URL>
+      <Label>Forest Group [13MB]</Label>
+      <Link_Note>This data set portrays 28 forest type groups across the contiguous United States. These data were derived from MODIS composite images from the 2002 and 2003 growing seasons in combination with nearly 100 other geospatial data layers, including elevation, slope, aspect, ecoregions, and PRISM climate data. Independent accuracy assessments were conducted using a 10% holdout of the training data, and are available through the data source contact.</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://webmap.ornl.gov/biomass/data/us_forest_group_confidence.zip</URL>
+      <Label>Forest Group Confidence [105MB]</Label>
+      <Link_Note>The purpose of this data set is to provide confidence information to the forest type group product. It was created using See5 software package which produces a confidence value. According to www.rulequest.com, this confidence value is the confidence with which the prediction is made.</Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass.htm</URL>
+      <Label>Metadata for Biomass Map</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass_error.htm</URL>
+      <Label>Metadata for Biomass Error Map</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass_relative_error.htm</URL>
+      <Label>Metadata for Biomass Relative Error Map</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_nonforest_confidence.htm</URL>
+      <Label>Metadata for Forest/Non-forest Confidence Map</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_nonforest_probability.htm</URL>
+      <Label>Metadata for Forest/Non-forest Probability Map</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_type.htm</URL>
+      <Label>Metadata for Forest Types of the United States</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_type_confidence.htm</URL>
+      <Label>Metadata for Confidence Product for the Forest Types of the United States</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_group.htm</URL>
+      <Label>Metadata for Forest Type Groups of the United States</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_group_confidence.htm</URL>
+      <Label>Metadata for Confidence Product for the Forest Type Groups of the United States</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status>Final</Data_Set_Status>
+      <Data_Set_Restrictions>Public</Data_Set_Restrictions>
+      <Data_Set_Location>The Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)</Data_Set_Location>
+      <Data_Contact_Person>
+        <Email>ornldaac@ornl.gov</Email>
+        <Name>ORNL DAAC User Services Office Oak Ridge National Laboratory Oak Ridge, Tennessee 37831 USA FAX: +1(865)574-4665</Name>
+        <Phone>+1(865)241-3952</Phone>
+        <Data_Center_URL>http://daac.ornl.gov/</Data_Center_URL>
+      </Data_Contact_Person>
+      <Data_Center_URL>http://daac.ornl.gov/</Data_Center_URL>
+      <Data_Set_Citation>Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC). 2010. Forest Biomass Related Data across the Lower 48 States and Alaska. Available online at [http://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=10000] from the Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC), Oak Ridge, Tennessee 37831 U.S.A.</Data_Set_Citation>
+      <Data_Set_Link>
+        <URL>http://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=10000</URL>
+        <Label>Forest Biomass Related Data across the Lower 48 States and Alaska</Label>
+        <Link_Note>This data set contains 9 data granules in GeoTIFF format. Use the links in the table on this web page to view and download data using WCS.</Link_Note>
+        <Data_Center_URL>http://daac.ornl.gov/</Data_Center_URL>
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>basic02.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>ornldaac@ornl.gov</Email>
+      <Name>ORNL DAAC User Services Office Oak Ridge National Laboratory Oak Ridge, Tennessee 37831 USA FAX: +1(865)574-4665</Name>
+      <Phone>+1(865)241-3952</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>Created 20090223 051206 by 69.19.14.41</File_ID>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Extent>5388.1472</Spatial_Extent>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass.htm</URL>
+      <Label>Metadata for Biomass Map</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass_error.htm</URL>
+      <Label>Metadata for Biomass Error Map</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_biomass_relative_error.htm</URL>
+      <Label>Metadata for Biomass Relative Error Map</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_nonforest_confidence.htm</URL>
+      <Label>Metadata for Forest/Non-forest Confidence Map</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_nonforest_probability.htm</URL>
+      <Label>Metadata for Forest/Non-forest Probability Map</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_type.htm</URL>
+      <Label>Metadata for Forest Types of the United States</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_type_confidence.htm</URL>
+      <Label>Metadata for Confidence Product for the Forest Types of the United States</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_group.htm</URL>
+      <Label>Metadata for Forest Type Groups of the United States</Label>
+    </Search_Text_Link>
+    <Search_Text_Link>
+      <URL>http://webmap.ornl.gov/biomass/metadata/us_forest_group_confidence.htm</URL>
+      <Label>Metadata for Confidence Product for the Forest Type Groups of the United States</Label>
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</ns0:metadata>

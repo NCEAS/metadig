@@ -1,0 +1,118 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cgries.23.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=cgries,o=LTER,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+ <dataset> <title>Lake Mendota hourly water temperature profile 2013</title>
+ <creator id="1414006702161"> <individualName><givenName>Corinna</givenName>
+<surName>Gries</surName>
+</individualName>
+<address><deliveryPoint>Center for Limnology</deliveryPoint>
+<deliveryPoint>University of Wisconsin, Madison</deliveryPoint>
+<city>Madison</city>
+<administrativeArea>Wisconsin</administrativeArea>
+<postalCode>53706</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>cgries@wisc.edu</electronicMailAddress>
+</creator>
+ <abstract><para>This dataset was created by averaging sensor data from buoy on Lake Mendota. Water temperature is originally measured every minute. This dataset is intended for test purposes during the GLEON Data Workshop 2014.</para>
+</abstract>
+<keywordSet><keyword>water temperature</keyword>
+<keyword>profile</keyword>
+<keyword>lake Mendota</keyword>
+<keyword>North Temperate Lakes LTER</keyword>
+<keyword>NTL LTER</keyword>
+<keyword>Wisconsin</keyword>
+</keywordSet>
+<intellectualRights><para>The Data User realize s that these data sets are being actively used by others for on going research and that communication and coordination is necessary to prevent duplicate publication. The Data User also realize s that the data may be misinterpreted if taken out of context. Data are being collected by scientists in academic and other rese arch organizations with the requirement to publish scientific papers. The Data User therefore agrees to contact the responsible person for each GLEON site to check on other uses of the data, receive information on data, and discuss collaboration and/or co - authorship.
+
+Acknowledgement: Consistent with the GLEON principle of acknowledgement and attribution (GLEON OPP Paragraph 4), u se of the data in publications should include co - authorship and/or acknowledge the GLEON project as well as the responsible person and institution including institutional support or specific funding awards referenced in the metadata or given by the person responsible for the GLEON site . A generic citation for our databases is: name of data set, Global Lake Ecological Observatory Ne twork (http://www.gleon.org), GLEON, &lt;contact person for data set and Institution
+
+Acceptable use : Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not - for - profit professional purposes. Any oth er uses for the Data Set or its derived products will require explicit permission from the dataset owner.
+
+The Data User agree s to notify the responsible person for the GLEON site when any derivative work or publication based on or derived from the Data Set is distributed. The Data User is requested and encouraged to send two reprints (or a pdf) of any publications resulting from use of the data to the responsible person for the GLEON site and to the GLEON Program Coordinator
+
+The Data User agrees not to redistribute original data and documentation without permission from the responsible person for each GLEON site or in a manner in agreement with the site policy .</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Lake Mendota, Madison, Dane County, Wisconsin, USA</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-89.405</westBoundingCoordinate>
+<eastBoundingCoordinate>-89.315595</eastBoundingCoordinate>
+<northBoundingCoordinate>43.099</northBoundingCoordinate>
+<southBoundingCoordinate>43.099</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2013-04-27</calendarDate>
+</beginDate>
+<endDate><calendarDate>2013-10-27</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact id="1414006822170"><individualName><givenName>Corinna</givenName>
+<surName>Gries</surName>
+</individualName>
+<electronicMailAddress>cgries@wisc.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section><title>Data Collection</title>
+<para>Data were collected by temperature sensor in a thermistor chain at different water depths from the surface to the bottom of the lake. Sampling frequency was 1 minute. The data have been aggregated to hourly averages by simply calculating the means for each hour.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<project><title>North Temperate Lakes Long-Term Ecological Research Site</title>
+<personnel id="1414006891688"><individualName><givenName>Emily</givenName>
+<surName>Stanley</surName>
+</individualName>
+<electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+<role>Principal Investigator</role>
+</personnel>
+<funding><para>National Science Foundation</para>
+</funding>
+</project>
+<dataTable id="1414008183729"><entityName>Mendota2013hourly.csv</entityName>
+<entityDescription>hourly water temperature data in degree celsius at different water depths</entityDescription>
+<physical id="1414008042293"><objectName>Mendota2013hourly.csv</objectName>
+<size unit="byte">3575191</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/cgries.22.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1414008183730"><attributeName>sampledate</attributeName>
+<attributeDefinition>date and time of sampling</attributeDefinition>
+<measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm:ss</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1414008183731"><attributeName>waterdepth</attributeName>
+<attributeDefinition>depth below water surface in meter</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1414008183732"><attributeName>watertemp</attributeName>
+<attributeDefinition>water temperature in degree celsius</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>99751</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

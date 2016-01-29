@@ -1,0 +1,355 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-knz.34.7" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=KNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>CPC01</alternateIdentifier>
+    <title>CPC01 Annual Census of Greater Prairie Chickens on Leks at Konza Prairie</title>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <givenName>L.</givenName>
+        <surName>Zimmerman</surName>
+      </individualName>
+    </creator>
+    <abstract>
+      <section>
+        <para>Location of leks and number of birds per lek are censused during late April and early May across Konza Prairie to document year to year densities of greater prairie chickens. This dataset is continued by CPC02 after 04/19/1999.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">LTER</keyword>
+      <keyword keywordType="place">KNZ</keyword>
+      <keyword keywordType="place">Konza Prairie Biological Station</keyword>
+      <keyword keywordType="place">Kansas</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>birds</keyword>
+      <keyword>greater prairie chicken</keyword>
+      <keyword>leks</keyword>
+      <keyword>consumers</keyword>
+      <keyword>abundance populations</keyword>
+    </keywordSet>
+    <distribution>
+      <online>
+        <url>http://www.konza.ksu.edu/KNZ/pages/data/Knzdsdetail.aspx?datasetCode=CPC01</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1981-03-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate> 2012-10-01 </calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact id="im">
+      <positionName>KNZ-LTER Data Manager</positionName>
+      <address>
+        <deliveryPoint> Division of Biology</deliveryPoint>
+        <deliveryPoint> Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+      </address>
+      <phone phonetype="voice">(785)532-6729</phone>
+      <phone phonetype="fax">(785)532-6653</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://www.konza.ksu.edu</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>For additional metadata see: <ulink>http://www.konza.ksu.edu/KNZ/datasets/textfiles/DC2011_1.pdf</ulink>
+          </para>
+          <para>For additional methods information see: <ulink>http://www.konza.ksu.edu/KNZ/datasets/textfiles/MM2011_1.pdf</ulink>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <alternateIdentifier>CPC011</alternateIdentifier>
+      <entityName>CPC011 Census of greater prairie chickens on leks</entityName>
+      <entityDescription>Census of greater prairie chickens on leks</entityDescription>
+      <physical>
+        <objectName>CPC011</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/34/7/972f837ec7919bc409fa416cf1fdde88</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1981-03-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1999-04-18</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>Datacode</attributeName>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeDefinition>Record type</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>record type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeDefinition>year of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false" />
+                  <maximum exclusive="false" />
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecMonth</attributeName>
+          <attributeDefinition>month of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false" />
+                  <maximum exclusive="false" />
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecDay</attributeName>
+          <attributeDefinition>day of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false" />
+                  <maximum exclusive="false" />
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecHour</attributeName>
+          <attributeDefinition>Hour of observation</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false" />
+                  <maximum exclusive="false" />
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Numbirds</attributeName>
+          <attributeDefinition>Number of birds</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Gridloc</attributeName>
+          <attributeDefinition>Grid location of sighting</attributeDefinition>
+          <storageType>char(3)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Grid location of sighting</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LocType</attributeName>
+          <attributeDefinition>Type of location</attributeDefinition>
+          <storageType>char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>type of location</definition>
+                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>l</code>
+                    <definition>lek</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>flush</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UTM1</attributeName>
+          <attributeDefinition>First UTM number</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>first UTM number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UTM2</attributeName>
+          <attributeDefinition>Second UTM number</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>first UTM number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watersheds</attributeName>
+          <attributeDefinition>watersheds</attributeDefinition>
+          <storageType>char(14)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>watershed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>Comments on observation information and collecting
+            time</attributeDefinition>
+          <storageType>varchar(255)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments on observation information and collecting time</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList>
+        <ns2:unit id="year (yyyy)" multiplierToSI="1&#10;       " name="year (yyyy)" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime" />
+        <ns2:unit id="month of year" multiplierToSI="1&#10;       " name="month of year" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime" />
+        <ns2:unit id="day of month" multiplierToSI="1&#10;       " name="day of month" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime" />
+        <ns2:unit id="hour of observation" multiplierToSI="1&#10;       " name="hour of observation" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime" />
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

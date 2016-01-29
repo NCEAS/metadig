@@ -1,0 +1,3528 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="MontanaIOE.137.7" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=viglesias,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>cn=cwhitlock,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+<dataset> <title>Vertebrate Fossils: Fauna Paleodatabase</title>
+ <creator id="1404085116604"> <individualName><givenName>Cathy</givenName>
+ <surName>Whitlock</surName>
+ </individualName>
+ <organizationName>Montana State University</organizationName>
+ <positionName>Director, Montana Institute on Ecosystems</positionName>
+ <phone phonetype="voice">(406) 994-6910</phone>
+ <electronicMailAddress>whitlock@montana.edu</electronicMailAddress>
+ </creator>
+ <abstract><para>Climate is rapidly changing. Increased temperatures, frequent droughts, fires and floods, and rising sea levels are likely to have deep impacts on landscapes, species distributions, economical activities and human health. In order to better understand current global changes and to project future scenarios, knowledge of past climate-ecosystem dynamics is imperative. Although the past does not provide a prescriptive guide to the future, it allows the inference of environmental variability and the underlying processes that form the basis for an evaluation of present day trends, future probabilities and likely consequences on human activities and welfare. The vital role of paleo-science in global change discussions is widely acknowledged. As a result, environmental policy and decision makers worldwide are increasingly using paleo environmental data (derived from marine and lake sediments, ice cores, tree rings, boreholes, corals, etc.) to to help guide environmental management policies.</para>
+ </abstract>
+ <keywordSet><keyword>vertebrate fossils</keyword>
+ <keyword>Colorado</keyword>
+ <keyword>fauna</keyword>
+ <keyword>paleoecology</keyword>
+ </keywordSet>
+ <intellectualRights><para>The broad spectrum of possible applications of paleoenvironmental data suggests an array of potential users of the database, ranging from the original collectors of the data, their collaborators, interested scientists, reviewers, meta-analysts, resource managers and educators. We would like published data in the database to be available without restrictions and free of cost. For end users to get the most value from the records, it is important that data be archived in a format that can be interpreted by non-specialists both now and in the future. Our central goal has been to ensure that users can easily access the raw data and correctly interpret the records.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Dataset Coverage: North-Central United States</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-113.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>-90.2</eastBoundingCoordinate>
+ <northBoundingCoordinate>48.75</northBoundingCoordinate>
+ <southBoundingCoordinate>37.01</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact><references>1404085116604</references>
+ </contact>
+ <dataTable id="1404086618869"><entityName>master_dataset.csv</entityName>
+ <physical id="1404085521374"><objectName>master_dataset.csv</objectName>
+ <size unit="byte">340040</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.136.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404086618870"><attributeName>Title</attributeName>
+ <attributeDefinition>Umbrella Research Project</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Project Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618871"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618872"><attributeName>Site</attributeName>
+ <attributeDefinition>Research project focus area</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618873"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection site location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618874"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618875"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618876"><attributeName>Elevation (m)</attributeName>
+ <attributeDefinition>Elevation above sea level</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618877"><attributeName>Data type</attributeName>
+ <attributeDefinition>Data type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Vertebrate fossils</code>
+ <definition>vertebrate fossils</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618878"><attributeName>Proxy of</attributeName>
+ <attributeDefinition>Data is a proxy of historical climatic or biological conditions</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Fauna</code>
+ <definition>fauna</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618879"><attributeName>Site info</attributeName>
+ <attributeDefinition>Miscellaneous site info</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618880"><attributeName>Vegetation type</attributeName>
+ <attributeDefinition>Dominant vegetation type at data collection location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Land Cover Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618881"><attributeName>Contact</attributeName>
+ <attributeDefinition>Contact name for inquiries about data or metadata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Name: Last, First</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618882"><attributeName>Comments</attributeName>
+ <attributeDefinition>Comments</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618883"><attributeName>Chronology</attributeName>
+ <attributeDefinition>Chronology</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Present</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>Absent</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618884"><attributeName>Database</attributeName>
+ <attributeDefinition>Permenant data archive location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Neotoma: Fauna</code>
+ <definition>Neotoma Paleoecology Database</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618885"><attributeName>Parameters measured</attributeName>
+ <attributeDefinition>Measurements collected on samples</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Presence/absence</code>
+ <definition>Fauna presence or absense recorded</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618886"><attributeName>Age range (Radiocarbon/AD)</attributeName>
+ <attributeDefinition>Age range of sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618887"><attributeName>Age range (cal yr BP)</attributeName>
+ <attributeDefinition>Age range in calendar years before present</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618888"><attributeName>Starting point (cal yr BP)</attributeName>
+ <attributeDefinition>Starting point</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618889"><attributeName>Record length (cal yr BP)</attributeName>
+ <attributeDefinition>Record length</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618890"><attributeName>Reported age (by authors)</attributeName>
+ <attributeDefinition>Age reported by study's authors</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>cal yr BP</code>
+ <definition>calendar years before present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618891"><attributeName>Age control</attributeName>
+ <attributeDefinition>Age control for samples</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Age Control Type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404086618892"><attributeName>Radiocarbon years between dates</attributeName>
+ <attributeDefinition>Radiocarbon years between dates</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>NA</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1404086618893"><attributeName>Publications</attributeName>
+ <attributeDefinition>Publication Citation</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>586</numberOfRecords>
+ </dataTable>
+ <dataTable id="1404087288428"><entityName>Fauna_family.csv</entityName>
+ <entityDescription>Presence/absence to the family level</entityDescription>
+ <physical id="1404086862939"><objectName>Fauna_family.csv</objectName>
+ <size unit="byte">78718</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.139.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404087288429"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288430"><attributeName>Site</attributeName>
+ <attributeDefinition>Data collection area/location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288431"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection site ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unique site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288432"><attributeName>Cervidae</attributeName>
+ <attributeDefinition>Cervidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>Present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288433"><attributeName>Antilocapridae</attributeName>
+ <attributeDefinition>Antilocapridae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288434"><attributeName>Ursidae</attributeName>
+ <attributeDefinition>Ursidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288435"><attributeName>Procynidae</attributeName>
+ <attributeDefinition>Procynidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288436"><attributeName>Bovidae</attributeName>
+ <attributeDefinition>Bovidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288437"><attributeName>Soricinae</attributeName>
+ <attributeDefinition>Soricinae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288438"><attributeName>Camelidae</attributeName>
+ <attributeDefinition>Camelidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288439"><attributeName>Canidae</attributeName>
+ <attributeDefinition>Canidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288440"><attributeName>Castoridae</attributeName>
+ <attributeDefinition>Castoridae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288441"><attributeName>Sciuridae</attributeName>
+ <attributeDefinition>Sciuridae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288442"><attributeName>Dasypodidae</attributeName>
+ <attributeDefinition>Dasypodidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288443"><attributeName>Didelphidae</attributeName>
+ <attributeDefinition>Didelphidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288444"><attributeName>Heteromydae</attributeName>
+ <attributeDefinition>Heteromydae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288445"><attributeName>Vespertilionidae</attributeName>
+ <attributeDefinition>Vespertilionidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288446"><attributeName>Equidae</attributeName>
+ <attributeDefinition>Equidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288447"><attributeName>Erethizontinae</attributeName>
+ <attributeDefinition>Erethizontinae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288448"><attributeName>Felidae</attributeName>
+ <attributeDefinition>Felidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288449"><attributeName>Geomydae</attributeName>
+ <attributeDefinition>Geomydae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288450"><attributeName>Mylodontidae</attributeName>
+ <attributeDefinition>Mylodontidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288451"><attributeName>Mustelidae</attributeName>
+ <attributeDefinition>Mustelidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288452"><attributeName>Camelidae</attributeName>
+ <attributeDefinition>Camelidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288453"><attributeName>Hominidae</attributeName>
+ <attributeDefinition>Hominidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288454"><attributeName>Leporidae</attributeName>
+ <attributeDefinition>Leporidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288455"><attributeName>Mammutidae</attributeName>
+ <attributeDefinition>Mammutidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288456"><attributeName>Elephantidae</attributeName>
+ <attributeDefinition>Elephantidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288457"><attributeName>Megalonychidae</attributeName>
+ <attributeDefinition>Megalonychidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288458"><attributeName>Mephitidae</attributeName>
+ <attributeDefinition>Mephitidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288459"><attributeName>Muridae</attributeName>
+ <attributeDefinition>Muridae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288460"><attributeName>Ochotonidae</attributeName>
+ <attributeDefinition>Ochotonidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288461"><attributeName>Talpidae</attributeName>
+ <attributeDefinition>Talpidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288462"><attributeName>Tayassuidae</attributeName>
+ <attributeDefinition>Tayassuidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288463"><attributeName>Procyonidae</attributeName>
+ <attributeDefinition>Procyonidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288464"><attributeName>Soricidae</attributeName>
+ <attributeDefinition>Soricidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288465"><attributeName>Suidae</attributeName>
+ <attributeDefinition>Suidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288466"><attributeName>Dipodidae</attributeName>
+ <attributeDefinition>Dipodidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404087288467"><attributeName>Cricetidae</attributeName>
+ <attributeDefinition>Cricetidae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1218</numberOfRecords>
+ </dataTable>
+ <dataTable id="1404088606595"><entityName>Fauna_genus</entityName>
+ <entityDescription>Presence/absence of fauna at the genus level</entityDescription>
+ <physical id="1404087450738"><objectName>Fauna_genus.csv</objectName>
+ <size unit="byte">104192</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.140.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404088606596"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606597"><attributeName>Site</attributeName>
+ <attributeDefinition>Research project location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606598"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection location ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606599"><attributeName>Antilocapra</attributeName>
+ <attributeDefinition>Antilocapra</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606600"><attributeName>Arctodus</attributeName>
+ <attributeDefinition>Arctodus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606601"><attributeName>Bassariscus</attributeName>
+ <attributeDefinition>Bassariscus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606602"><attributeName>Bison</attributeName>
+ <attributeDefinition>Bison</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606603"><attributeName>Blarina</attributeName>
+ <attributeDefinition>Blarina</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606604"><attributeName>Bootherium</attributeName>
+ <attributeDefinition>Bootherium</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606605"><attributeName>Bos</attributeName>
+ <attributeDefinition>Bos</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606606"><attributeName>Camelops</attributeName>
+ <attributeDefinition>Camelops</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606607"><attributeName>Canis</attributeName>
+ <attributeDefinition>Canis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606608"><attributeName>Capra</attributeName>
+ <attributeDefinition>Capra</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606609"><attributeName>Castor</attributeName>
+ <attributeDefinition>Castor</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606610"><attributeName>Castoroides</attributeName>
+ <attributeDefinition>Castoroides</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606611"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606612"><attributeName>Clethrionomys</attributeName>
+ <attributeDefinition>Clethrionomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606613"><attributeName>Cryptotis</attributeName>
+ <attributeDefinition>Cryptotis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606614"><attributeName>Cynomys</attributeName>
+ <attributeDefinition>Cynomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606615"><attributeName>Dasypus</attributeName>
+ <attributeDefinition>Dasypus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606616"><attributeName>Dicrostonyx</attributeName>
+ <attributeDefinition>Dicrostonyx</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606617"><attributeName>Didelphis</attributeName>
+ <attributeDefinition>Didelphis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606618"><attributeName>Dipodomys</attributeName>
+ <attributeDefinition>Dipodomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606619"><attributeName>Eptesicus</attributeName>
+ <attributeDefinition>Eptesicus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606620"><attributeName>Equus</attributeName>
+ <attributeDefinition>Equus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606621"><attributeName>Erethizon</attributeName>
+ <attributeDefinition>Erethizon</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606622"><attributeName>Felis</attributeName>
+ <attributeDefinition>Felis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606623"><attributeName>Geomys</attributeName>
+ <attributeDefinition>Geomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606624"><attributeName>Glaucomys</attributeName>
+ <attributeDefinition>Glaucomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606625"><attributeName>Glossotherium</attributeName>
+ <attributeDefinition>Glossotherium</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606626"><attributeName>Gulo</attributeName>
+ <attributeDefinition>Gulo</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606627"><attributeName>Hemiauchenia</attributeName>
+ <attributeDefinition>Hemiauchenia</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606628"><attributeName>Homo</attributeName>
+ <attributeDefinition>Homo</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606629"><attributeName>Homotherium</attributeName>
+ <attributeDefinition>Homotherium</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606630"><attributeName>Lagurus</attributeName>
+ <attributeDefinition>Lagurus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606631"><attributeName>Lasionycteris</attributeName>
+ <attributeDefinition>Lasionycteris</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606632"><attributeName>Lasiurus</attributeName>
+ <attributeDefinition>Lasiurus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606633"><attributeName>Lemmus</attributeName>
+ <attributeDefinition>Lemmus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606634"><attributeName>Lepus</attributeName>
+ <attributeDefinition>Lepus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606635"><attributeName>Lontra</attributeName>
+ <attributeDefinition>Lontra</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606636"><attributeName>Lynx</attributeName>
+ <attributeDefinition>Lynx</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>presence</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606637"><attributeName>Mammut</attributeName>
+ <attributeDefinition>Mammut</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606638"><attributeName>Mammuthus</attributeName>
+ <attributeDefinition>Mammuthus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606639"><attributeName>Marmota</attributeName>
+ <attributeDefinition>Marmota</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606640"><attributeName>Martes</attributeName>
+ <attributeDefinition>Martes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606641"><attributeName>Megalonyx</attributeName>
+ <attributeDefinition>Megalonyx</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606642"><attributeName>Mephitis</attributeName>
+ <attributeDefinition>Mephitis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606643"><attributeName>Microtus</attributeName>
+ <attributeDefinition>Microtus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606644"><attributeName>Mictomys</attributeName>
+ <attributeDefinition>Mictomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606645"><attributeName>Miracinonyx</attributeName>
+ <attributeDefinition>Miracinonyx</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606646"><attributeName>Mus</attributeName>
+ <attributeDefinition>Mus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606647"><attributeName>Mustela</attributeName>
+ <attributeDefinition>Mustela</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606648"><attributeName>Myotis</attributeName>
+ <attributeDefinition>Myotis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606649"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606650"><attributeName>Neotoma</attributeName>
+ <attributeDefinition>Neotoma</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606651"><attributeName>Ochotona</attributeName>
+ <attributeDefinition>Ochotona</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606652"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606653"><attributeName>Ondatra</attributeName>
+ <attributeDefinition>Ondatra</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>unknown</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606654"><attributeName>Onychomys</attributeName>
+ <attributeDefinition>Onychomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606655"><attributeName>Oreamnos</attributeName>
+ <attributeDefinition>Oreamnos</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606656"><attributeName>Oryzomys</attributeName>
+ <attributeDefinition>Oryzomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606657"><attributeName>Ovibos</attributeName>
+ <attributeDefinition>Ovibos</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606658"><attributeName>Ovis</attributeName>
+ <attributeDefinition>Ovis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606659"><attributeName>Parascalops</attributeName>
+ <attributeDefinition>Parascalops</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606660"><attributeName>Perognathus</attributeName>
+ <attributeDefinition>Perognathus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606661"><attributeName>Peromyscus</attributeName>
+ <attributeDefinition>Peromyscus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606662"><attributeName>Phenacomys</attributeName>
+ <attributeDefinition>Phenacomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606663"><attributeName>Pitymys</attributeName>
+ <attributeDefinition>Pitymys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606664"><attributeName>Platygonus</attributeName>
+ <attributeDefinition>Platygonus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606665"><attributeName>Procyon</attributeName>
+ <attributeDefinition>Procyon</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606666"><attributeName>Puma</attributeName>
+ <attributeDefinition>Puma</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606667"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606668"><attributeName>Rattus</attributeName>
+ <attributeDefinition>Rattus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606669"><attributeName>Reithrodontomys</attributeName>
+ <attributeDefinition>Reithrodontomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606670"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606671"><attributeName>Scalopus</attributeName>
+ <attributeDefinition>Scalopus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606672"><attributeName>Sciurus</attributeName>
+ <attributeDefinition>Sciurus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606673"><attributeName>Sigmodon</attributeName>
+ <attributeDefinition>Sigmodon</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606674"><attributeName>Sorex</attributeName>
+ <attributeDefinition>Sorex</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606675"><attributeName>Spermophilus</attributeName>
+ <attributeDefinition>Spermophilus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606676"><attributeName>Spilogale</attributeName>
+ <attributeDefinition>Spilogale</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606677"><attributeName>Sus</attributeName>
+ <attributeDefinition>Sus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606678"><attributeName>Sylvilagus</attributeName>
+ <attributeDefinition>Sylvilagus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606679"><attributeName>Symbos</attributeName>
+ <attributeDefinition>Symbos</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606680"><attributeName>Synaptomys</attributeName>
+ <attributeDefinition>Synaptomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606681"><attributeName>Tamias</attributeName>
+ <attributeDefinition>Tamias</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606682"><attributeName>Tamiasciurus</attributeName>
+ <attributeDefinition>Tamiasciurus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606683"><attributeName>Taxidea</attributeName>
+ <attributeDefinition>Taxidea</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606684"><attributeName>Thomomys</attributeName>
+ <attributeDefinition>Thomomys</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606685"><attributeName>Urocyon</attributeName>
+ <attributeDefinition>Urocyon</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606686"><attributeName>Ursus</attributeName>
+ <attributeDefinition>Ursus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606687"><attributeName>Vulpes</attributeName>
+ <attributeDefinition>Vulpes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606688"><attributeName>Zapus</attributeName>
+ <attributeDefinition>Zapus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606689"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404088606690"><attributeName>Unknown</attributeName>
+ <attributeDefinition>Unknown</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>757</numberOfRecords>
+ </dataTable>
+ <dataTable id="1404092513726"><entityName>Fauna_species</entityName>
+ <entityDescription>Presence/absence of fauna to the species level</entityDescription>
+ <physical id="1404088715408"><objectName>Fauna_species.csv</objectName>
+ <size unit="byte">147912</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.141.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404092513727"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513728"><attributeName>Site</attributeName>
+ <attributeDefinition>Research location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Geographic Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513729"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection site location ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513730"><attributeName>Alces alces</attributeName>
+ <attributeDefinition>Alces alces</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513731"><attributeName>Antilocapra americana</attributeName>
+ <attributeDefinition>Antilocapra americana</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513732"><attributeName>Arctodus simus</attributeName>
+ <attributeDefinition>Arctodus simus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513733"><attributeName>Bassariscus astutus</attributeName>
+ <attributeDefinition>Bassariscus astutus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513734"><attributeName>Bison antiquus</attributeName>
+ <attributeDefinition>Bison antiquus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513735"><attributeName>Bison bison</attributeName>
+ <attributeDefinition>Bison bison</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513736"><attributeName>Bison occidentalis</attributeName>
+ <attributeDefinition>Bison occidentalis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513737"><attributeName>Blarina brevicauda</attributeName>
+ <attributeDefinition>Blarina brevicauda</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513738"><attributeName>Blarina carolinensis</attributeName>
+ <attributeDefinition>Blarina carolinensis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513739"><attributeName>Blarina kirtlandi</attributeName>
+ <attributeDefinition>Blarina kirtlandi</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513740"><attributeName>Bootherium bombifrons</attributeName>
+ <attributeDefinition>Bootherium bombifrons</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513741"><attributeName>Bos taurus</attributeName>
+ <attributeDefinition>Bos taurus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513742"><attributeName>Camelops hesternus</attributeName>
+ <attributeDefinition>Camelops hesternus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513743"><attributeName>Canis dirus</attributeName>
+ <attributeDefinition>Canis dirus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513744"><attributeName>Canis latrans</attributeName>
+ <attributeDefinition>Canis latrans</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513745"><attributeName>Canis lupus</attributeName>
+ <attributeDefinition>Canis lupus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513746"><attributeName>Capra hircus</attributeName>
+ <attributeDefinition>Capra hircus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513747"><attributeName>Castor canadensis</attributeName>
+ <attributeDefinition>Castor canadensis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513748"><attributeName>Cervalces scotti</attributeName>
+ <attributeDefinition>Cervalces scotti</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513749"><attributeName>Cervus elaphus</attributeName>
+ <attributeDefinition>Cervus elaphus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513750"><attributeName>Clethrionomys gapperi</attributeName>
+ <attributeDefinition>Clethrionomys gapperi</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513751"><attributeName>Cryptotis parva</attributeName>
+ <attributeDefinition>Cryptotis parva</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513752"><attributeName>Cynomys gunnisoni</attributeName>
+ <attributeDefinition>Cynomys gunnisoni</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513753"><attributeName>Cynomys leucurus</attributeName>
+ <attributeDefinition>Cynomys leucurus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513754"><attributeName>Cynomys ludovicianus</attributeName>
+ <attributeDefinition>Cynomys ludovicianus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513755"><attributeName>Cynomys parvidens</attributeName>
+ <attributeDefinition>Cynomys parvidens</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513756"><attributeName>Dasypus bellus</attributeName>
+ <attributeDefinition>Dasypus bellus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513757"><attributeName>Dicrostonyx torquatus</attributeName>
+ <attributeDefinition>Dicrostonyx torquatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513758"><attributeName>Didelphis virginiana</attributeName>
+ <attributeDefinition>Didelphis virginiana</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513759"><attributeName>Dipodomys ordii</attributeName>
+ <attributeDefinition>Dipodomys ordii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513760"><attributeName>Eptesicus fuscus</attributeName>
+ <attributeDefinition>Eptesicus fuscus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513761"><attributeName>Equus caballus</attributeName>
+ <attributeDefinition>Equus caballus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513762"><attributeName>Equus conversidens</attributeName>
+ <attributeDefinition>Equus conversidens</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513763"><attributeName>Erethizon dorsata</attributeName>
+ <attributeDefinition>Erethizon dorsata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513764"><attributeName>Felis atrox</attributeName>
+ <attributeDefinition>Felis atrox</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513765"><attributeName>Felis silvestris catus</attributeName>
+ <attributeDefinition>Felis silvestris catus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513766"><attributeName>Geomys bursarius</attributeName>
+ <attributeDefinition>Geomys bursarius</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513767"><attributeName>Glaucomys volans</attributeName>
+ <attributeDefinition>Glaucomys volans</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513768"><attributeName>Glossotherium harlani</attributeName>
+ <attributeDefinition>Glossotherium harlani</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513769"><attributeName>Gulo gulo</attributeName>
+ <attributeDefinition>Gulo gulo</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513770"><attributeName>Homo sapiens</attributeName>
+ <attributeDefinition>Homo sapiens</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513771"><attributeName>Homotherium serum</attributeName>
+ <attributeDefinition>Homotherium serum</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513772"><attributeName>Lagurus curtatus</attributeName>
+ <attributeDefinition>Lagurus curtatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513773"><attributeName>Lasionycteris noctivagans</attributeName>
+ <attributeDefinition>Lasionycteris noctivagans</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513774"><attributeName>Lasiurus cinereus</attributeName>
+ <attributeDefinition>Lasiurus cinereus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513775"><attributeName>Lemmus sibiricus</attributeName>
+ <attributeDefinition>Lemmus sibiricus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513776"><attributeName>Lepus americanus</attributeName>
+ <attributeDefinition>Lepus americanus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513777"><attributeName>Lepus californicus</attributeName>
+ <attributeDefinition>Lepus californicus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513778"><attributeName>Lepus timidus</attributeName>
+ <attributeDefinition>Lepus timidus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513779"><attributeName>Lepus townsendii</attributeName>
+ <attributeDefinition>Lepus townsendii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513780"><attributeName>Lontra canadensis</attributeName>
+ <attributeDefinition>Lontra canadensis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513781"><attributeName>Lynx rufus</attributeName>
+ <attributeDefinition>Lynx rufus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513782"><attributeName>Mammut americanum</attributeName>
+ <attributeDefinition>Mammut americanum</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513783"><attributeName>Mammuthus columbi</attributeName>
+ <attributeDefinition>Mammuthus columbi</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513784"><attributeName>Mammuthus imperator</attributeName>
+ <attributeDefinition>Mammuthus imperator</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513785"><attributeName>Mammuthus jeffersonii</attributeName>
+ <attributeDefinition>Mammuthus jeffersonii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513786"><attributeName>Mammuthus primigenius</attributeName>
+ <attributeDefinition>Mammuthus primigenius</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513787"><attributeName>Marmota caligata</attributeName>
+ <attributeDefinition>Marmota caligata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513788"><attributeName>Marmota flaviventris</attributeName>
+ <attributeDefinition>Marmota flaviventris</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513789"><attributeName>Marmota monax</attributeName>
+ <attributeDefinition>Marmota monax</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513790"><attributeName>Martes americana</attributeName>
+ <attributeDefinition>Martes americana</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513791"><attributeName>Martes nobilis</attributeName>
+ <attributeDefinition>Martes nobilis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513792"><attributeName>Martes pennanti</attributeName>
+ <attributeDefinition>Martes pennanti</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513793"><attributeName>Megalonyx jeffersonii</attributeName>
+ <attributeDefinition>Megalonyx jeffersonii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513794"><attributeName>Mephitis mephitis</attributeName>
+ <attributeDefinition>Mephitis mephitis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513795"><attributeName>Microtus longicaudus</attributeName>
+ <attributeDefinition>Microtus longicaudus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513796"><attributeName>Microtus mexicanus</attributeName>
+ <attributeDefinition>Microtus mexicanus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513797"><attributeName>Microtus miurus</attributeName>
+ <attributeDefinition>Microtus miurus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513798"><attributeName>Microtus montanus</attributeName>
+ <attributeDefinition>Microtus montanus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513799"><attributeName>Microtus ochrogaster</attributeName>
+ <attributeDefinition>Microtus ochrogaster</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513800"><attributeName>Microtus pennsylvanicus</attributeName>
+ <attributeDefinition>Microtus pennsylvanicus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513801"><attributeName>Microtus pinetorum</attributeName>
+ <attributeDefinition>Microtus pinetorum</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513802"><attributeName>Microtus richardsoni</attributeName>
+ <attributeDefinition>Microtus richardsoni</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513803"><attributeName>Microtus xanthognathus</attributeName>
+ <attributeDefinition>Microtus xanthognathus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513804"><attributeName>Mus musculus</attributeName>
+ <attributeDefinition>Mus musculus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513805"><attributeName>Mustela erminea</attributeName>
+ <attributeDefinition>Mustela erminea</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513806"><attributeName>Mustela frenata</attributeName>
+ <attributeDefinition>Mustela frenata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513807"><attributeName>Mustela nigripes</attributeName>
+ <attributeDefinition>Mustela nigripes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513808"><attributeName>Mustela nivalis</attributeName>
+ <attributeDefinition>Mustela nivalis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513809"><attributeName>Mustela vison</attributeName>
+ <attributeDefinition>Mustela vison</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513810"><attributeName>Myotis evotis</attributeName>
+ <attributeDefinition>Myotis evotis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513811"><attributeName>Myotis leibii</attributeName>
+ <attributeDefinition>Myotis leibii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513812"><attributeName>Myotis lucifugus</attributeName>
+ <attributeDefinition>Myotis lucifugus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513813"><attributeName>Myotis volans</attributeName>
+ <attributeDefinition>Myotis volans</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513814"><attributeName>Navahoceros fricki</attributeName>
+ <attributeDefinition>Navahoceros fricki</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513815"><attributeName>Neotoma albigula</attributeName>
+ <attributeDefinition>Neotoma albigula</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513816"><attributeName>Neotoma cinerea</attributeName>
+ <attributeDefinition>Neotoma cinerea</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513817"><attributeName>Neotoma floridana</attributeName>
+ <attributeDefinition>Neotoma floridana</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513818"><attributeName>Neotoma micropus</attributeName>
+ <attributeDefinition>Neotoma micropus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513819"><attributeName>Neotoma mexicana</attributeName>
+ <attributeDefinition>Neotoma mexicana</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513820"><attributeName>Ochotona princeps</attributeName>
+ <attributeDefinition>Ochotona princeps</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513821"><attributeName>Odocoileus hemionus</attributeName>
+ <attributeDefinition>Odocoileus hemionus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513822"><attributeName>Odocoileus virginianus</attributeName>
+ <attributeDefinition>Odocoileus virginianus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513823"><attributeName>Ondatra annectens</attributeName>
+ <attributeDefinition>Ondatra annectens</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513824"><attributeName>Ondatra zibethicus</attributeName>
+ <attributeDefinition>Ondatra zibethicus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513825"><attributeName>Onychomys leucogaster</attributeName>
+ <attributeDefinition>Onychomys leucogaster</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513826"><attributeName>Oreamnos americanus</attributeName>
+ <attributeDefinition>Oreamnos americanus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513827"><attributeName>Oryzomys palustris</attributeName>
+ <attributeDefinition>Oryzomys palustris</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513828"><attributeName>Ovibos moschatus</attributeName>
+ <attributeDefinition>Ovibos moschatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513829"><attributeName>Ovis aries</attributeName>
+ <attributeDefinition>Ovis aries</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513830"><attributeName>Ovis canadensis</attributeName>
+ <attributeDefinition>Ovis canadensis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513831"><attributeName>Parascalops breweri</attributeName>
+ <attributeDefinition>Parascalops breweri</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513832"><attributeName>Perognathus fasciatus</attributeName>
+ <attributeDefinition>Perognathus fasciatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513833"><attributeName>Perognathus flavescens</attributeName>
+ <attributeDefinition>Perognathus flavescens</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513834"><attributeName>Perognathus flavus</attributeName>
+ <attributeDefinition>Perognathus flavus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513835"><attributeName>Perognathus hispidus</attributeName>
+ <attributeDefinition>Perognathus hispidus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513836"><attributeName>Peromyscus leucopus</attributeName>
+ <attributeDefinition>Peromyscus leucopus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513837"><attributeName>Peromyscus maniculatus</attributeName>
+ <attributeDefinition>Peromyscus maniculatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513838"><attributeName>Phenacomys intermedius</attributeName>
+ <attributeDefinition>Phenacomys intermedius</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513839"><attributeName>Pitymys meadensis</attributeName>
+ <attributeDefinition>Pitymys meadensis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513840"><attributeName>Platygonus compressus</attributeName>
+ <attributeDefinition>Platygonus compressus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513841"><attributeName>Procyon lotor</attributeName>
+ <attributeDefinition>Procyon lotor</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513842"><attributeName>Puma concolor</attributeName>
+ <attributeDefinition>Puma concolor</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513843"><attributeName>Rangifer tarandus</attributeName>
+ <attributeDefinition>Rangifer tarandus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513844"><attributeName>Rattus norvegicus</attributeName>
+ <attributeDefinition>Rattus norvegicus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513845"><attributeName>Reithrodontomys megalotis</attributeName>
+ <attributeDefinition>Reithrodontomys megalotis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513846"><attributeName>Sangamona fugitiva</attributeName>
+ <attributeDefinition>Sangamona fugitiva</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513847"><attributeName>Scalopus aquaticus</attributeName>
+ <attributeDefinition>Scalopus aquaticus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513848"><attributeName>Sciurus aberti</attributeName>
+ <attributeDefinition>Sciurus aberti</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513849"><attributeName>Sciurus carolinensis</attributeName>
+ <attributeDefinition>Sciurus carolinensis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513850"><attributeName>Sciurus niger</attributeName>
+ <attributeDefinition>Sciurus niger</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513851"><attributeName>Sigmodon hispidus</attributeName>
+ <attributeDefinition>Sigmodon hispidus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513852"><attributeName>Sorex arcticus</attributeName>
+ <attributeDefinition>Sorex arcticus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513853"><attributeName>Sorex cinereus</attributeName>
+ <attributeDefinition>Sorex cinereus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513854"><attributeName>Sorex hoyi</attributeName>
+ <attributeDefinition>Sorex hoyi</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513855"><attributeName>Sorex merriami</attributeName>
+ <attributeDefinition>Sorex merriami</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513856"><attributeName>Sorex monticolus</attributeName>
+ <attributeDefinition>Sorex monticolus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513857"><attributeName>Sorex nanus</attributeName>
+ <attributeDefinition>Sorex nanus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513858"><attributeName>Sorex palustris</attributeName>
+ <attributeDefinition>Sorex palustris</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513859"><attributeName>Sorex vagrans</attributeName>
+ <attributeDefinition>Sorex vagrans</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513860"><attributeName>Spermophilus armatus</attributeName>
+ <attributeDefinition>Spermophilus armatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513861"><attributeName>Spermophilus columbianus</attributeName>
+ <attributeDefinition>Spermophilus columbianus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513862"><attributeName>Spermophilus elegans</attributeName>
+ <attributeDefinition>Spermophilus elegans</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513863"><attributeName>Spermophilus franklinii</attributeName>
+ <attributeDefinition>Spermophilus franklinii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513864"><attributeName>Spermophilus lateralis</attributeName>
+ <attributeDefinition>Spermophilus lateralis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513865"><attributeName>Spermophilus parryii</attributeName>
+ <attributeDefinition>Spermophilus parryii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513866"><attributeName>Spermophilus richardsonii</attributeName>
+ <attributeDefinition>Spermophilus richardsonii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513867"><attributeName>Spermophilus spilosoma</attributeName>
+ <attributeDefinition>Spermophilus spilosoma</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513868"><attributeName>Spermophilus tridecemlineatus</attributeName>
+ <attributeDefinition>Spermophilus tridecemlineatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513869"><attributeName>Spermophilus variegatus</attributeName>
+ <attributeDefinition>Spermophilus variegatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513870"><attributeName>Spilogale gracilis</attributeName>
+ <attributeDefinition>Spilogale gracilis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513871"><attributeName>Spilogale putorius</attributeName>
+ <attributeDefinition>Spilogale putorius</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513872"><attributeName>Sus scrofa</attributeName>
+ <attributeDefinition>Sus scrofa</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513873"><attributeName>Sylvilagus audubonii</attributeName>
+ <attributeDefinition>Sylvilagus audubonii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513874"><attributeName>Sylvilagus floridanus</attributeName>
+ <attributeDefinition>Sylvilagus floridanus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513875"><attributeName>Sylvilagus idahoensis</attributeName>
+ <attributeDefinition>Sylvilagus idahoensis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513876"><attributeName>Sylvilagus nuttallii</attributeName>
+ <attributeDefinition>Sylvilagus nuttallii</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513877"><attributeName>Symbos cavifrons</attributeName>
+ <attributeDefinition>Symbos cavifrons</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513878"><attributeName>Synaptomys borealis</attributeName>
+ <attributeDefinition>Synaptomys borealis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513879"><attributeName>Synaptomys cooperi</attributeName>
+ <attributeDefinition>Synaptomys cooperi</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513880"><attributeName>Tamias minimus</attributeName>
+ <attributeDefinition>Tamias minimus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513881"><attributeName>Tamias quadrivittatus</attributeName>
+ <attributeDefinition>Tamias quadrivittatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513882"><attributeName>Tamias striatus</attributeName>
+ <attributeDefinition>Tamias striatus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513883"><attributeName>Taxidea taxus</attributeName>
+ <attributeDefinition>Taxidea taxus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513884"><attributeName>Thomomys bottae</attributeName>
+ <attributeDefinition>Thomomys bottae</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513885"><attributeName>Thomomys talpoides</attributeName>
+ <attributeDefinition>Thomomys talpoides</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513886"><attributeName>Thomomys umbrinus</attributeName>
+ <attributeDefinition>Thomomys umbrinus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513887"><attributeName>Urocyon cinereoargenteus</attributeName>
+ <attributeDefinition>Urocyon cinereoargenteus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513888"><attributeName>Ursus americanus</attributeName>
+ <attributeDefinition>Ursus americanus</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513889"><attributeName>Ursus arctos</attributeName>
+ <attributeDefinition>Ursus arctos</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513890"><attributeName>Vulpes macrotis</attributeName>
+ <attributeDefinition>Vulpes macrotis</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513891"><attributeName>Vulpes velox</attributeName>
+ <attributeDefinition>Vulpes velox</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513892"><attributeName>Vulpes vulpes</attributeName>
+ <attributeDefinition>Vulpes vulpes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513893"><attributeName>Zapus hudsonius</attributeName>
+ <attributeDefinition>Zapus hudsonius</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092513894"><attributeName>Zapus princeps</attributeName>
+ <attributeDefinition>Zapus princeps</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>681</numberOfRecords>
+ </dataTable>
+ <dataTable id="1404092744276"><entityName>Fauna_order</entityName>
+ <entityDescription>Presence/absence of fauna at the order level</entityDescription>
+ <physical id="1404092585129"><objectName>Fauna_order.csv</objectName>
+ <size unit="byte">44665</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.142.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404092744277"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744278"><attributeName>Site</attributeName>
+ <attributeDefinition>Umbrella Research Project Location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Geographical Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744279"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection location ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744280"><attributeName>Artiolactyla</attributeName>
+ <attributeDefinition>Artiolactyla</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744281"><attributeName>Carnivora</attributeName>
+ <attributeDefinition>Carnivora</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744282"><attributeName>Soricomorpha</attributeName>
+ <attributeDefinition>Soricomorpha</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744283"><attributeName>Rodentia</attributeName>
+ <attributeDefinition>Rodentia</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744284"><attributeName>Cingulata</attributeName>
+ <attributeDefinition>Cingulata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744285"><attributeName>Didelphimorphia</attributeName>
+ <attributeDefinition>Didelphimorphia</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744286"><attributeName>Chiroptera</attributeName>
+ <attributeDefinition>Chiroptera</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744287"><attributeName>Perissodactyla</attributeName>
+ <attributeDefinition>Perissodactyla</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744288"><attributeName>Xenarthra</attributeName>
+ <attributeDefinition>Xenarthra</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744289"><attributeName>Primates</attributeName>
+ <attributeDefinition>Primates</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744290"><attributeName>Pilosa</attributeName>
+ <attributeDefinition>Pilosa</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744291"><attributeName>Proboscidea</attributeName>
+ <attributeDefinition>Proboscidea</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744292"><attributeName>Lagomorpha</attributeName>
+ <attributeDefinition>Lagomorpha</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404092744293"><attributeName>Cetacea</attributeName>
+ <attributeDefinition>Cetacea</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>present</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>916</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>Site_Data_Archive</entityName>
+ <entityDescription>Chronology and fauna data sets collected from individual sites</entityDescription>
+ <physical><objectName>Site_Data.zip</objectName>
+ <size unit="byte">618614</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404093058080"><online><url function="download">ecogrid://knb/MontanaIOE.143.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

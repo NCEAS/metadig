@@ -1,0 +1,357 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.109953.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset scope="document"> <title>Kruger National Park ecological aerial census (1977-1996)</title>
+ <creator id="1086295214645" scope="document"> <individualName> <surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ </creator>
+ <abstract> <para>Knowledge of population sizes of different large herbivores is essential for thr development of management strategies and monitoring programmes. Aerial survey techniques have been used in the KNP since the early 1970's. to estimate population sizes. In the early years the entir KNP was flown resulting in population estimates perspecies. Together with the large herbivores, some birds, vegeation parameters and even later the occurnce of water was recorded.</para>
+ </abstract>
+ <keywordSet> <keyword>Ecological aerial census</keyword>
+ <keyword>Large herbivores</keyword>
+ <keyword>Ungulates</keyword>
+ <keyword>Birds</keyword>
+ <keyword>vegetation parameters</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ <keyword>Kruger National Park, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>No restrictions</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Entire knp</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>32.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.375</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1977-01-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1996-01-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1086304783995" scope="document"> <individualName> <givenName>Judith</givenName>
+ <surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>SA</country>
+ </address>
+ <phone phonetype="voice">+0927 13 7354309</phone>
+ <phone phonetype="fax">+0927 13 7354055</phone>
+ <electronicMailAddress>judithk@sanparks.org</electronicMailAddress>
+ </contact>
+ <contact id="1088511158830" scope="document"> <individualName> <salutation>Dr</salutation>
+ <givenName>Ian</givenName>
+ <surName>Whyte</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Programme Manager Large herbivores</positionName>
+ <address scope="document"> <deliveryPoint>Private bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ <phone phonetype="voice">+0927 13 7354253</phone>
+ <electronicMailAddress>ianw@sanparks.org</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Survey technique</title>
+ <para>The technique used was documented by Joubert(1983). The technique comprised the following in the earlier years the entire park was subdivided into smaller blocks(census blocks) these areas were then flown using 800m strips with observers on both sides of the plane observing up to a distance of 400m. The census was conducetd in the early hours of the morning(08-12) in clear weather conditions. A 6 seater cessna was used up until 1985 when it was replaced by a twin engine paternavia. The animals were recorded in the earlier years(1977-1985) by plotting them in the centre of a 1/4 degree square block. between 1985 and 1993 the actual position was drawn in on the map and digitised afterwards. From 1994 the recordings were taken by an onboard garmin 100AVD GPS. The numbers recorded in all cases were the number of the entire herd/group. When the calves were recorded these numbers were included in the herd totals. Black rhino white rhino and elephant bulls were recorded here and also in an annual helicopter census. the hippo that were recorded were those that were away from rivers in dams and pans. From 1980-1996 additional subjective vegetation parameters were recorded on a 4kmsquare grid. This was replaced in 1996 by a single vegetation cover parameter. Certain years have incomplete vegeataion data and some have incomplete census data. In some years occurence of water was also recorded, however there are problems associated with this data. This was an addition to the census and so was not done as thoruoghly as the rest of the census. Also the occurence of rain before and during the census makes this data problematical</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>Entire KNP</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>800m wide strips</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1163591602261" scope="document"> <entityName>Speciecodes</entityName>
+ <physical id="1163591601558" scope="document"> <objectName>speciecodes.txt</objectName>
+ <size unit="byte">599</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.738.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=researcher,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1163591602276" scope="document"> <attributeName>Column 1</attributeName>
+ <attributeDefinition>Animal code</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Abbreviations</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1163591602292" scope="document"> <attributeName>Common name</attributeName>
+ <attributeDefinition>Common name for the species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Common species names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1163591602308" scope="document"> <attributeName>Genus</attributeName>
+ <attributeDefinition>Genus</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Genus</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1163591602323" scope="document"> <attributeName>Species</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>19</numberOfRecords>
+ </dataTable>
+ <dataTable id="1166597033119" scope="document"> <entityName>Ungulates85-95.txt</entityName>
+ <physical id="1166597031619" scope="document"> <objectName>Ungulates85-95.txt</objectName>
+ <size unit="byte">12374925</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.781.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow><principal>uid=researcher,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1166597033134" scope="document"> <attributeName>"YEAR"</attributeName>
+ <attributeDefinition>Year in whixh census was  conducted</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166597033150" scope="document"> <attributeName>"SP"</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1163591602261</entityReference>
+ <valueAttributeReference>1163591602276</valueAttributeReference>
+ <definitionAttributeReference>1163591602292</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166597033166" scope="document"> <attributeName>"NO"</attributeName>
+ <attributeDefinition>Number counted</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166597033181" scope="document"> <attributeName>"LAT"</attributeName>
+ <attributeDefinition>Latitudinal poistion of the sighting</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166597033197" scope="document"> <attributeName>"LONG"</attributeName>
+ <attributeDefinition>Longitudinal position of the sighting</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>271666</numberOfRecords>
+ </dataTable>
+ <dataTable id="1166597391216" scope="document"> <entityName>ungulates81-84.txt</entityName>
+ <physical id="1166597390466" scope="document"> <objectName>ungulates81-84.txt</objectName>
+ <size unit="byte">4565410</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.782.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow><principal>uid=researcher,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1166597391231" scope="document"> <attributeName>"YEAR"</attributeName>
+ <attributeDefinition>year in which census was done</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166597391247" scope="document"> <attributeName>"SP"</attributeName>
+ <attributeDefinition>Specie recorded</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1163591602261</entityReference>
+ <valueAttributeReference>1163591602276</valueAttributeReference>
+ <definitionAttributeReference>1163591602292</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166597391262" scope="document"> <attributeName>"NO"</attributeName>
+ <attributeDefinition>Number seen</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166597391278" scope="document"> <attributeName>"LAT"</attributeName>
+ <attributeDefinition>Latitudinal position of the sighting</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166597391294" scope="document"> <attributeName>"LONG"</attributeName>
+ <attributeDefinition>Longitudinal position of the sighting</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>100097</numberOfRecords>
+ </dataTable>
+ <dataTable id="1166598179463" scope="document"> <entityName>ungulates77-80.txt</entityName>
+ <physical id="1166598178776" scope="document"> <objectName>ungulates77-80.txt</objectName>
+ <size unit="byte">2101188</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.783.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow><principal>uid=researcher,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1166598179479" scope="document"> <attributeName>"YEAR"</attributeName>
+ <attributeDefinition>year in which census was conducted</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166598179495" scope="document"> <attributeName>"SP"</attributeName>
+ <attributeDefinition>Species recorded</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1163591602261</entityReference>
+ <valueAttributeReference>1163591602276</valueAttributeReference>
+ <definitionAttributeReference>1163591602292</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166598179510" scope="document"> <attributeName>"NO"</attributeName>
+ <attributeDefinition>Number counted</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166598179526" scope="document"> <attributeName>"LAT"</attributeName>
+ <attributeDefinition>Latitudinal position of the sighting</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166598179542" scope="document"> <attributeName>"LONG"</attributeName>
+ <attributeDefinition>Longitudinal position of the sighting</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>45983</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

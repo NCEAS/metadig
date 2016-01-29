@@ -1,0 +1,382 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1674.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Quadrat-survey of Aloe africana population structure</title>
+ <creator id="1366010923971"> <organizationName>Centre for African Conservation Ecology, Nelson Mandela Metropolitan University</organizationName>
+</creator>
+ <creator id="1366010936030"><organizationName>SANParks</organizationName>
+</creator>
+<abstract><para>A quadrat-survey of the population structure of Aloe africana was conducted in the Colchester-section of the Addo Elephant National Park to monitor the effects of large herbivores. The current baseline-survey was conducted during October 2010, prior to the introduction of elephant. Twenty quadrats (30x10m) were permanently marked and the following variables recorded at each quadrat: (1) structural characteristics of all adult plants, (2) juvenile plant abundances, (3) impacts [1-None, 2-Herbivory, 3-Pollarding, 4-Toppling, 5-Coppicing, 6-Dead], (4) structure of the shrub community, using canopy height as an indicator, and (5) estimated intensity of elephant use. These quadrats are surveyed at regular intervals.</para>
+</abstract>
+<keywordSet><keyword>SANParks, South Africa, Addo Elephant National Park, South Africa</keyword>
+<keyword>Aloe africana, quadrat survey</keyword>
+</keywordSet>
+<intellectualRights><para>The data is resricted please contact M Landaman if you would like to use the data</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>AddoElephantNationalPark</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>24.961638</westBoundingCoordinate>
+<eastBoundingCoordinate>26.663796</eastBoundingCoordinate>
+<northBoundingCoordinate>-33.071541</northBoundingCoordinate>
+<southBoundingCoordinate>-33.772324</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2010</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Aloe</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>africana</taxonRankValue>
+</taxonomicClassification>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact id="1366010949462"><individualName><givenName>Marietjie</givenName>
+<surName>Landman</surName>
+</individualName>
+<electronicMailAddress>marietjie.landman@nmmu.ac.za</electronicMailAddress>
+</contact>
+<dataTable id="1366011130738"><entityName>ALAFQuadrateLocations.txt</entityName>
+<physical id="1366011086917"><objectName>ALAFQuadrateLocations.txt</objectName>
+<size unit="byte">869</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1669.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366011130754"><attributeName>Quadrat No</attributeName>
+<attributeDefinition>Quadrat No</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366011130769"><attributeName>Start (E)</attributeName>
+<attributeDefinition>Start (E)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366011130785"><attributeName>Start (S)</attributeName>
+<attributeDefinition>Start (S)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366011130801"><attributeName>End (E)</attributeName>
+<attributeDefinition>End (E)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366011130816"><attributeName>End (S)</attributeName>
+<attributeDefinition>End (S)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>20</numberOfRecords>
+</dataTable>
+<dataTable id="1366011449577"><entityName>ALAFAdults.txt</entityName>
+<physical id="1366011174107"><objectName>ALAFAdults.txt</objectName>
+<size unit="byte">11281</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1670.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366011449593"><attributeName>Quadrat</attributeName>
+<attributeDefinition>Quadrat</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366011449608"><attributeName>Adult No (&gt; 20 cm)</attributeName>
+<attributeDefinition>Nuber of adults greater than 20cm</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366011449624"><attributeName>Height (cm)</attributeName>
+<attributeDefinition>Height</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366011449639"><attributeName>Branching (Basal/Primary)</attributeName>
+<attributeDefinition>Number of basal and primary branches</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>B1</code>
+<definition>1 basal</definition>
+</codeDefinition>
+<codeDefinition><code>B2</code>
+<definition>2 basal</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P7</code>
+<definition>1 basal 7 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B3</code>
+<definition>3 basal</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P3</code>
+<definition>1 basal 3 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B2/P6</code>
+<definition>2 basal 6 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P2</code>
+<definition>1 basal 2 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P4</code>
+<definition>1 basal 4 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P6</code>
+<definition>1 basal 6 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P10</code>
+<definition>1 basal 10 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P5</code>
+<definition>1 basal 5 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B2/P7</code>
+<definition>2 basal 7 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P9</code>
+<definition>1 basal 9 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P8</code>
+<definition>1 basal 8 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B4</code>
+<definition>4 basal</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P1</code>
+<definition>1 basal 1 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P11</code>
+<definition>1 basal 11 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P13</code>
+<definition>1 basal 13 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P14</code>
+<definition>1 basal 14 primary</definition>
+</codeDefinition>
+<codeDefinition><code>B1/P22</code>
+<definition>1 basal 22 primary</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1366011449655"><attributeName>Impact Category</attributeName>
+<attributeDefinition>Impact Category</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+<definition>none</definition>
+</codeDefinition>
+<codeDefinition><code>2</code>
+<definition>herbivory</definition>
+</codeDefinition>
+<codeDefinition><code>3</code>
+<definition>pollarding</definition>
+</codeDefinition>
+<codeDefinition><code>4</code>
+<definition>toppling</definition>
+</codeDefinition>
+<codeDefinition><code>5</code>
+<definition>coppicing</definition>
+</codeDefinition>
+<codeDefinition><code>6</code>
+<definition>dead</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>705</numberOfRecords>
+</dataTable>
+<dataTable id="1366011982477"><entityName>ALAFJuveniles.txt</entityName>
+<physical id="1366011842510"><objectName>ALAFJuveniles.txt</objectName>
+<size unit="byte">150</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1671.2</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366011982492"><attributeName>Quadrat</attributeName>
+<attributeDefinition>Quadrat</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366011982508"><attributeName>No Juv (&gt; 20 cm)</attributeName>
+<attributeDefinition>No Juv (&gt; 20 cm)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>20</numberOfRecords>
+</dataTable>
+<dataTable id="1366012094924"><entityName>ALAFCanopyStructure.txt</entityName>
+<physical id="1366012041899"><objectName>ALAFCanopyStructure.txt</objectName>
+<size unit="byte">17722</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1672.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366012094940"><attributeName>Quadrat</attributeName>
+<attributeDefinition>Quadrat</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366012094955"><attributeName>Dist Class (m)</attributeName>
+<attributeDefinition>Dist Class (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366012094971"><attributeName>Canopy Height (m)</attributeName>
+<attributeDefinition>Canopy Height (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>1220</numberOfRecords>
+</dataTable>
+<dataTable id="1366012269928"><entityName>ALAFOther.txt</entityName>
+<physical id="1366012164860"><objectName>ALAFOther.txt</objectName>
+<size unit="byte">260</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1673.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1366012269944"><attributeName>Quadrat</attributeName>
+<attributeDefinition>Quadrat</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366012269960"><attributeName>No mortalities</attributeName>
+<attributeDefinition>number of mortalities</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1366012269975"><attributeName>No EleDung</attributeName>
+<attributeDefinition>number of elephant dung within 10m</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>20</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

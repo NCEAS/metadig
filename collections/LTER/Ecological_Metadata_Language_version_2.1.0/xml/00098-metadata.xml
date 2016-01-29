@@ -1,0 +1,632 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-mcm.16.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+<access authSystem="knb" order="allowFirst" scope="document">
+   <allow>
+    <principal>uid=MCM,o=lter,dc=ecoinformatics,dc=org</principal>
+    <permission>all</permission>
+   </allow>
+   <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+   </allow>
+  </access>
+<dataset>
+<shortName>strmbims.dat</shortName>
+<title>Stream Algal and Moss Biomass</title>
+<creator>
+   <individualName>
+    <givenName>Diane</givenName>
+    <surName>McKnight</surName>
+   </individualName>
+   <address>
+    <deliveryPoint> INSTAAR</deliveryPoint>
+    <deliveryPoint>   1560 30th Street</deliveryPoint>
+    <deliveryPoint>   Campus Box 450 </deliveryPoint>
+    <city>Boulder</city>
+    <administrativeArea>CO</administrativeArea>
+    <postalCode>  80309-0450
+    </postalCode>
+    <country>USA</country>
+   </address>
+   <phone phonetype="voice">(303)492-4687</phone>
+   <electronicMailAddress>Diane.Mcknight@colorado.edu</electronicMailAddress>
+  </creator>
+<metadataProvider>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </metadataProvider>
+<abstract>
+   <section>
+    <para>As part of the Long Term Ecological Research (LTER) project in the McMurdo Dry
+      Valleys of Antarctica, a systematic sampling program has been undertaken to monitor the
+      production of algal mats in glacial meltwater streams of the region. This table contains data
+      showing the chlorophyll, carbon, nitrogen, and hydrogen concentrations of algal communities
+      and some mosses from selected streams from each of three Taylor Valley basins. The data set
+      constitutes the LTER algal and moss biomass data, along with measurements of the amount of
+      carbon and nitrogen associated with algal mats for construction of nutrient
+     budgets.</para>
+   </section>
+  </abstract>
+<keywordSet>
+   <keyword keywordType="theme"> stream</keyword>
+   <keyword keywordType="theme"> chlorophyll</keyword>
+   <keyword keywordType="theme"> algae</keyword>
+   <keyword keywordType="theme"> moss</keyword>
+   <keyword keywordType="theme"> biomass</keyword>
+<keyword keywordType="place">McMurdo Dry Valleys</keyword>
+<keyword keywordType="theme">MCM</keyword>
+  </keywordSet>
+<additionalInfo>
+   <section>
+    <title>Citations</title>
+    <para>
+     <literalLayout>Alger, A.S., D.M. McKnight, S.A. Spaulding, C.M. Tate, G.H. Shupe, K.A. Welch, R. Edwards, E.D. Andrews, and H.R. House, 1997, Ecological Processes in a Cold Desert Ecosystem: The Abundance and Species Distribution of Algal Mats in Glacial Meltwater Streams in Taylor Valley, Antarctica, Institute of Arctic and Alpine Research, University of Colorado, Occasional Paper No. 51, 107p..</literalLayout>
+    </para>
+   </section>
+   <section>
+    <title>Notes</title>
+    <para>
+     <literalLayout> Data contained in these files has been subjected to quality control standards
+      imposed by the investigator. The user of this data should be aware that, while efforts have
+      been taken to ensure that these data are of the highest quality, there is no guarantee of
+      perfection for the data contained herein and the possibility of errors exists. If you
+      encounter questionable data, please contact the MCM LTER data manager corrected or qualified.
+      Thus, these data may be modified and future data will be appended.</literalLayout>
+    </para>
+   </section>
+  </additionalInfo>
+<intellectualRights>
+   <section>
+    <title>MCM LTER data may be used freely with the following restrictions:</title>
+    <para>
+     <itemizedlist>
+      <listitem>
+       <para>
+        <literalLayout>The Principal Investigator be sent a notice stating reasons for acquiring any
+         data and a description of the publication intentions. </literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>The Principal Investigator of the data set be sent a copy of the report or
+         manuscript prior to submission and be adequately cited in any resultant
+        publications.</literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>A copy of any resultant publications should be sent to the McMurdo data
+         manager and principal investigator.</literalLayout>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <literalLayout>The end-user follow the guidelines set forth in the LTER Network Data Access
+         Policy, Data Access Requirements, and General Data Use Agreement found at
+         http://www.mcmlter.org/data_guidelines.htm</literalLayout>
+       </para>
+      </listitem>
+     </itemizedlist>
+    </para>
+   </section>
+  </intellectualRights>
+<distribution>
+   <online>
+    <url>http://www.mcmlter.org/data/streams/experiments/transects/strmbims.dat</url>
+   </online>
+  </distribution>
+<coverage>
+   <geographicCoverage>
+    <geographicDescription> Study areas were located in the Taylor Valley of southern Victoria Land,
+     Antarctica (in the western coast of the Ross Sea at 77 degrees S). Specific latitudes and
+     longitudes for each stream transect can be found in the this web site.</geographicDescription>
+    <boundingCoordinates>
+     <westBoundingCoordinate>162</westBoundingCoordinate>
+     <eastBoundingCoordinate>163.6</eastBoundingCoordinate>
+     <northBoundingCoordinate>-77.2</northBoundingCoordinate>
+     <southBoundingCoordinate>-77.8</southBoundingCoordinate>
+     <boundingAltitudes>
+      <altitudeMinimum>0</altitudeMinimum>
+      <altitudeMaximum>1000</altitudeMaximum>
+      <altitudeUnits>meter</altitudeUnits>
+     </boundingAltitudes>
+    </boundingCoordinates>
+   </geographicCoverage>
+   <temporalCoverage>
+    <singleDateTime>
+     <calendarDate>1994</calendarDate>
+    </singleDateTime>
+   </temporalCoverage>
+  </coverage>
+<maintenance>
+   <description>
+    <section>
+     <para>
+      <literalLayout> Data from this table was initially included in the raw data files specified
+       under the variable for 'file name'. These are Microsoft Excel version 5.0 files and can be
+       found on the McMurdo LTER data manager's personal computer at INSTAAR. Once submitted to
+       INSTAAR, the data manager combined all of the stream biology files that included information
+       for chlorophyll/biomass and removed any variables that had no direct influence. The resulting
+       files are represented in the "strmbims.dat" and "strmbims.txt" files used on the web page. In
+       July, 2000, dataset code and location code (strmtrnsid) fields were added. This would
+       simplify generating links between different data and metadata fields and assist in making the
+       data more relational / useful in Oracle and ArcInfo.</literalLayout>
+     </para>
+    </section>
+   </description>
+  </maintenance>
+<contact>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </contact>
+<publisher>
+<organizationName>McMurdo Dry Valleys LTER</organizationName>
+  <address>
+ <deliveryPoint>Department of Biology</deliveryPoint>
+ <deliveryPoint>University of New Mexico</deliveryPoint>
+ <deliveryPoint>MSC03 2020</deliveryPoint>
+ <city>Albuquerque</city>
+   <administrativeArea>NM</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">505-277-3418</phone>
+<phone phonetype="fax">505-277-0304</phone>
+<electronicMailAddress>mcmdata@lternet.edu</electronicMailAddress>
+  </publisher>
+<methods>
+   <methodStep>
+    <description>
+     <para>
+      <literalLayout> Within each transect, algal mats were visually identified as either orange,
+       red, black, or green. Algal and moss samples were collected using a cork borer or a known
+       area of substrate was scraped. Samples were stored in bottles until taken back to the lab for
+       processing. Samples were filtered onto GF/C glass fiber filters. They were then extracted in
+       buffered acetone and analyzed spectrophotometrically using the trichromatic method.
+       Concentrations are reported in units of microg/cm2 for each pigment quantified (chlorophylls
+       a, b, c, carotenoids, and phaeophyton). Carbon, hydrogen and nitrogen samples were air-dried
+       (approximately 60 degrees C), then a weighed amount of algae was taken from the filter and
+       analyzed on a Carlo Erba NA1500NCS element analyzer.</literalLayout>
+     </para>
+    </description>
+   </methodStep>
+  </methods>
+<dataTable>
+   <entityName>strmbims.dat</entityName>
+   <physical>
+    <objectName>strmbims.dat</objectName>
+    <dataFormat>
+     <textFormat>
+      <numHeaderLines>1</numHeaderLines>
+      <numFooterLines>0</numFooterLines>
+<recordDelimiter>\n</recordDelimiter>
+      <attributeOrientation>column</attributeOrientation>
+      <simpleDelimited>
+       <fieldDelimiter>,</fieldDelimiter>
+       <quoteCharacter>"</quoteCharacter>
+      </simpleDelimited>
+     </textFormat>
+    </dataFormat>
+<distribution>
+<online>
+<url function="download">http://www.mcmlter.org/data/streams/experiments/transects/strmbims.dat</url>
+</online>
+</distribution>
+   </physical>
+   <attributeList>
+    <attribute>
+     <attributeName>Dataset code</attributeName>
+     <attributeDefinition>Code representing stream algal and moss biomass dataset</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Code representing stream algal and moss biomass dataset</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>strmtrnsid</attributeName>
+     <attributeDefinition>Code representing stream transect</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Code representing stream transect</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Stream name</attributeName>
+     <attributeDefinition>Area of stream / name of transect where samples are drawn</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Area of stream / name of transect where samples are drawn</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Date</attributeName>
+     <attributeDefinition>Date of sample</attributeDefinition>
+     <storageType typeSystem="Date" />
+     <measurementScale>
+      <dateTime>
+<formatString>dd/mm/yyyy</formatString>
+</dateTime>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Algae Type</attributeName>
+     <attributeDefinition>Type of algae invertebrate is associated with (red, black, green or
+      orange)</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Type of algae invertebrate is associated with (red, black, green or
+         orange)</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Required entry</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Replication#</attributeName>
+     <attributeDefinition>Replication number of sample</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <interval>
+       <unit>
+        <customUnit>replicate</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>integer</numberType>
+       </numericDomain>
+      </interval>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Area sampled cm2</attributeName>
+     <attributeDefinition>Area from which sample was drawn</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>squareCentimeters</standardUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Comments</attributeName>
+     <attributeDefinition>Comments regarding record measurement</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Comments regarding record measurement</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Chl a (ug/cm2)</attributeName>
+     <attributeDefinition>Concentration of chlorophyll a pigment</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microg/cm2</customUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Chl b (ug/cm2)</attributeName>
+     <attributeDefinition>Concentration of chlorophyll b pigment</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microg/cm2</customUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Chl c (ug/cm2)</attributeName>
+     <attributeDefinition>Concentration of chlorophyll c pigment</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microg/cm2</customUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Carotenoids (ug/cm2)</attributeName>
+     <attributeDefinition>Concentration of carotenoid pigment</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microg/cm2</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>Phaeophyton (ug/cm2)</attributeName>
+     <attributeDefinition>Concentration of phaeophyton pigment</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <customUnit>microg/cm2</customUnit>
+       </unit>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>% Nitrogen</attributeName>
+     <attributeDefinition>Amount of nitrogen associated with algal mat - Percent</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>dimensionless</standardUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>% Nitrogen Comments</attributeName>
+     <attributeDefinition>Comments regarding % nitrogen measurement</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Comments regarding % nitrogen measurement</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>% Carbon</attributeName>
+     <attributeDefinition>Amount of carbon associated with algal mat</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>dimensionless</standardUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>% Carbon Comments</attributeName>
+     <attributeDefinition>Comments regarding % carbon measurement</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Comments regarding % carbon measurement</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>% Hydrogen</attributeName>
+     <attributeDefinition>Amount of hydrogen associated with algal mat</attributeDefinition>
+     <storageType typeSystem="Number" />
+     <measurementScale>
+      <ratio>
+       <unit>
+        <standardUnit>dimensionless</standardUnit>
+       </unit>
+       <precision>0.01</precision>
+       <numericDomain>
+        <numberType>real</numberType>
+        <bounds />
+       </numericDomain>
+      </ratio>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>% Hydrogen Comments</attributeName>
+     <attributeDefinition>Comments regarding % hydrogen measurement</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Comments regarding % hydrogen measurement</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+    <attribute>
+     <attributeName>File name</attributeName>
+     <attributeDefinition>Original file name in which this information was submitted</attributeDefinition>
+     <storageType typeSystem="Text" />
+     <measurementScale>
+      <nominal>
+       <nonNumericDomain>
+        <textDomain>
+         <definition>Original file name in which this information was submitted</definition>
+        </textDomain>
+       </nonNumericDomain>
+      </nominal>
+     </measurementScale>
+     <missingValueCode>
+      <code>Null</code>
+      <codeExplanation>None given</codeExplanation>
+     </missingValueCode>
+    </attribute>
+   </attributeList>
+  </dataTable>
+</dataset>
+<additionalMetadata>
+<metadata>
+<unitList>
+   <unit id="replicate" />
+   <unit id="microg/cm2" />
+  </unitList>
+</metadata>
+</additionalMetadata>
+</ns0:eml>

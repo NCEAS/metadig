@@ -1,0 +1,256 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1298.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Ambush or attack: do male and female Platysaurus rhodesianus (Cordylidae) differ in their foraging strategies?</title>
+ <creator id="1336990236862"> <organizationName>SANParks</organizationName>
+ </creator>
+ <associatedParty id="1336990311697"><individualName><givenName>Graham</givenName>
+ <surName>Alexander</surName>
+ </individualName>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+ <abstract><para>Female Platysaurus rhodesianus are brown and vertically striped, while males are brightly coloured.  Though Platysaurus are generally considered ambush foragers, P. broadleyi exhibit plastic foraging behaviour.  Further, vertical stripes are generally indicative of active foraging, suggesting that female P. rhodesianus might be active foragers.  We investigate whether male and female P. rhodesianus differ in foraging strategy, using a focal animal analysis to measure both the proportion of time spent moving (PTM) and the proportion of attacks made while moving (PAM).  No significant difference was found between the proportions of time that males and females spent moving.  When compared with the traditional critical value of PTM that distinguishes active foragers from ambush foragers, both males and females were found to be active foragers.</para>
+ </abstract>
+ <keywordSet><keyword>active, ambush, foraging strategy, Platysaurus rhodesianus, sexual dimorphism</keyword>
+ <keyword>SANParks, South Africa, Mapungubwe National Park, South Africa</keyword>
+ </keywordSet>
+ <coverage><geographicCoverage><geographicDescription>MapungubweNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>29.177433</westBoundingCoordinate>
+ <eastBoundingCoordinate>29.526921</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.175445</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.296449</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2009-09-08</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2009-09-09</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1336990252946"><individualName><givenName>Megan</givenName>
+ <surName>Howard</surName>
+ </individualName>
+ <organizationName>OTS</organizationName>
+ </contact>
+ <contact id="1336990271885"><individualName><givenName>Ambika</givenName>
+ <surName>Kamath</surName>
+ </individualName>
+ <organizationName>OTS</organizationName>
+ </contact>
+ <contact id="1336990287579"><individualName><givenName>Dane</givenName>
+ <surName>Marx</surName>
+ </individualName>
+ <organizationName>OTS</organizationName>
+ </contact>
+ <methods><methodStep><description><section><title>Methods</title>
+ <para>Focal animal analysis was used to observe the behaviour of male and female P. rhodesianus individuals in Mapungubwe National Park, located on the north-east border of South Africa.  Several observations were made within Leokwe Camp (S 22&#176;13.06&#8217;, E 29&#176;21.81&#8217;), where lizards were found on large boulders, bare rock surfaces, and a wooden decking bordering a swimming pool.  Observations on these lizards were recorded as habituated to the presence of humans.  The other observations were performed on bare rocky faces in the cliffs around Leokwe camp and a variety of slopes and aspects were present at these sites.  Different areas within the three sites were used for each observation session to ensure that the same lizards were not observed twice.  Behaviours were categorised as either moving or still; if the subject paused for less than 10 seconds between movements the pause was ignored.  &#8220;Still&#8221; included basking, remaining stationary for more than 10 seconds, hiding in a rock crevice (only if the lizard remained in sight), and any other action that did not involve translation to a new position (i.e. posture changes or looking around).  Any feeding event was recorded, with no distinction between successful and attempted feeding events. Time of day at each change in activity was recorded. Any interactions with other lizards were recorded as well.  Observations were done by groups of two individuals, with one observer and one scribe and terminated after either 15 or 30 minutes.  Observations were made on the 8th and 9th of September, in the morning from 9.00 am to 12.00 pm, and in the afternoon from 3.00 pm to 6.00 pm. The proportion of time spent moving (PTM) was calculated for each animal, as was proportion of attacks made while moving (PAM). We calculated PTM both including and excluding movement for social interaction</para>
+ <para>Statistica (&#169; Statsoft) was used to test for a difference in PTM between habituated and non-habituated females, both including and excluding time spent in social interactions. The PTM comparison between habituated and non-habituated males was not performed due to a very small sample size (N=2). Differences between PTM for all males and females including and excluding social interactions were also tested. Due to low sample sizes, nonparametric Mann-Whitney U tests were performed.  Spearman rank correlations were used to test for a relationship between time of day (measured as minutes from noon) and PTM. This was done for males and females of both habituated and non-habituated populations, including and excluding social interactions from PTM.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1336998164696"><entityName>Lizard_data.txt</entityName>
+ <physical id="1336997690324"><objectName>Lizard_data.txt</objectName>
+ <size unit="byte">49408</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1299.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1336998164712"><attributeName>ref number</attributeName>
+ <attributeDefinition>number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164728"><attributeName>date</attributeName>
+ <attributeDefinition>date of observation</attributeDefinition>
+ <measurementScale><dateTime><formatString>m/d/yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164743"><attributeName>sex</attributeName>
+ <attributeDefinition>sex of the lizard observed</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>female</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition><code>male</code>
+ <definition>male</definition>
+ </codeDefinition>
+ <codeDefinition><code>Female</code>
+ <definition>female</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164759"><attributeName>ID</attributeName>
+ <attributeDefinition>individual lizard&#8217;s assigned identification number</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><textDomain><definition>lizard identifier</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164774"><attributeName>time</attributeName>
+ <attributeDefinition>time of day at which each observation was made (24hr scale)</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164790"><attributeName>time interval</attributeName>
+ <attributeDefinition>length of time of each observation</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164806"><attributeName>total time</attributeName>
+ <attributeDefinition>total time for which the given lizard was observed</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164821"><attributeName>prop of time</attributeName>
+ <attributeDefinition>proportion of the total observation time for which a particular behaviour was observed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164837"><attributeName>activity (M or S or O)</attributeName>
+ <attributeDefinition>Activity</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>M</code>
+ <definition>moving</definition>
+ </codeDefinition>
+ <codeDefinition><code>S</code>
+ <definition>still</definition>
+ </codeDefinition>
+ <codeDefinition><code>s</code>
+ <definition>still</definition>
+ </codeDefinition>
+ <codeDefinition><code>m</code>
+ <definition>moving</definition>
+ </codeDefinition>
+ <codeDefinition><code>o</code>
+ <definition>out of soght</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164852"><attributeName>eating event (E)</attributeName>
+ <attributeDefinition>whether an attack was made in a given interval of time. No distinction was made between successful and unsuccessful attacks; all were marked with an &#8220;E&#8221; in this column</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>E</code>
+ <definition>eating</definition>
+ </codeDefinition>
+ <codeDefinition><code>e</code>
+ <definition>eating</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164868"><attributeName>social interaction (Y or N)</attributeName>
+ <attributeDefinition>whether or not the focal lizard was engaged in social activity (Y) or not (N)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>N</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition><code>y</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ <codeDefinition><code>n</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition><code>*</code>
+ <definition>-9</definition>
+ </codeDefinition>
+ <codeDefinition><code>Y</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164884"><attributeName>habituated (Y or N)</attributeName>
+ <attributeDefinition>whether (Y) or not (N) the lizard was observed in the Leokwe Camp, and was thus habituated to human presence or not</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>yes/no/maybe</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164899"><attributeName>observer</attributeName>
+ <attributeDefinition>: Name of the student writing the behavioural observations</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>observers names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164915"><attributeName>moving only</attributeName>
+ <attributeDefinition>equal to the proportion of the total time spent in the given behaviour if that behaviour was &#8220;Moving&#8221;, else zero</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164930"><attributeName>PTM</attributeName>
+ <attributeDefinition>): proportion of total the time the lizard spent moving for reasons other than social interaction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164946"><attributeName>moving (excl. social)</attributeName>
+ <attributeDefinition>equal to the proportion of total time spent in the given behaviour if that behaviour was &#8220;Moving&#8221; and if the lizard was not engaged in social activity, else zero</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164962"><attributeName>PTM (excl. social)</attributeName>
+ <attributeDefinition>proportion of total the time the lizard spent moving for reasons other than social interaction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1336998164977"><attributeName>notes</attributeName>
+ <attributeDefinition>notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>602</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

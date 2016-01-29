@@ -1,0 +1,750 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1733.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Is the Grass Really Greener on the Other Side?</title>
+ <creator id="1367308985528"> <organizationName>SANParks</organizationName>
+ </creator>
+ <abstract><para>The study involves samples take from sites within the fertiised site experiment.</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Kruger National Park, South Africa</keyword>
+ <keyword>vegetation nutrients, nitrogen, phosphorous</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data is lead time protected</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Satara Rain Station</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>31.7796</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.811379599999995</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.3917</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.3917</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2011</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1367308998976"><organizationName>SANParks</organizationName>
+ </contact>
+ <dataTable id="1367310778271"><entityName>LaneSampleInfo.txt</entityName>
+ <physical id="1367309525761"><objectName>LaneSampleInfo.txt</objectName>
+ <size unit="byte">128394</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1734.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=navashnig,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1367310778287"><attributeName>Sample Number</attributeName>
+ <attributeDefinition>A unique number given to each sample for identification purposes.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778303"><attributeName>Date Colleced</attributeName>
+ <attributeDefinition>The date when the sample was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd mm yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778318"><attributeName>Season</attributeName>
+ <attributeDefinition>The season in which the sample was collected. The dry season extends from October to March and the wet season extends from April to September.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Dry</code>
+ <definition>October-March</definition>
+ </codeDefinition>
+ <codeDefinition><code>Wet</code>
+ <definition>April-September</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778334"><attributeName>Location</attributeName>
+ <attributeDefinition>The study site and plot number where the sample was collected</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site and plot number where the sample was collected</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778349"><attributeName>Location</attributeName>
+ <attributeDefinition>The study site where the sample was collected; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site where the sample was collected; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778365"><attributeName>Treatment (Applicable only to Experimental Site)</attributeName>
+ <attributeDefinition>The nutrient treatment occurring on the plots at the Experimental Site; plots 1 and 6 are control (no water), plots 12 and 15 are control (water), plots 7 and 14 are N (no water), plots 4 and 9 are N (water), plots 8 and 13 are NP (no water), plots 2 and 11 are NP (water), plots 5 and 16 are P (no water) and plots 3 and 10 are P (water). The control sites are detonated as NA</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>Na</definition>
+ </codeDefinition>
+ <codeDefinition><code>Control (no water)</code>
+ <definition>Control no water</definition>
+ </codeDefinition>
+ <codeDefinition><code>NP (no water)</code>
+ <definition>N and P no water</definition>
+ </codeDefinition>
+ <codeDefinition><code>N (water)</code>
+ <definition>N and water</definition>
+ </codeDefinition>
+ <codeDefinition><code>NP (water)</code>
+ <definition>NP and water</definition>
+ </codeDefinition>
+ <codeDefinition><code>N (no water)</code>
+ <definition>N no water</definition>
+ </codeDefinition>
+ <codeDefinition><code>P (water)</code>
+ <definition>p and water</definition>
+ </codeDefinition>
+ <codeDefinition><code>P (no water)</code>
+ <definition>p no water</definition>
+ </codeDefinition>
+ <codeDefinition><code>Control (water)</code>
+ <definition>control iwth water</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778381"><attributeName>Material</attributeName>
+ <attributeDefinition>The material of the sample; Grass, Tree or Dung</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The material of the sample; Grass, Tree or Dung</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778396"><attributeName>Species</attributeName>
+ <attributeDefinition>Indicate the Latin binomials for the grass and tree samples and the common name for the ungulate dung samples</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Indicate the Latin binomials for the grass and tree samples and the common name for the ungulate dung samples</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778412"><attributeName>%P</attributeName>
+ <attributeDefinition>The percentage phosphorus (in term of the total weight) for the sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778427"><attributeName>%N</attributeName>
+ <attributeDefinition>The percentage nitrogen (in term of the total weight) for the sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778443"><attributeName>d 15N/14N</attributeName>
+ <attributeDefinition>The delta 15N value for the sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778459"><attributeName>Std corrected d 15N/14N</attributeName>
+ <attributeDefinition>The delta 15N value for the sample after being corrected using the in house standards.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778474"><attributeName>%C</attributeName>
+ <attributeDefinition>The percentage carbon (in term of the total weight) for the sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778490"><attributeName>d 13C/12C</attributeName>
+ <attributeDefinition>The delta 13C value for the sample</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778505"><attributeName>Std corrected d 13C/12C</attributeName>
+ <attributeDefinition>The delta 13C value for the sample after being corrected using the in house standards.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367310778521"><attributeName>C:N</attributeName>
+ <attributeDefinition>The carbon to nitrogen ratio (%C/%N)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>968</numberOfRecords>
+ </dataTable>
+ <dataTable id="1367311011773"><entityName>LanePhotoCount.txt</entityName>
+ <physical id="1367310930178"><objectName>LanePhotoCount.txt</objectName>
+ <size unit="byte">12191</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1735.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=navashnig,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1367311011788"><attributeName>Location</attributeName>
+ <attributeDefinition>The study site and plot number where the camera trap was deployed</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site and plot number where the camera trap was deployed</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311011804"><attributeName>Location (trivialised)</attributeName>
+ <attributeDefinition>The study site where the camera trap was deployed; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site where the camera trap was deployed; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311011819"><attributeName>Season</attributeName>
+ <attributeDefinition>The season in which the photos were taken. This was determined partly by examining the rainfall of the region and partly by the photos themselves (the transition between dry and wet season is very prominent and very quick)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The season in which the photos were taken. This was determined partly by examining the rainfall of the region and partly by the photos themselves (the transition between dry and wet season is very prominent and very quick)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311011835"><attributeName>Species</attributeName>
+ <attributeDefinition>The common name of the animal captured by the camera trap</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The common name of the animal captured by the camera trap</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311011851"><attributeName>Number</attributeName>
+ <attributeDefinition>The number of photos taken of the animal</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>252</numberOfRecords>
+ </dataTable>
+ <dataTable id="1367311212620"><entityName>LaneFeedingRates.txt</entityName>
+ <physical id="1367311073541"><objectName>LaneFeedingRates.txt</objectName>
+ <size unit="byte">9129</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1736.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=navashnig,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1367311212636"><attributeName>Location</attributeName>
+ <attributeDefinition>The study site and plot number where the camera trap was deployed</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site and plot number where the camera trap was deployed</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311212652"><attributeName>Location (trivialised)</attributeName>
+ <attributeDefinition>The study site where the camera trap was deployed; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site where the camera trap was deployed; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311212667"><attributeName>Season</attributeName>
+ <attributeDefinition>The season in which the photos were taken. This was determined partly by examining the rainfall of the region and partly by the photos themselves (the transition between dry and wet season is very prominent and very quick)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The season in which the photos were taken. This was determined partly by examining the rainfall of the region and partly by the photos themselves (the transition between dry and wet season is very prominent and very quick)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311212683"><attributeName>Species</attributeName>
+ <attributeDefinition>The common name of the ungulate captured by the camera trap</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The common name of the ungulate captured by the camera trap</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311212698"><attributeName>Time spent feeding (seconds)</attributeName>
+ <attributeDefinition>The time (in seconds) the ungulate is seen feeding in front of the camera trap. This was determined as the time between the first and last photo of a single individual or a herd seen feeding. In instances where there is a single photo of an ungulate feeding, the time was assumed to be the same as the minimum time between successive photos (i.e. 15 seconds).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>second</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311212714"><attributeName>Trapping effort (days)</attributeName>
+ <attributeDefinition>The duration, in days, the camera trap monitored the area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311212730"><attributeName>Number of Photos</attributeName>
+ <attributeDefinition>The number of photos taken of the ungulate (the same number as in the previous worksheet)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311212745"><attributeName>Feeding Rate (sec.photos-1.days-1)</attributeName>
+ <attributeDefinition>The feeding rate of the ungulate determined by the time spent feeding divided by the trapping effort and divided by the number of photos (to account for the disproportionate amount of photos amongst the camera traps)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>130</numberOfRecords>
+ </dataTable>
+ <dataTable id="1367311445322"><entityName>LaneGrassInfo.txt</entityName>
+ <physical id="1367311268810"><objectName>LaneGrassInfo.txt</objectName>
+ <size unit="byte">365475</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1737.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=navashnig,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1367311445337"><attributeName>Date Measured</attributeName>
+ <attributeDefinition>The date when the grass was measured</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311445353"><attributeName>Season</attributeName>
+ <attributeDefinition>The season in which the grass was measured. The dry season extends from October to March and the wet season extends from April to September.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Wet</code>
+ <definition>April-September</definition>
+ </codeDefinition>
+ <codeDefinition><code>Dry</code>
+ <definition>October-March</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311445368"><attributeName>Location</attributeName>
+ <attributeDefinition>The study site and plot number where the grass was measured</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site and plot number where the grass was measured</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311445384"><attributeName>Location (trivialised)</attributeName>
+ <attributeDefinition>The study site where the grass was measured; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site where the grass was measured; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311445400"><attributeName>Treatment (Applicable only to Experimental Site)</attributeName>
+ <attributeDefinition>The nutrient treatment occurring on the plots at the Experimental Site; plots 1 and 6 are control (no water), plots 12 and 15 are control (water), plots 7 and 14 are N (no water), plots 4 and 9 are N (water), plots 8 and 13 are NP (no water), plots 2 and 11 are NP (water), plots 5 and 16 are P (no water) and plots 3 and 10 are P (water). The control sites are detonated as NA</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Control (no water)</code>
+ <definition>control no water</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>na</definition>
+ </codeDefinition>
+ <codeDefinition><code>NP (water)</code>
+ <definition>NP and water</definition>
+ </codeDefinition>
+ <codeDefinition><code>P (water)</code>
+ <definition>p and water</definition>
+ </codeDefinition>
+ <codeDefinition><code>N (water)</code>
+ <definition>n and water</definition>
+ </codeDefinition>
+ <codeDefinition><code>P (no water)</code>
+ <definition>p no water</definition>
+ </codeDefinition>
+ <codeDefinition><code>N (no water)</code>
+ <definition>n no water</definition>
+ </codeDefinition>
+ <codeDefinition><code>NP (no water)</code>
+ <definition>np no water</definition>
+ </codeDefinition>
+ <codeDefinition><code>Control (water)</code>
+ <definition>control with water</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311445415"><attributeName>Species</attributeName>
+ <attributeDefinition>The Latin binomial of the grass being measured (in order to determine the number and frequency of grass species)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The Latin binomial of the grass being measured (in order to determine the number and frequency of grass species)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311445431"><attributeName>Height (cm)</attributeName>
+ <attributeDefinition>The height of the grass in cm</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>3831</numberOfRecords>
+ </dataTable>
+ <dataTable id="1367311887629"><entityName>LaneTreeInfo.txt</entityName>
+ <physical id="1367311515693"><objectName>LaneTreeInfo.txt</objectName>
+ <size unit="byte">45439</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1738.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=navashnig,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1367311887644"><attributeName>Date Measured</attributeName>
+ <attributeDefinition>The date when the assessment was conducted</attributeDefinition>
+ <measurementScale><dateTime><formatString>ddd,mmm,</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887660"><attributeName>Season</attributeName>
+ <attributeDefinition>The season in which the assessment was conducted. The dry season extends from October to March and the wet season extends from April to September.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Wet</code>
+ <definition>April-September</definition>
+ </codeDefinition>
+ <codeDefinition><code>Dry</code>
+ <definition>October-March</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887675"><attributeName>Location</attributeName>
+ <attributeDefinition>The study site and plot number where the assessment was conducted</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site and plot number where the assessment was conducted</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887691"><attributeName>Location (trivialised)</attributeName>
+ <attributeDefinition>The study site where the assessment was conducted; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The study site where the assessment was conducted; the Experimental Site, the Adjacent Site, Girivana Dam or Sweni River.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887707"><attributeName>Species</attributeName>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887722"><attributeName>Height (m)</attributeName>
+ <attributeDefinition>The height of the tree in m</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887738"><attributeName>Basal Diam (mm)</attributeName>
+ <attributeDefinition>The diameter of the stem at the base (in mm). If there is more than one stem arising from the soil then add the basal diameter of the individual stems.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887753"><attributeName>HBC (m)</attributeName>
+ <attributeDefinition>The height of the canopy above the ground, in meters. A zero value would indicate that lateral branches/leaves are on the ground which would mean that the tree is bushy.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887769"><attributeName>D1 (m)</attributeName>
+ <attributeDefinition>The longest diameter of the canopy in meters. This could be length width or breadth.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887785"><attributeName>D2 (m)</attributeName>
+ <attributeDefinition>The second longest diameter of the canopy in meters. This could be length width or breadth.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887800"><attributeName>Phenology_Old wood</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the given tree is comprised of old wood ) sections (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887816"><attributeName>Phenology_New wood</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the given tree is comprised  new wood (thinner younger stems with thin bark) all  sections (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887831"><attributeName>Phenology_Non-woody</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the given tree is comprised of  non-woody (green herbaceous stems without a layer of bark) sections (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887847"><attributeName>Canopy_Buds</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the canopy is comprised of buds, flowers, pods, young leaves, mature leaves and senescent leaves (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887863"><attributeName>Canopy_Young L</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the canopy is comprised of buds, flowers, pods, young leaves, mature leaves and senescent leaves (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887878"><attributeName>Canopy_Mature L</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the canopy is comprised of buds, flowers, pods, young leaves, mature leaves and senescent leaves (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887894"><attributeName>Canopy_Senescent L</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the canopy is comprised of buds, flowers, pods, young leaves, mature leaves and senescent leaves (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887909"><attributeName>Canopy_Flowers</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the canopy is comprised of buds, flowers, pods, young leaves, mature leaves and senescent leaves (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887925"><attributeName>Canopy_Fruit</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the canopy is comprised of buds, flowers, pods, young leaves, mature leaves and senescent leaves (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887941"><attributeName>Canopy_Pods</attributeName>
+ <attributeDefinition>Here one estimates the percentage of the canopy is comprised of buds, flowers, pods, young leaves, mature leaves and senescent leaves (totally 100%).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887956"><attributeName>% Canopy Removed</attributeName>
+ <attributeDefinition>Estimate the percentage of the canopy missing due to fire or herbivory damage.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1367311887972"><attributeName>Herbivory Rating</attributeName>
+ <attributeDefinition>Rate the extent of herbivory and fire damage to the entire tree from 1 (mild to non-existent) to 4 (severe).</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>342</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>Boxplots - Grasses.pdf</entityName>
+<physical><objectName>Boxplots - Grasses.pdf</objectName>
+<size unit="byte">295102</size>
+<dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution id="1367499073485"><online><url function="download">ecogrid://knb/judithk.1748.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=navashnig,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<entityType>Other</entityType>
+</otherEntity>
+<otherEntity><entityName>Isotope Biplots - Leaf and Dung Samples.pdf</entityName>
+<physical><objectName>Isotope Biplots - Leaf and Dung Samples.pdf</objectName>
+<size unit="byte">478842</size>
+<dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution id="1367499105729"><online><url function="download">ecogrid://knb/judithk.1749.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=navashnig,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<entityType>Other</entityType>
+</otherEntity>
+<otherEntity><entityName>PCA Biplots - Trees.pdf</entityName>
+<physical><objectName>PCA Biplots - Trees.pdf</objectName>
+<size unit="byte">304877</size>
+<dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution id="1367499145243"><online><url function="download">ecogrid://knb/judithk.1750.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>uid=navashnig,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<entityType>Other</entityType>
+</otherEntity>
+</dataset>
+ </ns0:eml>

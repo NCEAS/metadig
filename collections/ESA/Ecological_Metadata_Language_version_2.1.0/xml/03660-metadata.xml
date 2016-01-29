@@ -1,0 +1,142 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.69.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Extracellular enzyme activities in the Maumee and Ottawa Rivers (OH) from 1994 to 1995</title>
+<creator>
+<organizationName>Duke University Biology Department</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Robert</givenName>
+<surName>Sinsabaugh</surName>
+</individualName>
+<organizationName>University of New Mexico Department of Biology</organizationName>
+<address>
+<deliveryPoint>MSC03 2020
+1 University of New Mexico</deliveryPoint>
+<city>Albuquerque</city>
+<administrativeArea>NM</administrativeArea>
+<postalCode>87131-001</postalCode>
+<country>USA</country>
+</address>
+<phone>505-277-9043</phone>
+<electronicMailAddress>rlsinsab@unm.edu</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Jennifer</givenName>
+<surName>Follstad Shah</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Robert</givenName>
+<surName>Sinsabaugh</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Jennifer</givenName>
+<surName>Follstad Shah</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2010-05-11</pubDate>
+<abstract>
+<para>The data include estimates of bacterial production and apparent Vmax (a measure of catalytic capacity) and apparent Km (a measure of available substrate concentration) for six extracellular enzymes (alpha-glucosidase, beta-glucosidase, aminopeptidase, protease, phosphatase, acetyl esterase) measured in the Maumee and Ottawa Rivers of Ohio (USA).  The purpose of the dataset was to integrate the effects of temperature and resource availability on bacterial production using metabolic scaling theory and the kinetics of EEA.  </para>
+</abstract>
+<keywordSet>
+<keyword>extracellular enzyme</keyword>
+<keyword>bacterial production</keyword>
+<keyword>river</keyword>
+<keyword>metabolic theory</keyword>
+<keyword>michaelis-menten</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>This data set will be made electronically available as part of a supplementary document to a manuscript currently in publication at Ecological Monographs.</para>
+</additionalInfo>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<online>
+<url>http://esapubs.org/archive/ecol/E091/101/suppl-1.htm</url>
+</online>
+</distribution>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>1994-03-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>1995-11-01</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Maumee River and Ottawa River of Ohio (USA)</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-85.0067</westBoundingCoordinate>
+<eastBoundingCoordinate>-83.0125</eastBoundingCoordinate>
+<northBoundingCoordinate>41.7106</northBoundingCoordinate>
+<southBoundingCoordinate>39.8589</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Robert</givenName>
+<surName>Sinsabaugh</surName>
+</individualName>
+<organizationName>University of New Mexico Department of Biology</organizationName>
+<address>
+<deliveryPoint>MSC03 2020
+1 University of New Mexico</deliveryPoint>
+<city>Albuquerque</city>
+<administrativeArea>NM</administrativeArea>
+<postalCode>87131-001</postalCode>
+<country>USA</country>
+</address>
+<phone>505-277-9043</phone>
+<electronicMailAddress>rlsinsab@unm.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Riverine bacterial production and extracellular enzyme activity</title>
+<para>Samples were collected within each river over an annual cycle (25 to 30 measures per river) with a temperature range of 4-31 &#194;&#186;C. Assays were conducted in the laboratory at 20 &#194;&#186;C. Bacterial production was estimated from rates of 3H-thymidine incorporation into DNA over a 1 hour incubation interval. Extracellular enzyme activities (EEA) were recorded at 0.1-1 h intervals, depending on the amount of activity present, from fluorescence readings using a 365 nm excitation filter and 450 nm emission filter. Kinetic measures were calculated using the Eadie-Hofstee equation, a linearized form of the Michaelis-Menten model. Bacterial production and maximum EEA rate were scaled to ambient stream temperature using an activation energy of 0.5 eV. Kinetic measures of EEA were converted to estimates of the turnover rate of their associated substrate pools. Detailed methodology can be found in Sinsabaugh et al. (1997; Limnology and Oceanography 42:29-38) and Sinsabaugh and Follstad Shah (In Press; Ecological Monographs). </para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>Biweekly sample collection over the course of one year (Maumee River: March to December, 1994; Ottawa River: April to November, 1995).</para>
+</description></studyExtent>
+<samplingDescription>
+<para>Grab samples were collected from a bridge at mid-channel (Ottawa River) or end of a pier (Maumee River) using a bucket.</para>
+</samplingDescription>
+</sampling>
+</methods>
+</dataset></ns0:eml>

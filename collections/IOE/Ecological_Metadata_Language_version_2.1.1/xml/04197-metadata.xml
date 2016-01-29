@@ -1,0 +1,393 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="MontanaIOE.191.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=viglesias,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow><principal>cn=cwhitlock,ou=people,dc=rcg,dc=montana,dc=edu</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+<dataset> <title>Pollen Paleodata</title>
+ <creator id="1404101191789"> <individualName><givenName>Cathy</givenName>
+ <surName>Whitlock</surName>
+ </individualName>
+ <organizationName>Montana State University</organizationName>
+ <positionName>Director, Montana Institute on Ecosystems</positionName>
+ <phone phonetype="voice">(406) 994-6910</phone>
+ <electronicMailAddress>whitlock@montana.edu</electronicMailAddress>
+ </creator>
+ <abstract><para>Climate is rapidly changing. Increased temperatures, frequent droughts, fires and floods, and rising sea levels are likely to have deep impacts on landscapes, species distributions, economical activities and human health. In order to better understand current global changes and to project future scenarios, knowledge of past climate-ecosystem dynamics is imperative. Although the past does not provide a prescriptive guide to the future, it allows the inference of environmental variability and the underlying processes that form the basis for an evaluation of present day trends, future probabilities and likely consequences on human activities and welfare. The vital role of paleo-science in global change discussions is widely acknowledged. As a result, environmental policy and decision makers worldwide are increasingly using paleo environmental data (derived from marine and lake sediments, ice cores, tree rings, boreholes, corals, etc.) to to help guide environmental management policies.</para>
+ </abstract>
+ <keywordSet><keyword>pollen</keyword>
+ <keyword>sediment</keyword>
+ <keyword>temperature</keyword>
+ <keyword>precipitation</keyword>
+ <keyword>vegetation</keyword>
+ <keyword>paleoecology</keyword>
+ </keywordSet>
+ <intellectualRights><para>The broad spectrum of possible applications of paleoenvironmental data suggests an array of potential users of the database, ranging from the original collectors of the data, their collaborators, interested scientists, reviewers, meta-analysts, resource managers and educators. We would like published data in the database to be available without restrictions and free of cost. For end users to get the most value from the records, it is important that data be archived in a format that can be interpreted by non-specialists both now and in the future. Our central goal has been to ensure that users can easily access the raw data and correctly interpret the records.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Dataset Coverage: North Central United States</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-114.26</westBoundingCoordinate>
+ <eastBoundingCoordinate>-91.5</eastBoundingCoordinate>
+ <northBoundingCoordinate>48.55</northBoundingCoordinate>
+ <southBoundingCoordinate>37.41</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact><references>1404101191789</references>
+ </contact>
+ <dataTable id="1404102937778"><entityName>master_dataset.csv</entityName>
+ <physical id="1404102376786"><objectName>master_dataset.csv</objectName>
+ <size unit="byte">58436</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/MontanaIOE.190.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1404102937779"><attributeName>Title</attributeName>
+ <attributeDefinition>Research project title</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Title</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937780"><attributeName>State</attributeName>
+ <attributeDefinition>State</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937781"><attributeName>Site</attributeName>
+ <attributeDefinition>Research location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Geographic location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937782"><attributeName>Site ID</attributeName>
+ <attributeDefinition>Data collection site ID</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937783"><attributeName>Core</attributeName>
+ <attributeDefinition>Core number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Core 1</code>
+ <definition>First core</definition>
+ </codeDefinition>
+ <codeDefinition><code>Core 2</code>
+ <definition>Second core</definition>
+ </codeDefinition>
+ <codeDefinition><code>Core 3</code>
+ <definition>Third core</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937784"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937785"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937786"><attributeName>Elevation (m)</attributeName>
+ <attributeDefinition>Elevation above mean sea level</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937787"><attributeName>Data type</attributeName>
+ <attributeDefinition>Data type</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Pollen</code>
+ <definition>pollen</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937788"><attributeName>Proxy of</attributeName>
+ <attributeDefinition>Data used to infer historical climatic or biological conditions</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Proxy</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937789"><attributeName>Site info</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937790"><attributeName>Vegetation type</attributeName>
+ <attributeDefinition>Dominant land cover at data collection site</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Land Cover</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937791"><attributeName>Contact</attributeName>
+ <attributeDefinition>Contact information for data and metadata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Name: Last, First</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937792"><attributeName>Comments</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937793"><attributeName>Chronology</attributeName>
+ <attributeDefinition>Chronology</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Confirmed</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>None</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937794"><attributeName>Database</attributeName>
+ <attributeDefinition>Permenant data archive</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Neotoma</code>
+ <definition>Neotoma Paleoecology Database</definition>
+ </codeDefinition>
+ <codeDefinition><code>NOAA:Pollen</code>
+ <definition>NOAA Pollen Database</definition>
+ </codeDefinition>
+ <codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937795"><attributeName>Parameters measured</attributeName>
+ <attributeDefinition>Data collected ro analyis performed</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937796"><attributeName>Age range (Radiocarbon/AD)</attributeName>
+ <attributeDefinition>Age range (Radiocarbon/AD)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937797"><attributeName>Age range (cal yr BP)</attributeName>
+ <attributeDefinition>Age range (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937798"><attributeName>Starting point (cal yr BP)</attributeName>
+ <attributeDefinition>Starting point (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937799"><attributeName>Record length (cal yr BP)</attributeName>
+ <attributeDefinition>Record length (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937800"><attributeName>Median resolution (cal yr BP)</attributeName>
+ <attributeDefinition>Median resolution (cal yr BP)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937801"><attributeName>Reported age (by authors)</attributeName>
+ <attributeDefinition>Reported age (by authors)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937802"><attributeName>Age control</attributeName>
+ <attributeDefinition>Age control</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937803"><attributeName>Chron1 (Radiocarbon)</attributeName>
+ <attributeDefinition>Chron1 (Radiocarbon)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937804"><attributeName>Chron2 (cal yr BP or AD)</attributeName>
+ <attributeDefinition>Chron2 (cal yr BP or AD)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937805"><attributeName>Radiocarbon years between dates</attributeName>
+ <attributeDefinition>Radiocarbon years between dates</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937806"><attributeName>Online resource</attributeName>
+ <attributeDefinition>Online data or metadata resource</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>NA</code>
+ <definition>not applicable</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1404102937807"><attributeName>Publications</attributeName>
+ <attributeDefinition>Citation</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>80</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>Vegetation_family.csv</entityName>
+ <entityDescription>Vegetation Presence/Absence by site at the family level</entityDescription>
+ <physical><objectName>Vegetation_family.csv</objectName>
+ <size unit="byte">16810</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404103048651"><online><url function="download">ecogrid://knb/MontanaIOE.192.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Vegetation_order.csv</entityName>
+ <entityDescription>Vegetation Presence/Absence by site at the order level</entityDescription>
+ <physical><objectName>Vegetation_order.csv</objectName>
+ <size unit="byte">10012</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404103088456"><online><url function="download">ecogrid://knb/MontanaIOE.193.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Vegetation_species.csv</entityName>
+ <entityDescription>Vegetation Presence/Absence by site at the species level</entityDescription>
+ <physical><objectName>Vegetation_sp.csv</objectName>
+ <size unit="byte">14133</size>
+ <dataFormat><externallyDefinedFormat><formatName>text/plain</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404103117929"><online><url function="download">ecogrid://knb/MontanaIOE.194.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Archived_Data_Tables.zip</entityName>
+ <physical><objectName>Archived_Data_Tables.zip</objectName>
+ <size unit="byte">1271203</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404103563644"><online><url function="download">ecogrid://knb/MontanaIOE.197.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ <otherEntity><entityName>Archived_Figures.zip</entityName>
+ <physical><objectName>Archived_Figures.zip</objectName>
+ <size unit="byte">65976831</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/octet-stream</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1404103577068"><online><url function="download">ecogrid://knb/MontanaIOE.198.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </ns0:eml>

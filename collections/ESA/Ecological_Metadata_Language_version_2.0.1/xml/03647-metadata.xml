@@ -1,0 +1,114 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.30.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>Tidepool fishes, Tatoosh Island, 1990-2005</title>
+ <creator scope="document"> <organizationName>University of Chicago</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>Ecological Society of America</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Catherine</givenName>
+ <surName>Pfister</surName>
+ </individualName>
+ <organizationName>University of Chicago</organizationName>
+ <address scope="document"> <deliveryPoint>1101 E 57th St</deliveryPoint>
+ <city>Chicago</city>
+ <administrativeArea>Illinois</administrativeArea>
+ <postalCode>60637</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">773-834-0071</phone>
+ <phone phonetype="Fax">773-702-9740</phone>
+ <electronicMailAddress>cpfister@uchicago.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Catherine</givenName>
+ <surName>Pfister</surName>
+ </individualName>
+ </metadataProvider>
+ <pubDate>2006-05-02</pubDate>
+ <abstract> <para>Abundance, gender and size data for tidepool fishes from 1990 through 2005 at Tatoosh Island, Washington state.  All fishes were collected in 13 tidepools during a single census in spring/summer.</para>
+ </abstract>
+ <keywordSet> <keyword keywordType="taxonomic">sculpins</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword keywordType="taxonomic">cottids</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword keywordType="theme">recruitment</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword keywordType="taxonomic">tidepool fishes</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <additionalInfo> <para>This data is associated with an Ecology paper. Ecology, November 2006, Volume 87, number 11, Concordance Between Short-term Experiments and Long-Term Censuses in Tide Pool Fishes.</para>
+ </additionalInfo>
+ <intellectualRights> <para>Obtain permission from data set owner(s)</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1990-06-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2005-07-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>13 tidepools on Tatoosh Island, Washington.</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-124.7333</westBoundingCoordinate>
+ <eastBoundingCoordinate>-124.7333</eastBoundingCoordinate>
+ <northBoundingCoordinate>48.4000</northBoundingCoordinate>
+ <southBoundingCoordinate>48.4000</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <taxonomicCoverage scope="document"> <taxonomicClassification> <taxonRankName>species</taxonRankName>
+ <taxonRankValue>Oligocottus maculosus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification> <taxonRankName>species</taxonRankName>
+ <taxonRankValue>Oligocottus snyderi</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification> <taxonRankName>species</taxonRankName>
+ <taxonRankValue>Clinocottus globiceps</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification> <taxonRankName>species</taxonRankName>
+ <taxonRankValue>Clinocottus embryum</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Catherine</givenName>
+ <surName>Pfister</surName>
+ </individualName>
+ <organizationName>University of Chicago</organizationName>
+ <address scope="document"> <deliveryPoint>1101 E 57th St</deliveryPoint>
+ <city>Chicago</city>
+ <administrativeArea>Illinois</administrativeArea>
+ <postalCode>60637</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">773-834-0071</phone>
+ <phone phonetype="Fax">773-702-9740</phone>
+ <electronicMailAddress>cpfister@uchicago.edu</electronicMailAddress>
+ </contact>
+<methods><methodStep><description><section><title>anesthetisize</title>
+<para>A small amount of quinaldine was used to anesthetise fishes prior to netting them with a dip net.</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>The sampling occurred during June and July of each year.  There are no data in 1999.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>The sampling was non-destructive and individuals were returned to pools.</para>
+</samplingDescription>
+</sampling>
+</methods>
+  <access authSystem="knb" order="denyFirst" scope="document">
+<allow>
+<principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</dataset>
+</ns0:eml>

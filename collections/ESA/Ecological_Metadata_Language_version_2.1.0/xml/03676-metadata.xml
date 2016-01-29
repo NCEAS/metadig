@@ -1,0 +1,131 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.68.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier system="USGS">09-0889R</alternateIdentifier>
+<title>GAGES (Geospatial Attributes of Gages for Evaluating Streamflow): A streamgage database for evaluating natural and altered flow conditions in the conterminous United States</title>
+<creator>
+<organizationName>USGS</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>James</givenName>
+<surName>Falcone</surName>
+</individualName>
+<organizationName>USGS</organizationName>
+<phone>703-648-5008</phone>
+<electronicMailAddress>jfalcone@usgs.gov</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>James</givenName>
+<surName>Falcone</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>James</givenName>
+<surName>Falcone</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Daren</givenName>
+<surName>Carlisle</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>David</givenName>
+<surName>Wolock</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Michael</givenName>
+<surName>Meador</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2010-05-12</pubDate>
+<abstract>
+<para>Streamflow is a controlling element in the ecology of rivers and streams.  Knowledge of the natural flow regime facilitates the assessment of whether specific hydrologic attributes have been altered by humans in a particular stream and the establishment of specific goals for streamflow restoration. Because most streams are ungaged or have been altered by human influences, characterizing the natural flow regime is often only possible by estimating flow characteristics based on nearby streamgages of reference quality, i.e. gaged locations that are least-disturbed by human influences. The ability to evaluate natural streamflow, that which is not altered by human activities, would be enhanced by the existence of a nationally consistent and up-to-date database of gages in relatively undisturbed watersheds.
+As part of a national effort to characterize streamflow effects on ecological condition, data for 6,785 U.S. Geological Survey (USGS) streamgages and their upstream watersheds were compiled. The sites comprise all USGS streamgages in the conterminous United States with at least 20 years of complete-year flow record from 1950-2007, and for which watershed boundaries could reliably be delineated (median size = 578 km2).  Several hundred watershed and site characteristics were calculated or compiled from national data sources, including environmental features (e.g. climate, geology, soils, topography) and anthropogenic influences (e.g. land use, roads, presence of dams, or canals).  
+In addition, watersheds were assessed for their reference quality within nine broad regions for use in studies intended to characterize streamflows under conditions minimally influenced by human activities.  Three primary criteria were used to assess reference quality: (1) a quantitative index of anthropogenic modification within the watershed based on GIS-derived variables, (2) visual inspection of every streamgage and drainage basin from recent high-resolution imagery and topographic maps, and (3) information about man-made influences from USGS Annual Water Data Reports.  From the set of 6,785 sites, we identified 1,512 as reference-quality streamgages. All data derived for these watersheds as well as the reference condition evaluation are provided as an online dataset termed GAGES (Geospatial Attributes of Gages for Evaluating Streamflow).
+</para>
+</abstract>
+<keywordSet>
+<keyword>Natural flow regime</keyword>
+<keyword>aquatic ecology</keyword>
+<keyword>hydrologic condition</keyword>
+<keyword>reference streamgages</keyword>
+<keyword> streamflow</keyword>
+<keyword>streamgages</keyword>
+<keyword>hydrologic modification</keyword>
+<keyword>streamgage network</keyword>
+<keyword>dams</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution>
+<online>
+<url>http://esapubs.org/archive/ecol/E091/045/</url>
+</online>
+</distribution>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>1950</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2007</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Conterminous US</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-125.2667</westBoundingCoordinate>
+<eastBoundingCoordinate>-80.2831</eastBoundingCoordinate>
+<northBoundingCoordinate>49.0000</northBoundingCoordinate>
+<southBoundingCoordinate>24.6831</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>James</givenName>
+<surName>Falcone</surName>
+</individualName>
+<organizationName>USGS</organizationName>
+<phone>703-648-5008</phone>
+<electronicMailAddress>jfalcone@usgs.gov</electronicMailAddress>
+</contact>
+</dataset></ns0:eml>

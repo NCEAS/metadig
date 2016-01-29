@@ -1,0 +1,176 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.109824.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset>  <title>Karoo National Park daily climate data 2012-2013</title>
+<creator id="1370507810061"> <organizationName>SAWB</organizationName>
+ </creator>
+<abstract><para>Comp#	Station Name	Latitude	Longitude	Altitude
+21226	STOLSHOEK KNP	-32.33429	22.48914	919
+Variables recorded are Daily Maximum Temperature
+Daily Minimum Temperature
+Average Daily Maximum Relative Humidity
+Average Daily Minimum Relative Humidity
+Total Daily Rainfall
+Total Daily Apan Evaporation
+Daily Wind Run
+Sunshine Hours
+Daily Average Temperature [[Tx + Tn] / 2]</para>
+</abstract>
+<keywordSet><keyword>SANParks, South Africa, Karoo National Park, South Africa</keyword>
+<keyword>climate, weather,Daily Maximum Temperature, Daily Minimum Temperature, Average Daily Maximum Relative Humidity, Average Daily Minimum Relative Humidity, Total Daily Rainfall ,Total Daily Apan Evaporation, Daily Wind Run, Sunshine Hours Daily, Average Temperature [[Tx + Tn] / 2]</keyword>
+</keywordSet>
+   <intellectualRights><para>This data is restricted for scientific use only</para>
+ </intellectualRights>
+ <coverage>  <geographicCoverage><geographicDescription>KarooNationalPark</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>21.994881</westBoundingCoordinate>
+<eastBoundingCoordinate>22.581133</eastBoundingCoordinate>
+<northBoundingCoordinate>-32.124117</northBoundingCoordinate>
+<southBoundingCoordinate>-32.408156</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2012-01-01</calendarDate>
+</beginDate>
+<endDate><calendarDate>2013-03-28</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+ <contact id="1370507824180"><organizationName>SANParks</organizationName>
+ </contact>
+  <dataTable id="1370509890726"><entityName>KarooDailyCDataJan2012-Feb2013.txt</entityName>
+<physical id="1370509558415"><objectName>KarooDailyCDataJan2012-Feb2013.txt</objectName>
+<size unit="byte">23491</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109825.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1370509890742"><attributeName>Compno</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370509890757"><attributeName>Year</attributeName>
+<attributeDefinition>Year</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1370509890773"><attributeName>Month</attributeName>
+<attributeDefinition>Month</attributeDefinition>
+<measurementScale><dateTime><formatString>mm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1370509890788"><attributeName>Day</attributeName>
+<attributeDefinition>Day</attributeDefinition>
+<measurementScale><dateTime><formatString>dd</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1370509890804"><attributeName>Tx</attributeName>
+<attributeDefinition>Daily Maximum Temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370509890820"><attributeName>Tn</attributeName>
+<attributeDefinition>Daily Minimum Temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370509890835"><attributeName>RHx</attributeName>
+<attributeDefinition>Average Daily Maximum Relative Humidity
+%</attributeDefinition>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+<attribute id="1370509890851"><attributeName>RHn</attributeName>
+<attributeDefinition>Average Daily Minimum Relative Humidity
+%</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370509890866"><attributeName>Rain</attributeName>
+<attributeDefinition>Total Daily Rainfall</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370509890882"><attributeName>APan</attributeName>
+<attributeDefinition>Total Daily Apan Evaporation</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370509890898"><attributeName>UTot</attributeName>
+<attributeDefinition>Daily Wind Run</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>metersPerDay</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370509890913"><attributeName>Suns</attributeName>
+<attributeDefinition>Sunshine Hours</attributeDefinition>
+<measurementScale><dateTime><formatString>hh:mm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1370509890929"><attributeName>AveT</attributeName>
+<attributeDefinition>Daily Average Temperature [[Tx + Tn] / 2]</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>486</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="km/day" multiplierToSI="24" name="km/day" parentSI="metersPerSecond" unitType="speed"><description>km/day</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

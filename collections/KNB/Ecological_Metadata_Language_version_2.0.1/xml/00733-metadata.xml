@@ -1,0 +1,98 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="nceas.224.2" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd">
+
+
+<dataset scope="document">
+<title>Forest plant species in forest fragments of Lincolnshire, UK</title>
+<creator scope="document">
+<organizationName>NCEAS 8321: Vellend: Forest plant metapopulations in fragmented and dynamic landscapes: Synthesizing models and data</organizationName>
+</creator>
+<creator scope="document">
+<organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+</creator>
+<creator scope="document">
+<individualName>
+<givenName>George</givenName>
+<surName>Peterken</surName>
+</individualName>
+<address scope="document">
+<deliveryPoint>Beechwood House, St Briavels Common</deliveryPoint>
+<city>Lydney</city>
+<administrativeArea>Gloucestershire</administrativeArea>
+<postalCode>GL15 6SL</postalCode>
+<country>United Kingdom</country>
+</address>
+</creator>
+<metadataProvider scope="document">
+<individualName>
+<givenName>Mark</givenName>
+<surName>Vellend</surName>
+</individualName>
+</metadataProvider>
+<abstract>
+<para>The presence/absence of 155 forest plant species in 326 patches of forest in a contiguous portion of Lincolnshire, UK.  Patch-level information includes the area and spatial location of each forest patch, and an estimate of its age in terms how long since the land was in agriculture.  The data were collected in the 1970s.</para>
+</abstract>
+<intellectualRights>
+<para>permissions</para>
+</intellectualRights>
+<distribution scope="document">
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage scope="document"><temporalCoverage scope="document">
+<rangeOfDates>
+<beginDate>
+<calendarDate>1970-01-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>1980-01-01</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage scope="document">
+<geographicDescription>Lincolnshire County, UK.   A largely agricultural landscape with ~6% forest distributed in many forest fragments.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-1.0331
+</westBoundingCoordinate>
+<eastBoundingCoordinate>-1.0331
+</eastBoundingCoordinate>
+<northBoundingCoordinate>53.5667
+</northBoundingCoordinate>
+<southBoundingCoordinate>53.5667
+</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage><contact scope="document">
+<individualName>
+<givenName>George</givenName>
+<surName>Peterken</surName>
+</individualName>
+<address scope="document">
+<deliveryPoint>Beechwood House, St Briavels Common</deliveryPoint>
+<city>Lydney</city>
+<administrativeArea>Gloucestershire</administrativeArea>
+<postalCode>GL15 6SL</postalCode>
+<country>United Kingdom</country>
+</address>
+</contact>
+<methods><methodStep><description><section>
+<title>Plant species surveys</title>
+<para>Each patch of forest was thoroughly searched for the presence/absence of 155 different plant species.</para>
+</section></description></methodStep>
+</methods>
+<access authSystem="knb" order="denyFirst" scope="document">
+<allow>
+<principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>uid=mvellend,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</dataset>
+</ns0:eml>

@@ -1,0 +1,1402 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.49.12" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Movement response partterns</title>
+ <creator id="1236252772485" scope="document"> <individualName> <surName>Howard Hendricks</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>General Manager</positionName>
+ <address scope="document"> <postalCode>Howardh@sanparks.og</postalCode>
+ </address>
+ <phone phonetype="voice">012 343 2832</phone>
+ </creator>
+ <associatedParty scope="document"> <references>1236252772485</references>
+ <role>Scientiest</role>
+ </associatedParty>
+ <abstract> <para>The studied the seasonal and daily movement patterns and livestock (pastoralists) in the Richtersveld National Park (RNP) to suggest management strategies that would support and balance between biodivesity conservation and living stock grazing. livestock movement patterns indicated that forageis the motivation for winter movements and water is the motivation  of summer. The movement followed a predecteble direction from grazing areas in the wet season toward the orange river riparia area with permanent water during periods of low rainfall. the latter can be considered as a ''key reasourse'' area to sustain animals number through critical periods of low rainfall. overall, seasonal movement pattens were in transect of approximately 10km in distance. however,these patterns varied amongst the pastoralists which sugest diverse approaches to tracking reasouse. on averange, a pastoralist move hi animals six time a year between stock posts in a network of grazing routes. the grazing area around a stock post was 2.49km comprising an area of ca. 1950ha. herds walker much more quicky in the morning (1.25km hr) than in the afternoon (0.82km hr) and thus covered more grazing group per unit time. on the basis of the grazing area and travelling rate ( particulary in the morning), all the 36 identified conservation-worthy sites in the National Park were threatened by livestock grazing. Effective management strategies may possibly include zonic, closing some stock posts and careful consideration for opening new roads.</para>
+ </abstract>
+ <keywordSet> <keyword>Conservation, herd, ''key resource'' area, pastoralists, stock posts</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>SANParks asould be ucknoeledge for the data capture and use. Digital and non-digital data and metadata belonging to SANParks .SANParks provided on an ''as-is'' basis with no guaratee as to data quality. neither the staff nor South African National Parks (SANParks) may be held relieble for any loss of any sort resulting from use of data and metadata provided by SANParks.</para>
+ </intellectualRights>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2003-01-13</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2005-01-13</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1236252772485</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <para>The movement patterns of 20 individual herds of livestock monitored between 1995 and 2001. table 5.1 shows the profile of each pastoralists.Patoralists do not have permanent base in the RNP: they take all their provisions with them as they move their livestock. rock reservoirs, seepage and Orange River) throughout they year. all stock post locations and water point in the RNP were verified to metre accurancy using a trimble Geographical Global Position model.</para>
+ <para>for the seasonal movement patterns, two periods of livestock movement data collection were folowed: quarterly and weekly. the quarterly movement data covers a period of six years and hard location was recorded during January,April, July, and October each year. the weekly movement data were recoded every week by RNP field rangers for three years (1999-2001). The local scale for diunal move,ent patterns was defined as the area around a stock post that is foraged within one day (foraging orbit) in  the 'buiteveld' betweeen (1999-2001). This data was collected by accompanying herds on foot during 50 day-long excursions between May and September. I use a Garmin Plus2 GPS to record the movement of the livestock from the time the animal left the stock post until they returned i the evening. The recording involved a GPS location every 30 minites from the time the animals left the stock post unitil noon and every 60 minutes thereafter. the data for 40 herding days (417 telemetry locations) were analysed for the size of foraging area and speed of travelling when grazing away from the stock post. days in which herding was interrupted by pastroralling management practices such as stock sales, vaccination, maintenance and movement between stock posts were not analysed.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1236323188845" scope="document"> <entityName>Copy of 3yr herd_dist.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236323187611" scope="document"> <objectName>Copy of 3yr herd_dist.txt</objectName>
+ <size unit="byte">104196</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.50.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236323188861" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The stating date of the movement</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236323188876" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>The names of the famers</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236323188892" scope="document"> <attributeName>#_OF_DAYS</attributeName>
+ <attributeDefinition>The days of the movement</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236323188907" scope="document"> <attributeName>#OFSTOCK</attributeName>
+ <attributeDefinition>The number of stock of the movement</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236323188923" scope="document"> <attributeName>#OFSTDAYS</attributeName>
+ <attributeDefinition>the day</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236323188939" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Postidnew</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236323188954" scope="document"> <attributeName>STPT_MOVE</attributeName>
+ <attributeDefinition>STPT_MOVEMENT</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236323188970" scope="document"> <attributeName>LONGITUDE</attributeName>
+ <attributeDefinition>THE DISTANCE OF THE LONGITUDE</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236323188986" scope="document"> <attributeName>LATITUDE</attributeName>
+ <attributeDefinition>The latitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1762</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236326372934" scope="document"> <entityName>Copy of 3yr herd_dist.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236326371766" scope="document"> <objectName>Copy of 3yr herd_dist.txt</objectName>
+ <size unit="byte">50305</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.51.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236326372950" scope="document"> <attributeName>stock post ID (new)</attributeName>
+ <attributeDefinition>Stock post number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326372966" scope="document"> <attributeName>longitude</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326372981" scope="document"> <attributeName>latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326372997" scope="document"> <attributeName>X</attributeName>
+ <attributeDefinition>x</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373012" scope="document"> <attributeName>Y</attributeName>
+ <attributeDefinition>y</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373028" scope="document"> <attributeName>stock post ID (Howard)</attributeName>
+ <attributeDefinition>Stock post number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373044" scope="document"> <attributeName>photo point ID</attributeName>
+ <attributeDefinition>the photo point  number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373059" scope="document"> <attributeName>film ID</attributeName>
+ <attributeDefinition>Filim ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373075" scope="document"> <attributeName>farmer</attributeName>
+ <attributeDefinition>The names of the farmer</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373090" scope="document"> <attributeName>comments</attributeName>
+ <attributeDefinition>the comment of the farmer</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373106" scope="document"> <attributeName>data set</attributeName>
+ <attributeDefinition>The data set</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373121" scope="document"> <attributeName>correction status</attributeName>
+ <attributeDefinition>the status correction</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373137" scope="document"> <attributeName>height</attributeName>
+ <attributeDefinition>the hight</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373153" scope="document"> <attributeName>horizontal precision</attributeName>
+ <attributeDefinition>the horizontal precision</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373168" scope="document"> <attributeName>vertical precision</attributeName>
+ <attributeDefinition>Vertical precision</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373184" scope="document"> <attributeName>date</attributeName>
+ <attributeDefinition>The date of the famer</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-dd-mm</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373199" scope="document"> <attributeName>stock post ID</attributeName>
+ <attributeDefinition>The stock post number</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373215" scope="document"> <attributeName>stock post owner</attributeName>
+ <attributeDefinition>the stck post owner</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373231" scope="document"> <attributeName>region name</attributeName>
+ <attributeDefinition>The region name</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373246" scope="document"> <attributeName>photo</attributeName>
+ <attributeDefinition>photo</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373262" scope="document"> <attributeName>film</attributeName>
+ <attributeDefinition>film</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373277" scope="document"> <attributeName>approx yr 1st use</attributeName>
+ <attributeDefinition>approx year 1st use</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373293" scope="document"> <attributeName>approx yr last use</attributeName>
+ <attributeDefinition>approx year last use</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373308" scope="document"> <attributeName>presently in use</attributeName>
+ <attributeDefinition>presently in use</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373324" scope="document"> <attributeName>point mapped</attributeName>
+ <attributeDefinition>point mapped</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373340" scope="document"> <attributeName>kraal mapped</attributeName>
+ <attributeDefinition>krall mapped</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373355" scope="document"> <attributeName>house mapped</attributeName>
+ <attributeDefinition>house mapped</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373371" scope="document"> <attributeName>kitchen mapped</attributeName>
+ <attributeDefinition>kitchen mapped</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373386" scope="document"> <attributeName>photo point mapped</attributeName>
+ <attributeDefinition>photo point mapped</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236326373402" scope="document"> <attributeName>notes</attributeName>
+ <attributeDefinition>the note</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>323</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236327138926" scope="document"> <entityName>resulting of 3yr herd d_dist.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236327137928" scope="document"> <objectName>resulting of 3yr herd d_dist.txt</objectName>
+ <size unit="byte">179158</size>
+ <dataFormat> <textFormat> <numHeaderLines>2</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.52.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236327138941" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm-dd-yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327138957" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>The names of the famer</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327138973" scope="document"> <attributeName>#_OF_DAYS</attributeName>
+ <attributeDefinition>days</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327138988" scope="document"> <attributeName>#OFSTOCK</attributeName>
+ <attributeDefinition>stock</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139004" scope="document"> <attributeName>#OFSTDAYS</attributeName>
+ <attributeDefinition>OFSTDAYS</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139019" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Postidnew</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139035" scope="document"> <attributeName>STPT_MOVE</attributeName>
+ <attributeDefinition>STPT_MOVE</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139050" scope="document"> <attributeName>LONGITUDE</attributeName>
+ <attributeDefinition>lONGITUDE</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139066" scope="document"> <attributeName>LATITUDE</attributeName>
+ <attributeDefinition>lATITUDE</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139082" scope="document"> <attributeName>MONTH</attributeName>
+ <attributeDefinition>month</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139097" scope="document"> <attributeName>MIN DIST</attributeName>
+ <attributeDefinition>MIN DIST</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139113" scope="document"> <attributeName>MAX DIST</attributeName>
+ <attributeDefinition>mAX DIST</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236327139128" scope="document"> <attributeName>AVERG</attributeName>
+ <attributeDefinition>AVARAGE</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1762</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236677354892" scope="document"> <entityName>1_245.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236677350866" scope="document"> <objectName>1_245.txt</objectName>
+ <size unit="byte">11334</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.53.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236677354907" scope="document"> <attributeName>RECORD ID</attributeName>
+ <attributeDefinition>The recoding number ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236677354923" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Portidnwe</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236677354939" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236677354954" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>The names of the farmers</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Bennie</code>
+ <definition>Bejamin Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cooper</code>
+ <definition>Johannes Cooper</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Frikkie</code>
+ <definition>Frikkie Smith</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JdeW</code>
+ <definition>Jacobus de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JDom</code>
+ <definition>Jacobus Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JJ</code>
+ <definition>jj</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Joel</code>
+ <definition>Joel Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KDier</code>
+ <definition>Koos Diergardt</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KJos</code>
+ <definition>Koos Jossob</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Moos</code>
+ <definition>Paul moos</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NdeW</code>
+ <definition>Nicodemas de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PDom</code>
+ <definition>Paolus Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Piet</code>
+ <definition>Piet Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Timm</code>
+ <definition>Timm Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WDom</code>
+ <definition>Willem Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW</code>
+ <definition>Paulus de Wet</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236677354970" scope="document"> <attributeName>X ( Longitude)</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236677354985" scope="document"> <attributeName>Y (Largetude)</attributeName>
+ <attributeDefinition>Largetude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>238</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236680400252" scope="document"> <entityName>246_490.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236680398475" scope="document"> <objectName>246_490.txt</objectName>
+ <size unit="byte">11521</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.54.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236680400267" scope="document"> <attributeName>RECORD ID</attributeName>
+ <attributeDefinition>Record Number ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680400283" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Postidnew</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680400298" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The DATE</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY-MM-DD</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680400314" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>the names of the farmers</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Bennie</code>
+ <definition>Farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cooper</code>
+ <definition>Farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Frikkie</code>
+ <definition>Farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JdeW</code>
+ <definition>Farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JDom</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KDier</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KJos</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Moos</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NdeW</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PDom</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Timm</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WDom</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JJ</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Piet</code>
+ <definition>Piet Domroghfarmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dawid</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW(jr)</code>
+ <definition>farmer</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680400329" scope="document"> <attributeName>X(Longitude)</attributeName>
+ <attributeDefinition>longitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680400345" scope="document"> <attributeName>Y(Largetude)</attributeName>
+ <attributeDefinition>Largetude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>241</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236680910989" scope="document"> <entityName>491_735.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236680909773" scope="document"> <objectName>491_735.txt</objectName>
+ <size unit="byte">9528</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.55.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236680911005" scope="document"> <attributeName>RECORD ID</attributeName>
+ <attributeDefinition>Record number ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680911020" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Postidnew</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680911036" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>1</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680911051" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>THE FARMERS NAMES</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680911067" scope="document"> <attributeName>X(Longitude)</attributeName>
+ <attributeDefinition>Longitide</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236680911083" scope="document"> <attributeName>Y(Largetude</attributeName>
+ <attributeDefinition>Largetude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>200</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236686299426" scope="document"> <entityName>736_980.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236686297805" scope="document"> <objectName>736_980.txt</objectName>
+ <size unit="byte">9492</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.56.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236686299442" scope="document"> <attributeName>RECORD ID</attributeName>
+ <attributeDefinition>Record numbers ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236686299457" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Postidnew</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236686299473" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>1</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236686299489" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>The name of the farmer</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Bennie</code>
+ <definition>Bejamin Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cooper</code>
+ <definition>Johannes cooper</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dawid</code>
+ <definition>Dawing</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Frikkie</code>
+ <definition>Frikkie Smith</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JdeW</code>
+ <definition>Jacobus de Wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JDom</code>
+ <definition>Jacobus Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KDier</code>
+ <definition>Koos Diergardt</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KJos</code>
+ <definition>Koos Jossob</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Moos</code>
+ <definition>Paul moos</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NdeW</code>
+ <definition>Nicodemars de Wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW</code>
+ <definition>Paul de Wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW(jr)</code>
+ <definition>Paul de Wet(jr)</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Piet</code>
+ <definition>Piet Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Timm</code>
+ <definition>Timmy Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WDom</code>
+ <definition>Willem Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JJ</code>
+ <definition>jj</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236686299504" scope="document"> <attributeName>X(Longitude)</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236686299520" scope="document"> <attributeName>Y(Largetude)</attributeName>
+ <attributeDefinition>Largetude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>200</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236690479694" scope="document"> <entityName>981_1225.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236690477759" scope="document"> <objectName>981_1225.txt</objectName>
+ <size unit="byte">10189</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.57.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236690479710" scope="document"> <attributeName>RECORD ID</attributeName>
+ <attributeDefinition>Record number ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236690479725" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Postidnew</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236690479741" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236690479757" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>The name of the farmer</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Bennie</code>
+ <definition>Bennie Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cooper</code>
+ <definition>Johannes Cooper</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dawid</code>
+ <definition>Dawid</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Frikkie</code>
+ <definition>Frikkie Smith</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JdeW</code>
+ <definition>Jacobus de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JDom</code>
+ <definition>Jacobus Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JJ</code>
+ <definition>jj</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KDier</code>
+ <definition>Koos Diergardt</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KJos</code>
+ <definition>koos Jossob</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Moos</code>
+ <definition>Paul Moos</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NdeW</code>
+ <definition>Nicodemas de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW</code>
+ <definition>Paulus de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW(jr)</code>
+ <definition>Poulus de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Piet</code>
+ <definition>Piet Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Timm</code>
+ <definition>Timm Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WDom</code>
+ <definition>Willem Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WJos</code>
+ <definition>Koos JOSSOB</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Thomas</code>
+ <definition>Thomas</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236690479772" scope="document"> <attributeName>X*(largetude)</attributeName>
+ <attributeDefinition>Largetude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236690479788" scope="document"> <attributeName>Y(Longertude)</attributeName>
+ <attributeDefinition>Longetude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>212</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236757277747" scope="document"> <entityName>1226_1470.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236757276122" scope="document"> <objectName>1226_1470.txt</objectName>
+ <size unit="byte">10842</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.58.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236757277762" scope="document"> <attributeName>RECORD ID</attributeName>
+ <attributeDefinition>The record ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236757277778" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Postidnew</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236757277793" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The date of the farming</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236757277809" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>The names of the farmer</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Bennie</code>
+ <definition>Bennie Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cooper</code>
+ <definition>Johannes cooper</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dawid</code>
+ <definition>Dawing</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Frikkie</code>
+ <definition>Frikkie Smith</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JdeW</code>
+ <definition>Jacobus de Wey</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JDom</code>
+ <definition>Jacobus domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JJ</code>
+ <definition>jj</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KDier</code>
+ <definition>Koos Diergardt</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KJos</code>
+ <definition>Koss Jossob</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Moos</code>
+ <definition>Paul moos</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NdeW</code>
+ <definition>Nicodemas de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW</code>
+ <definition>Paulus de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW(jr)</code>
+ <definition>Paulus de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Piet</code>
+ <definition>Piet Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Timm</code>
+ <definition>Timm Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WDom</code>
+ <definition>Willem Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WJos</code>
+ <definition>Willem jossob</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236757277825" scope="document"> <attributeName>X(Largetude)</attributeName>
+ <attributeDefinition>Largetude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236757277840" scope="document"> <attributeName>Y(Longitude)</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>220</numberOfRecords>
+ </dataTable>
+ <dataTable id="1236758639219" scope="document"> <entityName>1471_1715.txt</entityName>
+ <entityDescription>copy</entityDescription>
+ <physical id="1236758638313" scope="document"> <objectName>1471_1715.txt</objectName>
+ <size unit="byte">11323</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.59.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1236758639235" scope="document"> <attributeName>RECORD ID</attributeName>
+ <attributeDefinition>The record ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236758639250" scope="document"> <attributeName>POSTIDNEW</attributeName>
+ <attributeDefinition>Postidnew</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236758639266" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236758639282" scope="document"> <attributeName>FARMER</attributeName>
+ <attributeDefinition>The name of the farmer</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Bennie</code>
+ <definition>Bennie Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Cooper</code>
+ <definition>Johannes Cooper</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Dawid</code>
+ <definition>Dawid</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Frikkie</code>
+ <definition>Frikkie Smith</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JdeW</code>
+ <definition>Jacobus de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JDom</code>
+ <definition>Jocobus Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>JJ</code>
+ <definition>jj</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KDier</code>
+ <definition>Koos Diergardt</definition>
+ </codeDefinition>
+ <codeDefinition> <code>KJos</code>
+ <definition>Koos Jossob</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Moos</code>
+ <definition>Paul moos</definition>
+ </codeDefinition>
+ <codeDefinition> <code>NdeW</code>
+ <definition>Nicodemus de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW</code>
+ <definition>Paul de wet</definition>
+ </codeDefinition>
+ <codeDefinition> <code>PdeW(jr)</code>
+ <definition>Paul de Wet (jr)</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Piet</code>
+ <definition>Piet Domrogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Timm</code>
+ <definition>Timm Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WDom</code>
+ <definition>Willem Dom rogh</definition>
+ </codeDefinition>
+ <codeDefinition> <code>WJos</code>
+ <definition>willem Jossob</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Joel</code>
+ <definition>Joel Swartbooi</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Thomas</code>
+ <definition>Thomas</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236758639297" scope="document"> <attributeName>X(largetude)</attributeName>
+ <attributeDefinition>Largetude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1236758639313" scope="document"> <attributeName>Y(Longitude)</attributeName>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>228</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,142 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.19.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <alternateIdentifier system="ESA">E084-094</alternateIdentifier>
+ <title>Macroecological database of mammalian body mass</title>
+ <creator scope="document"> <organizationName>ESA</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>Ecological Society of America</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Felisa A.</givenName>
+ <surName>Smith</surName>
+ </individualName>
+ <organizationName>Department of Biology, University of New Mexico</organizationName>
+ <address scope="document"> <city>Albuquerque</city>
+ <administrativeArea>New Mexico</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <electronicMailAddress>fasmith@unm.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Callie</givenName>
+ <surName>Bowdish</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>S. Kathleen</givenName>
+ <surName>Lyons</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>S.K. Morgan</givenName>
+ <surName>Ernest</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Kate E.</givenName>
+ <surName>Jones</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Dawn M.</givenName>
+ <surName>Kaufman</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Tamar</givenName>
+ <surName>Dayan</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Pablo A.</givenName>
+ <surName>Marquet</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>James H.</givenName>
+ <surName>Brown</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>John P.</givenName>
+ <surName>Haskell</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <pubDate>2006-04-13</pubDate>
+ <abstract> <para>The purpose of this data set was to compile body mass information for all mammals on Earth so that we could investigate the patterns of body mass seen across geographic and taxonomic space and evolutionary time.  We were interested in the heritability of body size across taxonomic groups (How conserved is body mass within a genus, family, and order?), in the overall pattern of body mass across continents (Do the moments and other descriptive statistics remain the same across geographic space?), and over evolutionary time (How quickly did body mass patterns iterate on the patterns seen today?  Were the Pleistocene extinctions size specific on each continent, and did these events coincide with the arrival of man?).</para>
+ </abstract>
+ <keywordSet> <keyword>body mass</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>extinct mammals</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>late Quaternary</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>macroecology</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword>taxonomy</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <additionalInfo> <para>Data files are in ASCII format, tab delimited. No compression schemes were used. Data set consists of 5732 records, not including header row.
+
+MOMv3.3.txt</para>
+ </additionalInfo>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="download">http://www.esapubs.org/archive/ecol/E084/094/default.htm</url>
+ </online>
+ </distribution>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document">  <taxonomicCoverage scope="document"> <generalTaxonomicCoverage>Taxonomy: Taxonomy follows Wilson and Reeder (1993), as updated electronically (4 June 2002; www.nmnh.si.edu/msw).</generalTaxonomicCoverage>
+ <taxonomicClassification> <taxonRankName>Class</taxonRankName>
+ <taxonRankValue>mammalia</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <temporalCoverage scope="document"><singleDateTime><calendarDate>1999</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+</coverage>
+<contact scope="document"> <individualName> <givenName>Felisa A.</givenName>
+ <surName>Smith</surName>
+ </individualName>
+ <organizationName>Department of Biology, University of New Mexico</organizationName>
+ <address scope="document"> <city>Albuquerque</city>
+ <administrativeArea>New Mexico</administrativeArea>
+ <postalCode>87131</postalCode>
+ <country>USA</country>
+ </address>
+ <electronicMailAddress>fasmith@unm.edu</electronicMailAddress>
+ </contact>
+<methods><methodStep><description><section><title>Introduction</title>
+<para>Our data set consists of the updated version of Wilson and Reeder's (1993) taxonomic list of all known mammals of the world (N=4629 species) to which we added status, distribution, and body mass estimates compiled from the literature.  Mammals occurring on more than one continent have multiple records; continent-specific masses were used when available. Moreover, for four of the continents (Africa, North and South America and Australia), we included the mammalian species that went extinct at the late Pleistocene (an additional 230 species).  Overall, we have 5731 rows of data.  We defined "Late Pleistocene" as approximately 11 ka for Africa, North and South America, and as 50 ka for Australia, because these times predate anthropogenic impacts on mammalian fauna (e.g., Klein 1984; Martin 1984; Kurten 1988; Lessa and Farina 1996; Flannery and Roberts 1999; Martin and Steadman 1999 and Stuart 1999). About half the records in our data set are derived from previous compilations (Silva and Downing 1995; Marquet and Cofre 1999; Jones et al. 2003); the remainder are largely drawn directly from the primary literature.</para>
+<para>We began with the updated version of Wilson and Reeder's (1993) taxonomic list of all known Recent mammals of the world (N = 4629 species) to which we added status, distribution, and body mass estimates compiled from the primary and secondary literature. Whenever possible, we used an average of male and female body mass, which was in turn averaged over multiple localities to arrive at our species body mass values.  The sources are line referenced in the main data set, with the actual references appearing in a table within the metadata.  Mammals have individual records for each continent they occur on.  Please note that our data set is more than an amalgamation of smaller compilations.</para>
+<para>Although we relied heavily a data set for Chiroptera by K. E. Jones (N = 905), the CRC handbook of Mammalian Body Mass (N = 688), and a data set compiled for South America by P. Marquet (N = 505), these total less than half the records in the current database.  The remainder are derived from more than 150 other sources (see reference table).  Furthermore, we include a comprehensive late Pleistocene species assemblage for Africa, North and South America, and Australia (an additional 230 species). "Late Pleistocene" is defined as approximately 11 ka for Africa, North and South America, and as 50 ka for Australia, because these times predate anthropogenic impacts on mammalian fauna. Estimates contained within this data set represent a generalized species value, averaged across gender and geographic space.  Consequently, these data are not appropriate for asking population-level questions where the integration of body mass with specific environmental conditions is important.  All extant orders of mammals are included, as well as several archaic groups (N = 4859 species).  Because some species are found on more than one continent (particularly Chiroptera), there are 5731 entries.  We have body masses for the following:  Artiodactyla (280 records), Bibymalagasia (2 records), Carnivora (393 records), Cetacea (75 records), Chiroptera (1071 records), Dasyuromorphia (67 records), Dermoptera (3 records), Didelphimorphia (68 records), Diprotodontia (127 records), Hydracoidea (5 records), Insectivora (234 records), Lagomorpha (53 records), Litopterna (2 records), Macroscelidea (14 records), Microbiotheria (1 record), Monotremata (7 records), Notoryctemorphia (1 record), Notoungulata (5 records), Paucituberculata (5 records), Peramelemorphia (24 records), Perissodactyla (47 records), Pholidota (8 records), Primates (276 records), Proboscidea (14 records), Rodentia (1425 records), Scandentia (15 records), Sirenia (6 records), Tubulidentata (1 record), and Xenarthra (75 records).</para>
+<para>Body mass was estimated using an algorithm that prioritized in the following order:  1)  A gender-specific estimate obtained by averaging values reported from across geographic localities, these were then averaged to obtain an overall species value, 2) When no geographic information was provided, gender-specific values were averaged for an overall species body mass estimate, 3) If both male and female masses were not available, male mass was used preferentially, averaging over geographic localities if such information was available, 4) If only female body mass was available, it was used, again averaging over geographic localities as available. In no instance did we use generic means as a proxy for a species average.  Body mass estimates for extinct species were gathered from the primary literature, from personal communications, estimated from regressions of teeth measurements (e.g., Damuth and MacFadden 1990), or obtained from web databases.  The source for each datum is listed in the reference column of the data set.  All extant mammalian orders are represented, and we include several archaic groups present in the late Pleistocene.  By compiling such data from geographically and historically isolated areas, we were able to compare similarities and differences in mammal body mass across continents differing in species composition, current and past environments and geographic history.  Moreover, we were able to examine the impact of early humans on patterns of mammalian diversity across disparate regions.</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>The data set is fairly comprehensive for oceanic mammals, and for those occurring on four of the continents (Africa, Australia, South America, and North America), but is less complete for Eurasian and insular species (Table 1). We have been able to obtain mass estimates for 4361 of the 5731 rows of data; 1372 are missing values. Most, if not all missing species are poorly studied and tend to be rare, cryptic or both.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Because our studies have focused on broad macroecological patterns, we have ignored the often substantial geographic body mass variation that may exist for a species.  Estimates contained within this data set thus represent a generalized species value, averaged across gender and geographic space.  Consequently, care should be taken if these values are used to represent species at a particular locality and/or time.</para>
+</samplingDescription>
+</sampling>
+</methods>
+  <access authSystem="knb" order="denyFirst" scope="document">
+<allow>
+<principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+</dataset>
+</ns0:eml>

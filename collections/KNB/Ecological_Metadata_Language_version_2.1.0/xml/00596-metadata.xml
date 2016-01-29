@@ -1,0 +1,137 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb.266.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=eripowell,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier system="University of Wisconsin, Madison">Colonization</alternateIdentifier>
+<title>Greater Yellowstone Area (USA) Mountain Pine Beetle Colonization Data from 2007 to 2008</title>
+<creator>
+<organizationName>University of Wisconsin, Madison</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Erinn</givenName>
+<surName>Powell</surName>
+</individualName>
+<organizationName>University of Wisconsin, Madison</organizationName>
+<address>
+<deliveryPoint>345 Russell Labs
+1630 Linden Dr.</deliveryPoint>
+<city>Madison</city>
+<administrativeArea>Wisconsin</administrativeArea>
+<postalCode>53706</postalCode>
+<country>United States</country>
+</address>
+<electronicMailAddress>epowell2@wisc.edu</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Erinn</givenName>
+<surName>Powell</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Erinn</givenName>
+<surName>Powell</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Kenneth</givenName>
+<surName>Raffa</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2011-09-14</pubDate>
+<abstract>
+<para>Data were collected in eight wildfire burn areas one year post-fire and eight adjacent non-burned areas.  All data were collected throughout the summers of 2007 and 2008.  For each tree sampled, data were recorded on mountain pine beetle colonization, fire injury category of the tree, percent basal injury, percent bole injury, percent canopy injury, cambium kill rating, mistletoe rating, blister rust lesion presence, percent slope of transect, degree aspect of transect, elevation of transect, burn or non-burn site name, size of burn, mountain pine beetle population size, year of burn, and transect name.  The purpose of the data was to measure the colonization of mountain pine beetle in lodgepole pines experiencing varying degrees of fire injury.</para>
+</abstract>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2007-06-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2008-08-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Erinn</givenName>
+<surName>Powell</surName>
+</individualName>
+<organizationName>University of Wisconsin, Madison</organizationName>
+<address>
+<deliveryPoint>345 Russell Labs
+1630 Linden Dr.</deliveryPoint>
+<city>Madison</city>
+<administrativeArea>Wisconsin</administrativeArea>
+<postalCode>53706</postalCode>
+<country>United States</country>
+</address>
+<electronicMailAddress>epowell2@wisc.edu</electronicMailAddress>
+</contact>
+<otherEntity id="2119f00c8c0d17eddf33ec9f2dcaa5d5a0a17615001" scope="document">
+            <entityName>Colonization.xls</entityName>
+            <physical scope="document">
+                <objectName>Colonization.xls</objectName>
+                <size>391168</size>
+                <authentication method="SHA1">2119f00c8c0d17eddf33ec9f2dcaa5d5a0a17615</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>application/vnd.ms-excel</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="2119f00c8c0d17eddf33ec9f2dcaa5d5a0a17615002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.265.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="denyFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>uid=eripowell,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+ 
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</ns0:eml>

@@ -1,0 +1,191 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.109938.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Landscape Function Analysis at three sites in the Addo Elephant National Park</title>
+ <creator id="1384263869918"> <individualName><salutation>Dr</salutation>
+ <givenName>D</givenName>
+ <surName>Parker</surName>
+ </individualName>
+ </creator>
+ <abstract><para>We assessed the change in (agricultural) grassland functionality at three sites (i.e. Main Camp-section, Colchester-section, Nyati-section) in the Addo Elephant National Park, South Africa. Using landscape function analysis (LFA) we described the landscape organisation of each site, and, using visual surrogates, calculated indices of landscape stability, infiltration and nutrient cycling. The following variables were recorded along transects: (1) number of patches, (2) patch area index (area in m2 covered by vegetative patches along each transect, (3) interpatch lenght (avg length in m of interpatches - i.e. non-vegetative structures like bare ground, logs, rocks, etc.), and (4) % stability, % infiltration, % nutrient cycling (calculated using Tongway and Hindley (2004).</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Addo Elephant National Park, South Africa</keyword>
+ <keyword>LFA</keyword>
+ </keywordSet>
+ <intellectualRights><para>This dataset is testricted please liase with the contac person of this dataset if youwould like to use it</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>AddoElephantNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>24.961638</westBoundingCoordinate>
+ <eastBoundingCoordinate>26.663796</eastBoundingCoordinate>
+ <northBoundingCoordinate>-33.071541</northBoundingCoordinate>
+ <southBoundingCoordinate>-33.772324</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>2007-11-12</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1384263906286"><individualName><salutation>Dr</salutation>
+ <givenName>D</givenName>
+ <surName>Parker</surName>
+ </individualName>
+ <electronicMailAddress>d.parker@ru.ac.za</electronicMailAddress>
+ </contact>
+ <dataTable id="1384320318534"><entityName>LandscapeFunctionalAnalysesPlotLocations.txt</entityName>
+<physical id="1384320289426"><objectName>LandscapeFunctionalAnalysesPlotLocations.txt</objectName>
+<size unit="byte">408</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.109939.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384320318544"><attributeName>Transect ID</attributeName>
+<attributeDefinition>Transect ID</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Transect ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384320318554"><attributeName>Latitude</attributeName>
+<attributeDefinition>Latitude</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384320318564"><attributeName>Longitude</attributeName>
+<attributeDefinition>Longitude</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>13</numberOfRecords>
+</dataTable>
+<dataTable id="1384320583822"><entityName>LandscapeFunctionalAnalysesData.txt</entityName>
+<physical id="1384320404328"><objectName>LandscapeFunctionalAnalysesData.txt</objectName>
+<size unit="byte">1148</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.109940.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1384320583832"><attributeName>Transect ID</attributeName>
+<attributeDefinition>Transect ID</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Transect ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1384320583842"><attributeName>Date completed</attributeName>
+<attributeDefinition>Date completed</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1384320583852"><attributeName>#Patchces/10m</attributeName>
+<attributeDefinition>#Patchces/10m</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384320583862"><attributeName>Patch area index</attributeName>
+<attributeDefinition>Patch area index</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384320583872"><attributeName>Patch area (m2)</attributeName>
+<attributeDefinition>Patch area (m2)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>squareMeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384320583882"><attributeName>Patch area (m2)</attributeName>
+<attributeDefinition>Patch area (m2)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384320583892"><attributeName>Interpatch length (m)</attributeName>
+<attributeDefinition>Interpatch length (m)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384320583902"><attributeName>Stability (%)</attributeName>
+<attributeDefinition>Stability (%)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384320583912"><attributeName>Infiltration (%)</attributeName>
+<attributeDefinition>Infiltration (%)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1384320583922"><attributeName>Nutrient cycling (%)</attributeName>
+<attributeDefinition>Nutrient cycling (%)</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>36</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

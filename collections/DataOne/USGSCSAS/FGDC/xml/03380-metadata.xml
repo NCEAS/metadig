@@ -1,0 +1,296 @@
+<metadata><Source>http://www1.usgs.gov/metadata/mdata/vip/metafounspatial.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>National Park Service</origin>
+        <origin>Natural Heritage New Mexico</origin>
+        <pubdate>2009</pubdate>
+        <title>Fort Union National Monument Vegetation Mapping Project - Spatial Vegetation Data</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://gis1.usgs.gov/arcgis/rest/services/nvcp/Fort_Union_NM/MapServer</onlink>
+        <onlink>http://www1.usgs.gov/vip/foun/foungeodata.zip</onlink>
+        <onlink>http://viewer.nationalmap.gov/viewer/?p=default&amp;b=base1&amp;q=http%3A%2F%2Fgis1.usgs.gov%2Farcgis%2Frest%2Fservices%2Fnvcp%2FFort_Union_NM%2FMapServer&amp;x=-11690647.9721&amp;y=4287882.608349999&amp;l=15&amp;sc=0&amp;a=undefined&amp;v=</onlink>
+        <onlink>doi:10.5066/F79W0CFR</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>High resolution vegetation polygons mapped by the National Park Service. This detailed vegetation map for Fort Union National Monument is based on the National Vegetation Classification System. The legend for the map is based on a vegetation classification with modifications for special features of the monument. The map was developed using available digital ortho-photography and ground checking, and is designed for use at the 1:6,000 scale with a minimum mapping unit of size 0.10 ha.</abstract>
+      <purpose>Vegetation maps of National Parks and National Monuments were developed to support natural resources management, planning, research and interpretation.</purpose>
+      <supplinf>Data were imported to a file geodatabase by the Colorado Natural Heritage Program/Colorado State University. Parks had the flexibility to map vegetation down to the map class or to the association. The original dataset was reprojected from UTM NAD27 to UTM NAD83 using the NADCON geographic transformation. Refer to founrpt.pdf for more detailed information.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1999-2004</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Fort Union National Monument and environs</descgeog>
+      <bounding>
+        <westbc>-105.037612</westbc>
+        <eastbc>-104.999904</eastbc>
+        <northbc>35.917264</northbc>
+        <southbc>35.897463</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Vegetation</themekey>
+      </theme>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Standardized National Vegetation Classification System</taxonkey>
+        <taxonkey>vegetation classification</taxonkey>
+        <taxonkey>alliance</taxonkey>
+        <taxonkey>community association</taxonkey>
+      </keywtax>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Plantae</taxonrv>
+      </taxoncl>
+    </taxonomy>
+    <accconst>It is strongly recommended that these data are directly acquired from U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.</accconst>
+    <useconst>The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related tables are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.
+
+The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  Although these data have been processed successfully on a computer system, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</useconst>
+    <native>Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
+  </idinfo>
+  <dataqual>
+    <logic>Unknown</logic>
+    <complete>Unknown</complete>
+    <lineage>
+      <procstep>
+        <procdesc>The vegetation map was developed through aerial photo interpretation of available black and white digital ortho-photographs from 1984 and 1999. The photos were compiled into a GIS with a standard set of ancillary layers provided by the park service (boundaries, roads, facilities, etc.). Using the vegetation classification as the foundation for the map legend, map units were defined with respect to interpretable patterns in the photography, and with an eye to those patterns that would be most important in natural and cultural resources management within the park.
+
+The map was produced through direct screen digitizing using ArcGIS software. Most interpretation was done at 1:3,000 scale with the intent of operational use at 1:6,000 scale. As a general guideline, the minimum map unit delineation size of was 0.25 ha, but some polygons approached 0.1 ha. Given the small size of the monument, an independent, randomized validation would have been impossible. The map was simply error checked on foot in 2003 and 2004, and revised accordingly.</procdesc>
+        <procdate>2004</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>353</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>13</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-105.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FOUN_VegPolys</enttypl>
+        <enttypd>Feature class attribute table</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Poly_ID</attrlabl>
+        <attrdef>Unique identifier for each polygon</attrdef>
+        <attrdefs>New Mexico Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>Unique plot code.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MapUnit_ID</attrlabl>
+        <attrdef>Code used to represent the Map Unit</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Map unit code.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MapUnit_Name</attrlabl>
+        <attrdef>Full Map Unit name</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Map unit association common name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X_Centroid</attrlabl>
+        <attrdef>X Coordinate (UTM Easting) of the centroid of the polygon</attrdef>
+        <attrdefs>New Mexico Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>Easting coordinate.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y_Centroid</attrlabl>
+        <attrdef>Y Coordinate (UTM Northing) of the centroid of the polygon</attrdef>
+        <attrdefs>New Mexico Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>Northing coordinate.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>Area (unknown units)</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hectares</attrlabl>
+        <attrdef>Perimeter (unknown units)</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>rc_VegPolys_tVegMapInfo</enttypl>
+        <enttypd>Defines relationship between Veg polygons and basic vegetation attributes</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The U.S. Geological Survey and the National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics (if available) are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  Any related graphics (if available) are intended to aid the data user in acquiring relevant data; it is not approriate to use the related graphics as data.
+
+The U.S. Geological Survey and the National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>HTML</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.usgs.gov/core_science_systems/csas/vip/parks/foun.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Internet Access</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20091207</metd>
+    <metrd>20100709</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metextns>
+      <onlink>http://www.usgs.gov/core_science_systems/csas/metadata/index.html</onlink>
+    </metextns>
+  </metainfo>
+</metadata>

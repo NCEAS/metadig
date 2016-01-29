@@ -1,0 +1,1454 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-gce.417.4" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>MET-GCEM-0601.1.0</alternateIdentifier>
+    <title>Climate data from the SINERR/GCE/UGAMI weather station at Marsh Landing on Sapelo Island, Georgia, from 01-Jan-2005 to 31-Dec-2005</title>
+    <creator id="GCE-LTER">
+      <organizationName>Georgia Coastal Ecosystems LTER Project</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-3636</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+      <onlineUrl>http://gce-lter.marsci.uga.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Daniela</givenName>
+        <surName>Di Iorio</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-3636</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>daniela@uga.edu</electronicMailAddress>
+      <onlineUrl>http://www.marsci.uga.edu/FacultyPages/Daniela/daniela.html</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <references>GCE-LTER</references>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Dorset</givenName>
+        <surName>Hurley</surName>
+      </individualName>
+      <organizationName>Sapelo Island National Estuarine Research Reserve</organizationName>
+      <electronicMailAddress>dhurley@darientel.net</electronicMailAddress>
+      <role>investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Patrick</givenName>
+        <surName>Hagan</surName>
+      </individualName>
+      <organizationName>Sapelo Island National Estuarine Research Reserve</organizationName>
+      <electronicMailAddress>bluewatermotion@hotmail.com</electronicMailAddress>
+      <role>monitoring technician</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Wade</givenName>
+        <givenName>M.</givenName>
+        <surName>Sheldon</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <electronicMailAddress>sheldon@uga.edu</electronicMailAddress>
+      <role>data analyst</role>
+    </associatedParty>
+    <pubDate>2007</pubDate>
+    <abstract>
+      <para>Air temperature, relative humidity, barometric pressure, precipitation, photosynthetically-available and total solar radiation, and wind speed and direction were measured using an automated Campbell Scientific Instruments climate station installed at Marsh Landing on Sapelo Island, Georgia. Observations were logged at 15 minute intervals throughout the study period. The sensors were mounted on a 10m aluminum tower, with wind sensors mounted at the top, light sensors at approximately 5m, and other sensors at 2-3m to minimize interference from the surrounding landscape. This climate station was jointly operated by the Sapelo Island National Estuarine Research Reserve, the Georgia Coastal Ecosystems LTER Project, and University of Georgia Marine Institute.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">Georgia</keyword>
+      <keyword keywordType="place">Marsh Landing</keyword>
+      <keyword keywordType="place">Sapelo Island</keyword>
+      <keyword keywordType="place">USA</keyword>
+      <keyword keywordType="theme">GCE</keyword>
+      <keyword keywordType="theme">Georgia Coastal Ecosystems</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keywordThesaurus>GCE-LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">air pressure</keyword>
+      <keyword keywordType="theme">air temperature</keyword>
+      <keyword keywordType="theme">atmosphere</keyword>
+      <keyword keywordType="theme">climate</keyword>
+      <keyword keywordType="theme">climatology</keyword>
+      <keyword keywordType="theme">humidity</keyword>
+      <keyword keywordType="theme">long term monitoring</keyword>
+      <keyword keywordType="theme">meteorology</keyword>
+      <keyword keywordType="theme">photosynthetically active radiation</keyword>
+      <keyword keywordType="theme">solar radiation</keyword>
+      <keyword keywordType="theme">wind</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Primary Production</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>All publications based on this data set must cite the contributor and Georgia Coastal Ecosystems LTER project, and two copies of the manuscript must be submitted to the GCE-LTER Information Management Office.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://gce-lter.marsci.uga.edu/public/app/dataset_details.asp?accession=MET-GCEM-0601</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Overall bounding box describing the geographic region within the Georgia Coastal Ecosystems LTER study domain represented in data set MET-GCEM-0601, based on the maximum geographic extents of all site polygons referenced in the data set</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.297445</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.294606</eastBoundingCoordinate>
+          <northBoundingCoordinate>31.418899</northBoundingCoordinate>
+          <southBoundingCoordinate>31.416399</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2005-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>GCE-LTER Information Manager</positionName>
+      <address>
+        <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-3636</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <references>GCE-LTER</references>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Climate Measurements</title>
+            <para>Sensor readings were taken at 5 second intervals by a Campbell Scientific Instruments CR-10X data logger, and converted from analog voltage to calibrated digital data if necessary. Digitized data values were summarized and logged to memory storage modules as named arrays at 15 minute, 60 minute and 24 hour intervals by programs uploaded to the CR-10X (NERR CDMO program NERR_4.CSI).</para>
+          </section>
+        </description>
+        <instrumentation>Barometric Pressure Sensor; manufacturer: Campbell Scientific Instruments (model: CS105); parameter: Barometric Pressure (accuracy: &#177;0.5 mb at +20&#176;C, range: 600 to 1060 mb)</instrumentation>
+        <instrumentation>Quantum Sensor; manufacturer: LICOR (model: LI190SB); parameter: Photosynthetically-Available Radiation (accuracy: &lt;1% deviation, range: 0 to 10,000 &#181;E/m^2/s)</instrumentation>
+        <instrumentation>Rain Gauge; manufacturer: Campbell Scientific Instruments (model: TE525MM); parameter: Precipitation (accuracy: 1% at &lt;10 mm/hr to 5% at 20-30 mm/hr, readability: 0.1 mm, )</instrumentation>
+        <instrumentation>Anemometer and Wind Vane; manufacturer: Campbell Scientific Instruments (model: 03001-5 Wind Sentry); parameter: Wind Direction (readability: 0.8 m/s threshold, range: 0 to 360 degrees)</instrumentation>
+        <instrumentation>Anemometer and Wind Vane; manufacturer: Campbell Scientific Instruments (model: 03001-5 Wind Sentry); parameter: Wind Speed (accuracy: &#177;0.5 m/s, range: 0.5 to 50 m/s)</instrumentation>
+        <instrumentation>Pyranometer; manufacturer: LICOR (model: LI200X); parameter: Solar Radiation (accuracy: +/-3% typical, +/-5% maximum, range: 0 to    
+3000 W/m^2 (400-1100nm))</instrumentation>
+        <instrumentation>Temperature and Humidity Probe; manufacturer: Campbell Scientific Instruments (model: HMP45C); parameter: Air Temperature (accuracy: 0.2-0.4 C, range: -39.2 to +60 C)</instrumentation>
+        <instrumentation>Temperature and Humidity Probe; manufacturer: Campbell Scientific Instruments (model: HMP45C); parameter: Relative Humidity (accuracy: 2%, range: 0-100%)</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Data Acquisition and Processing</title>
+            <para>Data Acquisition and Processing - Stored data were periodically downloaded from the CR-10X data logger by telephone modem or direct serial connection using Campbell Scientific Instruments LoggerNet 2.1 or PC208W software. Data arrays were parsed from the CSI data files, validated, documented and subjected to automated quality control analysis by custom programs in the GCE Data Toolbox for MATLAB. Negative values of PAR (photosynthetically-available radiation) and total solar radiation, representing dark signal noise, were converted to zeros during data processing.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2005-01-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2005-12-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>GCE Study Site ML -- Marsh Landing, Sapelo Island, Georgia, USA.  Marsh landing, where the Georgia DNR ferry docks on its route between the mainland (Meridian) and Sapelo Island.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-81.297445</westBoundingCoordinate>
+                <eastBoundingCoordinate>-81.294606</eastBoundingCoordinate>
+                <northBoundingCoordinate>31.418899</northBoundingCoordinate>
+                <southBoundingCoordinate>31.416399</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Climate Measurements (CR10X Logger)</title>
+            <para>Data from all sensors were collected and logged at 15 minute intervals by an automated Campbell Scientific Instruments data logger (CR10X). Summary statistics were also tabulated by the CR10X program and logged at 60 minute and 24 hour intervals. Sets of measurements and calculations were stored as distinct numbered arrays in the data logger storage module, and then parsed and analyzed separately when the data was periodically downloaded from the station.</para>
+            <para>Data from all sensors were collected and logged at 15 minute intervals by an automated Campbell Scientific Instruments data logger (model CR10X). Values and times of minimum and maximum air temperature and maximum wind speed were calculated by the CR10X program, as well as Standard Error of Wind Direction. Arrays of measurements and calculations were stored by the CR10X logger, and downloaded semi-hourly via telephone modem to computers at UGA . Data arrays were then parsed, documented and archived in the GCE-LTER Information Management office.</para>
+          </section>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <referencedEntityId>MET-GCEM-0601.kml</referencedEntityId>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Georgia Coastal Ecosystems LTER Project II</title>
+      <personnel>
+        <individualName>
+          <givenName>Merryl</givenName>
+          <surName>Alber</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Steven</givenName>
+          <givenName>C.</givenName>
+          <surName>Pennings</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Wade</givenName>
+          <givenName>M.</givenName>
+          <surName>Sheldon</surName>
+        </individualName>
+        <role>informationManager</role>
+      </personnel>
+      <abstract>
+        <para>The Georgia Coastal Ecosystems (GCE) LTER program, located on the central Georgia coast, was established in 2000. The study domain encompasses three adjacent sounds (Altamaha, Doboy, Sapelo) and includes upland (mainland, barrier islands, marsh hammocks), intertidal (fresh, brackish and salt marsh) and submerged (river, estuary, continental shelf) habitats. Patterns and processes in this complex landscape vary spatially within and between sites, and temporally on multiple scales (tidal, diurnal, seasonal, and interannual). Overlain on this spatial and temporal variation are long-term trends caused by climate change, sea level rise, and human alterations of the landscape. These long-term trends are likely to manifest in many ways, including changes in water quality, river discharge, runoff and tidal inundation patterns throughout the estuarine landscape. The overarching goal of the GCE program is to understand the mechanisms by which variation in the quality, source and amount of both fresh and salt water create temporal and spatial variability in estuarine habitats and processes, in order to predict directional changes that will occur in response to long-term shifts in estuarine salinity patterns.</para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under grant numbers OCE-9982133 and OCE-0620959. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>MET-GCEM-0601</entityName>
+      <entityDescription>Main data table for data set MET-GCEM-0601</entityDescription>
+      <physical>
+        <objectName>MET-GCEM-0601_1_0.CSV</objectName>
+        <size unit="kilobyte">4744.90</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>5</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>Spreadsheet comma-separated value (CSV) text file with a five line header containing the data set title, column titles, units and column types</onlineDescription>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-gce/417/4/6f304b1b0ff08924228680496f3d6d61</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Data file post-processing in the GCE-LTER Information Management Office</para>
+          </description>
+          <software>
+            <title>GCE Data Toolbox for MATLAB(r)</title>
+            <creator>
+              <individualName>
+                <salutation>Mr.</salutation>
+                <givenName>Wade</givenName>
+                <givenName>M.</givenName>
+                <surName>Sheldon</surName>
+              </individualName>
+              <address>
+                <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+                <deliveryPoint>University of Georgia</deliveryPoint>
+                <city>Athens</city>
+                <administrativeArea>Georgia</administrativeArea>
+                <postalCode>30602-3636</postalCode>
+                <country>USA</country>
+              </address>
+              <electronicMailAddress>sheldon@uga.edu</electronicMailAddress>
+              <onlineUrl>http://gce-lter.marsci.uga.edu/public/app/personnel_bios.asp?id=wsheldon</onlineUrl>
+            </creator>
+            <associatedParty>
+              <organizationName>Georgia Coastal Ecosystems LTER Project</organizationName>
+              <address>
+                <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+                <deliveryPoint>University of Georgia</deliveryPoint>
+                <city>Athens</city>
+                <administrativeArea>Georgia</administrativeArea>
+                <postalCode>30602-3636</postalCode>
+                <country>USA</country>
+              </address>
+              <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+              <role>sponsoring research program</role>
+            </associatedParty>
+            <abstract>
+              <para>The GCE Data Toolbox is a comprehensive library of functions for metadata-based analysis
+quality control, transformation and management of ecological data sets. The toolbox is based on the GCE Data 
+Structure, a MATLAB specification for storing tabular data along with all information required to interpret 
+the data and generate formatted metadata (documentation). Metadata fields in the structure are queried 
+by toolbox functions for all operations, allowing functions to process and format values appropriately 
+based on the type of information they represent. This semantic processing approach supports highly 
+automated and intelligent data analysis and ensures data set validity throughout all processing steps.</para>
+            </abstract>
+            <implementation>
+              <distribution>
+                <online>
+                  <url function="information">http://gce-lter.marsci.uga.edu/public/im/tools/toolbox_download.htm</url>
+                </online>
+              </distribution>
+              <operatingSystem>Linux</operatingSystem>
+              <operatingSystem>Microsoft Windows</operatingSystem>
+              <operatingSystem>Sun Solaris</operatingSystem>
+              <operatingSystem>Apple Macintosh OS/X</operatingSystem>
+              <programmingLanguage>MATLAB</programmingLanguage>
+            </implementation>
+            <version>3.x</version>
+          </software>
+          <subStep>
+            <description>
+              <para>02/01/2005: new GCE Data Structure 1.1 created ("newstruct")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: parsed data from Campbell Scientific Instruments datalogger output file and assigned metadata descriptors based on array ID and column position ("csi2struct")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: automatically assigned study date metadata descriptors based on the range of date values in date/time columns (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: copied/reordered columns Date, Temp_Air, Humidity, PAR_Total, Baro_Press, Wind_Speed, Wind_Dir, Precipitation and Total_Solar_Rad ("copycols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: calculated column Total_Solar_Rad_kW generated by the expression "(Total_Solar_Rad .* 4) ./ 3600" (add_calcexpr)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: updated 2 metadata fields in the Data, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: converted negative values in column(s) PAR_Total, Total_Solar_Rad and Total_Solar_Rad_kW to zero ("negative2zero"): column PAR_Total, 873 records affected; column Total_Solar_Rad, 76 records affected; column Total_Solar_Rad_kW, 76 records affected</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: updated 2 metadata fields in the Data, Status sections ("negative2zero")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: Year, Month, Day, Hour and Minute datetime columns added after column Date ("add_datepartcols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: updated title ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/01/2005: updated 2 metadata fields in the Dataset, Status sections ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2005: 2688 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2005: updated 16 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/01/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/01/2005: 2976 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/01/2005: updated 9 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/01/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/01/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/01/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/29/2005: updated 9 metadata fields in the Site, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/02/2005: 2880 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/02/2005: updated 9 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/02/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/02/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/02/2005: edited structure data ("ui_datagrid"): changed "Temp_Air" row 11278 from -20.9410 to NaN, changed "Temp_Air" row 11279 from -26.3780 to NaN, changed "Humidity" row 11278 from 23.6890 to NaN</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/02/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/02/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2005: 2976 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2005: updated 9 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2005: Q/C flagging criteria of columns Temp_Air, Humidity and Precipitation edited ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/01/2005: 2880 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/01/2005: updated 9 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/01/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/01/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/01/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>08/01/2005: 2976 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>08/01/2005: updated 9 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>08/01/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>08/01/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>08/01/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/01/2005: 2976 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/01/2005: updated 9 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/01/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/01/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/01/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/01/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/15/2005: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/03/2005: 2880 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/03/2005: updated 11 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/03/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/03/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/03/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/03/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/03/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/02/2005: 2976 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/02/2005: updated 11 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/02/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/02/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/02/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/02/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/02/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>12/01/2005: 2880 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>12/01/2005: updated 11 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>12/01/2005: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>12/01/2005: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>12/01/2005: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>12/01/2005: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/04/2006: 2976 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/04/2006: updated 11 metadata fields in the Data, Dataset, Status, Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/04/2006: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/04/2006: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/04/2006: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/04/2006: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/04/2006: documented flagged and missing values as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/17/2006: standardized case of date component column units to prevent unit conversion issues ("batch_update_datetime"): updated units for column Year from "yyyy" to "YYYY"; updated units for column Month from "mm" to "MM"; updated units for column Day from "dd" to "DD"</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/16/2009: updated 2 metadata fields in the Site, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/03/2011: units of column Total_PAR edited ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/03/2011: calculated column Mean_PAR generated by the expression "Total_PAR * 1000 / 900" (add_calcexpr)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/03/2011: updated 2 metadata fields in the Data, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>03/03/2011: updated 2 metadata fields in the Dataset, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: Name of column Temp_Air changed to Mean_Temp_Ai ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: query "Year==2005" run, returned 35019 of 35040 data rows ("querydata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: automatically assigned study date metadata descriptors based on the range of date values in date/time columns (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: imported Dataset, Project, Site, Study, Status, Supplement metadata descriptors from the GCE Metabase ("imp_gcemetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: updated 56 metadata fields in the Dataset, Project, Site, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: documented flagged and missing values in columns Mean_Temp_Air, Humidity and Baro_Press as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: converted dates in column(s) Date to format yyyy-mm-dd HH:MM:SS</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: updated 4 metadata fields ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ("updatecols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: parsed and formatted metadata ("listmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/21/2013: flags for columns Mean_Temp_Air, Humidity, Total_PAR, Mean_PAR, Baro_Press, Wind_Speed, Wind_Dir, Precipitation, Total_Solar_Rad and Total_Solar_Rad_kW converted to data columns, flag codes updated in metadata ("flags2cols")</para>
+            </description>
+          </subStep>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>Quality control analysis was performed using the GCE Data Toolbox for MATLAB software. Column data types are validated upon importing the table into MATLAB, and qualifier flags are automatically generated for data values based on QA/QC criteria for each data column pre-defined in metadata templates (e.g. value range checks, sanity checks, pattern checks). Qualifier flags are also assigned to values that are imputed or derived, revised, or otherwise differ from values in the original data submission. A column of coded qualifier flags is generated and included in the data table if flags are assigned to any value in a data column.</para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute id="MET-GCEM-0601.1">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Calendar date and time of observation</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain />
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.2">
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.3">
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Calendar month</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.4">
+          <attributeName>Day</attributeName>
+          <attributeDefinition>Calendar day</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.5">
+          <attributeName>Hour</attributeName>
+          <attributeDefinition>Hours - GMT</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalHour</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.6">
+          <attributeName>Minute</attributeName>
+          <attributeDefinition>Minutes</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalMinute</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.7">
+          <attributeName>Mean_Temp_Air</attributeName>
+          <attributeDefinition>Air temperature (15 minute average)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <maximum exclusive="false">60</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.8">
+          <attributeName>Flag_Mean_Temp_Air</attributeName>
+          <attributeDefinition>QA/QC flags for Air temperature (15 minute average) (flagging criteria, where "x" is Mean_Temp_Air: x&lt;=-40="I", x&gt;60="I", x&lt;-10="Q", x&gt;45="Q", flag_valuechange(x,4,4,1)="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.9">
+          <attributeName>Humidity</attributeName>
+          <attributeDefinition>Relative humidity (15 minute average)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.10">
+          <attributeName>Flag_Humidity</attributeName>
+          <attributeDefinition>QA/QC flags for Relative humidity (15 minute average) (flagging criteria, where "x" is Humidity: x&lt;0="I", x&gt;100="I", x&lt;25="Q", flag_percentchange(x,25,25,1)="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>I</code>
+                    <definition>invalid (out of range)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.11">
+          <attributeName>Total_PAR</attributeName>
+          <attributeDefinition>Photosynthetically available radiation totalled over 15 minute observation period</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimolesPerSquareMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">10000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.12">
+          <attributeName>Flag_Total_PAR</attributeName>
+          <attributeDefinition>QA/QC flags for Photosynthetically available radiation totalled over 15 minute observation period (flagging criteria, where "x" is Total_PAR: x&lt;0="I", x&gt;10000="I", x&gt;2000="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>QA/QC flags for Photosynthetically available radiation totalled over 15 minute observation period (flagging criteria, where "x" is Total_PAR: x&lt;0="I", x&gt;10000="I", x&gt;2000="Q")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.13">
+          <attributeName>Mean_PAR</attributeName>
+          <attributeDefinition>Mean flux density of photosynthetically available radiation during a 15 minute observation period</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEinsteinsPerSquareMeterPerSecond</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Calculations: Mean_PAR = Total_PAR * 1000 / 900</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="MET-GCEM-0601.14">
+          <attributeName>Flag_Mean_PAR</attributeName>
+          <attributeDefinition>QA/QC flags for Mean flux density of photosynthetically available radiation during a 15 minute observation period (flagging criteria, where "x" is Mean_PAR: x&lt;0="I")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>QA/QC flags for Mean flux density of photosynthetically available radiation during a 15 minute observation period (flagging criteria, where "x" is Mean_PAR: x&lt;0="I")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.15">
+          <attributeName>Baro_Press</attributeName>
+          <attributeDefinition>15 minute average barometric pressure</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millibar</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1060</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.16">
+          <attributeName>Flag_Baro_Press</attributeName>
+          <attributeDefinition>QA/QC flags for 15 minute average barometric pressure (flagging criteria, where "x" is Baro_Press: x&lt;0="I", x&gt;1060="I", x&lt;960="Q", x&gt;1050="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>QA/QC flags for 15 minute average barometric pressure (flagging criteria, where "x" is Baro_Press: x&lt;0="I", x&gt;1060="I", x&lt;960="Q", x&gt;1050="Q")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.17">
+          <attributeName>Wind_Speed</attributeName>
+          <attributeDefinition>Wind speed (15 minute average)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.18">
+          <attributeName>Flag_Wind_Speed</attributeName>
+          <attributeDefinition>QA/QC flags for Wind speed (15 minute average) (flagging criteria, where "x" is Wind_Speed: x&lt;0="I", x&gt;50="I", x&gt;30="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>QA/QC flags for Wind speed (15 minute average) (flagging criteria, where "x" is Wind_Speed: x&lt;0="I", x&gt;50="I", x&gt;30="Q")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.19">
+          <attributeName>Wind_Dir</attributeName>
+          <attributeDefinition>Wind direction (15 minute vector average performed by the CSI CR10X datalogger program; no magnetic correction)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.20">
+          <attributeName>Flag_Wind_Dir</attributeName>
+          <attributeDefinition>QA/QC flags for Wind direction (15 minute vector average performed by the CSI CR10X datalogger program; no magnetic correction) (flagging criteria, where "x" is Wind_Dir: x&lt;0="I", x&gt;360="I")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>QA/QC flags for Wind direction (15 minute vector average performed by the CSI CR10X datalogger program; no magnetic correction) (flagging criteria, where "x" is Wind_Dir: x&lt;0="I", x&gt;360="I")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.21">
+          <attributeName>Precipitation</attributeName>
+          <attributeDefinition>Precipitation totalled over 15 minutes observation period</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.22">
+          <attributeName>Flag_Precipitation</attributeName>
+          <attributeDefinition>QA/QC flags for Precipitation totalled over 15 minutes observation period (flagging criteria, where "x" is Precipitation: x&lt;0="I", x&gt;20="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>QA/QC flags for Precipitation totalled over 15 minutes observation period (flagging criteria, where "x" is Precipitation: x&lt;0="I", x&gt;20="Q")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.23">
+          <attributeName>Total_Solar_Rad</attributeName>
+          <attributeDefinition>Solar radiation (400-1100nm spectrum) totalled over a 15 minute observation period (i.e. 15 minute flux density)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloJoulePerMeterSquare</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="MET-GCEM-0601.24">
+          <attributeName>Flag_Total_Solar_Rad</attributeName>
+          <attributeDefinition>QA/QC flags for Solar radiation (400-1100nm spectrum) totalled over a 15 minute observation period (i.e. 15 minute flux density) (flagging criteria, where "x" is Total_Solar_Rad: x&lt;0="I")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>QA/QC flags for Solar radiation (400-1100nm spectrum) totalled over a 15 minute observation period (i.e. 15 minute flux density) (flagging criteria, where "x" is Total_Solar_Rad: x&lt;0="I")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MET-GCEM-0601.25">
+          <attributeName>Total_Solar_Rad_kW</attributeName>
+          <attributeDefinition>Solar radiation (i.e. average flux density, based on a 15 minute observation)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquare</customUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Calculations: Total_Solar_Rad_kW = (Total_Solar_Rad .* 4) ./ 3600</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="MET-GCEM-0601.26">
+          <attributeName>Flag_Total_Solar_Rad_kW</attributeName>
+          <attributeDefinition>QA/QC flags for Solar radiation (i.e. average flux density, based on a 15 minute observation) (flagging criteria, where "x" is Total_Solar_Rad_kW: x&lt;0="I")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>QA/QC flags for Solar radiation (i.e. average flux density, based on a 15 minute observation) (flagging criteria, where "x" is Total_Solar_Rad_kW: x&lt;0="I")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>35019</numberOfRecords>
+    </dataTable>
+    <otherEntity id="MET-GCEM-0601.kml">
+      <entityName>MET-GCEM-0601.kml</entityName>
+      <entityDescription>Google Earth Keyhole Markup Language file describing the geographic locations sampled in data set knb-lter-gce.417.4</entityDescription>
+      <physical>
+        <objectName>MET-GCEM-0601.kml</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.google-earth.kml+xml</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-gce/417/4/6ae2b75b85680f8866928bea4a20186e</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>KML</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/stmml.xsd">
+        
+        <ns2:unit abbreviation="kJ/m^2" id="kiloJoulePerMeterSquare" multiplierToSI="1" name="kiloJoulePerMeterSquare" unitType="amountOfSubstanceConcentration">
+          <ns2:description>flux density</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="kW/m^2" id="kilowattPerMeterSquare" multiplierToSI="1" name="kilowattPerMeterSquare" unitType="amountOfSubstanceConcentration">
+          <ns2:description>average flux density</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="&#181;E/m^2/s" id="microEinsteinsPerSquareMeterPerSecond" multiplierToSI="1" name="microEinsteinsPerSquareMeterPerSecond" unitType="illuminance">
+          <ns2:description>micro Einsteins (1E-06 moles of photons) per square meter per second (radiant flux density)</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="mmol/m^2" id="millimolesPerSquareMeter" multiplierToSI="1" name="millimolesPerSquareMeter" unitType="amountOfSubstanceWeightFlux">
+          <ns2:description>millimoles per square meter (areal flux density)</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="nominalMonth" name="nominalMonth">
+          <ns2:description>one month including a variable number of seconds</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="%" id="percent" multiplierToSI="1" name="percent" unitType="dimensionless">
+          <ns2:description>ratio of two quantities as percent composition (1:100)</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

@@ -9,6 +9,8 @@ spiralLists[CSW]="CSWCoreQueryables,CSWCoreReturnables,CSWAdditionalQueryables"
 spiralLists[DCITE]="DataCite3.1Mandatory,DataCite3.1Recommended,DataCite3.1Optional"
 spiralLists[UMM-C]="UMM-C_Required,UMM-C_HighlyRecommended,UMM-C_Recommended"
 spiralLists[ISO-1]="ISO-1_Discovery-Mandatory,ISO-1_Discovery-Conditional,ISO-1_Discovery-Optional"
+spiralLists[LTER]="LTER_Identification,LTER_Discovery,LTER_Evaluation"
+spiralLists[FGDC]="FGDC_Discovery-Mandatory"
 echo Transform spiral list: ${spiralLists[$1]}
 echo /Users/scgordon/metadig/RubricTransforms/$2/rubric_$1_$2 
 

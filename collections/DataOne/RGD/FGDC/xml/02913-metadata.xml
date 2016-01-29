@@ -1,0 +1,241 @@
+<metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tateishi, Dr. Ryutaro</origin>
+        <title>AARS Asia 30-second Land Cover Data Set with Ground Truth Information</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/curtis/metadata/land_use/asia_30sec.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/curtis/metadata/land_use/asia_30sec.xml</alt_onlink>
+        <onlink />
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The main two products of this data set are (1) an Asia 30-second land cover data set and (2) an Asia 30-second ground truth data set of land cover classes. The purpose to distribute Asia land cover data set is to provide land cover information for global change studies and other global/continental applications. The purpose to distribute ground truth data of land cover classes is to build a better Asian ground truth database by improving coverage and adding new reliable ground truth data of Asia for future application.
+
+The Land Cover Working Group (LCWG) of the Asian Association on Remote Sensing (AARS) prepared the land cover data set. The AARS land cover classification system was developed through discussion with members of the LCWG/AARS and is described in the Methods section of the CD-ROM. A table showing corresponding classes between the LCWG/AARS classification system and IGBP-DIS classification system is provided.
+
+Ground truth data were collected mainly from existing thematic maps by the cooperation of the working group members. The maps used are listed in the documentation. Some of ground truth data were collected by field survey in Central Asia such as Kazakhstan, Uzbekistan and Turkmenistan. Three field trips were performed with the cooperation of WG member of Kazakhstan. Ground truth data of 31 land cover classes were collected from 19 types of information sources (thematic maps or field surveys).
+
+Global land 1-km AVHRR data set was used as the source of satellite data. 10-days composite data of AVHRR NDVI, channel 4 and channel 5 were used for this project. NDVI data from April 1, 1992 to March 31, 1993 and NDVI and land surface temperature (Ts) data from April 1, 1992 to October 31, 1992 were used in the land cover analysis. (See Methods section for discussion of the theoretical support for using the ratio of land surface temperature (Ts) and NDVI in land cover analysis.) The Global Land One-kilometer Base Elevation (GLOBE), Version 1.0, (30 arc-second grid digital elevation data) and the Digital Chart of the World (DCW) data (1:1,000,000 scale vector base map of the world with 17 attibute layers including seashore lines and national boundaries) were used. The following data were prepared for the classification: Ts/NDVI (seven monthly data from April to October 1992); maximum NDVI (the maximum monthly data from April 1992 to March 1993); minimum NDVI (the minimum monthly data from April 1992 to March 1993); and digital elevation data. All these data are registered together in 30-second grid in latitude/longitude. 
+
+The land cover classification was done by the following steps: (1) clustering of monthly Ts/NDVI from April to October; (2) finding classification rules for decision tree method; (3) classification by decision tree method; and (4) post-classification modification.
+
+Contribution to add and improve ground truth data is appreciated. It can be sent to Dr. Ryutaro Tateishi (see Data Center Contact information). Contributions should be the following way: (1) digital data or paper map; (2) ground truth data of land cover described either by class code defined in the data set land.htm or by contributor's own land cover class name with its definition; (3) ground truth region covering at least as large as 2.5 minute by 2.5 minute (approximately equivalent to 5 km by 5 km at the equator) in latitude/longitude with a homogeneous land cover type; and (4) four values of latitude/longitude of the north, south, east, and west end of ground truth regions. If you send information of ground truth, it will be included in the Asia ground truth data base as the next product.</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19920401</begdate>
+          <enddate>19930331</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Final</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-165</westbc>
+        <eastbc>25</eastbc>
+        <northbc>90</northbc>
+        <southbc>-15</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>LAND COVER|AVHRR|</themekey>
+        <themekey>LAND USE CLASSES|AVHRR|</themekey>
+        <themekey>LAND USE CLASSES|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LAND USE CLASSES|ANALYSIS|FIELD INVESTIGATION</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>LAND COVER</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey />
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>AVHRR</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>Asia</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tateishi, Dr. Ryutaro</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; tateishi@ceres.cr.chiba-u.ac.jp</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Center for Environmental Remote Sensing (CEReS), Chiba University, 1-33 Yayoi-cho Inage-ku Chiba 263 Japan</cntorg>
+          <cntper>Tateishi, Dr. Ryutaro</cntper>
+        </cntperp>
+        <cntvoice>+81-43-290-3857 (Fax)</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; tateishi@ceres.cr.chiba-u.ac.jp</cntfax>
+        <cntemail>tateishi@ceres.cr.chiba-u.ac.jp</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://www.cr.chiba-u.jp/</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Land Cover Working Group (LCWG) of the Asian Association on Remote Sensing (AARS). 1999. AARS Asia 30-second Land Cover Data Set with Ground Truth Information. Available for download at [http://www.cr.chiba-u.jp/databases/globalproducts/LCASIA/] and on CD-ROM from the Tateishi Laboratory of the Center for Environmental Remote Sensing (CEReS), Chiba University, Japan.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20140917 162210</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>ORNL DAAC Staff</cntper>
+        </cntperp>
+        <cntvoice>+1(865)241-3952</cntvoice>
+        <cntemail>ornldaac@ornl.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19920401</begdate>
+    <enddate>19930331</enddate>
+    <Site_Information>
+      <Site>Asia</Site>
+      <Westernmost_Longitude>-165</Westernmost_Longitude>
+      <Easternmost_Longitude>25</Easternmost_Longitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Southernmost_Latitude>-15</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>AARS</Keywords>
+    <Keywords>AARS Land Cover Working Group</Keywords>
+    <Keywords>Asia</Keywords>
+    <Keywords>Asian Association on Remote Sensing</Keywords>
+    <Keywords>AVHRR</Keywords>
+    <Keywords>Cluster analysis</Keywords>
+    <Keywords>Decision tree method</Keywords>
+    <Keywords>Ground truth data</Keywords>
+    <Keywords>Land cover</Keywords>
+    <Keywords>Land cover classes</Keywords>
+    <Keywords>Land Use and Land Cover Change Collections</Keywords>
+    <Keywords>NDVI</Keywords>
+    <Keywords>Oceania</Keywords>
+    <Keywords>Regional ground truth data</Keywords>
+    <Keywords>Vegetation Collections</Keywords>
+    <Keywords>Vegetation cover</Keywords>
+    <Parameter_Description>
+      <Parameter>LAND COVER</Parameter>
+      <Sensor>AVHRR</Sensor>
+      <Source>&amp;nbsp;&amp;nbsp;</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND USE CLASSES</Parameter>
+      <Sensor>AVHRR</Sensor>
+      <Source>&amp;nbsp;&amp;nbsp;</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND USE CLASSES</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND USE CLASSES</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>FIELD INVESTIGATION</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Project>Land Cover Working Group (LCWG) of the Asian Association on Remote Sensing (AARS)</Project>
+    <Navpath>|AVHRR|LAND COVER</Navpath>
+    <Navpath>|AVHRR|LAND USE CLASSES</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LAND USE CLASSES</Navpath>
+    <Navpath>FIELD INVESTIGATION|ANALYSIS|LAND USE CLASSES</Navpath>
+    <Principal_Investigator>
+      <Name>Tateishi, Dr. Ryutaro</Name>
+      <Email>tateishi@ceres.cr.chiba-u.ac.jp</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://www.cr.chiba-u.jp/databases/globalproducts/LCASIA/</URL>
+      <Label>AARS Asia 30-second Land Cover Data Set with Ground Truth Information Download Area</Label>
+      <Link_Note>The two main products for this data set are an Asia 30-second land cover data set and an Asia 30-second ground truth data set of land cover classes. Click on About CD-ROM to access data files. Contact Dr. Ryutaro Tateishi to request a copy of the CD-ROM.</Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>metadata24.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>tateishi@ceres.cr.chiba-u.ac.jp</Email>
+      <Name>Tateishi, Dr. Ryutaro</Name>
+      <Phone>+81-43-290-3857 (Fax)</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>Created 20021202 154754 by 206.246.119.95</File_ID>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Extent>19950</Spatial_Extent>
+    <Search_Text_Link>
+      <URL />
+      <Label />
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</metadata>

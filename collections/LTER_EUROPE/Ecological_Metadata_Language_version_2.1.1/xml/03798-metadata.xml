@@ -1,0 +1,131 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-europe-deims.13182.13476" system="knb-lter-europe-deims" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd">
+
+<access authSystem="knb" order="allowFirst" scope="document">
+  <allow>
+  <principal>uid=Germany,o=LTER-Europe,dc=ecoinformatics,dc=org</principal>
+  <permission>all</permission>
+</allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset id="knb-lter-europe-deims.13182.13476" system="knb-lter-europe-deims">
+<alternateIdentifier>aead0ac8-96d3-11e2-b534-005056ab003f</alternateIdentifier>
+<title>Nutrients in the Zingster Strom 2011-2012</title>
+<creator>
+<individualName>
+<givenName>Rhena</givenName>
+<surName>Schumann</surName>
+</individualName>
+<organizationName>University of Rostock, Biological Station Zingst, M&#252;hlenstra&#223;e 27, D 18374 Zingst</organizationName>
+<address>
+<deliveryPoint>M&#252;hlenstra&#223;e 27</deliveryPoint>
+<city>Zingst</city>
+<country>Germany</country>
+</address>
+<electronicMailAddress>rhena.schumann@uni-rostock.de</electronicMailAddress>
+</creator>
+<pubDate>2013-02-22</pubDate>
+<language>eng</language><abstract>
+<section>
+<para>Data set contains nutrients of the Zingster Strom water column (upper 50 cm). This part of the site Dar&#223;-Zingst Bodden is situated between the innermost waterbodies and exhibits average salinity and nutrients. Data are sampled daily at 8:00. Data are given as monthly medians. The data of 2011 and 2012 are contributed to the EnvEurope project (action 5).</para>
+</section>
+</abstract>
+<keywordSet>
+<keyword>water column</keyword>
+<keyword>phosphate</keyword>
+<keyword>nitrite</keyword>
+<keyword>nitrate</keyword>
+<keyword>ammonium</keyword>
+<keyword>nutrient cycles</keyword>
+<keyword>Completely mixed water column with reduced salinity</keyword>
+<keywordThesaurus>EnvEurope Thesaurus;2012-08-13;version 3.0;http://vocabs.lter-europe.net/EnvThes3.html</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<section>
+<title>Metadata date</title>
+<para>2013-03-27 00:00:00</para>
+</section>
+<section>
+<title>Dataset access and use constraints</title>
+<para>Principal:Research has granted a permission of type:Free for access and use upon request</para>
+<para>Principal:EnvEurope (LTER-Europe) has granted a permission of type:Free for access and use upon request</para>
+</section>
+</additionalInfo>
+<intellectualRights>
+<section>
+<para>The data provider must be offered co-authorship for publications using this dataset at least within the metadata description</para>
+</section>
+<section>
+<para>Formal acknowledgement of the dataset providers</para>
+</section>
+<section>
+<para>The opportunity to collaborate on the project using the dataset</para>
+</section>
+<section>
+<para>The opportunity to review the results based on the dataset</para>
+</section>
+<section>
+<para>Reprints of articles using the dataset must be provided to the data provider</para>
+</section>
+</intellectualRights>
+<distribution>
+<online>
+<url>ftp://ftp.umweltbundesamt.at</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>
+Darss-Zingst Bodden</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>12.69000</westBoundingCoordinate>
+<eastBoundingCoordinate>12.69000</eastBoundingCoordinate>
+<northBoundingCoordinate>54.43000</northBoundingCoordinate>
+<southBoundingCoordinate>54.43000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2011-01-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2012-12-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<individualName>
+<surName>Germany</surName>
+</individualName>
+</contact>
+<methods>
+<methodStep>
+<description>
+<section>
+<para>
+</para>
+<para>
+<literalLayout>The given site contains some of the used methods as laboratory instructions to be downloaded as pdf. They were written for students practical courses. The language of this material is German (only, so far). A station methods manual is under construction. Language will be English. Note, that nutrients are measured in a continuous flow analyser, not manually. Some methods are still missing (plankton microscopy). Some methods changed recently or will be modified soon. Any user has to ask for the exact information for a specific method and time range.</literalLayout>
+</para>
+</section>
+</description>
+<instrumentation>ammonium: indophenolblue formation, photometrically, fresh 0,45 mm filtrate, manuallyphosphate: molybdenum blue, photometrically, frozen 0,45 &#181;m filtrate, continuous flow analysernitrite: formazan dye, photometrically, frozen 0,45 &#181;m filtrate, continuous flow analysernitrate: formazan dye, reduction at a cadmium catalyser, photometrically as nitrite and nitrate, frozen 0,45 &#181;m filtrate, continuous flow analyser, corrected for nitrite</instrumentation>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<section>
+<para>Water is sampled with a Rutner sampler from the upper 50 cm of the water column daily at 08:00 CET. 100 ml are filtered immediately through 0,45 &#181;m cellulose acetate filters. Ammonium is incubated at once, the other sample is frozen for the 3 other nutrients.
+The sampling spot represents a very small spot of the area. However, the Zingster Strom is subject to in- and outflows of the neigbouring bodden basins. This brings a high variability of day-to-day data, but may expand the areal coverage/representation.  </para>
+</section>
+</description>
+</studyExtent>
+<samplingDescription>daily</samplingDescription>
+</sampling>
+</methods>
+</dataset>
+</ns0:eml>

@@ -1,0 +1,1257 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="dieter_lukas.4.5" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Predictors of individual variation in the performance of animals in cognitive tests</title>
+ <creator id="1403788926486"> <individualName><salutation>Dr</salutation>
+ <givenName>Dieter</givenName>
+ <surName>Lukas</surName>
+ </individualName>
+ <organizationName>Department of Zoology, University of Cambridge</organizationName>
+ <positionName>Research Associate</positionName>
+ <address><deliveryPoint>Downing Street</deliveryPoint>
+ <city>Cambridge</city>
+ <postalCode>CB2 3EJ</postalCode>
+ <country>United Kingdom</country>
+ </address>
+ <electronicMailAddress>dl384@cam.ac.uk</electronicMailAddress>
+ </creator>
+ <creator id="1403788987457"><individualName><salutation>Dr</salutation>
+ <givenName>Alex</givenName>
+ <surName>Thornton</surName>
+ </individualName>
+ <organizationName>Centre for Ecology and Conservation, University of Exeter</organizationName>
+ <positionName>Research Fellow</positionName>
+ <electronicMailAddress>alex.thornton@exeter.ac.uk</electronicMailAddress>
+ </creator>
+ <abstract><para>This file contains data collected as part of a study that is summarized in the following publication:	
+"Individual variation in cognitive performance: developmental and evolutionary perspectives", by	
+Alex Thornton &amp; Dieter Lukas, published in Philosopohical Transactions of the Royal Society B 367: 2773-2783 (2012 http://rstb.royalsocietypublishing.org/content/367/1603/2773.short
+The study was a meta-analysis investigating the factors that influence the performance of animals in cognitive testing. There are five separate datasets, all of which report data extracted from earlier publications. The file contains (i) data that formed the basis for the results presented in the paper, (ii) all data collected as part of the study, including entries with missing or unclear information that were removed before analyses, (iii) data that was collected during a preliminary study, where the variables differ from those in the final dataset, but some studies might appear in both, (iv) and (v) additional data from studies that, while listing individual performance, did not link this to further detail about the individuals.</para>
+ </abstract>
+ <keywordSet><keyword>meta-analysis</keyword>
+ <keyword>cognition</keyword>
+ <keyword>development</keyword>
+ <keyword>individual differences</keyword>
+ <keyword>evolution</keyword>
+ <keyword>mammals</keyword>
+ <keyword>birds</keyword>
+ </keywordSet>
+ <intellectualRights><para>The data is being made available to the public scientific domain with rights similar to CC BY 4.0 attribution.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Data was collated from a number of previous studies that were performed with individuals in captive settings around the world. Further details are available in the datasheets.</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-135.875</westBoundingCoordinate>
+ <eastBoundingCoordinate>160.75</eastBoundingCoordinate>
+ <northBoundingCoordinate>64.25</northBoundingCoordinate>
+ <southBoundingCoordinate>-50.625</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Ara</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>chloroptera</taxonRankValue>
+ <commonName>African grey parrot</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Ara</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>maracana</taxonRankValue>
+ <commonName>Parakeet</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Bunopithecus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>hoolock</taxonRankValue>
+ <commonName>Mini macaw</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Cacatua</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>sulphurea</taxonRankValue>
+ <commonName>Holoock gibbon</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Cactospiza</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>pallida</taxonRankValue>
+ <commonName>Yellow crested cockatoo</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Callithrix</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>jacchus</taxonRankValue>
+ <commonName>Woodpecker finch</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Camarhynchus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>parvulus</taxonRankValue>
+ <commonName>Small tree finch</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Canis</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>canis</taxonRankValue>
+ <commonName>Small tree finch</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Cebus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>apella</taxonRankValue>
+ <commonName>Dog</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Cebus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>capuchinus</taxonRankValue>
+ <commonName>Brown capuchin</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Cebus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>libidinosus</taxonRankValue>
+ <commonName>White headed capuchin</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Corvus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>frugilegus</taxonRankValue>
+ <commonName>Bearded capuchin</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Corvus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>moneduloides</taxonRankValue>
+ <commonName>Rook</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Felis</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>catus</taxonRankValue>
+ <commonName>New Caledonian crow</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Gorilla</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>gorilla</taxonRankValue>
+ <commonName>Cat</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Hylobates</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>lar</taxonRankValue>
+ <commonName>Gorilla</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Leucopsa</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>rothschildi</taxonRankValue>
+ <commonName>Lar gibbon</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Macaca</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>fuscata</taxonRankValue>
+ <commonName>Mynah</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Macaca</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>mulatta</taxonRankValue>
+ <commonName>Japanese macaque</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Melopsittacus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>undulatus</taxonRankValue>
+ <commonName>Rhesus macaque</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Nestor</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>notabilis</taxonRankValue>
+ <commonName>Parakeet</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Nomascus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>gabriellae</taxonRankValue>
+ <commonName>Kea</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Nomascus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>leucogenys</taxonRankValue>
+ <commonName>Black crested gibbon</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Nymphicus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>hollandicus</taxonRankValue>
+ <commonName>White cheeked gibbon</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Octodon</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>degu</taxonRankValue>
+ <commonName>Cockatiel</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Oreonax</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>flavica</taxonRankValue>
+ <commonName>Degu</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Pan</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>paniscus</taxonRankValue>
+ <commonName>Woolly monkey</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Pan</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>troglodytes</taxonRankValue>
+ <commonName>bonobo</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Pongo</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>pygmaeus</taxonRankValue>
+ <commonName>chimpanzee</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Psittacus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>erithacus</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Saguinus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>oedipus</taxonRankValue>
+ <commonName>Orang utan</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Saimiri</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>sciureus</taxonRankValue>
+ <commonName>Squirrel monkey</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Streptopelia</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>risoria</taxonRankValue>
+ <commonName>Squirrel monkey</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Symphalangus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>syndactylus</taxonRankValue>
+ <commonName>Ring doves</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Tursiops</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>truncatus</taxonRankValue>
+ <commonName>Dolphin</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact><references>1403788926486</references>
+ </contact>
+ <methods><methodStep><description><section><title>Data extraction</title>
+ <para>We obtained data from published studies of object permanence (OP); understanding of the functional properties of objects (FPO); causal reasoning &#8216;folk physics&#8217; tasks (CR); and mark tests of mirror self-recognition (MSR). Studies were identified by searching for these keywords in ISI Web of Science and Google Scholar, and by looking up references cited in or citing these studies. For each study, we recorded information on characteristics of the individual animal performing the task, the success rate in completing the task, and information on the study setup.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1403791150328"><entityName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_dataused_PhilTrans2012.csv</entityName>
+ <physical id="1403790726459"><objectName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_dataused_PhilTrans2012.csv</objectName>
+ <size unit="byte">146196</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/dieter_lukas.3.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1403791150329"><attributeName>Reference</attributeName>
+ <attributeDefinition>Citation to the study</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>First author and year of publication of the study</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>data not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1403791150330"><attributeName>type</attributeName>
+ <attributeDefinition>Refers to the cognitive domain that was tested</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Refers to the cognitive domain that was tested</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150331"><attributeName>Species</attributeName>
+ <attributeDefinition>Latin name of the species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Latin name of the species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150332"><attributeName>Individual</attributeName>
+ <attributeDefinition>Individual ID/name as listed in the original paper</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Individual ID/name as listed in the original paper</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150333"><attributeName>AgeCategory</attributeName>
+ <attributeDefinition>Individuals were classified as either 'adult' or 'juvenile'; classification was based either on original publication or by comparing listed age of individual to the age of first reproduction for the respective species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals were classified as either 'adult' or 'juvenile'; classification was based either on original publication or by comparing listed age of individual to the age of first reproduction for the respective species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150334"><attributeName>Sex</attributeName>
+ <attributeDefinition>Individuals were classified as 'female' or 'male'</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals were classified as 'female' or 'male'</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150335"><attributeName>Born</attributeName>
+ <attributeDefinition>Individuals were listed as 'captive' if they were born in a zoo or as a pet, and as 'wild' if they were born in a free-living population (even though they might have been captive at the time of testing)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals were listed as 'captive' if they were born in a zoo or as a pet, and as 'wild' if they were born in a free-living population (even though they might have been captive at the time of testing)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150336"><attributeName>Rearing</attributeName>
+ <attributeDefinition>Individuals were classified as 'mother' when they were raised without direct human support, as 'hand' if they were nursed by a human, and as 'enculturated' if they were exposed to a human environment during their whole upbringing</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals were classified as 'mother' when they were raised without direct human support, as 'hand' if they were nursed by a human, and as 'enculturated' if they were exposed to a human environment during their whole upbringing</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150337"><attributeName>Experience</attributeName>
+ <attributeDefinition>Individuals could have participated in no prior experiments ('none'), in any kind of experiments ('other'), or in experiments that used a similar design ('same')</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals could have participated in no prior experiments ('none'), in any kind of experiments ('other'), or in experiments that used a similar design ('same')</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150338"><attributeName>SuccessfulTrials</attributeName>
+ <attributeDefinition>The number of single trials during which the individual chose the correct optio</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150339"><attributeName>AttemptedTrials</attributeName>
+ <attributeDefinition>The total number of trials the individuals was tested for</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150340"><attributeName>Percent</attributeName>
+ <attributeDefinition>The relative number of trials individuals performed correctly</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403791150341"><attributeName>Passed</attributeName>
+ <attributeDefinition>Whether the individuals was deemed to have successfully passed the experiment as classified by the original authors</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Whether the individuals was deemed to have successfully passed the experiment as classified by the original authors</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1644</numberOfRecords>
+ </dataTable>
+ <dataTable id="1403886776075"><entityName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_preliminarydata_PhilTrans2012.csv</entityName>
+ <physical id="1403886174296"><objectName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_preliminarydata_PhilTrans2012.csv</objectName>
+ <size unit="byte">48916</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/dieter_lukas.6.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1403886776076"><attributeName>Reference</attributeName>
+ <attributeDefinition>Shorthand for the reference; full list is available in the supplementary materials of the publication: http://rstb.royalsocietypublishing.org/content/suppl/2012/08/20/rstb.2012.0214.DC1/rstb20120214supp1.pdf</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776077"><attributeName>Order</attributeName>
+ <attributeDefinition>Order of the species of the tested individual</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Order of the species of the tested individual</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776078"><attributeName>Family</attributeName>
+ <attributeDefinition>Family of the species of the tested individual</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Family of the species of the tested individual</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776079"><attributeName>Species</attributeName>
+ <attributeDefinition>Latin species name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Latin species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776080"><attributeName>Domain</attributeName>
+ <attributeDefinition>Refers to the cognitive domain that was tested (MSR = mirror self recognition; Object_P = object permanence; gaze following; string pulling)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Refers to the cognitive domain that was tested</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776081"><attributeName>PS</attributeName>
+ <attributeDefinition>Whether the authors listed that they wanted to test the individual's social or physical cognition</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>physical</code>
+ <definition>physical cognition domain</definition>
+ </codeDefinition>
+ <codeDefinition><code>social</code>
+ <definition>social cognition domain</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776082"><attributeName>Subject_Identification</attributeName>
+ <attributeDefinition>Individual ID/name as listed in the original paper</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Individual ID/name as listed in the original paper</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776083"><attributeName>Age</attributeName>
+ <attributeDefinition>Exact age of the individual if listed, else whether it was adult/juvenile</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Adult</code>
+ <definition>Individual of reproductive age</definition>
+ </codeDefinition>
+ <codeDefinition><code>Juvenile</code>
+ <definition>Weaned offspring still dependent on mother</definition>
+ </codeDefinition>
+ <codeDefinition><code>Subadult</code>
+ <definition>Independent offspring of pre-reproductive age</definition>
+ </codeDefinition>
+ <codeDefinition><code>Infant</code>
+ <definition>Offspring being nursed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776084"><attributeName>Sex</attributeName>
+ <attributeDefinition>Individuals were classified as 'female' or 'male'</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>M</code>
+ <definition>Male</definition>
+ </codeDefinition>
+ <codeDefinition><code>F</code>
+ <definition>Female</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776085"><attributeName>Captive</attributeName>
+ <attributeDefinition>Individuals could be from a free-ranging population or zoo/enclosure/pet</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Y</code>
+ <definition>From zoo, sanctuary, or pet</definition>
+ </codeDefinition>
+ <codeDefinition><code>N</code>
+ <definition>From wild population</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776086"><attributeName>Pass1_Fail0</attributeName>
+ <attributeDefinition>Conversion of pass into 0=no, 1=yes</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Failed</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Passed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776087"><attributeName>Domestication</attributeName>
+ <attributeDefinition>Whether the individuals belongs to a domesticated species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Whether the individuals belongs to a domesticated species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776088"><attributeName>Domesticated</attributeName>
+ <attributeDefinition>Numerical conversion of domesticated</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Numerical conversion of domesticated</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1403886776089"><attributeName>Previous_training</attributeName>
+ <attributeDefinition>Individuals could have participated in no prior experiments ('none'), in any kind of experiments ('other'), or in experiments that used a similar design ('same')</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>no experience</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>other experience</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>same experience</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>485</numberOfRecords>
+ </dataTable>
+ <dataTable id="1403983282180"><entityName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_objectpropertiesdata_PhilTrans2012.csv</entityName>
+<physical id="1403982821071"><objectName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_objectpropertiesdata_PhilTrans2012.csv</objectName>
+<size unit="byte">22360</size>
+<dataFormat><textFormat><numHeaderLines>2</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/dieter_lukas.7.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1403983282181"><attributeName>REF</attributeName>
+<attributeDefinition>Citation for the listed data</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation for the listed data</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282182"><attributeName>YEAR CONDUCTED</attributeName>
+<attributeDefinition>If listed, the year the individual was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>If listed, the year the individual was tested</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282183"><attributeName>LAB</attributeName>
+<attributeDefinition>The exact physical location at which the individual was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The exact physical location at which the individual was tested</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282184"><attributeName>SPECIES</attributeName>
+<attributeDefinition>Latin species name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Latin species name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282185"><attributeName>SOC/PHYS</attributeName>
+<attributeDefinition>Whether the authors listed that they wanted to test the individual's social or physical cognition</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Phys</code>
+<definition>Physical cognition</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282186"><attributeName>TYPE</attributeName>
+<attributeDefinition>Refers to the cognitive domain that was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Folk physics</code>
+<definition>Experiment in folk physics domain</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282187"><attributeName>QUESTION</attributeName>
+<attributeDefinition>What aspect of physical cognition were the authors interested in</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>What aspect of physical cognition were the authors interested in</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282188"><attributeName>USED TOOL?</attributeName>
+<attributeDefinition>Did the experiment involve a tool</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Y</code>
+<definition>did involve tool</definition>
+</codeDefinition>
+<codeDefinition><code>N</code>
+<definition>did not involve tool</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282189"><attributeName>GATHERED INFO</attributeName>
+<attributeDefinition>Were individuals allowed to watch or play with the experimental setup before</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Saw</code>
+<definition>Individual watched</definition>
+</codeDefinition>
+<codeDefinition><code>Manipulated</code>
+<definition>Individual had physical access</definition>
+</codeDefinition>
+<codeDefinition><code>Observed Other</code>
+<definition>Individual watched demonstrator</definition>
+</codeDefinition>
+<codeDefinition><code>SAW</code>
+<definition>Individual watched</definition>
+</codeDefinition>
+<codeDefinition><code>Saw?</code>
+<definition>Set up suggests that individual watched</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282190"><attributeName>DETAIL</attributeName>
+<attributeDefinition>Further description on the experimental details</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Further description on the experimental details</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282191"><attributeName>SAMPLE SIZE</attributeName>
+<attributeDefinition>Total number of individuals tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Total number of individuals tested, and their species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282192"><attributeName>AGE RANGE</attributeName>
+<attributeDefinition>Age of youngest and oldest individual</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Age of youngest and oldest individual, or age group of individuals</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282193"><attributeName>SEX COMPOSITION</attributeName>
+<attributeDefinition>Proportion of females in the sample</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Proportion of females in the sample</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282194"><attributeName>BORN</attributeName>
+<attributeDefinition>Individuals were listed as 'captive' if they were born in a zoo or as a pet, and as 'wild' if they were born in a free-living population (even though they might have been captive at the time of testing)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Wild</code>
+<definition>Individual born in the wild</definition>
+</codeDefinition>
+<codeDefinition><code>Captive</code>
+<definition>Individual born in captivity</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282195"><attributeName>REARING</attributeName>
+<attributeDefinition>Individuals were classified as 'mother' when they were raised without direct human support, as 'hand' if they were nursed by a human, and as 'enculturated' if they were exposed to a human environment during their whole upbringing</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals were classified as 'mother' when they were raised without direct human support, as 'hand' if they were nursed by a human, and as 'enculturated' if they were exposed to a human environment during their whole upbringing</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282196"><attributeName>EXPERIENCE</attributeName>
+<attributeDefinition>Individuals could have participated in no prior experiments ('none'), in any kind of experiments ('other'), or in experiments that used a similar design ('same')</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Same</code>
+<definition>Individual had participated in experiment in same domain</definition>
+</codeDefinition>
+<codeDefinition><code>None</code>
+<definition>Individual had never been tested</definition>
+</codeDefinition>
+<codeDefinition><code>Mixed</code>
+<definition>Individual had participated in other experiments</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282197"><attributeName>PROPORTION SUCCESSFUL</attributeName>
+<attributeDefinition>The proportion of individuals that the authors considered to have passed the experiment successfully</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Unknown</code>
+<definition>Author did not list value</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282198"><attributeName>MEAN SUCCESS RATE</attributeName>
+<attributeDefinition>The average percentage of trials during which individuals performed correctly</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The average percentage of trials during which individuals performed correctly</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282199"><attributeName>F/T/R STATISTIC</attributeName>
+<attributeDefinition>The value of the statistical test the authors used to determine success rate</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The value of the statistical test the authors used to determine success rate</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282200"><attributeName>P-VALUE</attributeName>
+<attributeDefinition>The p-value of the statistical test the authors used to determine whether individuals performed successfully</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The p-value of the statistical test the authors used to determine whether individuals performed successfully</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983282201"><attributeName>COMMENTS</attributeName>
+<attributeDefinition>Any further details</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Any further details</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>51</numberOfRecords>
+</dataTable>
+<dataTable id="1403983698553"><entityName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_objectpermanencedata_PhilTrans2012.csv</entityName>
+<physical id="1403983332161"><objectName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_objectpermanencedata_PhilTrans2012.csv</objectName>
+<size unit="byte">83254</size>
+<dataFormat><textFormat><numHeaderLines>2</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/dieter_lukas.8.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1403983698554"><attributeName>Reference</attributeName>
+<attributeDefinition>Citation for the study</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation for the study</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698555"><attributeName>YEAR CONDUCTED</attributeName>
+<attributeDefinition>If listed, the year the individual was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>If listed, the year the individual was tested</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698556"><attributeName>LAB</attributeName>
+<attributeDefinition>The exact physical location at which the individual was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The exact physical location at which the individual was tested</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698557"><attributeName>SPECIES</attributeName>
+<attributeDefinition>Common name of species</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Common name of species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698558"><attributeName>SOC/PHYS</attributeName>
+<attributeDefinition>Whether the authors listed that they wanted to test the individual's social or physical cognition</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Phys</code>
+<definition>All experiments are in physical domain</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698559"><attributeName>TYPE</attributeName>
+<attributeDefinition>Refers to the cognitive domain that was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Object permanence</code>
+<definition>All experiments tested object permanence</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698560"><attributeName>SAMPLE SIZE</attributeName>
+<attributeDefinition>Total number of individuals tested</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1403983698561"><attributeName>AGE RANGE</attributeName>
+<attributeDefinition>Age of youngest and oldest individual</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Age of youngest and oldest individual</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698562"><attributeName>STATISTICAL RANGE</attributeName>
+<attributeDefinition>Range of individual performance as assessed by the authors</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Range of individual performance as assessed by the authors</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698563"><attributeName>SEX COMPOSITION</attributeName>
+<attributeDefinition>Proportion of females in the sample</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Proportion of females in the sample</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698564"><attributeName>BORN</attributeName>
+<attributeDefinition>Individuals were listed as 'captive' if they were born in a zoo or as a pet, and as 'wild' if they were born in a free-living population (even though they might have been captive at the time of testing)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Unknown</code>
+<definition>Unknown birth place</definition>
+</codeDefinition>
+<codeDefinition><code>Captivity</code>
+<definition>Individuals born in captivity</definition>
+</codeDefinition>
+<codeDefinition><code>11 Captivity, 1 wild</code>
+<definition>1 of 12 individuals born in wild</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698565"><attributeName>REARING</attributeName>
+<attributeDefinition>Individuals were classified as 'mother' when they were raised without direct human support, as 'hand' if they were nursed by a human, and as 'enculturated' if they were exposed to a human environment during their whole upbringing</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals were classified as 'mother' when they were raised without direct human support, as 'hand' if they were nursed by a human, and as 'enculturated' if they were exposed to a human environment during their whole upbringing</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698566"><attributeName>EXPERIENCE</attributeName>
+<attributeDefinition>Individuals could have participated in no prior experiments ('none'), in any kind of experiments ('other'), or in experiments that used a similar design ('same')</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals could have participated in no prior experiments ('none'), in any kind of experiments ('other'), or in experiments that used a similar design ('same')</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698567"><attributeName>VISIBLE OR INVISIBLE</attributeName>
+<attributeDefinition>Describes whether the experimental setup had the object hidden or not</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>VISIBLE</code>
+<definition>object visible</definition>
+</codeDefinition>
+<codeDefinition><code>Invisible</code>
+<definition>object hidden</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698568"><attributeName>DETAIL</attributeName>
+<attributeDefinition>Further description on the experimental details</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Further description on the experimental details</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698569"><attributeName>PROPORTION SUCCESSFUL</attributeName>
+<attributeDefinition>The proportion of individuals that the authors considered to have passed the experiment successfully</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The proportion of individuals that the authors considered to have passed the experiment successfully</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698570"><attributeName>MEAN SUCCESS RATE</attributeName>
+<attributeDefinition>The average percentage of trials during which individuals performed correctly</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1403983698571"><attributeName>F/T/R STATISTIC</attributeName>
+<attributeDefinition>The value of the statistical test the authors used to determine success rate</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The value of the statistical test the authors used to determine success rate</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698572"><attributeName>P-VALUE</attributeName>
+<attributeDefinition>The p-value of the statistical test the authors used to determine whether individuals performed successfully</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The p-value of the statistical test the authors used to determine whether individuals performed successfully</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403983698573"><attributeName>PIAGETIAN STAGE</attributeName>
+<attributeDefinition>Classification of the experiment into the stages of expected object permanence performance</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1403983698574"><attributeName>COMMENTS</attributeName>
+<attributeDefinition>Any further details</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Any further details</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>278</numberOfRecords>
+</dataTable>
+<dataTable id="1403984173909"><entityName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_rawdata_PhilTrans2012.csv</entityName>
+<physical id="1403983779943"><objectName>SupplementaryData_Thornton&amp;Lukas_CognitiveVariation_rawdata_PhilTrans2012.csv</objectName>
+<size unit="byte">459389</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/dieter_lukas.9.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1403984173910"><attributeName>REF</attributeName>
+<attributeDefinition>Shorthand for the reference; full list is available in the supplementary materials of the publication: http://rstb.royalsocietypublishing.org/content/suppl/2012/08/20/rstb.2012.0214.DC1/rstb20120214supp1.pdf</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Citation for the study</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173911"><attributeName>YEAR CONDUCTED</attributeName>
+<attributeDefinition>If listed, the year the individual was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>If listed, the year the individual was tested</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173912"><attributeName>LAB</attributeName>
+<attributeDefinition>The exact physical location at which the individual was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>The exact physical location at which the individual was tested</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173913"><attributeName>Common name</attributeName>
+<attributeDefinition>English name for the species of the individual</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>English name for the species of the individual</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173914"><attributeName>Species</attributeName>
+<attributeDefinition>Latin species name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Latin species name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173915"><attributeName>SOC/PHYS</attributeName>
+<attributeDefinition>Whether the authors listed that they wanted to test the individual's social or physical cognition</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Phys</code>
+<definition>Physical domain</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173916"><attributeName>TYPE</attributeName>
+<attributeDefinition>Refers to the cognitive domain that was tested</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Folk physics</code>
+<definition>Experiment tested folk physic understanding</definition>
+</codeDefinition>
+<codeDefinition><code>Object permanence</code>
+<definition>Experiment tested object permanence understanding</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173917"><attributeName>ID</attributeName>
+<attributeDefinition>Individual ID/name as listed in the original paper</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Individual ID/name as listed in the original paper</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173918"><attributeName>AGE</attributeName>
+<attributeDefinition>Exact age of the individual if listed, else whether it was adult/juvenile</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Exact age of the individual if listed, else whether it was adult/juvenile</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173919"><attributeName>AFR</attributeName>
+<attributeDefinition>Age of first reproduction for the species</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1403984173920"><attributeName>AGE CATEGORY</attributeName>
+<attributeDefinition>Individuals were classified as either 'adult' or 'juvenile'; classification was based either on original publication or by comparing listed age of individual to the age of first reproduction for the respective species</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Adult</code>
+<definition>Individual of reproductive age</definition>
+</codeDefinition>
+<codeDefinition><code>Juvenile</code>
+<definition>Infant or subadult</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173921"><attributeName>SEX</attributeName>
+<attributeDefinition>Individuals were classified as 'female' or 'male'</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>M</code>
+<definition>Male</definition>
+</codeDefinition>
+<codeDefinition><code>F</code>
+<definition>Female</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173922"><attributeName>BORN</attributeName>
+<attributeDefinition>Individuals were listed as 'captive' if they were born in a zoo or as a pet, and as 'wild' if they were born in a free-living population (even though they might have been captive at the time of testing)</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Wild</code>
+<definition>born in a natural population</definition>
+</codeDefinition>
+<codeDefinition><code>Captive</code>
+<definition>born in a captive population</definition>
+</codeDefinition>
+<codeDefinition><code>wild</code>
+<definition>born in a natural population</definition>
+</codeDefinition>
+<codeDefinition><code>captive</code>
+<definition>born in a captive population</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173923"><attributeName>REARING</attributeName>
+<attributeDefinition>Individuals were classified as 'mother' when they were raised without direct human support, as 'hand' if they were nursed by a human, and as 'enculturated' if they were exposed to a human environment during their whole upbringing</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Enculturated</code>
+<definition>Extensive exposure to humans during early development</definition>
+</codeDefinition>
+<codeDefinition><code>Mother</code>
+<definition>Raised by mother</definition>
+</codeDefinition>
+<codeDefinition><code>Family</code>
+<definition>Raised in the individual's family</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173924"><attributeName>EXPERIENCE</attributeName>
+<attributeDefinition>Individuals could have participated in no prior experiments ('none'), in any kind of experiments ('other'), or in experiments that used a similar design ('same')</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Individuals could have participated in no prior experiments ('none'), in any kind of experiments ('other'), or in experiments that used a similar design ('same')</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173925"><attributeName>SUCC. TRIALS</attributeName>
+<attributeDefinition>The number of single trials during which the individual chose the correct option</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1403984173926"><attributeName>ATTEMPTED TRIALS</attributeName>
+<attributeDefinition>The total number of trials the individuals was tested for</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1403984173927"><attributeName>percent correct</attributeName>
+<attributeDefinition>The relative number of trials individuals performed correctly</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1403984173928"><attributeName>CLASSED AS PASS?</attributeName>
+<attributeDefinition>Whether the individuals was deemed to have successfully passed the experiment as classified by the original authors</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Y</code>
+<definition>Individual successful</definition>
+</codeDefinition>
+<codeDefinition><code>N</code>
+<definition>Individual failed</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1403984173929"><attributeName>Binary Pass</attributeName>
+<attributeDefinition>Conversion of pass into 0=no, 1=yes</attributeDefinition>
+<measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+<definition>Individual failed</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>Individual successful</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</ordinal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>1987</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

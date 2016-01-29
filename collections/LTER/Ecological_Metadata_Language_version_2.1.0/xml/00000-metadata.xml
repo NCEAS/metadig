@@ -1,0 +1,1315 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-hfr.206.5" scope="system" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF206">
+    <alternateIdentifier>HF206</alternateIdentifier>
+    <title>Microclimate at Harvard Forest HEM and LPH Towers since 2002</title>
+    <creator>
+      <individualName>
+        <givenName>Julian</givenName>
+        <surName>Hadley</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>William</givenName>
+        <surName>Munger</surName>
+      </individualName>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Liza</givenName>
+        <surName>Nicoll</surName>
+      </individualName>
+      <role>Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>VanScoy</surName>
+      </individualName>
+      <role>Researcher</role>
+    </associatedParty>
+    <pubDate>2013</pubDate>
+    <abstract>
+      <section>
+        <para>At all flux tower sites (HK1, M1) and at the understory dataloggers (LP225B, LP300B, HK2, HK3), microclimate data are collected every 60 seconds.  Average, maximum and minimum values are calculated every 30 minutes, synchronously with the times at which 30-minute eddy fluxes are calculated.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>air temperature</keyword>
+      <keyword>net radiation</keyword>
+      <keyword>photosynthetically active radiation</keyword>
+      <keyword>relative humidity</keyword>
+      <keyword>soil temperature</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>primary production</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf206</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Prospect Hill Tract (Harvard Forest)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-72.185</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.180</eastBoundingCoordinate>
+          <northBoundingCoordinate>+42.542</northBoundingCoordinate>
+          <southBoundingCoordinate>+42.539</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>355</altitudeMinimum>
+            <altitudeMaximum>380</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2002-11-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Acer</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>rubrum</taxonRankValue>
+            <commonName>red maple</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Betula</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>alleghaniensis</taxonRankValue>
+            <commonName>yellow birch</commonName>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>lenta</taxonRankValue>
+            <commonName>black birch</commonName>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>papyrifera</taxonRankValue>
+            <commonName>paper birch</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Pinus</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>resinosa</taxonRankValue>
+            <commonName>red pine</commonName>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>strobus</taxonRankValue>
+            <commonName>white pine</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Quercus</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>alba</taxonRankValue>
+            <commonName>white oak</commonName>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>rubra</taxonRankValue>
+            <commonName>red oak</commonName>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>velutina</taxonRankValue>
+            <commonName>black oak</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Tsuga</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>canadensis</taxonRankValue>
+            <commonName>hemlock</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>data updated 2013-08-02</para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Liza</givenName>
+        <surName>Nicoll</surName>
+      </individualName>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <electronicMailAddress>nicoll@fas.harvard.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Microclimate sensors</title>
+            <para>Air and soil temperature thermocouple sensors:  Copper-constantan, hand-made from wire supplied by Omega Engineering (Stamford, CT, USA). Photosynthetically active radiation (PAR):  LI-190 SA quantum sensors--Licor. Co-located air temperature and relative humidity sensors (above-canopy only): Campbell HMP 45C. Radiation-shielded and ventilated precision air temperature sensors (above-canopy only):  Met-One, Inc., Grants Pass, OR, USA). Soil moisture sensors: Campbell CS-616. Net radiometer: Kippen Zonen, NR-Lite.</para>
+          </section>
+          <section>
+            <title>Hemlock Tower</title>
+            <para>On the flux tower, the PAR and HMP 45C temperature and relative humidity sensors are about 24 m above the ground, higher than all but a few branches of the surrounding trees. The aspirated precision air temperature is at about 23 m above ground.  The net radiometer is about 28.5 m above ground, near the height of the sonic anemometer and intake ports for the eddy flux system (29 m).   The HK2 datalogger is 100 m from the tower at a compass bearing of about 200 degrees, and the HK3 datalogger is 100 m from the tower at a 230-degree bearing.  Around each of these datalogger, 3 understory PAR sensors are located at randomly chosen distances of 30 to 50 m at compass bearings of 0, 120 and 240 degrees from the datalogger.  Four 10-cm deep soil temperature thermocouples are at randomly chosen distances of 10 to 20 m due N, E, S, and W of each datalogger.  Two pairs of thermocouples that measure understory air temperature at 20 cm and 1 m above ground, shielded from radiant exchange with the sky, are at randomly chosen distances of 10 to 20 m N and S of each datalogger.</para>
+          </section>
+          <section>
+            <title>Little Prospect Hill Tower</title>
+            <para>Microclimate and eddy covariance measurements were discontinued at this site at the end of December of 2010.</para>
+            <para>On the flux tower, the PAR sensor is at the level of the highest canopy branches (about 21 m above the ground), the HMP 45C temperature and relative humidity sensor is about 2 m higher than this, and the aspirated high precision temperature sensor is about 24 m above ground.  The net radiometer is about 27 m above ground. The LP225B datalogger is 200 m from the tower at a compass bearing of 225 degrees, and the LP300B datalogger is 200 m from the tower at a 300-degree bearing.  Around each of these, 3 understory PAR sensors are located at randomly chosen distances of 20 to 30 m at compass bearings of 0, 120 and 240 degrees from the datalogger.  Four 10-cm deep soil temperature thermocouples are at randomly chosen distances of 10 to 20 m due N, E, S, and W of each datalogger.  The thermocouples for soil temperature measurement are inserted at an angle of 45 degrees from horizontal, to increase the length of buried wire and reduce heat conduction from the surface to the buried thermocouple.  Two pairs of thermocouples that measure understory air temperature at 20 cm and 1 m above ground, shielded from radiant exchange with the sky, are at randomly chosen distances of 10 to 20 m N and S of each datalogger.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="hf206-01">
+      <entityName>hf206-01-HK-micro.csv</entityName>
+      <entityDescription>Hemlock microclimate</entityDescription>
+      <physical id="1360161017249">
+        <objectName>hf206-01-HK-micro.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/206/5/58d086eadd201715bc24732425cc9073</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1360166077952">
+          <attributeName>Year</attributeName>
+          <attributeDefinition>year</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1360166077953">
+          <attributeName>Day</attributeName>
+          <attributeDefinition>day of year, with hour of day converted to a fraction of a day</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>DDD</formatString>
+              <dateTimePrecision>0.001</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1360166077954">
+          <attributeName>Month</attributeName>
+          <attributeDefinition>month</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1360166077955">
+          <attributeName>PAR</attributeName>
+          <attributeDefinition>photosynthetically active radiation measured above the canopy at 24 m height by a Licor 190S quantum sensor</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077956">
+          <attributeName>PAR.adj</attributeName>
+          <attributeDefinition>photosynthetically active radiation measured above the canopy at 24 m height by a Licor 190S quantum sensor. Adjusted for sensor drift.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077957">
+          <attributeName>PAR.fill</attributeName>
+          <attributeDefinition>photosynthetically active radiation measured above the canopy at 24 m height by a Licor 190S quantum sensor. Adjusted for sensor drift and filled with estimated vales.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077958">
+          <attributeName>PAR.flag</attributeName>
+          <attributeDefinition>flag indicating estimated PAR value</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>measured value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>estimated value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1360166077959">
+          <attributeName>NetRad</attributeName>
+          <attributeDefinition>net radiation measured above the canopy at 28.5m</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>wattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077960">
+          <attributeName>AC.Tair.CSI</attributeName>
+          <attributeDefinition>air temperature measured above the canopy at 24 m height by a Campbell Scientific HMP35C sensor</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077961">
+          <attributeName>AC.Tair.CSI.fill</attributeName>
+          <attributeDefinition>air temperature measured above the canopy at 24 m height by a Campbell Scientific HMP35C sensor. Filled with estimated values.</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077962">
+          <attributeName>AC.Tair.CSI.flag</attributeName>
+          <attributeDefinition>flag indicating estimated AC.Tair.CSI value</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>measured value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>estimated value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1360166077963">
+          <attributeName>RH</attributeName>
+          <attributeDefinition>relative humidity measured above the canopy at 23 m height by a Campbell Scientific HMP45C sensor</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077964">
+          <attributeName>AC.Tair.TOC</attributeName>
+          <attributeDefinition>air temperature measured above the canopy at 24m by a shaded thermocouple</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077965">
+          <attributeName>AC.Tair.TOC.fill</attributeName>
+          <attributeDefinition>air temperature measured above the canopy at 24m by a shaded thermocouple. Filled with estimated values.</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077966">
+          <attributeName>AC.Tair.TOC.flag</attributeName>
+          <attributeDefinition>flag indicating estimated AC.Tair.TOC value</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>measured value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>estimated value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1360166077967">
+          <attributeName>WVP</attributeName>
+          <attributeDefinition>water vapor pressure</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077968">
+          <attributeName>WVP.ACT</attributeName>
+          <attributeDefinition>actual water vapor pressure</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077969">
+          <attributeName>VPD</attributeName>
+          <attributeDefinition>vapor pressure defecit</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077970">
+          <attributeName>VPD.fill</attributeName>
+          <attributeDefinition>vapor pressure defecit. Filled with estimated values.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilopascal</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077971">
+          <attributeName>VPD.flag</attributeName>
+          <attributeDefinition>flag indicating estimated VPD value</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>measured value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>estimated value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1360166077972">
+          <attributeName>Tair.US.1m</attributeName>
+          <attributeDefinition>air temperature measured below the canopy at 1m</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077973">
+          <attributeName>Tsoil1</attributeName>
+          <attributeDefinition>soil temperature 1 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077974">
+          <attributeName>Tsoil2</attributeName>
+          <attributeDefinition>soil temperature 2 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077975">
+          <attributeName>Tsoil3</attributeName>
+          <attributeDefinition>soil temperature 3 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077976">
+          <attributeName>Tsoil4</attributeName>
+          <attributeDefinition>soil temperature 4 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077977">
+          <attributeName>Tsoil5</attributeName>
+          <attributeDefinition>soil temperature 5 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077978">
+          <attributeName>Tsoil6</attributeName>
+          <attributeDefinition>soil temperature 6 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077979">
+          <attributeName>Tsoil.Ave</attributeName>
+          <attributeDefinition>average of soil temperature 1-6 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077980">
+          <attributeName>AC.Tair.asp</attributeName>
+          <attributeDefinition>air temperature measured above the canopy at 23m by an aspirated precision sensor</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077981">
+          <attributeName>PAR.Max</attributeName>
+          <attributeDefinition>maximum photosynthetically active radiation measured above the canopy at 24 m height by a Licor 190S quantum sensor</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077982">
+          <attributeName>NetRad.Max</attributeName>
+          <attributeDefinition>maximum net radiation measured above the canopy at 28.5m</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>wattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077983">
+          <attributeName>AC.Tair.CSI.Max</attributeName>
+          <attributeDefinition>maximum air temperature measured above the canopy at 24 m height by a Campbell Scientific HMP35C sensor</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077984">
+          <attributeName>RH.Max</attributeName>
+          <attributeDefinition>maximum relative humidity measured above the canopy at 23 m height by a Campbell Scientific HMP45C sensor</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077985">
+          <attributeName>AC.Tair.TOC.Max</attributeName>
+          <attributeDefinition>maximum air temperature measured above the canopy at 24m by a shaded thermocouple</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077986">
+          <attributeName>Tair.US.1m.Max</attributeName>
+          <attributeDefinition>maximum air temperature measured below the canopy at 1m</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077987">
+          <attributeName>Tsoil1.Max</attributeName>
+          <attributeDefinition>maximum soil temperature 1 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077988">
+          <attributeName>Tsoil2.Max</attributeName>
+          <attributeDefinition>maximum soil temperature 2 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077989">
+          <attributeName>Tsoil3.Max</attributeName>
+          <attributeDefinition>maximum soil temperature 3 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077990">
+          <attributeName>Tsoil4.Max</attributeName>
+          <attributeDefinition>maximum soil temperature 4 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077991">
+          <attributeName>Tsoil5.Max</attributeName>
+          <attributeDefinition>maximum soil temperature 5 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077992">
+          <attributeName>Tsoil6.Max</attributeName>
+          <attributeDefinition>maximum soil temperature 6 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077993">
+          <attributeName>AC.Tair.asp.Max</attributeName>
+          <attributeDefinition>maximum air temperature measured above the canopy at 23m by an aspirated precision sensor</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077994">
+          <attributeName>PAR.Min</attributeName>
+          <attributeDefinition>minimum photosynthetically active radiation measured above the canopy at 24 m height by a Licor 190S quantum sensor</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077995">
+          <attributeName>NetRad.Min</attributeName>
+          <attributeDefinition>minimum net radiation measured above the canopy at 28.5m</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>wattPerMeterSquared</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077996">
+          <attributeName>AC.Tair.CSI.Min</attributeName>
+          <attributeDefinition>minimum air temperature measured above the canopy at 24 m height by a Campbell Scientific HMP35C sensor</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077997">
+          <attributeName>RH.Min</attributeName>
+          <attributeDefinition>minimum relative humidity measured above the canopy at 23 m height by a Campbell Scientific HMP45C sensor</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077998">
+          <attributeName>AC.Tair.TOC.Min</attributeName>
+          <attributeDefinition>minimum air temperature measured above the canopy at 24m by a shaded thermocouple</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166077999">
+          <attributeName>Tair.US.1m.Min</attributeName>
+          <attributeDefinition>minimum air temperature measured below the canopy at 1m</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166078000">
+          <attributeName>Tsoil1.Min</attributeName>
+          <attributeDefinition>minimum soil temperature 1 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166078001">
+          <attributeName>Tsoil2.Min</attributeName>
+          <attributeDefinition>minimum soil temperature 2 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166078002">
+          <attributeName>Tsoil3.Min</attributeName>
+          <attributeDefinition>minimum soil temperature 3 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166078003">
+          <attributeName>Tsoil4.Min</attributeName>
+          <attributeDefinition>minimum soil temperature 4 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166078004">
+          <attributeName>Tsoil5.Min</attributeName>
+          <attributeDefinition>minimum soil temperature 5 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166078005">
+          <attributeName>Tsoil6.Min</attributeName>
+          <attributeDefinition>minimum soil temperature 6 measured at 10 cm depth</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1360166078006">
+          <attributeName>AC.Tair.asp.Min</attributeName>
+          <attributeDefinition>minimum air temperature measured above the canopy at 23m by an aspirated precision sensor</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>140257</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>ongoing</status>
+        <researchTopic>plot</researchTopic>
+        <studyType>long-term measurement</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <additionalLinks>
+        <url name="Net Carbon Exchange of an Old-Growth Hemlock Forest at Harvard Forest HEM Tower since 2000">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf103</url>
+        <url name="Net Carbon Exchange of a Young Upper-Slope Deciduous Forest at Harvard Forest LPH Tower since 2002">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf072</url>
+      </additionalLinks>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList convention="CML">
+        <ns2:unit constantToSI="0.0" id="micromolePerMeterSquaredPerSecond" multiplierToSI="0.000001" name="micromolePerMeterSquaredPerSecond" parentSI="molePerMeterSquaredPerSecond" unitType="arealMassDensityRate" />
+        <ns2:unit constantToSI="0.0" id="wattPerMeterSquared" multiplierToSI="1" name="wattPerMeterSquared" parentSI="wattPerMeterSquared" unitType="irradiance" />
+        <ns2:unit constantToSI="0.0" id="kilopascal" multiplierToSI="1000" name="kilopascal" parentSI="pascal" unitType="pressure" />
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

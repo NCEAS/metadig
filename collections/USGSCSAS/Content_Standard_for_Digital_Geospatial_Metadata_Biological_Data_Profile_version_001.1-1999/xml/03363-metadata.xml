@@ -1,0 +1,594 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey, Gap Analysis Program (GAP)</origin>
+        <pubdate>20121130</pubdate>
+        <title>Protected Areas Database of the United States (PADUS) - Combined: Version 1.3</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Unknown</pubplace>
+          <publish>U.S. Geological Survey Gap Analysis Program (GAP)</publish>
+        </pubinfo>
+        <onlink>http://gapanalysis.usgs.gov/PADUS</onlink>
+        <onlink>http://dx.doi.org/10.5066/F79Z92XD</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>U.S. Geological Survey Gap Analysis Program</origin>
+            <pubdate>20121130</pubdate>
+            <title>Protected Areas Database of the United States (PADUS) Version 1.3 Combined</title>
+            <geoform>Maps Data</geoform>
+            <pubinfo>
+              <pubplace>http://gapanalysis.usgs.gov/PADUS/</pubplace>
+              <publish>U. S. Geological Survey Gap Analysis Program</publish>
+            </pubinfo>
+            <onlink>http://gapanalysis.usgs.gov/PADUS/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Protected Areas Database of the United States (PAD-US) is a geodatabase, managed by U. S. Geological Survey Gap Analysis Program, that illustrates and describes public land ownership, management and other conservation lands, including voluntarily provided privately protected areas.  The geodatabase contains four feature classes such as, ?Marine Protected Areas (MPA)? and ?Easements? that each contains uniquely associated attributes.  These two feature classes are combined with the PAD-US ?Fee? feature class to provide a full inventory of protected areas in a common schema (i.e. ?Combined? file).  Legitimate and other protected area overlaps exist in the full inventory, with Easements loaded on top of Fee and MPAs under both.  Parcel data within a protected area are dissolved in this file that powers the PAD-US Viewer.  As overlaps exist, GAP creates separate analytical layers to summarize area statistics for "GAP Status Code" and "Owner Name".  Contact the PAD-US Coordinator for more information.  
+The lands included in PAD-US are assigned conservation measures that qualify their intent to manage lands for the preservation of biological diversity and to other natural, recreational and cultural uses; managed for these purposes through legal or other effective means.  The geodatabase includes: 1) Geographic boundaries of public land ownership and voluntarily provided private conservation lands (e.g., Nature Conservancy Preserves); 2) The combination land owner, land manager, management designation or type, parcel name, GIS Acres and source of geographic information of each mapped land unit 3) GAP Status Code conservation measure of each parcel based on USGS National Gap Analysis Program (GAP) protection level categories which provide a measurement of management intent for long-term biodiversity conservation 4) IUCN category for a protected area's inclusion into UNEP-World Conservation Monitoring Centre's World Database for Protected Areas.  IUCN protected areas are defined as, "A clearly defined geographical space, recognized, dedicated and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values" and are categorized following a classification scheme available through USGS GAP; 5) World Database of Protected Areas (WDPA) Site Codes linking the multiple parcels of a single protected area in PAD-US and connecting them to the Global Community.  The geodatabase contains a Marine Protected Area (MPA) feature class and Easements feature class, each with uniquely associated attribute.  These two feature classes are combined with the PAD-US fee feature class with standard PAD-US attributes to provide a full inventory of protected areas in a common schema.  As legitimate and other overlaps exist in the combined inventory GAP creates separate analytical layers to obtain area statistics for "GAP Status Code" and "Owner Name".
+
+PAD-US version 1.3 Combined updates include:
+1) State, local government and private protected area updates delivered September 2011 from PAD-US State Data Stewards: CO (Colorado State University), FL (Florida Natural Areas Inventory), ID (Idaho Fish and Game), MA (The Commonwealth's Office of Geographic Information Systems, MassGIS), MO (University of Missouri, MoRAP), MT (Montana Natural Heritage Program), NM (Natural Heritage New Mexico), OR (Oregon Natural Heritage Program), VA (Department of Conservation and Recreation, Virginia Natural Heritage Program).  
+2) Select local government (i.e. county, city) protected areas (3,632) across the country (to complement the current PAD-US inventory) aggregated by the Trust for Public Land (TPL) for their Conservation Almanac that tracks the conservation finance movement across the country.
+3) A new ?Date of Establishment? field that identifies the year an area was designated or otherwise protected, attributed for 86% of GAP Status Code 1 and 2 protected areas.  Additional dates will be provided in future updates.
+4) A national wilderness area update from wilderness.net
+5) The ??Access? field that describes public access to protected areas as defined by data stewards or categorical assignment by Primary Designation Type.  .  The new ?Access Source? field documents local vs. categorical assignments.  See the PAD-US Standard Manual for more information: gapanalysis.usgs.gov/padus
+6) The transfer of conservation measures (i.e. GAP Status Codes, IUCN Categories) and documentation (i.e. GAP Code Source, GAP Code Date) from PAD-US version 1.2 or categorical assignments (see PAD-US Standard) when not provided by data stewards
+7) Integration of non-sensitive National Conservation Easement Database (NCED) easements from August 2011, July 2012 with PAD-US version 1.2 easements.  Duplicates were removed, unless 'Stacked' = Y and multiple easements exist. 
+8) Unique ID's transferred from NCED or requested for new easements.  NCED and PAD-US are linked via Source UID in the PAD-US version 1.3 Easement feature class.
+9) Official (member and eligible) MPAs from the NOAA MPA Inventory (March 2011, www.mpa.gov) translated into the PAD-US schema with conservation measures transferred from PAD-US version 1.2 or categorically assigned to new protected areas.  Contact the PAD-US Coordinator for documentation of categorical GAP Status Code assignments for MPAs.  
+10) Identified MPA records that overlap existing protected areas in the PAD-US Fee feature class (i.e. PADUS Overlap field in MPA feature class).  For example, many National Wildlife Refuges and National Parks are also MPAs and are represented in the PAD-US MPA and Fee feature classes.(ei</abstract>
+      <purpose>Purpose: The mission of the USGS Gap Analysis Program (GAP) is to provide state, regional and national assessments of the conservation status of native vertebrate species and natural land cover types and to facilitate the application of this information to land management activities. The PAD-US geodatabase is required to organize and assess the management status (i.e. apply GAP Status Codes) of elements of biodiversity protection.  The goal of GAP is to keep common species common by identifying species and plant communities not adequately represented in existing conservation lands. Common species are those not currently threatened with extinction. By identifying their habitats, Gap Analysis gives land managers and policy makers the information they need to make better-informed decisions when identifying priority areas for conservation.  In cooperation with UNEP-World Conservation Monitoring Centre, GAP ensures PAD-US also supports global analyses and policy decisions by maintaining World Database for Protected Areas (WDPA) Site Codes and data for International Union for the Conservation of Nature (IUCN) categorized protected areas in the United States.  GAP seeks to increase the efficiency and accuracy of PAD-US updates by leveraging resources in protected areas data aggregation and maintenance as described in "A Map of the Future", published following the PAD-US Design Project (July, 2009) available at: gapanalysis.usgs.gov/padus.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2005</begdate>
+          <enddate>2012</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <descgeog>United States</descgeog>
+      <bounding>
+        <westbc>-128</westbc>
+        <eastbc>-61</eastbc>
+        <northbc>51</northbc>
+        <southbc>23</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Conservation</themekey>
+        <themekey>Protection Status</themekey>
+        <themekey>IUCN Category</themekey>
+        <themekey>GAP Status Code</themekey>
+        <themekey>Land Manager</themekey>
+        <themekey>Protected Area</themekey>
+        <themekey>Biodiversity</themekey>
+        <themekey>Gap Analysis</themekey>
+        <themekey>Land Ownership</themekey>
+        <themekey>Land Stewardship</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana (IN)</placekey>
+        <placekey>California (CA)</placekey>
+        <placekey>Iowa (IA)</placekey>
+        <placekey>Colorado (CO)</placekey>
+        <placekey>Kansas (KS)</placekey>
+        <placekey>South Carolina (SC)</placekey>
+        <placekey>Connecticut (CT)</placekey>
+        <placekey>Delaware (DE)</placekey>
+        <placekey>Kentucky (KY)</placekey>
+        <placekey>South Dakota (SD)</placekey>
+        <placekey>Florida (FL)</placekey>
+        <placekey>Tennessee (TN)</placekey>
+        <placekey>New York (NY)</placekey>
+        <placekey>Georgia (GA)</placekey>
+        <placekey>Texas (TX)</placekey>
+        <placekey>North Carolina (NC)</placekey>
+        <placekey>Hawaii (HI)</placekey>
+        <placekey>Wyoming (WY)</placekey>
+        <placekey>Utah (UT)</placekey>
+        <placekey>New Jersey (NJ)</placekey>
+        <placekey>Idaho (ID)</placekey>
+        <placekey>Vermont (VT)</placekey>
+        <placekey>New Mexico (NM)</placekey>
+        <placekey>Illinois (IL)</placekey>
+        <placekey>Missouri (MO)</placekey>
+        <placekey>Ohio (OH)</placekey>
+        <placekey>Mississippi (MS)</placekey>
+        <placekey>North Dakota (ND)</placekey>
+        <placekey>Minnesota (MN)</placekey>
+        <placekey>Massachusetts (MA)</placekey>
+        <placekey>United States</placekey>
+        <placekey>Oregon (OR)</placekey>
+        <placekey>Michigan (MI)</placekey>
+        <placekey>Maryland (MD)</placekey>
+        <placekey>Oklahoma (OK)</placekey>
+        <placekey>Alaska (AK)</placekey>
+        <placekey>Wisconsin (WI)</placekey>
+        <placekey>New Hampshire (NH)</placekey>
+        <placekey>Louisiana (LA)</placekey>
+        <placekey>Rhode Island (RI)</placekey>
+        <placekey>Alabama (AL)</placekey>
+        <placekey>West Virginia (WV)</placekey>
+        <placekey>Maine (ME)</placekey>
+        <placekey>Nevada (NV)</placekey>
+        <placekey>Pennsylvania (PA)</placekey>
+        <placekey>Arkansas (AR)</placekey>
+        <placekey>Washington (WA)</placekey>
+        <placekey>Nebraska (NE)</placekey>
+        <placekey>Arizona (AZ)</placekey>
+        <placekey>Virginia (VA)</placekey>
+        <placekey>Montana (MT)</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2005</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>These data are in the public domain</accconst>
+    <useconst>It is strongly recommended that these data are directly acquired from the U.S. Geological Survey Gap Analysis Program server, and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.
+
+All information is created with a specific end use or uses in mind. This is especially true for GIS data, which is expensive to produce and must be directed to meet the immediate program needs. However, these data were created with the expectation that they would be used for other applications; therefore, we list below both appropriate and inappropriate uses. This list is in no way exhaustive but should serve as a guide to assess whether a proposed use can or cannot be supported by these data. For many uses, it is unlikely that PAD-US will provide the only data needed, and for uses with a regulatory outcome, field surveys should verify the result. In the end, it will be the responsibility of each data user to determine if these data can answer the question being asked, and if they are the best tool to answer that question.  While it is impossible to predict all the uses of these data we have listed several possible appropriate and inappropriate uses from GAP's perspective. The Nature Conservancy data were aggregated with consideration for the following Access constraints: The Nature Conservancy reserves all rights to the TNC data provided. All data are provided as is. The information provided is is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.  Use constraints: 
+The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data.
+ 
+Appropriate uses of the data: primarily as a coarse map for a large area such as a county or to provide context for finer-level maps. A general list of possible applications include:
+
+    -National, regional or statewide biodiversity planning
+    -National, Regional or state habitat conservation planning
+    -County comprehensive planning
+    -Large-area resource management planning
+    -Coarse-filter evaluation of potential impacts or benefits of major projects or plan initiatives on biodiversity, such as utility or transportation corridors, wilderness proposals, habitat connectivity proposals, climate change adaption proposals, regional open space and recreation proposals, etc.
+    -Determining relative amounts of management responsibility for specific biological resources among land stewards to facilitate cooperative management and planning.
+    -Basic research on regional distributions of plants and animals and to help target both specific species and geographic areas for needed research.
+    -Environmental impact assessment for large projects or military activities.
+    -Estimation of potential economic impacts from loss of biological resource-based activities.
+    -Education at all levels and for both students and citizens.
+
+    Inappropriate Uses: It is far easier to identify appropriate uses than inappropriate ones, however, there is a "fuzzy line" that is eventually crossed when the differences in resolution of the data, size of geographic area being analyzed, and precision of the answer required for the question are no longer compatible. Examples include:
+
+    -Using the data to map small areas (less than thousands of hectares), typically requiring mapping resolution at 1:24,000 scale and using aerial photographs or ground surveys.
+    -Combining these data with other data finer than 1:100,000 scale to produce new hybrid maps or answer queries.
+    -Generating specific areal measurements from the data finer than the nearest thousand hectares 
+    -Establishing exact boundaries for regulation or acquisition.
+    -Establishing definite occurrence or non-occurrence of any feature for an exact geographic area
+    -Determining abundance, health, or condition of any feature.
+    -Establishing a measure of accuracy of any other data by comparison with GAP data.
+    -Altering the data in any way and redistributing them as a GAP data product.
+    -Using the data without acquiring and reviewing the metadata and this report.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Lisa Duarte</cntper>
+          <cntorg>U. S. Geological Survey Gap Analysis Program - University of Idaho</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>530 S. Asbury St. Suite #1</address>
+          <city>Moscow</city>
+          <state>Idaho</state>
+          <postal>83843</postal>
+        </cntaddr>
+        <cntvoice>208-885-3013</cntvoice>
+        <cntemail>lduarte@uidaho.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U. S. Geological Survey, Gap Analysis Program (GAP).  November 2012.  Protected Areas Database of the United States (PADUS), version 1.3 Fee.</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>Formal logical attribute tests were either not conducted or applicable.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for addtional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Integration of PAD-US State Data Steward updates through transfer of attributes when not managed by state (e.g. GAP Status Code, GAP Code Source, GAP Code Date, WDPA Code) and complete replacement of state, local government and private protected areas submitted.  While PAD-US State Data Stewards serve as the foundation of PAD-US, federal land managers are the stewards of national federal lands data in the geodatabase.</procdesc>
+        <procdate>201102</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers_Conical_Equal_Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>37.5</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>.61</absres>
+            <ordres>.61</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>Unknown</altdatum>
+        <altres>1.000000</altres>
+        <altunits>Meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PADUS1_2</enttypl>
+        <enttypd>PAD-US Standards Manual available from GAP Website (gapanalysis.usgs.gov/padus) or PAD-US Coordinator</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Category</attrlabl>
+        <attrdef>General category for the protection mechanism associated with the protected area.  'Fee' is the most common way real estate is owned.  A conservation 'easement' creates a legally enforceable land preservation agreement between a landowner and government agency or qualified land protection organization (i.e. land trust).  'Other' types of protection include leases, agreements or those over marine waters.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Own_Type</attrlabl>
+        <attrdef>General land owner description (e.g. Federal, Tribal, State, Private) standardized for the US. See MSL Owner Type Domain descriptions in PAD-US Standards Manual or geodatabase look up table for detailed descriptions.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Own_Name</attrlabl>
+        <attrdef>Land owner and primary entity responsible for managing parcel when 'Manager Name' is not attributed (e.g. USFS, State Fish and Game, City Land, TNC) standardized for the US. See MSL Owner Name Domain descriptions in PAD-US Standards Manual or geodatabase look up table for detailed descriptions.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Loc_Own</attrlabl>
+        <attrdef>The actual name of the land owner provided by the data source, to complement the standardized 'Owner Name' field (e.g. State Fish and Wildlife is the standardized 'Owner Name' but Washington Department of Fish and Wildlife is the 'Local Owner').  Not standardized in MSL.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mang_Name</attrlabl>
+        <attrdef>This field is attributed when the agency or entity responsible for managing a parcel differs from the 'Owner Name'.  Not standardized in MSL.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P_Des_Tp</attrlabl>
+        <attrdef>The primary land management description or designation, standardized for nation (e.g. Area of Critical Environmental Concern resides in this field with Big Bear, as an example, in the 'Primary Designation Name' field.  See MSL Primary Designation Type domain descriptions for details and Appendix A for crosswalk and definitions.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P_Loc_Ds</attrlabl>
+        <attrdef>The primary land management description or designation as provided by data source. Not standardized in MSL.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P_Des_Nm</attrlabl>
+        <attrdef>The name of protected area only (with no designation type) standardized to Proper Case without acronyms or parcel identifiers.  This field enables users to search for a protected area by name, regardless of how many parcels it contains but can be concatenated with the Primary Designation Type field.  The Primary Local Name field, from the data source, is calculated into this field and standardized.  In previous PAD-US versions the designation type was included.  This field is in transition to the updated standard.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P_Loc_Nm</attrlabl>
+        <attrdef>The name of the protected area as provided by the data source not standardized for the US.  As a result, this field may include designations, different formats, spelling errors, unit or area identifiers unique to parcels but joins to source data files.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Current legal or "official" standing of the site defined as: Designated - Site has been legally or administratively decreed; Proposed - Site has approval but is awaiting legal declaration/decree; Other - Site is recognized in a manner not otherwise classified or Unknown - Current status of this site is not known.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State_Nm</attrlabl>
+        <attrdef>Name of state or territory spelled out in Proper Case.  See domain descriptions in PAD-US Standards Manual or geodatabase look up table for details.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Agg_Src</attrlabl>
+        <attrdef>Organization credited with data aggregation and name of aggregated data set.  Attributed in the format 'organization name_filename.filetype'  (e.g. TNC_SecuredAreas2008.shp).  Use acronym or replace spaces with underscore.  A data aggregator submits data in the PAD-US schema according to standards and/or aggregates regional or national datasets with required fields for PAD-US translation.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GIS_Src</attrlabl>
+        <attrdef>The source of GIS spatial and attribute information the aggregator obtained (e.g. WYG&amp;F_whmas08.shp) for each record.  Preferably files names match original source data to facilitate future updates.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Src_Date</attrlabl>
+        <attrdef>The date (mm/dd/yyyy) GIS data was obtained by the data source for aggregation.  If month or day is unknown date is 00.  This date represents the best available data the source has to support management at the time.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GIS_Acres</attrlabl>
+        <attrdef>Acres calculated from the 'calculate geometry' tool</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S_Des_Tp</attrlabl>
+        <attrdef>Additional or overarching management designation of a protected area polygon under which another may overlap (e.g. National Forest is described in this field, while an overlapping Wilderness Area is in the Primary Designation Type).  See MSL domain descriptions in PADUS Standards Manual or geodatabase look up table for details.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S_Lc_Ds</attrlabl>
+        <attrdef>The secondary land management description or designation as provided by the data source. Not standardized.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S_Loc_Nm</attrlabl>
+        <attrdef>The name of the protected area as provided by the source. Not standardized.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GAP_Sts</attrlabl>
+        <attrdef>The GAP Status Code is a measure of management intent to conserve biodiversity defined as: Status 1: An area having permanent protection from conversion of natural land cover and a mandated management plan in operation to maintain a natural state within which disturbance events (of natural type, frequency, intensity, and legacy) are allowed to proceed without interference or are mimicked through management.  Status 2: An area having permanent protection from conversion of natural land cover and a mandated management plan in operation to maintain a primarily natural state, but which may receive uses or management practices that degrade the quality of existing natural communities, including suppression of natural disturbance.  Status 3: An area having permanent protection from conversion of natural land cover for the majority of the area, but subject to extractive uses of either a broad, low-intensity type (e.g., logging, OHV recreation) or localized intense type (e.g., mining). It also confers protection to federally listed endangered and threatened species throughout the area.  Status 4: There are no known public or private institutional mandates or legally recognized easements or deed restrictions held by the managing entity to prevent conversion of natural habitat types to anthropogenic habitat types. The area generally allows conversion to unnatural land cover throughout or management intent is unknown.  See the PADUS Standards Manual for a summary of methods.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GAPCdSrc</attrlabl>
+        <attrdef>An acronym to describe the organization(s) that applied the Gap Status Code to the polygon.  This field also describes the methods used for assigning GAP Status as follows: 'GAP - Default' is assigned when GAP's categorical assignment of status has been applied, without more detailed review or inquiry.  'GAP' is assigned when standard methods (management plan reviewed and/or land manager interviewed to assign GAP Status to a protected area) apply as provided above.  'GAP - other organization' (e.g. GAP - NPS) applies when the measure is assigned in partnership with GAP, including review.  When another organization applied GAP Status according to their methods then 'other organization' (e.g. TNC) is assigned.  See the PADUS Standards Manual for more information.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GAPCdDt</attrlabl>
+        <attrdef>The most current Year (yyyy) the GAP Status Code was assigned to the polygon.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IUCN_cat</attrlabl>
+        <attrdef>International Union for the Conservation of Nature (IUCN) management categories assigned to protected areas for inclusion in the UNEP- World Conservation Monitoring Center's (WCMC) World Database for Protected Areas (WDPA) and the Commission for Environmental Cooperation's (CEC) North American Terrestrial Protected Areas Database.  IUCN defines a protected area as, "A clearly defined geographical space, recognized, dedicated and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values". Categorization follows as:  Category Ia: Strict Nature Reserves are strictly protected areas set aside to protect biodiversity and also possibly geological / geomorphological features, where human visitation, use and impacts are strictly controlled and limited to ensure preservation of the conservation values.  Such protected areas can serve as indispensible reference areas for scientific research and monitoring.  Category Ib: Wilderness Areas are protected areas are usually large unmodified or slightly modified areas, retaining their natural character and influence, without permanent or significant human habitation, which are protected and managed so as to preserve their natural condition.  Category II: National Park protected areas are large natural or near natural areas set aside to protect large-scale ecological processes, along with the complement of species and ecosystems characteristic of the area, which also provide a foundation for environmentally and culturally compatible spiritual, scientific, educational, recreational and visitor opportunities.  Category III: Natural Monument or Feature protected areas are set aside to protect a specfic natural monument, which can be a land form, sea mount, submarine caverns, geological feature such as caves or even a living feature such as an ancient grove.  They are generally quite small protected areas and often have high visitor value.  Category  IV: Habitat/species management protected areas aim to protect particular species or habitats and management reflects this priority.  Many category IV protected areas will need regular, active interventions to address the requirements of particular species or to maintain habitats, but this is not a requirement of this category.  Category V: Protected landscape/seascape protected areas occur where the interaction of people and nature over time has produced an area of distinct character with significant ecological, biological, cultural and scenic value.  Category VI: Protected area with sustainable use of natural resources are generally large, with much of the area in a more-or-less natural condition and wherea a proportion is under sustainable natural resource management and where such exploitation is seen as one of the main aims of the area.  See the PADUS Standards Manual for a summary of methods.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Access</attrlabl>
+        <attrdef>Level of public access permitted.  Open ? no special requirements for public access to the property (may include regular hours available);  Restricted ? requires a special permit from the owner for access, a registration permit on public land or has highly variable times when open to use;  Closed ? no public access allowed (land bank property, special ecological study areas, military bases, etc.  Unknown ? no available information.  Access is assigned categorically by Primary Designation Type (See the PAD-US Standards Manual) when Unknown.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Access_Src</attrlabl>
+        <attrdef>Documents the Source of Access domain assignment (e.g. State Data Steward or GAP Default categorical assignment).  When locally assigned Access Source identifies that organization, generally the ?Aggregator Source?, and follows the Aggregator Source standard.  If Access is ?Unknown?, categorical assignments are made by Primary Designation Type and Access Source = ?GAP Default?.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Date_Est</attrlabl>
+        <attrdef>The Year (yyyy) the protected area was designated, decreed or otherwise established.  Date is assigned by name, regardless of overlaps in topology (e.g. Yellowstone National Park: 1872, Frank Church-River of No Return Wilderness Area: 1980)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WDPA_Cd</attrlabl>
+        <attrdef>A site identifier assigned by UNEP-World Conservation Monitoring Center (WCMC) and core attribute in the World Database for Protected Areas (WDPA) maintained by GAP.  GAP provides WCMC with US protected areas that meet the definition of protection by IUCN (i.e. GAP Status Code 1 and 2 areas) every other year.  The WDPA Site Code is also a core attribute in the Commission for Environmental Cooperation?s North American Environmental Atlas Protected Areas Database.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comments</attrlabl>
+        <attrdef>Comments from either the original data source or aggregator.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Update_Order</attrlabl>
+        <attrdef>Update order</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>See the information listed for this attribute above in the "Attribute Definition" and "Attribute Definition Source" sections.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Lisa Duarte</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>University of Idaho</address>
+          <city>Moscow</city>
+          <state>Idaho</state>
+          <postal>83843</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>208-885-3013</cntvoice>
+        <cntemail>lduarte@uidaho.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>No official distribution liability. Distributor assumes no liability for misuse of data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>PADUS GAP Status Layer web service:</formname>
+          <formcont>Protected Areas Database of the United States (PADUS) version 1.3 GAP Status. The Protected Areas Database of the United States (PAD-US) is a geodatabase that illustrates and describes public land ownership, management and conservation lands nationally, including voluntarily provided privately protected areas. The lands included in PAD-US are assigned conservation measures that qualify their intent to manage lands for the preservation of biological diversity and to other natural, recreational and cultural uses; managed for these purposes through legal or other effective means. The geodatabase includes: 1) Geographic boundaries of public land ownership and voluntarily provided private conservation lands (e.g., Nature Conservancy Preserves); 2) The combination land owner, land manager, management designation or type, parcel name, GIS Acres and source of geographic information of each mapped land unit 3) GAP Status Code conservation measure of each parcel based on USGS National Gap Analysis Program (GAP) protection level categories which provide a measurement of management intent for long-term biodiversity conservation 4) IUCN category for a protected area's inclusion into UNEP-World Conservation Monitoring Centre's World Database for Protected Areas. IUCN protected areas are defined as, "A clearly defined geographical space, recognized, dedicated and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values" and are categorized following a classification scheme available through USGS GAP; 5) World Database of Protected Areas (WDPA) Site Codes linking the multiple parcels of a single protected area in PAD-US and connecting them to the Global Community. PAD-US version 1.2 updates include: 1) National Park Service (NPS) boundaries and GAP Status Code review in cooperation with NPScape and NPS Lands. 2) Department of Defense (DOD) boundaries in cooperation with DOD Partners in Flight 3) Official (member and eligible only) Marine Protected Areas as aggregated and accepted by the National Oceanic and Atmospheric Administration (NOAA). 4)The Bureau of Land Management's (BLM) National Landscape Conservation System (NLCS) authoritative boundaries in cooperation with NLCS policy representitives and the Lands Division. Note: NLCS National Trails and Wild and Scenic Rivers were not updated as they are managed as Line files; however, PADUS already contained many of these protected areas. 5) Modified or newly created Wilderness Area boundaries created by The Omnibus Public Lands Act of 2009 in cooperation with Wilderness.net. 6) Protected areas in The US Virgin Islands 7) Protected areas in the Pacific Islands (Micronesia) 8) Washington Department of Fish and Wildlife protected areas The mission of the USGS Gap Analysis Program (GAP) is to provide state, regional and national assessments of the conservation status of native vertebrate species and natural land cover types and to facilitate the application of this information to land management activities. The PAD-US geodatabase is required to organize and assess the management status (i.e. apply GAP Status Codes) of elements of biodiversity protection. The goal of GAP is to keep common species common by identifying species and plant communities not adequately represented in existing conservation lands. Common species are those not currently threatened with extinction. By identifying their habitats, Gap Analysis gives land managers and policy makers the information they need to make better-informed decisions when identifying priority areas for conservation. In cooperation with UNEP-World Conservation Monitoring Centre, GAP ensures PAD-US also supports global analyses and policy decisions by maintaining World Database for Protected Areas (WDPA) Site Codes and data for International Union for the Conservation of Nature (IUCN) categorized protected areas in the United States. The USGS National Gap Analysis Program (GAP) aggregated the Protected Areas Database of the United States version 1.2 (PAD-US v1.1) with significant contributions from the Bureau of Land Management, The US Forest Service, GreenInfo Network, Applied Geographics and The Nature Conservancy, who provided a spatial dataset of public and private lands and waters secured by a conservation situation that includes an explicit level of security from future conversion and current incompatible uses. These are spatial data from TNC's Conservation Lands System (CLS) database, which is the legal database of record for all TNC land transactions (fee, easement, lease and deed restrictions). GAP seeks to increase the efficiency and accuracy of PAD-US updates by leveraging resources in protected areas data aggregation and maintenance as described in "A Map of the Future", published following the PAD-US Design Project (July, 2009) available from:http://www.protectedlands.net/. Download the full FGDC metadata record ftp://ftp.gap.uidaho.edu/outgoing/PADUS1_2/LayerFiles/PADUS1_2_metadata_html.html.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis1.usgs.gov/arcgis/rest/services/gap/PADUS_Status/MapServer</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>PADUS Ownership Layer web service</formname>
+          <formcont>Protected Areas Database of the United States (PADUS) version 1.3. Protected Area Owner Name. The Protected Areas Database of the United States (PAD-US) is a geodatabase that illustrates and describes public land ownership, management and conservation lands nationally, including voluntarily provided privately protected areas. The lands included in PAD-US are assigned conservation measures that qualify their intent to manage lands for the preservation of biological diversity and to other natural, recreational and cultural uses; managed for these purposes through legal or other effective means. The geodatabase includes: 1) Geographic boundaries of public land ownership and voluntarily provided private conservation lands (e.g., Nature Conservancy Preserves); 2) The combination land owner, land manager, management designation or type, parcel name, GIS Acres and source of geographic information of each mapped land unit 3) GAP Status Code conservation measure of each parcel based on USGS National Gap Analysis Program (GAP) protection level categories which provide a measurement of management intent for long-term biodiversity conservation 4) IUCN category for a protected area's inclusion into UNEP-World Conservation Monitoring Centre's World Database for Protected Areas. IUCN protected areas are defined as, "A clearly defined geographical space, recognized, dedicated and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values" and are categorized following a classification scheme available through USGS GAP; 5) World Database of Protected Areas (WDPA) Site Codes linking the multiple parcels of a single protected area in PAD-US and connecting them to the Global Community. PAD-US version 1.2 updates include: 1) National Park Service (NPS) boundaries and GAP Status Code review in cooperation with NPScape and NPS Lands. 2) Department of Defense (DOD) boundaries in cooperation with DOD Partners in Flight 3) Official (member and eligible only) Marine Protected Areas as aggregated and accepted by the National Oceanic and Atmospheric Administration (NOAA). 4)The Bureau of Land Management's (BLM) National Landscape Conservation System (NLCS) authoritative boundaries in cooperation with NLCS policy representitives and the Lands Division. Note: NLCS National Trails and Wild and Scenic Rivers were not updated as they are managed as Line files; however, PADUS already contained many of these protected areas. 5) Modified or newly created Wilderness Area boundaries created by The Omnibus Public Lands Act of 2009 in cooperation with Wilderness.net. 6) Protected areas in The US Virgin Islands 7) Protected areas in the Pacific Islands (Micronesia) 8) Washington Department of Fish and Wildlife protected areas The mission of the USGS Gap Analysis Program (GAP) is to provide state, regional and national assessments of the conservation status of native vertebrate species and natural land cover types and to facilitate the application of this information to land management activities. The PAD-US geodatabase is required to organize and assess the management status (i.e. apply GAP Status Codes) of elements of biodiversity protection. The goal of GAP is to keep common species common by identifying species and plant communities not adequately represented in existing conservation lands. Common species are those not currently threatened with extinction. By identifying their habitats, Gap Analysis gives land managers and policy makers the information they need to make better-informed decisions when identifying priority areas for conservation. In cooperation with UNEP-World Conservation Monitoring Centre, GAP ensures PAD-US also supports global analyses and policy decisions by maintaining World Database for Protected Areas (WDPA) Site Codes and data for International Union for the Conservation of Nature (IUCN) categorized protected areas in the United States. The USGS National Gap Analysis Program (GAP) aggregated the Protected Areas Database of the United States version 1.2 (PAD-US v1.1) with significant contributions from the Bureau of Land Management, The US Forest Service, GreenInfo Network, Applied Geographics and The Nature Conservancy, who provided a spatial dataset of public and private lands and waters secured by a conservation situation that includes an explicit level of security from future conversion and current incompatible uses. These are spatial data from TNC's Conservation Lands System (CLS) database, which is the legal database of record for all TNC land transactions (fee, easement, lease and deed restrictions). GAP seeks to increase the efficiency and accuracy of PAD-US updates by leveraging resources in protected areas data aggregation and maintenance as described in "A Map of the Future", published following the PAD-US Design Project (July, 2009) available from http://www.protectedlands.net/. Download the full FGDC metadata record ftp://ftp.gap.uidaho.edu/outgoing/PADUS1_2/LayerFiles/PADUS1_2_metadata_html.html.</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://gis1.usgs.gov/arcgis/rest/services/gap/PADUS_Owner/MapServer</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20130905</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Lisa Duarte</cntper>
+          <cntorg>U. S. Geological Survey Gap Analysis Program - University of Idaho</cntorg>
+        </cntperp>
+        <cntpos>PAD-US Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>University of Idaho</address>
+          <city>Moscow</city>
+          <state>Idaho</state>
+          <postal>83843</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>208-885-3013</cntvoice>
+        <cntemail>lduarte@uidaho.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FDGC Content Standard for Digital Geospatial Metadata and
+			Biological Data Profile</metstdn>
+    <metstdv>FDGC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

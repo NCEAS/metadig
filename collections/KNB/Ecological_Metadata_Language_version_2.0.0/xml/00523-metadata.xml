@@ -1,0 +1,205 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="tao.11654.3" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.0 eml.xsd">
+  <dataset scope="document">
+    <title>Hydro1k North American - Aspect</title>
+    <creator id="1" scope="document">
+      <organizationName>LP DAAC User Services</organizationName>
+      <address scope="document">
+        <deliveryPoint>EROS Data Center</deliveryPoint>
+        <deliveryPoint>Mundt Federal Building</deliveryPoint>
+        <city>Sioux Falls</city>
+        <administrativeArea>SD</administrativeArea>
+        <postalCode>57198</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">605-594-6116</phone>
+      <phone phonetype="fax">605-594-6963</phone>
+      <electronicMailAddress>edc@eos.nasa.gov</electronicMailAddress>
+      <onlineUrl>http://edcdaac.usgs.gov/gtopo30/hydro/</onlineUrl>
+    </creator>
+    <metadataProvider scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>jianting</givenName>
+        <surName>zhang</surName>
+      </individualName>
+      <organizationName>LTER Network Office</organizationName>
+      <positionName>SEEK Research Scientist</positionName>
+      <address scope="document">
+        <deliveryPoint>UNM Biology Department,MSC03  2020,1 University
+          of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-000</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505-277-0666</phone>
+      <electronicMailAddress>jzhang@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty scope="document">
+      <organizationName>SEEK</organizationName>
+      <onlineUrl>http://seek.ecoinformatics.org/</onlineUrl>
+      <role>Content Provider</role>
+    </associatedParty>
+    <abstract>
+      <para>HYDRO1k is a geographic database developed to provide
+        comprehensive and consistent global coverage of topographically
+        derived data sets, including streams, drainage basins and
+        ancillary layers derived from the USGS' 30 arc-second digital
+        elevation model of the world (GTOPO30). HYDRO1k provides a suite
+        of geo-referenced data sets, both raster and vector, which will
+        be of value for all users who need to organize, evaluate, or
+        process hydrologic information on a continental scale.
+        Developed at the U.S. Geological Survey's EROS Data Center , the
+        HYDRO1k project's goal is to provide to users, on a continent by
+        continent basis, hydrologically correct DEMs along with
+        ancillary data sets for use in continental and regional scale
+        modeling and analyses.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>topography</keyword>
+      <keyword>North America</keyword>
+      <keyword>Aspect</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>In the event that data from the Land Processes (LP) DAAC are
+        incorporated into your research, please supply the following
+        acknowledgment within your published work:"These data are
+        distributed by the Land Processes Distributed Active Archive
+        Center (LP DAAC), located at the U.S. Geological Survey's EROS
+        Data Center http://LPDAAC.usgs.gov  Note:  If possible, please
+        e-mail or send us reprints/citations of papers or oral
+        presentations founded on LP DAAC data (see below for email and
+        mailing address). This will help us to stay informed of how our
+        data are being utilized.  There are no restrictions for use of
+        data from the LP DAAC unless otherwise expressly stated.</para>
+    </intellectualRights>
+    <distribution scope="document">
+      <online>
+        <url function="download">http://edcftp.cr.usgs.gov/pub/data/gtopo30hydro/na_asp.tar</url>
+      </online>
+    </distribution>
+    <coverage scope="document">
+      <geographicCoverage scope="document">
+        <geographicDescription>North America</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>180.0</eastBoundingCoordinate>
+          <northBoundingCoordinate>90.0</northBoundingCoordinate>
+          <southBoundingCoordinate>-90.0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <contact scope="document">
+      <references>1</references>
+    </contact>
+    <access authSystem="knb" order="denyFirst" scope="document">
+      <allow>
+        <principal>public</principal>
+        <permission>read</permission>
+      </allow>
+    </access>
+    <spatialRaster scope="document">
+      <entityName>hydro1k_north_america_aspect</entityName>
+      <physical scope="document">
+        <objectName />
+        <size unit="byte">41549391</size>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <binaryRasterFormat>
+            <rowColumnOrientation>row</rowColumnOrientation>
+            <multiBand>
+              <nbands>1</nbands>
+              <layout>bil</layout>
+            </multiBand>
+            <nbits>16</nbits>
+            <byteorder>big-endian</byteorder>
+            <skipbytes>0</skipbytes>
+            <bandrowbytes>18204</bandrowbytes>
+            <totalrowbytes>18204</totalrowbytes>
+            <bandgapbytes>0</bandgapbytes>
+          </binaryRasterFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">ecogrid://knb/hydro1k.200735414215858.1</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute scope="document">
+          <attributeName>Aspect</attributeName>
+          <attributeDefinition>The aspect data set describes the
+            direction of maximum rate of change in the elevations
+            between each cell and its eight neighbors. It can
+            essentially be thought of as the slope direction. It is
+            measured in positive integer degrees from 0 to 360, measured
+            clockwise from north. Aspects of cells of zero slope (flat
+            areas) are assigned values of -1.</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">-9999</minimum>
+                  <maximum exclusive="false">35998</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999</code>
+            <codeExplanation>numberic value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <spatialReference scope="document">
+        <horizCoordSysDef name="Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area">
+          <projCoordSys>
+            <geogCoordSys name="GCS_Sphere_ARC_INFO">
+              <datum name="D_Sphere_ARC_INFO" />
+              <spheroid denomFlatRatio="0.0" name="Sphere_ARC_INFO" semiAxisMajor="6370997.0" />
+              <primeMeridian longitude="0" name="Greenwich" />
+              <unit name="degree" />
+            </geogCoordSys>
+            <projection name="Lambert_Azimuthal_Equal_Area">
+              <parameter name="False_Easting" value="0.0" />
+              <parameter name="False_Northing" value="0.0" />
+              <parameter name="Central_Meridian" value="-100" />
+              <parameter name="Latitude_Of_Origin" value="45" />
+              <unit name="meter" />
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <georeferenceInfo>
+        <cornerPoint>
+          <xCoordinate>-4462000.00000000000000</xCoordinate>
+          <yCoordinate>4384000.00000000000000</yCoordinate>
+          <pointInPixel>center</pointInPixel>
+          <corner>Upper Left</corner>
+        </cornerPoint>
+      </georeferenceInfo>
+      <horizontalAccuracy>
+        <accuracyReport>unknown</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>unknown</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1000</cellSizeXDirection>
+      <cellSizeYDirection>1000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Upper Left</rasterOrigin>
+      <rows>8384</rows>
+      <columns>9102</columns>
+      <verticals>1</verticals>
+      <cellGeometry>pixel</cellGeometry>
+      <scaleFactor>0.01</scaleFactor>
+      <offset>0</offset>
+    </spatialRaster>
+  </dataset>
+</ns0:eml>

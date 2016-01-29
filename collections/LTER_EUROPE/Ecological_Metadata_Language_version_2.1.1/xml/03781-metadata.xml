@@ -1,0 +1,124 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-europe-deims.13519.15039" system="http://data.lter-europe.net/deims" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd">
+
+<access authSystem="knb" order="allowFirst" scope="document">
+  <allow>
+  <principal>uid=Hungary, o=LTER-Europe, dc=ecoinformatics, dc=org</principal>
+  <permission>all</permission>
+</allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset id="HU_SI001199_lai_biomass_20130508">
+<title>Biomass of vegetation and LAI of grasslands in Orgov&#225;ny LTER (KISKUN LTER)</title>
+<creator>
+<individualName>
+<givenName>Mikl&#243;s</givenName>
+<surName>Kert&#233;sz</surName>
+</individualName>
+<organizationName>MTA Centre for Ecological Research</organizationName>
+<electronicMailAddress>kertesz.miklos@okologia.mta.hu</electronicMailAddress>
+</creator>
+<metadataProvider>
+<individualName>
+<givenName>Mikl&#243;s</givenName>
+<surName>Kert&#233;sz</surName>
+</individualName>
+<organizationName>MTA Centre for Ecological Research</organizationName>
+<electronicMailAddress>kertesz.miklos@okologia.mta.hu</electronicMailAddress>
+</metadataProvider>
+<metadataProvider>
+<individualName>
+<givenName>G&#225;bor</givenName>
+<surName>&#211;nodi</surName>
+</individualName>
+<organizationName>aaa LTER</organizationName>
+<electronicMailAddress>onodi.gabor@okologia.mta.hu</electronicMailAddress>
+</metadataProvider>
+<pubDate>2013-05-08</pubDate>
+<language>eng</language>
+<abstract>
+<section>
+<para>The aim of the yearly biomass and LAI measurements in the grasslands is to study the effect of weather to the plant production along a productivity gradient. Aboveground living plant biomass and LAI data from 24-30 grassland patches in Orgov&#225;ny region of Kiskuns&#225;g (Kiskuns&#225;g National Park) along a productivity gradient from open sand grassland to reedbed, yearly from 2003 to 2012, were sampled approx. at the time of maximum aboveground biomass. The size of the patches are 20 to 50 sq-m, and each year one 0.5 by 0.5 m sampling unit is selected within each patch. The patches are permanent ones; some of them were omitted and replaced because of disturbance in several years. The aboveground living plant biomass data of separate species are submitted in HU_SI001199_species_biomass_20130508 dataset, and the EUNIS habitat types of the sampled patches are submitted in HU_SI001199_eunis_habitat_type_20130508 dataset.</para>
+</section>
+</abstract>
+<keywordSet>
+<keyword>aboveground biomass</keyword>
+<keyword>LAI (Leaf Area Index)</keyword>
+<keywordThesaurus>EnvEurope Thesaurus;2012-08-13;version 3.0;http://vocabs.lter-europe.net/EnvThes3.html</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<section>
+<title>Metadata date</title>
+<para>2013-07-08</para>
+</section>
+<section>
+<title>Dataset access and use constraints</title>
+<para>Principal:EnvEurope (LTER-Europe) has granted a permission of type:Free for access and use upon request</para>
+</section>
+</additionalInfo>
+<distribution>
+<online>
+<onlineDescription>Grassland LAI and biomass data from Orgov&#225;ny LTER site</onlineDescription>
+<url function="information">http://kiskun.lter.hu/en/node/775</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>
+Orgovany Site, KISKUN LTER</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>19.45456</westBoundingCoordinate>
+<eastBoundingCoordinate>19.50039</eastBoundingCoordinate>
+<northBoundingCoordinate>46.79747</northBoundingCoordinate>
+<southBoundingCoordinate>46.76644</southBoundingCoordinate>
+<boundingAltitudes>
+<altitudeMinimum>102</altitudeMinimum>
+<altitudeMaximum>110</altitudeMaximum>
+<altitudeUnits>meter</altitudeUnits>
+</boundingAltitudes>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2003-06-11</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2012-07-25</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Mikl&#243;s</givenName>
+<surName>Kert&#233;sz</surName>
+</individualName>
+<organizationName>MTA Centre for Ecological Research</organizationName>
+<electronicMailAddress>kertesz.miklos@okologia.mta.hu</electronicMailAddress>
+</contact>
+<methods>
+<methodStep>
+<description>
+<section>
+<para>
+<literalLayout>Biomass and LAI in grasslands was measured by harvesting all herbs and plant material over a small parcel of 0.25 m2. In mown grassland, sampling was made right before mowing. Otherwise, the sampling was made approx.at the time of the maximum LAI. As much as possible, clipping was made right at the level of the ground. All plant material was dried at 60&#8304;C until constant weight.From the dried material three fractions were separated: (1) plant material which was dead in the time of clipping, (2) non-photosynthesising living material, and (3) photosynthesising material.&#160;Biomass was calculated by summing up the dry weight of all living material, and expressed in grams / m2.&#160;For LAI measurement, the photosynthesising material was separated into groups consisting parts of seemingly similar morphology, and therefore specific leaf area (SLA). Then, the groups are weighted, and subsamples of known weights are taken for area measurement, applying high resolution scanner.&#160;Calculation of SLA and LAI: The subsamples of known weight and area provide the SLA in m2 / grams for the morphology groups, and the total area of the groups can be calculated by multiplying their SLA and weight. Sum of the areas of the morphology groups divided by the area of sampling unit provides LAI in m2 / m2.</literalLayout>
+</para>
+</section>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<section>
+<para>The sample were taken in grasslands of Orgov&#225;ny LTER site of KISKUN LTER. The data are considered to be representative for the grasslands of KISKUN LTER. Aboveground living plant biomass and LAI data from 24-30 grassland patches in Orgov&#225;ny region of Kiskuns&#225;g (Kiskuns&#225;g National Park) along a productivity gradient from open sand grassland to reedbed, yearly from 2003 to 2012, were sampled approx. at the time of maximum aboveground biomass. The size of the patches are 20 to 50 sq-m, and each year one 0.5 by 0.5 m sampling unit is selected within each patch. The patches are permanent ones; some of them were omitted and replaced because of disturbance in several years. The aboveground living plant biomass data of separate species are submitted in HU_SI001199_species_biomass_20130508 dataset, and the EUNIS habitat types of the sampled patches are submitted in HU_SI001199_eunis_habitat_type_20130508 dataset.</para>
+</section>
+</description>
+</studyExtent>
+<samplingDescription>annually</samplingDescription>
+</sampling>
+</methods>
+</dataset>
+</ns0:eml>

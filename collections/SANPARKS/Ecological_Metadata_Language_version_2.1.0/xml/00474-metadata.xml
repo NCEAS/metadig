@@ -1,0 +1,301 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1547.12" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Elephant tracking dataset for the project entitled Population dynamics and elephant movements within the Associated Private Nature Reserves a(APNR) adjoining the Kruger National Park</title>
+ <creator id="1350563249948"> <individualName><givenName>Iain</givenName>
+ <surName>Douglas-Hamilton</surName>
+ </individualName>
+ <organizationName>Save the Elephants</organizationName>
+ <positionName>Founder and CEO</positionName>
+ <address><deliveryPoint>P.O. Box 54667</deliveryPoint>
+ <city>Nairobi</city>
+ <postalCode>00200</postalCode>
+ <country>Kenya</country>
+ </address>
+ <phone phonetype="voice">+254720441178</phone>
+ <electronicMailAddress>iain@avehtheelephants.org</electronicMailAddress>
+ </creator>
+ <associatedParty id="1350564988628"><individualName><givenName>Jake</givenName>
+ <surName>Wall</surName>
+ </individualName>
+ <organizationName>University of British Columbia</organizationName>
+ <positionName>Tracking System Manager, STE</positionName>
+ <address><deliveryPoint>Lab for Advanced Spatial Analysis, Department of Geography</deliveryPoint>
+ <deliveryPoint>1984 West Mall, Vancouver B.C.</deliveryPoint>
+ <city>Vancouver</city>
+ <postalCode>V6T 1Z2</postalCode>
+ <country>Canada</country>
+ </address>
+ <electronicMailAddress>walljcg@gmail.com</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty id="1350564928482"><individualName><givenName>Michelle</givenName>
+ <surName>Henley</surName>
+ </individualName>
+ <organizationName>Transboundary Elephant Research Programme, STE-SA</organizationName>
+ <address><deliveryPoint>PO Box 960</deliveryPoint>
+ <city>Hoedspruit</city>
+ <postalCode>1380</postalCode>
+ </address>
+ <phone phonetype="voice">+27710063900</phone>
+ <electronicMailAddress>michelephant@savetheelephants.org</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </associatedParty>
+ <abstract><para>The dataset includes the GPS tracking data of all elephants collared within the Associated Private Nature Reserves between 2002 and 2008. The APNR is located to the east of the Drakensburg escarpment on the western boundary of the KNP and consists of the Klaserie, Timbavati, Umbabat and Balule Private Nature Reserves (24&#186; 03&#8217;- 24&#186; 33&#8217; S; 30&#186; 49&#8217; &#8211; 31&#186; 29&#8217;E), comprising approximately 1,825 km2. A total of 29 animals were collared with either GMS-GPS collars or GPS satellite which were all manufactured by the same company. The precision of the GSM-GPS collars (Hawk 105 collars, African Wildlife Tracking, South Africa, Pretoria) were tested both within the APNR and the Kruger National Park and found to be &lt;27.8m for 95% of the records.  Field testing of the satellite tracking devices (model AWT SM2000E, African Wildlife Tracking, South Africa, Pretoria) had a root mean square error of &lt;30 m with expected location success between 88-96% when tested in the field.  The final elephant tracking data set was obtained via a &#8220;data downloader&#8221; supplying near real-time entry of data into a geodatabase while a data filter removed obviously erroneous GPS fixes, based on a maximum rate of travel.  Data gaps due to field conditions such as thick vegetation, topography, satellite positioning or improper collar angles were also filtered until a cleaned dataset was imported. Seven of the study animals were recollared between 2002-2008, while 17 of these collars are still active (2012). Collars were deployed on seven females, 17 prime bulls (35-55 years of sage at present), three adults (25-35 years of age at present), one young adult (15-25 years of age at present) and one sub-adult (5-15 years of age at present).</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Kruger National Park, South Africa</keyword>
+ <keyword>Elephants, Tracking data</keyword>
+ </keywordSet>
+ <intellectualRights><para>Please contact the Principal Investigator is you would like to use this data</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>APNR and Kruger</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>30.82168</westBoundingCoordinate>
+ <eastBoundingCoordinate>32.64513</eastBoundingCoordinate>
+ <northBoundingCoordinate>25.52952</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.32868</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2003</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2011-10-25</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Loxodonta</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Africana</taxonRankValue>
+ <commonName>Elephant</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1350565101822"><individualName><givenName>Sam</givenName>
+ <surName>Ferreira</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Large Mammal Ecologist</positionName>
+ <address><deliveryPoint>Scientific Services</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ </address>
+ <phone phonetype="voice">+27 13 7354189</phone>
+ <electronicMailAddress>sam.ferreira@sanparks.org</electronicMailAddress>
+ </contact>
+ <contact id="1351158151591"><individualName><givenName>Willem</givenName>
+ <surName>Nortier</surName>
+ </individualName>
+ <organizationName>Umbabat Private Nature Reserve</organizationName>
+ <positionName>General Manager</positionName>
+ <phone phonetype="voice">+27 15 7932436</phone>
+ </contact>
+ <dataTable id="1351160068325"><entityName>TimbavatiCollars.txt</entityName>
+ <physical id="1351159626828"><objectName>TimbavatiCollars.txt</objectName>
+ <size unit="byte">8649</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1548.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=michelephants,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1351160068340"><attributeName>Collar type</attributeName>
+ <attributeDefinition>all tags are GPS-collars, with a VHF radio beacon, manufactured by African Wildlife Tracking, Pretoria, South Africa</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Collar type</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068356"><attributeName>Collar id</attributeName>
+ <attributeDefinition>the manufacturers code for each collar</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>collar code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068372"><attributeName>VHF frequency</attributeName>
+ <attributeDefinition>radio beacon frequency in MHz</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>megahertz</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068387"><attributeName>Activity</attributeName>
+ <attributeDefinition>collar active (1) or inactive (0)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>active</definition>
+ </codeDefinition>
+ <codeDefinition><code>0</code>
+ <definition>inactive</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068403"><attributeName>Animal id</attributeName>
+ <attributeDefinition>study animal code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068418"><attributeName>Name</attributeName>
+ <attributeDefinition>name of the study animal</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068434"><attributeName>Sex</attributeName>
+ <attributeDefinition>Male or female</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>male or female</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068450"><attributeName>Age class</attributeName>
+ <attributeDefinition>current age brackets as indicated on collar deployment sheet</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Age</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068465"><attributeName>Collaring location</attributeName>
+ <attributeDefinition>Loctaion of where the collar was fitted</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068481"><attributeName>Collar deployment time (GMT)</attributeName>
+ <attributeDefinition>Date and time when the collar was deployed</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy-mm-dd hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068496"><attributeName>Data_starts (GMT)</attributeName>
+ <attributeDefinition>Date and time from when data were gathered, typically 1-2 hours after the collar was deployed</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy-mm-dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068512"><attributeName>Data_stops (GMT)</attributeName>
+ <attributeDefinition>Date and time when data after which data were no longer gathered from a particular collar on a particular animal.  The collar may have continued to gather data once removed or been redeployed on another animal at a later stage (in which another &#8220;Data starts&#8221; date will be entered under the new combination of animal and collar)</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy-mm-dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068528"><attributeName>Date_off_or_removed</attributeName>
+ <attributeDefinition>Date and time from when the collar was recovered either from the study animal directly or in the field</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy-mm-dd hh:mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351160068543"><attributeName>Notes</attributeName>
+ <attributeDefinition>Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>39</numberOfRecords>
+ </dataTable>
+ <dataTable id="1351166001173"><entityName>Timbivaticollardata.txt</entityName>
+ <physical id="1351165909726"><objectName>Timbivaticollardata.txt</objectName>
+ <size unit="byte">18678091</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1550.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=michelephants,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1351166001189"><attributeName>OBJECTID</attributeName>
+ <attributeDefinition>Id</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351166001204"><attributeName>AnimalId</attributeName>
+ <attributeDefinition>This links to the id in  the Collat table</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Id</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351166001220"><attributeName>CHRONO</attributeName>
+ <attributeDefinition>CHRONO</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351166001236"><attributeName>Time</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351166001251"><attributeName>LAT</attributeName>
+ <attributeDefinition>Latitudinal position</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1351166001267"><attributeName>LON</attributeName>
+ <attributeDefinition>Longitudinal position</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>369173</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

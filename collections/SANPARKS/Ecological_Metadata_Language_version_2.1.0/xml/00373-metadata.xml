@@ -1,0 +1,115 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="Nikkis.3.2" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=victoriag,o=SAEON,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=tonys,o=SAEON,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset> <title>Rainfall Raptors view</title>
+ <creator id="1279192773128"> <individualName><salutation>Dr.</salutation>
+ <givenName>Tony</givenName>
+ <surName>Swemmer</surName>
+ </individualName>
+ <organizationName>SAEON</organizationName>
+ <address><deliveryPoint>P.O. Box 22</deliveryPoint>
+ <city>Phalaborwa</city>
+ <postalCode>1390</postalCode>
+ </address>
+ <phone phonetype="voice">013 735 3540</phone>
+ <phone phonetype="fax">013 7353544</phone>
+ <electronicMailAddress>tony@saeon.ac.za</electronicMailAddress>
+ </creator>
+ <abstract><para>Rainfall recorded by a home owner at Raptors View housing estate, Hoedspruit</para>
+ </abstract>
+ <keywordSet><keyword>SAEON, South Africa</keyword>
+ <keyword>Rainfall, Hoedspruit</keyword>
+ <keyword>Ndlovu SAEON Node, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights><para>1) This data is publicly available 2) Any publications, thesis, reports etc stemming from this data must be sent to SAEON Databank for records to be kept with the data 3) SAEON databank must be acknowledged for facilitating access Digital and non-digital data and metadata belonging to this dataset are provided on an "as-is" basis with no guarantee as to data quality. Neither the data provider nor the staff of South African Environmental Observation Network (SAEON) may be held liable for any loss of any sort resulting from use of data and/metadata provided.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Raptors View</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>30.951</westBoundingCoordinate>
+ <eastBoundingCoordinate>30.981951</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.356</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.356</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2004</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2007</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1279192773128</references>
+ </contact>
+ <dataTable id="1283170500272"><entityName>Rainfall_Raptors View.txt</entityName>
+<physical id="1283170217136"><objectName>Rainfall_Raptors View.txt</objectName>
+<size unit="byte">25875</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/Nikkis.5.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1283170500287"><attributeName>Day</attributeName>
+<attributeDefinition>Day of the month</attributeDefinition>
+<measurementScale><ordinal><nonNumericDomain><textDomain><definition>Day of the month</definition>
+</textDomain>
+</nonNumericDomain>
+</ordinal>
+</measurementScale>
+</attribute>
+<attribute id="1283170500303"><attributeName>Year</attributeName>
+<attributeDefinition>Year</attributeDefinition>
+<measurementScale><ordinal><nonNumericDomain><textDomain><definition>Year</definition>
+</textDomain>
+</nonNumericDomain>
+</ordinal>
+</measurementScale>
+</attribute>
+<attribute id="1283170500319"><attributeName>Month</attributeName>
+<attributeDefinition>Month</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Month</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1283170500334"><attributeName>mm</attributeName>
+<attributeDefinition>Rainfall</attributeDefinition>
+<measurementScale><ratio><unit><customUnit>milimeter</customUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1283170500350"><attributeName>Notes</attributeName>
+<attributeDefinition>Notes</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Notes</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>1462</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="milimeter" multiplierToSI=" " name="milimeter" parentSI="mole" unitType="amount"><description>milimeter</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</ns0:eml>

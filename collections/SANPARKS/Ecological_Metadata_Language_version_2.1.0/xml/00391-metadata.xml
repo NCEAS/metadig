@@ -1,0 +1,351 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.142.5" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>cn=RegionalEcologists,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Table Mountain National Park census data.</title>
+ <creator id="1251186789403" scope="document"> <individualName> <surName>SANParks</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Regional Ecologists</positionName>
+ <address scope="document"> <deliveryPoint>Private Bag x402, Skukuza, 1350 South frica</deliveryPoint>
+ </address>
+ </creator>
+ <keywordSet><keyword>SANParks, South Africa</keyword>
+ <keyword>Table Mountain National Park, South Africa</keyword>
+ <keyword>Census data</keyword>
+ </keywordSet>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Table Mountain National Park</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-90.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>90.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-45.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1998</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2004-02-13</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Alcelaohus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>beselaphus</taxonRankValue>
+ <commonName>Grey rhebuck</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Damaliscus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>pygargus</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Equus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>burchellii</taxonRankValue>
+ <commonName>Bontebok</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Palea</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>capreolus</taxonRankValue>
+ <commonName>Zebra</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Papio</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>hamadryas</taxonRankValue>
+ <commonName>Baboon</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Struthio</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>camelus</taxonRankValue>
+ <commonName>Red hartebeest</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Taurotragus</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>oryx</taxonRankValue>
+ <commonName>Ostrich</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact scope="document"> <references>1251186789403</references>
+ </contact>
+ <dataTable id="1251187439134" scope="document"> <entityName>TMNPCensuscodes.txt</entityName>
+ <physical id="1251187437462" scope="document"> <objectName>TMNPCensuscodes.txt</objectName>
+ <size unit="byte">148</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.139.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1251187439150" scope="document"> <attributeName>ID</attributeName>
+ <attributeDefinition>The ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187439166" scope="document"> <attributeName>Species</attributeName>
+ <attributeDefinition>The names of species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Bontebok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grey rhebok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Red hartebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eland</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Baboon</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Fish eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187439181" scope="document"> <attributeName>code</attributeName>
+ <attributeDefinition>The code</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>10</numberOfRecords>
+ </dataTable>
+ <dataTable id="1251187667389" scope="document"> <entityName>TMNPCensusdata.txt</entityName>
+ <physical id="1251187663779" scope="document"> <objectName>TMNPCensusdata.txt</objectName>
+ <size unit="byte">6235</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.140.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1251187667404" scope="document"> <attributeName>ID</attributeName>
+ <attributeDefinition>The ID</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667420" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667436" scope="document"> <attributeName>Transect</attributeName>
+ <attributeDefinition>Transect</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667451" scope="document"> <attributeName>Lat S</attributeName>
+ <attributeDefinition>Lat S</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667467" scope="document"> <attributeName>Long E</attributeName>
+ <attributeDefinition>Long E</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667482" scope="document"><attributeName>Species</attributeName>
+ <attributeDefinition>The name of species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><entityCodeList><entityReference>1251187439134</entityReference>
+ <valueAttributeReference>1251187439181</valueAttributeReference>
+ <definitionAttributeReference>1251187439166</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667498" scope="document"> <attributeName>Total</attributeName>
+ <attributeDefinition>The totals</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667514" scope="document"> <attributeName>Juvenile</attributeName>
+ <attributeDefinition>Juvenile</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667529" scope="document"> <attributeName>L/R</attributeName>
+ <attributeDefinition>L/R</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187667545" scope="document"> <attributeName>comments</attributeName>
+ <attributeDefinition>Comments</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>150</numberOfRecords>
+ </dataTable>
+ <dataTable id="1251187802969" scope="document"> <entityName>TMNPTotals.txt</entityName>
+ <physical id="1251187800204" scope="document"> <objectName>TMNPTotals.txt</objectName>
+ <size unit="byte">615</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/peggym.141.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1251187802985" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>The date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy/mm/dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187803001" scope="document"> <attributeName>Species</attributeName>
+ <attributeDefinition>The name of species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Baboon</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Bontebok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Eland</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Grey rhebok</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Mountain zebra</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Ostrich</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Red hartebeest</code>
+ <definition>species</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Fish eagle</code>
+ <definition>species</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187803016" scope="document"> <attributeName>SumOfTotal</attributeName>
+ <attributeDefinition>Some of the total</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1251187803032" scope="document"> <attributeName>SumOfJuvenile</attributeName>
+ <attributeDefinition>Sume of the juveniles</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,879 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.341.11" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Kruger National Park river water quality data</title>
+ <creator id="1086295214645" scope="document"> <organizationName>DWAF</organizationName>
+ <address scope="document"> <country>South Africa</country>
+ </address>
+ </creator>
+ <associatedParty id="1091524025738" scope="document"> <individualName> <givenName>Marica</givenName>
+ <surName>Erasmus</surName>
+ </individualName>
+ <organizationName>DWAF</organizationName>
+ <positionName>Quality</positionName>
+ <electronicMailAddress>maricae@dwaf.gov.za</electronicMailAddress>
+ <onlineUrl>http://www.dwaf.gov.za</onlineUrl>
+ <role>Originator</role>
+ </associatedParty>
+ <abstract> <para>All the rivers that flow  through the KNP originate outside and to the west of the knp where they are highlly utilised. They are crucially important for the conservation of the unique natural environments and biodiversity of the KNP.</para>
+ </abstract>
+ <keywordSet> <keyword>water quality</keyword>
+ <keyword>KNP river</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ <keyword>Kruger National Park, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>This data is collected and analysed by the KNp and the passed on to DWAF. There are no restrictions on the usage of this data</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>B9H002 Silwervisdam</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.662711</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.662711</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>B9H003 Kanniedooddam</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.662711</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.662711</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>A9H011 Pafuri</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.662711</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.662711</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>A9H008 Shidzivane</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.662711</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.662711</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>B8H018 Engelhard dam</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.662711</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.662711</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>B8H028 Mahlangene</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.662711</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.662711</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>B7H017 Balule</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.662711</northBoundingCoordinate>
+ <southBoundingCoordinate>-22.662711</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>B7H017 Mamba</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.375</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.375</eastBoundingCoordinate>
+ <northBoundingCoordinate>-23.625</northBoundingCoordinate>
+ <southBoundingCoordinate>-23.625</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>X3h015 Lower Sabie</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.5</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.5</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>X3H006 Perry;s Farm</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.625</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.625</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>X2H016 Ten Bosch</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.5</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.5</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.875</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.875</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>X2H046 Riverside</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.5</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.5</eastBoundingCoordinate>
+ <northBoundingCoordinate>-25.25</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.25</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>X2H006 karino</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.75</eastBoundingCoordinate>
+ <northBoundingCoordinate>-25.25</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.25</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1983-01-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2003-01-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1091523847895" scope="document"> <individualName> <salutation>Mr</salutation>
+ <givenName>Jacque</givenName>
+ <surName>Venter</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Biotechnician</positionName>
+ <address scope="document"> <country>South Africa</country>
+ </address>
+ <phone phonetype="voice">013 735 6519</phone>
+ <electronicMailAddress>jacquev@sanparks.org</electronicMailAddress>
+ </contact>
+ <contact id="1086304783995" scope="document"> <individualName> <givenName>Judith</givenName>
+ <surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>SA</country>
+ </address>
+ <phone phonetype="voice">+0927 13 7354309</phone>
+ <phone phonetype="fax">+0927 13 7354055</phone>
+ <electronicMailAddress>judithk@sanparks.org</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Sampling and analytical methods</title>
+ <para>Rivers are sampled on a two-weekly basis at a number of stations. the samples are taken and analysed according to the methods applied by the Department of Water Affairs and Forestry(DWAF) fro their national Water Quality Monitoring Programme. the samples are sent to the Institute for Resource Quality Studies in pretoria for analyses.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1211440609109" scope="document"> <entityName>Waterqualitystations.txt</entityName>
+  <physical id="1211440608357" scope="document"> <objectName>Waterqualitystations.txt</objectName>
+ <size unit="byte">465</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.906.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211440609124" scope="document"> <attributeName>Stationcode</attributeName>
+ <attributeDefinition>Station code</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Codes used for the quality stations</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211440609140" scope="document"> <attributeName>name</attributeName>
+ <attributeDefinition>Name of the guaging weir</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211440609156" scope="document"> <attributeName>river</attributeName>
+ <attributeDefinition>River on which the gauging weir occurs</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>River names of the KNP</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>19</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211441011767" scope="document"> <entityName>WaterqualityTPCvalues.txt</entityName>
+  <physical id="1211441011235" scope="document"> <objectName>WaterqualityTPCvalues.txt</objectName>
+ <size unit="byte">627</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.907.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211441011783" scope="document"> <attributeName>Variable</attributeName>
+ <attributeDefinition>Variable for which the TPC set</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Variables for which TPC limits have been set</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441011798" scope="document"> <attributeName>Luvuvhu</attributeName>
+ <attributeDefinition>Limits for each variable for the Luvuvhu River</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441011814" scope="document"> <attributeName>Shingwedzi</attributeName>
+ <attributeDefinition>Maximum limits for each variable for station along the Shingwedzi river</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441011830" scope="document"> <attributeName>Letaba</attributeName>
+ <attributeDefinition>Maximum limits for each variable for stations along the Letabab River</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441011845" scope="document"> <attributeName>Olifants</attributeName>
+ <attributeDefinition>Maximum limits for each variable for stations along the Olifants River</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441011861" scope="document"> <attributeName>Sabie</attributeName>
+ <attributeDefinition>Maximum limits for each variable for stations along the Sabie River</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441011877" scope="document"> <attributeName>Crocodile</attributeName>
+ <attributeDefinition>Maximum limits for variables for stations along the Crocodile River</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>22</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211441579326" scope="document"> <entityName>WaterQaulitypre2000.txt</entityName>
+  <physical id="1211441578765" scope="document"> <objectName>waterQaulitypre2000.txt</objectName>
+ <size unit="byte">485150</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.908.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211441579342" scope="document"> <attributeName>DATUM</attributeName>
+ <attributeDefinition>Date on which the variable was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yy.mm.dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579358" scope="document"> <attributeName>STATION</attributeName>
+ <attributeDefinition>Station at which the variable was recorded</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1211440609109</entityReference>
+ <valueAttributeReference>1211440609124</valueAttributeReference>
+ <definitionAttributeReference>1211440609140</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579373" scope="document"> <attributeName>EC</attributeName>
+ <attributeDefinition>Electrical conductivity</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>ms/m</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579389" scope="document"> <attributeName>PH</attributeName>
+ <attributeDefinition>Ph</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579404" scope="document"> <attributeName>NA</attributeName>
+ <attributeDefinition>Sodium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579420" scope="document"> <attributeName>MG</attributeName>
+ <attributeDefinition>Magnesium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579435" scope="document"> <attributeName>CA</attributeName>
+ <attributeDefinition>Calcium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579451" scope="document"> <attributeName>F</attributeName>
+ <attributeDefinition>Flouride</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579467" scope="document"> <attributeName>CL</attributeName>
+ <attributeDefinition>Chloride</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579482" scope="document"> <attributeName>NO3</attributeName>
+ <attributeDefinition>Nitrate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579498" scope="document"> <attributeName>SO4</attributeName>
+ <attributeDefinition>Sulphate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579513" scope="document"> <attributeName>PO4P</attributeName>
+ <attributeDefinition>Phosphate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579529" scope="document"> <attributeName>SI</attributeName>
+ <attributeDefinition>Silicon</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579545" scope="document"> <attributeName>K</attributeName>
+ <attributeDefinition>Potassium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579560" scope="document"> <attributeName>NH4</attributeName>
+ <attributeDefinition>Ammonium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579576" scope="document"> <attributeName>TDS</attributeName>
+ <attributeDefinition>Total dissolved solids</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579591" scope="document"> <attributeName>NH3(ug/l)</attributeName>
+ <attributeDefinition>Ammonium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211441579607" scope="document"> <attributeName>NO3NO2N</attributeName>
+ <attributeDefinition>Nitrate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>4724</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211442099996" scope="document"> <entityName>Waterquality2000_2004.txt</entityName>
+  <physical id="1211442099480" scope="document"> <objectName>waterquality2000_2004.txt</objectName>
+ <size unit="byte">89081</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.909.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211442100011" scope="document"> <attributeName>DATUM</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yy.mm.dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100027" scope="document"> <attributeName>STATION</attributeName>
+ <attributeDefinition>Station at which variable was recorded</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1211440609109</entityReference>
+ <valueAttributeReference>1211440609124</valueAttributeReference>
+ <definitionAttributeReference>1211440609140</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100043" scope="document"> <attributeName>EC</attributeName>
+ <attributeDefinition>Electrical conductivity</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>ms/m</customUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100058" scope="document"> <attributeName>PH</attributeName>
+ <attributeDefinition>PH</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100074" scope="document"> <attributeName>NA</attributeName>
+ <attributeDefinition>Sodium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100090" scope="document"> <attributeName>MG</attributeName>
+ <attributeDefinition>Magnesium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100105" scope="document"> <attributeName>CA</attributeName>
+ <attributeDefinition>Calcium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100121" scope="document"> <attributeName>F</attributeName>
+ <attributeDefinition>Flouride</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100136" scope="document"> <attributeName>CL</attributeName>
+ <attributeDefinition>Chloride</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100152" scope="document"> <attributeName>NO3</attributeName>
+ <attributeDefinition>Nitrate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100168" scope="document"> <attributeName>SO4</attributeName>
+ <attributeDefinition>Sulphate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100183" scope="document"> <attributeName>PO4P</attributeName>
+ <attributeDefinition>Phosphate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100199" scope="document"> <attributeName>SI</attributeName>
+ <attributeDefinition>Silicon</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100215" scope="document"> <attributeName>K</attributeName>
+ <attributeDefinition>Potassium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100230" scope="document"> <attributeName>NH4</attributeName>
+ <attributeDefinition>Ammonium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100246" scope="document"> <attributeName>TDS</attributeName>
+ <attributeDefinition>Total dissolved solids</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100261" scope="document"> <attributeName>NH3(ug/l)</attributeName>
+ <attributeDefinition>Ammonium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211442100277" scope="document"> <attributeName>NO3NO2N</attributeName>
+ <attributeDefinition>Ammonium nitrate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>887</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211449072123" scope="document"> <entityName>Waterquality2005-2007.txt</entityName>
+  <physical id="1211449071654" scope="document"> <objectName>waterquality2005-2007.txt</objectName>
+ <size unit="byte">35264</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.910.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211449072138" scope="document"> <attributeName>datum</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yy.mm.dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072154" scope="document"> <attributeName>Station</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1211440609109</entityReference>
+ <valueAttributeReference>1211440609124</valueAttributeReference>
+ <definitionAttributeReference>1211440609140</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072169" scope="document"> <attributeName>PH</attributeName>
+ <attributeDefinition>PH</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072185" scope="document"> <attributeName>EC</attributeName>
+ <attributeDefinition>Electric conductivity</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>ms/m</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072201" scope="document"> <attributeName>NA</attributeName>
+ <attributeDefinition>Sodium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerCubicMeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072216" scope="document"> <attributeName>MG</attributeName>
+ <attributeDefinition>magnesium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072232" scope="document"> <attributeName>CA</attributeName>
+ <attributeDefinition>Calcium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072248" scope="document"> <attributeName>F</attributeName>
+ <attributeDefinition>Flouride</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072263" scope="document"> <attributeName>CL</attributeName>
+ <attributeDefinition>Chloride</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072279" scope="document"> <attributeName>NO3</attributeName>
+ <attributeDefinition>Nitrate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072294" scope="document"> <attributeName>SO4</attributeName>
+ <attributeDefinition>Sulphate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072310" scope="document"> <attributeName>PO4P</attributeName>
+ <attributeDefinition>Phosphate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072326" scope="document"> <attributeName>CACO3</attributeName>
+ <attributeDefinition>Calcium carbonate</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072341" scope="document"> <attributeName>Si</attributeName>
+ <attributeDefinition>Silicon</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072357" scope="document"> <attributeName>NH4</attributeName>
+ <attributeDefinition>Ammonium</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072373" scope="document"> <attributeName>TDS</attributeName>
+ <attributeDefinition>Total dissolved solids</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211449072388" scope="document"> <attributeName>NH3(ug/l)</attributeName>
+ <attributeDefinition>Ammoniak</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>482</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="Conductivity" name="Conductivity" parentSI="metersPerSecond" unitType="ms/m"> <description>Conductivity</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="mg/l" name="mg/l" parentSI="ampere" unitType="mg/l"> <description>mg/l</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="Ug/l" name="Ug/l" parentSI="ampere" unitType="micogramsperliter"> <description>Ug/l</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="ms/m" multiplerToSI="/1000" name="ms/m" parentSI="siemen" unitType="conductance"> <description>ms/m</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </ns0:eml>

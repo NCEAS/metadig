@@ -1,0 +1,197 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.129.6" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.0 eml.xsd"> <dataset scope="document"> <title>Veld Condition Assesment 1996 woody survey</title>
+ <creator id="1086295214645" scope="document"> <individualName> <surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ </creator>
+ <abstract> <para>In 1996 a woody survey was conducetd at some of the exisiting VCA sites in the KNP. The tree species height and canopy cover were measured at 117 of the exisiting VCA sites</para>
+ </abstract>
+ <keywordSet> <keyword>Woody vegetation</keyword>
+ <keyword>VCA</keyword>
+ </keywordSet><keywordSet><keyword>SANParks, South Africa</keyword><keyword>Kruger National Park, South Africa</keyword></keywordSet>
+<intellectualRights><para>SANParks should be aknowledge for the data capture and use.
+Digital and non-digital data and metadata belonging to the Kruger National Park Scientific Services are provided on an "as-is" basis with no guarantee as to data quality. Neither the staff nor South African National Parks (SANParks) may be held liable for any loss of any sort resulting from use of data and/metadata provided by Scientific Services.</para>
+</intellectualRights>
+  <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Entire KNP</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.125</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.625</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.5</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.375</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <singleDateTime> <calendarDate>1996-01-01</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1092306146622" scope="document"> <individualName> <salutation>Miss</salutation>
+ <givenName>Navashni</givenName>
+ <surName>Govender</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <positionName>Fire Technician</positionName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ <phone phonetype="voice">+0927 13 735 4225</phone>
+ <phone phonetype="fax">+0927137354055</phone>
+ <electronicMailAddress>navashnig@sanparks.org</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Woody vegetation</title>
+ <para>These need to still be added here</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataTable id="1092307239956" scope="document"><entityName>vcawoodysurvey.txt</entityName>
+ <entityDescription> </entityDescription>
+ <physical id="1092307238515" scope="document"><objectName>vcawoodysurvey.txt</objectName>
+ <size unit="byte">189646</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/judithk.130.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1092307239957" scope="document"><attributeName>Sample_site</attributeName>
+ <attributeDefinition>VCA site number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>VCA sites</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1092307239958" scope="document"><attributeName>Ranger_sect</attributeName>
+ <attributeDefinition>Ranger section</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>PRE</code>
+ <definition>Pretoriuskop</definition>
+ </codeDefinition>
+ <codeDefinition><code>STO</code>
+ <definition>Stolsnek</definition>
+ </codeDefinition>
+ <codeDefinition><code>SKZ</code>
+ <definition>Skukuza</definition>
+ </codeDefinition>
+ <codeDefinition><code>Skz</code>
+ <definition>Skukuza</definition>
+ </codeDefinition>
+ <codeDefinition><code>MAL</code>
+ <definition>Malelane</definition>
+ </codeDefinition>
+ <codeDefinition><code>TSH</code>
+ <definition>Tshokwane</definition>
+ </codeDefinition>
+ <codeDefinition><code>KFI</code>
+ <definition>Kingfisherspruit</definition>
+ </codeDefinition>
+ <codeDefinition><code>HOU</code>
+ <definition>Houboschrand</definition>
+ </codeDefinition>
+ <codeDefinition><code>PHA</code>
+ <definition>Phalaborwa</definition>
+ </codeDefinition>
+ <codeDefinition><code>WOO</code>
+ <definition>Woodlands</definition>
+ </codeDefinition>
+ <codeDefinition><code>SHA</code>
+ <definition>Shangoni</definition>
+ </codeDefinition>
+ <codeDefinition><code>MAH</code>
+ <definition>Mahlangeni</definition>
+ </codeDefinition>
+ <codeDefinition><code>VLA</code>
+ <definition>Vlakteplaas</definition>
+ </codeDefinition>
+ <codeDefinition><code>LET</code>
+ <definition>Letaba</definition>
+ </codeDefinition>
+ <codeDefinition><code>KRO</code>
+ <definition>Crocodile bridge</definition>
+ </codeDefinition>
+ <codeDefinition><code>OSA</code>
+ <definition>Lower Sabie</definition>
+ </codeDefinition>
+ <codeDefinition><code>PUN</code>
+ <definition>Punda</definition>
+ </codeDefinition>
+ <codeDefinition><code>PAF</code>
+ <definition>Pafuri</definition>
+ </codeDefinition>
+ <codeDefinition><code>SAT</code>
+ <definition>Satara</definition>
+ </codeDefinition>
+ <codeDefinition><code>NWA</code>
+ <definition>Nwanetsi</definition>
+ </codeDefinition>
+ <codeDefinition><code>OLI</code>
+ <definition>Olifants</definition>
+ </codeDefinition>
+ <codeDefinition><code>SHI</code>
+ <definition>Shingwedzi</definition>
+ </codeDefinition>
+ <codeDefinition><code>MOO</code>
+ <definition>Mooiplaas</definition>
+ </codeDefinition>
+ <codeDefinition><code>OCI</code>
+ <definition>Olifants</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1092307239959" scope="document"><attributeName>Date</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><datetime><formatString>dd.mm.yy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ <dateTimeDomain> </dateTimeDomain>
+ </datetime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1092307239960" scope="document"><attributeName>Tree_Species</attributeName>
+ <attributeDefinition>Tree species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Three letter species codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1092307239961" scope="document"><attributeName>Canopy_diamter(mm)</attributeName>
+ <attributeDefinition>Canopy diameter</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1092307239962" scope="document"><attributeName>Height(mm)</attributeName>
+ <attributeDefinition>height</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5246</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

@@ -1,0 +1,273 @@
+<metadata xmlns:ns0="http://purl.org/ornl/schema/mercury/terms/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/ornl/schema/mercury/terms/v1.0 mercury-ornl-v1.xsd">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Miteva, Billie</origin>
+        <title>Global and Regional Coverage of Built-Up Land</title>
+        <onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/human_dimensions/built_up_area.xml</onlink>
+        <alt_onlink>http://daac.ornl.gov/metadata/bluangel_harvest/RGED/QC/basic/human_dimensions/built_up_area.xml</alt_onlink>
+        <onlink>http://www.sage.wisc.edu/atlas/</onlink>
+        <onlink />
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Before this data set was published, urban areas were represented world-wide by only one single category, which essentially said that all the urban lands around the world looked the same. Overall the planet's urban lands were also under-classified, since in most classification schemes, built up land was usually the area left-over after all other categories had been classified.
+
+Two sources were used to create this data set: the DMSP/OLS Nighttime Lights and the IGBP land cover characterization data set.
+
+Initially the two source data sets were re-gridded to 5 minute resolution. In the newly produced nighttime lights data, each cell represented the average nighttime light value of 4 cells, while each cell in the new land cover data represented the number of cells out of 100 which were categorized in the original IGBP data as &#226;&#128;&#156;Urban or Built-up land&#226;&#128;&#157;.
+
+A linear regression was developed for all non-zero values to establish the relation between the built-up area density, as the dependent variable, and nighttime lights, as the independent variable. The statistics were then applied to the nighttime data set to develop modeled built-up area density. To this data set, the investigator added the positive difference to the fractional re-gridded IGBP data set. Thus, the resultant data contains a combination of modeled built-up areas (base on nighttime lights) and observed built-up areas (based on IGBP land cover data).
+
+Map coverages are global and regional in spatial extent. Users can download map images (jpg) and data (a GIS grid of the data in ESRI ArcView Format).</abstract>
+      <supplinf />
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19920401</begdate>
+          <enddate />
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Final</progress>
+      <update>As appropriate</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180</westbc>
+        <eastbc>180</eastbc>
+        <northbc>90</northbc>
+        <southbc>-90</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Parameter_Sensor_Source</themekt>
+        <themekey>URBAN LANDS|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>URBANIZATION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LAND COVER|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LAND USE CLASSES|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>POPULATION DISTRIBUTION|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LAND COVER|ANALYSIS|COMPUTER MODEL</themekey>
+        <themekey>LAND USE CLASSES|ANALYSIS|COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Parameter</themekt>
+        <themekey>URBAN LANDS</themekey>
+      </theme>
+      <theme>
+        <themekt>Source</themekt>
+        <themekey>COMPUTER MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>Sensor</themekt>
+        <themekey>ANALYSIS</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keywords</placekt>
+        <placekey>Global (gridded)</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Miteva, Billie</cntper>
+        </cntperp>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; billie_m@rocketmail.com</cntfax>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Center for Sustainability and the Global Environment (SAGE), Gaylord Nelson Institute for Environmental Studies, University of Wisconsin-Madison, Madison, Wisconsin, USA</cntorg>
+          <cntper>Sternitzky, Mary</cntper>
+        </cntperp>
+        <cntvoice>+1-608-263-1412</cntvoice>
+        <cntfax>6.1.10.8 Contact Electronic Mail: INTERNET &amp;gt; billie_m@rocketmail.com</cntfax>
+        <cntemail>mjsternitzky@facstaff.wisc.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtopt>
+          <onlinopt>
+            <computer>http://www.sage.wisc.edu/</computer>
+            <accinstr>Public</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+    <resdesc>Global and Regional Coverage of Built-Up Land. 2002. Available online at [http://www.sage.wisc.edu/atlas/maps.php?datasetid=18&amp;amp;includerelatedlinks=1&amp;amp;dataset=18] in the Atlas of the Biosphere from the Center for Sustainability and the Global Environment (SAGE), Gaylord Nelson Institute for Environmental Studies, University of Wisconsin-Madison, Madison, Wisconsin, USA.</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd>20071008 144730</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntorgp>
+        <cntperp>
+          <cntper>Curtis, Carroll</cntper>
+        </cntperp>
+        <cntvoice>+1-804-769-2495</cntvoice>
+        <cntemail>cncurtis@crosslink.net</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  </metainfo>
+  <mercury>
+    <begdate>19920401</begdate>
+    <enddate>2014924</enddate>
+    <Site_Information>
+      <Site>Global (gridded)</Site>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Southernmost_Latitude>-90</Southernmost_Latitude>
+    </Site_Information>
+    <Keywords>Africa</Keywords>
+    <Keywords>Asia</Keywords>
+    <Keywords>Built-up area density</Keywords>
+    <Keywords>Built-up lands</Keywords>
+    <Keywords>EOSDIS</Keywords>
+    <Keywords>Europe</Keywords>
+    <Keywords>Global</Keywords>
+    <Keywords>Human Dimensions Collections</Keywords>
+    <Keywords>IGBP land cover data</Keywords>
+    <Keywords>Land cover</Keywords>
+    <Keywords>Nighttime lights</Keywords>
+    <Keywords>North America</Keywords>
+    <Keywords>Oceania</Keywords>
+    <Keywords>Population density</Keywords>
+    <Keywords>Population distribution</Keywords>
+    <Keywords>South America</Keywords>
+    <Keywords>Urban areas</Keywords>
+    <Parameter_Description>
+      <Parameter>URBAN LANDS</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>TERRESTRIAL ECOSYSTEMS</Term>
+      <Topic>BIOSPHERE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>URBANIZATION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>ENVIRONMENTAL IMPACTS</Term>
+      <Topic>HUMAN DIMENSIONS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND COVER</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>HUMAN DIMENSIONS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND USE CLASSES</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>HUMAN DIMENSIONS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>POPULATION DISTRIBUTION</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>POPULATION</Term>
+      <Topic>HUMAN DIMENSIONS</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND COVER</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Parameter_Description>
+      <Parameter>LAND USE CLASSES</Parameter>
+      <Sensor>ANALYSIS</Sensor>
+      <Source>COMPUTER MODEL</Source>
+      <Term>LAND USE/LAND COVER</Term>
+      <Topic>LAND SURFACE</Topic>
+    </Parameter_Description>
+    <Project>Atlas of the Biosphere</Project>
+    <Project>Center for Sustainability and the Global Environment (SAGE)</Project>
+    <Navpath>COMPUTER MODEL|ANALYSIS|URBAN LANDS</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|URBANIZATION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LAND COVER</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LAND USE CLASSES</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|POPULATION DISTRIBUTION</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LAND COVER</Navpath>
+    <Navpath>COMPUTER MODEL|ANALYSIS|LAND USE CLASSES</Navpath>
+    <Principal_Investigator>
+      <Name>Miteva, Billie</Name>
+      <Email>billie_m@rocketmail.com</Email>
+    </Principal_Investigator>
+    <Data_Set_Link>
+      <URL>http://www.sage.wisc.edu/atlas/data/builtupland.zip</URL>
+      <Label>Global Coverage of Built-Up Land</Label>
+      <Link_Note>The data are delivered as an ESRI ArcView grid (zipped, 284 KB).</Link_Note>
+    </Data_Set_Link>
+    <Data_Set_Link>
+      <URL>http://www.sage.wisc.edu/atlas/maps.php?datasetid=18&amp;amp;includerelatedlinks=1&amp;amp;dataset=18</URL>
+      <Label>View and Download Global and Regional Images of Built-Up Land</Label>
+      <Link_Note>These JPG images are provided at a resolution of 1600x1200 pixels.</Link_Note>
+    </Data_Set_Link>
+    <Documentation_Link>
+      <URL>http://www.sage.wisc.edu/atlas/</URL>
+      <Label>Atlas of the Biosphere</Label>
+      <Text />
+    </Documentation_Link>
+    <Documentation_Link>
+      <URL />
+      <Label />
+    </Documentation_Link>
+    <Alternate_Data_Access>
+      <Data_Set_Status />
+      <Data_Set_Restrictions />
+      <Data_Set_Location />
+      <Data_Contact_Person>
+        <Email />
+        <Name />
+        <Phone />
+        <Data_Center_URL />
+      </Data_Contact_Person>
+      <Data_Center_URL />
+      <Data_Set_Citation />
+      <Data_Set_Link>
+        <URL />
+        <Label />
+        <Link_Note />
+        <Data_Center_URL />
+      </Data_Set_Link>
+    </Alternate_Data_Access>
+    <OME_Software_Version>Version 4.7.5, Revision Date: 04 Apr 2006</OME_Software_Version>
+    <OME_DTD_Version>basic02.dtd</OME_DTD_Version>
+    <Contact_Person>
+      <Email>mjsternitzky@facstaff.wisc.edu</Email>
+      <Name>Sternitzky, Mary</Name>
+      <Phone>+1-608-263-1412</Phone>
+    </Contact_Person>
+    <Temporal_Resolution />
+    <enddate_blank />
+    <File_ID>Created 20071008 142312 by 69.19.86.152</File_ID>
+    <Spatial_Reference_Method>Raster</Spatial_Reference_Method>
+    <Spatial_Extent>64800</Spatial_Extent>
+    <Search_Text_Link>
+      <URL>http://www.sage.wisc.edu/atlas/</URL>
+      <Label>Atlas of the Biosphere</Label>
+    </Search_Text_Link>
+    <Other_Link>
+      <URL />
+      <Label />
+    </Other_Link>
+    <Granule_Details />
+    <OGC_URL />
+  </mercury>
+  <sourceData>database</sourceData>
+</metadata>

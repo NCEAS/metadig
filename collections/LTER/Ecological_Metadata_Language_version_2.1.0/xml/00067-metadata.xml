@@ -1,0 +1,3567 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-gce.77.37" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>PHY-GCEM-0303a2.5.0</alternateIdentifier>
+    <title>Continuous salinity, temperature and depth measurements from moored hydrographic data loggers deployed at GCE1_Hydro (Sapelo River near Eulonia, Georgia) from 01-Jan-2002 through 31-Dec-2002</title>
+    <creator id="GCE-LTER">
+      <organizationName>Georgia Coastal Ecosystems LTER Project</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-3636</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+      <onlineUrl>http://gce-lter.marsci.uga.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Jackson</givenName>
+        <givenName>O.</givenName>
+        <surName>Blanton</surName>
+      </individualName>
+      <organizationName>Skidaway Institute of Oceanography</organizationName>
+      <address>
+        <deliveryPoint>10 Ocean Science Circle</deliveryPoint>
+        <city>Savannah</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>31411</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>jack.blanton@skio.uga.edu</electronicMailAddress>
+      <onlineUrl>http://www.skio.peachnet.edu/faculty/blanton.html</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <references>GCE-LTER</references>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Julie</givenName>
+        <surName>Amft</surName>
+      </individualName>
+      <organizationName>Skidaway Institute of Oceanography</organizationName>
+      <electronicMailAddress>julie.amft@skio.uga.edu</electronicMailAddress>
+      <role>data analyst</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kenneth</givenName>
+        <surName>Helm</surName>
+      </individualName>
+      <organizationName>University of Georgia Marine Institute</organizationName>
+      <electronicMailAddress>khelm@darientel.net</electronicMailAddress>
+      <role>research technician</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Wade</givenName>
+        <givenName>M.</givenName>
+        <surName>Sheldon</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <electronicMailAddress>sheldon@uga.edu</electronicMailAddress>
+      <role>data analyst</role>
+    </associatedParty>
+    <pubDate>2003</pubDate>
+    <abstract>
+      <para>Conductivity, temperature and pressure were measured continuously at Georgia Coastal Ecosystems LTER sampling location GCE1_Hydro (Sapelo River near Eulonia, Georgia) from 01-Jan-2002 through 31-Dec-2002. Observations were logged at 30 minute intervals by moored Sea-Bird Electronics MicroCAT 37-SM data loggers and downloaded approximately bimonthly. Salinity, depth and sigma-t were calculated from the measured parameters using standard UNESCO algorithms. This data set was collected as part of the GCE-LTER Project continuous salinity, temperature and water level monitoring program.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">GCE1</keyword>
+      <keyword keywordType="place">Georgia</keyword>
+      <keyword keywordType="place">Sapelo Island</keyword>
+      <keyword keywordType="place">USA</keyword>
+      <keyword keywordType="temporal">daily</keyword>
+      <keyword keywordType="theme">GCE</keyword>
+      <keyword keywordType="theme">Georgia Coastal Ecosystems</keyword>
+      <keyword keywordType="theme">Hydrographic Moorings</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keywordThesaurus>GCE-LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">conductivity</keyword>
+      <keyword keywordType="theme">density</keyword>
+      <keyword keywordType="theme">depth</keyword>
+      <keyword keywordType="theme">hydrography</keyword>
+      <keyword keywordType="theme">monitoring</keyword>
+      <keyword keywordType="theme">moorings</keyword>
+      <keyword keywordType="theme">pressure</keyword>
+      <keyword keywordType="theme">salinity</keyword>
+      <keyword keywordType="theme">sonde</keyword>
+      <keyword keywordType="theme">temperature</keyword>
+      <keyword keywordType="theme">water column</keyword>
+      <keyword keywordType="theme">water quality</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Inorganic Fluxes</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>All publications based on this data set must cite the contributor and Georgia Coastal Ecosystems LTER project, and two copies of the manuscript must be submitted to the GCE-LTER Information Management Office.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://gce-lter.marsci.uga.edu/public/app/dataset_details.asp?accession=PHY-GCEM-0303a2</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Overall bounding box describing the geographic region within the Georgia Coastal Ecosystems LTER study domain represented in data set PHY-GCEM-0303a2, based on geographic coordinates present in the data table</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.423889</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.423889</eastBoundingCoordinate>
+          <northBoundingCoordinate>31.537500</northBoundingCoordinate>
+          <southBoundingCoordinate>31.537500</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2002-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2002-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>GCE-LTER Information Manager</positionName>
+      <address>
+        <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-3636</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <references>GCE-LTER</references>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Deployment</title>
+            <para>The MicroCAT was mounted inside a protective PVC pipe enclosure and attached to a wooden piling (~12 inch diameter) that was driven firmly into the substrate.  The enclosure was constructed from a 10-foot length of 6-inch (internal diameter) PVC pipe that was perforated all over by drilling 1.5-inch holes (at approximately 4-inch spacing); this permits proper water circulation within the enclosure.  The bottom of the PVC pipe was submerged about 5 feet below the water surface at low tide and bolted (vertically) to the piling.  The MicroCAT was deployed by lowering it into the enclosure on a 0.375-inch stainless steel cable, and bolting the cable to the piling, so that the bottom of the data logger was ~3 inches above the bottom of the PVC pipe.  A weighted surveyor's tape was then used to measure the distance from the substrate to the pressure sensor on the MicroCAT for calculation of total water column depth from pressure readings.  The mooring was inspected every 1-3 weeks, and any visible fouling of the enclosure or MicroCAT was removed with a brush or scraper.</para>
+          </section>
+        </description>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1793); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Conductivity (accuracy: 0.0003 S/m, readability: 0.00001 S/m, range: 0 to 7 S/m); last calibration: Feb 24, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1793); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Pressure (water) (accuracy: 0.2m, readability: 0.0004m, range: 0 to 20m); last calibration: Feb 24, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1793); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Temperature (water) (accuracy: 0.002&#176;C, readability: 0.0001&#176;C, range: -5 to 35&#176;C); last calibration: Feb 24, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1795); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Conductivity (accuracy: 0.0003 S/m, readability: 0.00001 S/m, range: 0 to 7 S/m); last calibration: Feb 20, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1795); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Pressure (water) (accuracy: 0.2m, readability: 0.0004m, range: 0 to 20m); last calibration: Feb 20, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1795); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Temperature (water) (accuracy: 0.002&#176;C, readability: 0.0001&#176;C, range: -5 to 35&#176;C); last calibration: Feb 20, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1796); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Conductivity (accuracy: 0.0003 S/m, readability: 0.00001 S/m, range: 0 to 7 S/m); last calibration: Feb 24, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1796); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Pressure (water) (accuracy: 0.2m, readability: 0.0004m, range: 0 to 20m); last calibration: Feb 24, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1796); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Temperature (water) (accuracy: 0.002&#176;C, readability: 0.0001&#176;C, range: -5 to 35&#176;C); last calibration: Feb 24, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1996); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Conductivity (accuracy: 0.0003 S/m, readability: 0.00001 S/m, range: 0 to 7 S/m); last calibration: Aug 10, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1996); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Pressure (water) (accuracy: 0.2m, readability: 0.0004m, range: 0 to 20m); last calibration: Aug 10, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 1996); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Temperature (water) (accuracy: 0.002&#176;C, readability: 0.0001&#176;C, range: -5 to 35&#176;C); last calibration: Aug 10, 2001</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 2398, with pump); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Conductivity (accuracy: 0.0003 S/m, readability: 0.00001 S/m, range: 0 to 7 S/m); last calibration: Apr 16, 2002</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 2398, with pump); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Pressure (water) (accuracy: 0.2m, readability: 0.0004m, range: 0 to 20m); last calibration: Apr 16, 2002</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 2398, with pump); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Temperature (water) (accuracy: 0.002&#176;C, readability: 0.0001&#176;C, range: -5 to 35&#176;C); last calibration: Apr 16, 2002</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 2413, with pump); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Conductivity (accuracy: 0.0003 S/m, readability: 0.00001 S/m, range: 0 to 7 S/m); last calibration: May 02, 2002</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 2413, with pump); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Pressure (water) (accuracy: 0.2m, readability: 0.0004m, range: 0 to 20m); last calibration: May 02, 2002</instrumentation>
+        <instrumentation>SBE MicroCAT 37-SM (S/N 2413, with pump); manufacturer: Sea-Bird Electronics (model: 37-SM MicroCAT); parameter: Temperature (water) (accuracy: 0.002&#176;C, readability: 0.0001&#176;C, range: -5 to 35&#176;C); last calibration: May 02, 2002</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Retrieval and Calibration</title>
+            <para>At the end of the measurement period (approximately 2 months), the MicroCAT was unshackled from the cable and returned to the laboratory. The stored data was uploaded using a RS-232 serial cable and Sea-Bird Electronics SEATERM software.  The MicroCAT was then cleaned to remove encrusting material and calibrated with a reference instrument at 4 to 5 salinity levels, generally ranging from 30 to 5 PSU.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2002-01-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2002-12-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>GCE Study Site GCE-SP -- Sapelo River, Georgia, USA.  Sapelo River transect used for GCE quarterly hydrographic monitoring surveys.  Nominal profiling stations are defined every 3-4km from 0km to 36km (relative to station 0km at the line of demarcation), based on an estimated Thalweg line running up the main river channel.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-81.431980</westBoundingCoordinate>
+                <eastBoundingCoordinate>-81.154122</eastBoundingCoordinate>
+                <northBoundingCoordinate>31.559628</northBoundingCoordinate>
+                <southBoundingCoordinate>31.516636</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Continuous CTD Measurement</title>
+            <para>Conductivity, temperature and pressure were measured at 30 minute intervals using a hydrographic sonde deployed at GCE-LTER sampling location GCE1_Hydro (Eulonia hydrographic datalogger deployment). The sonde was moored to a wooden piling and submerged 1-1.5m below mean low water.</para>
+            <para>The MicroCAT was programmed to autonomously measure and log conductivity, temperature and pressure at a sampling rate of 30 minutes (based on its internal chronometer).  Upon retrieval the data was downloaded from the instrument via RS-232 serial communications and processed using custom Matlab(r) procedures to calculate depth (i.e. from pressure and latitude), salinity and sigma-t (i.e. from conductivity and temperature), and date and time components from sample time stamps.</para>
+          </section>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <referencedEntityId>PHY-GCEM-0303a2.kml</referencedEntityId>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Georgia Coastal Ecosystems LTER Project</title>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <givenName>T.</givenName>
+          <surName>Hollibaugh</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Steven</givenName>
+          <givenName>C.</givenName>
+          <surName>Pennings</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Wade</givenName>
+          <givenName>M.</givenName>
+          <surName>Sheldon</surName>
+        </individualName>
+        <role>informationManager</role>
+      </personnel>
+      <abstract>
+        <para>We propose to establish a Long Term Ecological Research site on the central Georgia coast in the vicinity of Sapelo Island. This is a barrier island and marsh complex with the Altamaha River, one of the largest and least developed rivers on the east coast of the US, as the primary source of fresh water. The proposed study would investigate the linkages between local and distant upland areas mediated by water - surface water and ground water - delivery to the coastal zone. We would explicitly examine the relationship between variability in environmental factors driven by river flow, primarily salinity because we can measure it at high frequency, and ecosystem processes and structure. We will accomplish this by comparing estuary/marsh complexes separated from the Altamaha River by one or two lagoonal estuary/marsh complexes that damp and attenuate the river signal. This spatial gradient is analogous to the temporal trend in riverine influence expected as a result of development in the watershed. We will implement a monitoring system that documents physical and biological variables and use the time trends and spatial distributions of these variables and of their variance structure to address questions about the factors controlling distributions, trophic structure, diversity, and biogeochemistry. An existing GIS-based hydrologic model will be modified to incorporate changes in river water resulting from changes in land use patterns that can be expected as the watershed develops. This model will be linked to ecosystem models and will serve as an heuristic and management tool. Another consequence of coastal development is that as river flow decreases, groundwater flow increases and becomes nutrified. We will compare the effects of ground water discharge from the surficial aquifer in relatively pristine (Sapelo Island) versus more urbanized (mainland) sites to assess the relative importance of fresh water versus nutrients to productivity, structure and biomass turnover rate in marshes influenced by groundwater. We will also investigate the effect of marine processes (tides, storm surge) on mixing across the fresh/salt interface in the surficial aquifer. Additional physical studies will relate the morphology of salt marsh - tidal creek channel complexes to tidal current distributions and exchange. These findings will be incorporated into a physical model that will be coupled to an existing ecosystem model. The land/ocean margin ecosystem lies at the interface between two ecosystems in which distinctly different groups of decomposers control organic matter degradation. The terrestrial ecosystem is largely dominated by fungal decomposers, while bacterial decomposers dominate the marine ecosystem. Both groups are important in salt marsh-dominated ecosystems. Specific studies will examine, at the level of individual cells and hyphae, the relationship bacteria and fungi in the consortia that decompose standing dead Spartina and other marsh plants and examine how, or if, this changes along the salinity gradient.</para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under grant number OCE-9982133. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>PHY-GCEM-0303a2</entityName>
+      <entityDescription>Main data table for data set PHY-GCEM-0303a2</entityDescription>
+      <physical>
+        <objectName>PHY-GCEM-0303a2_5_0.CSV</objectName>
+        <size unit="kilobyte">2259.79</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>5</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>Spreadsheet comma-separated value (CSV) text file with a five line header containing the data set title, column titles, units and column types</onlineDescription>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-gce/77/37/2fe40dd2dc7cf9a60f8e1b475b4c101e</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Data file post-processing in the GCE-LTER Information Management Office</para>
+          </description>
+          <software>
+            <title>GCE Data Toolbox for MATLAB(r)</title>
+            <creator>
+              <individualName>
+                <salutation>Mr.</salutation>
+                <givenName>Wade</givenName>
+                <givenName>M.</givenName>
+                <surName>Sheldon</surName>
+              </individualName>
+              <address>
+                <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+                <deliveryPoint>University of Georgia</deliveryPoint>
+                <city>Athens</city>
+                <administrativeArea>Georgia</administrativeArea>
+                <postalCode>30602-3636</postalCode>
+                <country>USA</country>
+              </address>
+              <electronicMailAddress>sheldon@uga.edu</electronicMailAddress>
+              <onlineUrl>http://gce-lter.marsci.uga.edu/public/app/personnel_bios.asp?id=wsheldon</onlineUrl>
+            </creator>
+            <associatedParty>
+              <organizationName>Georgia Coastal Ecosystems LTER Project</organizationName>
+              <address>
+                <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+                <deliveryPoint>University of Georgia</deliveryPoint>
+                <city>Athens</city>
+                <administrativeArea>Georgia</administrativeArea>
+                <postalCode>30602-3636</postalCode>
+                <country>USA</country>
+              </address>
+              <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+              <role>sponsoring research program</role>
+            </associatedParty>
+            <abstract>
+              <para>The GCE Data Toolbox is a comprehensive library of functions for metadata-based analysis
+quality control, transformation and management of ecological data sets. The toolbox is based on the GCE Data 
+Structure, a MATLAB specification for storing tabular data along with all information required to interpret 
+the data and generate formatted metadata (documentation). Metadata fields in the structure are queried 
+by toolbox functions for all operations, allowing functions to process and format values appropriately 
+based on the type of information they represent. This semantic processing approach supports highly 
+automated and intelligent data analysis and ensures data set validity throughout all processing steps.</para>
+            </abstract>
+            <implementation>
+              <distribution>
+                <online>
+                  <url function="information">http://gce-lter.marsci.uga.edu/public/im/tools/toolbox_download.htm</url>
+                </online>
+              </distribution>
+              <operatingSystem>Linux</operatingSystem>
+              <operatingSystem>Microsoft Windows</operatingSystem>
+              <operatingSystem>Sun Solaris</operatingSystem>
+              <operatingSystem>Apple Macintosh OS/X</operatingSystem>
+              <programmingLanguage>MATLAB</programmingLanguage>
+            </implementation>
+            <version>3.x</version>
+          </software>
+          <subStep>
+            <description>
+              <para>10/25/2001: data uploaded from SBE 37-SM MicroCAT using SEATERM software version 1.21</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/15/2003: new GCE Data Structure 1.1 created ("newstruct")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/15/2003: data imported from processed SBE SM-37 sonde data file "01011096.asc" (2057 records) ("imp_gcesonde")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/15/2003: updated 25 metadata fields in the Data, Dataset, Site, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/15/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 3777 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 2931 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 2775 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 3558 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 3356 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 4833 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: edited structure data ("ui_datagrid"): deleted record(s) 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050, 2051, 2052, 2053, 2054, 2055, 2056 and 2057, deleted record(s) 5765, 5766, 5767, 5768, 5769, 5770, 5771, 5772, 5773, 5774, 5775, 5776, 5777, 5778, 5779, 5780, 5781, 5782, 5783, 5784, 5785, 5786, 5787, 5788, 5789, 5790, 5791, 5792, 5793, 5794, 5795, 5796, 5797, 5798, 5799, 5800, 5801 and 5802, deleted record(s) 11469, deleted record(s) 15026, deleted record(s) 18381, deleted record(s) 23180, 23181, 23182, 23183, 23184, 23185, 23186, 23187, 23188, 23189, 23190, 23191, 23192, 23193, 23194, 23195, 23196, 23197, 23198, 23199, 23200, 23201, 23202, 23203, 23204, 23205, 23206, 23207, 23208, 23209, 23210, 23211, 23212 and 23213</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: edited structure data ("ui_datagrid"): deleted record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46 and 47</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: QA/QC flags assigned by visual inspection (ui_visualqc); flags set on 9577 records in Conductivity; flags cleared on Conductivity record(s): 1978, 2889, 3366, 3367, 3368, 4283, 4284, 4285, 4618, 5718, 5719, 5720, 6297, 6298, 11422, 11423, 11424, 11425, 11426, 11427, 11428, 11429, 11430, 11431, 11432, 11433, 11434, 12628, 12629, 16374, 16375, 16376 and 16377</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/22/2003: Q/C flagging criteria of columns Temperature, Pressure, Depth, TotalDepth, Salinity and Sigma_t edited ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/22/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: added QA/QC flags from column(s) Conductivity, Temperature and Pressure to flags for column(s) Salinity and Sigma_t, and set QA/QC criteria to "manual" (copyflags)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: query "Year == 2002" run, returned 17507 of 23132 data rows ("querydata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: automatically assigned study date metadata descriptors based on the range of date values in column Date (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2004: edited units and description for column Date to change "Julian days" to "serial day" ("juliandate2serialdate")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/24/2005: updated 2 metadata fields in the Dataset, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/15/2005: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/24/2006: updated 2 metadata fields in the Dataset, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/24/2006: inserted 13 new records with date/time values and NaN/null data values (replicating common values in the non-data columns Site, Longitude, Latitude, Instrument, Pump and Calibration) to fill in date/time interval gaps in the data series ("fill_date_gaps")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/24/2006: sorted by column Date(ascending) ("sortdata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/24/2006: deleted existing datetime columns Year, Month, Day, Hour and Minute; updated Year, Month, Day, Hour and Minute datetime columns added after column Date ("add_datepartcols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/17/2006: standardized case of date component column units to prevent unit conversion issues ("batch_update_datetime"): updated units for column Year from "yyyy" to "YYYY"; updated units for column Month from "mm" to "MM"; updated units for column Day from "dd" to "DD"</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: query "Year = 2002" run, returned 17520 of 17520 data rows ("querydata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: updated title ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: updated 2 metadata fields in the Dataset, Status sections ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/22/2011: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/22/2011: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: matched 17520 out of 17520 geographic coordinates in columns Latitude and Longitude to coordinates for registered locations in the file "geo_locations.mat" within a distance tolerance of 0.5km (add_locations)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: added column "Station" at position 2 ("addcol")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: Q/C flagging criteria applied for column(s) Station, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: added geographic metadata based on matching values in column Station to location and station names registered in "geo_locations.mat" ("add_sitemetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: updated 9 metadata fields in the Site, Status sections ("add_sitemetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: query "Year=2002" run, returned 17520 of 17520 data rows ("querydata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: copied QA/QC flags from column(s) Conductivity and Temperature to column(s) Salinity and Sigma_t, merging copied flags with any existing flags, and set QA/QC criteria for destination column(s) to "manual" ("copyflags")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: imported all documentation metadata from the template "GCE_Sonde_GCE1", retaining existing attribute descriptors for all columns ("meta_template")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 44 metadata fields in the Data, Dataset, Project, Site, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated title ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: added geographic metadata based on matching values in column Station to location and station names registered in "geo_locations.mat" ("add_sitemetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 8 metadata fields in the Site sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated title ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 1 metadata fields in the Dataset sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: deleted columns TotalDepth, Calibration and Pump from the structure ("deletecols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: converted values in all columns assigned QA/QC flag(s) I (invalid value (out of range)) to NaN/empty: 1997 records in Conductivity, 1997 records in Salinity, 1997 records in Sigma_t ("nullflags")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: converted dates in column(s) Date to format yyyy-mm-dd HH:MM:SS</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 4 metadata fields ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ("updatecols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: parsed and formatted metadata ("listmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: flags for columns Temperature, Conductivity, Pressure, Depth, Salinity and Sigma_t converted to data columns, flag codes updated in metadata ("flags2cols")</para>
+            </description>
+          </subStep>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>Quality control analysis was performed using the GCE Data Toolbox for MATLAB software. Column data types are validated upon importing the table into MATLAB, and qualifier flags are automatically generated for data values based on QA/QC criteria for each data column pre-defined in metadata templates (e.g. value range checks, sanity checks, pattern checks). Qualifier flags are also assigned to values that are imputed or derived, revised, or otherwise differ from values in the original data submission. A column of coded qualifier flags is generated and included in the data table if flags are assigned to any value in a data column.</para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute id="PHY-GCEM-0303a2.1">
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Nearest nominal GCE-LTER sampling site</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Nearest nominal GCE-LTER sampling site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.2">
+          <attributeName>Station</attributeName>
+          <attributeDefinition>Station determined by geographic lookup of coordinates in reference file 'geo_locations.mat' using a distance tolerance of 0.5km</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Station determined by geographic lookup of coordinates in reference file 'geo_locations.mat' using a distance tolerance of 0.5km</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.3">
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Geographic longitude in decimal degrees</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.4">
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Geographic latitude in decimal degrees</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.5">
+          <attributeName>Instrument</attributeName>
+          <attributeDefinition>Serial number of the SBE 37-SM MicroCAT instrument used for the observations</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Serial number of the SBE 37-SM MicroCAT instrument used for the observations</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.6">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Calendar date and time of observation</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain />
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.7">
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.8">
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Calendar month</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.9">
+          <attributeName>Day</attributeName>
+          <attributeDefinition>Calendar day</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.10">
+          <attributeName>Hour</attributeName>
+          <attributeDefinition>Hours - GMT</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalHour</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.11">
+          <attributeName>Minute</attributeName>
+          <attributeDefinition>Minutes</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalMinute</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.12">
+          <attributeName>Temperature</attributeName>
+          <attributeDefinition>Water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.13">
+          <attributeName>Flag_Temperature</attributeName>
+          <attributeDefinition>QA/QC flags for Water temperature (flagging criteria, where "x" is Temperature: x&lt;0="Q", x&gt;35="Q", Depth&lt;0.2="Q", flag_valuechange(x,5,5,3)="S")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.14">
+          <attributeName>Conductivity</attributeName>
+          <attributeDefinition>Conductivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.15">
+          <attributeName>Flag_Conductivity</attributeName>
+          <attributeDefinition>QA/QC flags for Conductivity (flagging criteria, where "x" is Conductivity: manual)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.16">
+          <attributeName>Pressure</attributeName>
+          <attributeDefinition>Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.17">
+          <attributeName>Flag_Pressure</attributeName>
+          <attributeDefinition>QA/QC flags for Water pressure at sensor (approximately equivalent to water depth within 3% error) (flagging criteria, where "x" is Pressure: x&lt;0.2="Q", x&gt;10="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.18">
+          <attributeName>Depth</attributeName>
+          <attributeDefinition>Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Calculations: Depth(m) = sw_dpth(Pressure(dbar),Latitude(deg)) -- sw_dpth (salt water depth from pressure) Matlab function, Revision: 1.3, Date: 10-Oct-1994 (C)1992 CSIRO, Phil Morgan  (morgan@ml.csiro.au)</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.19">
+          <attributeName>Flag_Depth</attributeName>
+          <attributeDefinition>QA/QC flags for Water depth to the pressure sensor of the moored sonde (flagging criteria, where "x" is Depth: x&lt;0.2="Q", x&gt;10="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.20">
+          <attributeName>Salinity</attributeName>
+          <attributeDefinition>Salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.21">
+          <attributeName>Flag_Salinity</attributeName>
+          <attributeDefinition>QA/QC flags for Salinity (flagging criteria, where "x" is Salinity: x&lt;0="I", x&gt;36="Q", Depth&lt;0.2="Q", flag_valuechange(x,10,0,3)="S", manual)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>spike/noise</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.22">
+          <attributeName>Sigma_t</attributeName>
+          <attributeDefinition>Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogramPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2.23">
+          <attributeName>Flag_Sigma_t</attributeName>
+          <attributeDefinition>QA/QC flags for Sigma-t (i.e. Density-1) (flagging criteria, where "x" is Sigma_t: x&lt;-5="Q", Depth&lt;0.2="Q", x&gt;28="Q", manual)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>17520</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>PHY-GCEM-0303a2_Daily</entityName>
+      <entityDescription>Derived data table for data set PHY-GCEM-0303a2 containing daily-aggregated statistical summary data</entityDescription>
+      <physical>
+        <objectName>PHY-GCEM-0303a2_Daily_5_0.CSV</objectName>
+        <size unit="kilobyte">162.28</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>5</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>Spreadsheet comma-separated value (CSV) text file with a five line header containing the data set title, column titles, units and column types</onlineDescription>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-gce/77/37/1550371123ff41b23fa7c27a15a03f03</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Data file post-processing in the GCE-LTER Information Management Office</para>
+          </description>
+          <software>
+            <title>GCE Data Toolbox for MATLAB(r)</title>
+            <creator>
+              <individualName>
+                <salutation>Mr.</salutation>
+                <givenName>Wade</givenName>
+                <givenName>M.</givenName>
+                <surName>Sheldon</surName>
+              </individualName>
+              <address>
+                <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+                <deliveryPoint>University of Georgia</deliveryPoint>
+                <city>Athens</city>
+                <administrativeArea>Georgia</administrativeArea>
+                <postalCode>30602-3636</postalCode>
+                <country>USA</country>
+              </address>
+              <electronicMailAddress>sheldon@uga.edu</electronicMailAddress>
+              <onlineUrl>http://gce-lter.marsci.uga.edu/public/app/personnel_bios.asp?id=wsheldon</onlineUrl>
+            </creator>
+            <associatedParty>
+              <organizationName>Georgia Coastal Ecosystems LTER Project</organizationName>
+              <address>
+                <deliveryPoint>Dept. of Marine Sciences</deliveryPoint>
+                <deliveryPoint>University of Georgia</deliveryPoint>
+                <city>Athens</city>
+                <administrativeArea>Georgia</administrativeArea>
+                <postalCode>30602-3636</postalCode>
+                <country>USA</country>
+              </address>
+              <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+              <role>sponsoring research program</role>
+            </associatedParty>
+            <abstract>
+              <para>The GCE Data Toolbox is a comprehensive library of functions for metadata-based analysis
+quality control, transformation and management of ecological data sets. The toolbox is based on the GCE Data 
+Structure, a MATLAB specification for storing tabular data along with all information required to interpret 
+the data and generate formatted metadata (documentation). Metadata fields in the structure are queried 
+by toolbox functions for all operations, allowing functions to process and format values appropriately 
+based on the type of information they represent. This semantic processing approach supports highly 
+automated and intelligent data analysis and ensures data set validity throughout all processing steps.</para>
+            </abstract>
+            <implementation>
+              <distribution>
+                <online>
+                  <url function="information">http://gce-lter.marsci.uga.edu/public/im/tools/toolbox_download.htm</url>
+                </online>
+              </distribution>
+              <operatingSystem>Linux</operatingSystem>
+              <operatingSystem>Microsoft Windows</operatingSystem>
+              <operatingSystem>Sun Solaris</operatingSystem>
+              <operatingSystem>Apple Macintosh OS/X</operatingSystem>
+              <programmingLanguage>MATLAB</programmingLanguage>
+            </implementation>
+            <version>3.x</version>
+          </software>
+          <subStep>
+            <description>
+              <para>10/25/2001: data uploaded from SBE 37-SM MicroCAT using SEATERM software version 1.21</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/15/2003: new GCE Data Structure 1.1 created ("newstruct")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/15/2003: data imported from processed SBE SM-37 sonde data file "01011096.asc" (2057 records) ("imp_gcesonde")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/15/2003: updated 25 metadata fields in the Data, Dataset, Site, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/15/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 3777 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 2931 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 2775 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 3558 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 3356 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: 4833 rows added at the bottom of the data set ("datamerge")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: updated 11 metadata fields in the Data, Dataset, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: edited structure data ("ui_datagrid"): deleted record(s) 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050, 2051, 2052, 2053, 2054, 2055, 2056 and 2057, deleted record(s) 5765, 5766, 5767, 5768, 5769, 5770, 5771, 5772, 5773, 5774, 5775, 5776, 5777, 5778, 5779, 5780, 5781, 5782, 5783, 5784, 5785, 5786, 5787, 5788, 5789, 5790, 5791, 5792, 5793, 5794, 5795, 5796, 5797, 5798, 5799, 5800, 5801 and 5802, deleted record(s) 11469, deleted record(s) 15026, deleted record(s) 18381, deleted record(s) 23180, 23181, 23182, 23183, 23184, 23185, 23186, 23187, 23188, 23189, 23190, 23191, 23192, 23193, 23194, 23195, 23196, 23197, 23198, 23199, 23200, 23201, 23202, 23203, 23204, 23205, 23206, 23207, 23208, 23209, 23210, 23211, 23212 and 23213</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: edited structure data ("ui_datagrid"): deleted record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46 and 47</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/19/2003: QA/QC flags assigned by visual inspection (ui_visualqc); flags set on 9577 records in Conductivity; flags cleared on Conductivity record(s): 1978, 2889, 3366, 3367, 3368, 4283, 4284, 4285, 4618, 5718, 5719, 5720, 6297, 6298, 11422, 11423, 11424, 11425, 11426, 11427, 11428, 11429, 11430, 11431, 11432, 11433, 11434, 12628, 12629, 16374, 16375, 16376 and 16377</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/22/2003: Q/C flagging criteria of columns Temperature, Pressure, Depth, TotalDepth, Salinity and Sigma_t edited ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/22/2003: Q/C flagging criteria applied, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: added QA/QC flags from column(s) Conductivity, Temperature and Pressure to flags for column(s) Salinity and Sigma_t, and set QA/QC criteria to "manual" (copyflags)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: query "Year == 2002" run, returned 17507 of 23132 data rows ("querydata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: automatically assigned study date metadata descriptors based on the range of date values in column Date (add_studydates)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>07/29/2003: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2004: edited units and description for column Date to change "Julian days" to "serial day" ("juliandate2serialdate")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>01/24/2005: updated 2 metadata fields in the Dataset, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/15/2005: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/24/2006: updated 2 metadata fields in the Dataset, Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/24/2006: inserted 13 new records with date/time values and NaN/null data values (replicating common values in the non-data columns Site, Longitude, Latitude, Instrument, Pump and Calibration) to fill in date/time interval gaps in the data series ("fill_date_gaps")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/24/2006: sorted by column Date(ascending) ("sortdata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>02/24/2006: deleted existing datetime columns Year, Month, Day, Hour and Minute; updated Year, Month, Day, Hour and Minute datetime columns added after column Date ("add_datepartcols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/17/2006: standardized case of date component column units to prevent unit conversion issues ("batch_update_datetime"): updated units for column Year from "yyyy" to "YYYY"; updated units for column Month from "mm" to "MM"; updated units for column Day from "dd" to "DD"</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: manually edited data set metadata ("ui_editmetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: edited data set title in structure and metadata ("ui_editor")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: query "Year = 2002" run, returned 17520 of 17520 data rows ("querydata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: updated title ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: updated 2 metadata fields in the Dataset, Status sections ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/26/2008: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/22/2011: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>04/22/2011: updated 3 metadata fields in the Status sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: matched 17520 out of 17520 geographic coordinates in columns Latitude and Longitude to coordinates for registered locations in the file "geo_locations.mat" within a distance tolerance of 0.5km (add_locations)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: added column "Station" at position 2 ("addcol")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: Q/C flagging criteria applied for column(s) Station, "flags" field updated ("dataflag")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: added geographic metadata based on matching values in column Station to location and station names registered in "geo_locations.mat" ("add_sitemetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>11/16/2011: updated 9 metadata fields in the Site, Status sections ("add_sitemetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: query "Year=2002" run, returned 17520 of 17520 data rows ("querydata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: copied QA/QC flags from column(s) Conductivity and Temperature to column(s) Salinity and Sigma_t, merging copied flags with any existing flags, and set QA/QC criteria for destination column(s) to "manual" ("copyflags")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: imported all documentation metadata from the template "GCE_Sonde_GCE1", retaining existing attribute descriptors for all columns ("meta_template")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 44 metadata fields in the Data, Dataset, Project, Site, Status, Study, Supplement sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated title ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: added geographic metadata based on matching values in column Station to location and station names registered in "geo_locations.mat" ("add_sitemetadata")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 8 metadata fields in the Site sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated title ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 1 metadata fields in the Dataset sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: deleted columns TotalDepth, Calibration and Pump from the structure ("deletecols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: converted values in all columns assigned QA/QC flag(s) I (invalid value (out of range)) to NaN/empty: 1997 records in Conductivity, 1997 records in Salinity, 1997 records in Sigma_t ("nullflags")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: performed daily statistical aggregation on data columns Temperature, Conductivity, Pressure, Depth, Salinity and Sigma_t by grouping on columns Site, Longitude, Latitude, Year, Month and Day (aggr_datetime)</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated title ("newtitle")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 1 metadata fields in the Dataset sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: calculated calendar date in MATLAB serial day (base 1/1/0000) format from individual date component columns Year, Month and Day, added "Date" column at position 4 ("add_datecol")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: documented flagged and missing values in columns Daily_Min_Temperature, Daily_Max_Temperature, Daily_Mean_Temperature, Daily_StdDev_Temperature, Daily_SE_Temperature, Daily_Min_Conductivity, Daily_Max_Conductivity, Daily_Mean_Conductivity, Daily_StdDev_Conductivity, Daily_SE_Conductivity, Daily_Min_Pressure, Daily_Max_Pressure, Daily_Mean_Pressure, Daily_StdDev_Pressure, Daily_SE_Pressure, Daily_Min_Depth, Daily_Max_Depth, Daily_Mean_Depth, Daily_StdDev_Depth, Daily_SE_Depth, Daily_Min_Salinity, Daily_Max_Salinity, Daily_Mean_Salinity, Daily_StdDev_Salinity, Daily_SE_Salinity, Daily_Min_Sigma_t, Daily_Max_Sigma_t, Daily_Mean_Sigma_t, Daily_StdDev_Sigma_t and Daily_SE_Sigma_t as data set anomalies in the metadata ("add_anomalies")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: converted values in all columns assigned QA/QC flag(s) I (invalid value (out of range)) to NaN/empty: Daily_Min_Conductivity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_Max_Conductivity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_Mean_Conductivity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_StdDev_Conductivity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_SE_Conductivity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_Min_Salinity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_Max_Salinity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_Mean_Salinity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_StdDev_Salinity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_SE_Salinity record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_Min_Sigma_t record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_Max_Sigma_t record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_Mean_Sigma_t record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_StdDev_Sigma_t record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338, Daily_SE_Sigma_t record(s) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 73, 74, 75, 76, 77, 78, 79, 80, 81, 147, 148, 149, 152, 153, 154, 155, 156, 157, 158, 159, 225, 226, 227, 228, 229, 230, 231, 232, 334, 335, 336, 337 and 338 ("nullflags")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 1 metadata fields in the Study sections ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: converted dates in column(s) Date to format yyyy-mm-dd</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 4 metadata fields ("addmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ("updatecols")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: parsed and formatted metadata ("listmeta")</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>06/03/2015: flags for columns Daily_Min_Temperature, Daily_Max_Temperature, Daily_Mean_Temperature, Daily_StdDev_Temperature, Daily_SE_Temperature, Daily_Min_Conductivity, Daily_Max_Conductivity, Daily_Mean_Conductivity, Daily_StdDev_Conductivity, Daily_SE_Conductivity, Daily_Min_Pressure, Daily_Max_Pressure, Daily_Mean_Pressure, Daily_StdDev_Pressure, Daily_SE_Pressure, Daily_Min_Depth, Daily_Max_Depth, Daily_Mean_Depth, Daily_StdDev_Depth, Daily_SE_Depth, Daily_Min_Salinity, Daily_Max_Salinity, Daily_Mean_Salinity, Daily_StdDev_Salinity, Daily_SE_Salinity, Daily_Min_Sigma_t, Daily_Max_Sigma_t, Daily_Mean_Sigma_t, Daily_StdDev_Sigma_t and Daily_SE_Sigma_t converted to data columns, flag codes updated in metadata ("flags2cols")</para>
+            </description>
+          </subStep>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>Quality control analysis was performed using the GCE Data Toolbox for MATLAB software. Column data types are validated upon importing the table into MATLAB, and qualifier flags are automatically generated for data values based on QA/QC criteria for each data column pre-defined in metadata templates (e.g. value range checks, sanity checks, pattern checks). Qualifier flags are also assigned to values that are imputed or derived, revised, or otherwise differ from values in the original data submission. A column of coded qualifier flags is generated and included in the data table if flags are assigned to any value in a data column.</para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute id="PHY-GCEM-0303a2_Daily.1">
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Nearest nominal GCE-LTER sampling site</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Nearest nominal GCE-LTER sampling site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.2">
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Geographic longitude in decimal degrees</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.3">
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Geographic latitude in decimal degrees</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.4">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Fractional MATLAB serial day (based on 1 = January 1, 0000)</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain />
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.5">
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.6">
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Calendar month</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.7">
+          <attributeName>Day</attributeName>
+          <attributeDefinition>Calendar day</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.8">
+          <attributeName>Missing_Temperature</attributeName>
+          <attributeDefinition>Number of missing observations of Water temperature</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.9">
+          <attributeName>Percent_Missing_Temperature</attributeName>
+          <attributeDefinition>Percent missing observations of Water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.10">
+          <attributeName>Flagged_Temperature</attributeName>
+          <attributeDefinition>Number of QC/QA-flagged observations of Water temperature</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.11">
+          <attributeName>Percent_Flagged_Temperature</attributeName>
+          <attributeDefinition>Percent QC/QA-flagged observations of Water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.12">
+          <attributeName>Daily_Num_Temperature</attributeName>
+          <attributeDefinition>Daily Observations of Water temperature</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.13">
+          <attributeName>Daily_Min_Temperature</attributeName>
+          <attributeDefinition>Daily Minimum Water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.14">
+          <attributeName>Flag_Daily_Min_Temperature</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Minimum Water temperature (flagging criteria, where "x" is Daily_Min_Temperature: Percent_Missing_Temperature&gt;35="I", Percent_Missing_Temperature&gt;15="Q", Percent_Flagged_Temperature&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.15">
+          <attributeName>Daily_Max_Temperature</attributeName>
+          <attributeDefinition>Daily Maximum Water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.16">
+          <attributeName>Flag_Daily_Max_Temperature</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Maximum Water temperature (flagging criteria, where "x" is Daily_Max_Temperature: Percent_Missing_Temperature&gt;35="I", Percent_Missing_Temperature&gt;15="Q", Percent_Flagged_Temperature&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.17">
+          <attributeName>Daily_Mean_Temperature</attributeName>
+          <attributeDefinition>Daily Mean Water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.18">
+          <attributeName>Flag_Daily_Mean_Temperature</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Mean Water temperature (flagging criteria, where "x" is Daily_Mean_Temperature: Percent_Missing_Temperature&gt;35="I", Percent_Missing_Temperature&gt;15="Q", Percent_Flagged_Temperature&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.19">
+          <attributeName>Daily_StdDev_Temperature</attributeName>
+          <attributeDefinition>Daily Sample Standard Deviation of Water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.20">
+          <attributeName>Flag_Daily_StdDev_Temperature</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Sample Standard Deviation of Water temperature (flagging criteria, where "x" is Daily_StdDev_Temperature: Percent_Missing_Temperature&gt;35="I", Percent_Missing_Temperature&gt;15="Q", Percent_Flagged_Temperature&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.21">
+          <attributeName>Daily_SE_Temperature</attributeName>
+          <attributeDefinition>Daily Standard Error of Water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.22">
+          <attributeName>Flag_Daily_SE_Temperature</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Standard Error of Water temperature (flagging criteria, where "x" is Daily_SE_Temperature: Percent_Missing_Temperature&gt;35="I", Percent_Missing_Temperature&gt;15="Q", Percent_Flagged_Temperature&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.23">
+          <attributeName>Missing_Conductivity</attributeName>
+          <attributeDefinition>Number of missing observations of Conductivity</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.24">
+          <attributeName>Percent_Missing_Conductivity</attributeName>
+          <attributeDefinition>Percent missing observations of Conductivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.25">
+          <attributeName>Flagged_Conductivity</attributeName>
+          <attributeDefinition>Number of QC/QA-flagged observations of Conductivity</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.26">
+          <attributeName>Percent_Flagged_Conductivity</attributeName>
+          <attributeDefinition>Percent QC/QA-flagged observations of Conductivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.27">
+          <attributeName>Daily_Num_Conductivity</attributeName>
+          <attributeDefinition>Daily Observations of Conductivity</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.28">
+          <attributeName>Daily_Min_Conductivity</attributeName>
+          <attributeDefinition>Daily Minimum Conductivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.29">
+          <attributeName>Flag_Daily_Min_Conductivity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Minimum Conductivity (flagging criteria, where "x" is Daily_Min_Conductivity: Percent_Missing_Conductivity&gt;35="I", Percent_Missing_Conductivity&gt;15="Q", Percent_Flagged_Conductivity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.30">
+          <attributeName>Daily_Max_Conductivity</attributeName>
+          <attributeDefinition>Daily Maximum Conductivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerMeter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.31">
+          <attributeName>Flag_Daily_Max_Conductivity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Maximum Conductivity (flagging criteria, where "x" is Daily_Max_Conductivity: Percent_Missing_Conductivity&gt;35="I", Percent_Missing_Conductivity&gt;15="Q", Percent_Flagged_Conductivity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.32">
+          <attributeName>Daily_Mean_Conductivity</attributeName>
+          <attributeDefinition>Daily Mean Conductivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerMeter</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.33">
+          <attributeName>Flag_Daily_Mean_Conductivity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Mean Conductivity (flagging criteria, where "x" is Daily_Mean_Conductivity: Percent_Missing_Conductivity&gt;35="I", Percent_Missing_Conductivity&gt;15="Q", Percent_Flagged_Conductivity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.34">
+          <attributeName>Daily_StdDev_Conductivity</attributeName>
+          <attributeDefinition>Daily Sample Standard Deviation of Conductivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerMeter</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.35">
+          <attributeName>Flag_Daily_StdDev_Conductivity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Sample Standard Deviation of Conductivity (flagging criteria, where "x" is Daily_StdDev_Conductivity: Percent_Missing_Conductivity&gt;35="I", Percent_Missing_Conductivity&gt;15="Q", Percent_Flagged_Conductivity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.36">
+          <attributeName>Daily_SE_Conductivity</attributeName>
+          <attributeDefinition>Daily Standard Error of Conductivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>siemensPerMeter</customUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.37">
+          <attributeName>Flag_Daily_SE_Conductivity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Standard Error of Conductivity (flagging criteria, where "x" is Daily_SE_Conductivity: Percent_Missing_Conductivity&gt;35="I", Percent_Missing_Conductivity&gt;15="Q", Percent_Flagged_Conductivity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.38">
+          <attributeName>Missing_Pressure</attributeName>
+          <attributeDefinition>Number of missing observations of Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.39">
+          <attributeName>Percent_Missing_Pressure</attributeName>
+          <attributeDefinition>Percent missing observations of Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.40">
+          <attributeName>Flagged_Pressure</attributeName>
+          <attributeDefinition>Number of QC/QA-flagged observations of Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.41">
+          <attributeName>Percent_Flagged_Pressure</attributeName>
+          <attributeDefinition>Percent QC/QA-flagged observations of Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.42">
+          <attributeName>Daily_Num_Pressure</attributeName>
+          <attributeDefinition>Daily Observations of Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.43">
+          <attributeName>Daily_Min_Pressure</attributeName>
+          <attributeDefinition>Daily Minimum Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.44">
+          <attributeName>Flag_Daily_Min_Pressure</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Minimum Water pressure at sensor (approximately equivalent to water depth within 3% error) (flagging criteria, where "x" is Daily_Min_Pressure: Percent_Missing_Pressure&gt;35="I", Percent_Missing_Pressure&gt;15="Q", Percent_Flagged_Pressure&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.45">
+          <attributeName>Daily_Max_Pressure</attributeName>
+          <attributeDefinition>Daily Maximum Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.46">
+          <attributeName>Flag_Daily_Max_Pressure</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Maximum Water pressure at sensor (approximately equivalent to water depth within 3% error) (flagging criteria, where "x" is Daily_Max_Pressure: Percent_Missing_Pressure&gt;35="I", Percent_Missing_Pressure&gt;15="Q", Percent_Flagged_Pressure&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.47">
+          <attributeName>Daily_Mean_Pressure</attributeName>
+          <attributeDefinition>Daily Mean Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.48">
+          <attributeName>Flag_Daily_Mean_Pressure</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Mean Water pressure at sensor (approximately equivalent to water depth within 3% error) (flagging criteria, where "x" is Daily_Mean_Pressure: Percent_Missing_Pressure&gt;35="I", Percent_Missing_Pressure&gt;15="Q", Percent_Flagged_Pressure&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.49">
+          <attributeName>Daily_StdDev_Pressure</attributeName>
+          <attributeDefinition>Daily Sample Standard Deviation of Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.50">
+          <attributeName>Flag_Daily_StdDev_Pressure</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Sample Standard Deviation of Water pressure at sensor (approximately equivalent to water depth within 3% error) (flagging criteria, where "x" is Daily_StdDev_Pressure: Percent_Missing_Pressure&gt;35="I", Percent_Missing_Pressure&gt;15="Q", Percent_Flagged_Pressure&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.51">
+          <attributeName>Daily_SE_Pressure</attributeName>
+          <attributeDefinition>Daily Standard Error of Water pressure at sensor (approximately equivalent to water depth within 3% error)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.52">
+          <attributeName>Flag_Daily_SE_Pressure</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Standard Error of Water pressure at sensor (approximately equivalent to water depth within 3% error) (flagging criteria, where "x" is Daily_SE_Pressure: Percent_Missing_Pressure&gt;35="I", Percent_Missing_Pressure&gt;15="Q", Percent_Flagged_Pressure&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.53">
+          <attributeName>Missing_Depth</attributeName>
+          <attributeDefinition>Number of missing observations of Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.54">
+          <attributeName>Percent_Missing_Depth</attributeName>
+          <attributeDefinition>Percent missing observations of Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.55">
+          <attributeName>Flagged_Depth</attributeName>
+          <attributeDefinition>Number of QC/QA-flagged observations of Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.56">
+          <attributeName>Percent_Flagged_Depth</attributeName>
+          <attributeDefinition>Percent QC/QA-flagged observations of Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.57">
+          <attributeName>Daily_Num_Depth</attributeName>
+          <attributeDefinition>Daily Observations of Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.58">
+          <attributeName>Daily_Min_Depth</attributeName>
+          <attributeDefinition>Daily Minimum Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.59">
+          <attributeName>Flag_Daily_Min_Depth</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Minimum Water depth to the pressure sensor of the moored sonde (flagging criteria, where "x" is Daily_Min_Depth: Percent_Missing_Depth&gt;35="I", Percent_Missing_Depth&gt;15="Q", Percent_Flagged_Depth&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.60">
+          <attributeName>Daily_Max_Depth</attributeName>
+          <attributeDefinition>Daily Maximum Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.61">
+          <attributeName>Flag_Daily_Max_Depth</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Maximum Water depth to the pressure sensor of the moored sonde (flagging criteria, where "x" is Daily_Max_Depth: Percent_Missing_Depth&gt;35="I", Percent_Missing_Depth&gt;15="Q", Percent_Flagged_Depth&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.62">
+          <attributeName>Daily_Mean_Depth</attributeName>
+          <attributeDefinition>Daily Mean Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.63">
+          <attributeName>Flag_Daily_Mean_Depth</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Mean Water depth to the pressure sensor of the moored sonde (flagging criteria, where "x" is Daily_Mean_Depth: Percent_Missing_Depth&gt;35="I", Percent_Missing_Depth&gt;15="Q", Percent_Flagged_Depth&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.64">
+          <attributeName>Daily_StdDev_Depth</attributeName>
+          <attributeDefinition>Daily Sample Standard Deviation of Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.65">
+          <attributeName>Flag_Daily_StdDev_Depth</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Sample Standard Deviation of Water depth to the pressure sensor of the moored sonde (flagging criteria, where "x" is Daily_StdDev_Depth: Percent_Missing_Depth&gt;35="I", Percent_Missing_Depth&gt;15="Q", Percent_Flagged_Depth&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.66">
+          <attributeName>Daily_SE_Depth</attributeName>
+          <attributeDefinition>Daily Standard Error of Water depth to the pressure sensor of the moored sonde</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.67">
+          <attributeName>Flag_Daily_SE_Depth</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Standard Error of Water depth to the pressure sensor of the moored sonde (flagging criteria, where "x" is Daily_SE_Depth: Percent_Missing_Depth&gt;35="I", Percent_Missing_Depth&gt;15="Q", Percent_Flagged_Depth&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.68">
+          <attributeName>Missing_Salinity</attributeName>
+          <attributeDefinition>Number of missing observations of Salinity</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.69">
+          <attributeName>Percent_Missing_Salinity</attributeName>
+          <attributeDefinition>Percent missing observations of Salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.70">
+          <attributeName>Flagged_Salinity</attributeName>
+          <attributeDefinition>Number of QC/QA-flagged observations of Salinity</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.71">
+          <attributeName>Percent_Flagged_Salinity</attributeName>
+          <attributeDefinition>Percent QC/QA-flagged observations of Salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.72">
+          <attributeName>Daily_Num_Salinity</attributeName>
+          <attributeDefinition>Daily Observations of Salinity</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.73">
+          <attributeName>Daily_Min_Salinity</attributeName>
+          <attributeDefinition>Daily Minimum Salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.74">
+          <attributeName>Flag_Daily_Min_Salinity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Minimum Salinity (flagging criteria, where "x" is Daily_Min_Salinity: Percent_Missing_Salinity&gt;35="I", Percent_Missing_Salinity&gt;15="Q", Percent_Flagged_Salinity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.75">
+          <attributeName>Daily_Max_Salinity</attributeName>
+          <attributeDefinition>Daily Maximum Salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.76">
+          <attributeName>Flag_Daily_Max_Salinity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Maximum Salinity (flagging criteria, where "x" is Daily_Max_Salinity: Percent_Missing_Salinity&gt;35="I", Percent_Missing_Salinity&gt;15="Q", Percent_Flagged_Salinity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.77">
+          <attributeName>Daily_Mean_Salinity</attributeName>
+          <attributeDefinition>Daily Mean Salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.78">
+          <attributeName>Flag_Daily_Mean_Salinity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Mean Salinity (flagging criteria, where "x" is Daily_Mean_Salinity: Percent_Missing_Salinity&gt;35="I", Percent_Missing_Salinity&gt;15="Q", Percent_Flagged_Salinity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.79">
+          <attributeName>Daily_StdDev_Salinity</attributeName>
+          <attributeDefinition>Daily Sample Standard Deviation of Salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.80">
+          <attributeName>Flag_Daily_StdDev_Salinity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Sample Standard Deviation of Salinity (flagging criteria, where "x" is Daily_StdDev_Salinity: Percent_Missing_Salinity&gt;35="I", Percent_Missing_Salinity&gt;15="Q", Percent_Flagged_Salinity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.81">
+          <attributeName>Daily_SE_Salinity</attributeName>
+          <attributeDefinition>Daily Standard Error of Salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.82">
+          <attributeName>Flag_Daily_SE_Salinity</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Standard Error of Salinity (flagging criteria, where "x" is Daily_SE_Salinity: Percent_Missing_Salinity&gt;35="I", Percent_Missing_Salinity&gt;15="Q", Percent_Flagged_Salinity&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.83">
+          <attributeName>Missing_Sigma_t</attributeName>
+          <attributeDefinition>Number of missing observations of Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.84">
+          <attributeName>Percent_Missing_Sigma_t</attributeName>
+          <attributeDefinition>Percent missing observations of Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.85">
+          <attributeName>Flagged_Sigma_t</attributeName>
+          <attributeDefinition>Number of QC/QA-flagged observations of Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.86">
+          <attributeName>Percent_Flagged_Sigma_t</attributeName>
+          <attributeDefinition>Percent QC/QA-flagged observations of Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.87">
+          <attributeName>Daily_Num_Sigma_t</attributeName>
+          <attributeDefinition>Daily Observations of Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.88">
+          <attributeName>Daily_Min_Sigma_t</attributeName>
+          <attributeDefinition>Daily Minimum Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogramPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.89">
+          <attributeName>Flag_Daily_Min_Sigma_t</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Minimum Sigma-t (i.e. Density-1) (flagging criteria, where "x" is Daily_Min_Sigma_t: Percent_Missing_Sigma_t&gt;35="I", Percent_Missing_Sigma_t&gt;15="Q", Percent_Flagged_Sigma_t&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.90">
+          <attributeName>Daily_Max_Sigma_t</attributeName>
+          <attributeDefinition>Daily Maximum Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogramPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.91">
+          <attributeName>Flag_Daily_Max_Sigma_t</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Maximum Sigma-t (i.e. Density-1) (flagging criteria, where "x" is Daily_Max_Sigma_t: Percent_Missing_Sigma_t&gt;35="I", Percent_Missing_Sigma_t&gt;15="Q", Percent_Flagged_Sigma_t&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.92">
+          <attributeName>Daily_Mean_Sigma_t</attributeName>
+          <attributeDefinition>Daily Mean Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogramPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.93">
+          <attributeName>Flag_Daily_Mean_Sigma_t</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Mean Sigma-t (i.e. Density-1) (flagging criteria, where "x" is Daily_Mean_Sigma_t: Percent_Missing_Sigma_t&gt;35="I", Percent_Missing_Sigma_t&gt;15="Q", Percent_Flagged_Sigma_t&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.94">
+          <attributeName>Daily_StdDev_Sigma_t</attributeName>
+          <attributeDefinition>Daily Sample Standard Deviation of Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogramPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.95">
+          <attributeName>Flag_Daily_StdDev_Sigma_t</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Sample Standard Deviation of Sigma-t (i.e. Density-1) (flagging criteria, where "x" is Daily_StdDev_Sigma_t: Percent_Missing_Sigma_t&gt;35="I", Percent_Missing_Sigma_t&gt;15="Q", Percent_Flagged_Sigma_t&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.96">
+          <attributeName>Daily_SE_Sigma_t</attributeName>
+          <attributeDefinition>Daily Standard Error of Sigma-t (i.e. Density-1)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogramPerCubicMeter</standardUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="PHY-GCEM-0303a2_Daily.97">
+          <attributeName>Flag_Daily_SE_Sigma_t</attributeName>
+          <attributeDefinition>QA/QC flags for Daily Standard Error of Sigma-t (i.e. Density-1) (flagging criteria, where "x" is Daily_SE_Sigma_t: Percent_Missing_Sigma_t&gt;35="I", Percent_Missing_Sigma_t&gt;15="Q", Percent_Flagged_Sigma_t&gt;35="Q")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>365</numberOfRecords>
+    </dataTable>
+    <otherEntity id="PHY-GCEM-0303a2.kml">
+      <entityName>PHY-GCEM-0303a2.kml</entityName>
+      <entityDescription>Google Earth Keyhole Markup Language file describing the geographic locations sampled in data set knb-lter-gce.77.37</entityDescription>
+      <physical>
+        <objectName>PHY-GCEM-0303a2.kml</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.google-earth.kml+xml</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-gce/77/37/21db8665430e41e41ecfe1b752d21c7d</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=GCE,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>KML</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/stmml.xsd">
+        
+        <ns2:unit abbreviation="dbar" id="decibar" multiplierToSI="10000" name="decibar" parentSI="pascal" unitType="pressure">
+          <ns2:description>decibar = 0.1 bar</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="nominalMonth" name="nominalMonth">
+          <ns2:description>one month including a variable number of seconds</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="%" id="percent" multiplierToSI="1" name="percent" unitType="dimensionless">
+          <ns2:description>ratio of two quantities as percent composition (1:100)</ns2:description>
+        </ns2:unit>
+        <ns2:unit abbreviation="S/m" id="siemensPerMeter" multiplierToSI="1" name="siemensPerMeter" unitType="conductance">
+          <ns2:description>siemens per meter (electrolytic conductivity of a solution)</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

@@ -1,0 +1,1192 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1699.5" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Supersites_Soil Moisture Granite Sites</title>
+ <creator id="1366871745426"> <organizationName>Centre for Water Resources Research,University of Kwazulu Natal</organizationName>
+ <positionName>WRC project K5/2051</positionName>
+ </creator>
+ <creator id="1366871768654"><organizationName>SANParks</organizationName>
+ <positionName>Scientific Services</positionName>
+ </creator>
+ <abstract><para>This datapackage contains datasets for soil mositure on the Granite Supersites</para>
+ </abstract>
+ <keywordSet><keyword>SANParks, South Africa, Kruger National Park, South Africa, Supersites, soil moisture</keyword>
+ </keywordSet>
+<intellectualRights><para>This data has a lead time protection until December 2015. If you would like access to the data before this please contact Eddie Riddell. AS the data is raw and unverified no responsibility will be taken for errors associated with it</para>
+</intellectualRights>
+  <coverage><geographicCoverage><geographicDescription>KNP_Boundary</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>30.888418</westBoundingCoordinate>
+ <eastBoundingCoordinate>32.033169</eastBoundingCoordinate>
+ <northBoundingCoordinate>-22.32785</northBoundingCoordinate>
+ <southBoundingCoordinate>-25.528913</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2013-04-25</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1366871793864"><individualName><givenName>ES</givenName>
+ <surName>Riddell</surName>
+ </individualName>
+ <organizationName>UKZN</organizationName>
+ <electronicMailAddress>edriddell@gmail.com</electronicMailAddress>
+ </contact>
+ <contact id="1366871872037"><individualName><givenName>IPJ</givenName>
+ <surName>Smit</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <electronicMailAddress>Izak.Smit@sanparks.org</electronicMailAddress>
+ </contact>
+ <dataTable id="1366872372668"><entityName>SoilMoistureSites.txt</entityName>
+ <physical id="1366872035046"><objectName>SoilMoistureSites.txt</objectName>
+ <size unit="byte">7673</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1692.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366872372684"><attributeName>Site_Name</attributeName>
+ <attributeDefinition>Site_Name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site_Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372699"><attributeName>Site description</attributeName>
+ <attributeDefinition>Site description</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372715"><attributeName>Easting</attributeName>
+ <attributeDefinition>Easting</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372730"><attributeName>Northing</attributeName>
+ <attributeDefinition>Northing</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372746"><attributeName>Ch1 mV (depth mm)</attributeName>
+ <attributeDefinition>Depth at which channel 1 Irrometer Watermark sensors recording millivolts (mV) is positioned</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372762"><attributeName>Ch2 mV (depth mm)</attributeName>
+ <attributeDefinition>Depth at which channel 2 Irrometer Watermark sensors recording millivolts (mV) is positioned</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372777"><attributeName>Ch3 mV (depth mm)</attributeName>
+ <attributeDefinition>Depth at which channel 3 Irrometer Watermark sensors recording millivolts (mV) is positioned</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372793"><attributeName>Ch 4 Soil Temperature (depth mm)</attributeName>
+ <attributeDefinition>Depth at which temperature sensor is positioned</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372808"><attributeName>Piezometer (depth mm)</attributeName>
+ <attributeDefinition>Depth of the piezometer</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366872372824"><attributeName>Metadata</attributeName>
+ <attributeDefinition>Metadata</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Metadata</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>19</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366873487247"><entityName>SGR1_M.txt</entityName>
+ <physical id="1366873037473"><objectName>SGR1_M.txt</objectName>
+ <size unit="byte">5002607</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1693.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366873487263"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>DateTime_String</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366873487278"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366873487294"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>Ch2 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366873487309"><attributeName>Ch3 Volt</attributeName>
+ <attributeDefinition>Ch3 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366873487325"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temp C</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366873487341"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head)
+If([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366873487356"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head)
+If([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366873487372"><attributeName>Ch3 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head)
+If([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366873487387"><attributeName>DateTime</attributeName>
+ <attributeDefinition>DateTime</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy/ hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>61963</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366874338520"><entityName>SGR1_R.txt</entityName>
+ <physical id="1366873710615"><objectName>SGR1_R.txt</objectName>
+ <size unit="byte">4537949</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1694.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366874338536"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>DateTime_String</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874338551"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874338567"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>Ch2 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874338583"><attributeName>Ch3 Volt</attributeName>
+ <attributeDefinition>Ch3 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874338598"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temp C</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874338614"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874338629"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874338645"><attributeName>Ch3 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874338661"><attributeName>DateTime</attributeName>
+ <attributeDefinition>date</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>56102</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366874900079"><entityName>SGR2_C.txt</entityName>
+ <physical id="1366874469212"><objectName>SGR2_C.txt</objectName>
+ <size unit="byte">4337321</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1695.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366874900095"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>DateTime_String</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874900111"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874900126"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>Ch2 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874900142"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temp C</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874900157"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head)
+IIf([Ch3 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch3 Volt],(-380+(1900*[Ch3 Volt]))/(1-(0.37*[Ch3 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874900173"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head)
+IIf([Ch3 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch3 Volt],(-380+(1900*[Ch3 Volt]))/(1-(0.37*[Ch3 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366874900189"><attributeName>DateTime</attributeName>
+ <attributeDefinition>DateTime</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>62096</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366875323185"><entityName>SGR2_M.txt</entityName>
+ <physical id="1366875182860"><objectName>SGR2_M.txt</objectName>
+ <size unit="byte">5066434</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1696.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366875323201"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>DateTime_String</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875323216"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875323232"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>Ch2 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875323248"><attributeName>Ch3 Volt</attributeName>
+ <attributeDefinition>Ch3 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875323263"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temp C</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875323279"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875323294"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875323310"><attributeName>Ch3 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875323326"><attributeName>DateTime</attributeName>
+ <attributeDefinition>Date time</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>62093</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366875520149"><entityName>SGR2_R.txt</entityName>
+ <physical id="1366875415705"><objectName>SGR2_R.txt</objectName>
+ <size unit="byte">5607936</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1697.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366875520165"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>Date time</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875520181"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875520196"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>CH2 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875520212"><attributeName>Ch3 Volt</attributeName>
+ <attributeDefinition>Ch3 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875520227"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875520243"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875520259"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875520274"><attributeName>Ch3 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875520290"><attributeName>DateTime</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>66270</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366875951354"><entityName>SGR3_C.txt</entityName>
+ <physical id="1366875825365"><objectName>SGR3_C.txt</objectName>
+ <size unit="byte">5137417</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1698.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366875951369"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875951385"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875951400"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>Ch2 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875951416"><attributeName>Ch3 Volt</attributeName>
+ <attributeDefinition>Ch3 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875951432"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875951447"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875951463"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875951478"><attributeName>Ch3 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366875951494"><attributeName>DateTime</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>62026</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366876826523"><entityName>SGR3_M1.txt</entityName>
+ <physical id="1366876683553"><objectName>SGR3_M1.txt</objectName>
+ <size unit="byte">5091823</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1700.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366876826538"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366876826554"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366876826570"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>Ch2 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366876826585"><attributeName>Ch3 Volt</attributeName>
+ <attributeDefinition>Ch3 Volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366876826601"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366876826616"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366876826632"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366876826648"><attributeName>Ch3 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366876826663"><attributeName>DateTime</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>62078</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366877184439"><entityName>SGR3_M2.txt</entityName>
+ <physical id="1366877054645"><objectName>SGR3_M2.txt</objectName>
+ <size unit="byte">4723837</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1701.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366877184455"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877184470"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877184486"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>Ch2 volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877184501"><attributeName>Ch3 Volt</attributeName>
+ <attributeDefinition>Ch3 volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877184517"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877184533"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877184548"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877184564"><attributeName>Ch3 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877184579"><attributeName>DateTime</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>58408</numberOfRecords>
+ </dataTable>
+ <dataTable id="1366877421776"><entityName>SGR3_R.txt</entityName>
+ <physical id="1366877308034"><objectName>SGR3_R.txt</objectName>
+ <size unit="byte">5133186</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1702.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>uid=edriddell,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ <allow><principal>uid=izaks,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1366877421792"><attributeName>DateTime_String</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy/mm/dd hh: mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877421807"><attributeName>Ch1 Volt</attributeName>
+ <attributeDefinition>Ch1 volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877421823"><attributeName>Ch2 Volt</attributeName>
+ <attributeDefinition>Ch2 volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877421838"><attributeName>Ch3 Volt</attributeName>
+ <attributeDefinition>Ch3 volt</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877421854"><attributeName>Temp C</attributeName>
+ <attributeDefinition>Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877421870"><attributeName>Ch1 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877421885"><attributeName>Ch2 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877421901"><attributeName>Ch3 CPH</attributeName>
+ <attributeDefinition>mm of tension (capillary pressure head). 
+IIf([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1366877421916"><attributeName>DateTime</attributeName>
+ <attributeDefinition>Date and time</attributeDefinition>
+ <measurementScale><dateTime><formatString>mm/dd/yyyy hh:Mm:ss</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>62086</numberOfRecords>
+ </dataTable>
+ <dataTable id="1367229410451"><entityName>SGR1_C.txt</entityName>
+<physical id="1367229265805"><objectName>SGR1_C.txt</objectName>
+<size unit="byte">5068358</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/judithk.1732.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=Supersites,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1367229410466"><attributeName>DateTime_String</attributeName>
+<attributeDefinition>Date and time</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy/mm/dd hh:mm:ss</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1367229410482"><attributeName>Ch1 Volt</attributeName>
+<attributeDefinition>Ch1 Volt</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1367229410498"><attributeName>Ch2 Volt</attributeName>
+<attributeDefinition>CH2 volt</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1367229410513"><attributeName>Ch3 Volt</attributeName>
+<attributeDefinition>Ch3 Volt</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millivolt</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1367229410529"><attributeName>Temp C</attributeName>
+<attributeDefinition>Temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1367229410544"><attributeName>Ch1 CPH</attributeName>
+<attributeDefinition>mm of tension (capillary pressure head)
+If([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1367229410560"><attributeName>Ch2 CPH</attributeName>
+<attributeDefinition>mm of tension (capillary pressure head)
+If([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1367229410576"><attributeName>Ch3 CPH</attributeName>
+<attributeDefinition>mm of tension (capillary pressure head)
+If([Ch1 Volt]&gt;1.85,-4485496.2+2543511.5*[Ch1 Volt],(-380+(1900*[Ch1 Volt]))/(1-(0.37*[Ch1 Volt])-0.01205*[Temp C]))</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1367229410591"><attributeName>DateTime</attributeName>
+<attributeDefinition>Date and time</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy Hh:Mm:ss</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>61066</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

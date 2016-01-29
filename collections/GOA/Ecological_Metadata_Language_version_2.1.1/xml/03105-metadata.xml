@@ -1,0 +1,853 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.342.5" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset> <title>Local questionnaire on historic size and harvest amounts of Katharina tunicata along the Kenai Peninsula, Alaska: 2003 - 2004</title>
+ <creator id="1378837606133"> <individualName><givenName>Anne</givenName>
+ <surName>Salomon</surName>
+ </individualName>
+ <organizationName>Simon Fraser University, School of Resource and Environmental Management</organizationName>
+ <positionName>Assistant Professor and Hakai Professor</positionName>
+ <address><city>Burnaby</city>
+ <administrativeArea>British Columbia</administrativeArea>
+ <country>Canada</country>
+ </address>
+ <phone phonetype="voice">778.782.8739</phone>
+ <electronicMailAddress>anne.salomon@sfu.ca</electronicMailAddress>
+ </creator>
+ <creator id="1378837852775"><individualName><givenName>Jennifer</givenName>
+ <surName>Ruesink</surName>
+ </individualName>
+ <organizationName>University of Washington</organizationName>
+ <positionName>Professor</positionName>
+ <address><city>Seattle</city>
+ <administrativeArea>Washington</administrativeArea>
+ </address>
+ <electronicMailAddress>ruesink@u.washington.edu</electronicMailAddress>
+ </creator>
+ <associatedParty id="1378856074492"><individualName><givenName>Sarah</givenName>
+ <surName>Clark</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Projects Data Coordinator</positionName>
+ <address><deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ </address>
+ <phone phonetype="voice">805-892-2500</phone>
+ <electronicMailAddress>sclark@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <abstract><para>We investigated the relative roles of natural factors and shoreline harvest leading to localized declines of the black leather chiton, Katharina tunicata, on the Kenai Peninsula, Alaska. Field surveys of the significant predictors of K. tunicata across 11 sites suggest that its current spatial variation is significantly related to human exploitation and sea otter predation. Traditional ecological knowledge further revealed that several benthic marine invertebrates (sea urchin, crab and clams) have declined sequentially, with reduced densities of K. tunicata being the most recent. We propose that a restriction in alternative prey species availability has led to recent intensified per capita predator impacts on K. tunicata. Experimental K. tunicata removals in the low intertidal revealed that at high densities, K. tunicata reduced the density of Alaria marginata, by 94% and species richness by 38%, and altered algal and invertebrate community structure. Across site comparisons showed that A. marginata biomass was 7 times greater at exploited versus unexploited sites. Furthermore, community structure differed significantly as a function of predation pressure. These results provide evidence of a trophic cascade and reveal the extent to which fishing and natural predation, via the reduction of a shared keystone resource, indirectly alter a temperate coastal ecosystem. 
+
+Publications: 
+Salomon, A.K. 2006. Investigating the relative roles of natural factors and shoreline harvest in altering the community structure, dynamics and diversity of the Kenai Peninsula&#8217;s rocky intertidal, Exxon Valdez Oil Spill Gulf Ecosystem Monitoring and Research Project Final Report (GEM Project 030647), University of Washington, Seattle, Washington.</para>
+ </abstract>
+<keywordSet><keyword>subsistence</keyword>
+<keyword>marine ecological change</keyword>
+<keyword>shoreline harvest</keyword>
+<keyword>Katharina tunicata</keyword>
+<keyword>Kenai Peninsula</keyword>
+<keyword>Bidarki</keyword>
+<keyword>chiton</keyword>
+</keywordSet>
+<keywordSet><keyword>EVOSTC</keyword>
+<keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+<keyword>Oil Spill</keyword>
+<keyword>Exxon Valdez</keyword>
+<keyword>Alaska</keyword>
+<keyword>Benthic</keyword>
+<keyword>Invertebrates and Algae</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+  <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council. Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council. Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and USGS. Please let the Owner know when these data are used. These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Kenai Peninsula, Alaska, USA</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-152.125</westBoundingCoordinate>
+ <eastBoundingCoordinate>-151.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>59.625</northBoundingCoordinate>
+ <southBoundingCoordinate>58.625</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2003</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2004</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Acmaea mitra</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Acrosiphonia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Alaria marginata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Alcyonacean</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Analipus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Aplidium spp</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Artic Borer</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Balanus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Boreotrophon spp Deep ridged long groove</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Bossiella</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Bossiella cretacea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Bryozoan</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Bryozoan Upright</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Bryozoan Upright Heteropora alaskensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Calliostoma</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Cancer oregonensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Chelyosoma productum</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Chthamalus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Cladophora</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Cnemidocarpa finmarkiensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Codium</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Colpomenia peregrina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Corallina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Coralline crust</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Costaria costata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Cryptochiton</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Cryptosiphonia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Cymathere</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Dark cuc</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Encrusting Bryozoan on haptera</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Endocladia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Enteromorpha Intes</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Epiactus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Eudistoma ritteri</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Eupentacta spp white cuc</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Evasterias</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Fauchea laciniata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Flustrelldira coniculata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Fucus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Fusitriton oregonensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Fustraledra</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Green yellow Halichondria</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Halichondria</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Haliclona</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Halosaccion</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hedophyllum</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Henricia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hildenbrandia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hildenbrandia  Ralfsia fleshy crust</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Idotea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Kalina orange sponge yellowy orange very porous with orange squigglies</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Katharina tunicata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Key hole Limpet</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Lacuna</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria bongardiana</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria groenlandica</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria longipies</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Laminaria setchellii</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Lemon dorrid sea slug</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Lepidozonna mertensii</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Leptasterias</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Litorina sp</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Long skinny black worm Amphiporous</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Lottiidae</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Margarites</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mastocarpus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mazzaella heterocarpa</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Melanosiphon intestinalalis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mesophyllum</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Metridium</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Microcladia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Modiolus modiolus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mopalia spp</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mytilus californianus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mytilus trossulus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Nemertean</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Neoptilota</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Neorhodomela</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Nucella Lamellosa</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Nucella canaliculata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ocenebrina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ocinebrina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Odonthalia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Oedignathus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Onchidella</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ophiopholis aculeata Brittle Star</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ophlitospongia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>OrANGE pista</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Orange Aplidium</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Orange Encrusting Sponge</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Orange dorrid sea slug</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pagurus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Palmaria blade complex</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Palmaria blade complexe</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Palmaria callophylloides</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Petrocelis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Phidiana crassicornis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Phycodrys riggii</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pink purple grey Haliclona</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pisaster</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pista elongata Sandy Squishy tube worms</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pododesmus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Polyneura latissima</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Polysiphonia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Porphyra</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Potamilla occelata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pterosiphonia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ptilota</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pugettia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pycnopodia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ralfsia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Red banded star Crosaster possibly</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Riterrela like compund ascidian clubs no orange</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ritterella like tunicate</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Rostanga</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>S droebachiensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Scypha</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Scytosiphon</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Sea Peach</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Semibalanus cariosus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Serpularella</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Serraticardia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Small smooth cuc</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Soranthera ulvoidea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Sparlingia pertusa</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Spirorbids</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Squat mystery snail</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Stringy fan tuffs Pterosiphonia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Styela</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Stylantheca Hydrocoral</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Tokidadendron kurilensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Tonicella lineata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Tonicella rubra</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Tonicella undocaerulea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Trichotropis cancellata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Triopha</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Ulvoid</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Urticina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>bumpy clumps of mystery  Red</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>chondracanthus exasperata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>neorhodomela oregona</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>pink mussel epipytic</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>sea mouse recruit</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>thin red blade Voucher</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact><references>1378837606133</references>
+ </contact>
+ <methods><methodStep><description><section><title>Study Area</title>
+ <para>This research was conducted in south central Alaska, at 11 sites located on the rocky shores of the outer Kenai Peninsula, surrounding two Sugpiaq villages, Port Graham and Nanwalek. Sites were identified by tribal elders to span a gradient in K. tunicata subsistence collection effort. Consequently, sites were located at varying distances away from the villages, from heavily exploited accessible sites located close to the villages, to less accessible, moderately exploited sites located further from the villages. Although officially established in the early1880s by Russian missionaries, these two Native villages existed as fur trading posts in the late 1700s and likely as seasonal camps since people began to inhabit the area as early as 5000 years ago (de Laguna 1956, Klein 1996, Crowell et al. 2001). Archaeological excavations reveal that historical village sites in the neighboring southern shores of the Kenai Peninsula, from which the ancestors of Nanwalek and Port Graham residents came, are approximately 800 years old (Crowell and Mann 1996).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Present-day factors governing spatial distribution of K. tunicata</title>
+ <para>We quantified the dominant bottom-up and top-down factors suggested by ecological theory and TEK to influence K. tunicata density. Bottom-up factors include macroalgal production and several physical factors (wave exposure, water temperature). Top-down factors include human collection effort and predation by other animals (sea otters, birds, sea stars). Examining the significant predictors of K. tunicata density and biomass across 11 sites represents a space-for-time substitution to inform recent K. tunicata declines.</para>
+ <para>We quantified the current spatial variation in subsistence collection of K. tunicata among the 11 sites by opportunistically surveying 39 village residents. Harvest surveys we conducted with a map of the area and a fixed questionnaire such that local residents could identify where they currently and previously harvested and for how many low tides a year. We also documented locally observed trends in K. tunicata density and size structure. This allowed us to estimate the timing of K. tunicata decline and the typical sizes harvested both presently and in the past, pre-decline. We also recorded local ecological observations and perceptions of the main factors driving changes in K. tunicata populations.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Traditional Ecological Knowledge</title>
+ <para>[[MISSING THIS DATA]] To more thoroughly explore the causes of K. tunicata decline, we conducted semi-directed interviews (Huntington 2000) with 10 tribal elders to document historical trends in nearshore ecosystem dynamics including changes in subsistence shellfish resources and harvest practices, commercial fishing effort, social and economic drivers, and species interactions both locally near the villages and regionally in the outer Kenai Peninsula and Gulf of Alaska. The elders were selected by recommendation from village Tribal Councils and by chain-referral (one respondent suggesting others whom we should contact). In the semi-directive interview, researchers identify a set of topics to be addressed, but the respondent can pursue his or her lines of thought rather than being constrained by the format of a questionnaire. In this way, the respondent may indicate connections or additional information that the researchers did not or could not have anticipated. Furthermore, the course of the interview can follow the respondent&#8217;s understanding of the topic, rather than the researchers&#8217; views.</para>
+ <para>We used the information from the interviews in two ways. First, we identified historical observations, both ecological and socio-economic, and developed a timeline of events and trends together with an explanatory narrative. The timeline and narrative were presented to the elders and others in both communities to confirm the information and interpretation. Second, we developed a set of hypotheses proposed by the elders to explain the observed invertebrate declines. These hypotheses were also presented to the elders and others for confirmation, and were used in our analysis.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Temporal variation in subsistence shellfish landings</title>
+ <para>We compared the traditional knowledge of marine invertebrate trends in relative abundance with invertebrate subsistence landings data from 1987 and 1997 derived from the Community Profile Database maintained by the Subsistence Division of the Alaska Department of Fish and Game (Brown et al. 2001). Invertebrate landings data from both villages, Nanwalek and Port Graham, were pooled. These data we used to calibrate the documented TEK. Estimates of human population size, pooled for both villages, were derived from the ADF&amp;G Community Profile Database, the US Census Community Database and Chugachmiut (USCensus 2000, Brown et al. 2001, Luken 2006).</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project><title>Investigating the Relative Roles of Natural Factors and Shoreline Harvest in Altering the  Community Structure, Dynamics and Diversity of the Kenai Peninsula&#8217;s Rocky Intertidal</title>
+ <personnel><references>1378837852775</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council project numbers 030647, 040647; National Oceanic and Atmospheric Association; National Estuarine Research Reserve graduate fellowship; Natural Sciences and Engineering Research Council of Canada graduate fellowship to AKS.</para>
+ </funding>
+ </project>
+ <dataTable id="1378926120783"><entityName>bidarkiSurvey.csv</entityName>
+ <entityDescription>Anonymous results from a questionnaire on historical changes in k. tunicata size and harvest amounts</entityDescription>
+ <physical id="1378925472896"><objectName>bidarkiSurvey.csv</objectName>
+ <size unit="byte">5070</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.343.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1378926120784"><attributeName>Age</attributeName>
+ <attributeDefinition>Age of respondent</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120785"><attributeName>Eat Bidarkis?</attributeName>
+ <attributeDefinition>Does the respondent eat k/tunicata/bidarki?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Yes, respondent eats bidarki</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>No, respondent does not eat bidarki</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120786"><attributeName>Pick?</attributeName>
+ <attributeDefinition>Does the respondent harvest bidarki?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Pick &amp; eat currently</code>
+ <definition>respondent harvests bidarki</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120787"><attributeName>Bidarki # changed?</attributeName>
+ <attributeDefinition>Has the number of bidarki where the respondent harvests changed over time?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>No</code>
+ <definition>bidarki amounts have not changed</definition>
+ </codeDefinition>
+ <codeDefinition><code>Yes</code>
+ <definition>bidarki amounts have changed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120788"><attributeName>Increased or Decreased</attributeName>
+ <attributeDefinition>Have the number of bidarki increased or decreased if the number has changed?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Decreased</code>
+ <definition>Number of bidarki decreased</definition>
+ </codeDefinition>
+ <codeDefinition><code>Increased</code>
+ <definition>Number of bidarki increased</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120789"><attributeName>When (years ago)</attributeName>
+ <attributeDefinition>When did the change in the number of bidarki occur?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120790"><attributeName>Bidarki size</attributeName>
+ <attributeDefinition>Has the size of bidarki where the respondent harvests changed?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>Bidarki size has changed</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>Bidarki size has not changed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120791"><attributeName>Increased or Decreased</attributeName>
+ <attributeDefinition>If the bidarki size has changed, has it increased or decreased?</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Decreased</code>
+ <definition>Bidarki size has decreased</definition>
+ </codeDefinition>
+ <codeDefinition><code>Increased</code>
+ <definition>Bidarki size has increased</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120792"><attributeName>When (years ago)</attributeName>
+ <attributeDefinition>If the bidarki size has changed, when did it occur?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120793"><attributeName>Typical Size Now</attributeName>
+ <attributeDefinition>What is the typical size of bidarki now? (assuming unit is mm, same as other data tables)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120794"><attributeName>Typical Size 20 years ago</attributeName>
+ <attributeDefinition>What was the typical size of bidarki 20 years ago? (assuming unit is mm, same as other data tables)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120795"><attributeName>Typical Size Now (30 years old)</attributeName>
+ <attributeDefinition>What is the typical size of bidarki now? (assuming unit is mm, same as other data tables). 30 year old respondents?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120796"><attributeName>Typical Size 20 years ago (30 yrs old)</attributeName>
+ <attributeDefinition>What was the typical size of bidarki 20 years ago? (assuming unit is mm, same as other data tables). 30 year old respondents?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120797"><attributeName>Ship outside village</attributeName>
+ <attributeDefinition>(unsure: does respondent ship harvests outside of the village?)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Yes</code>
+ <definition>ships outside village</definition>
+ </codeDefinition>
+ <codeDefinition><code>No</code>
+ <definition>does not ship outside of the village</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120798"><attributeName>Pt Pog</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120799"><attributeName>Coal Mine</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120800"><attributeName>Otter Rock</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120801"><attributeName>Romanoff</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120802"><attributeName>Inner Nanwalek</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120803"><attributeName>Outer Nanwalek</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120804"><attributeName>Flat Isla</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120805"><attributeName>Magnet Rock</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120806"><attributeName>Golden Rocks</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120807"><attributeName>Jagged Rocks</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120808"><attributeName>Pt Adams</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120809"><attributeName>Inner Nanwalek 2/3</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120810"><attributeName>Outer Nanwalek 1/3</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120811"><attributeName>Inner Nanwalek 2.5/3</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1378926120812"><attributeName>Outer Nanwalek .5/3</attributeName>
+ <attributeDefinition>?</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>39</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

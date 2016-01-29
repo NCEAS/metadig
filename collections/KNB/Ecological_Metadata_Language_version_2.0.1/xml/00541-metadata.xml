@@ -1,0 +1,561 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="wtyburczy.37.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>Vegetation Cover Data for 1953-1966, 1970 for USFS Study FSRM 1706-12</title>
+ <creator id="1126123868867" scope="document"> <individualName><givenName>Mitch</givenName>
+ <surName>McClaran</surName>
+ </individualName>
+ <organizationName>School of Natural Resources</organizationName>
+ <address scope="document"><deliveryPoint>325 Biological Sciences East</deliveryPoint>
+ <deliveryPoint>University of Arizona</deliveryPoint>
+ <city>Tucson</city>
+ <administrativeArea>AZ</administrativeArea>
+ <postalCode>85721</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">520-621-1673</phone>
+ <phone phonetype="fax">520-621-8801</phone>
+ <electronicMailAddress>mcclaran@u.arizona.edu</electronicMailAddress>
+ </creator>
+ <abstract><para>The file contains perennial grass basal cover and shrub foliar cover data collected for USFS Study FSRM 1706-12. A copy of the Study Plan may be downloaded from the web site.
+
+Measurements were taken on 20 randomly located permanent 100-ft. line transects in each of five pastures.
+
+The pastures had been grazed yearlong by cow-calf herds since 1915; utilization ranged from 47-60%. Two changes in grazing management were instituted at the start of the study period: 1) The utilization objective was lowered to 40%, and 2) Summer deferment (July-Sept) in alternate years began in 1958 in two pastures and in 1959 in the other two. Pasture 9 continued to be grazed yearlong and was measured in 1958 and 1963-1966 for comparative purposes. Data from pasture 9 were not included in published analyses.
+
+Mesquites (Prosopis velutina) in pastures 1 and 7 were killed with diesel oil between 1954 and 1957. Mesquites in pastures 8, 9, and 10 were left untreated.
+
+Cover was measured annually in late summer from 1957-1966 (except 1960) in units of 0.01 ft. Perennial grass was recorded as basal intercept; i.e., length of live root crown portion of tuft at ground level. Shrub cover was recorded as the entire live crown intercept excluding conspicuous openings or areas of dead crown.
+
+Taxa were recorded separately to the species level in most cases and sometimes to the genus level only. The OTHERPG code refers to unidentified perennial grass species; OTHSHRUB to unidentified shrub species.
+
+Sources of data were the original field data sheets except: Sources for pasture 1 in 1961-1966 were handwritten summaries that had been compiled from the field data sheets.
+
+A value of -9999 in a field means that no data were available because a reading was not made for that date.</para>
+ </abstract>
+ <keywordSet><keyword>Santa Rita Experimental Range</keyword>
+ <keyword>Arizona</keyword>
+ </keywordSet>
+ <keywordSet><keyword>Weeds, Noxious Plants Or Invasive Plants</keyword>
+ <keyword>Herbivory</keyword>
+ <keyword>Grasslands</keyword>
+ <keyword>Vegetation Cover</keyword>
+ <keywordThesaurus>Global Change Master Directory Keywords</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights><para>Users are requested to acknowledge their use of the database in publications, research proposals, websites, and other outlets with the following statement"Data sets were provided by the Santa Rita Experimental Range Digital Database. Funding for the digitization of these data was provided by USDA Forest Service Rocky Mountain Research Station and the University of Arizona." In addition, where appropriate, users should reference the website and the User's Guide (see http://ag.arizona.edu/SRER/index.html) in the literature cited sections of publications. Finally, users are requested to send 2 copies of any publication that cites this Database to: Mitchel McClaran, School of Natural Resources, 325 Biological Sciences East Building, University of Arizona, Tucson, AZ 85721</para>
+ </intellectualRights>
+ <coverage scope="document"><geographicCoverage scope="document"><geographicDescription>Santa Rita Experimental Range, Arizona</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-110.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>-110.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>31.9</northBoundingCoordinate>
+ <southBoundingCoordinate>31.9</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <taxonomicCoverage scope="document"><taxonomicClassification><taxonRankName>Kingdom</taxonRankName>
+ <taxonRankValue>Plantae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Subkingdom</taxonRankName>
+ <taxonRankValue>Tracheobionta</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Division</taxonRankName>
+ <taxonRankValue>Magnoliophyta</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Class</taxonRankName>
+ <taxonRankValue>Magnoliopsida</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Subclass</taxonRankName>
+ <taxonRankValue>Rosidae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Order</taxonRankName>
+ <taxonRankValue>Fabales</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Family</taxonRankName>
+ <taxonRankValue>Fabaceae</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Prosopis</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>vetulina</taxonRankValue>
+ <commonName>velvet mesquite</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <temporalCoverage scope="document"><rangeOfDates><beginDate><calendarDate>1953-08-01</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>1966-09-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <temporalCoverage scope="document"><singleDateTime><calendarDate>1970-08-01</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"><references>1126123868867</references>
+ </contact>
+ <methods><methodStep><description><section><title>Line Transects</title>
+ <para>2. Line transects.--Line transect measurements will provide data primarily for variable 3.  Line transect data will be recorded on the regular Santa Rita line transect record form (page 12a [not included in digital file]).  For each grass tuft or shrub intercepted, both the distance from 0 (zero) and the length of intercept will be record.</para>
+ <para>In laying out permanent line transects the tape is placed against the right hand side of the stakes as the observer stands at the 0 (zero) end and looks toward the other end of the line.  The 0 (zero) mark of the tape is placed at the 0 (zero) stake.  The tape is then stretched as close as possible to the ground in a straight line from the 0 (zero) stake to the outer stake.  On 100-ft lines it is helpful to put intermediate stakes at the 33- and 67-ft marks, or at 25, 50, and 75 feet to aid in re-establishing the line.  Where intermediate stakes are used the tape is placed against the right hand side of all stakes.</para>
+ <para>After the tape is pulled straight and fastened at both ends the vertical intercept of perennial vegetation is measured and recorded.  In the following instructions the letter in parenthesis refers to a longhand letter on the attached sample "line transect record".  Each item letter is followed in order by the item name as it appears on the form, then by underscored words indicating the kind of data to be entered and finally by the explanation of what is to be recorded and how.</para>
+ <para> </para>
+ <para>Data to be Recorded on the "Line Transect Record"</para>
+ <para>(Identification Data)</para>
+ <para>(a) Study-title.--Enter brief title of study or project</para>
+ <para>(b) Pasture-number.--Enter number of pasture in which transect is located.</para>
+ <para>Plot "number" or "none".--Enter number of plot on which transect occurs, or if there is no plot number involved enter the word "none".</para>
+ <para>(d) Transect-number.--Enter number of transect.</para>
+ <para>(e) Date-day-month-year.--Enter date of observation listing day first, month second, and year third.</para>
+ <para>(f) By-initials.--Enter initials of observers. Record initials of observer first, recorder second.</para>
+ <para>(Data on Perennial Grasses)</para>
+ <para>(h) Intercept (.01 ft.)-lengths of intercepts.--Enter as a whole number length of each intercept in 0.01 ft.  Each species is to be recorded separately opposite the proper symbol.  Separate individual measurements by dashes.  The intercept of perennial grasses is measured at the ground line. Only the live rooted portion of the tuft is measured.  The smallest unit of measurement is 0.01 ft.</para>
+ <para>(I) Intercept (.01 ft.)-total by species.--Record total intercept for each species.</para>
+ <para>(j) Grass species-symbol.--Enter species symbol for any perennial grass that intercepts the line and whose symbol is not listed on the form.</para>
+ <para>(k) Intercept (.01 ft.)-total all spp.--Compute and record total intercept of all perennial grasses.</para>
+ <para>(Data on Shrubs)</para>
+ <para>(m) Intercept (.01 ft.)-lengths of intercepts.--Record length (in .01 ft.) of live crown intercept as a whole number.  Measure entire live crown intercept but do not include conspicuous openings or areas of dead crown.</para>
+ <para>(n) Intercept (.01 ft.)-totals by spp.--Enter total intercept for each shrub species.</para>
+ <para>(o) Shrubs-symbol.--Record symbols for species that are intercepted but not listed.</para>
+ <para>(p) Intercept (.01 ft.)-total all spp.--Enter total intercept for all shrub species.</para>
+ <para>Line transect data will be taken in 1957, 1958, and 1959, and in 1964, 1965, and 1966, preferable in late August or early September.</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling><studyExtent><description><para>Cover was measured annually in late summer from 1957-1966 (except 1960) in units of 0.01 ft. Perennial grass was recorded as basal intercept; i.e., length of live root crown portion of tuft at ground level. Shrub cover was recorded as the entire live crown intercept excluding conspicuous openings or areas of dead crown.
+
+Taxa were recorded separately to the species level in most cases and sometimes to the genus level only. The OTHERPG code refers to unidentified perennial grass species; OTHSHRUB to unidentified shrub species.
+
+The pastures had been grazed yearlong by cow-calf herds since 1915; utilization ranged from 47-60%. Two changes in grazing management were instituted at the start of the study period: 1) The utilization objective was lowered to 40%, and 2) Summer deferment (July-Sept) in alternate years began in 1958 in two pastures and in 1959 in the other two. Pasture 9 continued to be grazed yearlong and was measured in 1958 and 1963-1966 for comparative purposes. Data from pasture 9 were not included in published analyses.</para>
+ </description>
+ </studyExtent>
+ <samplingDescription><para>C. Treatments
+
+The major treatments affecting vegetation and livestock are mesquite control and grazing management.
+
+1. Mesquite control.--The mesquite-control treatment will consist of killing all mesquite in pastures 1 and 7 with diesel oil but leaving the mesquite alone in pastures 8, 9, and 10.
+
+2. Grazing management.--All pastures will be grazed on a flexible basis. Each pasture will be deferred during the growing season (July-Sept.) In alternate years.  Cattle numbers will be adjusted each fall in accordance with the production of perennial grasses.  The average utilization objective for perennial grasses will be 40 percent.  Actual use may range from 30 to 50 percent.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <project scope="document"><title>Study FSRM 1706-12: A Comparison of Vegetation and Grazing Capacities on Mesquite-free and Mesquite-infested Semidesert Ranges in Southern Arizona</title>
+ <personnel scope="document"><references>1126123868867</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ </project>
+ <access authSystem="knb" order="denyFirst" scope="document"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataTable id="1126129019933" scope="document"><entityName>Cover Data for 1957-1966</entityName>
+ <physical scope="document"><objectName>cover12.xls</objectName>
+ <dataFormat> <externallyDefinedFormat><formatName>application/vnd.ms-excel</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">http://ag.arizona.edu/SRER/study12/cover12.xls</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1126129019934" scope="document"><attributeName>PASTTRAN</attributeName>
+ <attributeLabel>Pasture-transect ID</attributeLabel>
+ <attributeDefinition>A Unique ID for the the pasture and transect</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>a number identifying the pasture and transect</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126129019935" scope="document"><attributeName>PASTURE</attributeName>
+ <attributeDefinition>The number of the pasture</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>whole number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126129019937" scope="document"><attributeName>TRANSECT</attributeName>
+ <attributeLabel>transect number</attributeLabel>
+ <attributeDefinition>The transect number within the pasture</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>number from 1-20</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126129019938" scope="document"><attributeName>MESQSTAT</attributeName>
+ <attributeLabel>Mesquite treament</attributeLabel>
+ <attributeDefinition>Indicates whether or not the mesquite was removed via application of diesel oil</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>DEAD</code>
+ <definition>Mesquite plants killed via application of diesel oil</definition>
+ </codeDefinition>
+ <codeDefinition><code>LIVE</code>
+ <definition>Mesquite plants untreated</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126129019944" scope="document"><attributeName>SPECIES</attributeName>
+ <attributeLabel>species code</attributeLabel>
+ <attributeDefinition>This is the code for the species whose cover is being measured</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>truncated species names</definition>
+ <source>http://ag.arizona.edu/SRER/species/species_code_translation.txt</source>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126197216445" scope="document"><attributeName>YR1957</attributeName>
+ <attributeLabel>cover in 1957</attributeLabel>
+ <attributeDefinition>The length of the hundred foot transect that the species occupied in the summer of 1957</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126196907249" scope="document"><attributeName>YR 1958</attributeName>
+ <attributeLabel>cover in 1958</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1958</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126197661077" scope="document"><attributeName>YR1959</attributeName>
+ <attributeLabel>cover in 1959</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1959</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126197296168" scope="document"><attributeName>YR1960</attributeName>
+ <attributeLabel>cover in 1960</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1960</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126197725025" scope="document"><attributeName>YR1961</attributeName>
+ <attributeLabel>cover in 1961</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1961</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126197980906" scope="document"><attributeName>YR1962</attributeName>
+ <attributeLabel>cover in 1962</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1962</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126198185393" scope="document"><attributeName>YR1963</attributeName>
+ <attributeLabel>cover in 1963</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1963</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126198151362" scope="document"><attributeName>YR 1964</attributeName>
+ <attributeLabel>cover in 1964</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1964</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126198068301" scope="document"><attributeName>YR1965</attributeName>
+ <attributeLabel>cover in 1965</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1965</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126198019362" scope="document"><attributeName>YR1966</attributeName>
+ <attributeLabel>cover in 1966</attributeLabel>
+ <attributeDefinition>length of the hundred foot transect which the species occupied in the summer of 1966</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1126200888948" scope="document"><entityName>Cover for 1953-1956 and 1970</entityName>
+ <entityDescription>Documents the vegetation cover of the transects in the study during the summers of 1953-1956 and 1970</entityDescription>
+ <physical scope="document"><objectName>cex12.xls</objectName>
+ <dataFormat> <externallyDefinedFormat><formatName>application/vnd.ms-excel</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">http://ag.arizona.edu/SRER/study12/cex12.xls</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1126200888949" scope="document"><attributeName>PASTTRAN</attributeName>
+ <attributeLabel>Pasture transect ID number</attributeLabel>
+ <attributeDefinition>a number that uniquely identifies both the pasture and the transect within the pasture that is being described</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126200888950" scope="document"><attributeName>PASTURE</attributeName>
+ <attributeLabel>pasture name/number</attributeLabel>
+ <attributeDefinition>the pasture name and number for the study</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>pastuer name and number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126200888951" scope="document"><attributeName>TRANSECT</attributeName>
+ <attributeLabel>transect number</attributeLabel>
+ <attributeDefinition>the number of the transect within the pasture</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126200888952" scope="document"><attributeName>MESQSTAT</attributeName>
+ <attributeLabel>mesquite treatment</attributeLabel>
+ <attributeDefinition>indicates whether the mesquite in the area was killed via application of diesel oil</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>DEAD</code>
+ <definition>mesquite killed with diesel oil</definition>
+ </codeDefinition>
+ <codeDefinition><code>LIVE</code>
+ <definition>mesquite untreated</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126200888953" scope="document"><attributeName>SPECIES</attributeName>
+ <attributeLabel>species code</attributeLabel>
+ <attributeDefinition>the code for the scientific name of the species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species code defined in the study</definition>
+ <source>http://ag.arizona.edu/SRER/species/species_code_translation.txt</source>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126200888954" scope="document"><attributeName>YR1953</attributeName>
+ <attributeLabel>cover in 1953</attributeLabel>
+ <attributeDefinition>the length of the transect occupied by the species, in hundredths of a foot, during the summer of 1953</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126200888955" scope="document"><attributeName>YR1954</attributeName>
+ <attributeLabel>cover in 1954</attributeLabel>
+ <attributeDefinition>the length of the transect occupied by the species, in hundredths of a foot, during the summer of 1954</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126200888956" scope="document"><attributeName>YR1955</attributeName>
+ <attributeLabel>cover in 1955</attributeLabel>
+ <attributeDefinition>the length of the transect occupied by the species, in hundredths of a foot, during the summer of 1955</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126200888957" scope="document"><attributeName>YR1956</attributeName>
+ <attributeLabel>cover in 1956</attributeLabel>
+ <attributeDefinition>the length of the transect occupied by the species, in hundredths of a foot, during the summer of 1956</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1126200888958" scope="document"><attributeName>YR1970</attributeName>
+ <attributeLabel>cover in 1970</attributeLabel>
+ <attributeDefinition>the length of the transect occupied by the species, in hundredths of a foot, during the summer of 1970</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>0.01 foot increment</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-9999</code>
+ <codeExplanation>no data were available because a reading was not made for that date</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1126547405801" scope="document"><entityName>UTM Coordinates for Transects</entityName>
+ <entityDescription>The locations of the transect in the study in Universal Transverse Mercator (UTM) format</entityDescription>
+ <physical scope="document"><objectName>tran12utm.txt</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <complex><textFixed><fieldWidth>6</fieldWidth>
+ </textFixed>
+ <textFixed><fieldWidth>12</fieldWidth>
+ </textFixed>
+ <textFixed><fieldWidth>13</fieldWidth>
+ </textFixed>
+ <textFixed><fieldWidth>16</fieldWidth>
+ </textFixed>
+ <textFixed><fieldWidth>17</fieldWidth>
+ </textFixed>
+ </complex>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">http://ag.arizona.edu/SRER/study12/tran12utm.txt</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1126547405802" scope="document"><attributeName>UNIQUE ID</attributeName>
+ <attributeLabel>pasture-transect id</attributeLabel>
+ <attributeDefinition>A number uniquely identifying the pasture and transect</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126547405803" scope="document"><attributeName>PASTURE</attributeName>
+ <attributeDefinition>The number of the pasture according to the study</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126547405804" scope="document"><attributeName>TRANSECT</attributeName>
+ <attributeDefinition>the number of the transect in the pasture</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126547405805" scope="document"><attributeName>X-COORD</attributeName>
+ <attributeLabel>x-coordinate</attributeLabel>
+ <attributeDefinition>The easting value for the location of the transect, according to the UTM system</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>6</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1126547405806" scope="document"><attributeName>Y-COORD</attributeName>
+ <attributeLabel>y-coordinate</attributeLabel>
+ <attributeDefinition>the northing value for the location of the transect, according to the UTM system</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <precision>6</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><unitList><unit id="0.01 foot increment" multiplerToSI="0.003048" name="0.01 foot increment" parentSI="meter" unitType="length"><description>one hundredth of a foot</description>
+ </unit>
+ </unitList>
+ </additionalMetadata>
+ </ns0:eml>

@@ -1,0 +1,212 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="msb-tempbiodev.1111142.7" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>
+Mammal Species Commonly Present at Niwot Ridge LTER
+</title>
+    <creator>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <onlineUrl>http://culter.colorado.edu/NWT/</onlineUrl>
+    </creator>
+    <pubDate>2013-11-13</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This list of mammal species at Niwot Ridge LTER, Colorado, was retrieved from: http://culter.colorado.edu/NWT/site_info/flora_and_fauna.html (10/30/2013) and http://www.colorado.edu/mrs/mammal (3/25/2014), as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Mammal</keyword>
+      <keyword keywordType="theme">Species</keyword>
+      <keyword keywordType="theme">Niwot Ridge</keyword>
+      <keyword keywordType="theme">Colorado</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/mammal-species-commonly-present-niwot-ridge-lter
+</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Jeanine</givenName>
+        <surName>McGann</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <electronicMailAddress>jeaninemcgann@unm.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+Mammal species at Niwot Ridge were retrieved from:http://culter.colorado.edu/NWT/site_info/flora_and_fauna.html (10/30/2013) andhttp://www.colorado.edu/mrs/mammal (3/25/2014) from Armstrong, David M., James C. Halfpenny, and Charles H. Southwick. 2001. Vertebrates, in Bowman, W.D. and Seastedt, T.R. Structure and Function of an Alpine Ecosystem, Niwot Ridge, Colorado. pp 128- 156. Oxford University Press, New York. Order and family names were obtained from National Museum of Natural History: http://www.mnh.si.edu/mna/search_name.cfm All mammal species in the family muridae were updated to family cricetidae to keep current with taxonomic classification.
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>NWT Mammal Species List</entityName>
+      <entityDescription>
+A list of all mammal species found at Niwot Ridge LTER.
+</entityDescription>
+      <physical>
+        <objectName>NWTMammalSpecies2.csv</objectName>
+        <size>1672</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111142/7/c9b52f1da301f41db559290d7ae47368</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-10-30</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-03-25</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>Order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The taxonomic order to which the mammal belongs.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic order to which the mammal belongs.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The taxonomic family to which the mammal belongs.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic family to which the mammal belongs.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The taxonomic genus to which the mammal belongs.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic genus to which the mammal belongs.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>The taxonomic species to which the mammal belongs.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic species to which the mammal belongs.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Common name</attributeName>
+          <attributeLabel>Common name</attributeLabel>
+          <attributeDefinition>
+The common (non-scientific) name of the mammal species.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The common (non-scientific) name of the mammal species.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</ns0:eml>

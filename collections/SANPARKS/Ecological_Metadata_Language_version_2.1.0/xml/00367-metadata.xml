@@ -1,0 +1,1731 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.110118.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>Automatic Weather Station data for Skukuza Jan -Dec 2013</title>
+ <creator id="1369984337077"> <organizationName>SAWB</organizationName>
+ </creator>
+ <keywordSet><keyword>SANParks, South Africa, Kruger National Park, South Africa</keyword>
+ <keyword>Climate, Rainfall, temperature, Wind speed,Wind direction, humidity</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data belongs to the South African Weather Bureau and is restricetd to use by SANparks employers and affiliated researchers with registered research projects</para>
+ </intellectualRights>
+ <coverage> <temporalCoverage><rangeOfDates><beginDate><calendarDate>2010-01-01</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2012-12-31</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>Skukuza Rain Station</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>31.5874</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.618987399999995</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.9916</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.9916</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1369984422348"><organizationName>SANParks</organizationName>
+ </contact>
+ <dataTable id="1391757466775"><entityName>AWS_SkukuzaHumidity12013.txt</entityName>
+ <physical id="1391756917638"><objectName>AWS_SkukuzaHumidity12013.txt</objectName>
+ <size unit="byte">38557</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110119.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1391757466785"><attributeName>year</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466795"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>month</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466805"><attributeName>DD</attributeName>
+ <attributeDefinition>day</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466815"><attributeName>h01</attributeName>
+ <attributeDefinition>Humidity at hour 01</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466825"><attributeName>h02</attributeName>
+ <attributeDefinition>Humidity at hour 02</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466835"><attributeName>h03</attributeName>
+ <attributeDefinition>Humidity at hour 03</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466845"><attributeName>h04</attributeName>
+ <attributeDefinition>Humidity at hour 04</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466855"><attributeName>h05</attributeName>
+ <attributeDefinition>Humidity at hour 05</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466865"><attributeName>h06</attributeName>
+ <attributeDefinition>Humidity at hour 06</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466875"><attributeName>h07</attributeName>
+ <attributeDefinition>Humidity at hour 07</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466885"><attributeName>h08</attributeName>
+ <attributeDefinition>Humidity at hour 08</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466895"><attributeName>h09</attributeName>
+ <attributeDefinition>Humidity at hour 09</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466905"><attributeName>h10</attributeName>
+ <attributeDefinition>Humidity at hour 10</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466915"><attributeName>h11</attributeName>
+ <attributeDefinition>Humidity at hour 11</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466925"><attributeName>h12</attributeName>
+ <attributeDefinition>Humidity at hour 12</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466935"><attributeName>h13</attributeName>
+ <attributeDefinition>Humidity at hour 13</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466945"><attributeName>h14</attributeName>
+ <attributeDefinition>Humidity at hour 14</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466955"><attributeName>h15</attributeName>
+ <attributeDefinition>Humidity at hour 15</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466965"><attributeName>h16</attributeName>
+ <attributeDefinition>Humidity at hour 16</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466975"><attributeName>h17</attributeName>
+ <attributeDefinition>Humidity at hour 17</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466985"><attributeName>h18</attributeName>
+ <attributeDefinition>Humidity at hour 18</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757466995"><attributeName>h19</attributeName>
+ <attributeDefinition>Humidity at hour 19</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467005"><attributeName>h20</attributeName>
+ <attributeDefinition>Humidity at hour 20</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467015"><attributeName>h21</attributeName>
+ <attributeDefinition>Humidity at hour 21</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467025"><attributeName>h22</attributeName>
+ <attributeDefinition>Humidity at hour 22</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467035"><attributeName>h23</attributeName>
+ <attributeDefinition>Humidity at hour 23</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467045"><attributeName>h24</attributeName>
+ <attributeDefinition>Humidity at hour 24</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467055"><attributeName>avg</attributeName>
+ <attributeDefinition>Average humidity</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467065"><attributeName>mx</attributeName>
+ <attributeDefinition>Maximum humidity</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467075"><attributeName>tm</attributeName>
+ <attributeDefinition>Time of max humidity</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467085"><attributeName>mn</attributeName>
+ <attributeDefinition>Minimum humidity</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391757467095"><attributeName>tm</attributeName>
+ <attributeDefinition>Time of minimum humidity</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>365</numberOfRecords>
+ </dataTable>
+ <dataTable id="1391760095325"><entityName>AWS_SkukuzaPressure12013.txt</entityName>
+ <physical id="1391757533207"><objectName>AWS_SkukuzaPressure12013.txt</objectName>
+ <size unit="byte">66578</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110120.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1391760095335"><attributeName>year</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095345"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>Month</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095355"><attributeName>DD</attributeName>
+ <attributeDefinition>day of the month</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095365"><attributeName>h01</attributeName>
+ <attributeDefinition>Pressure at hour 01</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095375"><attributeName>h02</attributeName>
+ <attributeDefinition>Pressure at hour 02</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095385"><attributeName>h03</attributeName>
+ <attributeDefinition>Pressure at hour 03</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095395"><attributeName>h04</attributeName>
+ <attributeDefinition>Pressure at hour 04</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095405"><attributeName>h05</attributeName>
+ <attributeDefinition>Pressure at hour 05</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095415"><attributeName>h06</attributeName>
+ <attributeDefinition>Pressure at hour 06</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095425"><attributeName>h07</attributeName>
+ <attributeDefinition>Pressure at hour 07</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095435"><attributeName>h08</attributeName>
+ <attributeDefinition>Pressure at hour 08</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095445"><attributeName>h09</attributeName>
+ <attributeDefinition>Pressure at hour 09</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095455"><attributeName>h10</attributeName>
+ <attributeDefinition>Pressure at hour 10</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095465"><attributeName>h11</attributeName>
+ <attributeDefinition>Pressure at hour 11</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095475"><attributeName>h12</attributeName>
+ <attributeDefinition>Pressure at hour 12</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095485"><attributeName>h13</attributeName>
+ <attributeDefinition>Pressure at hour 13</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095495"><attributeName>h14</attributeName>
+ <attributeDefinition>Pressure at hour 14</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095505"><attributeName>h15</attributeName>
+ <attributeDefinition>Pressure at hour 15</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095515"><attributeName>h16</attributeName>
+ <attributeDefinition>Pressure at hour 16</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095525"><attributeName>h17</attributeName>
+ <attributeDefinition>Pressure at hour 17</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095535"><attributeName>h18</attributeName>
+ <attributeDefinition>Pressure at hour 18</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095545"><attributeName>h19</attributeName>
+ <attributeDefinition>Pressure at hour 19</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095555"><attributeName>h20</attributeName>
+ <attributeDefinition>Pressure at hour 20</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095565"><attributeName>h21</attributeName>
+ <attributeDefinition>Pressure at hour 21</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095575"><attributeName>h22</attributeName>
+ <attributeDefinition>Pressure at hour 22</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095585"><attributeName>h23</attributeName>
+ <attributeDefinition>Pressure at hour 23</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095595"><attributeName>h24</attributeName>
+ <attributeDefinition>Pressure at hour 24</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095605"><attributeName>avg</attributeName>
+ <attributeDefinition>Average pressure</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095615"><attributeName>mx</attributeName>
+ <attributeDefinition>Maximum pressure</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095625"><attributeName>tm</attributeName>
+ <attributeDefinition>Time of max pressuure</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095635"><attributeName>mn</attributeName>
+ <attributeDefinition>Minimum pressure</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilopascal</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760095645"><attributeName>tm</attributeName>
+ <attributeDefinition>Time of minimum pressure</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>365</numberOfRecords>
+ </dataTable>
+ <dataTable id="1391760688546"><entityName>AWS_SkukuzaRain12013.txt</entityName>
+ <physical id="1391760170367"><objectName>AWS_SkukuzaRain12013.txt</objectName>
+ <size unit="byte">66999</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110121.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1391760688556"><attributeName>year</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688566"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>month</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688576"><attributeName>DD</attributeName>
+ <attributeDefinition>Day of the month</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688586"><attributeName>h01</attributeName>
+ <attributeDefinition>Rain received in hur 01</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688596"><attributeName>h02</attributeName>
+ <attributeDefinition>Rain received in hour 02</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688606"><attributeName>h03</attributeName>
+ <attributeDefinition>Rain received in hour 03</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688616"><attributeName>h04</attributeName>
+ <attributeDefinition>Rain received in hour 04</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688626"><attributeName>h05</attributeName>
+ <attributeDefinition>Rain received in hour 05</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688636"><attributeName>h06</attributeName>
+ <attributeDefinition>Rain received in hour 06</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688646"><attributeName>h07</attributeName>
+ <attributeDefinition>Rain received in hour 07</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688656"><attributeName>h08</attributeName>
+ <attributeDefinition>Rain received in hour 08</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688666"><attributeName>h09</attributeName>
+ <attributeDefinition>Rain received in hour 09</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688676"><attributeName>h10</attributeName>
+ <attributeDefinition>Rain received in hour 10</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688686"><attributeName>h11</attributeName>
+ <attributeDefinition>Rain received in hour 11</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688696"><attributeName>h12</attributeName>
+ <attributeDefinition>Rain received in hour 12</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688706"><attributeName>h13</attributeName>
+ <attributeDefinition>Rain received in hour 13</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688716"><attributeName>h14</attributeName>
+ <attributeDefinition>Rain received in hour 14</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688726"><attributeName>h15</attributeName>
+ <attributeDefinition>Rain received in hour 15</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688736"><attributeName>h16</attributeName>
+ <attributeDefinition>Rain received in hour 16</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688746"><attributeName>h17</attributeName>
+ <attributeDefinition>Rain received in hour 17</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688756"><attributeName>h18</attributeName>
+ <attributeDefinition>Rain received in hour 18</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688766"><attributeName>h19</attributeName>
+ <attributeDefinition>Rain received in hour 19</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688776"><attributeName>h20</attributeName>
+ <attributeDefinition>Rain received in hour 20</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688786"><attributeName>h21</attributeName>
+ <attributeDefinition>Rain received in hour 21</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688796"><attributeName>h22</attributeName>
+ <attributeDefinition>Rain received in hour 22</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688806"><attributeName>h23</attributeName>
+ <attributeDefinition>Rain received in hour 23</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688816"><attributeName>h24</attributeName>
+ <attributeDefinition>Rain received in hour 24</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391760688826"><attributeName>tot</attributeName>
+ <attributeDefinition>Total rain</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>365</numberOfRecords>
+ </dataTable>
+ <dataTable id="1391762402079"><entityName>AWS_SkukuzawindTemperature12013.txt</entityName>
+ <physical id="1391760757198"><objectName>AWS_SkukuzawindTemperature12013.txt</objectName>
+ <size unit="byte">55885</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110122.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1391762402089"><attributeName>year</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402099"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>month</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402109"><attributeName>DD</attributeName>
+ <attributeDefinition>day of the month</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402119"><attributeName>h01</attributeName>
+ <attributeDefinition>Temperature at hour 01</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402129"><attributeName>h02</attributeName>
+ <attributeDefinition>Temperature at hour 02</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402139"><attributeName>h03</attributeName>
+ <attributeDefinition>Temperature at hour 03</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402149"><attributeName>h04</attributeName>
+ <attributeDefinition>Temperature at hour 04</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402159"><attributeName>h05</attributeName>
+ <attributeDefinition>Temperature at hour 05</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402169"><attributeName>h06</attributeName>
+ <attributeDefinition>Temperature at hour 06</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402179"><attributeName>h07</attributeName>
+ <attributeDefinition>Temperature at hour 07</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402189"><attributeName>h08</attributeName>
+ <attributeDefinition>Temperature at hour 08</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402199"><attributeName>h09</attributeName>
+ <attributeDefinition>Temperature at hour 09</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402209"><attributeName>h10</attributeName>
+ <attributeDefinition>Temperature at hour 10</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402219"><attributeName>h11</attributeName>
+ <attributeDefinition>Temperature at hour 11</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402229"><attributeName>h12</attributeName>
+ <attributeDefinition>Temperature at hour 12</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402239"><attributeName>h13</attributeName>
+ <attributeDefinition>Temperature at hour 13</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402249"><attributeName>h14</attributeName>
+ <attributeDefinition>Temperature at hour 14</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402259"><attributeName>h15</attributeName>
+ <attributeDefinition>Temperature at hour 15</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402269"><attributeName>h16</attributeName>
+ <attributeDefinition>Temperature at hour 16</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402279"><attributeName>h17</attributeName>
+ <attributeDefinition>Temperature at hour 17</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402289"><attributeName>h18</attributeName>
+ <attributeDefinition>Temperature at hour 18</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402299"><attributeName>h19</attributeName>
+ <attributeDefinition>Temperature at hour 19</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402309"><attributeName>h20</attributeName>
+ <attributeDefinition>Temperature at hour 20</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402319"><attributeName>h21</attributeName>
+ <attributeDefinition>Temperature at hour 21</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402329"><attributeName>h22</attributeName>
+ <attributeDefinition>Temperature at hour 22</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402339"><attributeName>h23</attributeName>
+ <attributeDefinition>Temperature at hour 23</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402349"><attributeName>h24</attributeName>
+ <attributeDefinition>Temperature at hour 24</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402359"><attributeName>avg</attributeName>
+ <attributeDefinition>Average temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402369"><attributeName>mx</attributeName>
+ <attributeDefinition>Maximum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402379"><attributeName>tm</attributeName>
+ <attributeDefinition>Time of maximum temperature</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402389"><attributeName>mn</attributeName>
+ <attributeDefinition>Minimum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762402399"><attributeName>tm</attributeName>
+ <attributeDefinition>Time of minimum temperature</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>365</numberOfRecords>
+ </dataTable>
+ <dataTable id="1391762798771"><entityName>AWS_SkukuzawindSpeed12013.txt</entityName>
+ <physical id="1391762470822"><objectName>AWS_SkukuzawindSpeed12013.txt</objectName>
+ <size unit="byte">38702</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110123.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1391762798781"><attributeName>year</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798791"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>month</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798801"><attributeName>DD</attributeName>
+ <attributeDefinition>day</attributeDefinition>
+ <measurementScale><dateTime><formatString>dd</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798811"><attributeName>h01</attributeName>
+ <attributeDefinition>Wind speed at hour 1</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798821"><attributeName>h02</attributeName>
+ <attributeDefinition>Wind speed at hour 2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798831"><attributeName>h03</attributeName>
+ <attributeDefinition>Wind speed at hour 3</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798841"><attributeName>h04</attributeName>
+ <attributeDefinition>Wind speed at hour 4</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798851"><attributeName>h05</attributeName>
+ <attributeDefinition>Wind speed at hour 5</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798861"><attributeName>h06</attributeName>
+ <attributeDefinition>Wind speed at hour 6</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798871"><attributeName>h07</attributeName>
+ <attributeDefinition>Wind speed at hour 7</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798881"><attributeName>h08</attributeName>
+ <attributeDefinition>Wind speed at hour 8</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798891"><attributeName>h09</attributeName>
+ <attributeDefinition>Wind speed at hour 9</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798901"><attributeName>h10</attributeName>
+ <attributeDefinition>Wind speed at hour 10</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798911"><attributeName>h11</attributeName>
+ <attributeDefinition>Wind speed at hour 11</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798921"><attributeName>h12</attributeName>
+ <attributeDefinition>Wind speed at hour 12</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798931"><attributeName>h13</attributeName>
+ <attributeDefinition>Wind speed at hour 13</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798941"><attributeName>h14</attributeName>
+ <attributeDefinition>Wind speed at hour 14</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798951"><attributeName>h15</attributeName>
+ <attributeDefinition>Wind speed at hour 15</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798961"><attributeName>h16</attributeName>
+ <attributeDefinition>Wind speed at hour 16</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798971"><attributeName>h17</attributeName>
+ <attributeDefinition>Wind speed at hour 17</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798981"><attributeName>h18</attributeName>
+ <attributeDefinition>Wind speed at hour 18</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762798991"><attributeName>h19</attributeName>
+ <attributeDefinition>Wind speed at hour 19</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762799001"><attributeName>h20</attributeName>
+ <attributeDefinition>Wind speed at hour 20</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762799011"><attributeName>h21</attributeName>
+ <attributeDefinition>Wind speed at hour 21</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762799021"><attributeName>h22</attributeName>
+ <attributeDefinition>Wind speed at hour 22</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762799031"><attributeName>h23</attributeName>
+ <attributeDefinition>Wind speed at hour 23</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762799041"><attributeName>h24</attributeName>
+ <attributeDefinition>Wind speed at hour 24</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762799051"><attributeName>avg</attributeName>
+ <attributeDefinition>Average wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762799061"><attributeName>mx</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391762799071"><attributeName>tm</attributeName>
+ <attributeDefinition>Time of maximum wind speed</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>365</numberOfRecords>
+ </dataTable>
+ <dataTable id="1391763236145"><entityName>AWS_SkukuzawindDirection12013.txt</entityName>
+ <physical id="1391762863693"><objectName>AWS_SkukuzawindDirection12013.txt</objectName>
+ <size unit="byte">36443</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/peggym.110124.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1391763236155"><attributeName>year</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>year</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236165"><attributeName>Month</attributeName>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale><dateTime><formatString>Month</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236175"><attributeName>DD</attributeName>
+ <attributeDefinition>day</attributeDefinition>
+ <measurementScale><dateTime><formatString>day</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236185"><attributeName>h01</attributeName>
+ <attributeDefinition>Wind dieraction at hour 01</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236195"><attributeName>h02</attributeName>
+ <attributeDefinition>Wind dieraction at hour 02</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236205"><attributeName>h03</attributeName>
+ <attributeDefinition>Wind dieraction at hour 03</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236215"><attributeName>h04</attributeName>
+ <attributeDefinition>Wind dieraction at hour 04</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236225"><attributeName>h05</attributeName>
+ <attributeDefinition>Wind dieraction at hour 05</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236235"><attributeName>h06</attributeName>
+ <attributeDefinition>Wind dieraction at hour 06</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236245"><attributeName>h07</attributeName>
+ <attributeDefinition>Wind dieraction at hour 07</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236255"><attributeName>h08</attributeName>
+ <attributeDefinition>Wind dieraction at hour 08</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236265"><attributeName>h09</attributeName>
+ <attributeDefinition>Wind dieraction at hour 09</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236275"><attributeName>h10</attributeName>
+ <attributeDefinition>Wind dieraction at hour 10</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236285"><attributeName>h11</attributeName>
+ <attributeDefinition>Wind dieraction at hour 11</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236295"><attributeName>h12</attributeName>
+ <attributeDefinition>Wind dieraction at hour 12</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236305"><attributeName>h13</attributeName>
+ <attributeDefinition>Wind dieraction at hour 13</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236315"><attributeName>h14</attributeName>
+ <attributeDefinition>Wind dieraction at hour 14</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236325"><attributeName>h15</attributeName>
+ <attributeDefinition>Wind dieraction at hour 15</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236335"><attributeName>h16</attributeName>
+ <attributeDefinition>Wind dieraction at hour 16</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236345"><attributeName>h17</attributeName>
+ <attributeDefinition>Wind dieraction at hour 17</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236355"><attributeName>h18</attributeName>
+ <attributeDefinition>Wind dieraction at hour 18</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236365"><attributeName>h19</attributeName>
+ <attributeDefinition>Wind dieraction at hour 19</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236375"><attributeName>h20</attributeName>
+ <attributeDefinition>Wind direction at hour 20</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236385"><attributeName>h21</attributeName>
+ <attributeDefinition>Wind direction at hour 21</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236395"><attributeName>h22</attributeName>
+ <attributeDefinition>Wind direction at hour 22</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236405"><attributeName>h23</attributeName>
+ <attributeDefinition>Wind direction at hour 23</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236415"><attributeName>h24</attributeName>
+ <attributeDefinition>Wind direction at hour 24</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236425"><attributeName>mx</attributeName>
+ <attributeDefinition>Maximum wind direction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1391763236435"><attributeName>tm</attributeName>
+ <attributeDefinition>Time of max wind direction</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>365</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

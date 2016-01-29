@@ -1,0 +1,469 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.1567.6" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>uid=judithk,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset> <title>Vulnerability of a Key Iconic Species, Aloe Dichotoma, to Past and Future Climate Change</title>
+ <creator id="1361441501392"> <organizationName>SANParks</organizationName>
+ </creator>
+ <abstract><para>We collected demographic data on 104 live and a number of dead A dichotoma trees along a transect. We measured height and circumference, categorized them according to a number of live history stages (see attached table &#8216;categories of live and dead aloes.csv&#8217;), and an index of health. We also counted the number of rosettes and inflorescences, and the number of flowers per inforescence.</para>
+ </abstract>
+ <keywordSet><keyword>Quiver tree, Aloe dichotoma, demographic data, climate change</keyword>
+ <keyword>SANParks, South Africa, Ai-|Ais/Richtersveld Transfrontier National Park, South Africa</keyword>
+ </keywordSet>
+ <coverage><geographicCoverage><geographicDescription>RichtersveldNationalPark</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>16.881961</westBoundingCoordinate>
+ <eastBoundingCoordinate>17.412486</eastBoundingCoordinate>
+ <northBoundingCoordinate>-28.034941</northBoundingCoordinate>
+ <southBoundingCoordinate>-29.262835</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>2008-07-29</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Aloe</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Dichotoma</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1361441537678"><individualName><salutation>Dr</salutation>
+ <givenName>Guy</givenName>
+ <surName>Midgley</surName>
+ </individualName>
+ <organizationName>South African National Biodiversity Institute</organizationName>
+ </contact>
+ <contact id="1361441841491"><individualName><salutation>Prof</salutation>
+ <givenName>Les</givenName>
+ <surName>Underhill</surName>
+ </individualName>
+ <organizationName>Animal Demography Unit, University of Cape Town</organizationName>
+ </contact>
+ <contact id="1361441873674"><individualName><salutation>Dr</salutation>
+ <givenName>Res</givenName>
+ <surName>Altwegg</surName>
+ </individualName>
+ <organizationName>South African National Biodiversity Institute</organizationName>
+ </contact>
+ <methods><methodStep><description><section><title>Methods</title>
+ <para>We collected demographic data on 104 live and a number of dead A dichotoma trees along a transect. We measured height and circumference, categorized them according to a number of live history stages (see attached table &#8216;categories of live and dead aloes.csv&#8217;), and an index of health. We also counted the number of rosettes and inflorescences, and the number of flowers per inflorescence.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1361449533394"><entityName>Altwegg_aloedichotoma2008.csv</entityName>
+ <physical id="1361448359999"><objectName>Altwegg_aloedichotoma2008.csv</objectName>
+ <size unit="byte">11338</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1568.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1361449533410"><attributeName>S Lat</attributeName>
+ <attributeDefinition>Southern latitude degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533425"><attributeName>Sdecimaldegree</attributeName>
+ <attributeDefinition>Southern latitude degrees decimal</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533441"><attributeName>E Long</attributeName>
+ <attributeDefinition>Longitude decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533456"><attributeName>Edicimaldegrees</attributeName>
+ <attributeDefinition>Longitude decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533472"><attributeName>Plant No.</attributeName>
+ <attributeDefinition>Number of living plant and dead if dead</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Numbers and dead if plant is dead</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533488"><attributeName>Live Category</attributeName>
+ <attributeDefinition>Live history class category</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1361449717514</entityReference>
+ <valueAttributeReference>1361449717529</valueAttributeReference>
+ <definitionAttributeReference>1361449717545</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533503"><attributeName>Dead Category</attributeName>
+ <attributeDefinition>Dead categoty class</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1361449815014</entityReference>
+ <valueAttributeReference>1361449815030</valueAttributeReference>
+ <definitionAttributeReference>1361449815045</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533519"><attributeName>Circumference (cm)</attributeName>
+ <attributeDefinition>Circumference in cm</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533534"><attributeName>Height (cm)</attributeName>
+ <attributeDefinition>Height in cm</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533550"><attributeName>Rosette no.</attributeName>
+ <attributeDefinition>No of rosettes</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533566"><attributeName>% canopy present</attributeName>
+ <attributeDefinition>% canopy present</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533581"><attributeName>% loss due to amputation</attributeName>
+ <attributeDefinition>% loss due to amputation</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533597"><attributeName>Inflorescence no.</attributeName>
+ <attributeDefinition>Number of inflorescences present</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533612"><attributeName>Flowers/Fruit</attributeName>
+ <attributeDefinition>flowers/fruit</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>fruit</code>
+ <definition>fruit</definition>
+ </codeDefinition>
+ <codeDefinition><code>flowers</code>
+ <definition>flowers</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533628"><attributeName>Nofw/infl1</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 1</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533644"><attributeName>Nofw/infl2</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 2</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533659"><attributeName>Nofw/infl3</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 3</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533675"><attributeName>Nofw/infl4</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 4</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533690"><attributeName>Nofw/infl5</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 5</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533706"><attributeName>Nofw/infl6</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 6</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533722"><attributeName>Nofw/infl7</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 7</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533737"><attributeName>Nofw/infl8</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 8</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533753"><attributeName>Nofw/infl9</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 9</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533768"><attributeName>Nofw/infl10</attributeName>
+ <attributeDefinition>Nr of flowers for inflorescence 10</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449533784"><attributeName>Additional Notes</attributeName>
+ <attributeDefinition>Additional Notes</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Additional Notes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>262</numberOfRecords>
+ </dataTable>
+ <dataTable id="1361449717514"><entityName>ALtwegg_livecategories.txt</entityName>
+ <physical id="1361449663803"><objectName>ALtwegg_livecategories.txt</objectName>
+ <size unit="byte">637</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1569.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1361449717529"><attributeName>category</attributeName>
+ <attributeDefinition>Category number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449717545"><attributeName>group name</attributeName>
+ <attributeDefinition>Group name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>groups</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449717561"><attributeName>Yrs since alive</attributeName>
+ <attributeDefinition>Yrs since alive</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Yrs since alive</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449717576"><attributeName>leaves</attributeName>
+ <attributeDefinition>leaves</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>leaves</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449717592"><attributeName>branches</attributeName>
+ <attributeDefinition>branches</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>branches</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449717607"><attributeName>flowers</attributeName>
+ <attributeDefinition>flowers</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>flowers</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5</numberOfRecords>
+ </dataTable>
+ <dataTable id="1361449815014"><entityName>Altwegg_deadcategories.txt</entityName>
+ <physical id="1361449743956"><objectName>Altwegg_deadcategories.txt</objectName>
+ <size unit="byte">322</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1570.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1361449815030"><attributeName>Category</attributeName>
+ <attributeDefinition>Category</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449815045"><attributeName>Yrs since dead</attributeName>
+ <attributeDefinition>Yrs since dead</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Yrs since dead</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449815061"><attributeName>leaves</attributeName>
+ <attributeDefinition>leaves</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>yes</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ <codeDefinition><code>no</code>
+ <definition>no</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449815076"><attributeName>branches</attributeName>
+ <attributeDefinition>branches</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>branches</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449815092"><attributeName>bark</attributeName>
+ <attributeDefinition>bark</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>bark</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449815108"><attributeName>stem circ integrity</attributeName>
+ <attributeDefinition>stem circ integrity</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>stem circ integrity</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449815123"><attributeName>growth ring visible</attributeName>
+ <attributeDefinition>growth ring visible</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>absent</code>
+ <definition>absent</definition>
+ </codeDefinition>
+ <codeDefinition><code>barely visible</code>
+ <definition>barely visible</definition>
+ </codeDefinition>
+ <codeDefinition><code>clearly visible</code>
+ <definition>clearly visible</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1361449815139"><attributeName>plant matter % present</attributeName>
+ <attributeDefinition>plant matter % present</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

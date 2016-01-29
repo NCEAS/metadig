@@ -1,0 +1,832 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-arc.1536.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=ARC,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>98dltlh.04</alternateIdentifier>
+    <title>Hourly weather data from Toolik Field Station, ARC LTER, Alaska for 1998.</title>
+    <creator id="pers-1">
+      <organizationName>Arctic LTER Program</organizationName>
+      <individualName>
+        <givenName>Gus</givenName>
+        <surName>Shaver</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>Ecosystems Center</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Arctic LTER Program</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7496</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/ARC/</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Jim</givenName>
+        <surName>Laundre</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>Ecosystems Center</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <role>Associated Researcher</role>
+    </associatedParty>
+    <pubDate>2000</pubDate>
+    <abstract>
+      <para>Hourly weather data from the Arctic Tundra LTER site at Toolik Lake. The following parameters are measured every minute and averaged or totaled every hour: air temperature and relative humidity at 1 and 5 meters, wind speed at 1 and 5 meters, wind direction at 5 meters, global solar radiation, photosynthetically active radiation, barometric pressure, and precipitation.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>weather</keyword>
+      <keyword>temperature</keyword>
+      <keyword>radiation</keyword>
+      <keyword>wind</keyword>
+      <keyword>relative humidity</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Acceptance and utilization of LTER data requires that:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions.</para>
+          </listitem>
+          <listitem>
+            <para>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications</para>
+          </listitem>
+          <listitem>
+            <para>A copy of any resultant publications should be sent to: 
+            <literalLayout>
+Principal Investigator
+Ecosystems Center
+Marine Biological Laboratory
+Woods Hole, MA 02543
+</literalLayout></para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://ecosystems.mbl.edu/ARC/meta_template.php?FileName=./weather/tl/98dltlh.html</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="GEO-1">
+        <geographicDescription>University of Alaska Fairbanks Toolik Field Station, North Slope of Alaska (68 degrees 37' 42"N, 149 degrees 35' 46"W)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.596001285</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.596001285</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.628228973</northBoundingCoordinate>
+          <southBoundingCoordinate>68.628228973</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1998-05-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1998-09-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Log of changes: 17June98 Added winter data and error checked. JL For Archival Use: DATE RECEIVED: Aug 1998, June 1999 DATA FILE ENTERED BY: Jim Laundre DATA FILE VALIDATION: NAME: Jim Laundre DATE: 15Sept99</para>
+        <para>Version 3: Metadata updated to newer form (with sites sheet). Units updated to current standards. Discrepancy with variable names fixed. CH April 2013.</para>
+        <para>Version 4: Corrected Distrubution URL. It had xlsfiles in the path. Jim L 19Jun14</para>
+      </description>
+    </maintenance>
+    <contact id="im" system="knb">
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7496</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/ARC/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>ARC LTER</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7496</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/ARC/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout>
+
+Weather data has been collected at Toolik Lake  by a Campbell 21x datalogger since June 1988.  Sensors that are measured every minute and averaged or totaled every hour include: air temperature and relative humidity at 1 and 5 meters, wind speed at 1 and 5 meters, wind direction at 5 meters, global solar radiation, photosynthetically active radiation, barometric pressure, and precipitation.  Sensors measured every 10 minutes and averaged every three hours include, soil temperatures, lake temperature, lake depth, and evaporation pan depth and pan water temperature.  Net radiation and pan evaporation are only measured during the summer months.  The hourly data are in the file 98DLTLH.DAT, the three hourly data are in 98DLTLO.DAT, and daily summaries are in 98DLTLD.DAT.   A second Campbell 21x datalogger about 700 meters from the main weather station logs air and soil temperatures and photosynthetically active radiation in the experimental treatment plots.  Treatments include greenhouse, shading, and fertilization.  In the control plot wind speed and direction, global solar radiation and unfrozen precipitation are also measured.  This station is also used as a backup to the main weather station.  The full description of the sensors and site is in file SENSORS.DOC.  The original data is in file 98DLTDAT.ZIP, which is archived at The Marine Biological Lab, Woods Hole, MA.
+ 
+Notes: Wind speeds less than .447 are considered calm.  The precipitation tipping rain bucket has an Alter type wind screen.  In the fall of 1998 a Campbell CS705 Snowfall adapter was added for snowfall measurements.  Air temperatures are measured with Campbell 207 sensors and type T thermocouple wire.  The difference between the Campbell (Air Temp 1M and Air Temp 5M) and thermocouple measurements (Air TC 1M and Air TC 5M) is about +- 0.5 Celsius with a slightly greater difference at temperatures below - 40.  The Campbell 207s were not corrected at temperatures below -40.  Lake quantum stopped working in winter 1991 and was reinstalled just for summer months starting 1998.  The quantum sensor has an offset of about -1.8.  During the winter months there were some abnormal barometric pressure values which were deleted.  For the global solar radiation and photosynthetically active radiation sensors no attempt is made to correct for frost or snow on the sensors during the winter months.  Therefore winter radiation data should be view as suspect and used only qualitatively.  Barometric pressure sensor was erratic for a few days in January for unknown reasons.  See additional notes under Comments variable.
+ 
+Reference Citations: Buck, A.L.. 1981 New equations for computing  
+vapor pressure and enhancement factor. Journal of Applied Meteorology  
+20:1527-1532.
+
+Sampling Description.
+
+variable Formula 
+DAYS : JULIAN + (HOUR/2400) 
+VAPOR PRESS 5M:  
+If Air Temp &gt; 0 then  (RH 5M/100) * 6.1121 * exp(17.368 * AIR TEMP 5M/(238.88 + AIR TEMP 5M)) 
+If Air Temp &lt; 0 then (RH 5M/100) * 6.1121 * exp(17.966 * AIR TEMP 5M/(238.88 + AIR TEMP 5M)) 
+(Buck 1981). 
+TOTAL J CM2 HR:  PYRANOMETER * 0.3600 jcm2 * 1000 Watt/Kwatt 
+</literalLayout>
+          </para>
+        </description>
+        <protocol>
+          <title>Protocol</title>
+          <creator>
+            <references>pers-1</references>
+          </creator>
+          <proceduralStep>
+            <description>
+              <para />
+            </description>
+          </proceduralStep>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Arctic Long-Term Ecological Research (ARC LTER) Program</title>
+      <personnel>
+        <individualName>
+          <givenName>John</givenName>
+          <surName>Hobbie</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7496</phone>
+        <electronicMailAddress>jhobbie@mbl.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Gus</givenName>
+          <surName>Shaver</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7496</phone>
+        <electronicMailAddress>gshaver@mbl.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Jim</givenName>
+          <surName>Laundre</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7496</phone>
+        <electronicMailAddress>arc_imr@mbl.edu</electronicMailAddress>
+        <role>Information Manager</role>
+      </personnel>
+      <abstract>
+        <para>
+          <literalLayout>
+The goal of Arctic LTER project is to predict the future ecological characteristics of the site based upon our knowledge of the controls of ecosystem structure and function as exerted by physical setting and geologic factors, climatic factors, biotic factors, and the changes in fluxes of water and materials from land to water. To achieve this goal the Arctic LTER uses several approaches:
+
+Long-term monitoring and surveys of natural variation of ecosystem characteristics in space and time. Includes: climate, plant communities and productivity, thaw depth, stream flow, chemistry of streams and lakes, temperatures of streams and lakes, lake chlorophyll lake productivity, zooplankton abundance. 
+
+Experimental manipulation of ecosystems for years and decades. Includes: tundra warming, shading, and fertilizing, grazer exclusions, fertilization of lakes and streams, addition and subtraction of predators. 
+
+Synthesis of results and predictive modeling at ecosystem and watershed scales. Includes: stream N cycling, lake physics, bioenergetics of fish populations, water movement and transfer of DOC and nutrients from land to water, soil respiration, cycling and storage of C in tundra under different scenarios of future climates.
+</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under Grants #DEB-981022, 9211775, 8702328; #OPP-9911278, 9911681, 9732281, 9615411, 9615563, 9615942, 9615949, 9400722, 9415411, 9318529; #BSR 9019055, 8806635, 8507493. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The Arctic LTER research site (68&#176;N and 149&#176;W) is in the foothills region of the North Slope of Alaska and includes the entire Toolik Lake watershed and the adjacent watershed of the upper Kuparuk River, down to the confluence of these two watersheds. This area is typical of the northern foothills of the Brooks Range, with continuous permafrost, no trees, a complete snow cover for 7 to 9 months, winter ice cover on lakes, streams, and ocean, and cessation of river flow during the winter. Tussock tundra vegetation of sedges and grasses mixed with dwarf birch and low willows form the dominant vegetation type with areas of drier heath tundra on ridge tops and other well-drained sites as well as areas of river-bottom willow communities.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-149.75</westBoundingCoordinate>
+              <eastBoundingCoordinate>-149.0433</eastBoundingCoordinate>
+              <northBoundingCoordinate>68.8</northBoundingCoordinate>
+              <southBoundingCoordinate>68.5</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>610</altitudeMinimum>
+                <altitudeMaximum>1360</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </geographicCoverage>
+        </coverage>
+      </studyAreaDescription>
+    </project>
+    <dataTable>
+      <entityName>98dltlh.csv</entityName>
+      <entityDescription>Hourly weather data from Toolik Field Station, ARC LTER, Alaska for 1998.</entityDescription>
+      <physical>
+        <objectName>98dltlh.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.1536&amp;urlTail=weather/tl/data/98dltlh.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att0.1">
+          <attributeName>YEAR</attributeName>
+          <attributeLabel>YEAR</attributeLabel>
+          <attributeDefinition>Year in yyyy</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.2">
+          <attributeName>DATE</attributeName>
+          <attributeLabel>DATE</attributeLabel>
+          <attributeDefinition>Date of collection</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>dd-mon-yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.3">
+          <attributeName>MONTH</attributeName>
+          <attributeLabel>MONTH</attributeLabel>
+          <attributeDefinition>Month of collection</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.4">
+          <attributeName>DAYS</attributeName>
+          <attributeLabel>DAYS</attributeLabel>
+          <attributeDefinition>Julian plus fraction of day</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>ddd.dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.5">
+          <attributeName>ID</attributeName>
+          <attributeLabel>ID</attributeLabel>
+          <attributeDefinition>Datalogger program step.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.6">
+          <attributeName>JULIAN</attributeName>
+          <attributeLabel>JULIAN</attributeLabel>
+          <attributeDefinition>Julian Day</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>ddd.dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.7">
+          <attributeName>HOUR</attributeName>
+          <attributeLabel>HOUR</attributeLabel>
+          <attributeDefinition>Time in Alaska standard time</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh24mi</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.8">
+          <attributeName>RAIN</attributeName>
+          <attributeLabel>RAIN</attributeLabel>
+          <attributeDefinition>Rainfall</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.9">
+          <attributeName>PYRANOMETER</attributeName>
+          <attributeLabel>PYRANOMETER</attributeLabel>
+          <attributeDefinition>Global solar radiation (Sun + sky radiation(LI-200SB)) kilowatts/m2/s</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilowattPerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.10">
+          <attributeName>LAKE QUANTUM</attributeName>
+          <attributeLabel>LAKE QUANTUM</attributeLabel>
+          <attributeDefinition>QUANTUM Lake quantum sensor</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.11">
+          <attributeName>QUANTUM</attributeName>
+          <attributeLabel>QUANTUM</attributeLabel>
+          <attributeDefinition>Quantum sensor</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.12">
+          <attributeName>AIR TEMP 1M</attributeName>
+          <attributeLabel>AIR TEMP 1M</attributeLabel>
+          <attributeDefinition>Air temp at 1 meters in</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.13">
+          <attributeName>AIR TEMP 5M</attributeName>
+          <attributeLabel>AIR TEMP 5M</attributeLabel>
+          <attributeDefinition>Air temp at 5 meters in</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.14">
+          <attributeName>RH 1M</attributeName>
+          <attributeLabel>RH 1M</attributeLabel>
+          <attributeDefinition>Relative humidity at 1 meters percent</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.15">
+          <attributeName>RH 5M</attributeName>
+          <attributeLabel>RH 5M</attributeLabel>
+          <attributeDefinition>Relative humidity at 5 meters percent</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.16">
+          <attributeName>BAROMETER</attributeName>
+          <attributeLabel>BAROMETER</attributeLabel>
+          <attributeDefinition>Barometer readings mmHg</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.17">
+          <attributeName>WIND SP 1M</attributeName>
+          <attributeLabel>WIND SP 1M</attributeLabel>
+          <attributeDefinition>Wind Speed at 1 meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.18">
+          <attributeName>AIR TC 1M</attributeName>
+          <attributeLabel>AIR TC 1M</attributeLabel>
+          <attributeDefinition>Air temp at 1 meter, (thermocouple) Celsius</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.19">
+          <attributeName>AIR TC 5M</attributeName>
+          <attributeLabel>AIR TC 5M</attributeLabel>
+          <attributeDefinition>Air temp at 5 meter, (thermocouple) Celsius</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.20">
+          <attributeName>WIND SP 5M</attributeName>
+          <attributeLabel>WIND SP 5M</attributeLabel>
+          <attributeDefinition>Wind Speed at 5 meters in</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.21">
+          <attributeName>WIND MAG 5M</attributeName>
+          <attributeLabel>WIND MAG 5M</attributeLabel>
+          <attributeDefinition>Wind vector magnitude at 5m</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.22">
+          <attributeName>WIND DIR 5M</attributeName>
+          <attributeLabel>WIND DIR 5M</attributeLabel>
+          <attributeDefinition>Wind direction at 5 meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.23">
+          <attributeName>WIND STD 5M</attributeName>
+          <attributeLabel>WIND STD 5M</attributeLabel>
+          <attributeDefinition>Wind direction standard deviation at 5 meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.24">
+          <attributeName>VAPOR PRESS 5M</attributeName>
+          <attributeLabel>VAPOR PRESS 5M</attributeLabel>
+          <attributeDefinition>millibars</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millibar</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.25">
+          <attributeName>PYR J CM2 HR</attributeName>
+          <attributeLabel>PYR J CM2 HR</attributeLabel>
+          <attributeDefinition>Total joules per sq cm integrated over an hour</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>joulePerCentimeterSquaredPerHour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.26">
+          <attributeName>WIND SECTOR</attributeName>
+          <attributeLabel>WIND SECTOR</attributeLabel>
+          <attributeDefinition>Compass direction of WIND DIR 5M 45 degree sectors</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Compass direction of WIND DIR 5M 45 degree sectors</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.27">
+          <attributeName>DATE Stowaway</attributeName>
+          <attributeLabel>DATE Stowaway</attributeLabel>
+          <attributeDefinition>The date and hour of the stowaway logger. dmm/dd/yy hr:mm.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>mon-dd-yyyy hh24:mi</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id=" att0.28">
+          <attributeName>Stowaway 1M</attributeName>
+          <attributeLabel>Stowaway 1M</attributeLabel>
+          <attributeDefinition>Air temperature measured with a Stowaway logger at 1 meter in the same radiation shield. Celsius</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.29">
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>Comments on individual data points</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments on individual data points</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>8760</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>98dltlh.xls</entityName>
+      <entityDescription>An excel file that has worksheets with the metadata and data.</entityDescription>
+      <physical scope="document">
+        <objectName>98dltlh.xls</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Microsoft Excel</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-arc.1536&amp;urlTail=weather/tl/xlsfiles/98dltlh.xls</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Microsoft Excel file</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="kilowattPerMeterSquaredPerSecond" multiplierToSI="" name="kilowattPerMeterSquaredPerSecond" parentSI="" unitType="power">
+          <description>Amount of energy per square meter surface per second</description>
+        </unit>
+        <unit id="micromolePerMeterSquaredPerSecond" multiplierToSI="" name="micromolePerMeterSquaredPerSecond" parentSI="" unitType="illuminance">
+          <description>micro Einsteins (1E-06 moles of photons) per square meter per second (radiant flux density)</description>
+        </unit>
+        <unit id="percent" multiplierToSI="1" name="percent" parentSI="" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+        <unit id="meterPerSecond" multiplierToSI="" name="meterPerSecond" parentSI="" unitType="speed">
+          <description>meters per second</description>
+        </unit>
+        <unit id="joulePerCentimeterSquaredPerHour" multiplierToSI="" name="joulePerCentimeterSquaredPerHour" parentSI="" unitType="illuminance">
+          <description>Amount of energy per square centimeter surface per day</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

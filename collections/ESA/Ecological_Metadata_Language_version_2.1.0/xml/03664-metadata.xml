@@ -1,0 +1,101 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.85.4" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Data set for the paper: Quality of basic data and method to identify shape affect the perception of richness-altitude relationships in meta-analysis</title>
+<creator>
+<organizationName>Laboratorio Ecotono, Centro Regional Universitario Bariloche, Universidad Nacional del Comahue / INIBIOMA-CONICET</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Victoria</givenName>
+<surName>Werenkraut</surName>
+</individualName>
+<organizationName>Laboratorio Ecotono, Centro Regional Universitario Bariloche, Universidad Nacional del Comahue / INIBIOMA-CONICET</organizationName>
+<electronicMailAddress>vicwkt@gmail.com</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Victoria</givenName>
+<surName>Werenkraut</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Victoria</givenName>
+<surName>Werenkraut</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2010-08-27</pubDate>
+<abstract>
+<para>We compiled 109 species richness-altitude (SRA) relationships in arthropods to test the hypothesis that identification of shape and robustness of pattern are contingent on the selection of studies included in meta-analysis. We used attributes of their sampling design to distinguish three subsets of data according to stringent, intermediate and lax selection criteria. </para>
+</abstract>
+<intellectualRights>
+<para>other</para>
+<para>cite the data set in publications</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2006</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2007</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Global</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>21.0000</westBoundingCoordinate>
+<eastBoundingCoordinate>-71.0000</eastBoundingCoordinate>
+<northBoundingCoordinate>69.0000</northBoundingCoordinate>
+<southBoundingCoordinate>-42.0000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Phylum</taxonRankName>
+  <taxonRankValue>Arthropoda</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Victoria</givenName>
+<surName>Werenkraut</surName>
+</individualName>
+<electronicMailAddress>vicwkt@gmail.com</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Literature collection</title>
+<para>We carried out a literature search through Zoological Records and Scopus. We used altitud* or elevation* AND richness or diversity as keywords. Additional papers were obtained by examining the references of original articles. We selected all papers that reported data on the richness of arthropod species for at least 5 different elevations. To reduce the so called file drawer problem (Rosenthal 1979, Csada et al. 1996), we selected studies that were originally designed to test the SRA relationship along with others that were not specifically designed for this purpose. We included gradients provided they reported data on raw species richness (=neither rarefied nor transformed) for each altitude. For a few studies where data on richness were not available, we estimated local richness at each altitude based on confirmed (i.e., not interpolated) presence of species. To overcome the problem of pseudo-replication, we selected papers from the same author/s provided they worked with different data sets, and we analyzed richness data from different years in the same location only if they were from different sampling points. When a study combined data on local richness estimations from several mountains to describe a regional altitude-richness relationship, we selected data on the local altitudinal gradients and discarded values at regional scale. When a study reported richness-altitude data of subordinate taxa (e.g. subfamilies) within a higher taxonomic level (e.g. family), we analyzed separately the data on each subordinate taxon, and discarded the values reported at higher taxonomic level. Our selection process resulted in a working list of  75 studies with altitude-richness data on 109 altitudinal gradients (Appendix S1). Data published in graphical form were digitized using Data Thief II 1.1.0 (Tummers 2006).  Our last search was in December 2007, and papers published since then were not included in our study</para>
+</section></description></methodStep>
+</methods>
+</dataset></ns0:eml>

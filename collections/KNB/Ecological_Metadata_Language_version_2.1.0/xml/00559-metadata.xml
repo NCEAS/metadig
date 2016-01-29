@@ -1,0 +1,144 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="AKCRRAB.6.4" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>2011 RKC larval rearing in 190 L tanks (broodstock comparison)</title>
+ <creator id="1339613680466" scope="document"> <individualName> <surName>Daly</surName>
+ </individualName>
+ </creator>
+ <creator id="1339613685827" scope="document"> <individualName> <surName>Eckert</surName>
+ </individualName>
+ </creator>
+ <creator id="1339613694458" scope="document"> <individualName> <surName>Swingle</surName>
+ </individualName>
+ </creator>
+ <abstract> <para>The 2011 experiment compared larval viability of Bristol Bay and Juneau broodstock when reared on a large scale. All previous hatchery rearing that was successful used Bristol Bay broodstock. We reared red king larvae from both Juneau and Bristol Bay using identical conditions to determine if broodstock origin influences success of hatchery production. Larvae were collected from at least three females from each stock and mixed randomly. Larvae were stocked at densities of 50 larvae L-1 in eight 1200 L tanks at 10&#176;C. Four tanks contained Bristol Bay larvae and four tanks contained Juneau larvae. All tanks were fed SFB Artemia enriched with DC DHA Selco (Inve Aquaculture). Survival to the first juvenile stage was 15%. There was no significant difference in survival to the glaucothoe stage between stocks.</para>
+ </abstract>
+ <coverage scope="document"> <taxonomicCoverage scope="document"> <taxonomicClassification> <taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Paralithodes camtschaticus</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1339613709349" scope="document"> <individualName> <surName>Daly</surName>
+ </individualName>
+ </contact>
+ <contact id="1339613716198" scope="document"> <individualName> <surName>Swingle</surName>
+ </individualName>
+ </contact>
+ <dataTable id="1339614168170" scope="document"> <entityName>2011 RKC larval rearing survival.txt</entityName>
+ <physical id="1339613843190" scope="document"> <objectName>2011 RKC larval rearing survival.txt</objectName>
+ <size unit="byte">516</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/AKCRRAB.5.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1339614168171" scope="document"> <attributeName>Broodstock</attributeName>
+ <attributeDefinition>location where broodstock was collected</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Bristol Bay</code>
+ <definition>location of broodstock</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Southeast AK</code>
+ <definition>location of broodstock</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1339614168172" scope="document"> <attributeName>tank</attributeName>
+ <attributeDefinition>tank number. Tanks were 190 liters.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>190-1</code>
+ <definition>tank number</definition>
+ </codeDefinition>
+ <codeDefinition> <code>190-2</code>
+ <definition>tank number</definition>
+ </codeDefinition>
+ <codeDefinition> <code>190-3</code>
+ <definition>tank number</definition>
+ </codeDefinition>
+ <codeDefinition> <code>190-4</code>
+ <definition>tank number</definition>
+ </codeDefinition>
+ <codeDefinition> <code>190-5</code>
+ <definition>tank number</definition>
+ </codeDefinition>
+ <codeDefinition> <code>190-6</code>
+ <definition>tank number</definition>
+ </codeDefinition>
+ <codeDefinition> <code>190-7</code>
+ <definition>tank number</definition>
+ </codeDefinition>
+ <codeDefinition> <code>190-8</code>
+ <definition>tank number</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1339614168173" scope="document"> <attributeName>Z1</attributeName>
+ <attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1339614168174" scope="document"> <attributeName>Z2</attributeName>
+ <attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1339614168175" scope="document"> <attributeName>Z3</attributeName>
+ <attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1339614168177" scope="document"> <attributeName>Z4</attributeName>
+ <attributeDefinition>Number of larvae in the tank.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1339614168178" scope="document"> <attributeName>G</attributeName>
+ <attributeDefinition>Number of larvae in the tank. G= glaucothoe</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1339614168179" scope="document"> <attributeName>C1</attributeName>
+ <attributeDefinition>Number of larvae in the tank. C1= the first juvenile instar stage.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>8</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

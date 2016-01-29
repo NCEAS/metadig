@@ -1,0 +1,99 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="fhatanir.4.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Belvedere rainfall</title>
+<creator id="1354611000625"><individualName><givenName>BJ</givenName>
+<surName>de Klerk</surName>
+</individualName>
+<organizationName>Belvedere farm</organizationName>
+<positionName>Owner</positionName>
+<address><city>Bedford district, Eastern Cape</city>
+<country>South Africa</country>
+</address>
+<phone phonetype="voice">046 685 0665</phone>
+<phone phonetype="fax">086 669 5752</phone>
+<electronicMailAddress>bj@r63.co.za</electronicMailAddress>
+</creator>
+<associatedParty id="1354611380844"><individualName><givenName>Fhatani</givenName>
+<surName>Ranwashe</surName>
+</individualName>
+<organizationName>SAEON</organizationName>
+<positionName>Data Intern</positionName>
+<address><city>Cape Town</city>
+<country>South Africa</country>
+</address>
+<electronicMailAddress>data@saeon.ac.za</electronicMailAddress>
+<role>Metadata Provider</role>
+</associatedParty>
+  <abstract><para>monthly and yearly rainfall datacollected from Belvedere farm, Bedford District, Eastern Cape</para>
+</abstract>
+<keywordSet><keyword>Fynbos</keyword>
+<keyword>Fynbos SAEON Node, South Africa</keyword>
+</keywordSet>
+<intellectualRights><para>The data is available for archiving and sharing for scientific and technical use with agreement from the owner.</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>Belvedere farm</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>25.912778</westBoundingCoordinate>
+<eastBoundingCoordinate>25.912778</eastBoundingCoordinate>
+<northBoundingCoordinate>-32.566667</northBoundingCoordinate>
+<southBoundingCoordinate>-32.566667</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1925</calendarDate>
+</beginDate>
+<endDate><calendarDate>2011</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1354611000625</references>
+</contact>
+<methods><methodStep><description><section><title>Rainfall data</title>
+<para>rainfall data collection</para>
+</section>
+</description>
+<instrumentation>rainfalll gauge</instrumentation>
+</methodStep>
+</methods>
+<dataTable id="1354612991620"><entityName>Belvedere_Rainfall_1979.2011.csv</entityName>
+<entityDescription>Belvedere farm rainfall data</entityDescription>
+<physical id="1354612729222"><objectName>Belvedere_Rainfall_1979.2011.csv</objectName>
+<size unit="byte">7344</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/fhatanir.3.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1354612991621"><attributeName>"YEAR"</attributeName>
+<attributeDefinition>year of collection of rainfall</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1354612991622"><attributeName>"month"</attributeName>
+<attributeDefinition>month of collection of rainfall</attributeDefinition>
+<measurementScale><dateTime><formatString>mm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1354612991623"><attributeName>"rain_mm"</attributeName>
+<attributeDefinition>rainfall collected in millimeters</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>396</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

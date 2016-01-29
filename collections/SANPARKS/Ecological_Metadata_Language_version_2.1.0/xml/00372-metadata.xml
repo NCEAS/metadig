@@ -1,0 +1,338 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.109857.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>uid=GIS,o=SANParks,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataset> <title>Automatic weather Station for Phalaborwa SAWS 2013</title>
+ <creator id="1382614177671"> <individualName><surName>SAWB</surName>
+ </individualName>
+ <organizationName>SAWB</organizationName>
+ <positionName>OWNER</positionName>
+ </creator>
+ <keywordSet><keyword>Rainfall,Temperature,Relativehumidity,Wind speed,Wind directions</keyword>
+ <keyword>SANParks,South African National Parks,South Africa</keyword>
+ </keywordSet>
+ <intellectualRights><para>This data belongs to the South African Weather Bereau and is restricted to use by SANParks employers and affiliated researchers with registered research project.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Phalaborwa</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-90.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>90.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>45.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-45.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2013-04-01</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013-08-31</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1382614234695"><individualName><surName>OWNER</surName>
+ </individualName>
+ <organizationName>SAWB</organizationName>
+ <positionName>OWNER</positionName>
+ </contact>
+  <dataTable id="1391689616043"><entityName>Phalaborwa2013Humidity.txt</entityName>
+<physical id="1391688919313"><objectName>Phalaborwa2013Humidity.txt</objectName>
+<size unit="byte">69955</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.110104.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1391689616053"><attributeName>Year</attributeName>
+<attributeDefinition>Year</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1391689616063"><attributeName>Month</attributeName>
+<attributeDefinition>Month</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Month</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1391689616073"><attributeName>DD</attributeName>
+<attributeDefinition>Day</attributeDefinition>
+<measurementScale><dateTime><formatString>dd</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1391689616083"><attributeName>h01</attributeName>
+<attributeDefinition>Humidity at hour 1</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616093"><attributeName>h02</attributeName>
+<attributeDefinition>Humidity at hour 2</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616103"><attributeName>h03</attributeName>
+<attributeDefinition>Humidity at hour 3</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616113"><attributeName>h04</attributeName>
+<attributeDefinition>Humidity at hour 4</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616123"><attributeName>h05</attributeName>
+<attributeDefinition>Humidity at hour 5</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616133"><attributeName>h06</attributeName>
+<attributeDefinition>Humidity at hour 6</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616143"><attributeName>h07</attributeName>
+<attributeDefinition>Humidity at hour 7</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616153"><attributeName>h08</attributeName>
+<attributeDefinition>Humidity at hour 8</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616163"><attributeName>h09</attributeName>
+<attributeDefinition>Humidity at hour 9</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616173"><attributeName>h10</attributeName>
+<attributeDefinition>Humidity at hour 10</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616183"><attributeName>h11</attributeName>
+<attributeDefinition>Humidity at hour 11</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616193"><attributeName>h12</attributeName>
+<attributeDefinition>Humidity at hour 12</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616203"><attributeName>h13</attributeName>
+<attributeDefinition>Humidity at hour 13</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616213"><attributeName>h14</attributeName>
+<attributeDefinition>Humidity at hour 14</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616223"><attributeName>h15</attributeName>
+<attributeDefinition>Humidity at hour 15</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616233"><attributeName>h16</attributeName>
+<attributeDefinition>Humidity at hour 16</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616243"><attributeName>h17</attributeName>
+<attributeDefinition>Humidity at hour 17</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616253"><attributeName>h18</attributeName>
+<attributeDefinition>Humidity at hour 18</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616263"><attributeName>h19</attributeName>
+<attributeDefinition>Humidity at hour 19</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616273"><attributeName>h20</attributeName>
+<attributeDefinition>Humidity at hour 20</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616283"><attributeName>h21</attributeName>
+<attributeDefinition>Humidity at hour 21</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616293"><attributeName>h22</attributeName>
+<attributeDefinition>Humidity at hour 22</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616303"><attributeName>h23</attributeName>
+<attributeDefinition>Humidity at hour 23</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616313"><attributeName>h24</attributeName>
+<attributeDefinition>Humidity at hour 24</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616323"><attributeName>avg</attributeName>
+<attributeDefinition>Average humidity over 24 hours</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616333"><attributeName>mx</attributeName>
+<attributeDefinition>Maximum humidity</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616343"><attributeName>tm</attributeName>
+<attributeDefinition>Time of max humidity</attributeDefinition>
+<measurementScale><dateTime><formatString>hhmm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1391689616353"><attributeName>mn</attributeName>
+<attributeDefinition>Minumun humidity</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1391689616363"><attributeName>tm</attributeName>
+<attributeDefinition>Time of minimum humidity</attributeDefinition>
+<measurementScale><dateTime><formatString>hhmm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>365</numberOfRecords>
+</dataTable>
+</dataset>
+ </ns0:eml>

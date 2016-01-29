@@ -1,0 +1,526 @@
+<metadata><Source>http://www1.usgs.gov/metadata/mdata/vip/metacebrspatial.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Northern Colorado Plateau Network, Inventory and Monitoring Program</origin>
+        <pubdate>20110617</pubdate>
+        <title>Cedar Breaks National Monument Vegetation Mapping Project - Spatial Vegetation Data</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>USGS-NPS Vegetation Mapping Program</sername>
+          <issue>Cedar Breaks National Monument</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>USGS, Biological Resources Discipline, Center for Biological Informatics</publish>
+        </pubinfo>
+		<onlink>http://gis1.usgs.gov/arcgis/rest/services/nvcp/Cedar_Breaks_NM/MapServer</onlink>
+        <onlink>http://www1.usgs.gov/vip/cebr/cebrgeodata.zip</onlink>
+        <onlink>http://viewer.nationalmap.gov/viewer/?p=default&amp;b=base1&amp;q=http%3A%2F%2Fgis1.usgs.gov%2Farcgis%2Frest%2Fservices%2Fnvcp%2FCedar_Breaks_NM%2FMapServer&amp;x=-12561827.8542&amp;y=4528575.99075&amp;l=12&amp;sc=0&amp;v=</onlink>
+        <onlink>doi:10.5066/F77M05WQ</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon feature class represents the vegetation and land-use geo-spatial data for Cedar Breaks National Monument (CEBR) and surrounding areas. The polygons were generated using guidelines set by the Standardized National Vegetation Classification System (October 1995). Original lines were provided by the USGS created by using a segmentation routine with eCognition software. The segmented lines were edited and re-drawn using photo interpretation (PI) techniques on 2002 aerial photography. Additional data layers were used in aiding the interpretation, such as slope, hydrology, soils, geography, and ground-collected vegetation information. The minimum mapping unit was 1/2 hectare. The attributed vegetation classes were subjected to an accuracy assessment, following which final adjustments were made to the vegetation classes. As with any digital layer, this layer is a representation of what is actually occurring on the ground; errors are inherent in any interpretation of ground qualities. Due to the "snapshot" nature of the DOQs, this vegetation layer reflects conditions that existed when the imagery was collected.</abstract>
+      <purpose>The NPS Vegetation Inventory Program goals are, among others, to consistently classify, map and document the vegetation of all National Park Service units with a resource component, thereby creating a baseline vegetation inventory. The purposes of this specific mapping effort are varied and include the following: 1) provide support for NPS Resource Management, 2) promote vegetation-related research, 3) provide support for NPS Planning and Compliance, 4) add to the information base for NPS Interpretation, 5) provide a vegetation baseline inventory for the Park, and 6) assist in overall NPS Operations.</purpose>
+      <supplinf>Map Unit descriptions are hotlinked in the data, but the path names will need to be updated. To update the hotlinks to the map unit description PDFs, update the MAP_UNIT_PDF_PATH field in TBL_VEGMAP_INFO with the directory path where the map unit PDFs are stored (e.g., Calculate: MAP_UNIT_PDF_PATH = "C:\GIS\Parks\CEBR\Vegetation\MU_PDFs\"&amp; [MAP_UNIT_PDF]).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20020101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Cedar Breaks National Monument and environs</descgeog>
+      <bounding>
+        <westbc>-112.880833</westbc>
+        <eastbc>-112.808984</eastbc>
+        <northbc>37.689864</northbc>
+        <southbc>37.588835</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Vegetation Classification</themekey>
+        <themekey>Land Cover and Land Use</themekey>
+        <themekey>USGS-NPS National Vegetation Mapping Program</themekey>
+        <themekey>Standardized National Vegetation Classification</themekey>
+        <themekey>Community Association</themekey>
+        <themekey>Alliance</themekey>
+      </theme>
+      <theme>
+        <themekt>National Park Service Theme Category Thesaurus</themekt>
+        <themekey>Vegetation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Cedar Breaks National Monument</placekey>
+        <placekey>CEBR</placekey>
+        <placekey>Iron County</placekey>
+        <placekey>Colorado Plateau</placekey>
+        <placekey>National Park Service</placekey>
+        <placekey>NPS</placekey>
+        <placekey>USA</placekey>
+      </place>
+      <place>
+        <placekt>National Park System Unit Name Thesaurus</placekt>
+        <placekey>Cedar Breaks National Monument</placekey>
+      </place>
+      <place>
+        <placekt>National Park System Unit Code Thesaurus</placekt>
+        <placekey>CEBR</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>None</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2002</tempkey>
+      </temporal>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Standardized National Vegetation Classification System</taxonkey>
+        <taxonkey>vegetation classification</taxonkey>
+        <taxonkey>alliance</taxonkey>
+        <taxonkey>community association</taxonkey>
+      </keywtax>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Plantae</taxonrv>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None</accconst>
+    <useconst>Any person using the information presented here should fully understand the data collection and compilation procedures, as described in these metadata, before beginning analyses. The burden for determining fitness for use lies entirely with the user. For purposes of publication or dissemination, citations or credit should be given to the U.S. Geological Survey and the National Park Service.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Northern Colorado Plateau Network, Inventory and Monitoring Program</cntorg>
+          <cntper>Helen Thomas</cntper>
+        </cntorgp>
+        <cntpos>Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 848</address>
+          <city>Moab</city>
+          <state>UT</state>
+          <postal>84532</postal>
+        </cntaddr>
+        <cntvoice>435-719-2340</cntvoice>
+        <cntemail>helen_thomas@nps.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</native>
+    <crossref>
+      <citeinfo>
+        <origin>A. Tendick, B. Friesen, G. Kittel, P. Williams, J. Coles, A. Wight, G. Wakefield, and A. Evenden</origin>
+        <pubdate>20110601</pubdate>
+        <title>Vegetation Classification and Mapping Project Report, Cedar Breaks National Monument</title>
+        <geoform>report</geoform>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The thematic accuracy is approximately 88%. Please read the accompanying report or check with CEBR or the Northern Colorado Plateau Network for the latest accuracy assessment values.</attraccr>
+      <qattracc>
+        <attraccv>85%</attraccv>
+        <attracce>Overall Thematic Accuracy of the Vegetation Attribute Field.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>All polygon features were checked for topology, existence of label points, and label point uniqueness.</logic>
+    <complete>All data that could be interpreted from the aerial photos were digitized in accordance with the minimum mapping unit (MMU) of 1/2 hectare. This included selected features that fell into the National Vegetation Classification and the Anderson Level II land use classification. Some classes below the MMU were included, especially water and wetland features and those at the edge of the study area (i.e. cut off by other features and borders). Roads (to visible right-of-way or fence line) and streams/drainages wider than 10 meters were digitized as polygons and attributed accordingly.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The orthophotos used as basemaps for this project are assumed to meet the National Map Accuracy Standards for 1:12,000-scale maps. Please reference the imagery metadata for more information.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The orthophotos used as basemaps for this project are assumed to meet the National Map Accuracy Standards for 1:12,000-scale maps. Please reference the imagery metadata for more information.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NAIP</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Orthophotography for Cedar Breaks National Monument</title>
+            <edition>None</edition>
+            <geoform>raster digital data</geoform>
+            <serinfo>
+              <sername>None</sername>
+              <issue>None</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>None</pubplace>
+              <publish>None</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>40,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20020101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>2002 Orthophotography for Cedar Breaks National Monument</srccitea>
+        <srccontr>This digital orthophoto provided the project basemap.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Society</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Tropic Flanigan Arch, Brian Head, Webster Flat, Navajo</title>
+            <geoform>raster digital data</geoform>
+            <pubinfo>
+              <pubplace>None</pubplace>
+              <publish>None</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20020601</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DRG</srccitea>
+        <srccontr>Digital Raster Graphics were used for field maps.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Unknown</origin>
+            <pubdate>Unknown</pubdate>
+            <title>1:12,000 Aerial photography (true color) of Cedar Breaks National Monument</title>
+            <geoform>image</geoform>
+            <pubinfo>
+              <pubplace>None</pubplace>
+              <publish>None</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>12,000</srcscale>
+        <typesrc>Contact paper prints of film transparencies</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20020601</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CEBR Aerial Photos</srccitea>
+        <srccontr>These aerial photographs were the basis for the mapping process.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS/BRD, Center for Biological Informatics</origin>
+            <pubdate>19941101</pubdate>
+            <title>Accuracy Assessment Procedures, NBS/NPS Vegetation Mapping</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>USGS-NPS Vegetation Mapping Program</sername>
+              <issue>Cedar Breaks National Monument</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Denver, CO</pubplace>
+              <publish>USGS/BRD, Center for Biological Informatics</publish>
+            </pubinfo>
+            <othercit>This report was prepared by Environmental Systems Research Institute+ADs- Redlands, CA, National Center for Geographic Information and Analysis, University of California, Santa Barbara, CA and The Nature Conservancy, Arlington, VA under contract from the U.S. Department of Interior National Biological Survey and National Park Service.</othercit>
+            <onlink>http://www.usgs.gov/core_science_systems/csas/index.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>electronic document</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19941101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Accuracy Assessment Procedures Documents</srccitea>
+        <srccontr>This document established the procedures and protocols for the accuracy assessment at Cedar Breaks National Monument.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>MAP CLASSES: The vegetation classification for Cedar Breaks was conducted in accordance with the standards developed under the USGS/NPS Vegetation Classification and Mapping Program using the National Vegetation Classification (NVC) standard. Field work conducted by the Northern Colorado Plateau Network field crew, and e2M helped create a list of NVC associations and alliances for Cedar Breaks National Monument. The final list of map classes was based directly on the NVC associations and alliances, and standard land-use/land-cover categories.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>MAPPING: Original lines were provided by the USGS based on a segmentation routine done in eCognition software. The segmented lines were extensively edited and re-drawn using photo interpretation (PI) techniques on 2002 aerial photography. All PI generated lines were digitized into the original spatial database. The spatial database was then built for topology and attributes were added.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>ACCURACY ASSESSMENT: The final spatial database for Cedar Breaks was used to locate stratified random target points based on frequency and abundance of the map units. Only vegetated map units were selected within the park boundary. Targets were assessed in the field by botanists using the key to plant alliances and associations. Data collected in the field was entered into a database and a point GIS coverage was created from this. Points were overlain on the map and the attributes were compared. Preliminary error matrices were generated and reviewed at a meeting. Based on the results of this meeting the map was updated and re-assessed. The final error matrix showed an overall accuracy of 88%.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Revision and publication. Following the accuracy assessment, specialists examined the thematic accuracy of the vegetation layer. Adjustments were made to the data layer according to those assessments. Data was then migrated to a geodatabase format.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>1253</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>12</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-111.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>fcl_Veg_Polys</enttypl>
+        <enttypd>Geodatabase attribute table</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Polygon_ID</attrlabl>
+        <attrdef>Unique polygon ID number</attrdef>
+        <attrdefs>NPS four letter park code plus unique number</attrdefs>
+        <attrdomv>
+          <udom>ID</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Map_Unit_ID</attrlabl>
+        <attrdef>Map Class numerical code</attrdef>
+        <attrdefs>NPS map class number</attrdefs>
+        <attrdomv>
+          <udom>map class code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Map_Unit_Common_Name</attrlabl>
+        <attrdef>Map Class Name (common)</attrdef>
+        <attrdefs>NPS map unit common name</attrdefs>
+        <attrdomv>
+          <udom>map class name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Edit_Date</attrlabl>
+        <attrdef>Date of edit(s)</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Date of any edits or updates to attributes.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Edit_Notes</attrlabl>
+        <attrdef>Explanation of edits</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Notes about any edits or updates made to a polygon.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Double</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Acres calculated using ArcMap geometry.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HECTARES</attrlabl>
+        <attrdef>Double</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Hectares calculated using ArcMap geometry.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RuleID</attrlabl>
+        <attrdef>Rule identification</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Textual rule identification name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Override</attrlabl>
+        <attrdef>Unknown field created by originator but not documented.</attrdef>
+        <attrdefs>NPS</attrdefs>
+        <attrdomv>
+          <udom>Blob.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>rc_VegPolys_VegMapInfo</enttypl>
+        <enttypd>Relationship</enttypd>
+        <enttypds>National Park Service</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The U.S. Geological Survey and the National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein.  These data and related graphics (if available) are not legal documents and are not intended to be used as such.
+
+The information contained in these data is dynamic and may change over time.  The data are not better than the original sources from which they were derived.  It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular.  Any related graphics (if available) are intended to aid the data user in acquiring relevant data; it is not approriate to use the related graphics as data.
+
+The U.S. Geological Survey and the National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.  It is strongly recommended that these data are directly acquired from an U.S. Geological Survey and National Park Service servers and not indirectly through other sources which may have changed the data in some way.  Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. Mention of trade names or commercial products in this metadata report does not constitute endorsement or recommendation for use by the U. S. Department of the Interior, U. S. Geological Survey and National Park Service.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>HTML</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.usgs.gov/core_science_systems/csas/vip/parks/cebr.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Internet Access</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20110524</metd>
+    <metrd>20110822</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/CSS/Core Science Analytics and Synthesis</cntorg>
+          <cntper>USGS-NPS Vegetation Characterization Program Coordinator</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Denver Federal Center, Building 810, MS 302</address>
+          <city>Denver</city>
+          <state>Colorado</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>(303) 202-4220</cntvoice>
+        <cntfax>303-202-4219</cntfax>
+        <cntemail>gs-b-npsveg@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+    <metextns>
+      <onlink>http://www.usgs.gov/core_science_systems/csas/metadata/index.html</onlink>
+    </metextns>
+  </metainfo>
+</metadata>

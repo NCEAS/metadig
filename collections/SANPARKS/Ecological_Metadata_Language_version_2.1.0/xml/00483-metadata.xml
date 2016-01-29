@@ -1,0 +1,176 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="peggym.109823.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Mountain Zebra National Park daily climate data 2012-2013</title>
+ <creator id="1370507810061"> <organizationName>SAWB</organizationName>
+</creator>
+ <abstract><para>20204	BERGKWAGGA PARK	-32.21666718	25.46666718	1204
+Variables recorded are Daily Maximum Temperature
+Daily Minimum Temperature
+Average Daily Maximum Relative Humidity
+Average Daily Minimum Relative Humidity
+Total Daily Rainfall
+Total Daily Apan Evaporation
+Daily Wind Run
+Sunshine Hours
+Daily Average Temperature [[Tx + Tn] / 2]</para>
+</abstract>
+<keywordSet><keyword>SANParks, South Africa, Mountain Zebra National Park, South Africa</keyword>
+<keyword>climate, weather,Daily Maximum Temperature, Daily Minimum Temperature, Average Daily Maximum Relative Humidity, Average Daily Minimum Relative Humidity, Total Daily Rainfall ,Total Daily Apan Evaporation, Daily Wind Run, Sunshine Hours Daily, Average Temperature [[Tx + Tn] / 2]</keyword>
+</keywordSet>
+<intellectualRights><para>This data is restricted for scientific use only</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>MountainZebraNationalPark</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>25.092719</westBoundingCoordinate>
+<eastBoundingCoordinate>25.532273</eastBoundingCoordinate>
+<northBoundingCoordinate>-32.089761</northBoundingCoordinate>
+<southBoundingCoordinate>-32.315068</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2012-01-01</calendarDate>
+</beginDate>
+<endDate><calendarDate>2013-02-28</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact id="1370507824180"><organizationName>SANParks</organizationName>
+</contact>
+<dataTable id="1370508524813"><entityName>MuntainZebraDailyCDataJan2012-Feb2013.txt</entityName>
+<physical id="1370508193617"><objectName>MuntainZebraDailyCDataJan2012-Feb2013.txt</objectName>
+<size unit="byte">21417</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/peggym.109822.1</url>
+</online>
+<access authSystem="knb" order="allowFirst"><allow><principal>cn=KNPresearch,o=SANParks,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+</distribution>
+</physical>
+<attributeList><attribute id="1370508524829"><attributeName>Compno</attributeName>
+<attributeDefinition>Station number</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370508524844"><attributeName>Year</attributeName>
+<attributeDefinition>Year</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1370508524860"><attributeName>Month</attributeName>
+<attributeDefinition>Month</attributeDefinition>
+<measurementScale><dateTime><formatString>mm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1370508524876"><attributeName>Day</attributeName>
+<attributeDefinition>DAy</attributeDefinition>
+<measurementScale><dateTime><formatString>dd</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1370508524891"><attributeName>Tx</attributeName>
+<attributeDefinition>Daily Maximum Temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370508524907"><attributeName>Tn</attributeName>
+<attributeDefinition>Daily Minimum Temperature</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370508524922"><attributeName>RHx</attributeName>
+<attributeDefinition>Average Daily Maximum Relative Humidity
+%</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370508524938"><attributeName>RHn</attributeName>
+<attributeDefinition>Average Daily Minimum Relative Humidity
+%</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370508524954"><attributeName>Rain</attributeName>
+<attributeDefinition>Total Daily Rainfall</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370508524969"><attributeName>APan</attributeName>
+<attributeDefinition>Total Daily Apan Evaporation</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370508524985"><attributeName>UTot</attributeName>
+<attributeDefinition>Daily Wind Run
+km/day</attributeDefinition>
+<measurementScale><ratio><unit><customUnit>km/day</customUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+<attribute id="1370508525000"><attributeName>Suns</attributeName>
+<attributeDefinition>Sunshine Hours</attributeDefinition>
+<measurementScale><dateTime><formatString>hh.mm</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1370508525016"><attributeName>AveT</attributeName>
+<attributeDefinition>Daily Average Temperature [[Tx + Tn] / 2]</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>456</numberOfRecords>
+</dataTable>
+</dataset>
+ <additionalMetadata><metadata><unitList><unit id="km/day" multiplierToSI="24" name="km/day" parentSI="metersPerSecond" unitType="speed"><description>km/day</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</ns0:eml>

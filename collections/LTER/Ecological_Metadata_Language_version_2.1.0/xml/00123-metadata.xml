@@ -1,0 +1,1127 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:ns2="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-fce.1080.1" system="https://pasta.lternet.edu" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/eml/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=FCE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="LT_ND_Rubio_002">
+    <alternateIdentifier>LT_ND_Rubio_002</alternateIdentifier>
+    <title>Water Quality Data (Grab Samples) from the Taylor Slough, Everglades National Park (FCE), South Florida from September 1999 to Present</title>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Daniel</givenName>
+        <surName>Childers</surName>
+      </individualName>
+      <organizationName>Global Institute of Sustainability| School of Sustainability</organizationName>
+      <positionName>Associate Director for Research| Professor</positionName>
+      <address>
+        <deliveryPoint>Arizona State University</deliveryPoint>
+        <deliveryPoint>PO Box 875402</deliveryPoint>
+        <city>Tempe</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">480-965-2320</phone>
+      <phone phonetype="fax">480-965-8087</phone>
+      <electronicMailAddress>dan.childers@asu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Tiffany</givenName>
+        <surName>Troxler</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <positionName>Project Collaborator</positionName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-1453</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>troxlert@fiu.edu </electronicMailAddress>
+      <onlineUrl>http://wetland.fiu.edu/</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <electronicMailAddress>fcelter@fiu.edu  </electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu  </onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Olga</givenName>
+        <surName>Sanchez</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Technical Staff</deliveryPoint>
+        <city>Florida International University| University Park| OE 148</city>
+        <administrativeArea>Miami</administrativeArea>
+        <postalCode>FL</postalCode>
+        <country>33199</country>
+      </address>
+      <phone phonetype="voice">USA</phone>
+      <phone phonetype="fax">305-348-1576</phone>
+      <electronicMailAddress>305-348-4096</electronicMailAddress>
+      <onlineUrl>http://www.fiu.edu/~ecosyst/</onlineUrl>
+      <role>sanchezo@fiu.edu</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Tiffany</givenName>
+        <surName>Troxler</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Project Collaborator</deliveryPoint>
+        <city>Florida International University| University Park| OE 148</city>
+        <administrativeArea>Miami</administrativeArea>
+        <postalCode>FL</postalCode>
+        <country>33199</country>
+      </address>
+      <phone phonetype="voice">USA</phone>
+      <phone phonetype="fax">305-348-1453</phone>
+      <electronicMailAddress>305-348-4096</electronicMailAddress>
+      <onlineUrl>http://wetland.fiu.edu/</onlineUrl>
+      <role>troxlert@fiu.edu </role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <surName>Childers</surName>
+      </individualName>
+      <organizationName>Global Institute of Sustainability| School of Sustainability</organizationName>
+      <address>
+        <deliveryPoint>Associate Director for Research</deliveryPoint>
+        <deliveryPoint> Professor</deliveryPoint>
+        <city>Arizona State University|PO Box 875402</city>
+        <administrativeArea>Tempe</administrativeArea>
+        <postalCode>AZ</postalCode>
+        <country>85287</country>
+      </address>
+      <phone phonetype="voice">USA</phone>
+      <phone phonetype="fax">480-965-2320</phone>
+      <electronicMailAddress>480-965-8087</electronicMailAddress>
+      <role>dan.childers@asu.edu</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Iwaniec</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-1576</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>iwaniecd@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://www.fiu.edu/~ecosyst/</onlineUrl>
+      <role>Masters Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Damon</givenName>
+        <surName>Rondeau </surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-1576</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>rondeaud@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://www.fiu.edu/~ecosyst/</onlineUrl>
+      <role>Technical Staff</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Gustavo</givenName>
+        <surName>Rubio</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-1576</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>rubiog@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://www.fiu.edu/~ecosyst/</onlineUrl>
+      <role>Masters Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Greg</givenName>
+        <surName>Losada</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-1576</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>glosa001@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://www.fiu.edu/~ecosyst/</onlineUrl>
+      <role>Technical Staff</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Emilie</givenName>
+        <surName>Verdon</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-1576</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>everd002@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://www.fiu.edu/~ecosyst/</onlineUrl>
+      <role>Masters Student</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Tim</givenName>
+        <surName>Grahl</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-1576</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>grahlt@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://www.fiu.edu/~ecosyst/</onlineUrl>
+      <role>Technical Staff</role>
+    </associatedParty>
+    <pubDate>2011-07-28</pubDate>
+    <abstract>
+      <para>Water quality samples are being collected using ISCO autosamplers at all wetland sites (that is, all sites except TS/Ph-9, 10, and 11). The autosamplers contain 24 1L bottles. Water is sampled by programming the autosamplers to take composite samples once every 3 days. These samples are a composite of four 250mL subsamples drawn every 18 hours (a sampling scheme that captures a dawn, noon, dusk, and midnight sample in every three day composite). The samples are collected every 3-4 weeks and analyzed for total phosphorus (TP), total nitrogen (TN), and salinity. When sites are visited to collect these samples, we also collect a grab sample that is immediately put on ice. A portion of these grab samples is filtered through a Whatman GF/F filter immediately upon return to the lab, and the filtered samples are analyzed for inorganic nutrients such as NO2-, NO3-, NH4+, SRP, and DOC. The unfiltered fraction of these grab samples is analyzed for TP, TN, and TOC. We use these montly grab samples to generate relationships between TP and SRP, and between TN and NO2- + NO3- + NH4+. Dissolved nutrients are measured using standard rapid flow analyzer (RFA) techniques. TP is analyzed with a modified Solorzano and Sharp (1980) technique. TN is measured with an Antec TN analyzer, TOC and DOC are quantified on a Shimadzu TOC Analyzer, and salinity is measured with a YSI conductivity meter. In addition to the regular water quality monitoring, we use the rain level actuators at all freshwater sites to trigger water sampling after rain events exceed a given threshold of duration and/or intensity. As currently programmed, when the threshold of = 2.5 cm of rain per hour is passed, the autosampler at that site collects a 500mL sample 30 minutes after the threshold has been reached. Rain event samples are collected, treated, and analyzed as all other water quality samples.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>FCE</keyword>
+      <keyword>Florida Coastal Everglades LTER</keyword>
+      <keyword>ecological research</keyword>
+      <keyword>long-term monitoring</keyword>
+      <keyword>water quality</keyword>
+      <keyword>inorganic nutrients</keyword>
+      <keyword>salinity</keyword>
+      <keyword>TN</keyword>
+      <keyword>biogeochemistry</keyword>
+      <keyword>TP</keyword>
+      <keyword>Taylor Slough</keyword>
+      <keyword>Everglades National Park</keyword>
+      <keyword>total nitrogen</keyword>
+      <keyword>total phosphorus</keyword>
+      <keyword>water</keyword>
+      <keyword>intensive</keyword>
+      <keyword>grab sample</keyword>
+      <keyword>TOC</keyword>
+      <keyword>NH4</keyword>
+      <keyword>N+N</keyword>
+      <keyword>NO2</keyword>
+      <keyword>SRP</keyword>
+      <keyword>DOC</keyword>
+      <keyword>NO3</keyword>
+      <keywordThesaurus>LTER Keyword Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>These data are classified as 'Type I' whereby original FCE LTER experimental data collected by individual FCE researchers are available for scientific purposes 2 years after collection.  Maximum lock period = 2 years. All publications based on this dataset must cite the data Contributor, the Florida Coastal Everglades Long-Term Ecological Research (LTER) Program and that this material is based upon work supported by the National Science Foundation through the Florida Coastal Everglades Long-Term Ecological Research program under Cooperative Agreements #DBI-0620409, and #DEB-9910514. Additionally, two copies of the manuscript must be submitted to the Florida Coastal Everglades LTER Program Office, LTER Program Manager, Florida International University, Southeast Environmental Research Center, OE 148, University Park, Miami, Florida 33199.  For a complete description of the FCE LTER Data Distribution and Data User Agreement, please go to FCE Data Management Policy at http://fcelter.fiu.edu/data/DataMgmt.pdf and LTER Network Data Access Policy at http://fcelter.fiu.edu/data/core/data_user_agreement/distribution_policy.html.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-fce.1080.1&amp;urlTail=LT_ND_Rubio_002.txt</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Data were collected in the Taylor Slough, within Everglades National Park, South Florida</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-80.663</westBoundingCoordinate>
+          <eastBoundingCoordinate>-80.590</eastBoundingCoordinate>
+          <northBoundingCoordinate>25.439</northBoundingCoordinate>
+          <southBoundingCoordinate>25.252</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Florida Coastal Everglades LTER Study Area: South Florida, Everglades National Park, and Florida Bay</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+          <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+          <northBoundingCoordinate>25.761</northBoundingCoordinate>
+          <southBoundingCoordinate>24.913</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-09-13</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-12-20</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is a long-term biogeochemistry dataset and subsequent data will be appended. This dataset replaces all previous versions of LT_ND_Rubio_002 original and  (v1-v7). The FCE program is discontinuing its practice of versioning data as of March 2013.</para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Olga</givenName>
+        <surName>Sanchez</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <positionName>Technical Staff</positionName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-1576</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>sanchezo@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://www.fiu.edu/~ecosyst/</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>fcelter@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <electronicMailAddress>fcelter@fiu.edu  </electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu  </onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Water quality samples are being collected using ISCO autosamplers at all wetland sites (that is, all sites except TS/Ph-9, 10, and 11). The autosamplers contain 24 1L bottles. Water is sampled by programming the autosamplers to take composite samples once every 3 days.  These samples are a composite of four 250mL subsamples drawn every 18 hours (a sampling scheme that captures a dawn, noon, dusk, and midnight sample in every three day composite).  Collection of composite samples may result in a composite sample which is less than three days; samples are collected every 3-4 weeks.  The recorded date for each composite sample indicates the end date of the sample interval.  Samples are analyzed for total phosphorus (TP), total nitrogen (TN), and salinity.  When sites are visited to collect these samples, we also collect a grab sample that is immediately put on ice. A portion of these grab samples is filtered through a Whatman GF/F filters (0.7 um) immediately upon return to the lab, and the filtered samples are analyzed for inorganic nutrients such as NO2-, NO3-, NH4+, SRP, and DOC. The unfiltered fraction of these grab samples is analyzed for TP, TN, and TOC. We use these montly grab samples to generate relationships between TP and SRP, and between TN and NO2- + NO3- + NH4+. Dissolved nutrients are measured using standard rapid flow analyzer (RFA) techniques. TP is analyzed with a modified Solorzano and Sharp (1980) technique. TN is measured with an Antec TN analyzer, TOC and DOC are quantified on a Shimadzu TOC Analyzer, and salinity is measured with a YSI conductivity meter. In addition to the regular water quality monitoring, we use the rain level actuators at all freshwater sites to trigger water sampling after rain events exceed a given threshold of duration and/or intensity. As currently programmed, when the threshold of = 2.5 cm of rain per hour is passed, the autosampler at that site collects a 500mL sample 30 minutes after the threshold has been reached. Rain event samples are collected, treated, and analyzed as all other water quality samples.</para>
+        </description>
+        <instrumentation>ISCO Model 6700 &amp; ISCO Model 6710 Auto-samplers</instrumentation>
+        <instrumentation> Whatman GF/F filters (0.7 um)</instrumentation>
+        <instrumentation> Nalgene Reusable Inline Filter Holder</instrumentation>
+        <instrumentation> Monoject 140cc syringes</instrumentation>
+        <instrumentation> Computer</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>The Study Extent of this dataset includes 4 of the FCE Taylor Slough research sites within Everglades National Park, South Florida</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Water quality samples are being collected using ISCO autosamplers at all wetland sites (that is, all sites except TS/Ph-9, 10, and 11). The autosamplers contain 24 1L bottles. Water is sampled by programming the autosamplers to take composite samples once every 3 days.  These samples are a composite of four 250mL subsamples drawn every 18 hours (a sampling scheme that captures a dawn, noon, dusk, and midnight sample in every three day composite).  Collection of composite samples may result in a composite sample which is less than three days; samples are collected every 3-4 weeks.  The recorded date for each composite sample indicates the end date of the sample interval.  Samples are analyzed for total phosphorus (TP), total nitrogen (TN), and salinity.  When sites are visited to collect these samples, we also collect a grab sample that is immediately put on ice. A portion of these grab samples is filtered through a Whatman GF/F filters (0.7 um) immediately upon return to the lab, and the filtered samples are analyzed for inorganic nutrients such as NO2-, NO3-, NH4+, SRP, and DOC. The unfiltered fraction of these grab samples is analyzed for TP, TN, and TOC. We use these montly grab samples to generate relationships between TP and SRP, and between TN and NO2- + NO3- + NH4+. Dissolved nutrients are measured using standard rapid flow analyzer (RFA) techniques. TP is analyzed with a modified Solorzano and Sharp (1980) technique. TN is measured with an Antec TN analyzer, TOC and DOC are quantified on a Shimadzu TOC Analyzer, and salinity is measured with a YSI conductivity meter. In addition to the regular water quality monitoring, we use the rain level actuators at all freshwater sites to trigger water sampling after rain events exceed a given threshold of duration and/or intensity. As currently programmed, when the threshold of = 2.5 cm of rain per hour is passed, the autosampler at that site collects a 500mL sample 30 minutes after the threshold has been reached. Rain event samples are collected, treated, and analyzed as all other water quality samples.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>FCE LTER Site TS/Ph1a</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-80.590</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.590</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.424</northBoundingCoordinate>
+              <southBoundingCoordinate>25.424</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>FCE LTER Site TS/Ph1b</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-80.590</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.590</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.439</northBoundingCoordinate>
+              <southBoundingCoordinate>25.439</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>FCE LTER Site TS/Ph2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-80.607</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.607</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.404</northBoundingCoordinate>
+              <southBoundingCoordinate>25.404</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>FCE LTER Site TS/Ph3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-80.663</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.663</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.252</northBoundingCoordinate>
+              <southBoundingCoordinate>25.252</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>Data that already meets Lab QA/QC is then evaluated by a Field Technician for patterns and trends, and finally by the PI for patterns and trends. When looking at patterns and trends, the Field Technician and/or PI looks for any values that "spike" or "valley" with an above/below quanity greater than double preceding and post values.</para>
+        </description>
+      </qualityControl>
+    </methods>
+    <project id="1">
+      <title>Florida Coastal Everglades LTER: Coastal Oligotrophic Ecosystems Research-the Coastal Everglades</title>
+      <personnel>
+        <individualName>
+          <givenName>Daniel</givenName>
+          <surName>Childers</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-3101</phone>
+        <phone phonetype="fax">305-348-1986</phone>
+        <electronicMailAddress>childers@fiu.edu</electronicMailAddress>
+        <role>Lead Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Joseph</givenName>
+          <surName>Boyer</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Southeast Environmental Research Center</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint> University Park</deliveryPoint>
+          <deliveryPoint> OE 148</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-4076</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <surName>Fourqurean</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-4084</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Rudolf</givenName>
+          <surName>Jaffe</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Chemistry</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>CP 304</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-2456</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Joel</givenName>
+          <surName>Trexler</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-1966</phone>
+        <phone phonetype="fax">305-348-1986</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>We are investigating how variability in regional climate, freshwater inputs, disturbance, and perturbations affect the coastal Everglades ecosystem. Our long term research program focuses on testing the following central idea and hypotheses:  Regional processes mediated by water flow control population and ecosystem level dynamics at any location within the coastal Everglades landscape. This phenomenon is best exemplified in the dynamics of an estuarine oligohaline zone where fresh water draining phosphorus-limited Everglades marshes mixes with water from the more nitrogen-limited coastal ocean. Hypothesis 1: In nutrient-poor coastal systems, long-term changes in the quantity or quality of organic matter inputs will exert strong and direct controls on estuarine productivity, because inorganic nutrients are at such low levels. Hypothesis 2: Interannual and long-term changes in freshwater flow controls the magnitude of nutrients and organic matter inputs to the estuarine zone, while ecological processes in the freshwater marsh and coastal ocean control the quality and characteristics of those inputs. Hypothesis 3: Long-term changes in freshwater flow (primarily manifest through management and Everglades restoration) will interact with long-term changes in the climatic and disturbance (sea level rise, hurricanes, fires) regimes to modify ecological pattern and process across coastal landscapes.</para>
+      </abstract>
+      <funding>
+        <para>National Science Foundation under Grant # 9910514</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The FCE LTER Project Study area is located in South Florida, mostly in Everglades National Park. There are a total of 21 sampling sites located in two major regions: 1) Shark River Slough and 2) Taylor Slough/Panhandle.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.761</northBoundingCoordinate>
+              <southBoundingCoordinate>24.913</southBoundingCoordinate>
+            </boundingCoordinates>
+          </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>2000-05-01</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate> 2006-04-30</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+        </coverage>
+      </studyAreaDescription>
+      <relatedProject id="26">
+        <title>FCE LTER II:  Coastal Oligotrophic Ecosystems Research</title>
+        <personnel>
+          <individualName>
+            <givenName>Evelyn </givenName>
+            <surName>Gaiser</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> OE 148</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-6145</phone>
+          <phone phonetype="fax">305-348-4096</phone>
+          <electronicMailAddress>gaisere@fiu.edu</electronicMailAddress>
+          <role>Lead Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Mike</givenName>
+            <surName>Heithaus</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+            <deliveryPoint>Marine Biology Program</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>Biscayne Bay Campus</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL </administrativeArea>
+            <postalCode>33181</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">(305) 919-5234</phone>
+          <phone phonetype="fax">(305) 919-4030</phone>
+          <electronicMailAddress>heithaus@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Rudolf</givenName>
+            <surName>Jaffe</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Chemistry</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>University Park</deliveryPoint>
+            <deliveryPoint>CP 304</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-2456</phone>
+          <phone phonetype="fax">305-348-4096</phone>
+          <electronicMailAddress>jaffer@fiu.edu </electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Rene</givenName>
+            <surName>Price </surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Earth Sciences</deliveryPoint>
+            <deliveryPoint> Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> PC 344</deliveryPoint>
+            <deliveryPoint> 11200 SW 8th Street</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-3119</phone>
+          <phone phonetype="fax">305-348-3877</phone>
+          <electronicMailAddress>pricer@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <abstract>
+          <para>Our FCE I research focused on understanding how dissolved organic matter from upstream oligotrophic marshes interacts with a marine source of phosphorus (P), the limiting nutrient, to control estuarine productivity where these two influences meet-in the oligohaline ecotone. This dynamic is affected by the interaction of local ecological processes and landscape-scale drivers (hydrologic, climatological, and human). During FCE I, our ideas about how these "upside-down" estuaries (Childers et al. 2006) function has evolved, and we have modified our central theme to reflect this new understanding. Our focus in FCE II will be even more strongly on the oligohaline ecotone region of our experimental transects. For FCE II, our overarching theme is:  In the coastal Everglades landscape, population and ecosystem-level dynamics are controlled by the relative importance of water source, water residence time, and local biotic processes. This phenomenon is best exemplified in the oligohaline ecotone, where these 3 factors interact most strongly and vary over many [temporal and spatial] scales.Hypothesis 1: Increasing inputs of fresh water will enhance oligotrophy in nutrient-poor coastal systems, as long as the inflowing water has low nutrient content; this dynamic will be most pronounced in the oligohaline ecotone.  Hypothesis 2: An increase in freshwater inflow will increase the physical transport of detrital organic matter to the oligohaline ecotone, which will enhance estuarine productivity. The quality of these allochthonous detrital inputs will be controlled by upstream ecological processes. Hypothesis 3: Water residence time, groundwater inputs, and tidal energy interact with climatic and disturbance regimes to modify ecological pattern and process in oligotrophic estuaries; this dynamic will be most pronounced in the oligohaline ecotone. Childers, D.L., J.N. Boyer, S.E. Davis, C.J. Madden, D.T. Rudnick, and F.H. Sklar, 2006. Relating precipitation and water management to nutrient concentration patterns in the oligotrophic "upside down" estuaries of the Florida Everglades. Limnology and Oceanography, 51(1): 602-616. </para>
+        </abstract>
+        <funding>
+          <para>National Science Foundation under Grant # 9910514 and #0620409</para>
+        </funding>
+        <studyAreaDescription>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>The FCE LTER Project Study area is located in South Florida, mostly in Everglades National Park. There are a total of 20 sampling sites located in two major regions: 1) Shark River Slough and 2) Taylor Slough/Panhandle.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+                <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+                <northBoundingCoordinate>25.761</northBoundingCoordinate>
+                <southBoundingCoordinate>24.913</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2006-12-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-12-01</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyAreaDescription>
+      </relatedProject>
+      <relatedProject id="12">
+        <title>FCE LTER (Dan Childers) Water Quality, Productivity, Soil nutrients/physical characteristics, and physical data </title>
+        <personnel>
+          <individualName>
+            <givenName>Daniel</givenName>
+            <surName>Childers</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>University Park</deliveryPoint>
+            <deliveryPoint>OE 167</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-3101</phone>
+          <phone phonetype="fax">305-348-1986</phone>
+          <electronicMailAddress>childers@fiu.edu</electronicMailAddress>
+          <role>Lead Principal Investigator</role>
+        </personnel>
+        <abstract>
+          <para>For SRS1(a,b,c), SRS2, and SRS3 collections of samples for Water Quality, Productivity, Soil nutrients/physical characteristics, and physical data (rainfall/water level) are used to help answer key FCE-LTER questions.For SRS4, SRS5, and SRS6 collections of samples for Water Quality and physical data (water level) are used to help answer key FCE-LTER questions.</para>
+        </abstract>
+        <funding>
+          <para>National Science Foundation under Grant # 9910514</para>
+        </funding>
+        <studyAreaDescription>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Dan Childer's FCE LTER sub project study area is located in Shark River Slough, South Florida, in Everglades National Park. </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+                <eastBoundingCoordinate>-80.574</eastBoundingCoordinate>
+                <northBoundingCoordinate>25.761</northBoundingCoordinate>
+                <southBoundingCoordinate>25.365</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2000-05-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate> 2006-04-30</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyAreaDescription>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>LT_ND_Rubio_002</entityName>
+      <entityDescription>Water Quality Data (Grab Samples) from the Taylor Slough, Everglades National Park, South Florida</entityDescription>
+      <physical>
+        <objectName>LT_ND_Rubio_002</objectName>
+        <size unit="KB">20</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-fce/1080/1/0d04f59f0c00671c0cda141ca18d10b1</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=FCE,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>read</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="att.1">
+          <attributeName>SITENAME</attributeName>
+          <attributeLabel>sitename</attributeLabel>
+          <attributeDefinition>Name of LTER site</attributeDefinition>
+          <storageType>text</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of LTER site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.2">
+          <attributeName>Date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Collection date</attributeDefinition>
+          <storageType>datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1999-09-13</minimum>
+                  <maximum exclusive="false">2010-12-20</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.3">
+          <attributeName>Time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>Collection time</attributeDefinition>
+          <storageType>datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">00:00</minimum>
+                  <maximum exclusive="false">15:00</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.4">
+          <attributeName>Salinity</attributeName>
+          <attributeLabel>salinity</attributeLabel>
+          <attributeDefinition>Composite salinity</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>PSU</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.5">
+          <attributeName>TN</attributeName>
+          <attributeLabel>total nitrogen</attributeLabel>
+          <attributeDefinition>Composite total nitrogen</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.000</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Calculations: TN(uM)=TN(ppm)*1000/14</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="att.6">
+          <attributeName>TP</attributeName>
+          <attributeLabel>total phosphorus</attributeLabel>
+          <attributeDefinition>Composite total phosphorus</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.7">
+          <attributeName>TOC</attributeName>
+          <attributeLabel>total organic carbon</attributeLabel>
+          <attributeDefinition>Composite total organic carbon</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.000</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Calculations:  TOC(uM)=TOC(ppm)*1000/12</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="att.8">
+          <attributeName>NH4</attributeName>
+          <attributeLabel>ammonium</attributeLabel>
+          <attributeDefinition>ammonium</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.9">
+          <attributeName>NandN</attributeName>
+          <attributeLabel>nitrate and nitrite</attributeLabel>
+          <attributeDefinition>nitrate and nitrite</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.10">
+          <attributeName>NO2</attributeName>
+          <attributeLabel>nitrite</attributeLabel>
+          <attributeDefinition>nitrite</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.11">
+          <attributeName>SRP</attributeName>
+          <attributeLabel>soluble reactive phosphorus</attributeLabel>
+          <attributeDefinition>soluble reactive phosphorus</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.12">
+          <attributeName>DOC</attributeName>
+          <attributeLabel>dissolved organic carbon</attributeLabel>
+          <attributeDefinition>dissolved organic carbon</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.000</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+          <methods>
+            <methodStep>
+              <description>
+                <para>Calculations: DOC(uM)=DOC(ppm)*1000/12</para>
+              </description>
+            </methodStep>
+          </methods>
+        </attribute>
+        <attribute id="att.13">
+          <attributeName>NO3</attributeName>
+          <attributeLabel>nitrate</attributeLabel>
+          <attributeDefinition>nitrate</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microMolesPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>212</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <ns2:unitList xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://fcelter.fiu.edu/data/eml_schema/eml-2.1.0/stmml.xsd">
+        
+        <ns2:unit id="PSU" name="PSU" unitType="dimensionless">
+          <ns2:description>practical salinity units</ns2:description>
+        </ns2:unit>
+        <ns2:unit id="microMolesPerLiter" multiplierToSI="0.000001" name="microMolesPerLiter" parentSI="molarity" unitType="amountOfSubstanceConcentration">
+          <ns2:description>&#181;M = &#181;moles per liter of solution</ns2:description>
+        </ns2:unit>
+      </ns2:unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <additionalDataset>
+        <researchType>Long-term</researchType>
+        <DatasetDistributionTypeandRestrictions>Type I- Funded by NSF LTER program</DatasetDistributionTypeandRestrictions>
+        <addDistribution>
+          <submissionDate>2011-07-28</submissionDate>
+        </addDistribution>
+        <LTERsites>
+          <sitename>TS/Ph1a,TS/Ph1b, TS/Ph2,TS/Ph3</sitename>
+        </LTERsites>
+        <projectHypotheses>
+          <para>Our long term research program focuses on the following central objective:  Regional processes mediated by water flow control population and ecosystem level dynamics at any location within the coastal Everglades landscape. This phenomenon is best exemplified in the dynamics of an estuarine oligohaline zone where fresh water draining phosphorus-limited Everglades marshes mixes with water from the more nitrogen-limited coastal ocean.</para>
+        </projectHypotheses>
+        <projectPermits>
+          <permit>EVER-2005-SCI-0081, EVER-2007-SCI-0065, EVER-2009-SCI-0070</permit>
+        </projectPermits>
+        <datasetAnomolies>
+          <anomolies>We collected samples twice daily at TS/Ph2 from 13-Sep-99 to 17-Sep-99. Both TS/Ph1a and TS/PH2 June 2005 samples were missed. No data for TS/Ph1a on the following dates: 1-Oct-05; No data for TS/Ph2 on the following dates: 1-Oct-05; No data for TS/Ph3 on the following dates: 9-Oct-07, 23-Sep-08.</anomolies>
+        </datasetAnomolies>
+        <datasetSubmissionNotes>
+          <notes>Please note that blank cells within the dataset indicate that a value should be entered in cell in a subsequent version. At TS?Ph2 on 27-Jul-05 at 11:30 the NO3 value has changed since the previous submission of data.</notes>
+        </datasetSubmissionNotes>
+        <datasetInfoManagementNotes>
+          <notes>This is a long-term biogeochemistry dataset and subsequent data will be appended. This dataset replaces all previous versions of LT_ND_Rubio_002 original and  (v1-v7). The FCE program is discontinuing its practice of versioning data as of March 2013.</notes>
+        </datasetInfoManagementNotes>
+      </additionalDataset>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>

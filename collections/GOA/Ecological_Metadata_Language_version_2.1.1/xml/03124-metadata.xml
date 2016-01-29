@@ -1,0 +1,760 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35d.261.9" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset> <title>Investigation of Pacific herring stock structure in Alaska using otolith microchemistry and heart tissue fatty acid composition: 2005 - 2007</title>
+ <creator id="1375917844720"><individualName><givenName>Edward</givenName>
+ <surName>Otis</surName>
+ </individualName>
+ <organizationName>Alaska Department of Fish and Game</organizationName>
+ <positionName>Fishery Biologist</positionName>
+ <address><city>Homer</city>
+ <administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907)235-8191</phone>
+ <electronicMailAddress>ted.otis@alaska.gov</electronicMailAddress>
+ </creator>
+ <creator id="1375917928130"><individualName><givenName>Ron</givenName>
+ <surName>Heintz</surName>
+ </individualName>
+ <organizationName>National Marine Fisheries Servcie, Auke Bay Laboratory</organizationName>
+ <address><city>Juneau</city>
+ <administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 789-6058</phone>
+ </creator>
+ <creator id="1375917982797"><individualName><givenName>Jaceck</givenName>
+ <surName>Maselko</surName>
+ </individualName>
+ </creator>
+ <associatedParty id="1375918016268"><individualName><givenName>Sarah</givenName>
+ <surName>Clark</surName>
+ </individualName>
+ <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ <positionName>Projects Data Coordinator</positionName>
+ <address><deliveryPoint>735 State Street, Suite 300</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93101</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">805-892-2500</phone>
+ <electronicMailAddress>sclark@nceas.ucsb.edu</electronicMailAddress>
+ <role>Metadata Provider</role>
+ </associatedParty>
+ <associatedParty id="1375991602885"><individualName><givenName>Lawrence</givenName>
+ <surName>Schaufler</surName>
+ </individualName>
+ <organizationName>NMFS-Auke Bay</organizationName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991679794"><individualName><givenName>Kevin</givenName>
+ <surName>Heffern</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991707777"><individualName><givenName>Mark</givenName>
+ <surName>Pritchett</surName>
+ </individualName>
+ <organizationName>ADFG</organizationName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1375991738866"><individualName><givenName>Steve</givenName>
+ <surName>Moffitt</surName>
+ </individualName>
+ <organizationName>ADFG</organizationName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1375991792969"><individualName><givenName>John</givenName>
+ <surName>Linderman</surName>
+ </individualName>
+ <organizationName>ADFG</organizationName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1375991641224"><individualName><givenName>Bonita</givenName>
+ <surName>Nelson</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991754694"><individualName><givenName>Mark</givenName>
+ <surName>Witteveen</surName>
+ </individualName>
+ <organizationName>ADFG</organizationName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1375991778374"><individualName><givenName>Tim</givenName>
+ <surName>Baker</surName>
+ </individualName>
+ <organizationName>ADFG</organizationName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1375992066536"><individualName><givenName>Andrew</givenName>
+ <surName>Munro</surName>
+ </individualName>
+ <role>Editor</role>
+ </associatedParty>
+ <associatedParty id="1375991659373"><individualName><givenName>Clay</givenName>
+ <surName>Wertheimer</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991806506"><individualName><givenName>Forrest</givenName>
+ <surName>Bowers</surName>
+ </individualName>
+ <organizationName>ADFG</organizationName>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty id="1375991821827"><individualName><givenName>Carla</givenName>
+ <surName>Milburn</surName>
+ </individualName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991854574"><individualName><givenName>Dion</givenName>
+ <surName>Oxman</surName>
+ </individualName>
+ <organizationName>ADFG Mark, Tag and Age Lab</organizationName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991884064"><individualName><givenName>John</givenName>
+ <surName>Barton</surName>
+ </individualName>
+ <organizationName>ADFG Mark, Tag and Age Lab</organizationName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991904548"><individualName><givenName>John</givenName>
+ <surName>Baker</surName>
+ </individualName>
+ <organizationName>ADFG Mark, Tag and Age Lab</organizationName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991928883"><individualName><givenName>Ken</givenName>
+ <surName>Severin</surName>
+ </individualName>
+ <organizationName>University of Alaska Fairbanks, Advanced Instrument Lab</organizationName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375991997236"><individualName><givenName>Mike</givenName>
+ <surName>Byerly</surName>
+ </individualName>
+ <role>Editor</role>
+ </associatedParty>
+ <associatedParty id="1375991961694"><individualName><givenName>Karen</givenName>
+ <surName>Spaleta</surName>
+ </individualName>
+ <organizationName>University of Alaska Fairbanks, Advanced Instrument Lab</organizationName>
+ <role>Processor</role>
+ </associatedParty>
+ <associatedParty id="1375992030629"><individualName><givenName>Richard</givenName>
+ <surName>Brenner</surName>
+ </individualName>
+ <role>Editor</role>
+ </associatedParty>
+ <abstract><para>Data collected during the course of fiscal year 2005-08 field activities include: herring age, sex, and size statistics, otolith micro-chemistry, and heart tissue fatty acid profiles from mature herring aged 3 to 15.  Herring were collected during March-July 2005-2007 and November 2007 from focal spawning locations in Sitka Sound (two locations, total n = 300), PWS (two locations, total n = 221), Kamishak Bay (two locations, total n = 300), Kodiak Island (two locations, total n = 375), Togiak Bay (two locations, total n = 280), Bering Sea (two locations, total n = 229), and Dutch Harbor (one location, n = 39).  Heart tissues (n = 629) that were analyzed for fatty acid profiles were necessarily destroyed during processing.  However, we collected additional heart tissue samples from Sitka (180), PWS-NE (157), Kamishak (180), Kodiak (255), Togiak (161), and Bering Sea (190) to archive in frozen storage (-70 C) at the Auke Bay Lab (NMFS). Unused otoliths from approximately 735 herring collected in these same six areas in 2006-7 are archived in frozen storage (still in heads) at the ADFG office in Homer.  Fin clips from approximately 1,010 herring collected in these six areas in 2006-2007 are archived in alcohol at the ADFG office in Homer.  All electronic data (e.g., age, sex, size, fatty acid and otolith microchemistry profiles) are archived  in an Excel spreadsheet at the ADFG office in Homer and were also submitted to EVOS for archival. These data were collected under EVOS Project 070769 for the purpose of attempting to identify stock structure among spawning aggregations of Pacific herring in Alaska.
+
+Publications:
+Otis, E.O., R. Heintz, and J. Maselko. 2010. Investigation of Pacific herring (Clupea pallasii) stock structure in Alaska using otolith microchemistry and heart tissue fatty acid composition. Exxon Valdez Oil Spill Restoration Project Final Report (Restoration Project 070769), Alaska Department of Fish and Game, Division of Commercial Fisheries, Homer, Alaska.</para>
+ </abstract>
+<keywordSet><keyword>mixed-stock fishery</keyword>
+<keyword>stock identification</keyword>
+<keyword>stock structure</keyword>
+<keyword>togiak</keyword>
+<keyword>prince william sound</keyword>
+<keyword>sitka</keyword>
+<keyword>elemental analysis</keyword>
+<keyword>otolith microchemistry</keyword>
+<keyword>LA-ICPMS</keyword>
+<keyword>kuskokwim</keyword>
+<keyword>kodiak</keyword>
+<keyword>fatty acid</keyword>
+<keyword>dutch harbor</keyword>
+<keyword>bering sea</keyword>
+<keyword>gulf of alaska</keyword>
+<keyword>kamishak</keyword>
+</keywordSet>
+<keywordSet><keyword>EVOSTC</keyword>
+<keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+<keyword>Oil Spill</keyword>
+<keyword>Exxon Valdez</keyword>
+<keyword>Alaska</keyword>
+<keyword>Pelagic</keyword>
+<keyword>Fish</keyword>
+<keywordThesaurus>Gulf Watch Alaska Thesaurus</keywordThesaurus>
+</keywordSet>
+   <intellectualRights><para>It is requested that you contact one of the Principal Investigators of this project before using this dataset. This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council. Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council. Standard scientific norms for attribution and credit to the Exxon Valdez Oil Spill Trustee Council and any additional funding agencies should be followed when using these data. Please let the Owner know when these data are used.</para>
+ </intellectualRights>
+ <coverage><taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Clupea</taxonRankValue>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Clupea pallasii</taxonRankValue>
+ <commonName>Pacific herring</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2005-03-02</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2007</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>Gulf of Alaska and Bering Sea</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-166.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>-136.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.0</northBoundingCoordinate>
+ <southBoundingCoordinate>54.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact><references>1375917844720</references>
+ </contact>
+ <contact id="1375919107188"><individualName><givenName>Ron</givenName>
+ <surName>Heintz</surName>
+ </individualName>
+ <organizationName>National Marine Fisheries Servcie, Auke Bay Laboratory</organizationName>
+ <address><city>Juneau</city>
+ <administrativeArea>Alaska</administrativeArea>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">907-789-6058</phone>
+ </contact>
+ <methods><methodStep><description><section><title>Study Area</title>
+ <para>Our study area included sampling locations extending from Sitka Sound (approx. 57 degrees  N Latitude, 136 degrees  W Longitude), north to Prince William Sound (approx. 61 degrees  N Latitude, 147  degrees  W Longitude) and Kuskokwim Bay (approx. 61 degrees  N Latitude, 165  degrees  W Longitude), and west to Dutch Harbor (approx. 54  degrees  N Latitude, 166  degrees  W Longitude). Except for Dutch Harbor and Togiak and Kuskokwim bays, which are in the Bering Sea, all sampling locations were within the Gulf of Alaska (GOA), with most of the samples coming from locations in the Northern Gulf of Alaska (NGA). Two of the GOA's largest embayments provided three of our twelve sampling locations, two in Kamishak Bay in Cook Inlet, and one in Prince William Sound, while one of its largest island complexes, Kodiak/Afognak, provided two more of our sample locations.</para>
+ <para>The coastal bathymetry of the GOA is characterized by a broad continental shelf, except in Southeast Alaska where the shelf narrows and deep fjords abound. The physical, chemical, and biological characteristics of the coastal environment throughout our study area are influenced by the Alaska Coastal Current (ACC). The ACC originates in Southeast Alaska and follows the coast north across the entrances to PWS and Cook Inlet, past Kodiak and Afognak Islands via Shelikof Strait, around the Alaska Peninsula via Unimak Pass, and into the Bering and Beaufort Seas. The ACC is characterized by low salinity due largely to the tremendous volume of freshwater flowing into it from the hundreds of glaciers and waterways found throughout its length. Pacific herring can be found spawning at many locations along Alaska's ubiquitous coastline with commercially viable populations of interest to this study being located in Sitka Sound, Prince William Sound, Kamishak Bay (Lower Cook Inlet), Kodiak/Afognak Island, and the Bering Sea (Dutch Harbor, Togiak and Kuskokwim bays).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Sample collection and storage</title>
+ <para>Mature Pacific herring were collected from thirteen focal spawning locations within seven historically important herring spawning areas in Alaska. Unlike our pilot study (Otis and Heintz 2003), we did not control samples in the present study for age, sex, and maturity so our results represent the natural variability inherent in the populations sampled. In 2005, we generally attempted to collect 75 heart tissue samples from each of two temporally/spatially separated spawning aggregations in each area. In 2006, we attempted to repeat our heart tissue sample collections at the same sites, while also collecting otoliths and fin clips for future analyses. If fish were not available at a target location in a given year, or if samples were destroyed during shipping, replacement samples were collected from an alternative site nearby whenever possible. Shipment of hazardous materials such as liquid nitrogen has become much more problematic in recent years. This has necessitated the use of dryshippers, which have a much shorter shelf-life for maintaining sample preservation. On two occasions, samples shipped from remote areas were not viable because they arrived at the lab thawed. Approximately 30 herring from each viable sample event were randomly selected and processed for fatty acid and otolith analysis. The balance of the heart tissue samples were archived in frozen storage (70 degrees C). Unused otoliths were stored frozen inside herring heads and fin clips were archived in individually labeled vials of ethanol.</para>
+ <para>For each specimen, length (standard [SL] and/or fork [FL] length in cm), sex, and gonad maturity was determined and a scale was removed to determine the age of the fish. Heads were removed and stored frozen in individually labeled plastic bags for later laboratory processing of the otoliths. Whole hearts were removed, transferred to labeled vials, placed in liquid nitrogen, and stored at 70 degrees C until analyzed (Ackman et al. 1969; Grahl-Nielsen and Mjaavatten 1992).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Fatty Acid Analysis</title>
+ <para>Samples collected in the field and shipped in liquid nitrogen to the Auke Bay Lab (ABL) were processed to determine their fatty acid compositions. A set of 30 individuals was randomly selected for processing from each of the sample collections. Only samples for which we had reliable ages were eligible for selection. The samples selected for processing were then randomly assigned to batches for processing in the chemistry laboratory. Batches consisted of approximately 27 samples plus quality control samples.</para>
+ <para>Lipids were extracted from whole herring hearts using a vacuum membrane filtration with isopropanol. Hearts were initially minced and combined with 3.5 ml SafTest STD Prep Reagent (MP Biomedicals, Solon, OH), consisting of isopropanol with proprietary antioxidant additives. Samples were vortexed for 1 minute and incubated at 45 degrees C for 15 min. Extraction mixtures were poured into membrane filtration units and filtered via vacuum at approx. 254 mm-Hg until all visible solvent had passed through the filter. The extracted lipid solution was re-incubated at 45 degrees C, and a 5 ul aliquot was removed for transesterification. Transesterification of extracted lipids converted heart fatty acids into fatty acid methyl esters (FAMEs). Lipid aliquots were initially spiked with a fatty acid internal standard (19:0) in hexane solvent and subjected to a Hilditch transesterification reaction, followed by saline and potassium bicarbonate washes (Christie 2003). The extracts were passed through a column of sodium sulfate and reduced in volume to less than 1 ml under vacuum. A recovery standard (21:0) was added before performing GC analysis.</para>
+ <para>FAMEs were analyzed by gas chromatography mass spectrometry. Spiked FAME samples were injected onto a Varian CP3800 gas chromatograph equipped with a 60m Varian Factor-4 VF23ms cyanopropyl-bonded fused silica column under a programmed temperature ramp from 50-250 degrees C. Chromatographically- separated FAMEs were detected with a Varian Saturn model 2200 mass spectrometer operating in selective ion storage mode. Varian Workstation 6.40 software was used to process raw data and quantify the chromatographic spectrum. Fatty acid concentrations were determined from six-point calibration curves developed for each FAME.</para>
+ <para>All analyses were performed in batches of 15-20 samples and each analysis batch included quality control samples. Quality control samples included reference standards with known lipid/fatty acid contents such as National Institute of Standards and Technology (NIST) Standard Reference Material (SRM) 1946. Selected duplicate samples were analyzed to determine reproducibility and method blanks containing no sample material were included as quality control samples. Quality control analysis results were compared to established quality thresholds to ensure accuracy, precision, and analysis batch comparability. Samples below thresholds were reanalyzed. Coefficients of variation for duplicate analyses within a batch were generally less than 10%.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Otolith preparation and elemental analysis</title>
+ <para>Left and right sagittal otoliths were dissected from each specimen, cleaned with 0.5% bleach and 0.7% dechlor (sodium thiosulfate), and then placed in cell culture trays. The otoliths selected for elemental analysis were mounted proximal side up on petrographic glass slides using thermal plastic cement. Two otoliths were mounted on each slide. Placing the proximal side up ensured that the otolith center was close to the surface and could be exposed with gentle hand polishing using 9 and 3 micron Al2O3 lapping paper. During preparation, otoliths were viewed with both bright field and transmitted light microscopy to determine when fine scale patterns indicative of daily growth ring formation during the larval period were exposed to the surface. Once polishing was complete, the otoliths were then cleaned with Formula 409, rinsed in deionized water, and air dried. The prepared samples were labeled and shipped to the Advanced Instrumentation Laboratory at the University of Alaska Fairbanks.</para>
+ <para>The slide mounted otoliths were placed into the sample chamber of a New Wave UP-213 Laser ablation system connected to an Agilent 7500ce ICP-MS. The laser was set up to ablate the selected transect moving at 10 microns/sec, focused to a depth of 5 microns, a pulse rate of 10Hz, a 25 micron spot size, and with the laser power set to 80%. Data collection was preceded by a thirty second laser warm-up period and a preablation pass with the same settings, except at 40% power, and 100 micron spot size. Two target areas were chosen for elemental analysis- the otolith core and the otolith edge. The core transect was curvilinear and followed a single growth ring in the early growth zone approximately 100-200 microns, radial distance, from the primordium. This region of the otolith was a common location for observing growth ring formation that likely corresponded with early feeding and larval development after the yolk sac had been completely absorbed, which occurs approximately 5-7 d post-hatch in Pacific herring. Our core target area likely did not corresponded with the first days of post-hatch, given the fact that larval herring do not lay down daily growth rings consistently until they are 50-60 days old (Campana et al. 1987). We chose this location over sampling a core region that included the primordium because several recent studies have reported elevated Mn levels within the primordium that may represent maternal or other non-environmental influences (Brophy et al. 2004, Ruttenberg et al. 2005, MacDonald et al. 2008). Our edge transect was also curvilinear and followed the outermost margin of the rostrum, the area of greatest growth on the otolith and therefore the area most likely to represent the capture location (Hamer and Jenkins 2007). The data from each transect was averaged, neglecting the signal shoulders. Data was collected from Mg24, Ca42, Ca43, Mn55, Sr86, Sr87, Sr88, Ba137, and Ba138. Mn and Ba data were found to be below the limits of quantification for this study. Ca43 was used as an internal standard. External standards used were NIST-610 and FEBS-1.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Statistical analysis</title>
+ <para>A nomenclature is necessary to describe the various spatial comparisons we made. Samples were grouped at three spatial scales. From smallest to largest scale, these strata are hereafter referred to as: site, area, and region. Sites represent the actual location that samples were collected from individual spawning aggregations. Areas typically represent state-defined herring management areas (e.g., Sitka, Prince William Sound, Kamishak, Kodiak, Bristol Bay, Kuskokwim, and Dutch Harbor), within which more than one major spawning aggregation may be found. Regions represent the largest strata (e.g., Southeast Alaska [SEAK], North Gulf of Alaska [NGA], Bering Sea, Aleutian Islands) and often include more than one area. Note that in cases where few sites were sampled, regions are synonymous with areas (e.g., Sitka was the only area sampled in Southeast) and sometimes sites (e.g., Iliulink Bay was the only site sampled in the Dutch Harbor area of the Aleutian Islands region).</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Fatty acid tests</title>
+ <para>We used two spatially organized batteries of tests to examine the temporal stability of the fatty acid compositions. In the first battery of tests, we attempted to repeat the analysis performed in our 2001 pilot study. The tests were designed to indicate whether herring could be accurately assigned to their collection region/area/site in a given year based on fatty acid composition. These tests were based on the assumption that if herring cannot be accurately identified in a given year, then identification across years is less likely. The tests proceeded from broad to progressively finer spatial scales. First we evaluated the reliability of assigning unknown herring to their region of origin. Next we evaluated the reliability of correctly identifying herring from areas within a region. Finally, we evaluated the reliability of identifying herring from different sample sites within an area.</para>
+ <para>To evaluate the temporal and spatial variability of heart fatty acids used to discriminate herring stocks, our second battery of tests focused on determining if models derived from samples collected in one year could be used to identify fish collected in another year. We proceeded from evaluating samples representative of broad spatial scales to progressively finer scales. In addition, we examined two temporal scales. To evaluate broad temporal scales, we used models derived from fish sampled in 2001 to identify individuals collected in 2005 and 2006. To evaluate fine temporal scales, we used models derived from fish collected in 2005 to identify fish sampled in 2006. Finally, to address our second objective, we attempted to identify fish collected from a food/bait fishery site using models developed from nearby spawning aggregates collected in 2005 and 2006. These fish were collected from Uganik Bay on Kodiak Island in late November 2007.</para>
+ <para>We used discriminant function analysis (DFA) for both batteries of tests. For the first battery of tests, the reliability of discriminant functions derived from fatty acids was examined by cross-validation using the leave-one-out method. Reliability was calculated as the percentage of correct identifications. For the second battery of tests, we constructed discriminant functions from fish sampled in one year and then tested the reliability of correctly assigning individuals collected from another year. Reliability was calculated as the percentage of correct identifications and is reported as confusion matrices in the results. We used XLSTAT ver. 2009 (www.xlstat.com), an add-in for MS Excel, for the DFA analysis.</para>
+ <para>One undesirable feature of DFA is that the results are dependant on the number of groups used in estimating the functions (McGarigal et al. 2000). Each time a new location is added, the functions change. Consequently we also used non-parametric multidimensional scaling (nMDS) with analysis of similarity (ANOSIM) to evaluate the discriminating power of fatty acids. All analyses were performed using Primer-E version 6 (Clarke and Warwick 2001). nMDS with ANOSIM is an iterative space-reducing procedure used to examine spatial relationships between multivariate observations (McGarigal et al. 2000). For the first battery of tests, our expectation was that fish from different geographic areas would map to different locations in the nMDS plots unless they had indistinguishable fatty acid compositions. For the second battery of tests, our expectation was that samples collected from a given location would occupy the same area in nMDS plots regardless of year they were sampled. The basis for these expectations is explained in more detail below.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>nMDS with ANOSIM theory and application</title>
+ <para>nMDS reduces multivariate observations into a number of dimensions that can be viewed graphically with minimal distortion of the spatial relationships between observations. The spatial relationships are determined from a matrix of distance measures calculated between each pair of observations in the data set. Consequently, the results of nMDS are independent of the number of samples or groups in the set. Samples located near each other in nMDS plots can be construed as being more similar than those located farther apart. The distance matrix used for our analysis was calculated from the Euclidian distance between each pair of observations. ANOSIM provides a mechanism for determining if the arrangement of observations in the nMDS plot differs from random. ANOSIM produces the statistic R, which reflects the distance between a given pair of observations or pair of groups. Values of R can range between -1 and 1, but typically fall between 0 and 1. High R values indicate two individual observations or groups of individuals are different from each other. An R value of 0 indicates that the group structure is not different from a random arrangement. If values fall below 0, then there is greater variability within a group than between the groups examined. When groups of observations are compared, R can be construed as the centroid distance between the groups. Because R is a distance measure, an nMDS analysis can be performed on a matrix describing all the pair-wise differences between groups in a data set. This nMDS performed on a matrix of R values is referred to as a second-stage nMDS.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Pre-processing of fatty acid data</title>
+ <para>We transformed the fatty acid compositions prior to constructing the discriminant functions and distance matrices needed for our analyses. For the DFA we transformed the relative concentrations of the fatty acids by normalizing them to the concentration of 16:0 and taking the natural logarithm of the ratio. For the nMDS with ANOSIM we used the natural logarithm of the relative concentrations (ln(x+1)). Subsets of the fatty acid were used to reduce the number of predictor variables to less than the number of observations. Prior to transforming them, fatty acids were normalized to unit sum. The set of fatty acids used for the two batteries of tests differed. The fatty acid analyses reported in our pilot study were performed by a different laboratory than the one that analyzed the 2005-2007 samples. These labs provided different sets of fatty acids. In 2001, we chose the fatty acids that comprised the bulk of the lipid mass recovered from the gas chromatograph (Otis and Heintz 2003). These fatty acids were used for the first battery of tests because we were attempting to replicate our pilot study results. However, we determined that a different set of fatty acids maximized our ability to detect temporal stability. For analyses aimed at assessing temporal stability we chose a set of fatty acids based on the reliability with which their signals from the gas chromatograph could be integrated. Peaks with shoulders and doublets were removed from consideration in order to reduce variability in the estimated concentrations.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Otolith microchemistry</title>
+ <para>Comparisons of otolith chemical compositions were made on progressively finer spatial scales. Following the nomenclature introduced for FAA we initially compared fish from different regions. Initially, we compared otolith cores based on the assumption that cores represented conditions in the natal habitat (Kalish 1991, Campana 1999). We then repeated all our analyses using edge compositions based on the assumption that these would reflect the environment at the time of collection (i.e. spawning). All analyses were constrained to those otoliths collected in 2006 to minimize temporal effects associated with the otolith edge analysis. As long as it was possible to discriminate stocks on a regional basis we proceeded to examine structure at progressively finer spatial scales (e.g., area and site). The same statistical methods and spatial groupings employed for FAA were used to look for spatial structure in the otolith data.</para>
+ <para>In order to examine the hypothesis that herring return to natal habitats to spawn we compared the chemical composition of otoliths at the core and edge for otoliths collected at each of ten sites. We presumed that core composition would be representative of the environment at hatch and the edge composition would represent the environment at the time sampling (i.e., spawning). We hypothesized that if herring return to natal habitats to spawn and those habitats have unique water characteristics then we would expect core compositions to differ among stocks but not to differ from the composition at the edge of the otolith. We compared edges and cores within a site by nMDS. Our expectation was that that a map of core compositions for all the sites generated by nMDS would overlap completely with a similar map generated from edge chemistries.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>Pre-processing of otolith microchemistry</title>
+ <para>We transformed the elemental compositions prior to constructing the discriminant functions and distance matrices needed for our analyses. Concentrations of Mg24 Sr86 Sr87 and Sr88 were normalized to Ca42 prior to analysis. Ba137 and 138 and Mn55 were also measured but observed concentrations were often below limits of quantification and these elements were deleted from the analysis.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+<project><title>Using Otolith Chemistry and Fatty Acids to Discriminate Pacific Herring Stocks in Alaska</title>
+ <personnel><references>1375917844720</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel><references>1375917928130</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel><references>1375917982797</references>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>Exxon Valdez Oil Spill Trustee Council project numbers 050769, 070769; Alaska Department of Fish and Game and National Marine Fisheries Service- Auke Bay Lab provided equipment and personnel for sample collection  and processing</para>
+ </funding>
+ </project>
+  <dataTable id="1375987897428"><entityName>sampleInformation.csv</entityName>
+ <physical id="1375987168891"><objectName>sampleInformation.csv</objectName>
+ <size unit="byte">321234</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.262.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1375987897429"><attributeName>#</attributeName>
+ <attributeDefinition>Row index numbers for the table</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897430"><attributeName>SIN</attributeName>
+ <attributeDefinition>Unique Sample Identification Number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>unique ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897431"><attributeName>Project</attributeName>
+ <attributeDefinition>EVOS Project ID Number (e.g., 070769)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>EVOS 070769</code>
+ <definition>Funding project number for the sample</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897432"><attributeName>Year</attributeName>
+ <attributeDefinition>Calendar year tissue samples were collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897433"><attributeName>DateCollected</attributeName>
+ <attributeDefinition>Date tissue sample was collected</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM/DD/YY</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897434"><attributeName>Investigators#</attributeName>
+ <attributeDefinition>Principle Investigators for the project: e.g., Ted Otis (ADF&amp;G-Homer) and Ron Heintz (NMFS-Auke Bay)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Otis/Heintz</code>
+ <definition>Ted Otis and Ron Heintz</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897435"><attributeName>Region</attributeName>
+ <attributeDefinition>Broadest spatial scale, 4 Regions: Southeast(SEAK), North Gulf of Alaska (NGA), Aleutian Islands, Bering Sea</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Bering Sea</code>
+ <definition>Berin Sea</definition>
+ </codeDefinition>
+ <codeDefinition><code>NGA</code>
+ <definition>North Gulf of Alaska</definition>
+ </codeDefinition>
+ <codeDefinition><code>SEAK</code>
+ <definition>Southeast Alaska</definition>
+ </codeDefinition>
+ <codeDefinition><code>Aleutian Islands</code>
+ <definition>Aleutian Islands</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897436"><attributeName>Area</attributeName>
+ <attributeDefinition>Medium spatial scale, 7 Areas: Sitka, Prince William Sound (PWS), Kamishak Bay, Kodiak Island, Bristol Bay, Kuskokwim Bay, Dutch Harbor</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Kuskokwim Bay</code>
+ <definition>Kuskokwim Bay</definition>
+ </codeDefinition>
+ <codeDefinition><code>Kamishak Bay</code>
+ <definition>Kamishak Bay</definition>
+ </codeDefinition>
+ <codeDefinition><code>Kodiak Island</code>
+ <definition>Kodiak Island</definition>
+ </codeDefinition>
+ <codeDefinition><code>PWS</code>
+ <definition>Prince William Sound</definition>
+ </codeDefinition>
+ <codeDefinition><code>Sitka</code>
+ <definition>Sitka</definition>
+ </codeDefinition>
+ <codeDefinition><code>Bristol Bay</code>
+ <definition>Bristol Bay</definition>
+ </codeDefinition>
+ <codeDefinition><code>Dutch Harbor</code>
+ <definition>Dutch Harbor</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897437"><attributeName>Site</attributeName>
+ <attributeDefinition>Smallest spatial scale, 13 Sites: Sitka Sound, Hoonah Sound, Hells Hole, St. Mathews Bay, Chenik/Nordyke, Iniskin/Oil Bay, Uganik Bay, Kiliuda Bay, Iliulink Bay, Nunavachak, Hagemeister Island, Goodnews Bay, Tooksook/Nelson Island</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Site name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897438"><attributeName>Sample ID</attributeName>
+ <attributeDefinition>Area Sample Identification Number re-used annually; e.g., Sitka 1 (Sitka Sound) and Sitka 2 (Hoonah Sound) denote the two samples collected in the Sitka area annually</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Sample ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897439"><attributeName>Slide#</attributeName>
+ <attributeDefinition>Unique slide number associated with an Area Sample ID for the purpose of collecting scales for age determination; 20 scales were fixed to each of four slides</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Slide ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897440"><attributeName>Fish#</attributeName>
+ <attributeDefinition>In combination with the Area Sample ID and Slide#, the Fish# identifies the specific fish sampled on that date (e.g., Sitka 1, Slide 1, Fish 1)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Fish ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897441"><attributeName>Sex</attributeName>
+ <attributeDefinition>Sex of the fish sampled (male or female)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>F</code>
+ <definition>female</definition>
+ </codeDefinition>
+ <codeDefinition><code>M</code>
+ <definition>male</definition>
+ </codeDefinition>
+ <codeDefinition><code>M</code>
+ <definition>male</definition>
+ </codeDefinition>
+ <codeDefinition><code>n</code>
+ <definition>typo?</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897442"><attributeName>StdLen</attributeName>
+ <attributeDefinition>Standard length is the strait line distance from the tip of the upper jaw to the posterior end of the hypural plate  (Anderson and Gutreuter 1983)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897443"><attributeName>ForkLen</attributeName>
+ <attributeDefinition>Fork length is the strait line distance from the most anterior part of the fish to the  terminus of the median caudal fin rays (Anderson and Gutreuter 1983).  It may include the projecting lower jaw</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897444"><attributeName>Weight</attributeName>
+ <attributeDefinition>Whole body weight in grams</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897445"><attributeName>WtDsc</attributeName>
+ <attributeDefinition>Description of the weight (whole body weight in grams)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>whole body, grams</code>
+ <definition>whole body weighed in grams</definition>
+ </codeDefinition>
+ <codeDefinition><code>No wt.</code>
+ <definition>not weighed</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897446"><attributeName>Age</attributeName>
+ <attributeDefinition>Age of the herring sampled, as estimated by counting putative annuli on a scale removed from the left side of the fish, two rows below the lateral line, in line above the center of the pectoral fin</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897447"><attributeName>Comments</attributeName>
+ <attributeDefinition>Misc. comments recorded by the sample collector, scale reader, etc.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Comments</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897448"><attributeName>Maturity</attributeName>
+ <attributeDefinition>Gonad Maturity (e.g., immature, green, ripe, spent)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Description of gonad maturity</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897449"><attributeName>Latitude</attributeName>
+ <attributeDefinition>Approximate latitude at the location the sample was collected (decimal degrees, WGS-84)</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897450"><attributeName>Longitude</attributeName>
+ <attributeDefinition>Approximate longitude at the location the sample was collected (decimal degrees, WGS-84)</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897451"><attributeName>Species</attributeName>
+ <attributeDefinition>Latin name (Genus species)  of the fish sampled (e.g., Clupea pallasii)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>C. pallasii</code>
+ <definition>Pacific herring</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897452"><attributeName>CollectorName</attributeName>
+ <attributeDefinition>Name of the person responsible for collecting that particular sample</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Person's name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897453"><attributeName>Tissue1</attributeName>
+ <attributeDefinition>Type of tissue collected (e.g., heart for fatty acid analysis)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>Heart</code>
+ <definition>heart tissue</definition>
+ </codeDefinition>
+ <codeDefinition><code>heart</code>
+ <definition>heart tissue</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897454"><attributeName>Tissue2</attributeName>
+ <attributeDefinition>Type of tissue collected (e.g., otolith for elemental analysis)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>otolith</code>
+ <definition>otolith tissue</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897455"><attributeName>Tissue3</attributeName>
+ <attributeDefinition>Type of tissue collected (e.g., caudal fin for genetic analysis)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>caudal fin</code>
+ <definition>caudal fin tissue</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897456"><attributeName>Heart</attributeName>
+ <attributeDefinition>The number 1 signifies that the heart from that particular fish (SIN) was randomly selected for processing to determine fatty acid composition; a blank cell denotes the heart was not processed.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>heart from this particular fish (SIN) was randomly selected for processing to determine fatty acid composition</definition>
+ </codeDefinition>
+ <codeDefinition><code>blank</code>
+ <definition>heart not selected</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897457"><attributeName>OtoCore</attributeName>
+ <attributeDefinition>The number 1 signifies that the otolith "core" from that particular fish (SIN) was randomly selected for processing to determine the micro-chemistry of the otolith "core"; a blank cell denotes the otolith core was not processed.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>otolith "core" from this particular fish (SIN) was randomly selected for processing to determine the micro-chemistry of the otolith "core"</definition>
+ </codeDefinition>
+ <codeDefinition><code>blank</code>
+ <definition>fish not selected</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897458"><attributeName>OtoEdge</attributeName>
+ <attributeDefinition>The number 1 signifies that the otolith "edge" from that particular fish (SIN) was randomly selected for processing to determine the micro-chemistry of the otolith "edge"; a blank cell denotes the otolith edge was not processed.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>otolith "edge" from this particular fish (SIN) was randomly selected for processing to determine the micro-chemistry of the otolith "edge"</definition>
+ </codeDefinition>
+ <codeDefinition><code>blank</code>
+ <definition>fish not selected</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897459"><attributeName>Fin</attributeName>
+ <attributeDefinition>No fish were processed for genetic analysis in this study so all cells are blank; all caudal fins collected in this study were archived for future genetic analysis.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>blank</code>
+ <definition>fish not selected for genetic analysis</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375987897460"><attributeName>No Heart</attributeName>
+ <attributeDefinition>Denotes fish that were sampled for otolith chemistry but not heart fatty acids</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>x</code>
+ <definition>fish that were sampled for otolith chemistry but not heart fatty acids</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1618</numberOfRecords>
+ </dataTable>
+ <dataTable id="1375990434333"><entityName>fattyAcidData.csv</entityName>
+ <entityDescription>Sample results for fatty acid analysis</entityDescription>
+ <physical id="1375990149885"><objectName>fattyAcidData.csv</objectName>
+ <size unit="byte">486014</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.264.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1375990434334"><attributeName>SIN</attributeName>
+ <attributeDefinition>Unique Sample Identification Number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unique ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375990434335"><attributeName>fattyAcid</attributeName>
+ <attributeDefinition>Fatty acid name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Fatty acid name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375990434336"><attributeName>relativeAbundance</attributeName>
+ <attributeDefinition>In Project 769, we were comparing the fatty acid compositions of different herring stocks, so the value listed for each fatty acid represents that FA's relative abundance among all the FA's quantified for that sampled herring (SIN).  For each fish sampled (i.e., row) there were up to 25 different fatty acids identified.  When you add up each FA's relative contribution to the total, you get 100%. 
+
+CX:YnZ (ie C18:2n6) is a shorthand description of a fatty acid molecule of X total carbon atoms (also referred to as the 'chain length'), with Y  designating the total number of double bonds and Z indicating the position of the first double bond, starting from the alkyl end (in contrast to the IUPAC standard for fatty acid nomenclature where numbering begins at the carboxyl end).  This convention is used to remain consistent with biological/enzymatic function and lipid biochemistry.
+
+Note that nearly all biological fatty acids contain methlyene (-CH2-) separations between double-bonds, and unless otherwise specified it should be assumed that second double bond (if any) will be one methylene group away from the first, and the next double bond would be one methylene further, etc.  Thus, only the first position is indicated.
+
+For saturated (straight-chain) fatty acids, the shorthand name is reduced to the number of carbons followed by a zero, indicating the lack of any double bonds (i.e., C16:0)
+
+As examples, the following are corresponding symbols and structures:
+
+(C14:0)    CH3-(CH2)12-COOH
+
+(C16:1n7)  CH3-(CH2)5-CH=CH-(CH2)7-COOH
+
+(C18:2n6)  CH3-(CH2)4-CH=CH-CH2-CH=CH-(CH2)7-COOH</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>24477</numberOfRecords>
+ </dataTable>
+ <dataTable id="1375991243243"><entityName>otolithData.csv</entityName>
+ <entityDescription>Sample results for otolith analysis</entityDescription>
+ <physical id="1375990478012"><objectName>otolithData.csv</objectName>
+ <size unit="byte">133553</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35d.265.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1375991243244"><attributeName>SIN</attributeName>
+ <attributeDefinition>Unique sample identification number</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Unique ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375991243245"><attributeName>element</attributeName>
+ <attributeDefinition>Element measured, with core or edge location</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Element name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1375991243246"><attributeName>concentration</attributeName>
+ <attributeDefinition>Concentration (ppm) of element. Note that the missing values are due to either instrument or physical sample problems, such as cracked otolith region, otolith region polished too thinly, contamination in the instrument.  Negative values are below level of detection which is within three standard deviations of the blank.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>missing values are due to either instrument or physical sample problems, such as cracked otolith region, otolith region polished too thinly, contamination in the instrument.</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>4816</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

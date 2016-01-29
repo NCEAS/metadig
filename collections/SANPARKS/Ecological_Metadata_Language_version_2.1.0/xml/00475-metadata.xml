@@ -1,0 +1,2493 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="judithk.766.38" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Automatic weather station data for the Kruger National Park (2005-2008)</title>
+ <creator id="1086295214645" scope="document"> <organizationName>SANParks</organizationName>
+ <address scope="document"> <deliveryPoint>Private Bag x402</deliveryPoint>
+ <city>Skukuza</city>
+ <postalCode>1350</postalCode>
+ <country>South Africa</country>
+ </address>
+ </creator>
+ <associatedParty id="1166186075644" scope="document"> <individualName> <givenName>Judith</givenName>
+ <surName>Kruger</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+ <keywordSet> <keyword>Rainfall,Temperature, RelativeHumidity, Wind speed, wind direction</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SANParks, South Africa</keyword>
+ <keyword>Kruger National Park, South Africa</keyword>
+ </keywordSet>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Satara Rain Station</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.7796</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.811379599999995</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.3917</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.3917</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>ShingwedziRain Station</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.4368</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.4682368</eastBoundingCoordinate>
+ <northBoundingCoordinate>-23.1093</northBoundingCoordinate>
+ <southBoundingCoordinate>-23.1093</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><singleDateTime><calendarDate>2006</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>2005</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2008-07-30</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1166186054504" scope="document"> <individualName> <surName>Zambatis</surName>
+ </individualName>
+ <organizationName>SANParks</organizationName>
+ </contact>
+ <dataTable id="1166187181856" scope="document"> <entityName>AWS-SATARA2006.txt</entityName>
+ <physical id="1166187181106" scope="document"> <objectName>AWS-SATARA-2006.txt</objectName>
+ <size unit="byte">1732709</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.800.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1166187181871" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187181887" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187181903" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian day</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187181918" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>Date of the observation</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187181934" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time of the observation</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhhh</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187181950" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.05</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187181965" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.05</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187181981" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Wind direction standard deviation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187181996" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.05</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182012" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average  air temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182028" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average realtive humidity (%)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182043" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation W/m</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182059" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Total rainfall in the period</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182075" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Total number of lightning flashes</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182090" scope="document"> <attributeName>AVG VOLT</attributeName>
+ <attributeDefinition>Average voltage of the batery</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182106" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>maximum temperature in 24 hours</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182121" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time of the maximum temperature</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhhh</formatString>
+ <dateTimePrecision>01</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182137" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minum temperature in 24 hours</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182153" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time when the minimum temperature occured</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhhh</formatString>
+ <dateTimePrecision>01</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187182168" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index (%)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>18145</numberOfRecords>
+ </dataTable>
+ <dataTable id="1166187606369" scope="document"> <entityName>AWS-SHINGWEDZI2006.txt</entityName>
+ <physical id="1166187605681" scope="document"> <objectName>AWS-SHINGWEDZI-2006.txt</objectName>
+ <size unit="byte">2101371</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.804.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1166187606384" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606400" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606416" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian day</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606431" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606447" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time when the measurement was taken</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhhh</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606462" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606478" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606494" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Wind direction standard deviation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606509" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606525" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average  air temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606541" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average relative humidity(%)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606556" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation (W/M)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606572" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Rainfall recorded in the period</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606587" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Total number of lightning flashes</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606603" scope="document"> <attributeName>BATT VOLT</attributeName>
+ <attributeDefinition>Average voltage of the battery</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606619" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>Maximum temperature in 24 hours</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606634" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time of the maximum temperature</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606650" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature in 24 hours</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606666" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time of the minimum temperature</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>01</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166187606681" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index(%)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17520</numberOfRecords>
+ </dataTable>
+ <dataTable id="1171264325073" scope="document"> <entityName>AWS-SHINGWEDZI2005.txt</entityName>
+ <physical id="1171264324214" scope="document"> <objectName>AWS-SHINGWEDZI-2005.txt</objectName>
+ <size unit="byte">1725536</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.801.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1171264325089" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325105" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325120" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian day</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325136" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325152" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time of the reading</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325167" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325183" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.5</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325198" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Wind direction standard deviation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325214" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325230" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325245" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity(%)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325261" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation(W/M)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325277" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325292" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Number of lightning strikes</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325308" scope="document"> <attributeName>BATT VOLT</attributeName>
+ <attributeDefinition>Battery voltage</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325323" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>Maximum temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325339" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time when the maximum temperature occured</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325355" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325370" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time when the minimum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>.01</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171264325386" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index(%)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>14839</numberOfRecords>
+ </dataTable>
+ <dataTable id="1171265126979" scope="document"> <entityName>AWS-SHINGWEDZI2007.txt</entityName>
+ <physical id="1171265126448" scope="document"> <objectName>AWS-SHINGWEDZI-2007.txt</objectName>
+ <size unit="byte">1974689</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.897.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1171265126995" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Station  identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127010" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127041" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian day</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127057" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127073" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127088" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127104" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127120" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Wind direction standard deviation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127135" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127151" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127166" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity(%)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127182" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation(W/M)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127198" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall measured</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127213" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Number of lightning strikes</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127229" scope="document"> <attributeName>BATT VOLT</attributeName>
+ <attributeDefinition>Voltage of the battery</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127245" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>Maximim temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127260" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time when the maximum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127276" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127291" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time when the minimum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1171265127307" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index (%)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17520</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211265382796" scope="document"> <entityName>AWS-SATARA2007.txt</entityName>
+ <physical id="1211265382014" scope="document"> <objectName>AWS-SATARA-2007.txt</objectName>
+ <size unit="byte">20615</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.898.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211265382811" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Identifier of the station</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382827" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>Year in which recordings took place</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382843" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian day which starts at 1</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>ddd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382858" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382874" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time starting at 0 and incrementing in 30 minute untervals</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382890" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382905" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382921" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>standard deviation of the wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382936" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximun wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382952" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382968" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity in percentage</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382983" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiations</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265382999" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rain</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265383015" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Number of lightning strikes</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265383030" scope="document"> <attributeName>AVG VOLT</attributeName>
+ <attributeDefinition>Battery voltage</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265383046" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>Maximum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265383061" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time when the maximum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265383077" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimun temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265383093" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time when the minimum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211265383108" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>176</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211275770701" scope="document"> <entityName>AWS-PRETORIUSKOP2007.txt</entityName>
+ <physical id="1211275769716" scope="document"> <objectName>AWS-PRETORIUSKOP-2007.txt</objectName>
+ <size unit="byte">2050316</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.899.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211275770716" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770732" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>year in which the recordings took place</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770747" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian day starting on the 1st of January as day 1</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770763" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>Date on which variables were recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770779" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time of the recorded variable</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770794" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770810" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Direction of the wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770826" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Standard deviation of the wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770841" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed measured</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770857" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770872" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity recorded as a percentage</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770888" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770904" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770919" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Number of lightning strikes recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770935" scope="document"> <attributeName>BATT VOLT</attributeName>
+ <attributeDefinition>Voltage recorded of the battery</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770951" scope="document"> <attributeName>BARO</attributeName>
+ <attributeDefinition>barometric pressure</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>bar</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770966" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>Maximum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770982" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time when the maximum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275770997" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275771013" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time wehn the minimum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211275771029" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>18486</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211276264010" scope="document"> <entityName>AWS-PRETORIUSKOP2008.txt</entityName>
+ <physical id="1211276262947" scope="document"> <objectName>AWS-PRETORIUSKOP-2008.txt</objectName>
+ <size unit="byte">1871951</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.931.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211276264026" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264041" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>Year in which variables were recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264057" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian date starts at 1 from the 1st of January</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>ddd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264072" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264088" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264104" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264119" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction measured in degrees</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264135" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Standard deviation of the wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264151" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264166" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264182" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity measured in percentage</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264197" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264213" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264229" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Number of lightning strikes recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264244" scope="document"> <attributeName>BATT VOLT</attributeName>
+ <attributeDefinition>Voltage of the battery</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264260" scope="document"> <attributeName>BARO</attributeName>
+ <attributeDefinition>Barometric presure</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>bar</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264276" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>maximum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264291" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time when the maximum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264307" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264322" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time when the minimum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276264338" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>14792</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211276782085" scope="document"> <entityName>AWS-SATARA2008.txt</entityName>
+ <physical id="1211276781069" scope="document"> <objectName>AWS-SATARA-2008.txt</objectName>
+ <size unit="byte">2098003</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.932.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211276782100" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782116" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>Year of recordings</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782132" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julain day starts at 1 for teh 1st of January</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>ddd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782147" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782163" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782179" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782194" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782210" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Standard deviation of the wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782225" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>maximum wind speed recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782241" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782257" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity measured as a percentage</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782272" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782288" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782304" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Number of lightning srrikes recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782319" scope="document"> <attributeName>AVG VOLT</attributeName>
+ <attributeDefinition>Average voltage of the battery</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782335" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>maximum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782350" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time of maximum temperature</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782366" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782382" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time when minimum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211276782397" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17568</numberOfRecords>
+ </dataTable>
+ <dataTable id="1211277174254" scope="document"> <entityName>AWS-SHINGWEDZI2008.txt</entityName>
+ <physical id="1211277172504" scope="document"> <objectName>AWS-SHINGWEDZI-2008.txt</objectName>
+ <size unit="byte">621451</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/judithk.933.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1211277174270" scope="document"> <attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174285" scope="document"> <attributeName>YEAR</attributeName>
+ <attributeDefinition>Year of the readings</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174301" scope="document"> <attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian date starts with 01 for the 1st of January</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>ddd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174317" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174332" scope="document"> <attributeName>TIME</attributeName>
+ <attributeDefinition>Time of the readings</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174348" scope="document"> <attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174364" scope="document"> <attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174379" scope="document"> <attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Standard deviation of the wind direction</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174395" scope="document"> <attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174410" scope="document"> <attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174426" scope="document"> <attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity measured as a percentage</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174442" scope="document"> <attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174457" scope="document"> <attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174473" scope="document"> <attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Number of lightning strikes recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174489" scope="document"> <attributeName>BATT VOLT</attributeName>
+ <attributeDefinition>battery voltage</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>watt</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174504" scope="document"> <attributeName>MAX TMP</attributeName>
+ <attributeDefinition>maximum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174520" scope="document"> <attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time wehn maximum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174535" scope="document"> <attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature recorded</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174551" scope="document"> <attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time when minimum temperature was recorded</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1211277174567" scope="document"> <attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5572</numberOfRecords>
+ </dataTable>
+ <dataTable id="1263905764000"><entityName>AWS-SHINGWEDZI-2009.txt</entityName>
+ <physical id="1263905758390"><objectName>AWS-SHINGWEDZI-2009.txt</objectName>
+ <size unit="byte">2230958</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1025.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1263905764016"><attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764031"><attributeName>YEAR</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764047"><attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julain date</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764063"><attributeName>DATE</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764078"><attributeName>TIME</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764094"><attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764110"><attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>N</code>
+ <definition>North</definition>
+ </codeDefinition>
+ <codeDefinition><code>S</code>
+ <definition>South</definition>
+ </codeDefinition>
+ <codeDefinition><code>E</code>
+ <definition>East</definition>
+ </codeDefinition>
+ <codeDefinition><code>W</code>
+ <definition>West</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764125"><attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Wind direction standard deviation</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764141"><attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>maximum wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764156"><attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764172"><attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764188"><attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764203"><attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall received</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764219"><attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Amount of lightning strikes</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764235"><attributeName>BATT VOLT</attributeName>
+ <attributeDefinition>Voltage of the battery</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764250"><attributeName>MAX TMP</attributeName>
+ <attributeDefinition>Maximin recorded temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764266"><attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time at which the maximum temperature was recorded</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmmss</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764281"><attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764297"><attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time at which the minimum temperature was recorded</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263905764313"><attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger Index</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17522</numberOfRecords>
+ </dataTable>
+ <dataTable id="1263906980042"><entityName>AWS-SATARA-2009.txt</entityName>
+ <physical id="1263906977932"><objectName>AWS-SATARA-2009.txt</objectName>
+ <size unit="byte">2065245</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1026.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1263906980058"><attributeName>STN ID</attributeName>
+ <attributeDefinition>Station identifier</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980074"><attributeName>YEAR</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980089"><attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian date starting with 1 on 1st January</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980105"><attributeName>DATE</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980121"><attributeName>TIME</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980136"><attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980152"><attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980167"><attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Standard deviation of the wind direction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980183"><attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980199"><attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average daily temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980214"><attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980230"><attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980246"><attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980261"><attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Amount of lightning strikes</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980277"><attributeName>AVG VOLT</attributeName>
+ <attributeDefinition>Average battery voltage</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>ampere</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980293"><attributeName>MAX TMP</attributeName>
+ <attributeDefinition>Maximum recorded temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980308"><attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time when the maximum temperature was recorded</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980324"><attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980339"><attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time at which the minimum temperature was recorded</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263906980355"><attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17523</numberOfRecords>
+ </dataTable>
+ <dataTable id="1263909371760"><entityName>AWS-PRETORIUSKOP-2009.txt</entityName>
+ <physical id="1263909364132"><objectName>AWS-PRETORIUSKOP-2009.txt</objectName>
+ <size unit="byte">2292174</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/judithk.1027.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1263909371775"><attributeName>STN ID</attributeName>
+ <attributeDefinition>Station Id</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371791"><attributeName>YEAR</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371806"><attributeName>JULIAN</attributeName>
+ <attributeDefinition>Julian date starting at 1 January</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371822"><attributeName>DATE</attributeName>
+ <attributeDefinition>Date</attributeDefinition>
+ <measurementScale><dateTime><formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371838"><attributeName>TIME</attributeName>
+ <attributeDefinition>Time</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371853"><attributeName>WND SPD</attributeName>
+ <attributeDefinition>Wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371869"><attributeName>WND DIR</attributeName>
+ <attributeDefinition>Wind direction</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371885"><attributeName>WND DIR SD</attributeName>
+ <attributeDefinition>Wind direction standard deviation</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371900"><attributeName>MAX WND SPD</attributeName>
+ <attributeDefinition>Maximum wind speed</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371916"><attributeName>AVG TMP</attributeName>
+ <attributeDefinition>Average temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371932"><attributeName>AVG HUM</attributeName>
+ <attributeDefinition>Average humidity in (%)</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371947"><attributeName>AVG SOLR</attributeName>
+ <attributeDefinition>Average solar radiation</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371963"><attributeName>RAIN</attributeName>
+ <attributeDefinition>Amount of rainfall measured</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371978"><attributeName>LIGHTNING</attributeName>
+ <attributeDefinition>Number of lightning strikes</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909371994"><attributeName>BATT VOLT</attributeName>
+ <attributeDefinition>Battery voltage</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909372010"><attributeName>MAX TMP</attributeName>
+ <attributeDefinition>Maximum temperature recorded</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909372025"><attributeName>MAX TIME</attributeName>
+ <attributeDefinition>Time at which maximum temperature was recorded</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909372041"><attributeName>MIN TMP</attributeName>
+ <attributeDefinition>Minimum temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909372057"><attributeName>MIN TIME</attributeName>
+ <attributeDefinition>Time at which minimum temperature was recorded</attributeDefinition>
+ <measurementScale><dateTime><formatString>hhmm</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1263909372072"><attributeName>FDI</attributeName>
+ <attributeDefinition>Fire danger index</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>17523</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </ns0:eml>

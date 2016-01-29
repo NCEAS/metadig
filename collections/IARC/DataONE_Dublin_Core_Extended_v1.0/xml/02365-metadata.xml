@@ -1,0 +1,159 @@
+<ns0:metadata xmlns:ns0="http://ns.dataone.org/metadata/schema/onedcx/v1.0" xmlns:ns2="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.dataone.org/metadata/schema/onedcx/v1.0 http://ns.dataone.org/metadata/schema/onedcx/v1.0/onedcx_v1.0.xsd"><ns0:simpleDc><ns2:identifier>f63d0f6c-7d53-46ce-b755-42a368007601</ns2:identifier><ns2:title>One hundred seventy environmental GIS data layers for the circumpolar Arctic Ocean region</ns2:title><ns2:subject>Arctic</ns2:subject><ns2:subject>Polar region</ns2:subject><ns2:subject>GIS Base Layers</ns2:subject><ns2:subject>ArcGIS</ns2:subject><ns2:subject>Geographic Information Systems (GIS)</ns2:subject><ns2:subject>grids</ns2:subject><ns2:subject>North Pole</ns2:subject><ns2:subject>World Ocean Atlas WOA</ns2:subject><ns2:subject>Calanus hyperboreus (AphiaID104467)</ns2:subject><ns2:subject>Metridia longa (AphiaID 104632)</ns2:subject><ns2:subject>Metridia pacifica (AphiaID 196784)</ns2:subject><ns2:subject>Thysanoessa raschii (AphiaID 110711)</ns2:subject><ns2:subject>Arctic</ns2:subject><ns2:subject>Polar Region</ns2:subject><ns2:subject>North Pole</ns2:subject><ns2:subject>Bering Sea</ns2:subject><ns2:subject>Barents Sea</ns2:subject><ns2:subject>Kara Sea</ns2:subject><ns2:subject>Arctic Shelf</ns2:subject><ns2:subject>Arctic Deep Sea</ns2:subject><ns2:language>eng</ns2:language></ns0:simpleDc><ns0:dcTerms><ns2:modified>2012-10-02T16:16:07</ns2:modified><ns2:created>2012-05-01T09:35:00</ns2:created><ns2:abstract>This dataset represents a unique compiled environmental data set for the circumpolar Arctic ocean region 45N to 90N region. It consists of 170 layers (mostly marine, some terrestrial) in ArcGIS 10 format to be used with a Geographic Information System (GIS) and which are listed below in detail. Most layers are long-term average raster GRIDs for the summer season, often by ocean depth, and represent value-added products easy to use. The sources of the data are manifold such as the World Ocean Atlas 2009 (WOA09), International Bathimetric Chart of the Arctic Ocean (IBCAO), Canadian Earth System Model 2 (CanESM2) data (the newest generation of models available) and data sources such as plankton databases and OBIS. Ocean layers were modeled and predicted into the future and zooplankton species were modeled based on future data: Calanus hyperboreus (AphiaID104467), Metridia longa (AphiaID 104632), M. pacifica (AphiaID 196784) and Thysanoessa raschii (AphiaID 110711). Some layers are derived within ArcGIS. Layers have pixel sizes between 1215.819573 meters and 25257.72929 meters for the best pooled model, and between 224881.2644 and 672240.4095 meters for future climate data. Data was then reprojected into North Pole Stereographic projection in meters (WGS84 as the geographic datum). Also, future layers are included as a selected subset of proposed future climate layers from the Canadian CanESM2 for the next 100 years (scenario runs rcp26 and rcp85). The following layer groups are available: bathymetry (depth, derived slope and aspect); proximity layers (to,glaciers,sea ice, protected areas, wetlands, shelf edge); dissolved oxygen, apparent oxygen, percent oxygen, nitrogen, phosphate, salinity, silicate (all for August and for 9 depth classes); runoff (proximity, annual and August); sea surface temperature; waterbody temperature (12 depth classes); modeled ocean boundary layers (H1, H2, H3 and Wx).This dataset is used for a M.Sc. thesis by the author, and freely available upon request. For questions and details we suggest contacting the authors.
+
+Process_Description:
+
+Please contact Moritz Schmid for the thesis and detailed explanations.
+Short version: We model predicted here for the first time ocean layers in the Arctic Ocean based on a unique dataset of physical oceanography. Moreover, we developed presence/random absence models that indicate where the studied zooplankton species are most likely to be present in the Arctic Ocean. Apart from that, we develop the first spatially explicit models known to science that describe the depth in which the studied zooplankton species are most likely to be at, as well as their distribution of life stages. We do not only do this for one present day scenario. We modeled five different scenarios and for future climate data.
+
+First, we model predicted ocean layers using the most up to date data from various open access sources, referred here as best-pooled model data. We decided to model this set of stratification layers after discussions and input of expert knowledge by Professor Igor Polyakov from the International Arctic Research Center at the University of Alaska Fairbanks. We predicted those stratification layers because those are the boundaries and layers that the plankton has to cross for diel vertical migration and a change in those would most likely affect the migration. I assigned 4 variables to the stratification layers. H1, H2, H3 and Wx. H1 is the lower boundary of the mixed layer depth. Above this layer a lot of atmospheric disturbance is causing mixing of the water, giving the mixed layer its name. H2, the middle of the halocline is important because in this part of the ocean a strong gradient in salinity and temperature separates water layers. H3, the isotherm is important, because beneath it flows denser and colder Atlantic water. Wx summarizes the overall width of the described water column.
+
+Ocean layers were predicted using machine learning algorithms (TreeNet, Salford Systems). Second, ocean layers were included as predictors and used to predict the presence/random absence, most likely depth and life stage layers for the zooplankton species: Calanus hyperboreus, Metridia longa, Metridia pacifica and Thysanoessa raschii,
+
+This process was repeated for future predictions based on the CanESM2 data (see in the data section).
+
+For zooplankton species the following layers were developed and for the future.
+
+C. hyperboreus: Best-pooled model as well as future predictions (rcp26 including ocean layer(also excluding), rcp85 including oocean layers (also excluding) for 2010 and 2100.For parameters: Presence/random absence, most likely depth and life stage layers
+
+M. longa: Best-pooled model as well as future predictions (rcp26 including ocean layer(also excluding), rcp85 including oocean layers (also excluding) for 2010 and 2100. For parameters: Presence/random absence, most likely depth and life stage layers
+
+M. pacifica: Best-pooled model as well as future predictions (rcp26 including ocean layer (also excluding), rcp85 including ocean layers (also excluding) for 2010 and 2100. For parameters: Presence/random absence, most likely depth and life stage layers
+
+T. raschii: Best-pooled model only due to coverage of future climate data. Presence/random absence, most likely depth and life stage layers
+
+Data used in the models and with source if applicable:
+
+Data for best-pooled model: 
+
+Folder: aoaug Apparent Oxygen August by depth (m) 1-11) Aoaugmask10, 20, 30, 50, 100, 200, 300, 400, 500, 1000, 1500 Source: World Ocean Atlas 2009 (WOA09) at the National Oceanographic Data Center (NODC) &lt;http://www.nodc.noaa.gov/OC5/WOA09/woa09data.html&gt; 
+
+Folder: bathymetry 12) bathyaspect 13) bathymetry 14) bathyslope Source: Derived from the International Bathymetric Chart of the Arctic Ocean (IBCAO) &lt;http://www.ngdc.noaa.gov/mgg/bathymetry/arctic/&gt; 
+
+Folder: distglacier 15) distglacier Source: Proximity layer derived from the Global Land Ice Measurements from Space (GLIMS) Glacier database at the National Snow and Ice Data Center (NSIDC): &lt;http://glims.colorado.edu/glacierdata/&gt; 
+
+Folder: distice 16) disticeaug Source: Sea Ice Data collection at the National Ice Center (NIC) &lt;http://www.natice.noaa.gov/mission.html?bandwidth=high&gt; 
+
+Folder: distmarinebound 17) dmarinebound Source: Proximity layer derived from the VLIZ Maritime Boundaries Geodatabase &lt;http://www.vliz.be/vmdcdata/marbound/&gt; 
+
+Folder: distprotected 18) distprotected Source: World Database on Protected Areas (according to the United Nations). Now at: &lt;http://protectedplanet.net/&gt; 
+
+Folder: distsettle 19) distsettle Source: Proximity layer derived from the Global Rural-Urban Mapping Project (GRUMP) at the Socioeconomic Data and Applications Center (SEDAC) &lt;http://sedac.ciesin.columbia.edu/gpw/&gt; 
+
+Folder: distshelf 20) distshelf Source: FH metadatapack 
+
+Folder: distwetland 21) distwetland Source: Proximity layer derived from the Global Lakes and Wetlands Database Request (GLWD) &lt;https://secure.worldwildlife.org/science/data/item1877.html&gt; 
+
+Folder: doaug Dissolved Oxygen August by depth (m) 22-33) doaug0, 10, 20, 30, 50, 100, 200, 300, 400, 500, 1000, 1500 Source: World Ocean Atlas 2009 (WOA09) at the National Oceanographic Data Center (NODC) &lt;http://www.nodc.noaa.gov/OC5/WOA09/woa09data.html&gt; 
+
+Folder: niaug Nitrate August by depth (m) 34-43) niaug0, 10, 20, 30, 50, 100, 200, 300, 400, 500 Source: World Ocean Atlas 2009 (WOA09) at the National Oceanographic Data Center (NODC) &lt;http://www.nodc.noaa.gov/OC5/WOA09/woa09data.html&gt; 
+
+Folder: phoaug Phosphate August by depth (m) 44-53) phoaug0, 10, 20, 30, 50, 100, 200, 300, 400, 500 Source: World Ocean Atlas 2009 (WOA09) at the National Oceanographic Data Center (NODC) &lt;http://www.nodc.noaa.gov/OC5/WOA09/woa09data.html&gt; 
+
+Folder: poaug Percent Oxygen, August by depth (m) 54-65) poaug0, 10, 20, 30, 50, 100, 200, 300, 400, 500, 1000, 1500 Source: World Ocean Atlas 2009 (WOA09) at the National Oceanographic Data Center (NODC) &lt;http://www.nodc.noaa.gov/OC5/WOA09/woa09data.html&gt; 
+
+Folder: runoff 66) distrunoff Source: Derived proximity layer from R-ArcticNet: A Regional, Electronic, Hydrographic Data Network for the Arctic Region &lt;http://www.r-arcticnet.sr.unh.edu/v4.0/AllData/index.html&gt; 67) runoffannual Source: Derived layer from the annual runoff &lt;http://www.r-arcticnet.sr.unh.edu/v4.0/AllData/index.html&gt; 68) runoffaug Source: Derived layer from the runoff in August &lt;http://www.r-arcticnet.sr.unh.edu/v4.0/AllData/index.html&gt; 
+
+Folder: salaug Salitry August by Depth 69-80) salaug0, 10, 20, 30, 50, 100, 200, 300, 400, 500, 1000, 1500 Source: World Ocean Atlas 2009 (WOA09) at the National Oceanographic Data Center (NODC) &lt;http://www.nodc.noaa.gov/OC5/WOA09/woa09data.html&gt; 
+
+Folder: siaug Silicate August by depth 81-90) siaug0, 10, 20, 30, 50, 100, 200, 300, 400, 500 Source: World Ocean Atlas 2009 (WOA09) at the National Oceanographic Data Center (NODC) &lt;http://www.nodc.noaa.gov/OC5/WOA09/woa09data.html&gt; 
+
+Folder: sst Sea Surface Temperate summer 91) sstsummer Source: Falk Huettmann, Polarmacroscope layers 
+
+Folder: Ocean layers, predicted 92) H1 93) H2 94) H3 95) Wx Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov 
+
+Folder: taug Temperature August by depth (m) 96-107) taug0, 10, 20, 30, 50, 100, 200, 300, 400, 500, 1000, 1500 Source: World Ocean Atlas 2009 (WOA09) at the National Oceanographic Data Center (NODC) &lt;http://www.nodc.noaa.gov/OC5/WOA09/woa09data.html&gt; 
+
+Data for future predictions: Canadian Earth System Model 2 (CanESM2) future data 
+
+Superfolder: CanESM2 future data Representative Concentration Pathway 2.6 
+
+Folder: RCP26 scenario 
+
+Folder: chl Chlorophyll 1-2) chl2010, 2100 Source: Chlorophyll data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp26/mon/index.shtml&gt; 
+
+Folder: mrro Run Off 3-4) mrro2010, 2100 Source: Total runoff data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp26/mon/index.shtml&gt; 
+
+Folder: no3 5-6) no2010, 2100 Source: Nitrate data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp26/mon/index.shtml&gt; 
+
+Folder: sos 7-8) sos2010, 2100 Source: Sea surface salinity data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp26/mon/index.shtml&gt; 
+
+Folder: tos 9-10) tos2010, 2100 Source: Sea surface temperature data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp26/mon/index.shtml&gt; 
+
+Folder: Ocean layers PREDICTED 
+
+Folder: H1 11-12) H1_2010, 2100 Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov and rcp26, CanESM2 future data. 
+
+Folder: H2 13-14) H2_2010, 2100 Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov and rcp26, CanESM2 future data. 
+
+Folder: H3 15-16) H3_2010, 2100 Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov and rcp26, CanESM2 future data. 
+
+Folder: Wx 17-18) Wx_2010, 2100 Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov and rcp26, CanESM2 future data. Representative Concentration Pathway 8.5 
+
+Folder:RCP85 scenario
+
+Folder: chl 1-2) chl2010, 2100 Source: Chlorophyll data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp85/index.shtml&gt; 
+
+Folder: mrro 3-4) mrro2010, 2100 Source: Total runoff data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp85/index.shtml&gt; 
+
+Folder: no3 5-6) no2010, 2100 Source: Nitrate data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp85/index.shtml&gt; 
+
+Folder: sos 7-8) sos2010, 2100 Source: Sea surface salinity data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp85/index.shtml&gt; 
+
+Folder: tos 9-10) tos2010, 2100 Source: Sea surface temperature data from the Canadian Earth System Model 2 (CanESM2) at the Canadian Centre for Climate Modelling and Analysis &lt;http://www.cccma.ec.gc.ca/data/cgcm4/CanESM2/rcp85/index.shtml&gt; 
+
+Folder: Ocean layers PREDICTED
+
+Folder: H1 11-12) H1_2010, 2100 Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov and rcp85, CanESM2 future data. 
+
+Folder: H2 13-14) H2_2010, 2100 Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov and rcp85, CanESM2 future data. 
+
+Folder: H3 15-16) H3_2010, 2100 Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov and rcp85, CanESM2 future data. 
+
+Folder: Wx 17-18) Wx_2010, 2100 Source: Model-predicted layers. Modeled by M. Schmid and based on data provided by Prof. Igor Polyakov and rcp85, CanESM2 future data. 
+
+Superfolder: General 
+
+Folder: ArcticCircle 1) ArcticCircle Source: Extracted from the World GeoReference lines layer at the ArcGIS Resource Center &lt;http://resources.arcgis.com/&gt; 
+
+Folder: PolarLand 2) PolarLand Source: Source: Extracted from the World topographic layer at the ArcGIS Resource Center &lt;http://resources.arcgis.com/&gt; 
+
+Superfolder: Zooplankton data
+Superfolder: Raw presence points from OBIS (&lt;http://www.iobis.org/&gt;)
+Folder: C. hyperboreus
+Folder: M. longa
+Folder: M. pacifica 
+Folder: T. raschii
+
+Superfolder: Predicted layers 
+Superfolder: Best-pooled model
+Presence/random absence, most likely depth and life stage layers for:
+Folder: C. hyperboreus
+Folder: M. longa
+Folder: M. pacifica
+Folder: T. raschii 
+
+Superfolder: Future predicted models from CanESM2
+
+Superfolder: Rcp 26 including ocean layers 
+Presence/random absence, most likely depth and life stage layers for 2010 and 2100 for: 
+Folder: C. hyperboreus
+Folder: M. longa
+Folder: M. pacifica 
+
+Superfolder: Rcp 26 excluding ocean layers
+Presence/random absence, most likely depth and life stage layers for 2010 and 2100 for:
+Folder: C. hyperboreus
+Folder: M. longa
+Folder: M. pacifica 
+
+Folder: Rcp 85 including ocean layers
+Presence/random absence, most likely depth and life stage layers for 2010 and 2100 for:
+Folder: C. hyperboreus
+Folder: M. longa
+Folder: M. pacifica 
+
+Folder: Rcp 85 excluding ocean layers
+Presence/random absence, most likely depth and life stage layers for 2010 and 2100 for:
+Folder: C. hyperboreus
+Folder: M. longa
+Folder: M. pacifica</ns2:abstract><ns2:accessRights>otherRestrictions</ns2:accessRights><ns2:accessRights /><ns2:accessRights /><ns2:spatial xsi:type="dcterms:Box">northlimit=90; southlimit=45; eastlimit=180; westlimit=-180</ns2:spatial><ns2:temporal>Begin 1950-01-01T09:46:00; End 2100-12-31T09:46:00</ns2:temporal></ns0:dcTerms></ns0:metadata>

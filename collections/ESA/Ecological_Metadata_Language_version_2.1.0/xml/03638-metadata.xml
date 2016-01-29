@@ -1,0 +1,136 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="esa.91.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+
+
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=esaadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier system="University of Wyoming, Department of Zoology and Physiology">All Funding Data.txt , Additional Funding Data.txt</alternateIdentifier>
+<title>Grantee ZIP codes, award amounts, and topics of study for NSF Division of Environmental Biology grants from 2004 to 2008</title>
+<creator>
+<organizationName>University of Wyoming, Department of Zoology and Physiology</organizationName>
+</creator>
+<creator>
+<organizationName>Ecological Society of America</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Benjamin</givenName>
+<surName>Koch</surName>
+</individualName>
+<organizationName>University of Wyoming, Department of Zoology and Physiology</organizationName>
+<address>
+<deliveryPoint>1000 E. University Ave.
+Dept 3166</deliveryPoint>
+<city>Laramie</city>
+<administrativeArea>Wyoming</administrativeArea>
+<postalCode>82071</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>bkoch@uwyo.edu</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>Benjamin</givenName>
+<surName>Koch</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Benjamin</givenName>
+<surName>Koch</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>John</givenName>
+<surName>Pokallus</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Grant</givenName>
+<surName>Campbell</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<associatedParty><individualName>
+<givenName>Jonathan</givenName>
+<surName>Pauli</surName>
+</individualName>
+<role>Co-owner</role>
+</associatedParty>
+<pubDate>2011-08-10</pubDate>
+<abstract>
+<para>This data includes the ZIP code of the principal investigator and award amount for all grants awarded through the National Science Foundation (NSF) Division of Environmental Biology (DEB) for the years 2004 to 2008.  For the 2008 awards, the data also includes a score indicating whether or not the grant could be classified into any one of 21 topical categories.  This data was compiled to map an index of the spatial distribution of ecologists&#226;&#128;&#153; funding throughout the United States.</para>
+</abstract>
+<keywordSet>
+<keyword>funding</keyword>
+<keyword>ZIP code</keyword>
+<keyword>National Science Foundation</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2004-01-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2008-12-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>United States</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-125.0000</westBoundingCoordinate>
+<eastBoundingCoordinate>-66.0000</eastBoundingCoordinate>
+<northBoundingCoordinate>50.0000</northBoundingCoordinate>
+<southBoundingCoordinate>24.0000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Benjamin</givenName>
+<surName>Koch</surName>
+</individualName>
+<organizationName>University of Wyoming, Department of Zoology and Physiology</organizationName>
+<address>
+<deliveryPoint>1000 E. University Ave.
+Dept 3166</deliveryPoint>
+<city>Laramie</city>
+<administrativeArea>Wyoming</administrativeArea>
+<postalCode>82071</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>bkoch@uwyo.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Data download from NSF</title>
+<para>We compiled this data by downloading data on all grants awarded through the National Science Foundation (NSF) Division of Environmental Biology for the years 2004-2008 (http://www.nsf.gov/awardsearch/). We read proposal titles and abstracts to identify the taxa and habitats studied, as well as the level of ecological organization (organism, population, community, ecosystem) of the primary research questions.  Levels within each of these categories were not mutually exclusive.</para>
+</section></description></methodStep>
+</methods>
+</dataset></ns0:eml>

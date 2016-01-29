@@ -1,0 +1,231 @@
+<ns0:eml xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="UC3/CDL" system="DataUp" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <dataset>
+    <title>Galapagos Rift water collections June 2008</title>
+    <creator>
+      <individualName>
+        <givenName>Jane</givenName>
+        <surName>Smith</surName>
+      </individualName>
+      <organizationName>San Diego University</organizationName>
+      <address>
+        <deliveryPoint>415 20th St</deliveryPoint>
+        <city>San Diego</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>96584</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>815-555-5524</phone>
+      <electronicMailAddress>jane.smith@gmail.com</electronicMailAddress>
+    </creator>
+    <pubDate>2012-09-13</pubDate>
+    <abstract>We collected water off the Galapagos to determine whether upwelling was occurring.  The collections were at three stations along the rift.</abstract>
+    <keywordSet>
+      <keyword>galapagos</keyword>
+      <keyword>CTD</keyword>
+      <keyword>water samples</keyword>
+    </keywordSet>
+    <intellectualRights>Creative Commons Zero License</intellectualRights>
+    <distribution>
+      <online>
+        <url>www.cdlib.org</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Galapagos Rift</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>90</westBoundingCoordinate>
+          <eastBoundingCoordinate>-90</eastBoundingCoordinate>
+          <northBoundingCoordinate>45</northBoundingCoordinate>
+          <southBoundingCoordinate>-45</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage id="tempcov">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2008-06-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Jane</givenName>
+        <surName>Smith</surName>
+      </individualName>
+      <organizationName>San Diego University</organizationName>
+      <address>
+        <deliveryPoint>415 20th St</deliveryPoint>
+        <city>San Diego</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>96584</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>815-555-5524</phone>
+      <electronicMailAddress>jane.smith@gmail.com</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>No publisher name provided</organizationName>
+    </publisher>
+    <project>
+      <title>Upwelling in the Equatorial Pacific, 2008</title>
+      <personnel>
+        <individualName>
+          <surName>No project personnel surname provided</surName>
+        </individualName>
+        <organizationName>No project organization name provided</organizationName>
+        <role>No project personnel role provided</role>
+      </personnel>
+      <abstract>
+        <para>No project abstract provided</para>
+      </abstract>
+      <funding>National Science Foundation</funding>
+    </project>
+    <dataTable>
+      <entityName>CTD_data3 - Station1</entityName>
+      <entityDescription>CTD data from Sation 1, Cruise 1435</entityDescription>
+      <attributeList>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeDefinition>Depth of CTD cast</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temperature</attributeName>
+          <attributeDefinition>seawater temperature</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Salinity</attributeName>
+          <attributeDefinition>seawater salinity (in practical salinity units, PSU)</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sigma-T</attributeName>
+          <attributeDefinition>density of seawater</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>kilogramPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chlorophyll-a</attributeName>
+          <attributeDefinition>Concentration of chlorophyll in seawater</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DO</attributeName>
+          <attributeDefinition>Concentration of oxygen in seawater</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeDefinition>pH of seawater on standard 0-14 pH scale</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>log10 of PAR</attributeName>
+          <attributeDefinition>Log 10 of the photosynthetically active radiation in micromoles of photons per meter squared per second</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PAR</attributeName>
+          <attributeDefinition>Photosynthetically active radiation in  micromoles of photons per meter squared per second</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <describes>tempcov</describes>
+    <metadata>
+      <description>No description of temporal coverage provided</description>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <formattedCitation>Smith, Jane(2012): Galapagos Rift water collections June 2008. . Smith, Jane. ark:/99999/fk4d813mb</formattedCitation>
+    </metadata>
+  </additionalMetadata>
+</ns0:eml>
