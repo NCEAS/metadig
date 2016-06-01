@@ -1,23 +1,26 @@
-row,use_case_name,label,stakeholder,description
-1,write_in_R,Write Check in R,Data Manager,code a metadata and data check using R packages
-2,write_in_python,Write Check in Python,Data Manager,code a metadata and data check using Python
-3,create_rec,Create Recommendation,Data Manager,choose a set of checks and a name to create a recommendation that can be run as a suite
-4,get_rec,Get Recommendation,Data Manager,get list of the set of checks in a recommmendation and other metadata
-5,get_check,Get Check,Data Manager,get the metadata and implementation code for a check
-6,list_checks,List Checks,Data Manager,"view the list of checks, possibly categorized by recommendation"
-7,run_check,Run check,Data Manager,runa single check against a provided data package
-8,run_rec,Run recommendation,Data Manager,run all checks in a recommendation against a provided data package
-8.1,run_rec_in_r,Run recommendation locally in R,Data Manager,run all checks in a recommendation against a provided data package locally in R
-9,get_rec_results,Get recommendation results,Data Manager,get a structured report of results of running a recommendation
-9.1,get_rec_results_batch,Batch Get Recommendation Results,Repository Manager,Efficiently access recommendation run results for a collection of data such as a repository
-10,add_check,Add Check,Data Manager,add the metadata and implementation code for a check
-11,update_rec,Update Recommendation,Data Manager,update a recommendation by creating a new version with changed metadata and a different list or order of checks
-12,view_rec_results,View Recommendation Results on Web,Researcher,view the results of a recommendation for a specific data package on the web
-12.1,view_rec_results_r,View Rec Results in R, Researcher,view the results of a recommendation for a specific data package in R
-13,view_rec_results_user,User View Recommendation Results,Researcher,view the results of a recommendation runs across all of a user's data packages
-14,view_rec_results_funder,Funder View Recommendation Results,Funder,view the results of a recommendation for all packages from a specific funder or funder program
-15,view_rec_results_repo,Repo View Recommendation Results,Repository Manager,view the results of all recommendations run for a given repository
-16,view_rec_results_group,Group View Recommendation Results,Group Member,view the results of all recommendations run for a given group or organization
-17,run_rec_for_repo,Run recommendation for a repo,DataManager,run all checks in a recommendation against all documents in a repository
-18,run_rec_for_edit,Run recommendation for edited package,Researcher,run quality checks for a package being edited (online metadata editor) or updated
-19,add_dialect,Add metadata dialect,DataManager,add a new metadata dialect to the mdq engine (from section 4.2.1 of proposal)
+id,level,use_case_name,label,stakeholder,description
+1,0_MUST,write_in_R,Write Check in R,Data Manager,code a metadata and data check using R packages
+2,0_MUST,get_rec,Get Recommendation,Data Manager,get list of the set of checks in a recommmendation and other metadata
+3,0_MUST,get_check,Get Check,Data Manager,get the metadata and implementation code for a check
+4,0_MUST,run_check,Run check,Repository Manager,run a single check against a provided data package
+5,0_MUST,run_rec,Run recommendation,Repository Manager,run all checks in a recommendation against a provided data package
+6,0_MUST,get_rec_results,Get recommendation results,Data Manager,get a structured report of results of running a recommendation
+7,0_MUST,get_rec_results_batch,Batch Get Recommendation Results,Repository Manager,Efficiently access recommendation run results for a collection of data such as a repository
+8,0_MUST,view_rec_results,View Recommendation Results on Web,Researcher,view the results of a recommendation for a specific data package on the web
+9,0_MUST,view_rec_results_user,User View Recommendation Results,Researcher,view the results of a recommendation runs across all of a user's data packages
+10,0_MUST,view_rec_results_funder,Funder View Recommendation Results,Funder,view the results of a recommendation for all packages from a specific funder or funder program
+11,0_MUST,view_rec_results_repo,Repo View Recommendation Results,Repository Manager,view the results of all recommendations run for a given repository
+12,0_MUST,add_dialect,Add metadata dialect,MetaDigSystemPeople,add a new metadata dialect to the mdq engine (from section 4.2.1 of proposal)
+13,0_MUST,list_recs,List Recommendations,All,list recommendations that have been registered with the system
+14,1_SHOULD,create_rec,Create Recommendation,Data Manager,pass in a set of checks and a name/metadata to create a recommendation that can be run as a suite
+15,1_SHOULD,list_checks,List Checks,Data Manager,"get the list of checks, possibly categorized by recommendation"
+16,1_SHOULD,add_check,Add Check,Data Manager,add the metadata and implementation code for a check
+17,1_SHOULD,update_rec,Update Recommendation,Data Manager,update a recommendation by creating a new version with changed metadata and a different list or order of checks
+18,1_SHOULD,run_check_for_edit,Run single for edited package,Researcher,"run single quality check for a package being edited (online metadata editor) or updated (passing in metadata, and maybe data?)"
+19,2_NICE,write_in_python,Write Check in Python,Data Manager,code a metadata and data check using Python
+20,2_NICE,run_rec_in_r,Run recommendation locally in R,Data Manager,run all checks in a recommendation against a provided data package locally in R
+21,2_NICE,view_rec_results_r,View Rec Results in R,Researcher,view the results of a recommendation for a specific data package in R
+22,2_NICE,view_rec_results_group,Group View Recommendation Results,Group Member,view the results of all recommendations run for a given group or organization
+23,2_NICE,run_rec_for_repo,Run recommendation for a repo,Repository Manager,run all checks in a recommendation against all documents in a repository
+24,2_NICE,run_rec_for_edit,Run recommendation for edited package,Researcher,run quality checks for a package being edited (online metadata editor) or updated
+25,2_NICE,write_in_Java,Write Check in Java,Data Manager,code a metadata and data check using Java packages
