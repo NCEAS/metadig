@@ -13,14 +13,14 @@
         activate "DataONE Quality Service"
         "DataONE Quality Service" -> MNodeService : runQC(checkId, pid)
         activate "MNodeService"
-        loop [ hasAnotherPackageMember > 0]
-        MNodeService -> QCController : runCheck(checkId, metadata, dataset)
+        MNodeService -> QCController : runCheck(checkId, metadata, datasetList)
         activate QCController
         QCController -> QCMetadataManager : getCheckMetadata(checkId, dialect)
         activate QCMetadataManager
         QCMetadataManager --> QCController : checkMetadata
         deactivate QCMetadataManager
-        QCController -> QCDispatcher : dispatchCheck(checkId, dialect, metadata, dataset)
+        loop [ datasetsToCheck > 0]
+          QCController -> QCDispatcher : dispatchCheck(checkId, dialect, metadata, dataset)
           activate QCDispatcher
           QCDispatcher -> checkImpl : runCheckImpl(metadata, dataset)
           activate checkImpl
