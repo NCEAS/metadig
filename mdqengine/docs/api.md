@@ -37,7 +37,6 @@ or via a REST layer.
 
 ### Execution methods
 - MQE.runRecommendation(Recommendation rec, InputStream document)
-- ~MQE.runRecommendations(List<Identifier> pids, List<Recommendation> recs)~
 
 ### Reporting methods
 - MQE.listRuns()
