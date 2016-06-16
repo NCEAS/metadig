@@ -36,7 +36,8 @@ or via a REST layer.
 	-D1.delete()
 
 ### Execution methods
-- MQE.runRecommendations(List<Identifier> pids, List<Recommendation> recs)
+- MQE.runRecommendation(Recommendation rec, InputStream document)
+- ~MQE.runRecommendations(List<Identifier> pids, List<Recommendation> recs)~
 
 ### Reporting methods
 - MQE.listRuns()
