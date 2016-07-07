@@ -8,7 +8,7 @@ or via a REST layer.
 ### Types
 - Selector
 - Check
-- Recommendation*
+- Suite*
 - Result
 - Run* 
 
@@ -22,21 +22,21 @@ or via a REST layer.
 - MQE.updateCheck()
 - MQE.deleteCheck()
 
-#### Recommendations
-- MQE.listRecommendations()
+#### Suites
+- MQE.listSuites()
 	- D1.query()
 	- D1.listObjects()
-- MQE.createRecommendation()
+- MQE.createSuite()
 	- D1.create()
-- MQE.getRecommendation()
+- MQE.getSuite()
 	- D1.get()
-- MQE.updateRecommendation()
+- MQE.updateSuite()
 	- D1.update()
-- MQE.deleteRecommendation()
+- MQE.deleteSuite()
 	-D1.delete()
 
 ### Execution methods
-- MQE.runRecommendation(Recommendation rec, InputStream document)
+- MQE.runSuite(Suite suite, InputStream document)
 
 ### Reporting methods
 - MQE.listRuns()
