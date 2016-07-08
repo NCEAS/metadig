@@ -7,7 +7,7 @@ or via a REST layer.
 
 ### Types
 - Selector
-- Check
+- Check*
 - Suite*
 - Result
 - Run* 
@@ -15,33 +15,38 @@ or via a REST layer.
 *stand-alone document format type
 
 ### Design methods
-#### Checks (TBD: separate document type for these?)
+#### Checks
 - MQE.listChecks()
+	- GET /checks
 - MQE.createCheck()
+	- POST /checks/:id
 - MQE.getCheck()
+	- GET /checks/:id
 - MQE.updateCheck()
+	- PUT /checks/:id
 - MQE.deleteCheck()
+	- DELETE /checks/:id
 
 #### Suites
 - MQE.listSuites()
-	- D1.query()
-	- D1.listObjects()
+	- GET /suites
 - MQE.createSuite()
-	- D1.create()
+	- POST /suites/:id
 - MQE.getSuite()
-	- D1.get()
+	- GET /suites/:id
 - MQE.updateSuite()
-	- D1.update()
+	- PUT /suites/:id
 - MQE.deleteSuite()
-	-D1.delete()
+	- DELETE /suites/:id
 
 ### Execution methods
 - MQE.runSuite(Suite suite, InputStream document)
+	- POST /suites/:id/runs/:pid
 
 ### Reporting methods
 - MQE.listRuns()
-	- D1.query()
+	- GET /runs
 - MQE.getRun()
-	- D1.get()
+	- GET /runs/:id
 - MQE.deleteRun()
-	- D1.delete()
+	- DELETE /runs/:id
