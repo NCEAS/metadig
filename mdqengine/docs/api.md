@@ -18,30 +18,30 @@ or via a REST layer.
 #### Checks
 - MQE.listChecks()
 	- GET /checks
-- MQE.createCheck()
-	- POST /checks/:id
+- MQE.createCheck(check)
+	- POST /checks (check is multi-part form data)
 - MQE.getCheck()
 	- GET /checks/:id
-- MQE.updateCheck()
-	- PUT /checks/:id
+- MQE.updateCheck(check)
+	- PUT /checks/:id (check is multi-part form data)
 - MQE.deleteCheck()
 	- DELETE /checks/:id
 
 #### Suites
 - MQE.listSuites()
 	- GET /suites
-- MQE.createSuite()
-	- POST /suites/:id
+- MQE.createSuite(suite)
+	- POST /suites (suite is multi-part form data)
 - MQE.getSuite()
 	- GET /suites/:id
-- MQE.updateSuite()
-	- PUT /suites/:id
+- MQE.updateSuite(suite)
+	- PUT /suites/:id (suite is multi-part form data)
 - MQE.deleteSuite()
 	- DELETE /suites/:id
 
 ### Execution methods
-- MQE.runSuite(Suite suite, InputStream document)
-	- POST /suites/:id/runs/:pid
+- MQE.runSuite(suite, InputStream document)
+	- POST /suites/:id/run (document is multi-part form data)
 
 ### Reporting methods
 - MQE.listRuns()
