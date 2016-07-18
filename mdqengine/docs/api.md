@@ -50,3 +50,7 @@ or via a REST layer.
 	- GET /runs/:id
 - MQE.deleteRun()
 	- DELETE /runs/:id
+	
+### Aggregation methods
+- MQE.aggregate() - returns CSV of results of running given suite over corpus returned by SOLR query
+	- GET /suites/:id/aggregate/:query
