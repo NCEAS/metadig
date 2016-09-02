@@ -3,7 +3,10 @@
 ## Shape Ideas
 
 - Donut
-- Waffle chart
+- Waffle chart (TODO)
+- Badges.io style badges
+- re3data badges
+- Open Science Framework Badges
 
 ## Donut Shape Ideas
 
