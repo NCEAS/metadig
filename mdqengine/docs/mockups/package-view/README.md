@@ -14,5 +14,5 @@ Where do these badges go in this view?
 - [Donut](./donut.md)
 - [Waffle chart (TODO)](./waffle.md)
 - [Badges.io style badges](./badge.md)
-- [re3data badges](./small-badge.md)
+- [re3data badges](./badge.md)
 - [Open Science Framework Badges](./big-badge.md)
