@@ -549,11 +549,22 @@ def makeValidFormatPath(path):
 	if len(path) <= 0:
 		return None
 
-	valid_path = ''.join(c for c in path if c not in "/:")
-	replaced = re.sub('\s*,?-?\s+', '_', valid_path)
+	# Collapse all EML versions into the same folder
+	#
+	# TODO:
+	# - CSDGM
+	# - Dryad
+	# - Mercury
+	# - BDP
+	# - Onedcx
 
-	return replaced
+	if path.startswith('Ecological Metadata Language'):
+		path = 'EML'
+	else: # Or just return something sane
+		path = ''.join(c for c in path if c not in "/:")
+		path = re.sub('\s*,?-?\s+', '_', path)
 
+	return path
 
 def usage():
 	print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--from FROM] [--to TO] [--test]\r\n"
