@@ -62,6 +62,16 @@
 #	e.g. Sample only from KNB
 #		 python sample-metadata.py --node "urn:node:KNB"
 #
+# -- from: (optional) Only return objects created after this point in
+#   time. Must use Solr's datetime format.
+#   e.g. Get objects created after June 10th, 2010
+#    	python sample-metadata.py --from "2010-06-10T00:00:00Z"
+#
+# -- to: (optional) Only return objects created before this point in
+#   time. Must use Solr's datetime format.
+#   e.g. Get objects created before January 20th, 2016
+#    	python sample-metadata.py --from "2016-01-20T00:00:00Z"
+#
 # --sample-size (-s): (optional) Return at least {atleast} objects
 #	e.g. Target a sample of 100 identifiers from each MN
 # 		 python sample-metadata.py --sample-size 100
@@ -70,10 +80,12 @@
 #  	e.g. python sample-metadata.py --test
 
 
-def getNumResults(base_url, node):
+def getNumResults(base_url, node, from_date=None, to_date=None):
 	"""Get the number of total results from the CN
 
 	:param node: (Optional) Specify a single node to sample from.
+	:param from: (Optional) Filter to just objects created after this date
+	:param to: 	 (Optional) Filter to just objects created before this date
 	"""
 
 	query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
@@ -92,6 +104,15 @@ def getNumResults(base_url, node):
 		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 		query_url += "+AND+datasource:*" + node_short_identifier
 
+	if from_date is not None and to_date is None:
+		query_url += "+AND+dateUploaded:[{}%20TO%20NOW]".format(from_date)
+
+	if from_date is None and to_date is not None:
+		query_url += "+AND+dateUploaded:[1970-01-01T00:00:00.000Z%20TO%20{}]".format(to_date)
+
+	if from_date is not None and to_date is not None:
+		query_url += "+AND+dateUploaded:[{}%20TO%20{}]".format(from_date, to_date)
+
 	query_url += "&rows=0&start=0"
 
 	request = urllib2.urlopen(query_url)
@@ -103,12 +124,14 @@ def getNumResults(base_url, node):
 	return int(result[0].get("numFound"))
 
 
-def getPage(base_url, node, page=1, page_size=1000):
+def getPage(base_url, node, page=1, from_date=None, to_date=None, page_size=1000):
 	"""Get a specific page of results from the Solr index.
 
-	:param node: Node to sample.
-	:param page: Page of results to get.
-	:param page_size: Number of results in the page.
+	:param node: 		Node to sample.
+	:param from_date:   (Optional) Filter to just objects created after this date
+	:param to_date: 	(Optional) Filter to just objects created before this date
+	:param page: 		Page of results to get.
+	:param page_size: 	Number of results in the page.
 	"""
 
 	identifiers = []
@@ -117,64 +140,74 @@ def getPage(base_url, node, page=1, page_size=1000):
 	param_rows = page_size
 	param_start = (page - 1) * page_size
 
-	query_url = base_url + "/query/solr/?fl=identifier,authoritativeMN&q=formatType:METADATA+AND+-obsoletedBy:*"
+	# Construct query URL
+	query_url = base_url + "/query/solr/?&q=formatType:METADATA+AND+-obsoletedBy:*"
 
+	# Extra query params
 	if node is not None:
 		node_short_identifier = node.split(":")
 		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 
 		query_url = query_url + "+AND+datasource:*" + node_short_identifier
 
+	if from_date is not None and to_date is None:
+		query_url += "+AND+dateUploaded:[{}%20TO%20NOW]".format(from_date)
+
+	if from_date is None and to_date is not None:
+		query_url += "+AND+dateUploaded:[1970-01-01T00:00:00.000Z%20TO%20{}]".format(to_date)
+
+	if from_date is not None and to_date is not None:
+		query_url += "+AND+dateUploaded:[{}%20TO%20{}]".format(from_date, to_date)
+
+	# Fields and extra field params
+	query_url += "&fl=identifier,authoritativeMN"
+
+	if from_date is not None or to_date is not None:
+		query_url += ",dateUploaded"
+
+	# Add rows and start parameter
 	query_url = query_url + "&rows=" + \
-		str(param_rows) + "&start=" + str(param_start)
+		str(param_rows) + "&start=" + str(param_start) + "&wt=csv"
 
-	request = urllib2.urlopen(query_url)
-	response = request.read()
-	response_xml = ET.fromstring(response)
-	docs = response_xml.findall(".//doc")
+	docs = pandas.read_csv(query_url)
 
-	for d in docs:
-		identifier = d.find("./str[@name='identifier']").text
-		authoritativeMN = d.find("./str[@name='authoritativeMN']").text
+	return docs
 
-		identifiers.append(identifier)
-		authoritativeMNs.append(authoritativeMN)
-
-	return (identifiers, authoritativeMNs)
-
-
-def getPageRange(base_url, node, page_range, page_size, delay=None):
+def getPageRange(base_url, node, page_range, page_size, from_date=None, to_date=None, delay=None):
 	"""Get a range of pages from the Solr index.
 
-	:param node: Node to sample.
-	:param page_range: Range of pages to get.
-	:param page_size: Number of results per page.
-	:param delay: Delay, in seconds, between requests.
+	:param node: 		Node to sample.
+	:param page_range:  Range of pages to get.
+	:param page_size:   Number of results per page.
+	:param from_date:   (Optional) Filter to just objects created after this date
+	:param to_date: 	(Optional) Filter to just objects created before this date
+	:param delay: 	    Delay, in seconds, between requests.
 	"""
 
-	identifiers = []
-	authoritativeMNs = []
+	docs = None
 
 	for p in page_range:
 		print "Getting page %d" % (p)
 
-		page_result = getPage(base_url, node, page = p)
-
-		identifiers = identifiers + page_result[0]
-		authoritativeMNs = authoritativeMNs + page_result[1]
+		page_result = getPage(base_url, node, p, from_date=from_date, to_date=to_date)
+		if docs is None:
+			docs = page_result
+		else:
+			docs = docs.append(page_result)
 
 		if delay is not None:
 			time.sleep(delay)
 
-	return (identifiers, authoritativeMNs)
+	return docs
 
-
-def getAllPages(base_url, node = None, page_size = 1000, delay=None):
+def getAllPages(base_url, node = None, page_size = 1000, from_date=None, to_date=None, delay=None):
 	"""Get all possible pages from the Solr index.
 
-	:param node: (Optional) Specify a single node to query for.
-	:param page_size: Number of results per page.
-	:param delay: Delay, in seconds, between requests.
+	:param node: 		(Optional) Specify a single node to query for.
+	:param page_size: 	Number of results per page.
+	:param from_date:   (Optional) Filter to just objects created after this date
+	:param to_date: 	(Optional) Filter to just objects created before this date
+	:param delay: 		Delay, in seconds, between requests.
 
 	:output documents.csv: A .csv file of authoritativeMN & identifiers
 	"""
@@ -201,7 +234,7 @@ def getAllPages(base_url, node = None, page_size = 1000, delay=None):
 
 	# Continue fetching fresh results from the server
 
-	num_results = getNumResults(base_url, node);
+	num_results = getNumResults(base_url, node, from_date=from_date, to_date=to_date);
 	print("Total results: %d" % (num_results))
 
 	if num_results is 0:
@@ -214,13 +247,8 @@ def getAllPages(base_url, node = None, page_size = 1000, delay=None):
 
 	range_of_pages = range(1, int(pages_required) + 1)
 
-	all_pages = getPageRange(base_url, node, range_of_pages, page_size, delay)
-
-	documents_df = pandas.DataFrame({
-		'identifier' : all_pages[0],
-		'authoritativeMN' : all_pages[1]})
-
-	documents_df.to_csv(documents_csv_filepath, index = False, encoding = "utf-8")
+	all_pages = getPageRange(base_url, node, range_of_pages, page_size, from_date=from_date, to_date=to_date, delay=delay)
+	all_pages.to_csv(documents_csv_filepath, index = False, encoding = "utf-8")
 
 	return
 
@@ -308,15 +336,13 @@ def getAndSaveDocuments(base_url, delay=None):
 
 	print("Total sampled documents to save: %d" % documents.shape[0])
 
-
 	for i in range(0, documents.shape[0]):
 		print "[%d of %d]" % (i + 1, documents.shape[0])
 
-		node_identifier = documents.iloc[i, 0]
-
+		node_identifier = documents['authoritativeMN'][i]
 
 		# Get the meta and object XML
-		document_identifier = documents.iloc[i, 1]
+		document_identifier = documents['identifier'][i]
 		meta_xml = getIdentifierMetaXML(base_url, document_identifier)
 
 
@@ -494,13 +520,12 @@ def getFormatList(base_url):
 
 	return fmt_list
 
-
-def main(base_url, node, sample_size):
+def main(base_url, node, sample_size, from_date, to_date):
 	"""Make-like execution flow
 	Function will not run if dependent file exists
 	"""
 
-	getAllPages(base_url, node) # Depends on document.csv
+	getAllPages(base_url, node, from_date=from_date, to_date=to_date) # Depends on document.csv
 	sampleDocuments(sample_size) # Depends on sampled_documents.csv
 	getAndSaveDocuments(base_url)
 
@@ -531,7 +556,7 @@ def makeValidFormatPath(path):
 
 
 def usage():
-	print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--test]\r\n"
+	print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--from FROM] [--to TO] [--test]\r\n"
 
 	print "-h, --help"
 	print "\tPrint this information.\n"
@@ -542,7 +567,13 @@ def usage():
 
 	print "-s, --sample-size"
 	print "\tSpecify a minimum sample size per member node. e.g. --sample-size 50"
-	print "\tDefault: 250"
+	print "\tDefault: 250\n"
+
+	print "--from"
+	print "\tLimit sampled documents to those created after this date. e.g. --from YYYY-MM-DDThh:mm:ssZ\n"
+
+	print "--to"
+	print "\tLimit sampled documents to those created before this date. e.g. --to YYYY-MM-DDThh:mm:ssZ\n"
 
 	print "-t, --test"
 	print "\tRun all queries against the development CN instead of the production CN."
@@ -568,12 +599,15 @@ if __name__ == "__main__":
 	node = None # Sample all member nodes
 	sample_size = 250 # Target a minimum sample of 250 objects
 	base_url = "https://cn.dataone.org/cn/v1" # Production CN
+	from_date = None
+	to_date = None
+	solr_datetime_format = re.compile("\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.?\d*Z")
 
 	# Parse command line arguments
 	argv = sys.argv[1:]
 
 	try:
-		opts, args = getopt.getopt(argv, "hn:s:t", ["help", "node=", "sample-size=", "test"])
+		opts, args = getopt.getopt(argv, "hn:s:from:to:t", [ "help", "node=", "sample-size=", "from=", "to=", "test"])
 	except getopt.GetoptError:
 		usage()
 		sys.exit(2)
@@ -594,6 +628,26 @@ if __name__ == "__main__":
 
 			print "Setting sample size to %d" % sample_size
 
+		elif opt in ("--from"):
+			try:
+				from_date = arg
+
+				if not solr_datetime_format.match(from_date):
+					raise
+
+			except:
+				print "Could not parse {} as a Solr datetime, which has the format YYYY-MM-DDThh:mm:ssZ".format(arg)
+
+		elif opt in ("--to"):
+			try:
+				to_date = arg
+
+				if not solr_datetime_format.match(to_date):
+					raise
+
+			except:
+				print "Could not parse {} as a Solr datetime, which has the format YYYY-MM-DDThh:mm:ssZ".format(arg)
+
 		elif opt in ("-t", "--test"):
 			try:
 				base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1"
@@ -602,6 +656,6 @@ if __name__ == "__main__":
 
 
 	try:
-		main(base_url, node, sample_size)
+		main(base_url, node, sample_size, from_date, to_date)
 	except KeyboardInterrupt:
 		sys.exit()
