@@ -79,7 +79,6 @@
 # --test (-t): (optional) Run against the test CN instead of production.
 #  	e.g. python sample-metadata.py --test
 
-
 def getNumResults(base_url, node, from_date=None, to_date=None):
 	"""Get the number of total results from the CN
 
@@ -122,7 +121,6 @@ def getNumResults(base_url, node, from_date=None, to_date=None):
 	result = response_xml.findall(".//result")
 
 	return int(result[0].get("numFound"))
-
 
 def getPage(base_url, node, page=1, from_date=None, to_date=None, page_size=1000):
 	"""Get a specific page of results from the Solr index.
@@ -252,7 +250,6 @@ def getAllPages(base_url, node = None, page_size = 1000, from_date=None, to_date
 
 	return
 
-
 def sampleDocuments(sample_size = 250):
 	"""Generate a sample of identifiers for each MN
 
@@ -310,7 +307,6 @@ def sampleDocuments(sample_size = 250):
 
 	return
 
-
 def getAndSaveDocuments(base_url, delay=None):
 	"""Get and save meta and object XML from node
 
@@ -327,7 +323,6 @@ def getAndSaveDocuments(base_url, delay=None):
 		print "getAndSaveDocuments() was called but sampled_documents.csv doesn't exist."
 
 		return
-
 
 	# Get and save each document in the sample
 	documents = pandas.read_csv(sampled_documents_filepath)
@@ -361,7 +356,6 @@ def getAndSaveDocuments(base_url, delay=None):
 				if node_id_element is not None:
 					node_identifier = node_id_element.text
 
-
 		# Remove "urn:node:" from node_identifier
 		#
 		# This remove redundant text from the folder names
@@ -379,19 +373,14 @@ def getAndSaveDocuments(base_url, delay=None):
 		# Make the subdirectories to store files
 		subdirectory_path = getScriptDirectory() + "/result/" + node_short_identifier
 
-
 		# Don't get metadata again if directory exists for identifier
 		if not os.path.exists(subdirectory_path):
 			os.makedirs(subdirectory_path)
 
-
 		if delay is not None:
 			time.sleep(delay)
 
-
-
 		# Extract the formatId from the sysmeta
-
 		format_path = None
 
 		if meta_xml is not None:
@@ -426,7 +415,6 @@ def getAndSaveDocuments(base_url, delay=None):
 
 		if object_xml is not None:
 			ET.ElementTree(object_xml).write(metadata_path + "/" + str(i).rjust(5, '0') + "-metadata.xml")
-
 
 def getIdentifierMetaXML(base_url, identifier):
 	"""Get system (meta) metadata as XML
@@ -469,7 +457,6 @@ def getIdentifierObjectXML(base_url, identifier):
 
 	return response_xml
 
-
 def getNodeList(base_url):
 	"""Get list of CNs and MNs
 
@@ -493,7 +480,6 @@ def getNodeList(base_url):
 		node_list[node_identifier] = { "identifier" : node_identifier, "type" : node_type, "base_url" : node_base_url }
 
 	return node_list
-
 
 def getFormatList(base_url):
 	"""Get list of data and metadata formats
@@ -535,7 +521,6 @@ def getScriptDirectory():
 	:return String: Absolute directory name."""
 
 	return os.path.dirname(os.path.realpath(__file__))
-
 
 def makeValidFormatPath(path):
 	"""Returns a valid path format path string where / and : are omitted, and comma,
@@ -664,7 +649,6 @@ if __name__ == "__main__":
 				base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1"
 			except:
 				print "Couldn't set CN to development. Using production instead."
-
 
 	try:
 		main(base_url, node, sample_size, from_date, to_date)
