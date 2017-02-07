@@ -8,5 +8,5 @@ if [ $# = 3 ]; then
     recordSetPath=/Users/scgordon/metadig/collections/DataOne/$1/$3/XML \
     > /Users/scgordon/metadig/collections/DataOne/$1/$3/reports/rubric_$2_$3.json
 else
-    echo 'runTransform collection (GHRC) rubric (CSW) dialect (DIF)'
+    echo 'runTransform collection (GHRC) recommendation (CSW) dialect (DIF)'
 fi
