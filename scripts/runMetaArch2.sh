@@ -1,0 +1,13 @@
+./metaArch_sample-metadata.sh 2005 250000
+./metaArch_sample-metadata.sh 2006 250000
+./metaArch_sample-metadata.sh 2007 250000
+./metaArch_sample-metadata.sh 2008 250000
+./metaArch_sample-metadata.sh 2009 250000
+./metaArch_sample-metadata.sh 2010 250000
+./metaArch_sample-metadata.sh 2011 250000
+./metaArch_sample-metadata.sh 2012 250000
+./metaArch_sample-metadata.sh 2013 250000
+./metaArch_sample-metadata.sh 2014 250000
+./metaArch_sample-metadata.sh 2015 250000
+./metaArch_sample-metadata.sh 2016 250000
+./metaArch_sample-metadata.sh 2017 250000
