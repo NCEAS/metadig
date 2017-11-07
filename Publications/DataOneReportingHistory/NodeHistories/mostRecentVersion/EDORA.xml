@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader"><int name="status">0</int><int name="QTime">123</int><lst name="params"><str name="facet.range">dateUploaded</str><str name="q">*:* -obsoletedBy:* formatType:METADATA</str><str name="facet.limit">-1</str><str name="facet.range.gap">+1YEAR</str><str name="facet.missing">true</str><str name="fq">datasource:"urn:node:EDORA"</str><str name="sort">dateUploaded asc</str><str name="rows">1</str><str name="facet">true</str><str name="wt">xml</str><str name="facet.range.start">2001-01-01T00:00:00Z</str><str name="facet.range.end">2017-12-31T23:59:59.999Z</str></lst></lst><result name="response" numFound="28" start="0"><doc><str name="id">Walker_Branch_Watershed_Daily_Climate_1993-2008.xml</str><str name="identifier">Walker_Branch_Watershed_Daily_Climate_1993-2008.xml</str><str name="formatId">http://purl.org/ornl/schema/mercury/terms/v1.0</str><str name="formatType">METADATA</str><long name="size">10483</long><str name="checksum">9d23398980e056aedbd2c999e837930f</str><str name="submitter">CN=EDORA,DC=dataone,DC=org</str><str name="checksumAlgorithm">MD5</str><str name="rightsHolder">CN=EDORA,DC=dataone,DC=org</str><bool name="replicationAllowed">false</bool><date name="dateUploaded">2014-09-24T13:49:46Z</date><date name="updateDate">2014-09-24T13:49:46Z</date><date name="dateModified">2014-11-17T20:40:05.52Z</date><str name="datasource">urn:node:EDORA</str><str name="authoritativeMN">urn:node:EDORA</str><arr name="replicaMN"><str>urn:node:EDORA</str><str>urn:node:CN</str></arr><arr name="replicaVerifiedDate"><date>2014-11-17T20:40:04.15Z</date><date>2014-11-17T20:40:04.216Z</date></arr><arr name="readPermission"><str>public</str></arr><bool name="isPublic">true</bool><str name="dataUrl">https://cn.dataone.org/cn/v2/resolve/Walker_Branch_Watershed_Daily_Climate_1993-2008.xml</str><str name="abstract">As part of the long-term Walker Branch project, daily climate data was collected from instruments associated with a meteorological tower located in an upper slope location within the watershed.  These measurements were begun in 1993 as part of the Throughfall Displacement Experiment (TDE) in the control (ambient) plot.   Measurements include daily integrated or averaged values for incident photosynthetically active radiation, incident total radiation, air temperature, relative humidity, rainfall, and soil temperature at  10-15 cm.  Measurements of incoming rainfall, irradiance (Pyranometer sensor, LiCor Inc.) and photosynthetic photon flux density (Quantum sensor, LiCor Inc.) were obtained in a nearby clearing until 1998 when above canopy observations were added to the ambient plot tower. Clearing data were used to represent above-canopy conditions for the experimental site for the years 1993-1997. Sub-canopy air temperature is measured at approximately 1 m of height in a location shielded from direct solar radiation. Soil temperatures are measured at 15 cm depth and 4 locations per plot. All temperatures are measured with thermistors. Climate data are collected as hourly means and logged on data loggers (Li-1000, LiCor Inc.).
+
+Variables included and their units are:
+
+Column 1=Year
+Column 2 = Day of year
+Day of the year (1-365 or 366) 
+Column 3 = Quan 
+Integrated incident photosynthetically active radiation in mol m-2 
+Column 4 = Pyran 
+Integrated incident total radiation in MW m-2 
+Column 5 = Radmean 
+Mean daily radiation in W m-2. 
+Column 6 = Rain 
+Rain in mm. Hourly values summed over each day. 
+Column 7 = AirTmin 
+Daily 1 hour minimum air temperature in degrees C 
+Column 8 = AirTmean 
+Daily mean 1 hour air temperature in degrees C 
+Column 9 = AirTmax 
+Daily 1 hour maximum air temperature in degrees C 
+Column  10 = RHmin 
+Daily 1 hour minimum relative humidity in percent 
+Column 11 = RHmean 
+Daily mean 1 hour value 
+Column 12 = RHmax 
+Daily 1 hour maximum relative humidity in percent 
+Column 13 = SoilTmin 
+Daily 1 hour minimum soil temperature (15 cm) in degrees C 
+Column 14 = SoilTmean 
+Daily mean 1 hour soil temperature (15 cm) in degrees C 
+Column 15 = SoilTmax 
+Daily 1 hour maximum soil temperature (15 cm) in degrees C
+Column 16 = Wind (data not available for years prior to 1997) 
+Wind in m s-1. Hourly values averaged over the day. 
+Column 17 = LitterTmean (available for some years)
+Daily 1 hour mean litter layer (Oi) temperature in degrees C 
+
+Publications:  
+
+Hanson, P. J., D. E. Todd, M. A. Huston.  2003.  Walker Branch Throughfall Displacement Experiment (TDE), In: Hanson, P. J. and S. D. Wullschleger, eds., North American Temperate Deciduous Forest Responses to Changing Precipitation Regimes.  Springer, New York, pp. 8-31.
+
+Hanson, P.J. , D.E.Todd and J.S. Amthor. 2001. A six year study of sapling and large-tree growth and mortality responses to natural and induced variability in precipitation and throughfall.   Tree Physiology 21: 345-358.</str><date name="beginDate">1993-01-01T00:00:00Z</date><arr name="contactOrganization"><str>Environmental Sciences Division, Oak Ridge National Laboratory</str></arr><float name="eastBoundCoord">-84.28244</float><float name="westBoundCoord">-84.28244</float><float name="northBoundCoord">35.9665</float><date name="endDate">2008-12-31T00:00:00Z</date><arr name="keywords"><str>||</str><str>Walker Branch, Tennessee, USA</str></arr><arr name="origin"><str>Mulholland, P.J.</str></arr><arr name="placeKey"><str>Walker Branch, Tennessee, USA</str></arr><str name="title">Walker Branch Watershed Daily Climate:  1993-2008</str><arr name="webUrl"><str>http://daac.ornl.gov/data/bluangel_harvest/WBW/stream/climate_for_WBW.xml</str><str>http://walkerbranch.ornl.gov/</str><str>http://mercury.ornl.gov/edora/query.jsp?query=titles&amp;amp;BATTerm1=Oak%20Ridge%2c%20TN%20%20Daily%20and%20Monthly%20Climate%20Data%2c%201947-2000&amp;amp;BATDBList=edora</str></arr><str name="fileID">https://cn.dataone.org/cn/v2/resolve/Walker_Branch_Watershed_Daily_Climate_1993-2008.xml</str><str name="author">Mulholland, P.J.</str><str name="authorSurName">Mulholland, P.J.</str><str name="authorSurNameSort">Mulholland, P.J.</str><arr name="investigator"><str>Mulholland, P.J.</str></arr><str name="serviceCoupling">false</str><bool name="isService">false</bool></doc></result><lst name="facet_counts"><lst name="facet_queries"/><lst name="facet_fields"/><lst name="facet_dates"/><lst name="facet_ranges"><lst name="dateUploaded"><lst name="counts"><int name="2001-01-01T00:00:00Z">0</int><int name="2002-01-01T00:00:00Z">0</int><int name="2003-01-01T00:00:00Z">0</int><int name="2004-01-01T00:00:00Z">0</int><int name="2005-01-01T00:00:00Z">0</int><int name="2006-01-01T00:00:00Z">0</int><int name="2007-01-01T00:00:00Z">0</int><int name="2008-01-01T00:00:00Z">0</int><int name="2009-01-01T00:00:00Z">0</int><int name="2010-01-01T00:00:00Z">0</int><int name="2011-01-01T00:00:00Z">0</int><int name="2012-01-01T00:00:00Z">0</int><int name="2013-01-01T00:00:00Z">0</int><int name="2014-01-01T00:00:00Z">28</int><int name="2015-01-01T00:00:00Z">0</int><int name="2016-01-01T00:00:00Z">0</int><int name="2017-01-01T00:00:00Z">0</int></lst><str name="gap">+1YEAR</str><date name="start">2001-01-01T00:00:00Z</date><date name="end">2018-01-01T00:00:00Z</date></lst></lst><lst name="facet_intervals"/><lst name="facet_heatmaps"/></lst>
+</response>

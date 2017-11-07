@@ -1,0 +1,53 @@
+curl 'https://cn.dataone.org/cn/v2/query/solr/?q=*:*+-obsoletedBy:*+formatType:METADATA&fq=datasource:"urn:node:CN"&rows=1&sort=dateUploaded+asc&facet=true&facet.missing=true&facet.limit=-1&facet.range=dateUploaded&facet.range.start=2001-01-01T00:00:00Z&facet.range.end=2017-12-31T23:59:59.999Z&facet.range.gap=%2B1YEAR&wt=xml'
+
+
+
+curl '
+https://cn.dataone.org/cn/v2/query/solr/?q=*:*+-obsoletedBy:*+formatType:METADATA
+&fq=datasource:"urn:node:CN"&rows=1&
+sort=dateUploaded+asc&
+facet=true&
+facet.missing=true&
+facet.limit=-1&
+facet.range=dateUploaded
+&facet.range.start=2001-01-01T00:00:00Z
+&facet.range.end=2017-12-31T23:59:59.999Z
+&facet.range.gap=%2B1YEAR&wt=xml'
+
+LTER: mostRecentVersion
+<int name="2001-01-01T00:00:00Z">0</int>
+<int name="2002-01-01T00:00:00Z">0</int>
+<int name="2003-01-01T00:00:00Z">0</int>
+<int name="2004-01-01T00:00:00Z">0</int>
+<int name="2005-01-01T00:00:00Z">1837</int>
+<int name="2006-01-01T00:00:00Z">571</int>
+<int name="2007-01-01T00:00:00Z">308</int>
+<int name="2008-01-01T00:00:00Z">186</int>
+<int name="2009-01-01T00:00:00Z">325</int>
+<int name="2010-01-01T00:00:00Z">586</int>
+<int name="2011-01-01T00:00:00Z">746</int>
+<int name="2012-01-01T00:00:00Z">451</int>
+<int name="2013-01-01T00:00:00Z">767</int>
+<int name="2014-01-01T00:00:00Z">291</int>
+<int name="2015-01-01T00:00:00Z">45020</int>
+<int name="2016-01-01T00:00:00Z">2875</int>
+<int name="2017-01-01T00:00:00Z">1349</int>
+
+LTER: allVersions
+<int name="2001-01-01T00:00:00Z">0</int>
+<int name="2002-01-01T00:00:00Z">0</int>
+<int name="2003-01-01T00:00:00Z">0</int>
+<int name="2004-01-01T00:00:00Z">752</int>
+<int name="2005-01-01T00:00:00Z">7385</int>
+<int name="2006-01-01T00:00:00Z">3602</int>
+<int name="2007-01-01T00:00:00Z">1742</int>
+<int name="2008-01-01T00:00:00Z">690</int>
+<int name="2009-01-01T00:00:00Z">1861</int>
+<int name="2010-01-01T00:00:00Z">2675</int>
+<int name="2011-01-01T00:00:00Z">2836</int>
+<int name="2012-01-01T00:00:00Z">1401</int>
+<int name="2013-01-01T00:00:00Z">1673</int>
+<int name="2014-01-01T00:00:00Z">402</int>
+<int name="2015-01-01T00:00:00Z">45057</int>
+<int name="2016-01-01T00:00:00Z">2875</int>
+<int name="2017-01-01T00:00:00Z">1350</int>
