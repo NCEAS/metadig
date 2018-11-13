@@ -2,6 +2,7 @@
 
 # sample-metadata.py
 # Author: Bryce Mecum (mecum@nceas.ucsb.edu)
+#         Ted Habermann added metadata schema argument (2018-11-13)
 #
 # Summary:
 #
@@ -37,10 +38,14 @@
 #
 #
 #	Sample from only one member node (KNB).
-#   Note that the full node identifier is passed with quotes around it.
+#       Note that the full node identifier is passed with quotes around it.
 #
-#   $ python sample-metadata.py -n "urn:node:KNB"
+#       $ python sample-metadata.py -n "urn:node:KNB"
 #
+#       Sample one metadata format from one node
+#       Note that the full node identifier is passed with quotes around it.
+#
+#       $ python sample-metadata.py -n "urn:node:KNB" -mf "http://www.isotc211.org/2005/gmd-noaa"
 #
 # Implementation details:
 #
@@ -79,10 +84,11 @@
 # --test (-t): (optional) Run against the test CN instead of production.
 #  	e.g. python sample-metadata.py --test
 
-def getNumResults(base_url, node, from_date=None, to_date=None):
+def getNumResults(base_url, node, metadataFormatId, from_date=None, to_date=None):
 	"""Get the number of total results from the CN
 
 	:param node: (Optional) Specify a single node to sample from.
+        :param metadataFormatId: (Optional) Specify a formatId to sample from.
 	:param from: (Optional) Filter to just objects created after this date
 	:param to: 	 (Optional) Filter to just objects created before this date
 	"""
@@ -103,6 +109,9 @@ def getNumResults(base_url, node, from_date=None, to_date=None):
 		node_short_identifier = node_short_identifier[len(node_short_identifier) - 1]
 		query_url += "+AND+datasource:*" + node_short_identifier
 
+	if metadataFormatId is not None:
+		query_url += "+AND+formatId:" + "\"" + metadataFormatId + "\""
+
 	if from_date is not None and to_date is None:
 		query_url += "+AND+dateUploaded:[{}%20TO%20NOW]".format(from_date)
 
@@ -122,7 +131,7 @@ def getNumResults(base_url, node, from_date=None, to_date=None):
 
 	return int(result[0].get("numFound"))
 
-def getPage(base_url, node, page=1, from_date=None, to_date=None, page_size=1000):
+def getPage(base_url, node, metadataFormatId, page=1, from_date=None, to_date=None, page_size=1000):
 	"""Get a specific page of results from the Solr index.
 
 	:param node: 		Node to sample.
@@ -148,6 +157,9 @@ def getPage(base_url, node, page=1, from_date=None, to_date=None, page_size=1000
 
 		query_url = query_url + "+AND+datasource:*" + node_short_identifier
 
+	if metadataFormatId is not None:
+		query_url += "+AND+formatId:" + "\"" + metadataFormatId + "\""
+
 	if from_date is not None and to_date is None:
 		query_url += "+AND+dateUploaded:[{}%20TO%20NOW]".format(from_date)
 
@@ -171,7 +183,7 @@ def getPage(base_url, node, page=1, from_date=None, to_date=None, page_size=1000
 
 	return docs
 
-def getPageRange(base_url, node, page_range, page_size, from_date=None, to_date=None, delay=None):
+def getPageRange(base_url, node, metadataFormatId, page_range, page_size, from_date=None, to_date=None, delay=None):
 	"""Get a range of pages from the Solr index.
 
 	:param node: 		Node to sample.
@@ -187,7 +199,7 @@ def getPageRange(base_url, node, page_range, page_size, from_date=None, to_date=
 	for p in page_range:
 		print "Getting page %d" % (p)
 
-		page_result = getPage(base_url, node, p, from_date=from_date, to_date=to_date)
+		page_result = getPage(base_url, node, metadataFormatId, p, from_date=from_date, to_date=to_date)
 		if docs is None:
 			docs = page_result
 		else:
@@ -198,10 +210,11 @@ def getPageRange(base_url, node, page_range, page_size, from_date=None, to_date=
 
 	return docs
 
-def getAllPages(base_url, node = None, page_size = 1000, from_date=None, to_date=None, delay=None):
+def getAllPages(base_url, node = None, metadataFormatId = None, page_size = 1000, from_date=None, to_date=None, delay=None):
 	"""Get all possible pages from the Solr index.
 
 	:param node: 		(Optional) Specify a single node to query for.
+	:param metadataFormatId:(Optional) Specify a single metadata format to query for.
 	:param page_size: 	Number of results per page.
 	:param from_date:   (Optional) Filter to just objects created after this date
 	:param to_date: 	(Optional) Filter to just objects created before this date
@@ -232,7 +245,7 @@ def getAllPages(base_url, node = None, page_size = 1000, from_date=None, to_date
 
 	# Continue fetching fresh results from the server
 
-	num_results = getNumResults(base_url, node, from_date=from_date, to_date=to_date);
+	num_results = getNumResults(base_url, node, metadataFormatId, from_date=from_date, to_date=to_date);
 	print("Total results: %d" % (num_results))
 
 	if num_results is 0:
@@ -245,7 +258,7 @@ def getAllPages(base_url, node = None, page_size = 1000, from_date=None, to_date
 
 	range_of_pages = range(1, int(pages_required) + 1)
 
-	all_pages = getPageRange(base_url, node, range_of_pages, page_size, from_date=from_date, to_date=to_date, delay=delay)
+	all_pages = getPageRange(base_url, node, metadataFormatId, range_of_pages, page_size, from_date=from_date, to_date=to_date, delay=delay)
 	all_pages.to_csv(documents_csv_filepath, index = False, encoding = "utf-8")
 
 	return
@@ -506,12 +519,12 @@ def getFormatList(base_url):
 
 	return fmt_list
 
-def main(base_url, node, sample_size, from_date, to_date):
+def main(base_url, node, metadataFormatId, sample_size, from_date, to_date):
 	"""Make-like execution flow
 	Function will not run if dependent file exists
 	"""
 
-	getAllPages(base_url, node, from_date=from_date, to_date=to_date) # Depends on document.csv
+	getAllPages(base_url, node, metadataFormatId, from_date=from_date, to_date=to_date) # Depends on document.csv
 	sampleDocuments(sample_size) # Depends on sampled_documents.csv
 	getAndSaveDocuments(base_url)
 
@@ -561,6 +574,10 @@ def usage():
 	print "\tSpecify a single node to sample from. e.g. --node \"urn:node:KNB\""
 	print "\tOmitting this switch will sample from ALL member nodes.\n"
 
+	print "-mf, --metadataFormat"
+	print "\tSpecify a metadata format id to sample from. e.g. --metadataFormat \"http://www.isotc211.org/2005/gmd-noaa\""
+	print "\tOmitting this switch will sample from ALL metadata formats.\n"
+
 	print "-s, --sample-size"
 	print "\tSpecify a minimum sample size per member node. e.g. --sample-size 50"
 	print "\tDefault: 250\n"
@@ -603,7 +620,7 @@ if __name__ == "__main__":
 	argv = sys.argv[1:]
 
 	try:
-		opts, args = getopt.getopt(argv, "hn:s:from:to:t", [ "help", "node=", "sample-size=", "from=", "to=", "test"])
+		opts, args = getopt.getopt(argv, "hn:s:from:to:t", [ "help", "metadataformat=", "node=", "sample-size=", "from=", "to=", "test"])
 	except getopt.GetoptError:
 		usage()
 		sys.exit(2)
@@ -616,7 +633,12 @@ if __name__ == "__main__":
 
 			print "Setting node to %s" % node
 
-		elif opt in ("-s", "--sample-size"):
+		elif opt in ("-mf", "--metadataformat"):
+			metadataFormatId = arg
+
+			print "Setting metadataFormatId to %s" % metadataFormatId
+
+                elif opt in ("-s", "--sample-size"):
 			try:
 				sample_size = int(arg)
 			except:
@@ -651,6 +673,6 @@ if __name__ == "__main__":
 				print "Couldn't set CN to development. Using production instead."
 
 	try:
-		main(base_url, node, sample_size, from_date, to_date)
+		main(base_url, node, metadataFormatId, sample_size, from_date, to_date)
 	except KeyboardInterrupt:
 		sys.exit()
