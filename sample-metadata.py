@@ -84,12 +84,27 @@
 #
 # --test (-t): (optional) Run against the test CN instead of production.
 #   e.g. python sample-metadata.py --test
+import urllib # for quote_plus
+import urllib2 # for the rest (urlopen, etc)
+import xml.etree.ElementTree as ET
+import re
+import csv
+import string
+import sys
+import math
+import pandas
+import numpy
+import time
+import os
+import getopt
 
-def getNumResults(base_url, node, metadataFormatId, from_date=None, to_date=None):
+
+def getNumResults(base_url, node=None, metadataFormatId=None, from_date=None,
+                  to_date=None):
     """Get the number of total results from the CN
 
     :param node: (Optional) Specify a single node to sample from.
-        :param metadataFormatId: (Optional) Specify a formatId to sample from.
+    :param metadataFormatId: (Optional) Specify a formatId to sample from.
     :param from: (Optional) Filter to just objects created after this date
     :param to:   (Optional) Filter to just objects created before this date
     """
@@ -131,6 +146,7 @@ def getNumResults(base_url, node, metadataFormatId, from_date=None, to_date=None
     result = response_xml.findall(".//result")
 
     return int(result[0].get("numFound"))
+
 
 def getPage(base_url, node, metadataFormatId, page=1, from_date=None, to_date=None, page_size=1000):
     """Get a specific page of results from the Solr index.
@@ -184,7 +200,9 @@ def getPage(base_url, node, metadataFormatId, page=1, from_date=None, to_date=No
 
     return docs
 
-def getPageRange(base_url, node, metadataFormatId, page_range, page_size, from_date=None, to_date=None, delay=None):
+
+def getPageRange(base_url, node, metadataFormatId, page_range, page_size,
+                 from_date=None, to_date=None, delay=None):
     """Get a range of pages from the Solr index.
 
     :param node:        Node to sample.
@@ -200,7 +218,8 @@ def getPageRange(base_url, node, metadataFormatId, page_range, page_size, from_d
     for p in page_range:
         print "Getting page %d" % (p)
 
-        page_result = getPage(base_url, node, metadataFormatId, p, from_date=from_date, to_date=to_date)
+        page_result = getPage(base_url, node, metadataFormatId, p,
+                              from_date=from_date, to_date=to_date)
         if docs is None:
             docs = page_result
         else:
@@ -211,7 +230,9 @@ def getPageRange(base_url, node, metadataFormatId, page_range, page_size, from_d
 
     return docs
 
-def getAllPages(base_url, node = None, metadataFormatId = None, page_size = 1000, from_date=None, to_date=None, delay=None):
+
+def getAllPages(base_url, node=None, metadataFormatId=None, page_size=1000,
+                from_date=None, to_date=None, delay=None):
     """Get all possible pages from the Solr index.
 
     :param node:        (Optional) Specify a single node to query for.
@@ -226,7 +247,6 @@ def getAllPages(base_url, node = None, metadataFormatId = None, page_size = 1000
 
     documents_csv_filepath = getScriptDirectory() + "/result/documents.csv"
 
-
     # Check if the output file exists
     # If it does, we can skip all of this
 
@@ -235,7 +255,6 @@ def getAllPages(base_url, node = None, metadataFormatId = None, page_size = 1000
 
         return
 
-
     # Check if result folder has been made
 
     result_folder = getScriptDirectory() + "/result"
@@ -243,28 +262,30 @@ def getAllPages(base_url, node = None, metadataFormatId = None, page_size = 1000
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
 
-
     # Continue fetching fresh results from the server
 
-    num_results = getNumResults(base_url, node, metadataFormatId, from_date=from_date, to_date=to_date);
+    num_results = getNumResults(base_url, node, metadataFormatId,
+                                from_date=from_date, to_date=to_date)
     print("Total results: %d" % (num_results))
 
     if num_results is 0:
-        print "No results were found. Exiting."
+        print("No results were found. Exiting.")
         exit
 
     pages_required = math.ceil((num_results + 0.0) / page_size)
-    print("Total pages: %d" % (pages_required))
-
+    print("Total pages: %d" % pages_required)
 
     range_of_pages = range(1, int(pages_required) + 1)
 
-    all_pages = getPageRange(base_url, node, metadataFormatId, range_of_pages, page_size, from_date=from_date, to_date=to_date, delay=delay)
-    all_pages.to_csv(documents_csv_filepath, index = False, encoding = "utf-8")
+    all_pages = getPageRange(base_url, node, metadataFormatId, range_of_pages,
+                             page_size, from_date=from_date, to_date=to_date,
+                             delay=delay)
+    all_pages.to_csv(documents_csv_filepath, index=False, encoding="utf-8")
 
     return
 
-def sampleDocuments(sample_size = 250):
+
+def sampleDocuments(sample_size=250):
     """Generate a sample of identifiers for each MN
 
     :param sample_size: Number of identifiers for each MN
@@ -278,7 +299,7 @@ def sampleDocuments(sample_size = 250):
 
     # Check if the sample already exists
     if(os.path.isfile(sampled_documents_filepath)):
-        print "Sample already exists. Moving on to getting metadata."
+        print("Sample already exists. Moving on to getting metadata.")
 
         return
 
@@ -288,12 +309,12 @@ def sampleDocuments(sample_size = 250):
     if not os.path.exists(result_folder):
         os.makedirs(result_folder)
 
-
     # Read in the existing documents
     documents = pandas.read_csv(documents_csv_filepath)
 
     unique_mns = pandas.unique(documents['authoritativeMN'])
-    sampled_documents = pandas.DataFrame({'identifier' : [], 'authoritativeMN' : []})
+    sampled_documents = pandas.DataFrame({'identifier': [],
+                                         'authoritativeMN': []})
 
     for mn in unique_mns:
         df_subset = documents[documents.authoritativeMN == mn]
@@ -312,14 +333,19 @@ def sampleDocuments(sample_size = 250):
             else:
                 sampled_rows = range(0, nrows)
 
-        df_subset_filtered = df_subset.iloc[sampled_rows,:]
+        df_subset_filtered = df_subset.iloc[sampled_rows, :]
 
-        sampled_documents = pandas.concat([sampled_documents, df_subset_filtered])
+        sampled_documents = pandas.concat([sampled_documents,
+                                           df_subset_filtered])
 
-    sampled_documents.groupby(["authoritativeMN"]).aggregate(['count']).to_csv(sample_statistics_filepath, encoding = "utf-8")
-    sampled_documents.to_csv(sampled_documents_filepath, index = False, encoding = "utf-8")
+    (sampled_documents.groupby(["authoritativeMN"])
+                      .aggregate(['count'])
+                      .to_csv(sample_statistics_filepath, encoding="utf-8"))
+    sampled_documents.to_csv(sampled_documents_filepath, index=False,
+                             encoding="utf-8")
 
     return
+
 
 def getAndSaveDocuments(base_url, delay=None):
     """Get and save meta and object XML from node
@@ -353,7 +379,6 @@ def getAndSaveDocuments(base_url, delay=None):
         # Get the meta and object XML
         document_identifier = documents['identifier'][i]
         meta_xml = getIdentifierMetaXML(base_url, document_identifier)
-
 
         # Determine if the node identifier is in the Node list.
         # If not, it is an invalid node id, and should be replaced with
@@ -413,14 +438,16 @@ def getAndSaveDocuments(base_url, delay=None):
         if delay is not None:
             time.sleep(delay)
 
-
         sysmeta_path = subdirectory_path + "/sysmeta/xml"
 
         if not os.path.exists(sysmeta_path):
             os.makedirs(sysmeta_path)
 
         if meta_xml is not None:
-            ET.ElementTree(meta_xml).write(sysmeta_path + "/" + str(i).rjust(5, '0') + "-sysmeta.xml")
+            ET.ElementTree(meta_xml).write(sysmeta_path +
+                                           "/" +
+                                           str(i).rjust(5, '0') +
+                                           "-sysmeta.xml")
 
         metadata_path = subdirectory_path + "/" + format_path + "/xml"
 
@@ -428,7 +455,11 @@ def getAndSaveDocuments(base_url, delay=None):
             os.makedirs(metadata_path)
 
         if object_xml is not None:
-            ET.ElementTree(object_xml).write(metadata_path + "/" + str(i).rjust(5, '0') + "-metadata.xml")
+            ET.ElementTree(object_xml).write(metadata_path +
+                                             "/" +
+                                             str(i).rjust(5, '0') +
+                                             "-metadata.xml")
+
 
 def getIdentifierMetaXML(base_url, identifier):
     """Get system (meta) metadata as XML
@@ -449,6 +480,7 @@ def getIdentifierMetaXML(base_url, identifier):
         response_xml = None
 
     return response_xml
+
 
 def getIdentifierObjectXML(base_url, identifier):
     """Get research (object) metadata XML
@@ -471,6 +503,7 @@ def getIdentifierObjectXML(base_url, identifier):
 
     return response_xml
 
+
 def getNodeList(base_url):
     """Get list of CNs and MNs
 
@@ -491,9 +524,12 @@ def getNodeList(base_url):
         node_type = n.attrib["type"]
         node_base_url = n.find("baseURL").text
 
-        node_list[node_identifier] = { "identifier" : node_identifier, "type" : node_type, "base_url" : node_base_url }
+        node_list[node_identifier] = {"identifier": node_identifier,
+                                      "type": node_type,
+                                      "base_url": node_base_url}
 
     return node_list
+
 
 def getFormatList(base_url):
     """Get list of data and metadata formats
@@ -516,18 +552,23 @@ def getFormatList(base_url):
         fmt_type = f.find("formatType").text
         fmt_path = makeValidFormatPath(fmt_name)
 
-        fmt_list[fmt_identifier] = { "formatId" : fmt_identifier, "formatName" : fmt_name, "formatType" : fmt_type, "formatPath" : fmt_path }
+        fmt_list[fmt_identifier] = {"formatId": fmt_identifier,
+                                    "formatName": fmt_name,
+                                    "formatType": fmt_type,
+                                    "formatPath": fmt_path}
 
     return fmt_list
+
 
 def main(base_url, node, metadataFormatId, sample_size, from_date, to_date):
     """Make-like execution flow
     Function will not run if dependent file exists
     """
-
-    getAllPages(base_url, node, metadataFormatId, from_date=from_date, to_date=to_date) # Depends on document.csv
-    sampleDocuments(sample_size) # Depends on sampled_documents.csv
+    getAllPages(base_url, node, metadataFormatId, from_date=from_date,
+                to_date=to_date)  # Depends on document.csv
+    sampleDocuments(sample_size)  # Depends on sampled_documents.csv
     getAndSaveDocuments(base_url)
+
 
 def getScriptDirectory():
     """Get the directory the script is being run from
@@ -535,6 +576,7 @@ def getScriptDirectory():
     :return String: Absolute directory name."""
 
     return os.path.dirname(os.path.realpath(__file__))
+
 
 def makeValidFormatPath(path):
     """Returns a valid path format path string where / and : are omitted, and comma,
@@ -544,7 +586,6 @@ def makeValidFormatPath(path):
 
     :return Valid path as a String
     """
-
     if len(path) <= 0:
         return None
 
@@ -559,11 +600,12 @@ def makeValidFormatPath(path):
 
     if path.startswith('Ecological Metadata Language'):
         path = 'EML'
-    else: # Or just return something sane
+    else:  # Or just return something sane
         path = ''.join(c for c in path if c not in "/:")
         path = re.sub('\s*,?-?\s+', '_', path)
 
     return path
+
 
 def usage():
     print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--from FROM] [--to TO] [--test]\r\n"
@@ -594,25 +636,12 @@ def usage():
 
     return
 
-if __name__ == "__main__":
-    import urllib # for quote_plus
-    import urllib2 # for the rest (urlopen, etc)
-    import xml.etree.ElementTree as ET
-    import re
-    import csv
-    import string
-    import sys
-    import math
-    import pandas
-    import numpy
-    import time
-    import os
-    import getopt
 
+if __name__ == "__main__":
     # Default options
-    node = None # Sample all member nodes
-    sample_size = 250 # Target a minimum sample of 250 objects
-    base_url = "https://cn.dataone.org/cn/v1" # Production CN
+    node = None  # Sample all member nodes
+    sample_size = 250  # Target a minimum sample of 250 objects
+    base_url = "https://cn.dataone.org/cn/v1"  # Production CN
     from_date = None
     to_date = None
     solr_datetime_format = re.compile("\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.?\d*Z")
@@ -621,7 +650,14 @@ if __name__ == "__main__":
     argv = sys.argv[1:]
 
     try:
-        opts, args = getopt.getopt(argv, "hn:s:from:to:t", [ "help", "metadataformat=", "node=", "sample-size=", "from=", "to=", "test"])
+        opts, args = getopt.getopt(argv, "hn:s:from:to:t",
+                                   ["help",
+                                    "metadataformat=",
+                                    "node=",
+                                    "sample-size=",
+                                    "from=",
+                                    "to=",
+                                    "test"])
     except getopt.GetoptError:
         usage()
         sys.exit(2)
@@ -639,7 +675,7 @@ if __name__ == "__main__":
 
             print "Setting metadataFormatId to %s" % metadataFormatId
 
-                elif opt in ("-s", "--sample-size"):
+        elif opt in ("-s", "--sample-size"):
             try:
                 sample_size = int(arg)
             except:
@@ -653,7 +689,6 @@ if __name__ == "__main__":
 
                 if not solr_datetime_format.match(from_date):
                     raise
-
             except:
                 print "Could not parse {} as a Solr datetime, which has the format YYYY-MM-DDThh:mm:ssZ".format(arg)
 
