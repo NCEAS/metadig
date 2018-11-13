@@ -84,8 +84,8 @@
 #
 # --test (-t): (optional) Run against the test CN instead of production.
 #   e.g. python sample-metadata.py --test
-import urllib # for quote_plus
-import urllib2 # for the rest (urlopen, etc)
+from urllib.parse import quote_plus
+import urllib.request  # for the rest (urlopen, etc)
 import xml.etree.ElementTree as ET
 import re
 import csv
@@ -139,7 +139,7 @@ def getNumResults(base_url, node=None, metadataFormatId=None, from_date=None,
 
     query_url += "&rows=0&start=0"
 
-    request = urllib2.urlopen(query_url)
+    request = urllib.request.urlopen(query_url)
     response = request.read()
     response_xml = ET.fromstring(response)
 
@@ -216,7 +216,7 @@ def getPageRange(base_url, node, metadataFormatId, page_range, page_size,
     docs = None
 
     for p in page_range:
-        print "Getting page %d" % (p)
+        print("Getting page %d" % p)
 
         page_result = getPage(base_url, node, metadataFormatId, p,
                               from_date=from_date, to_date=to_date)
@@ -360,7 +360,8 @@ def getAndSaveDocuments(base_url, delay=None):
 
     # Check if sample exists
     if not os.path.isfile(sampled_documents_filepath):
-        print "getAndSaveDocuments() was called but sampled_documents.csv doesn't exist."
+        print("getAndSaveDocuments() was called but sampled_documents.csv "
+              "doesn't exist.")
 
         return
 
@@ -372,7 +373,7 @@ def getAndSaveDocuments(base_url, delay=None):
     print("Total sampled documents to save: %d" % documents.shape[0])
 
     for i in range(0, documents.shape[0]):
-        print "[%d of %d]" % (i + 1, documents.shape[0])
+        print("[%d of %d]" % (i + 1, documents.shape[0]))
 
         node_identifier = documents['authoritativeMN'][i]
 
@@ -429,7 +430,8 @@ def getAndSaveDocuments(base_url, delay=None):
                 format_path = formats[format_id_element.text]['formatPath']
 
         if format_path is None:
-            print "\t\tFailed to extract metadata format from system metadata file. Continuing."
+            print("\t\tFailed to extract metadata format from system metadata "
+                  "file. Continuing.")
 
             continue
 
@@ -468,15 +470,15 @@ def getIdentifierMetaXML(base_url, identifier):
     :param identifier: Metadata identifier.
     """
 
-    query_url = base_url + "/meta/" + urllib.quote_plus(identifier)
+    query_url = base_url + "/meta/" + quote_plus(identifier)
     print("\t\t%s" % query_url)
 
     try:
-        request = urllib2.urlopen(query_url)
+        request = urllib.request.urlopen(query_url)
         response = request.read()
         response_xml = ET.fromstring(response)
     except:
-        print "\t\tFailed request: %s" % query_url
+        print("\t\tFailed request: %s" % query_url)
         response_xml = None
 
     return response_xml
@@ -489,15 +491,15 @@ def getIdentifierObjectXML(base_url, identifier):
     :param identifier: Metadata identifier.
     """
 
-    query_url = base_url + "/object/" + urllib.quote_plus(identifier)
+    query_url = base_url + "/object/" + quote_plus(identifier)
     print("\t\t%s" % query_url)
 
     try:
-        request = urllib2.urlopen(query_url)
+        request = urllib.request.urlopen(query_url)
         response = request.read()
         response_xml = ET.fromstring(response)
     except:
-        print "\t\tFailed request: %s" % query_url
+        print("\t\tFailed request: %s" % query_url)
 
         response_xml = None
 
@@ -511,7 +513,7 @@ def getNodeList(base_url):
     """
 
     query_url = base_url + "/node"
-    request = urllib2.urlopen(query_url)
+    request = urllib.request.urlopen(query_url)
     response = request.read()
     response_xml = ET.fromstring(response)
 
@@ -538,7 +540,7 @@ def getFormatList(base_url):
     """
 
     query_url = base_url + "/formats"
-    request = urllib2.urlopen(query_url)
+    request = urllib.request.urlopen(query_url)
     response = request.read()
     response_xml = ET.fromstring(response)
 
@@ -608,31 +610,31 @@ def makeValidFormatPath(path):
 
 
 def usage():
-    print "Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--from FROM] [--to TO] [--test]\r\n"
+    print("Usage: sample-metadata.py [--node NODE_IDENTIFIER] [--sample-size SAMPLE_SIZE] [--from FROM] [--to TO] [--test]\r\n")
 
-    print "-h, --help"
-    print "\tPrint this information.\n"
+    print("-h, --help")
+    print("\tPrint this information.\n")
 
-    print "-n, --node"
-    print "\tSpecify a single node to sample from. e.g. --node \"urn:node:KNB\""
-    print "\tOmitting this switch will sample from ALL member nodes.\n"
+    print("-n, --node")
+    print("\tSpecify a single node to sample from. e.g. --node \"urn:node:KNB\"")
+    print("\tOmitting this switch will sample from ALL member nodes.\n")
 
-    print "-mf, --metadataFormat"
-    print "\tSpecify a metadata format id to sample from. e.g. --metadataFormat \"http://www.isotc211.org/2005/gmd-noaa\""
-    print "\tOmitting this switch will sample from ALL metadata formats.\n"
+    print("-mf, --metadataFormat")
+    print("\tSpecify a metadata format id to sample from. e.g. --metadataFormat \"http://www.isotc211.org/2005/gmd-noaa\"")
+    print("\tOmitting this switch will sample from ALL metadata formats.\n")
 
-    print "-s, --sample-size"
-    print "\tSpecify a minimum sample size per member node. e.g. --sample-size 50"
-    print "\tDefault: 250\n"
+    print("-s, --sample-size")
+    print("\tSpecify a minimum sample size per member node. e.g. --sample-size 50")
+    print("\tDefault: 250\n")
 
-    print "--from"
-    print "\tLimit sampled documents to those created after this date. e.g. --from YYYY-MM-DDThh:mm:ssZ\n"
+    print("--from")
+    print("\tLimit sampled documents to those created after this date. e.g. --from YYYY-MM-DDThh:mm:ssZ\n")
 
-    print "--to"
-    print "\tLimit sampled documents to those created before this date. e.g. --to YYYY-MM-DDThh:mm:ssZ\n"
+    print("--to")
+    print("\tLimit sampled documents to those created before this date. e.g. --to YYYY-MM-DDThh:mm:ssZ\n")
 
-    print "-t, --test"
-    print "\tRun all queries against the development CN instead of the production CN."
+    print("-t, --test")
+    print("\tRun all queries against the development CN instead of the production CN.")
 
     return
 
@@ -661,6 +663,8 @@ if __name__ == "__main__":
     except getopt.GetoptError:
         usage()
         sys.exit(2)
+
+    metadataFormatId = None
     for opt, arg in opts:
         if opt in ("-h", "--help"):
             usage()
@@ -668,20 +672,20 @@ if __name__ == "__main__":
         elif opt in ("-n", "--node"):
             node = arg
 
-            print "Setting node to %s" % node
+            print("Setting node to %s" % node)
 
         elif opt in ("-mf", "--metadataformat"):
             metadataFormatId = arg
 
-            print "Setting metadataFormatId to %s" % metadataFormatId
+            print("Setting metadataFormatId to %s" % metadataFormatId)
 
         elif opt in ("-s", "--sample-size"):
             try:
                 sample_size = int(arg)
             except:
-                print "Couldn't parse the provided sample size."
+                print("Couldn't parse the provided sample size.")
 
-            print "Setting sample size to %d" % sample_size
+            print("Setting sample size to %d" % sample_size)
 
         elif opt in ("--from"):
             try:
@@ -690,23 +694,25 @@ if __name__ == "__main__":
                 if not solr_datetime_format.match(from_date):
                     raise
             except:
-                print "Could not parse {} as a Solr datetime, which has the format YYYY-MM-DDThh:mm:ssZ".format(arg)
+                print("Could not parse {} as a Solr datetime, which has the "
+                      "format YYYY-MM-DDThh:mm:ssZ".format(arg))
 
-        elif opt in ("--to"):
+        elif opt in ("--to",):
             try:
                 to_date = arg
 
                 if not solr_datetime_format.match(to_date):
                     raise
-
             except:
-                print "Could not parse {} as a Solr datetime, which has the format YYYY-MM-DDThh:mm:ssZ".format(arg)
+                print("Could not parse {} as a Solr datetime, which has the "
+                      "format YYYY-MM-DDThh:mm:ssZ".format(arg))
 
         elif opt in ("-t", "--test"):
             try:
                 base_url = "https://cn-dev-ucsb-1.test.dataone.org/cn/v1"
             except:
-                print "Couldn't set CN to development. Using production instead."
+                print(
+                    "Couldn't set CN to development. Using production instead.")
 
     try:
         main(base_url, node, metadataFormatId, sample_size, from_date, to_date)
